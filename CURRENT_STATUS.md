@@ -21,3 +21,5 @@
 从不含旧 outputs 的目录完整重建成功；产物已放回主工作区。详情见 `docs/REPOSITORY_MIGRATION_20261110.md` 和 `registry/reproduction.json`。
 旧布局已可恢复迁入 `.local/quarantine`，没有物理删除或释放这部分空间。用户已授权将整理后的基线首次提交并推送到 origin/main；本机环境、生成结果和恢复归档不上传。实际同步状态以 git status 与远端分支为准。
 历史快照测试不等于当前测试集；没有宣称所有历史测试均通过。
+
+首次发布（2026-11-10）：核心基线提交 `6f87b23` 已成功推送至 `origin/main`。本次发布复核通过：108 份保护输入、424 份受保护/已测试文件的暂存字节一致，运行环境 doctor 通过；本轮未重跑完整测试，完整测试与隔离复现证据见上文及 registry/reproduction.json。
