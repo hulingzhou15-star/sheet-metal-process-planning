@@ -1,0 +1,496 @@
+[
+  {
+    "group_id": "CIRCLE_PUNCH",
+    "operation_type": "CIRCLE_PUNCH",
+    "direction": null,
+    "operation_ids": [
+      "O166",
+      "O167",
+      "O168",
+      "O169",
+      "O170",
+      "O171",
+      "O172",
+      "O173",
+      "O174",
+      "O186",
+      "O187",
+      "O188",
+      "O189",
+      "O190",
+      "O191",
+      "O192"
+    ],
+    "operation_count": 16,
+    "proofs": {
+      "K_min": {
+        "status": "OPTIMAL",
+        "wall_time_seconds": 0.0027776000000000003,
+        "deterministic_time": 3.745e-05,
+        "objective_value": 1.0,
+        "best_objective_bound": 1.0
+      },
+      "K_max": {
+        "status": "OPTIMAL",
+        "wall_time_seconds": 0.0024595000000000003,
+        "deterministic_time": 3.7899000000000004e-05,
+        "objective_value": 2.0,
+        "best_objective_bound": 2.0
+      }
+    },
+    "K_min": 1,
+    "K_max": 2,
+    "participating": true
+  },
+  {
+    "group_id": "IRREGULAR_PUNCH",
+    "operation_type": "IRREGULAR_PUNCH",
+    "direction": null,
+    "operation_ids": [
+      "O002",
+      "O003",
+      "O004",
+      "O005",
+      "O006",
+      "O018",
+      "O019",
+      "O058",
+      "O073",
+      "O076",
+      "O088",
+      "O089",
+      "O090",
+      "O147",
+      "O150",
+      "O162",
+      "O193",
+      "O194",
+      "O195",
+      "O196",
+      "O197",
+      "O198",
+      "O199",
+      "O200",
+      "O201",
+      "O202",
+      "O203",
+      "O204",
+      "O205",
+      "O206",
+      "O207",
+      "O208",
+      "O209",
+      "O210",
+      "O211",
+      "O212",
+      "O213",
+      "O214"
+    ],
+    "operation_count": 38,
+    "proofs": {
+      "K_min": {
+        "status": "OPTIMAL",
+        "wall_time_seconds": 0.0027688,
+        "deterministic_time": 5.153e-05,
+        "objective_value": 1.0,
+        "best_objective_bound": 1.0
+      },
+      "K_max": {
+        "status": "OPTIMAL",
+        "wall_time_seconds": 0.0030951000000000004,
+        "deterministic_time": 5.1979000000000005e-05,
+        "objective_value": 2.0,
+        "best_objective_bound": 2.0
+      }
+    },
+    "K_min": 1,
+    "K_max": 2,
+    "participating": true
+  },
+  {
+    "group_id": "PRE_PUNCH",
+    "operation_type": "PRE_PUNCH",
+    "direction": null,
+    "operation_ids": [
+      "O012",
+      "O016",
+      "O022",
+      "O024",
+      "O032",
+      "O034",
+      "O036",
+      "O038",
+      "O040",
+      "O042",
+      "O045",
+      "O047",
+      "O050",
+      "O052",
+      "O055",
+      "O061",
+      "O064",
+      "O067",
+      "O070",
+      "O079",
+      "O082",
+      "O085",
+      "O087",
+      "O094",
+      "O098",
+      "O102",
+      "O106",
+      "O110",
+      "O114",
+      "O118",
+      "O120",
+      "O124",
+      "O128",
+      "O132",
+      "O136",
+      "O139",
+      "O143",
+      "O153",
+      "O156",
+      "O159",
+      "O165",
+      "O177",
+      "O179",
+      "O181",
+      "O183",
+      "O185"
+    ],
+    "operation_count": 46,
+    "proofs": {
+      "K_min": {
+        "status": "OPTIMAL",
+        "wall_time_seconds": 0.0018398000000000002,
+        "deterministic_time": 3.441e-05,
+        "objective_value": 1.0,
+        "best_objective_bound": 1.0
+      },
+      "K_max": {
+        "status": "OPTIMAL",
+        "wall_time_seconds": 0.0018757000000000001,
+        "deterministic_time": 3.441e-05,
+        "objective_value": 1.0,
+        "best_objective_bound": 1.0
+      }
+    },
+    "K_min": 1,
+    "K_max": 1,
+    "participating": false
+  },
+  {
+    "group_id": "FLANGING",
+    "operation_type": "FLANGING",
+    "direction": null,
+    "operation_ids": [
+      "O011",
+      "O015",
+      "O021",
+      "O023",
+      "O031",
+      "O033",
+      "O035",
+      "O037",
+      "O039",
+      "O041",
+      "O044",
+      "O046",
+      "O049",
+      "O051",
+      "O054",
+      "O060",
+      "O063",
+      "O066",
+      "O069",
+      "O078",
+      "O081",
+      "O084",
+      "O086",
+      "O093",
+      "O097",
+      "O101",
+      "O105",
+      "O109",
+      "O113",
+      "O117",
+      "O119",
+      "O123",
+      "O127",
+      "O131",
+      "O135",
+      "O138",
+      "O142",
+      "O152",
+      "O155",
+      "O158",
+      "O164",
+      "O176",
+      "O178",
+      "O180",
+      "O182",
+      "O184"
+    ],
+    "operation_count": 46,
+    "proofs": {
+      "K_min": {
+        "status": "OPTIMAL",
+        "wall_time_seconds": 0.0031276000000000003,
+        "deterministic_time": 3.441e-05,
+        "objective_value": 1.0,
+        "best_objective_bound": 1.0
+      },
+      "K_max": {
+        "status": "OPTIMAL",
+        "wall_time_seconds": 0.0018465,
+        "deterministic_time": 3.441e-05,
+        "objective_value": 1.0,
+        "best_objective_bound": 1.0
+      }
+    },
+    "K_min": 1,
+    "K_max": 1,
+    "participating": false
+  },
+  {
+    "group_id": "BEND:SMOOTH",
+    "operation_type": "BEND",
+    "direction": "SMOOTH",
+    "operation_ids": [
+      "O009",
+      "O013",
+      "O017",
+      "O020",
+      "O025",
+      "O043",
+      "O048",
+      "O053",
+      "O056",
+      "O057",
+      "O059",
+      "O062",
+      "O065",
+      "O068",
+      "O071",
+      "O072",
+      "O074",
+      "O075",
+      "O077",
+      "O080",
+      "O083",
+      "O091",
+      "O095",
+      "O099",
+      "O103",
+      "O107",
+      "O111",
+      "O115",
+      "O121",
+      "O125",
+      "O129",
+      "O133",
+      "O137",
+      "O140",
+      "O144",
+      "O145",
+      "O146",
+      "O148",
+      "O149",
+      "O151",
+      "O154",
+      "O157",
+      "O160",
+      "O161",
+      "O163"
+    ],
+    "operation_count": 45,
+    "proofs": {
+      "K_min": {
+        "status": "OPTIMAL",
+        "wall_time_seconds": 0.0029418,
+        "deterministic_time": 5.905e-05,
+        "objective_value": 3.0,
+        "best_objective_bound": 3.0
+      },
+      "K_max": {
+        "status": "OPTIMAL",
+        "wall_time_seconds": 0.0029444000000000002,
+        "deterministic_time": 5.905e-05,
+        "objective_value": 3.0,
+        "best_objective_bound": 3.0
+      }
+    },
+    "K_min": 3,
+    "K_max": 3,
+    "participating": false
+  },
+  {
+    "group_id": "BEND:ROUGH",
+    "operation_type": "BEND",
+    "direction": "ROUGH",
+    "operation_ids": [
+      "O010",
+      "O014",
+      "O092",
+      "O096",
+      "O100",
+      "O104",
+      "O108",
+      "O112",
+      "O116",
+      "O122",
+      "O126",
+      "O130",
+      "O134",
+      "O141"
+    ],
+    "operation_count": 14,
+    "proofs": {
+      "K_min": {
+        "status": "OPTIMAL",
+        "wall_time_seconds": 0.0028124,
+        "deterministic_time": 3.857e-05,
+        "objective_value": 1.0,
+        "best_objective_bound": 1.0
+      },
+      "K_max": {
+        "status": "OPTIMAL",
+        "wall_time_seconds": 0.0025446,
+        "deterministic_time": 3.9018999999999994e-05,
+        "objective_value": 2.0,
+        "best_objective_bound": 2.0
+      }
+    },
+    "K_min": 1,
+    "K_max": 2,
+    "participating": true
+  },
+  {
+    "group_id": "TRIM",
+    "operation_type": "TRIM",
+    "direction": null,
+    "operation_ids": [
+      "O215",
+      "O216",
+      "O217",
+      "O218",
+      "O219",
+      "O220",
+      "O221",
+      "O222",
+      "O223",
+      "O224"
+    ],
+    "operation_count": 10,
+    "proofs": {
+      "K_min": {
+        "status": "OPTIMAL",
+        "wall_time_seconds": 0.0017235000000000002,
+        "deterministic_time": 2.881e-05,
+        "objective_value": 2.0,
+        "best_objective_bound": 2.0
+      },
+      "K_max": {
+        "status": "OPTIMAL",
+        "wall_time_seconds": 0.0017137,
+        "deterministic_time": 2.881e-05,
+        "objective_value": 2.0,
+        "best_objective_bound": 2.0
+      }
+    },
+    "K_min": 2,
+    "K_max": 2,
+    "participating": false
+  },
+  {
+    "group_id": "DIMPLE",
+    "operation_type": "DIMPLE",
+    "direction": null,
+    "operation_ids": [
+      "O007",
+      "O008"
+    ],
+    "operation_count": 2,
+    "proofs": {
+      "K_min": {
+        "status": "OPTIMAL",
+        "wall_time_seconds": 0.0068674,
+        "deterministic_time": 2.737e-05,
+        "objective_value": 1.0,
+        "best_objective_bound": 1.0
+      },
+      "K_max": {
+        "status": "OPTIMAL",
+        "wall_time_seconds": 0.0019714000000000003,
+        "deterministic_time": 2.737e-05,
+        "objective_value": 1.0,
+        "best_objective_bound": 1.0
+      }
+    },
+    "K_min": 1,
+    "K_max": 1,
+    "participating": false
+  },
+  {
+    "group_id": "BRIDGE",
+    "operation_type": "BRIDGE",
+    "direction": null,
+    "operation_ids": [
+      "O027",
+      "O028",
+      "O029",
+      "O030"
+    ],
+    "operation_count": 4,
+    "proofs": {
+      "K_min": {
+        "status": "OPTIMAL",
+        "wall_time_seconds": 0.0018948,
+        "deterministic_time": 2.769e-05,
+        "objective_value": 1.0,
+        "best_objective_bound": 1.0
+      },
+      "K_max": {
+        "status": "OPTIMAL",
+        "wall_time_seconds": 0.0017148,
+        "deterministic_time": 2.769e-05,
+        "objective_value": 1.0,
+        "best_objective_bound": 1.0
+      }
+    },
+    "K_min": 1,
+    "K_max": 1,
+    "participating": false
+  },
+  {
+    "group_id": "MARKING",
+    "operation_type": "MARKING",
+    "direction": null,
+    "operation_ids": [
+      "O001",
+      "O026",
+      "O175"
+    ],
+    "operation_count": 3,
+    "proofs": {
+      "K_min": {
+        "status": "OPTIMAL",
+        "wall_time_seconds": 0.0017877000000000001,
+        "deterministic_time": 2.753e-05,
+        "objective_value": 1.0,
+        "best_objective_bound": 1.0
+      },
+      "K_max": {
+        "status": "OPTIMAL",
+        "wall_time_seconds": 0.0016660000000000002,
+        "deterministic_time": 2.753e-05,
+        "objective_value": 1.0,
+        "best_objective_bound": 1.0
+      }
+    },
+    "K_min": 1,
+    "K_max": 1,
+    "participating": false
+  }
+]

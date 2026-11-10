@@ -1,0 +1,15 @@
+{
+  "steps": [
+    "graph_and_supervision_audit",
+    "expert_free_input",
+    "candidate_generation",
+    "local_comparison_sampling"
+  ],
+  "pool_count": 64,
+  "selected_count": 16,
+  "local_comparison_count": 13,
+  "all_new_plans_hard_feasible": true,
+  "trained_model": false,
+  "new_blind_review_pack": false,
+  "source_unchanged": true
+}

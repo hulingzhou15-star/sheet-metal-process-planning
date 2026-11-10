@@ -1,0 +1,14 @@
+{
+  "schema_version": "neighborhood_penalty.v0.2",
+  "neighborhood_config": "configs/neighborhood_v01.json",
+  "secondary_weights": {"area": 0.30, "extra_gap": 0.20, "group_fragmentation": 0.50},
+  "area_significance_ratio": 1.15,
+  "fragmentation_types": ["CIRCLE_PUNCH", "IRREGULAR_PUNCH", "PRE_PUNCH", "FLANGING", "BEND", "TRIM", "DIMPLE", "BRIDGE", "MARKING"],
+  "bend_directions": ["SMOOTH", "ROUGH"],
+  "policy": {"families": ["FLANGING_IRREGULAR", "BEND_FLANGING", "BEND_IRREGULAR"], "tier": "PRIORITY", "aggregation": "equal_nonempty_type_means", "ordering": "lexicographic"},
+  "generation": {"seed": 20261016, "pool_target": 64, "selected_target": 16, "max_attempts": 128, "channel_quota": 16, "score_selection_count": 8, "random_cost_abs_max": 100},
+  "solver": {"max_time_seconds": 8.0, "max_deterministic_time": 1.0, "num_search_workers": 1},
+  "bounds_solver": {"max_time_seconds": 30.0, "max_deterministic_time": 10.0, "num_search_workers": 1},
+  "integer_objective_limit": 4611686018427387903,
+  "view": {"default_station": "OP30", "minimum_extent": 24.0, "padding_fraction": 0.18, "hit_radius_px": 6.0}
+}

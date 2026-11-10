@@ -1,0 +1,24 @@
+[
+  {
+    "part": "P002",
+    "changed_rows": 55,
+    "operation_type_mapping": {
+      "CIRCLE_PUNCH": "PUNCH",
+      "IRREGULAR_PUNCH": "PUNCH"
+    },
+    "feature_type_unchanged": true,
+    "staged": "D:\\sheet_process_assignment\\information_extract\\.runtime\\process_tables_20261102\\P002_coarse_types.xlsx",
+    "staged_sha256": "44bee62ba780b27c02acdb9b9d1d0adfab07f25f73c01b51795c85608bb57336"
+  },
+  {
+    "part": "P003",
+    "changed_rows": 30,
+    "operation_type_mapping": {
+      "CIRCLE_PUNCH": "PUNCH",
+      "IRREGULAR_PUNCH": "PUNCH"
+    },
+    "feature_type_unchanged": true,
+    "staged": "D:\\sheet_process_assignment\\information_extract\\.runtime\\process_tables_20261102\\P003_coarse_types.xlsx",
+    "staged_sha256": "58d741be362daed82cfc5d69bdc4bfb3189f65cbf97be896d480d5b6dfe9de79"
+  }
+]

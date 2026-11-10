@@ -1,0 +1,7144 @@
+{
+  "role": "PRE_MIGRATION_INDEPENDENT_EXPECTATIONS",
+  "summary": {
+    "panel_count": 60,
+    "bend_count": 59,
+    "band_component_count": 69,
+    "material_variant_count": 21,
+    "plan_count": 16,
+    "local_forming_count": 50,
+    "unconnected_regions": [],
+    "same_station_cutting_trajectory": "UNKNOWN; motion uses entry material, completed state switches all simultaneous local actions together",
+    "local_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+    "initial_blank_recovered": false,
+    "physical_forming_validated": false,
+    "candidate_filter_enabled": false,
+    "volume_conservation_claimed": false
+  },
+  "material_states": [
+    {
+      "plan_id": "NP2_001",
+      "station_id": "OP10",
+      "phase": "entry",
+      "material_id": "M00"
+    },
+    {
+      "plan_id": "NP2_001",
+      "station_id": "OP10",
+      "phase": "completed",
+      "material_id": "M01"
+    },
+    {
+      "plan_id": "NP2_001",
+      "station_id": "OP20",
+      "phase": "entry",
+      "material_id": "M01"
+    },
+    {
+      "plan_id": "NP2_001",
+      "station_id": "OP20",
+      "phase": "completed",
+      "material_id": "M02"
+    },
+    {
+      "plan_id": "NP2_001",
+      "station_id": "OP30",
+      "phase": "entry",
+      "material_id": "M02"
+    },
+    {
+      "plan_id": "NP2_001",
+      "station_id": "OP30",
+      "phase": "completed",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_001",
+      "station_id": "OP40",
+      "phase": "entry",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_001",
+      "station_id": "OP40",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_001",
+      "station_id": "OP50",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_001",
+      "station_id": "OP50",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_001",
+      "station_id": "OP60",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_001",
+      "station_id": "OP60",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_001",
+      "station_id": "OP70",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_001",
+      "station_id": "OP70",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_005",
+      "station_id": "OP10",
+      "phase": "entry",
+      "material_id": "M00"
+    },
+    {
+      "plan_id": "NP2_005",
+      "station_id": "OP10",
+      "phase": "completed",
+      "material_id": "M01"
+    },
+    {
+      "plan_id": "NP2_005",
+      "station_id": "OP20",
+      "phase": "entry",
+      "material_id": "M01"
+    },
+    {
+      "plan_id": "NP2_005",
+      "station_id": "OP20",
+      "phase": "completed",
+      "material_id": "M02"
+    },
+    {
+      "plan_id": "NP2_005",
+      "station_id": "OP30",
+      "phase": "entry",
+      "material_id": "M02"
+    },
+    {
+      "plan_id": "NP2_005",
+      "station_id": "OP30",
+      "phase": "completed",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_005",
+      "station_id": "OP40",
+      "phase": "entry",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_005",
+      "station_id": "OP40",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_005",
+      "station_id": "OP50",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_005",
+      "station_id": "OP50",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_005",
+      "station_id": "OP60",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_005",
+      "station_id": "OP60",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_005",
+      "station_id": "OP70",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_005",
+      "station_id": "OP70",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_009",
+      "station_id": "OP10",
+      "phase": "entry",
+      "material_id": "M00"
+    },
+    {
+      "plan_id": "NP2_009",
+      "station_id": "OP10",
+      "phase": "completed",
+      "material_id": "M01"
+    },
+    {
+      "plan_id": "NP2_009",
+      "station_id": "OP20",
+      "phase": "entry",
+      "material_id": "M01"
+    },
+    {
+      "plan_id": "NP2_009",
+      "station_id": "OP20",
+      "phase": "completed",
+      "material_id": "M02"
+    },
+    {
+      "plan_id": "NP2_009",
+      "station_id": "OP30",
+      "phase": "entry",
+      "material_id": "M02"
+    },
+    {
+      "plan_id": "NP2_009",
+      "station_id": "OP30",
+      "phase": "completed",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_009",
+      "station_id": "OP40",
+      "phase": "entry",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_009",
+      "station_id": "OP40",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_009",
+      "station_id": "OP50",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_009",
+      "station_id": "OP50",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_009",
+      "station_id": "OP60",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_009",
+      "station_id": "OP60",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_009",
+      "station_id": "OP70",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_009",
+      "station_id": "OP70",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_013",
+      "station_id": "OP10",
+      "phase": "entry",
+      "material_id": "M00"
+    },
+    {
+      "plan_id": "NP2_013",
+      "station_id": "OP10",
+      "phase": "completed",
+      "material_id": "M01"
+    },
+    {
+      "plan_id": "NP2_013",
+      "station_id": "OP20",
+      "phase": "entry",
+      "material_id": "M01"
+    },
+    {
+      "plan_id": "NP2_013",
+      "station_id": "OP20",
+      "phase": "completed",
+      "material_id": "M02"
+    },
+    {
+      "plan_id": "NP2_013",
+      "station_id": "OP30",
+      "phase": "entry",
+      "material_id": "M02"
+    },
+    {
+      "plan_id": "NP2_013",
+      "station_id": "OP30",
+      "phase": "completed",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_013",
+      "station_id": "OP40",
+      "phase": "entry",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_013",
+      "station_id": "OP40",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_013",
+      "station_id": "OP50",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_013",
+      "station_id": "OP50",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_013",
+      "station_id": "OP60",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_013",
+      "station_id": "OP60",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_013",
+      "station_id": "OP70",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_013",
+      "station_id": "OP70",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_017",
+      "station_id": "OP10",
+      "phase": "entry",
+      "material_id": "M00"
+    },
+    {
+      "plan_id": "NP2_017",
+      "station_id": "OP10",
+      "phase": "completed",
+      "material_id": "M01"
+    },
+    {
+      "plan_id": "NP2_017",
+      "station_id": "OP20",
+      "phase": "entry",
+      "material_id": "M01"
+    },
+    {
+      "plan_id": "NP2_017",
+      "station_id": "OP20",
+      "phase": "completed",
+      "material_id": "M02"
+    },
+    {
+      "plan_id": "NP2_017",
+      "station_id": "OP30",
+      "phase": "entry",
+      "material_id": "M02"
+    },
+    {
+      "plan_id": "NP2_017",
+      "station_id": "OP30",
+      "phase": "completed",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_017",
+      "station_id": "OP40",
+      "phase": "entry",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_017",
+      "station_id": "OP40",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_017",
+      "station_id": "OP50",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_017",
+      "station_id": "OP50",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_017",
+      "station_id": "OP60",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_017",
+      "station_id": "OP60",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_017",
+      "station_id": "OP70",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_017",
+      "station_id": "OP70",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_021",
+      "station_id": "OP10",
+      "phase": "entry",
+      "material_id": "M00"
+    },
+    {
+      "plan_id": "NP2_021",
+      "station_id": "OP10",
+      "phase": "completed",
+      "material_id": "M01"
+    },
+    {
+      "plan_id": "NP2_021",
+      "station_id": "OP20",
+      "phase": "entry",
+      "material_id": "M01"
+    },
+    {
+      "plan_id": "NP2_021",
+      "station_id": "OP20",
+      "phase": "completed",
+      "material_id": "M02"
+    },
+    {
+      "plan_id": "NP2_021",
+      "station_id": "OP30",
+      "phase": "entry",
+      "material_id": "M02"
+    },
+    {
+      "plan_id": "NP2_021",
+      "station_id": "OP30",
+      "phase": "completed",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_021",
+      "station_id": "OP40",
+      "phase": "entry",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_021",
+      "station_id": "OP40",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_021",
+      "station_id": "OP50",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_021",
+      "station_id": "OP50",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_021",
+      "station_id": "OP60",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_021",
+      "station_id": "OP60",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_021",
+      "station_id": "OP70",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_021",
+      "station_id": "OP70",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_025",
+      "station_id": "OP10",
+      "phase": "entry",
+      "material_id": "M00"
+    },
+    {
+      "plan_id": "NP2_025",
+      "station_id": "OP10",
+      "phase": "completed",
+      "material_id": "M01"
+    },
+    {
+      "plan_id": "NP2_025",
+      "station_id": "OP20",
+      "phase": "entry",
+      "material_id": "M01"
+    },
+    {
+      "plan_id": "NP2_025",
+      "station_id": "OP20",
+      "phase": "completed",
+      "material_id": "M02"
+    },
+    {
+      "plan_id": "NP2_025",
+      "station_id": "OP30",
+      "phase": "entry",
+      "material_id": "M02"
+    },
+    {
+      "plan_id": "NP2_025",
+      "station_id": "OP30",
+      "phase": "completed",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_025",
+      "station_id": "OP40",
+      "phase": "entry",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_025",
+      "station_id": "OP40",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_025",
+      "station_id": "OP50",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_025",
+      "station_id": "OP50",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_025",
+      "station_id": "OP60",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_025",
+      "station_id": "OP60",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_025",
+      "station_id": "OP70",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_025",
+      "station_id": "OP70",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_029",
+      "station_id": "OP10",
+      "phase": "entry",
+      "material_id": "M00"
+    },
+    {
+      "plan_id": "NP2_029",
+      "station_id": "OP10",
+      "phase": "completed",
+      "material_id": "M01"
+    },
+    {
+      "plan_id": "NP2_029",
+      "station_id": "OP20",
+      "phase": "entry",
+      "material_id": "M01"
+    },
+    {
+      "plan_id": "NP2_029",
+      "station_id": "OP20",
+      "phase": "completed",
+      "material_id": "M02"
+    },
+    {
+      "plan_id": "NP2_029",
+      "station_id": "OP30",
+      "phase": "entry",
+      "material_id": "M02"
+    },
+    {
+      "plan_id": "NP2_029",
+      "station_id": "OP30",
+      "phase": "completed",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_029",
+      "station_id": "OP40",
+      "phase": "entry",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_029",
+      "station_id": "OP40",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_029",
+      "station_id": "OP50",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_029",
+      "station_id": "OP50",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_029",
+      "station_id": "OP60",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_029",
+      "station_id": "OP60",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_029",
+      "station_id": "OP70",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_029",
+      "station_id": "OP70",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_059",
+      "station_id": "OP10",
+      "phase": "entry",
+      "material_id": "M00"
+    },
+    {
+      "plan_id": "NP2_059",
+      "station_id": "OP10",
+      "phase": "completed",
+      "material_id": "M05"
+    },
+    {
+      "plan_id": "NP2_059",
+      "station_id": "OP20",
+      "phase": "entry",
+      "material_id": "M05"
+    },
+    {
+      "plan_id": "NP2_059",
+      "station_id": "OP20",
+      "phase": "completed",
+      "material_id": "M06"
+    },
+    {
+      "plan_id": "NP2_059",
+      "station_id": "OP30",
+      "phase": "entry",
+      "material_id": "M06"
+    },
+    {
+      "plan_id": "NP2_059",
+      "station_id": "OP30",
+      "phase": "completed",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_059",
+      "station_id": "OP40",
+      "phase": "entry",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_059",
+      "station_id": "OP40",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_059",
+      "station_id": "OP50",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_059",
+      "station_id": "OP50",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_059",
+      "station_id": "OP60",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_059",
+      "station_id": "OP60",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_059",
+      "station_id": "OP70",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_059",
+      "station_id": "OP70",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_056",
+      "station_id": "OP10",
+      "phase": "entry",
+      "material_id": "M00"
+    },
+    {
+      "plan_id": "NP2_056",
+      "station_id": "OP10",
+      "phase": "completed",
+      "material_id": "M07"
+    },
+    {
+      "plan_id": "NP2_056",
+      "station_id": "OP20",
+      "phase": "entry",
+      "material_id": "M07"
+    },
+    {
+      "plan_id": "NP2_056",
+      "station_id": "OP20",
+      "phase": "completed",
+      "material_id": "M08"
+    },
+    {
+      "plan_id": "NP2_056",
+      "station_id": "OP30",
+      "phase": "entry",
+      "material_id": "M08"
+    },
+    {
+      "plan_id": "NP2_056",
+      "station_id": "OP30",
+      "phase": "completed",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_056",
+      "station_id": "OP40",
+      "phase": "entry",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_056",
+      "station_id": "OP40",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_056",
+      "station_id": "OP50",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_056",
+      "station_id": "OP50",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_056",
+      "station_id": "OP60",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_056",
+      "station_id": "OP60",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_056",
+      "station_id": "OP70",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_056",
+      "station_id": "OP70",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_004",
+      "station_id": "OP10",
+      "phase": "entry",
+      "material_id": "M00"
+    },
+    {
+      "plan_id": "NP2_004",
+      "station_id": "OP10",
+      "phase": "completed",
+      "material_id": "M09"
+    },
+    {
+      "plan_id": "NP2_004",
+      "station_id": "OP20",
+      "phase": "entry",
+      "material_id": "M09"
+    },
+    {
+      "plan_id": "NP2_004",
+      "station_id": "OP20",
+      "phase": "completed",
+      "material_id": "M10"
+    },
+    {
+      "plan_id": "NP2_004",
+      "station_id": "OP30",
+      "phase": "entry",
+      "material_id": "M10"
+    },
+    {
+      "plan_id": "NP2_004",
+      "station_id": "OP30",
+      "phase": "completed",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_004",
+      "station_id": "OP40",
+      "phase": "entry",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_004",
+      "station_id": "OP40",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_004",
+      "station_id": "OP50",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_004",
+      "station_id": "OP50",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_004",
+      "station_id": "OP60",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_004",
+      "station_id": "OP60",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_004",
+      "station_id": "OP70",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_004",
+      "station_id": "OP70",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_064",
+      "station_id": "OP10",
+      "phase": "entry",
+      "material_id": "M00"
+    },
+    {
+      "plan_id": "NP2_064",
+      "station_id": "OP10",
+      "phase": "completed",
+      "material_id": "M11"
+    },
+    {
+      "plan_id": "NP2_064",
+      "station_id": "OP20",
+      "phase": "entry",
+      "material_id": "M11"
+    },
+    {
+      "plan_id": "NP2_064",
+      "station_id": "OP20",
+      "phase": "completed",
+      "material_id": "M12"
+    },
+    {
+      "plan_id": "NP2_064",
+      "station_id": "OP30",
+      "phase": "entry",
+      "material_id": "M12"
+    },
+    {
+      "plan_id": "NP2_064",
+      "station_id": "OP30",
+      "phase": "completed",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_064",
+      "station_id": "OP40",
+      "phase": "entry",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_064",
+      "station_id": "OP40",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_064",
+      "station_id": "OP50",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_064",
+      "station_id": "OP50",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_064",
+      "station_id": "OP60",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_064",
+      "station_id": "OP60",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_064",
+      "station_id": "OP70",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_064",
+      "station_id": "OP70",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_044",
+      "station_id": "OP10",
+      "phase": "entry",
+      "material_id": "M00"
+    },
+    {
+      "plan_id": "NP2_044",
+      "station_id": "OP10",
+      "phase": "completed",
+      "material_id": "M13"
+    },
+    {
+      "plan_id": "NP2_044",
+      "station_id": "OP20",
+      "phase": "entry",
+      "material_id": "M13"
+    },
+    {
+      "plan_id": "NP2_044",
+      "station_id": "OP20",
+      "phase": "completed",
+      "material_id": "M14"
+    },
+    {
+      "plan_id": "NP2_044",
+      "station_id": "OP30",
+      "phase": "entry",
+      "material_id": "M14"
+    },
+    {
+      "plan_id": "NP2_044",
+      "station_id": "OP30",
+      "phase": "completed",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_044",
+      "station_id": "OP40",
+      "phase": "entry",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_044",
+      "station_id": "OP40",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_044",
+      "station_id": "OP50",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_044",
+      "station_id": "OP50",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_044",
+      "station_id": "OP60",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_044",
+      "station_id": "OP60",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_044",
+      "station_id": "OP70",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_044",
+      "station_id": "OP70",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_012",
+      "station_id": "OP10",
+      "phase": "entry",
+      "material_id": "M00"
+    },
+    {
+      "plan_id": "NP2_012",
+      "station_id": "OP10",
+      "phase": "completed",
+      "material_id": "M15"
+    },
+    {
+      "plan_id": "NP2_012",
+      "station_id": "OP20",
+      "phase": "entry",
+      "material_id": "M15"
+    },
+    {
+      "plan_id": "NP2_012",
+      "station_id": "OP20",
+      "phase": "completed",
+      "material_id": "M16"
+    },
+    {
+      "plan_id": "NP2_012",
+      "station_id": "OP30",
+      "phase": "entry",
+      "material_id": "M16"
+    },
+    {
+      "plan_id": "NP2_012",
+      "station_id": "OP30",
+      "phase": "completed",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_012",
+      "station_id": "OP40",
+      "phase": "entry",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_012",
+      "station_id": "OP40",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_012",
+      "station_id": "OP50",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_012",
+      "station_id": "OP50",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_012",
+      "station_id": "OP60",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_012",
+      "station_id": "OP60",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_012",
+      "station_id": "OP70",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_012",
+      "station_id": "OP70",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_060",
+      "station_id": "OP10",
+      "phase": "entry",
+      "material_id": "M00"
+    },
+    {
+      "plan_id": "NP2_060",
+      "station_id": "OP10",
+      "phase": "completed",
+      "material_id": "M17"
+    },
+    {
+      "plan_id": "NP2_060",
+      "station_id": "OP20",
+      "phase": "entry",
+      "material_id": "M17"
+    },
+    {
+      "plan_id": "NP2_060",
+      "station_id": "OP20",
+      "phase": "completed",
+      "material_id": "M18"
+    },
+    {
+      "plan_id": "NP2_060",
+      "station_id": "OP30",
+      "phase": "entry",
+      "material_id": "M18"
+    },
+    {
+      "plan_id": "NP2_060",
+      "station_id": "OP30",
+      "phase": "completed",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_060",
+      "station_id": "OP40",
+      "phase": "entry",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_060",
+      "station_id": "OP40",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_060",
+      "station_id": "OP50",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_060",
+      "station_id": "OP50",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_060",
+      "station_id": "OP60",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_060",
+      "station_id": "OP60",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_060",
+      "station_id": "OP70",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_060",
+      "station_id": "OP70",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_048",
+      "station_id": "OP10",
+      "phase": "entry",
+      "material_id": "M00"
+    },
+    {
+      "plan_id": "NP2_048",
+      "station_id": "OP10",
+      "phase": "completed",
+      "material_id": "M19"
+    },
+    {
+      "plan_id": "NP2_048",
+      "station_id": "OP20",
+      "phase": "entry",
+      "material_id": "M19"
+    },
+    {
+      "plan_id": "NP2_048",
+      "station_id": "OP20",
+      "phase": "completed",
+      "material_id": "M20"
+    },
+    {
+      "plan_id": "NP2_048",
+      "station_id": "OP30",
+      "phase": "entry",
+      "material_id": "M20"
+    },
+    {
+      "plan_id": "NP2_048",
+      "station_id": "OP30",
+      "phase": "completed",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_048",
+      "station_id": "OP40",
+      "phase": "entry",
+      "material_id": "M03"
+    },
+    {
+      "plan_id": "NP2_048",
+      "station_id": "OP40",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_048",
+      "station_id": "OP50",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_048",
+      "station_id": "OP50",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_048",
+      "station_id": "OP60",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_048",
+      "station_id": "OP60",
+      "phase": "completed",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_048",
+      "station_id": "OP70",
+      "phase": "entry",
+      "material_id": "M04"
+    },
+    {
+      "plan_id": "NP2_048",
+      "station_id": "OP70",
+      "phase": "completed",
+      "material_id": "M04"
+    }
+  ],
+  "variants": [
+    {
+      "material_id": "M00",
+      "executed_removal_ids": [],
+      "executed_forming_ids": [],
+      "flat_volume_mm3": 234017.48181593942
+    },
+    {
+      "material_id": "M01",
+      "executed_removal_ids": [
+        "O012",
+        "O016",
+        "O022",
+        "O024",
+        "O032",
+        "O034",
+        "O036",
+        "O038",
+        "O040",
+        "O042",
+        "O045",
+        "O047",
+        "O050",
+        "O052",
+        "O055",
+        "O061",
+        "O064",
+        "O067",
+        "O070",
+        "O079",
+        "O082",
+        "O085",
+        "O087",
+        "O094",
+        "O098",
+        "O102",
+        "O106",
+        "O110",
+        "O114",
+        "O118",
+        "O120",
+        "O124",
+        "O128",
+        "O132",
+        "O136",
+        "O139",
+        "O143",
+        "O153",
+        "O156",
+        "O159",
+        "O165",
+        "O177",
+        "O179",
+        "O181",
+        "O183",
+        "O185"
+      ],
+      "executed_forming_ids": [],
+      "flat_volume_mm3": 233960.8326172099
+    },
+    {
+      "material_id": "M02",
+      "executed_removal_ids": [
+        "O002",
+        "O003",
+        "O004",
+        "O005",
+        "O006",
+        "O012",
+        "O016",
+        "O018",
+        "O019",
+        "O022",
+        "O024",
+        "O032",
+        "O034",
+        "O036",
+        "O038",
+        "O040",
+        "O042",
+        "O045",
+        "O047",
+        "O050",
+        "O052",
+        "O055",
+        "O058",
+        "O061",
+        "O064",
+        "O067",
+        "O070",
+        "O073",
+        "O076",
+        "O079",
+        "O082",
+        "O085",
+        "O087",
+        "O088",
+        "O089",
+        "O090",
+        "O094",
+        "O098",
+        "O102",
+        "O106",
+        "O110",
+        "O114",
+        "O118",
+        "O120",
+        "O124",
+        "O128",
+        "O132",
+        "O136",
+        "O139",
+        "O143",
+        "O147",
+        "O150",
+        "O153",
+        "O156",
+        "O159",
+        "O162",
+        "O165",
+        "O166",
+        "O167",
+        "O168",
+        "O169",
+        "O170",
+        "O171",
+        "O172",
+        "O173",
+        "O174",
+        "O177",
+        "O179",
+        "O181",
+        "O183",
+        "O185",
+        "O186",
+        "O187",
+        "O188",
+        "O189",
+        "O190",
+        "O191",
+        "O192",
+        "O193",
+        "O194",
+        "O195",
+        "O196",
+        "O197",
+        "O198",
+        "O199",
+        "O200",
+        "O201",
+        "O202",
+        "O203",
+        "O204",
+        "O205",
+        "O206",
+        "O207",
+        "O208",
+        "O209",
+        "O210",
+        "O211",
+        "O212",
+        "O213",
+        "O214"
+      ],
+      "executed_forming_ids": [],
+      "flat_volume_mm3": 228321.42839217125
+    },
+    {
+      "material_id": "M03",
+      "executed_removal_ids": [
+        "O002",
+        "O003",
+        "O004",
+        "O005",
+        "O006",
+        "O012",
+        "O016",
+        "O018",
+        "O019",
+        "O022",
+        "O024",
+        "O032",
+        "O034",
+        "O036",
+        "O038",
+        "O040",
+        "O042",
+        "O045",
+        "O047",
+        "O050",
+        "O052",
+        "O055",
+        "O058",
+        "O061",
+        "O064",
+        "O067",
+        "O070",
+        "O073",
+        "O076",
+        "O079",
+        "O082",
+        "O085",
+        "O087",
+        "O088",
+        "O089",
+        "O090",
+        "O094",
+        "O098",
+        "O102",
+        "O106",
+        "O110",
+        "O114",
+        "O118",
+        "O120",
+        "O124",
+        "O128",
+        "O132",
+        "O136",
+        "O139",
+        "O143",
+        "O147",
+        "O150",
+        "O153",
+        "O156",
+        "O159",
+        "O162",
+        "O165",
+        "O166",
+        "O167",
+        "O168",
+        "O169",
+        "O170",
+        "O171",
+        "O172",
+        "O173",
+        "O174",
+        "O177",
+        "O179",
+        "O181",
+        "O183",
+        "O185",
+        "O186",
+        "O187",
+        "O188",
+        "O189",
+        "O190",
+        "O191",
+        "O192",
+        "O193",
+        "O194",
+        "O195",
+        "O196",
+        "O197",
+        "O198",
+        "O199",
+        "O200",
+        "O201",
+        "O202",
+        "O203",
+        "O204",
+        "O205",
+        "O206",
+        "O207",
+        "O208",
+        "O209",
+        "O210",
+        "O211",
+        "O212",
+        "O213",
+        "O214"
+      ],
+      "executed_forming_ids": [
+        "O011",
+        "O015",
+        "O021",
+        "O023",
+        "O031",
+        "O033",
+        "O035",
+        "O037",
+        "O039",
+        "O041",
+        "O044",
+        "O046",
+        "O049",
+        "O051",
+        "O054",
+        "O060",
+        "O063",
+        "O066",
+        "O069",
+        "O078",
+        "O081",
+        "O084",
+        "O086",
+        "O093",
+        "O097",
+        "O101",
+        "O105",
+        "O109",
+        "O113",
+        "O117",
+        "O119",
+        "O123",
+        "O127",
+        "O131",
+        "O135",
+        "O138",
+        "O142",
+        "O152",
+        "O155",
+        "O158",
+        "O164",
+        "O176",
+        "O178",
+        "O180",
+        "O182",
+        "O184"
+      ],
+      "flat_volume_mm3": 228494.62775831018
+    },
+    {
+      "material_id": "M04",
+      "executed_removal_ids": [
+        "O002",
+        "O003",
+        "O004",
+        "O005",
+        "O006",
+        "O012",
+        "O016",
+        "O018",
+        "O019",
+        "O022",
+        "O024",
+        "O032",
+        "O034",
+        "O036",
+        "O038",
+        "O040",
+        "O042",
+        "O045",
+        "O047",
+        "O050",
+        "O052",
+        "O055",
+        "O058",
+        "O061",
+        "O064",
+        "O067",
+        "O070",
+        "O073",
+        "O076",
+        "O079",
+        "O082",
+        "O085",
+        "O087",
+        "O088",
+        "O089",
+        "O090",
+        "O094",
+        "O098",
+        "O102",
+        "O106",
+        "O110",
+        "O114",
+        "O118",
+        "O120",
+        "O124",
+        "O128",
+        "O132",
+        "O136",
+        "O139",
+        "O143",
+        "O147",
+        "O150",
+        "O153",
+        "O156",
+        "O159",
+        "O162",
+        "O165",
+        "O166",
+        "O167",
+        "O168",
+        "O169",
+        "O170",
+        "O171",
+        "O172",
+        "O173",
+        "O174",
+        "O177",
+        "O179",
+        "O181",
+        "O183",
+        "O185",
+        "O186",
+        "O187",
+        "O188",
+        "O189",
+        "O190",
+        "O191",
+        "O192",
+        "O193",
+        "O194",
+        "O195",
+        "O196",
+        "O197",
+        "O198",
+        "O199",
+        "O200",
+        "O201",
+        "O202",
+        "O203",
+        "O204",
+        "O205",
+        "O206",
+        "O207",
+        "O208",
+        "O209",
+        "O210",
+        "O211",
+        "O212",
+        "O213",
+        "O214"
+      ],
+      "executed_forming_ids": [
+        "O011",
+        "O015",
+        "O021",
+        "O023",
+        "O027",
+        "O028",
+        "O029",
+        "O030",
+        "O031",
+        "O033",
+        "O035",
+        "O037",
+        "O039",
+        "O041",
+        "O044",
+        "O046",
+        "O049",
+        "O051",
+        "O054",
+        "O060",
+        "O063",
+        "O066",
+        "O069",
+        "O078",
+        "O081",
+        "O084",
+        "O086",
+        "O093",
+        "O097",
+        "O101",
+        "O105",
+        "O109",
+        "O113",
+        "O117",
+        "O119",
+        "O123",
+        "O127",
+        "O131",
+        "O135",
+        "O138",
+        "O142",
+        "O152",
+        "O155",
+        "O158",
+        "O164",
+        "O176",
+        "O178",
+        "O180",
+        "O182",
+        "O184"
+      ],
+      "flat_volume_mm3": 228516.4622267575
+    },
+    {
+      "material_id": "M05",
+      "executed_removal_ids": [
+        "O012",
+        "O016",
+        "O022",
+        "O024",
+        "O032",
+        "O034",
+        "O036",
+        "O038",
+        "O040",
+        "O042",
+        "O045",
+        "O047",
+        "O050",
+        "O052",
+        "O055",
+        "O061",
+        "O064",
+        "O067",
+        "O070",
+        "O079",
+        "O082",
+        "O085",
+        "O087",
+        "O094",
+        "O098",
+        "O102",
+        "O106",
+        "O110",
+        "O114",
+        "O118",
+        "O120",
+        "O124",
+        "O128",
+        "O132",
+        "O136",
+        "O139",
+        "O143",
+        "O153",
+        "O156",
+        "O159",
+        "O165",
+        "O177",
+        "O179",
+        "O181",
+        "O183",
+        "O185",
+        "O186",
+        "O187",
+        "O188",
+        "O189",
+        "O191",
+        "O192"
+      ],
+      "executed_forming_ids": [],
+      "flat_volume_mm3": 233804.305904837
+    },
+    {
+      "material_id": "M06",
+      "executed_removal_ids": [
+        "O003",
+        "O004",
+        "O005",
+        "O006",
+        "O012",
+        "O016",
+        "O022",
+        "O024",
+        "O032",
+        "O034",
+        "O036",
+        "O038",
+        "O040",
+        "O042",
+        "O045",
+        "O047",
+        "O050",
+        "O052",
+        "O055",
+        "O061",
+        "O064",
+        "O067",
+        "O070",
+        "O079",
+        "O082",
+        "O085",
+        "O087",
+        "O089",
+        "O094",
+        "O098",
+        "O102",
+        "O106",
+        "O110",
+        "O114",
+        "O118",
+        "O120",
+        "O124",
+        "O128",
+        "O132",
+        "O136",
+        "O139",
+        "O143",
+        "O153",
+        "O156",
+        "O159",
+        "O165",
+        "O166",
+        "O167",
+        "O168",
+        "O169",
+        "O170",
+        "O171",
+        "O172",
+        "O173",
+        "O174",
+        "O177",
+        "O179",
+        "O181",
+        "O183",
+        "O185",
+        "O186",
+        "O187",
+        "O188",
+        "O189",
+        "O190",
+        "O191",
+        "O192",
+        "O196",
+        "O197",
+        "O198",
+        "O199",
+        "O200",
+        "O201",
+        "O202",
+        "O203",
+        "O204",
+        "O205",
+        "O206",
+        "O207",
+        "O208",
+        "O209",
+        "O210",
+        "O211"
+      ],
+      "executed_forming_ids": [],
+      "flat_volume_mm3": 229468.4657849193
+    },
+    {
+      "material_id": "M07",
+      "executed_removal_ids": [
+        "O012",
+        "O016",
+        "O022",
+        "O024",
+        "O032",
+        "O034",
+        "O036",
+        "O038",
+        "O040",
+        "O042",
+        "O045",
+        "O047",
+        "O050",
+        "O052",
+        "O055",
+        "O061",
+        "O064",
+        "O067",
+        "O070",
+        "O079",
+        "O082",
+        "O085",
+        "O087",
+        "O094",
+        "O098",
+        "O102",
+        "O106",
+        "O110",
+        "O114",
+        "O118",
+        "O120",
+        "O124",
+        "O128",
+        "O132",
+        "O136",
+        "O139",
+        "O143",
+        "O153",
+        "O156",
+        "O159",
+        "O165",
+        "O166",
+        "O167",
+        "O168",
+        "O169",
+        "O170",
+        "O172",
+        "O174",
+        "O177",
+        "O179",
+        "O181",
+        "O183",
+        "O185",
+        "O187",
+        "O189"
+      ],
+      "executed_forming_ids": [],
+      "flat_volume_mm3": 233830.54448668013
+    },
+    {
+      "material_id": "M08",
+      "executed_removal_ids": [
+        "O002",
+        "O004",
+        "O005",
+        "O012",
+        "O016",
+        "O022",
+        "O024",
+        "O032",
+        "O034",
+        "O036",
+        "O038",
+        "O040",
+        "O042",
+        "O045",
+        "O047",
+        "O050",
+        "O052",
+        "O055",
+        "O058",
+        "O061",
+        "O064",
+        "O067",
+        "O070",
+        "O073",
+        "O079",
+        "O082",
+        "O085",
+        "O087",
+        "O089",
+        "O094",
+        "O098",
+        "O102",
+        "O106",
+        "O110",
+        "O114",
+        "O118",
+        "O120",
+        "O124",
+        "O128",
+        "O132",
+        "O136",
+        "O139",
+        "O143",
+        "O147",
+        "O153",
+        "O156",
+        "O159",
+        "O165",
+        "O166",
+        "O167",
+        "O168",
+        "O169",
+        "O170",
+        "O171",
+        "O172",
+        "O173",
+        "O174",
+        "O177",
+        "O179",
+        "O181",
+        "O183",
+        "O185",
+        "O186",
+        "O187",
+        "O188",
+        "O189",
+        "O190",
+        "O191",
+        "O192",
+        "O193",
+        "O194",
+        "O195",
+        "O196",
+        "O197",
+        "O198",
+        "O199",
+        "O200",
+        "O201",
+        "O202",
+        "O203",
+        "O204",
+        "O205",
+        "O206",
+        "O207",
+        "O208",
+        "O209",
+        "O210",
+        "O211",
+        "O213",
+        "O214"
+      ],
+      "executed_forming_ids": [],
+      "flat_volume_mm3": 229016.11127039135
+    },
+    {
+      "material_id": "M09",
+      "executed_removal_ids": [
+        "O012",
+        "O016",
+        "O022",
+        "O024",
+        "O032",
+        "O034",
+        "O036",
+        "O038",
+        "O040",
+        "O042",
+        "O045",
+        "O047",
+        "O050",
+        "O052",
+        "O055",
+        "O061",
+        "O064",
+        "O067",
+        "O070",
+        "O079",
+        "O082",
+        "O085",
+        "O087",
+        "O094",
+        "O098",
+        "O102",
+        "O106",
+        "O110",
+        "O114",
+        "O118",
+        "O120",
+        "O124",
+        "O128",
+        "O132",
+        "O136",
+        "O139",
+        "O143",
+        "O153",
+        "O156",
+        "O159",
+        "O165",
+        "O167",
+        "O170",
+        "O171",
+        "O172",
+        "O177",
+        "O179",
+        "O181",
+        "O183",
+        "O185",
+        "O188",
+        "O189",
+        "O191",
+        "O192"
+      ],
+      "executed_forming_ids": [],
+      "flat_volume_mm3": 233770.92962448543
+    },
+    {
+      "material_id": "M10",
+      "executed_removal_ids": [
+        "O002",
+        "O012",
+        "O016",
+        "O022",
+        "O024",
+        "O032",
+        "O034",
+        "O036",
+        "O038",
+        "O040",
+        "O042",
+        "O045",
+        "O047",
+        "O050",
+        "O052",
+        "O055",
+        "O058",
+        "O061",
+        "O064",
+        "O067",
+        "O070",
+        "O073",
+        "O076",
+        "O079",
+        "O082",
+        "O085",
+        "O087",
+        "O088",
+        "O089",
+        "O090",
+        "O094",
+        "O098",
+        "O102",
+        "O106",
+        "O110",
+        "O114",
+        "O118",
+        "O120",
+        "O124",
+        "O128",
+        "O132",
+        "O136",
+        "O139",
+        "O143",
+        "O150",
+        "O153",
+        "O156",
+        "O159",
+        "O162",
+        "O165",
+        "O166",
+        "O167",
+        "O168",
+        "O169",
+        "O170",
+        "O171",
+        "O172",
+        "O173",
+        "O174",
+        "O177",
+        "O179",
+        "O181",
+        "O183",
+        "O185",
+        "O186",
+        "O187",
+        "O188",
+        "O189",
+        "O190",
+        "O191",
+        "O192",
+        "O193",
+        "O196",
+        "O197",
+        "O198",
+        "O199",
+        "O200",
+        "O201",
+        "O202",
+        "O203",
+        "O204",
+        "O205",
+        "O206",
+        "O207",
+        "O208",
+        "O209",
+        "O210",
+        "O211",
+        "O212",
+        "O214"
+      ],
+      "executed_forming_ids": [],
+      "flat_volume_mm3": 228698.02878958057
+    },
+    {
+      "material_id": "M11",
+      "executed_removal_ids": [
+        "O012",
+        "O016",
+        "O022",
+        "O024",
+        "O032",
+        "O034",
+        "O036",
+        "O038",
+        "O040",
+        "O042",
+        "O045",
+        "O047",
+        "O050",
+        "O052",
+        "O055",
+        "O061",
+        "O064",
+        "O067",
+        "O070",
+        "O079",
+        "O082",
+        "O085",
+        "O087",
+        "O094",
+        "O098",
+        "O102",
+        "O106",
+        "O110",
+        "O114",
+        "O118",
+        "O120",
+        "O124",
+        "O128",
+        "O132",
+        "O136",
+        "O139",
+        "O143",
+        "O153",
+        "O156",
+        "O159",
+        "O165",
+        "O166",
+        "O167",
+        "O169",
+        "O171",
+        "O173",
+        "O177",
+        "O179",
+        "O181",
+        "O183",
+        "O185",
+        "O186",
+        "O189",
+        "O192"
+      ],
+      "executed_forming_ids": [],
+      "flat_volume_mm3": 233823.70838106563
+    },
+    {
+      "material_id": "M12",
+      "executed_removal_ids": [
+        "O003",
+        "O004",
+        "O005",
+        "O012",
+        "O016",
+        "O019",
+        "O022",
+        "O024",
+        "O032",
+        "O034",
+        "O036",
+        "O038",
+        "O040",
+        "O042",
+        "O045",
+        "O047",
+        "O050",
+        "O052",
+        "O055",
+        "O061",
+        "O064",
+        "O067",
+        "O070",
+        "O076",
+        "O079",
+        "O082",
+        "O085",
+        "O087",
+        "O088",
+        "O089",
+        "O094",
+        "O098",
+        "O102",
+        "O106",
+        "O110",
+        "O114",
+        "O118",
+        "O120",
+        "O124",
+        "O128",
+        "O132",
+        "O136",
+        "O139",
+        "O143",
+        "O153",
+        "O156",
+        "O159",
+        "O162",
+        "O165",
+        "O166",
+        "O167",
+        "O168",
+        "O169",
+        "O170",
+        "O171",
+        "O172",
+        "O173",
+        "O174",
+        "O177",
+        "O179",
+        "O181",
+        "O183",
+        "O185",
+        "O186",
+        "O187",
+        "O188",
+        "O189",
+        "O190",
+        "O191",
+        "O192",
+        "O196",
+        "O197",
+        "O198",
+        "O199",
+        "O200",
+        "O201",
+        "O202",
+        "O203",
+        "O204",
+        "O205",
+        "O206",
+        "O207",
+        "O208",
+        "O209",
+        "O210",
+        "O211",
+        "O212",
+        "O213"
+      ],
+      "executed_forming_ids": [],
+      "flat_volume_mm3": 229124.23044846955
+    },
+    {
+      "material_id": "M13",
+      "executed_removal_ids": [
+        "O012",
+        "O016",
+        "O022",
+        "O024",
+        "O032",
+        "O034",
+        "O036",
+        "O038",
+        "O040",
+        "O042",
+        "O045",
+        "O047",
+        "O050",
+        "O052",
+        "O055",
+        "O061",
+        "O064",
+        "O067",
+        "O070",
+        "O079",
+        "O082",
+        "O085",
+        "O087",
+        "O094",
+        "O098",
+        "O102",
+        "O106",
+        "O110",
+        "O114",
+        "O118",
+        "O120",
+        "O124",
+        "O128",
+        "O132",
+        "O136",
+        "O139",
+        "O143",
+        "O153",
+        "O156",
+        "O159",
+        "O165",
+        "O167",
+        "O170",
+        "O171",
+        "O172",
+        "O173",
+        "O177",
+        "O179",
+        "O181",
+        "O183",
+        "O185",
+        "O187",
+        "O188",
+        "O190",
+        "O191"
+      ],
+      "executed_forming_ids": [],
+      "flat_volume_mm3": 233786.61245501225
+    },
+    {
+      "material_id": "M14",
+      "executed_removal_ids": [
+        "O004",
+        "O012",
+        "O016",
+        "O019",
+        "O022",
+        "O024",
+        "O032",
+        "O034",
+        "O036",
+        "O038",
+        "O040",
+        "O042",
+        "O045",
+        "O047",
+        "O050",
+        "O052",
+        "O055",
+        "O058",
+        "O061",
+        "O064",
+        "O067",
+        "O070",
+        "O076",
+        "O079",
+        "O082",
+        "O085",
+        "O087",
+        "O089",
+        "O094",
+        "O098",
+        "O102",
+        "O106",
+        "O110",
+        "O114",
+        "O118",
+        "O120",
+        "O124",
+        "O128",
+        "O132",
+        "O136",
+        "O139",
+        "O143",
+        "O147",
+        "O150",
+        "O153",
+        "O156",
+        "O159",
+        "O165",
+        "O166",
+        "O167",
+        "O168",
+        "O169",
+        "O170",
+        "O171",
+        "O172",
+        "O173",
+        "O174",
+        "O177",
+        "O179",
+        "O181",
+        "O183",
+        "O185",
+        "O186",
+        "O187",
+        "O188",
+        "O189",
+        "O190",
+        "O191",
+        "O192",
+        "O194",
+        "O195",
+        "O196",
+        "O197",
+        "O198",
+        "O199",
+        "O200",
+        "O201",
+        "O202",
+        "O203",
+        "O204",
+        "O205",
+        "O206",
+        "O207",
+        "O208",
+        "O209",
+        "O210",
+        "O211"
+      ],
+      "executed_forming_ids": [],
+      "flat_volume_mm3": 229136.13097533444
+    },
+    {
+      "material_id": "M15",
+      "executed_removal_ids": [
+        "O012",
+        "O016",
+        "O022",
+        "O024",
+        "O032",
+        "O034",
+        "O036",
+        "O038",
+        "O040",
+        "O042",
+        "O045",
+        "O047",
+        "O050",
+        "O052",
+        "O055",
+        "O061",
+        "O064",
+        "O067",
+        "O070",
+        "O079",
+        "O082",
+        "O085",
+        "O087",
+        "O094",
+        "O098",
+        "O102",
+        "O106",
+        "O110",
+        "O114",
+        "O118",
+        "O120",
+        "O124",
+        "O128",
+        "O132",
+        "O136",
+        "O139",
+        "O143",
+        "O153",
+        "O156",
+        "O159",
+        "O165",
+        "O166",
+        "O177",
+        "O179",
+        "O181",
+        "O183",
+        "O185",
+        "O190",
+        "O191"
+      ],
+      "executed_forming_ids": [],
+      "flat_volume_mm3": 233873.4712086986
+    },
+    {
+      "material_id": "M16",
+      "executed_removal_ids": [
+        "O012",
+        "O016",
+        "O018",
+        "O022",
+        "O024",
+        "O032",
+        "O034",
+        "O036",
+        "O038",
+        "O040",
+        "O042",
+        "O045",
+        "O047",
+        "O050",
+        "O052",
+        "O055",
+        "O061",
+        "O064",
+        "O067",
+        "O070",
+        "O076",
+        "O079",
+        "O082",
+        "O085",
+        "O087",
+        "O088",
+        "O089",
+        "O090",
+        "O094",
+        "O098",
+        "O102",
+        "O106",
+        "O110",
+        "O114",
+        "O118",
+        "O120",
+        "O124",
+        "O128",
+        "O132",
+        "O136",
+        "O139",
+        "O143",
+        "O150",
+        "O153",
+        "O156",
+        "O159",
+        "O162",
+        "O165",
+        "O166",
+        "O167",
+        "O168",
+        "O169",
+        "O170",
+        "O171",
+        "O172",
+        "O173",
+        "O174",
+        "O177",
+        "O179",
+        "O181",
+        "O183",
+        "O185",
+        "O186",
+        "O187",
+        "O188",
+        "O189",
+        "O190",
+        "O191",
+        "O192",
+        "O195",
+        "O196",
+        "O197",
+        "O198",
+        "O199",
+        "O200",
+        "O201",
+        "O202",
+        "O203",
+        "O204",
+        "O205",
+        "O206",
+        "O207",
+        "O208",
+        "O209",
+        "O210",
+        "O211",
+        "O212",
+        "O213"
+      ],
+      "executed_forming_ids": [],
+      "flat_volume_mm3": 228880.09646080676
+    },
+    {
+      "material_id": "M17",
+      "executed_removal_ids": [
+        "O012",
+        "O016",
+        "O022",
+        "O024",
+        "O032",
+        "O034",
+        "O036",
+        "O038",
+        "O040",
+        "O042",
+        "O045",
+        "O047",
+        "O050",
+        "O052",
+        "O055",
+        "O061",
+        "O064",
+        "O067",
+        "O070",
+        "O079",
+        "O082",
+        "O085",
+        "O087",
+        "O094",
+        "O098",
+        "O102",
+        "O106",
+        "O110",
+        "O114",
+        "O118",
+        "O120",
+        "O124",
+        "O128",
+        "O132",
+        "O136",
+        "O139",
+        "O143",
+        "O153",
+        "O156",
+        "O159",
+        "O165",
+        "O169",
+        "O170",
+        "O172",
+        "O177",
+        "O179",
+        "O181",
+        "O183",
+        "O185",
+        "O186",
+        "O188",
+        "O189",
+        "O191"
+      ],
+      "executed_forming_ids": [],
+      "flat_volume_mm3": 233815.56537290788
+    },
+    {
+      "material_id": "M18",
+      "executed_removal_ids": [
+        "O003",
+        "O012",
+        "O016",
+        "O022",
+        "O024",
+        "O032",
+        "O034",
+        "O036",
+        "O038",
+        "O040",
+        "O042",
+        "O045",
+        "O047",
+        "O050",
+        "O052",
+        "O055",
+        "O061",
+        "O064",
+        "O067",
+        "O070",
+        "O073",
+        "O079",
+        "O082",
+        "O085",
+        "O087",
+        "O088",
+        "O089",
+        "O094",
+        "O098",
+        "O102",
+        "O106",
+        "O110",
+        "O114",
+        "O118",
+        "O120",
+        "O124",
+        "O128",
+        "O132",
+        "O136",
+        "O139",
+        "O143",
+        "O147",
+        "O153",
+        "O156",
+        "O159",
+        "O165",
+        "O166",
+        "O167",
+        "O168",
+        "O169",
+        "O170",
+        "O171",
+        "O172",
+        "O173",
+        "O174",
+        "O177",
+        "O179",
+        "O181",
+        "O183",
+        "O185",
+        "O186",
+        "O187",
+        "O188",
+        "O189",
+        "O190",
+        "O191",
+        "O192",
+        "O193",
+        "O195",
+        "O196",
+        "O197",
+        "O198",
+        "O199",
+        "O200",
+        "O201",
+        "O202",
+        "O203",
+        "O204",
+        "O205",
+        "O206",
+        "O207",
+        "O208",
+        "O209",
+        "O210",
+        "O211",
+        "O214"
+      ],
+      "executed_forming_ids": [],
+      "flat_volume_mm3": 229150.45445268386
+    },
+    {
+      "material_id": "M19",
+      "executed_removal_ids": [
+        "O012",
+        "O016",
+        "O022",
+        "O024",
+        "O032",
+        "O034",
+        "O036",
+        "O038",
+        "O040",
+        "O042",
+        "O045",
+        "O047",
+        "O050",
+        "O052",
+        "O055",
+        "O061",
+        "O064",
+        "O067",
+        "O070",
+        "O079",
+        "O082",
+        "O085",
+        "O087",
+        "O094",
+        "O098",
+        "O102",
+        "O106",
+        "O110",
+        "O114",
+        "O118",
+        "O120",
+        "O124",
+        "O128",
+        "O132",
+        "O136",
+        "O139",
+        "O143",
+        "O153",
+        "O156",
+        "O159",
+        "O165",
+        "O166",
+        "O168",
+        "O172",
+        "O173",
+        "O177",
+        "O179",
+        "O181",
+        "O183",
+        "O185",
+        "O186",
+        "O188"
+      ],
+      "executed_forming_ids": [],
+      "flat_volume_mm3": 233878.39722597963
+    },
+    {
+      "material_id": "M20",
+      "executed_removal_ids": [
+        "O002",
+        "O005",
+        "O012",
+        "O016",
+        "O022",
+        "O024",
+        "O032",
+        "O034",
+        "O036",
+        "O038",
+        "O040",
+        "O042",
+        "O045",
+        "O047",
+        "O050",
+        "O052",
+        "O055",
+        "O061",
+        "O064",
+        "O067",
+        "O070",
+        "O073",
+        "O076",
+        "O079",
+        "O082",
+        "O085",
+        "O087",
+        "O088",
+        "O089",
+        "O094",
+        "O098",
+        "O102",
+        "O106",
+        "O110",
+        "O114",
+        "O118",
+        "O120",
+        "O124",
+        "O128",
+        "O132",
+        "O136",
+        "O139",
+        "O143",
+        "O147",
+        "O153",
+        "O156",
+        "O159",
+        "O162",
+        "O165",
+        "O166",
+        "O167",
+        "O168",
+        "O169",
+        "O170",
+        "O171",
+        "O172",
+        "O173",
+        "O174",
+        "O177",
+        "O179",
+        "O181",
+        "O183",
+        "O185",
+        "O186",
+        "O187",
+        "O188",
+        "O189",
+        "O190",
+        "O191",
+        "O192",
+        "O194",
+        "O196",
+        "O197",
+        "O198",
+        "O199",
+        "O200",
+        "O201",
+        "O202",
+        "O203",
+        "O204",
+        "O205",
+        "O206",
+        "O207",
+        "O208",
+        "O209",
+        "O210",
+        "O211",
+        "O214"
+      ],
+      "executed_forming_ids": [],
+      "flat_volume_mm3": 229006.60171145524
+    }
+  ],
+  "geometries": {
+    "G0000": {
+      "volume": 43.954617111827865,
+      "triangle_count": 372
+    },
+    "G0001": {
+      "volume": 43.95461711183573,
+      "triangle_count": 372
+    },
+    "G0002": {
+      "volume": 43.95461711181877,
+      "triangle_count": 372
+    },
+    "G0003": {
+      "volume": 43.954617111818855,
+      "triangle_count": 372
+    },
+    "G0004": {
+      "volume": 18.244664853542467,
+      "triangle_count": 5210
+    },
+    "G0005": {
+      "volume": 18.244664853542478,
+      "triangle_count": 5210
+    },
+    "G0006": {
+      "volume": 18.554865154114015,
+      "triangle_count": 5210
+    },
+    "G0007": {
+      "volume": 18.554865154114008,
+      "triangle_count": 5210
+    },
+    "G0008": {
+      "volume": 18.244664853543487,
+      "triangle_count": 5210
+    },
+    "G0009": {
+      "volume": 18.244664853544048,
+      "triangle_count": 5210
+    },
+    "G0010": {
+      "volume": 18.24466485354354,
+      "triangle_count": 5210
+    },
+    "G0011": {
+      "volume": 18.24466485354303,
+      "triangle_count": 5210
+    },
+    "G0012": {
+      "volume": 18.244664853543508,
+      "triangle_count": 5210
+    },
+    "G0013": {
+      "volume": 18.24466485354307,
+      "triangle_count": 5210
+    },
+    "G0014": {
+      "volume": 18.244664853542474,
+      "triangle_count": 5210
+    },
+    "G0015": {
+      "volume": 18.244664853542474,
+      "triangle_count": 5210
+    },
+    "G0016": {
+      "volume": 18.24466485354248,
+      "triangle_count": 5210
+    },
+    "G0017": {
+      "volume": 18.24466485354248,
+      "triangle_count": 5210
+    },
+    "G0018": {
+      "volume": 18.24466485354418,
+      "triangle_count": 5210
+    },
+    "G0019": {
+      "volume": 18.244664853544162,
+      "triangle_count": 5210
+    },
+    "G0020": {
+      "volume": 18.24466485444055,
+      "triangle_count": 5210
+    },
+    "G0021": {
+      "volume": 18.24466485354248,
+      "triangle_count": 5210
+    },
+    "G0022": {
+      "volume": 18.244664853544155,
+      "triangle_count": 5210
+    },
+    "G0023": {
+      "volume": 18.2446648535425,
+      "triangle_count": 5210
+    },
+    "G0024": {
+      "volume": 18.244664853542364,
+      "triangle_count": 5210
+    },
+    "G0025": {
+      "volume": 18.244664853543583,
+      "triangle_count": 5210
+    },
+    "G0026": {
+      "volume": 18.24466485354301,
+      "triangle_count": 5210
+    },
+    "G0027": {
+      "volume": 18.244664853542435,
+      "triangle_count": 5210
+    },
+    "G0028": {
+      "volume": 18.244664853542456,
+      "triangle_count": 5210
+    },
+    "G0029": {
+      "volume": 18.24466485354247,
+      "triangle_count": 5210
+    },
+    "G0030": {
+      "volume": 18.244664853542456,
+      "triangle_count": 5210
+    },
+    "G0031": {
+      "volume": 18.244664853542425,
+      "triangle_count": 5210
+    },
+    "G0032": {
+      "volume": 18.244664853542428,
+      "triangle_count": 5210
+    },
+    "G0033": {
+      "volume": 18.24466485354417,
+      "triangle_count": 5210
+    },
+    "G0034": {
+      "volume": 18.24466485354417,
+      "triangle_count": 5210
+    },
+    "G0035": {
+      "volume": 18.24466485354247,
+      "triangle_count": 5210
+    },
+    "G0036": {
+      "volume": 18.24466485354245,
+      "triangle_count": 5210
+    },
+    "G0037": {
+      "volume": 18.244664853542442,
+      "triangle_count": 5210
+    },
+    "G0038": {
+      "volume": 18.244664853552795,
+      "triangle_count": 5210
+    },
+    "G0039": {
+      "volume": 18.244664853543537,
+      "triangle_count": 5210
+    },
+    "G0040": {
+      "volume": 18.244664853542417,
+      "triangle_count": 5210
+    },
+    "G0041": {
+      "volume": 18.244664853544162,
+      "triangle_count": 5210
+    },
+    "G0042": {
+      "volume": 18.2446648550872,
+      "triangle_count": 5210
+    },
+    "G0043": {
+      "volume": 18.24466485354351,
+      "triangle_count": 5210
+    },
+    "G0044": {
+      "volume": 18.24466485354417,
+      "triangle_count": 5210
+    },
+    "G0045": {
+      "volume": 18.24466485354243,
+      "triangle_count": 5210
+    },
+    "G0046": {
+      "volume": 18.244664853542446,
+      "triangle_count": 5210
+    },
+    "G0047": {
+      "volume": 18.244664853542446,
+      "triangle_count": 5210
+    },
+    "G0048": {
+      "volume": 18.244664853542414,
+      "triangle_count": 5210
+    },
+    "G0049": {
+      "volume": 18.244664853542435,
+      "triangle_count": 5210
+    },
+    "G0050": {
+      "volume": 2.5599999999995133,
+      "triangle_count": 380
+    },
+    "G0051": {
+      "volume": 6.240000000000076,
+      "triangle_count": 380
+    },
+    "G0052": {
+      "volume": 80.63999999999538,
+      "triangle_count": 380
+    },
+    "G0053": {
+      "volume": 2.5600000000000365,
+      "triangle_count": 380
+    },
+    "G0054": {
+      "volume": 2.559999999999642,
+      "triangle_count": 380
+    },
+    "G0055": {
+      "volume": 2.5600000000000023,
+      "triangle_count": 380
+    },
+    "G0056": {
+      "volume": 230.36800000000332,
+      "triangle_count": 380
+    },
+    "G0057": {
+      "volume": 2.5600000000000227,
+      "triangle_count": 380
+    },
+    "G0058": {
+      "volume": 53.24800000000077,
+      "triangle_count": 380
+    },
+    "G0059": {
+      "volume": 20.800000000000296,
+      "triangle_count": 380
+    },
+    "G0060": {
+      "volume": 40.16000000000057,
+      "triangle_count": 380
+    },
+    "G0061": {
+      "volume": 32.000000000000476,
+      "triangle_count": 380
+    },
+    "G0062": {
+      "volume": 30.240000000000435,
+      "triangle_count": 380
+    },
+    "G0063": {
+      "volume": 17.920000000000254,
+      "triangle_count": 380
+    },
+    "G0064": {
+      "volume": 2.5600000000000023,
+      "triangle_count": 380
+    },
+    "G0065": {
+      "volume": 2.559999999999642,
+      "triangle_count": 380
+    },
+    "G0066": {
+      "volume": 2.5599999999999774,
+      "triangle_count": 380
+    },
+    "G0067": {
+      "volume": 2.5599999999999774,
+      "triangle_count": 380
+    },
+    "G0068": {
+      "volume": 2.559999999999982,
+      "triangle_count": 380
+    },
+    "G0069": {
+      "volume": 2.560000000000027,
+      "triangle_count": 380
+    },
+    "G0070": {
+      "volume": 2.5600000000000365,
+      "triangle_count": 380
+    },
+    "G0071": {
+      "volume": 2.5600000000000227,
+      "triangle_count": 380
+    },
+    "G0072": {
+      "volume": 2.5600000000000365,
+      "triangle_count": 380
+    },
+    "G0073": {
+      "volume": 6.240000000000076,
+      "triangle_count": 380
+    },
+    "G0074": {
+      "volume": 56.83199999999675,
+      "triangle_count": 380
+    },
+    "G0075": {
+      "volume": 2.5600000000000365,
+      "triangle_count": 380
+    },
+    "G0076": {
+      "volume": 2.559999999999642,
+      "triangle_count": 380
+    },
+    "G0077": {
+      "volume": 2.5600000000000023,
+      "triangle_count": 380
+    },
+    "G0078": {
+      "volume": 36.480000000000516,
+      "triangle_count": 380
+    },
+    "G0079": {
+      "volume": 11.103999999999347,
+      "triangle_count": 380
+    },
+    "G0080": {
+      "volume": 21.010880000000295,
+      "triangle_count": 380
+    },
+    "G0081": {
+      "volume": 56.768000000000804,
+      "triangle_count": 380
+    },
+    "G0082": {
+      "volume": 24.20800000000033,
+      "triangle_count": 380
+    },
+    "G0083": {
+      "volume": 51.5520000000007,
+      "triangle_count": 380
+    },
+    "G0084": {
+      "volume": 12.383999999999272,
+      "triangle_count": 380
+    },
+    "G0085": {
+      "volume": 2.5600000000000227,
+      "triangle_count": 380
+    },
+    "G0086": {
+      "volume": 6.24000000000008,
+      "triangle_count": 380
+    },
+    "G0087": {
+      "volume": 29.600000000000417,
+      "triangle_count": 380
+    },
+    "G0088": {
+      "volume": 7.040000000000091,
+      "triangle_count": 380
+    },
+    "G0089": {
+      "volume": 2.5600000000000365,
+      "triangle_count": 380
+    },
+    "G0090": {
+      "volume": 14.016000000000183,
+      "triangle_count": 380
+    },
+    "G0091": {
+      "volume": 2.5600000000000365,
+      "triangle_count": 380
+    },
+    "G0092": {
+      "volume": 39.52000000000055,
+      "triangle_count": 380
+    },
+    "G0093": {
+      "volume": 2.5600000000000365,
+      "triangle_count": 380
+    },
+    "G0094": {
+      "volume": 19.840000000000273,
+      "triangle_count": 380
+    },
+    "G0095": {
+      "volume": 40.38400000000056,
+      "triangle_count": 380
+    },
+    "G0096": {
+      "volume": 31.840000000000447,
+      "triangle_count": 380
+    },
+    "G0097": {
+      "volume": 11.103999999999347,
+      "triangle_count": 380
+    },
+    "G0098": {
+      "volume": 12.383999999999292,
+      "triangle_count": 380
+    },
+    "G0099": {
+      "volume": 2.5599999999999996,
+      "triangle_count": 380
+    },
+    "G0100": {
+      "volume": 2.559999999999642,
+      "triangle_count": 380
+    },
+    "G0101": {
+      "volume": 2.5599999999999774,
+      "triangle_count": 380
+    },
+    "G0102": {
+      "volume": 2.5599999999999774,
+      "triangle_count": 380
+    },
+    "G0103": {
+      "volume": 2.559999999999993,
+      "triangle_count": 380
+    },
+    "G0104": {
+      "volume": 2.560000000000027,
+      "triangle_count": 380
+    },
+    "G0105": {
+      "volume": 2.5600000000000365,
+      "triangle_count": 380
+    },
+    "G0106": {
+      "volume": 2.5600000000000227,
+      "triangle_count": 380
+    },
+    "G0107": {
+      "volume": 2.5600000000000365,
+      "triangle_count": 380
+    },
+    "G0108": {
+      "volume": 0.9860740736000088,
+      "triangle_count": 380
+    },
+    "G0109": {
+      "volume": 0.9860740736000088,
+      "triangle_count": 380
+    },
+    "G0110": {
+      "volume": 0.9860740735999548,
+      "triangle_count": 380
+    },
+    "G0111": {
+      "volume": 0.9860740736000263,
+      "triangle_count": 380
+    },
+    "G0112": {
+      "volume": 0.9860740736000263,
+      "triangle_count": 380
+    },
+    "G0113": {
+      "volume": 0.9860740735999811,
+      "triangle_count": 380
+    },
+    "G0114": {
+      "volume": 144333.85062773922,
+      "triangle_count": 5732
+    },
+    "G0115": {
+      "volume": 39.628673793486854,
+      "triangle_count": 520
+    },
+    "G0116": {
+      "volume": 143.52000000000012,
+      "triangle_count": 12
+    },
+    "G0117": {
+      "volume": 10453.945911184299,
+      "triangle_count": 364
+    },
+    "G0118": {
+      "volume": 58.88000000000021,
+      "triangle_count": 12
+    },
+    "G0119": {
+      "volume": 58.88000000000018,
+      "triangle_count": 12
+    },
+    "G0120": {
+      "volume": 58.87999999999997,
+      "triangle_count": 12
+    },
+    "G0121": {
+      "volume": 29773.530674692614,
+      "triangle_count": 2116
+    },
+    "G0122": {
+      "volume": 58.880000000000166,
+      "triangle_count": 12
+    },
+    "G0123": {
+      "volume": 28401.040293856408,
+      "triangle_count": 5324
+    },
+    "G0124": {
+      "volume": 58.879999999999995,
+      "triangle_count": 12
+    },
+    "G0125": {
+      "volume": 58.88000000000002,
+      "triangle_count": 12
+    },
+    "G0126": {
+      "volume": 58.88000000000015,
+      "triangle_count": 12
+    },
+    "G0127": {
+      "volume": 58.879999999999974,
+      "triangle_count": 12
+    },
+    "G0128": {
+      "volume": 58.880000000000024,
+      "triangle_count": 12
+    },
+    "G0129": {
+      "volume": 58.88,
+      "triangle_count": 12
+    },
+    "G0130": {
+      "volume": 58.88000000000002,
+      "triangle_count": 12
+    },
+    "G0131": {
+      "volume": 58.88000000000002,
+      "triangle_count": 12
+    },
+    "G0132": {
+      "volume": 58.88000000000004,
+      "triangle_count": 12
+    },
+    "G0133": {
+      "volume": 103.96071052553783,
+      "triangle_count": 860
+    },
+    "G0134": {
+      "volume": 1486.7081155795695,
+      "triangle_count": 860
+    },
+    "G0135": {
+      "volume": 39.62867379348688,
+      "triangle_count": 520
+    },
+    "G0136": {
+      "volume": 39.628673793487,
+      "triangle_count": 520
+    },
+    "G0137": {
+      "volume": 40.26867379342933,
+      "triangle_count": 520
+    },
+    "G0138": {
+      "volume": 1087.9300348543768,
+      "triangle_count": 376
+    },
+    "G0139": {
+      "volume": 268.8465849777948,
+      "triangle_count": 520
+    },
+    "G0140": {
+      "volume": 619.9917189638446,
+      "triangle_count": 376
+    },
+    "G0141": {
+      "volume": 1701.6420348544066,
+      "triangle_count": 376
+    },
+    "G0142": {
+      "volume": 715.2105849775556,
+      "triangle_count": 520
+    },
+    "G0143": {
+      "volume": 1542.3665849777904,
+      "triangle_count": 520
+    },
+    "G0144": {
+      "volume": 301.806584977793,
+      "triangle_count": 520
+    },
+    "G0145": {
+      "volume": 39.62867379348688,
+      "triangle_count": 520
+    },
+    "G0146": {
+      "volume": 130.4807105255381,
+      "triangle_count": 860
+    },
+    "G0147": {
+      "volume": 1124.0100348543838,
+      "triangle_count": 376
+    },
+    "G0148": {
+      "volume": 151.2807105255381,
+      "triangle_count": 860
+    },
+    "G0149": {
+      "volume": 50.508673793486984,
+      "triangle_count": 520
+    },
+    "G0150": {
+      "volume": 524.0260348544064,
+      "triangle_count": 376
+    },
+    "G0151": {
+      "volume": 50.508673793486956,
+      "triangle_count": 520
+    },
+    "G0152": {
+      "volume": 1504.4385849777946,
+      "triangle_count": 520
+    },
+    "G0153": {
+      "volume": 50.50867379348696,
+      "triangle_count": 520
+    },
+    "G0154": {
+      "volume": 746.7585849777943,
+      "triangle_count": 520
+    },
+    "G0155": {
+      "volume": 1537.7025849777954,
+      "triangle_count": 520
+    },
+    "G0156": {
+      "volume": 1210.2500348543986,
+      "triangle_count": 376
+    },
+    "G0157": {
+      "volume": 260.5185849765882,
+      "triangle_count": 520
+    },
+    "G0158": {
+      "volume": 292.5185849777946,
+      "triangle_count": 520
+    },
+    "G0159": {
+      "volume": 39.62867379348693,
+      "triangle_count": 520
+    },
+    "G0160": {
+      "volume": 39.62867379348697,
+      "triangle_count": 520
+    },
+    "G0161": {
+      "volume": 39.62867379347443,
+      "triangle_count": 520
+    },
+    "G0162": {
+      "volume": 39.62867379348694,
+      "triangle_count": 520
+    },
+    "G0163": {
+      "volume": 39.62867379348696,
+      "triangle_count": 520
+    },
+    "G0164": {
+      "volume": 39.628673793486875,
+      "triangle_count": 520
+    },
+    "G0165": {
+      "volume": 39.62867379348688,
+      "triangle_count": 520
+    },
+    "G0166": {
+      "volume": 39.628673793486946,
+      "triangle_count": 520
+    },
+    "G0167": {
+      "volume": 40.26867379319893,
+      "triangle_count": 520
+    },
+    "G0168": {
+      "volume": 13.230439317286908,
+      "triangle_count": 180
+    },
+    "G0169": {
+      "volume": 13.230439317287896,
+      "triangle_count": 180
+    },
+    "G0170": {
+      "volume": 13.23043931727099,
+      "triangle_count": 180
+    },
+    "G0171": {
+      "volume": 13.230439317286523,
+      "triangle_count": 180
+    },
+    "G0172": {
+      "volume": 13.230439317286304,
+      "triangle_count": 180
+    },
+    "G0173": {
+      "volume": 13.230439317272149,
+      "triangle_count": 180
+    },
+    "G0174": {
+      "volume": 117.70573439696514,
+      "triangle_count": 360
+    },
+    "G0175": {
+      "volume": 3.840000000000054,
+      "triangle_count": 760
+    },
+    "G0176": {
+      "volume": 1058.5599999999995,
+      "triangle_count": 892
+    },
+    "G0177": {
+      "volume": 234.81880088703454,
+      "triangle_count": 292
+    },
+    "G0178": {
+      "volume": 1.979052793135837,
+      "triangle_count": 1240
+    },
+    "G0179": {
+      "volume": 49.54788071679472,
+      "triangle_count": 384
+    },
+    "G0180": {
+      "volume": 214.01880088703504,
+      "triangle_count": 292
+    },
+    "G0181": {
+      "volume": 1.9790527931358164,
+      "triangle_count": 1240
+    },
+    "G0182": {
+      "volume": 49.5478807167948,
+      "triangle_count": 384
+    },
+    "G0183": {
+      "volume": 118.33880088703458,
+      "triangle_count": 292
+    },
+    "G0184": {
+      "volume": 1.9790527931358246,
+      "triangle_count": 1240
+    },
+    "G0185": {
+      "volume": 49.547880716794765,
+      "triangle_count": 384
+    },
+    "G0186": {
+      "volume": 135.13880088703493,
+      "triangle_count": 292
+    },
+    "G0187": {
+      "volume": 1.9790527931358188,
+      "triangle_count": 1240
+    },
+    "G0188": {
+      "volume": 49.5478807167947,
+      "triangle_count": 384
+    },
+    "G0189": {
+      "volume": 38.49599999999999,
+      "triangle_count": 12
+    },
+    "G0190": {
+      "volume": 38.495999999999995,
+      "triangle_count": 12
+    },
+    "G0191": {
+      "volume": 38.495999999999995,
+      "triangle_count": 12
+    },
+    "G0192": {
+      "volume": 38.495999999999995,
+      "triangle_count": 12
+    },
+    "G0193": {
+      "volume": 15.707963267948987,
+      "triangle_count": 332
+    },
+    "G0194": {
+      "volume": 15.707963267948962,
+      "triangle_count": 332
+    },
+    "G0195": {
+      "volume": 16.08721633309033,
+      "triangle_count": 332
+    },
+    "G0196": {
+      "volume": 16.08721633309033,
+      "triangle_count": 332
+    },
+    "G0197": {
+      "volume": 15.707963267948974,
+      "triangle_count": 332
+    },
+    "G0198": {
+      "volume": 15.707963267948985,
+      "triangle_count": 332
+    },
+    "G0199": {
+      "volume": 15.707963267948983,
+      "triangle_count": 332
+    },
+    "G0200": {
+      "volume": 15.707963267948978,
+      "triangle_count": 332
+    },
+    "G0201": {
+      "volume": 15.707963267948971,
+      "triangle_count": 332
+    },
+    "G0202": {
+      "volume": 15.707963267948983,
+      "triangle_count": 332
+    },
+    "G0203": {
+      "volume": 15.707963267948973,
+      "triangle_count": 332
+    },
+    "G0204": {
+      "volume": 15.707963267948973,
+      "triangle_count": 332
+    },
+    "G0205": {
+      "volume": 15.707963267948978,
+      "triangle_count": 332
+    },
+    "G0206": {
+      "volume": 15.707963267948978,
+      "triangle_count": 332
+    },
+    "G0207": {
+      "volume": 15.707963267948966,
+      "triangle_count": 332
+    },
+    "G0208": {
+      "volume": 15.707963267949003,
+      "triangle_count": 332
+    },
+    "G0209": {
+      "volume": 15.707963269155332,
+      "triangle_count": 332
+    },
+    "G0210": {
+      "volume": 15.707963267948978,
+      "triangle_count": 332
+    },
+    "G0211": {
+      "volume": 15.707963267948978,
+      "triangle_count": 332
+    },
+    "G0212": {
+      "volume": 15.707963267948994,
+      "triangle_count": 332
+    },
+    "G0213": {
+      "volume": 15.707963267948994,
+      "triangle_count": 332
+    },
+    "G0214": {
+      "volume": 15.707963267949003,
+      "triangle_count": 332
+    },
+    "G0215": {
+      "volume": 15.707963267948973,
+      "triangle_count": 332
+    },
+    "G0216": {
+      "volume": 15.707963267948967,
+      "triangle_count": 332
+    },
+    "G0217": {
+      "volume": 15.707963267948966,
+      "triangle_count": 332
+    },
+    "G0218": {
+      "volume": 15.707963267948987,
+      "triangle_count": 332
+    },
+    "G0219": {
+      "volume": 15.707963267948966,
+      "triangle_count": 332
+    },
+    "G0220": {
+      "volume": 15.707963267948958,
+      "triangle_count": 332
+    },
+    "G0221": {
+      "volume": 15.707963267948958,
+      "triangle_count": 332
+    },
+    "G0222": {
+      "volume": 15.707963267948966,
+      "triangle_count": 332
+    },
+    "G0223": {
+      "volume": 15.707963267948966,
+      "triangle_count": 332
+    },
+    "G0224": {
+      "volume": 15.707963267948987,
+      "triangle_count": 332
+    },
+    "G0225": {
+      "volume": 15.707963267948966,
+      "triangle_count": 332
+    },
+    "G0226": {
+      "volume": 15.707963267948964,
+      "triangle_count": 332
+    },
+    "G0227": {
+      "volume": 15.707963267961535,
+      "triangle_count": 332
+    },
+    "G0228": {
+      "volume": 15.707963267948994,
+      "triangle_count": 332
+    },
+    "G0229": {
+      "volume": 15.707963267948987,
+      "triangle_count": 332
+    },
+    "G0230": {
+      "volume": 15.70796326794898,
+      "triangle_count": 332
+    },
+    "G0231": {
+      "volume": 15.707963267948983,
+      "triangle_count": 332
+    },
+    "G0232": {
+      "volume": 15.707963267948982,
+      "triangle_count": 332
+    },
+    "G0233": {
+      "volume": 15.70796326794898,
+      "triangle_count": 332
+    },
+    "G0234": {
+      "volume": 15.707963267948978,
+      "triangle_count": 332
+    },
+    "G0235": {
+      "volume": 15.70796326794898,
+      "triangle_count": 332
+    },
+    "G0236": {
+      "volume": 15.707963267949015,
+      "triangle_count": 332
+    },
+    "G0237": {
+      "volume": 15.707963267948978,
+      "triangle_count": 332
+    },
+    "G0238": {
+      "volume": 15.707963267949015,
+      "triangle_count": 332
+    },
+    "G0239": {
+      "volume": 14.476458947741808,
+      "triangle_count": 672
+    },
+    "G0240": {
+      "volume": 14.476458947741758,
+      "triangle_count": 672
+    },
+    "G0241": {
+      "volume": 14.855712012883146,
+      "triangle_count": 672
+    },
+    "G0242": {
+      "volume": 14.855712012883146,
+      "triangle_count": 672
+    },
+    "G0243": {
+      "volume": 14.47645894774177,
+      "triangle_count": 672
+    },
+    "G0244": {
+      "volume": 14.476458947741804,
+      "triangle_count": 672
+    },
+    "G0245": {
+      "volume": 14.4764589477418,
+      "triangle_count": 672
+    },
+    "G0246": {
+      "volume": 14.476458947741794,
+      "triangle_count": 672
+    },
+    "G0247": {
+      "volume": 14.476458947741772,
+      "triangle_count": 672
+    },
+    "G0248": {
+      "volume": 14.476458947741802,
+      "triangle_count": 672
+    },
+    "G0249": {
+      "volume": 14.476458947741772,
+      "triangle_count": 672
+    },
+    "G0250": {
+      "volume": 14.476458947741772,
+      "triangle_count": 672
+    },
+    "G0251": {
+      "volume": 14.476458947741795,
+      "triangle_count": 672
+    },
+    "G0252": {
+      "volume": 14.476458947741795,
+      "triangle_count": 672
+    },
+    "G0253": {
+      "volume": 14.476458947741785,
+      "triangle_count": 672
+    },
+    "G0254": {
+      "volume": 14.476458947741818,
+      "triangle_count": 672
+    },
+    "G0255": {
+      "volume": 14.476458948948151,
+      "triangle_count": 672
+    },
+    "G0256": {
+      "volume": 14.476458947741795,
+      "triangle_count": 672
+    },
+    "G0257": {
+      "volume": 14.476458947741774,
+      "triangle_count": 672
+    },
+    "G0258": {
+      "volume": 14.476458947741813,
+      "triangle_count": 672
+    },
+    "G0259": {
+      "volume": 14.476458947741813,
+      "triangle_count": 672
+    },
+    "G0260": {
+      "volume": 14.476458947741822,
+      "triangle_count": 672
+    },
+    "G0261": {
+      "volume": 14.476458947741772,
+      "triangle_count": 672
+    },
+    "G0262": {
+      "volume": 14.47645894774179,
+      "triangle_count": 672
+    },
+    "G0263": {
+      "volume": 14.476458947741783,
+      "triangle_count": 672
+    },
+    "G0264": {
+      "volume": 14.476458947741806,
+      "triangle_count": 672
+    },
+    "G0265": {
+      "volume": 14.476458947741783,
+      "triangle_count": 672
+    },
+    "G0266": {
+      "volume": 14.476458947741754,
+      "triangle_count": 672
+    },
+    "G0267": {
+      "volume": 14.476458947741754,
+      "triangle_count": 672
+    },
+    "G0268": {
+      "volume": 14.476458947741765,
+      "triangle_count": 672
+    },
+    "G0269": {
+      "volume": 14.476458947741765,
+      "triangle_count": 672
+    },
+    "G0270": {
+      "volume": 14.476458947741808,
+      "triangle_count": 672
+    },
+    "G0271": {
+      "volume": 14.476458947741762,
+      "triangle_count": 672
+    },
+    "G0272": {
+      "volume": 14.476458947741763,
+      "triangle_count": 672
+    },
+    "G0273": {
+      "volume": 14.476458947754331,
+      "triangle_count": 672
+    },
+    "G0274": {
+      "volume": 14.476458947741811,
+      "triangle_count": 672
+    },
+    "G0275": {
+      "volume": 14.476458947741808,
+      "triangle_count": 672
+    },
+    "G0276": {
+      "volume": 14.476458947741797,
+      "triangle_count": 672
+    },
+    "G0277": {
+      "volume": 14.476458947741804,
+      "triangle_count": 672
+    },
+    "G0278": {
+      "volume": 14.476458947741804,
+      "triangle_count": 672
+    },
+    "G0279": {
+      "volume": 14.476458947741797,
+      "triangle_count": 672
+    },
+    "G0280": {
+      "volume": 14.476458947741799,
+      "triangle_count": 672
+    },
+    "G0281": {
+      "volume": 14.476458947741799,
+      "triangle_count": 672
+    },
+    "G0282": {
+      "volume": 14.476458947741836,
+      "triangle_count": 672
+    },
+    "G0283": {
+      "volume": 14.476458947741799,
+      "triangle_count": 672
+    },
+    "G0284": {
+      "volume": 14.476458947741836,
+      "triangle_count": 672
+    },
+    "G0285": {
+      "volume": 142684.05040497993,
+      "triangle_count": 13460
+    },
+    "G0286": {
+      "volume": 10432.799134117333,
+      "triangle_count": 1060
+    },
+    "G0287": {
+      "volume": 29643.242544163033,
+      "triangle_count": 5176
+    },
+    "G0288": {
+      "volume": 27425.394560303488,
+      "triangle_count": 6740
+    },
+    "G0289": {
+      "volume": 959.2885985821557,
+      "triangle_count": 1076
+    },
+    "G0290": {
+      "volume": 491.35028269163246,
+      "triangle_count": 1076
+    },
+    "G0291": {
+      "volume": 1573.0005985821535,
+      "triangle_count": 1076
+    },
+    "G0292": {
+      "volume": 995.3685985821551,
+      "triangle_count": 1076
+    },
+    "G0293": {
+      "volume": 395.38459858218073,
+      "triangle_count": 1076
+    },
+    "G0294": {
+      "volume": 1081.6085985821546,
+      "triangle_count": 1076
+    },
+    "G0295": {
+      "volume": 12.872760731996244,
+      "triangle_count": 180
+    },
+    "G0296": {
+      "volume": 12.872760731996465,
+      "triangle_count": 180
+    },
+    "G0297": {
+      "volume": 12.872760732004206,
+      "triangle_count": 180
+    },
+    "G0298": {
+      "volume": 12.87276073199657,
+      "triangle_count": 180
+    },
+    "G0299": {
+      "volume": 12.872760731996497,
+      "triangle_count": 180
+    },
+    "G0300": {
+      "volume": 12.872760732004405,
+      "triangle_count": 180
+    },
+    "G0301": {
+      "volume": 144177.32391536632,
+      "triangle_count": 7772
+    },
+    "G0302": {
+      "volume": 142716.2698720859,
+      "triangle_count": 13112
+    },
+    "G0303": {
+      "volume": 27745.071019733543,
+      "triangle_count": 5680
+    },
+    "G0304": {
+      "volume": 144304.8977098436,
+      "triangle_count": 6412
+    },
+    "G0305": {
+      "volume": 29672.195462058484,
+      "triangle_count": 4496
+    },
+    "G0306": {
+      "volume": 142748.48933919193,
+      "triangle_count": 12764
+    },
+    "G0307": {
+      "volume": 1653.2113949089476,
+      "triangle_count": 720
+    },
+    "G0308": {
+      "volume": 475.5953949089756,
+      "triangle_count": 720
+    },
+    "G0309": {
+      "volume": 144201.85347080568,
+      "triangle_count": 7092
+    },
+    "G0310": {
+      "volume": 29715.624838901684,
+      "triangle_count": 3476
+    },
+    "G0311": {
+      "volume": 142812.92827340335,
+      "triangle_count": 12068
+    },
+    "G0312": {
+      "volume": 1043.7992385275895,
+      "triangle_count": 732
+    },
+    "G0313": {
+      "volume": 443.8152385276116,
+      "triangle_count": 732
+    },
+    "G0314": {
+      "volume": 144269.1086863336,
+      "triangle_count": 6752
+    },
+    "G0315": {
+      "volume": 29701.148379953964,
+      "triangle_count": 3816
+    },
+    "G0316": {
+      "volume": 142748.48933919182,
+      "triangle_count": 12764
+    },
+    "G0317": {
+      "volume": 10443.372522650818,
+      "triangle_count": 712
+    },
+    "G0318": {
+      "volume": 27637.187834426375,
+      "triangle_count": 6384
+    },
+    "G0319": {
+      "volume": 1039.4993949089494,
+      "triangle_count": 720
+    },
+    "G0320": {
+      "volume": 571.5610790184259,
+      "triangle_count": 720
+    },
+    "G0321": {
+      "volume": 1621.4312385276132,
+      "triangle_count": 732
+    },
+    "G0322": {
+      "volume": 144232.01276028022,
+      "triangle_count": 7092
+    },
+    "G0323": {
+      "volume": 29701.148379953956,
+      "triangle_count": 3816
+    },
+    "G0324": {
+      "volume": 142812.92827340314,
+      "triangle_count": 12068
+    },
+    "G0325": {
+      "volume": 1007.7192385275823,
+      "triangle_count": 732
+    },
+    "G0326": {
+      "volume": 539.7809226370507,
+      "triangle_count": 732
+    },
+    "G0327": {
+      "volume": 1075.57939490895,
+      "triangle_count": 720
+    },
+    "G0328": {
+      "volume": 1130.039238527604,
+      "triangle_count": 732
+    },
+    "G0329": {
+      "volume": 144260.96567817565,
+      "triangle_count": 6412
+    },
+    "G0330": {
+      "volume": 29759.05421574489,
+      "triangle_count": 2456
+    },
+    "G0331": {
+      "volume": 142845.14774050942,
+      "triangle_count": 11720
+    },
+    "G0332": {
+      "volume": 10443.37252265082,
+      "triangle_count": 712
+    },
+    "G0333": {
+      "volume": 144232.01276028043,
+      "triangle_count": 7092
+    },
+    "G0334": {
+      "volume": 29730.10129784938,
+      "triangle_count": 3136
+    },
+    "G0335": {
+      "volume": 142812.92827340338,
+      "triangle_count": 12068
+    },
+    "G0336": {
+      "volume": 1161.8193949089493,
+      "triangle_count": 720
+    },
+    "G0337": {
+      "volume": 144309.32107229985,
+      "triangle_count": 6412
+    },
+    "G0338": {
+      "volume": 29715.624838901702,
+      "triangle_count": 3476
+    },
+    "G0339": {
+      "volume": 142780.70880629763,
+      "triangle_count": 12416
+    }
+  },
+  "local_forming": [
+    {
+      "operation_id": "O027",
+      "operation_type": "BRIDGE",
+      "region_id": "P70_306",
+      "source_face_ids": [
+        1102,
+        1104
+      ],
+      "unformed_volume_mm3": 38.49599999999999,
+      "formed_volume_mm3": 43.954617111827865,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 5.458617111827877,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O028",
+      "operation_type": "BRIDGE",
+      "region_id": "P70_306",
+      "source_face_ids": [
+        1096,
+        1100
+      ],
+      "unformed_volume_mm3": 38.495999999999995,
+      "formed_volume_mm3": 43.95461711183573,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 5.458617111835736,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O029",
+      "operation_type": "BRIDGE",
+      "region_id": "P70_306",
+      "source_face_ids": [
+        137,
+        734
+      ],
+      "unformed_volume_mm3": 38.495999999999995,
+      "formed_volume_mm3": 43.95461711181877,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 5.458617111818775,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O030",
+      "operation_type": "BRIDGE",
+      "region_id": "P70_306",
+      "source_face_ids": [
+        709,
+        1070
+      ],
+      "unformed_volume_mm3": 38.495999999999995,
+      "formed_volume_mm3": 43.954617111818855,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 5.45861711181886,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O011",
+      "operation_type": "FLANGING",
+      "region_id": "P975_1048",
+      "source_face_ids": [
+        20,
+        38,
+        1055,
+        48
+      ],
+      "unformed_volume_mm3": 15.707963267948987,
+      "formed_volume_mm3": 18.244664853542467,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.5367015855934802,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O012"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O015",
+      "operation_type": "FLANGING",
+      "region_id": "P795_817",
+      "source_face_ids": [
+        102,
+        138,
+        109,
+        220
+      ],
+      "unformed_volume_mm3": 15.707963267948962,
+      "formed_volume_mm3": 18.244664853542478,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.5367015855935158,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O016"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O021",
+      "operation_type": "FLANGING",
+      "region_id": "P339_344",
+      "source_face_ids": [
+        303,
+        304,
+        360,
+        195
+      ],
+      "unformed_volume_mm3": 16.08721633309033,
+      "formed_volume_mm3": 18.554865154114015,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.467648821023687,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O022"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O023",
+      "operation_type": "FLANGING",
+      "region_id": "P339_344",
+      "source_face_ids": [
+        6,
+        292,
+        352,
+        305
+      ],
+      "unformed_volume_mm3": 16.08721633309033,
+      "formed_volume_mm3": 18.554865154114008,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.4676488210236798,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O024"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O031",
+      "operation_type": "FLANGING",
+      "region_id": "P70_306",
+      "source_face_ids": [
+        201,
+        246,
+        421,
+        108
+      ],
+      "unformed_volume_mm3": 15.707963267948974,
+      "formed_volume_mm3": 18.244664853543487,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.5367015855945123,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O032"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O033",
+      "operation_type": "FLANGING",
+      "region_id": "P70_306",
+      "source_face_ids": [
+        61,
+        63,
+        1030,
+        60
+      ],
+      "unformed_volume_mm3": 15.707963267948985,
+      "formed_volume_mm3": 18.244664853544048,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.536701585595063,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O034"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O035",
+      "operation_type": "FLANGING",
+      "region_id": "P70_306",
+      "source_face_ids": [
+        150,
+        270,
+        537,
+        56
+      ],
+      "unformed_volume_mm3": 15.707963267948983,
+      "formed_volume_mm3": 18.24466485354354,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.5367015855945567,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O036"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O037",
+      "operation_type": "FLANGING",
+      "region_id": "P70_306",
+      "source_face_ids": [
+        36,
+        269,
+        556,
+        248
+      ],
+      "unformed_volume_mm3": 15.707963267948978,
+      "formed_volume_mm3": 18.24466485354303,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.5367015855940505,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O038"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O039",
+      "operation_type": "FLANGING",
+      "region_id": "P70_306",
+      "source_face_ids": [
+        22,
+        68,
+        358,
+        40
+      ],
+      "unformed_volume_mm3": 15.707963267948971,
+      "formed_volume_mm3": 18.244664853543508,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.536701585594537,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O040"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O041",
+      "operation_type": "FLANGING",
+      "region_id": "P70_306",
+      "source_face_ids": [
+        81,
+        86,
+        1028,
+        74
+      ],
+      "unformed_volume_mm3": 15.707963267948983,
+      "formed_volume_mm3": 18.24466485354307,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.5367015855940878,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O042"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O044",
+      "operation_type": "FLANGING",
+      "region_id": "P579_716",
+      "source_face_ids": [
+        189,
+        265,
+        112,
+        251
+      ],
+      "unformed_volume_mm3": 15.707963267948973,
+      "formed_volume_mm3": 18.244664853542474,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.5367015855935016,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O045"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O046",
+      "operation_type": "FLANGING",
+      "region_id": "P579_716",
+      "source_face_ids": [
+        263,
+        274,
+        512,
+        250
+      ],
+      "unformed_volume_mm3": 15.707963267948973,
+      "formed_volume_mm3": 18.244664853542474,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.5367015855935016,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O047"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O049",
+      "operation_type": "FLANGING",
+      "region_id": "P145_675",
+      "source_face_ids": [
+        259,
+        278,
+        517,
+        62
+      ],
+      "unformed_volume_mm3": 15.707963267948978,
+      "formed_volume_mm3": 18.24466485354248,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.5367015855935033,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O050"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O051",
+      "operation_type": "FLANGING",
+      "region_id": "P145_675",
+      "source_face_ids": [
+        260,
+        280,
+        514,
+        226
+      ],
+      "unformed_volume_mm3": 15.707963267948978,
+      "formed_volume_mm3": 18.24466485354248,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.5367015855935033,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O052"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O054",
+      "operation_type": "FLANGING",
+      "region_id": "P685_701",
+      "source_face_ids": [
+        15,
+        50,
+        427,
+        47
+      ],
+      "unformed_volume_mm3": 15.707963267948966,
+      "formed_volume_mm3": 18.24466485354418,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.536701585595214,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O055"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O060",
+      "operation_type": "FLANGING",
+      "region_id": "P686_696",
+      "source_face_ids": [
+        72,
+        107,
+        1025,
+        103
+      ],
+      "unformed_volume_mm3": 15.707963267949003,
+      "formed_volume_mm3": 18.244664853544162,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.536701585595159,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O061"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O063",
+      "operation_type": "FLANGING",
+      "region_id": "P687_725",
+      "source_face_ids": [
+        249,
+        284,
+        523,
+        256
+      ],
+      "unformed_volume_mm3": 15.707963269155332,
+      "formed_volume_mm3": 18.24466485444055,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 3,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.5367015852852184,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O064"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O066",
+      "operation_type": "FLANGING",
+      "region_id": "P10_723",
+      "source_face_ids": [
+        183,
+        272,
+        73,
+        209
+      ],
+      "unformed_volume_mm3": 15.707963267948978,
+      "formed_volume_mm3": 18.24466485354248,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.5367015855935033,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O067"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O069",
+      "operation_type": "FLANGING",
+      "region_id": "P528_684",
+      "source_face_ids": [
+        115,
+        117,
+        1024,
+        111
+      ],
+      "unformed_volume_mm3": 15.707963267948978,
+      "formed_volume_mm3": 18.244664853544155,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.5367015855951767,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O070"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O078",
+      "operation_type": "FLANGING",
+      "region_id": "P131_627",
+      "source_face_ids": [
+        257,
+        282,
+        518,
+        101
+      ],
+      "unformed_volume_mm3": 15.707963267948994,
+      "formed_volume_mm3": 18.2446648535425,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.536701585593505,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O079"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O081",
+      "operation_type": "FLANGING",
+      "region_id": "P873_1046",
+      "source_face_ids": [
+        39,
+        41,
+        1058,
+        37
+      ],
+      "unformed_volume_mm3": 15.707963267948994,
+      "formed_volume_mm3": 18.244664853542364,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.53670158559337,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O082"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O084",
+      "operation_type": "FLANGING",
+      "region_id": "P309_313",
+      "source_face_ids": [
+        14,
+        19,
+        1060,
+        12
+      ],
+      "unformed_volume_mm3": 15.707963267949003,
+      "formed_volume_mm3": 18.244664853543583,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.53670158559458,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O085"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O086",
+      "operation_type": "FLANGING",
+      "region_id": "P70_306",
+      "source_face_ids": [
+        180,
+        267,
+        557,
+        188
+      ],
+      "unformed_volume_mm3": 15.707963267948973,
+      "formed_volume_mm3": 18.24466485354301,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.536701585594038,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O087"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O093",
+      "operation_type": "FLANGING",
+      "region_id": "P281_824",
+      "source_face_ids": [
+        214,
+        216,
+        308,
+        146
+      ],
+      "unformed_volume_mm3": 15.707963267948967,
+      "formed_volume_mm3": 18.244664853542435,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.536701585593468,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O094"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O097",
+      "operation_type": "FLANGING",
+      "region_id": "P335_814",
+      "source_face_ids": [
+        114,
+        223,
+        347,
+        118
+      ],
+      "unformed_volume_mm3": 15.707963267948966,
+      "formed_volume_mm3": 18.244664853542456,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.536701585593491,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O098"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O101",
+      "operation_type": "FLANGING",
+      "region_id": "P426_836",
+      "source_face_ids": [
+        203,
+        207,
+        708,
+        206
+      ],
+      "unformed_volume_mm3": 15.707963267948987,
+      "formed_volume_mm3": 18.24466485354247,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.536701585593484,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O102"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O105",
+      "operation_type": "FLANGING",
+      "region_id": "P78_279",
+      "source_face_ids": [
+        21,
+        244,
+        405,
+        241
+      ],
+      "unformed_volume_mm3": 15.707963267948966,
+      "formed_volume_mm3": 18.244664853542456,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.536701585593491,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O106"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O109",
+      "operation_type": "FLANGING",
+      "region_id": "P75_155",
+      "source_face_ids": [
+        153,
+        212,
+        828,
+        89
+      ],
+      "unformed_volume_mm3": 15.707963267948958,
+      "formed_volume_mm3": 18.244664853542425,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.536701585593466,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O110"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O113",
+      "operation_type": "FLANGING",
+      "region_id": "P132_806",
+      "source_face_ids": [
+        5,
+        77,
+        3,
+        225
+      ],
+      "unformed_volume_mm3": 15.707963267948958,
+      "formed_volume_mm3": 18.244664853542428,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.5367015855934696,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O114"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O117",
+      "operation_type": "FLANGING",
+      "region_id": "P329_781",
+      "source_face_ids": [
+        113,
+        235,
+        778,
+        13
+      ],
+      "unformed_volume_mm3": 15.707963267948966,
+      "formed_volume_mm3": 18.24466485354417,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.5367015855952033,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O118"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O119",
+      "operation_type": "FLANGING",
+      "region_id": "P329_781",
+      "source_face_ids": [
+        165,
+        245,
+        776,
+        24
+      ],
+      "unformed_volume_mm3": 15.707963267948966,
+      "formed_volume_mm3": 18.24466485354417,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.5367015855952033,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O120"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O123",
+      "operation_type": "FLANGING",
+      "region_id": "P840_846",
+      "source_face_ids": [
+        193,
+        200,
+        84,
+        199
+      ],
+      "unformed_volume_mm3": 15.707963267948987,
+      "formed_volume_mm3": 18.24466485354247,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.536701585593484,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O124"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O127",
+      "operation_type": "FLANGING",
+      "region_id": "P392_802",
+      "source_face_ids": [
+        181,
+        192,
+        535,
+        231
+      ],
+      "unformed_volume_mm3": 15.707963267948966,
+      "formed_volume_mm3": 18.24466485354245,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.536701585593484,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O128"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O131",
+      "operation_type": "FLANGING",
+      "region_id": "P694_793",
+      "source_face_ids": [
+        218,
+        237,
+        790,
+        238
+      ],
+      "unformed_volume_mm3": 15.707963267948964,
+      "formed_volume_mm3": 18.244664853542442,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.5367015855934785,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O132"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O135",
+      "operation_type": "FLANGING",
+      "region_id": "P809_812",
+      "source_face_ids": [
+        7,
+        16,
+        807,
+        198
+      ],
+      "unformed_volume_mm3": 15.707963267961535,
+      "formed_volume_mm3": 18.244664853552795,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.53670158559126,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O136"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O138",
+      "operation_type": "FLANGING",
+      "region_id": "P464_1042",
+      "source_face_ids": [
+        53,
+        59,
+        589,
+        51
+      ],
+      "unformed_volume_mm3": 15.707963267948994,
+      "formed_volume_mm3": 18.244664853543537,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.5367015855945425,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O139"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O142",
+      "operation_type": "FLANGING",
+      "region_id": "P1051_1054",
+      "source_face_ids": [
+        35,
+        45,
+        1057,
+        29
+      ],
+      "unformed_volume_mm3": 15.707963267948987,
+      "formed_volume_mm3": 18.244664853542417,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.5367015855934305,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O143"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O152",
+      "operation_type": "FLANGING",
+      "region_id": "P321_365",
+      "source_face_ids": [
+        91,
+        94,
+        1026,
+        87
+      ],
+      "unformed_volume_mm3": 15.70796326794898,
+      "formed_volume_mm3": 18.244664853544162,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.536701585595182,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O153"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O155",
+      "operation_type": "FLANGING",
+      "region_id": "P401_409",
+      "source_face_ids": [
+        299,
+        300,
+        381,
+        297
+      ],
+      "unformed_volume_mm3": 15.707963267948983,
+      "formed_volume_mm3": 18.2446648550872,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 3,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.536701587138218,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O156"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O158",
+      "operation_type": "FLANGING",
+      "region_id": "P252_311",
+      "source_face_ids": [
+        17,
+        34,
+        625,
+        28
+      ],
+      "unformed_volume_mm3": 15.707963267948982,
+      "formed_volume_mm3": 18.24466485354351,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.53670158559453,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O159"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O164",
+      "operation_type": "FLANGING",
+      "region_id": "P400_413",
+      "source_face_ids": [
+        82,
+        99,
+        156,
+        97
+      ],
+      "unformed_volume_mm3": 15.70796326794898,
+      "formed_volume_mm3": 18.24466485354417,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.536701585595189,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O165"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O176",
+      "operation_type": "FLANGING",
+      "region_id": "P247_471",
+      "source_face_ids": [
+        130,
+        160,
+        823,
+        171
+      ],
+      "unformed_volume_mm3": 15.707963267948978,
+      "formed_volume_mm3": 18.24466485354243,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.5367015855934536,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O177"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O178",
+      "operation_type": "FLANGING",
+      "region_id": "P247_471",
+      "source_face_ids": [
+        122,
+        161,
+        915,
+        30
+      ],
+      "unformed_volume_mm3": 15.70796326794898,
+      "formed_volume_mm3": 18.244664853542446,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.536701585593466,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O179"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O180",
+      "operation_type": "FLANGING",
+      "region_id": "P247_471",
+      "source_face_ids": [
+        1,
+        11,
+        788,
+        58
+      ],
+      "unformed_volume_mm3": 15.707963267949015,
+      "formed_volume_mm3": 18.244664853542446,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.5367015855934305,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O181"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O182",
+      "operation_type": "FLANGING",
+      "region_id": "P247_471",
+      "source_face_ids": [
+        104,
+        157,
+        913,
+        170
+      ],
+      "unformed_volume_mm3": 15.707963267948978,
+      "formed_volume_mm3": 18.244664853542414,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.536701585593436,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O183"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    },
+    {
+      "operation_id": "O184",
+      "operation_type": "FLANGING",
+      "region_id": "P247_471",
+      "source_face_ids": [
+        71,
+        167,
+        910,
+        120
+      ],
+      "unformed_volume_mm3": 15.707963267949015,
+      "formed_volume_mm3": 18.244664853542435,
+      "formed_solid_count": 1,
+      "spatial_crop_solids": 1,
+      "selection_basis": "CONTAINS_BOTH_MATCHED_STEP_SKIN_OR_WALL_FACES",
+      "local_volume_change_mm3": 2.53670158559342,
+      "geometry_source": "EXACT_STEP_INTERSECTION",
+      "continuous_forming_trajectory": "UNKNOWN_ENDPOINTS_ONLY",
+      "intersecting_punch_ids": [
+        "O185"
+      ],
+      "host_solid_count": 1,
+      "joined_solid_count": 1,
+      "host_overlap_mm3": 0.0,
+      "attached_to_host": true,
+      "cad_endpoint_symmetric_difference_mm3": 0.0
+    }
+  ],
+  "removal_coverage": [
+    {
+      "operation_id": "O002",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 32.21946710584652,
+      "supported_removed_volume_mm3": 32.21946710584652,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P247_471",
+          "removed_volume_mm3": 32.21946710584652
+        }
+      ]
+    },
+    {
+      "operation_id": "O003",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 32.21946710584649,
+      "supported_removed_volume_mm3": 32.21946710584649,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P247_471",
+          "removed_volume_mm3": 32.21946710584649
+        }
+      ]
+    },
+    {
+      "operation_id": "O004",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 32.21946710584651,
+      "supported_removed_volume_mm3": 32.21946710584651,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P247_471",
+          "removed_volume_mm3": 32.21946710584651
+        }
+      ]
+    },
+    {
+      "operation_id": "O005",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 32.21946710584652,
+      "supported_removed_volume_mm3": 32.21946710584652,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P247_471",
+          "removed_volume_mm3": 32.21946710584652
+        }
+      ]
+    },
+    {
+      "operation_id": "O006",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 32.2194671058465,
+      "supported_removed_volume_mm3": 32.2194671058465,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P247_471",
+          "removed_volume_mm3": 32.2194671058465
+        }
+      ]
+    },
+    {
+      "operation_id": "O012",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.23150432020718,
+      "supported_removed_volume_mm3": 1.23150432020718,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O011",
+          "removed_volume_mm3": 1.23150432020718
+        }
+      ]
+    },
+    {
+      "operation_id": "O016",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.231504320207204,
+      "supported_removed_volume_mm3": 1.231504320207204,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O015",
+          "removed_volume_mm3": 1.231504320207204
+        }
+      ]
+    },
+    {
+      "operation_id": "O018",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 10.573388533483248,
+      "supported_removed_volume_mm3": 10.573388533483248,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P330_334",
+          "removed_volume_mm3": 10.573388533483248
+        }
+      ]
+    },
+    {
+      "operation_id": "O019",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 10.573388533483095,
+      "supported_removed_volume_mm3": 10.573388533483095,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P330_334",
+          "removed_volume_mm3": 10.573388533483095
+        }
+      ]
+    },
+    {
+      "operation_id": "O022",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.23150432020718,
+      "supported_removed_volume_mm3": 1.23150432020718,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O021",
+          "removed_volume_mm3": 1.23150432020718
+        }
+      ]
+    },
+    {
+      "operation_id": "O024",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.23150432020718,
+      "supported_removed_volume_mm3": 1.23150432020718,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O023",
+          "removed_volume_mm3": 1.23150432020718
+        }
+      ]
+    },
+    {
+      "operation_id": "O032",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.231504320207204,
+      "supported_removed_volume_mm3": 1.231504320207204,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O031",
+          "removed_volume_mm3": 1.231504320207204
+        }
+      ]
+    },
+    {
+      "operation_id": "O034",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.2315043202071823,
+      "supported_removed_volume_mm3": 1.2315043202071823,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O033",
+          "removed_volume_mm3": 1.2315043202071823
+        }
+      ]
+    },
+    {
+      "operation_id": "O036",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.2315043202071823,
+      "supported_removed_volume_mm3": 1.2315043202071823,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O035",
+          "removed_volume_mm3": 1.2315043202071823
+        }
+      ]
+    },
+    {
+      "operation_id": "O038",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.2315043202071823,
+      "supported_removed_volume_mm3": 1.2315043202071823,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O037",
+          "removed_volume_mm3": 1.2315043202071823
+        }
+      ]
+    },
+    {
+      "operation_id": "O040",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.2315043202071978,
+      "supported_removed_volume_mm3": 1.2315043202071978,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O039",
+          "removed_volume_mm3": 1.2315043202071978
+        }
+      ]
+    },
+    {
+      "operation_id": "O042",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.2315043202071823,
+      "supported_removed_volume_mm3": 1.2315043202071823,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O041",
+          "removed_volume_mm3": 1.2315043202071823
+        }
+      ]
+    },
+    {
+      "operation_id": "O045",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.2315043202072018,
+      "supported_removed_volume_mm3": 1.2315043202072018,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O044",
+          "removed_volume_mm3": 1.2315043202072018
+        }
+      ]
+    },
+    {
+      "operation_id": "O047",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.2315043202072018,
+      "supported_removed_volume_mm3": 1.2315043202072018,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O046",
+          "removed_volume_mm3": 1.2315043202072018
+        }
+      ]
+    },
+    {
+      "operation_id": "O050",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.2315043202071823,
+      "supported_removed_volume_mm3": 1.2315043202071823,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O049",
+          "removed_volume_mm3": 1.2315043202071823
+        }
+      ]
+    },
+    {
+      "operation_id": "O052",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.2315043202071823,
+      "supported_removed_volume_mm3": 1.2315043202071823,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O051",
+          "removed_volume_mm3": 1.2315043202071823
+        }
+      ]
+    },
+    {
+      "operation_id": "O055",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.2315043202071823,
+      "supported_removed_volume_mm3": 1.2315043202071823,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O054",
+          "removed_volume_mm3": 1.2315043202071823
+        }
+      ]
+    },
+    {
+      "operation_id": "O058",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 80.21079632679479,
+      "supported_removed_volume_mm3": 80.21079632679479,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P408_682",
+          "removed_volume_mm3": 80.21079632679479
+        }
+      ]
+    },
+    {
+      "operation_id": "O061",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.23150432020718,
+      "supported_removed_volume_mm3": 1.23150432020718,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O060",
+          "removed_volume_mm3": 1.23150432020718
+        }
+      ]
+    },
+    {
+      "operation_id": "O064",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.23150432020718,
+      "supported_removed_volume_mm3": 1.23150432020718,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O063",
+          "removed_volume_mm3": 1.23150432020718
+        }
+      ]
+    },
+    {
+      "operation_id": "O067",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.2315043202071823,
+      "supported_removed_volume_mm3": 1.2315043202071823,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O066",
+          "removed_volume_mm3": 1.2315043202071823
+        }
+      ]
+    },
+    {
+      "operation_id": "O070",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.2315043202072018,
+      "supported_removed_volume_mm3": 1.2315043202072018,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O069",
+          "removed_volume_mm3": 1.2315043202072018
+        }
+      ]
+    },
+    {
+      "operation_id": "O073",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 80.21079632679475,
+      "supported_removed_volume_mm3": 80.21079632679475,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P577_679",
+          "removed_volume_mm3": 80.21079632679475
+        }
+      ]
+    },
+    {
+      "operation_id": "O076",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 80.21079632679502,
+      "supported_removed_volume_mm3": 80.21079632679502,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P676_688",
+          "removed_volume_mm3": 80.21079632679502
+        }
+      ]
+    },
+    {
+      "operation_id": "O079",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.23150432020718,
+      "supported_removed_volume_mm3": 1.23150432020718,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O078",
+          "removed_volume_mm3": 1.23150432020718
+        }
+      ]
+    },
+    {
+      "operation_id": "O082",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.23150432020718,
+      "supported_removed_volume_mm3": 1.23150432020718,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O081",
+          "removed_volume_mm3": 1.23150432020718
+        }
+      ]
+    },
+    {
+      "operation_id": "O085",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.23150432020718,
+      "supported_removed_volume_mm3": 1.23150432020718,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O084",
+          "removed_volume_mm3": 1.23150432020718
+        }
+      ]
+    },
+    {
+      "operation_id": "O087",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.2315043202072018,
+      "supported_removed_volume_mm3": 1.2315043202072018,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O086",
+          "removed_volume_mm3": 1.2315043202072018
+        }
+      ]
+    },
+    {
+      "operation_id": "O088",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 107.88318530717963,
+      "supported_removed_volume_mm3": 107.88318530717963,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P70_306",
+          "removed_volume_mm3": 107.88318530717963
+        }
+      ]
+    },
+    {
+      "operation_id": "O089",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 655.9692741228721,
+      "supported_removed_volume_mm3": 655.9692741228721,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P70_306",
+          "removed_volume_mm3": 655.9692741228721
+        }
+      ]
+    },
+    {
+      "operation_id": "O090",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 211.7932741228718,
+      "supported_removed_volume_mm3": 211.7932741228718,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P70_306",
+          "removed_volume_mm3": 211.7932741228718
+        }
+      ]
+    },
+    {
+      "operation_id": "O094",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.2315043202071823,
+      "supported_removed_volume_mm3": 1.2315043202071823,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O093",
+          "removed_volume_mm3": 1.2315043202071823
+        }
+      ]
+    },
+    {
+      "operation_id": "O098",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.2315043202071823,
+      "supported_removed_volume_mm3": 1.2315043202071823,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O097",
+          "removed_volume_mm3": 1.2315043202071823
+        }
+      ]
+    },
+    {
+      "operation_id": "O102",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.2315043202071796,
+      "supported_removed_volume_mm3": 1.2315043202071796,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O101",
+          "removed_volume_mm3": 1.2315043202071796
+        }
+      ]
+    },
+    {
+      "operation_id": "O106",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.2315043202071823,
+      "supported_removed_volume_mm3": 1.2315043202071823,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O105",
+          "removed_volume_mm3": 1.2315043202071823
+        }
+      ]
+    },
+    {
+      "operation_id": "O110",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.231504320207204,
+      "supported_removed_volume_mm3": 1.231504320207204,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O109",
+          "removed_volume_mm3": 1.231504320207204
+        }
+      ]
+    },
+    {
+      "operation_id": "O114",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.231504320207204,
+      "supported_removed_volume_mm3": 1.231504320207204,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O113",
+          "removed_volume_mm3": 1.231504320207204
+        }
+      ]
+    },
+    {
+      "operation_id": "O118",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.2315043202072018,
+      "supported_removed_volume_mm3": 1.2315043202072018,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O117",
+          "removed_volume_mm3": 1.2315043202072018
+        }
+      ]
+    },
+    {
+      "operation_id": "O120",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.2315043202072018,
+      "supported_removed_volume_mm3": 1.2315043202072018,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O119",
+          "removed_volume_mm3": 1.2315043202072018
+        }
+      ]
+    },
+    {
+      "operation_id": "O124",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.23150432020718,
+      "supported_removed_volume_mm3": 1.23150432020718,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O123",
+          "removed_volume_mm3": 1.23150432020718
+        }
+      ]
+    },
+    {
+      "operation_id": "O128",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.2315043202072022,
+      "supported_removed_volume_mm3": 1.2315043202072022,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O127",
+          "removed_volume_mm3": 1.2315043202072022
+        }
+      ]
+    },
+    {
+      "operation_id": "O132",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.231504320207198,
+      "supported_removed_volume_mm3": 1.231504320207198,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O131",
+          "removed_volume_mm3": 1.231504320207198
+        }
+      ]
+    },
+    {
+      "operation_id": "O136",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.2315043202072027,
+      "supported_removed_volume_mm3": 1.2315043202072027,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O135",
+          "removed_volume_mm3": 1.2315043202072027
+        }
+      ]
+    },
+    {
+      "operation_id": "O139",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.23150432020718,
+      "supported_removed_volume_mm3": 1.23150432020718,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O138",
+          "removed_volume_mm3": 1.23150432020718
+        }
+      ]
+    },
+    {
+      "operation_id": "O143",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.2315043202071796,
+      "supported_removed_volume_mm3": 1.2315043202071796,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O142",
+          "removed_volume_mm3": 1.2315043202071796
+        }
+      ]
+    },
+    {
+      "operation_id": "O147",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 80.21079632679431,
+      "supported_removed_volume_mm3": 80.21079632679431,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P217_395",
+          "removed_volume_mm3": 80.21079632679431
+        }
+      ]
+    },
+    {
+      "operation_id": "O150",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 80.21079632679408,
+      "supported_removed_volume_mm3": 80.21079632679408,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P397_453",
+          "removed_volume_mm3": 80.21079632679408
+        }
+      ]
+    },
+    {
+      "operation_id": "O153",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.2315043202071823,
+      "supported_removed_volume_mm3": 1.2315043202071823,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O152",
+          "removed_volume_mm3": 1.2315043202071823
+        }
+      ]
+    },
+    {
+      "operation_id": "O156",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.23150432020718,
+      "supported_removed_volume_mm3": 1.23150432020718,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O155",
+          "removed_volume_mm3": 1.23150432020718
+        }
+      ]
+    },
+    {
+      "operation_id": "O159",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.23150432020718,
+      "supported_removed_volume_mm3": 1.23150432020718,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O158",
+          "removed_volume_mm3": 1.23150432020718
+        }
+      ]
+    },
+    {
+      "operation_id": "O162",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 80.21079632679412,
+      "supported_removed_volume_mm3": 80.21079632679412,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P399_444",
+          "removed_volume_mm3": 80.21079632679412
+        }
+      ]
+    },
+    {
+      "operation_id": "O165",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.23150432020718,
+      "supported_removed_volume_mm3": 1.23150432020718,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O164",
+          "removed_volume_mm3": 1.23150432020718
+        }
+      ]
+    },
+    {
+      "operation_id": "O166",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 14.47645894774176,
+      "supported_removed_volume_mm3": 14.47645894774176,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P466_470",
+          "removed_volume_mm3": 14.47645894774176
+        }
+      ]
+    },
+    {
+      "operation_id": "O167",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 14.476458947741751,
+      "supported_removed_volume_mm3": 14.476458947741751,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P466_470",
+          "removed_volume_mm3": 14.476458947741751
+        }
+      ]
+    },
+    {
+      "operation_id": "O168",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 14.476458947741774,
+      "supported_removed_volume_mm3": 14.476458947741774,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P466_470",
+          "removed_volume_mm3": 14.476458947741774
+        }
+      ]
+    },
+    {
+      "operation_id": "O169",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 14.476458947741774,
+      "supported_removed_volume_mm3": 14.476458947741774,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P466_470",
+          "removed_volume_mm3": 14.476458947741774
+        }
+      ]
+    },
+    {
+      "operation_id": "O170",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 14.476458947741795,
+      "supported_removed_volume_mm3": 14.476458947741795,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P466_470",
+          "removed_volume_mm3": 14.476458947741795
+        }
+      ]
+    },
+    {
+      "operation_id": "O171",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 14.476458947741774,
+      "supported_removed_volume_mm3": 14.476458947741774,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P466_470",
+          "removed_volume_mm3": 14.476458947741774
+        }
+      ]
+    },
+    {
+      "operation_id": "O172",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 14.476458947741785,
+      "supported_removed_volume_mm3": 14.476458947741785,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P466_470",
+          "removed_volume_mm3": 14.476458947741785
+        }
+      ]
+    },
+    {
+      "operation_id": "O173",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 14.476458947741785,
+      "supported_removed_volume_mm3": 14.476458947741785,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P466_470",
+          "removed_volume_mm3": 14.476458947741785
+        }
+      ]
+    },
+    {
+      "operation_id": "O174",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 14.47645894774166,
+      "supported_removed_volume_mm3": 14.47645894774166,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P466_470",
+          "removed_volume_mm3": 14.47645894774166
+        }
+      ]
+    },
+    {
+      "operation_id": "O177",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.2315043202071823,
+      "supported_removed_volume_mm3": 1.2315043202071823,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O176",
+          "removed_volume_mm3": 1.2315043202071823
+        }
+      ]
+    },
+    {
+      "operation_id": "O179",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.2315043202071823,
+      "supported_removed_volume_mm3": 1.2315043202071823,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O178",
+          "removed_volume_mm3": 1.2315043202071823
+        }
+      ]
+    },
+    {
+      "operation_id": "O181",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.23150432020718,
+      "supported_removed_volume_mm3": 1.23150432020718,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O180",
+          "removed_volume_mm3": 1.23150432020718
+        }
+      ]
+    },
+    {
+      "operation_id": "O183",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.2315043202071823,
+      "supported_removed_volume_mm3": 1.2315043202071823,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O182",
+          "removed_volume_mm3": 1.2315043202071823
+        }
+      ]
+    },
+    {
+      "operation_id": "O185",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1.23150432020718,
+      "supported_removed_volume_mm3": 1.23150432020718,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "LOCAL:O184",
+          "removed_volume_mm3": 1.23150432020718
+        }
+      ]
+    },
+    {
+      "operation_id": "O186",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 10.053096491487354,
+      "supported_removed_volume_mm3": 10.053096491487354,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P247_471",
+          "removed_volume_mm3": 10.053096491487354
+        }
+      ]
+    },
+    {
+      "operation_id": "O187",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 14.476458947741785,
+      "supported_removed_volume_mm3": 14.476458947741785,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P247_471",
+          "removed_volume_mm3": 14.476458947741785
+        }
+      ]
+    },
+    {
+      "operation_id": "O188",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 14.476458947741778,
+      "supported_removed_volume_mm3": 14.476458947741778,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P247_471",
+          "removed_volume_mm3": 14.476458947741778
+        }
+      ]
+    },
+    {
+      "operation_id": "O189",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 14.47645894774166,
+      "supported_removed_volume_mm3": 14.47645894774166,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P247_471",
+          "removed_volume_mm3": 14.47645894774166
+        }
+      ]
+    },
+    {
+      "operation_id": "O190",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 10.053096491487354,
+      "supported_removed_volume_mm3": 10.053096491487354,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P247_471",
+          "removed_volume_mm3": 10.053096491487354
+        }
+      ]
+    },
+    {
+      "operation_id": "O191",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 62.83185307179588,
+      "supported_removed_volume_mm3": 62.83185307179588,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P247_471",
+          "removed_volume_mm3": 62.83185307179588
+        }
+      ]
+    },
+    {
+      "operation_id": "O192",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 40.2123859659494,
+      "supported_removed_volume_mm3": 40.2123859659494,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "P247_471",
+          "removed_volume_mm3": 40.2123859659494
+        }
+      ]
+    },
+    {
+      "operation_id": "O193",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 48.788318530717916,
+      "supported_removed_volume_mm3": 48.788318530717945,
+      "coverage_fraction": 1.0000000000000007,
+      "components": [
+        {
+          "component_id": "P408_682",
+          "removed_volume_mm3": 48.43063994545023
+        },
+        {
+          "component_id": "P273_302",
+          "removed_volume_mm3": 0.3576785852677119
+        }
+      ]
+    },
+    {
+      "operation_id": "O194",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 48.78831853071786,
+      "supported_removed_volume_mm3": 48.78831853071767,
+      "coverage_fraction": 0.9999999999999961,
+      "components": [
+        {
+          "component_id": "P577_679",
+          "removed_volume_mm3": 48.430639945427195
+        },
+        {
+          "component_id": "P374_657",
+          "removed_volume_mm3": 0.35767858529047386
+        }
+      ]
+    },
+    {
+      "operation_id": "O195",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 48.78831853071836,
+      "supported_removed_volume_mm3": 48.7883185307181,
+      "coverage_fraction": 0.9999999999999948,
+      "components": [
+        {
+          "component_id": "P676_688",
+          "removed_volume_mm3": 48.430639945427586
+        },
+        {
+          "component_id": "P968_985",
+          "removed_volume_mm3": 0.3576785852905135
+        }
+      ]
+    },
+    {
+      "operation_id": "O196",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 1180.1057343969646,
+      "supported_removed_volume_mm3": 1180.1057343969646,
+      "coverage_fraction": 1.0,
+      "components": [
+        {
+          "component_id": "RESTORE:O196:parent",
+          "removed_volume_mm3": 117.70573439696514
+        },
+        {
+          "component_id": "RESTORE:O196:band",
+          "removed_volume_mm3": 3.840000000000054
+        },
+        {
+          "component_id": "RESTORE:O196:child",
+          "removed_volume_mm3": 1058.5599999999995
+        }
+      ]
+    },
+    {
+      "operation_id": "O197",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 286.3457343969652,
+      "supported_removed_volume_mm3": 286.3457343969651,
+      "coverage_fraction": 0.9999999999999996,
+      "components": [
+        {
+          "component_id": "RESTORE:O197:parent",
+          "removed_volume_mm3": 234.81880088703454
+        },
+        {
+          "component_id": "RESTORE:O197:band",
+          "removed_volume_mm3": 1.979052793135837
+        },
+        {
+          "component_id": "RESTORE:O197:child",
+          "removed_volume_mm3": 49.54788071679472
+        }
+      ]
+    },
+    {
+      "operation_id": "O198",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 265.54573439696526,
+      "supported_removed_volume_mm3": 265.54573439696566,
+      "coverage_fraction": 1.0000000000000016,
+      "components": [
+        {
+          "component_id": "RESTORE:O198:parent",
+          "removed_volume_mm3": 214.01880088703504
+        },
+        {
+          "component_id": "RESTORE:O198:band",
+          "removed_volume_mm3": 1.9790527931358164
+        },
+        {
+          "component_id": "RESTORE:O198:child",
+          "removed_volume_mm3": 49.5478807167948
+        }
+      ]
+    },
+    {
+      "operation_id": "O199",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 169.86573439696522,
+      "supported_removed_volume_mm3": 169.86573439696517,
+      "coverage_fraction": 0.9999999999999997,
+      "components": [
+        {
+          "component_id": "RESTORE:O199:parent",
+          "removed_volume_mm3": 118.33880088703458
+        },
+        {
+          "component_id": "RESTORE:O199:band",
+          "removed_volume_mm3": 1.9790527931358246
+        },
+        {
+          "component_id": "RESTORE:O199:child",
+          "removed_volume_mm3": 49.547880716794765
+        }
+      ]
+    },
+    {
+      "operation_id": "O200",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 186.6657343969651,
+      "supported_removed_volume_mm3": 186.66573439696546,
+      "coverage_fraction": 1.000000000000002,
+      "components": [
+        {
+          "component_id": "RESTORE:O200:parent",
+          "removed_volume_mm3": 135.13880088703493
+        },
+        {
+          "component_id": "RESTORE:O200:band",
+          "removed_volume_mm3": 1.9790527931358188
+        },
+        {
+          "component_id": "RESTORE:O200:child",
+          "removed_volume_mm3": 49.5478807167947
+        }
+      ]
+    },
+    {
+      "operation_id": "O201",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 118.18573439696509,
+      "supported_removed_volume_mm3": 118.1857343969639,
+      "coverage_fraction": 0.9999999999999899,
+      "components": [
+        {
+          "component_id": "P247_471",
+          "removed_volume_mm3": 118.1857343969639
+        }
+      ]
+    },
+    {
+      "operation_id": "O202",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 118.18573439696502,
+      "supported_removed_volume_mm3": 118.1857343969628,
+      "coverage_fraction": 0.9999999999999812,
+      "components": [
+        {
+          "component_id": "P247_471",
+          "removed_volume_mm3": 118.1857343969628
+        }
+      ]
+    },
+    {
+      "operation_id": "O203",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 118.18573439696502,
+      "supported_removed_volume_mm3": 118.18573439696524,
+      "coverage_fraction": 1.000000000000002,
+      "components": [
+        {
+          "component_id": "P247_471",
+          "removed_volume_mm3": 118.18573439696524
+        }
+      ]
+    },
+    {
+      "operation_id": "O204",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 118.18573439696502,
+      "supported_removed_volume_mm3": 118.18573439696523,
+      "coverage_fraction": 1.0000000000000018,
+      "components": [
+        {
+          "component_id": "P247_471",
+          "removed_volume_mm3": 118.18573439696523
+        }
+      ]
+    },
+    {
+      "operation_id": "O205",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 118.18573439696506,
+      "supported_removed_volume_mm3": 118.18573439696613,
+      "coverage_fraction": 1.000000000000009,
+      "components": [
+        {
+          "component_id": "P247_471",
+          "removed_volume_mm3": 118.18573439696613
+        }
+      ]
+    },
+    {
+      "operation_id": "O206",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 118.18573439696495,
+      "supported_removed_volume_mm3": 118.18573439696496,
+      "coverage_fraction": 1.0000000000000002,
+      "components": [
+        {
+          "component_id": "P247_471",
+          "removed_volume_mm3": 118.18573439696496
+        }
+      ]
+    },
+    {
+      "operation_id": "O207",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 118.1857343969649,
+      "supported_removed_volume_mm3": 118.18573439707158,
+      "coverage_fraction": 1.0000000000009026,
+      "components": [
+        {
+          "component_id": "P247_471",
+          "removed_volume_mm3": 118.18573439707158
+        }
+      ]
+    },
+    {
+      "operation_id": "O208",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 140.26573439696477,
+      "supported_removed_volume_mm3": 140.26573439696486,
+      "coverage_fraction": 1.0000000000000007,
+      "components": [
+        {
+          "component_id": "P247_471",
+          "removed_volume_mm3": 140.26573439696486
+        }
+      ]
+    },
+    {
+      "operation_id": "O209",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 118.18573439696505,
+      "supported_removed_volume_mm3": 118.18573439707174,
+      "coverage_fraction": 1.0000000000009028,
+      "components": [
+        {
+          "component_id": "P247_471",
+          "removed_volume_mm3": 118.18573439707174
+        }
+      ]
+    },
+    {
+      "operation_id": "O210",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 118.18573439696505,
+      "supported_removed_volume_mm3": 118.185734396965,
+      "coverage_fraction": 0.9999999999999997,
+      "components": [
+        {
+          "component_id": "P247_471",
+          "removed_volume_mm3": 118.185734396965
+        }
+      ]
+    },
+    {
+      "operation_id": "O211",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 118.18573439696499,
+      "supported_removed_volume_mm3": 118.18573439696496,
+      "coverage_fraction": 0.9999999999999998,
+      "components": [
+        {
+          "component_id": "P247_471",
+          "removed_volume_mm3": 118.18573439696496
+        }
+      ]
+    },
+    {
+      "operation_id": "O212",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 48.78831853071756,
+      "supported_removed_volume_mm3": 48.78831853071758,
+      "coverage_fraction": 1.0000000000000004,
+      "components": [
+        {
+          "component_id": "P397_453",
+          "removed_volume_mm3": 48.43063994542692
+        },
+        {
+          "component_id": "P973_974",
+          "removed_volume_mm3": 0.35767858529066193
+        }
+      ]
+    },
+    {
+      "operation_id": "O213",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 48.788318530717675,
+      "supported_removed_volume_mm3": 48.78831853071796,
+      "coverage_fraction": 1.0000000000000058,
+      "components": [
+        {
+          "component_id": "P217_395",
+          "removed_volume_mm3": 48.430639945427444
+        },
+        {
+          "component_id": "P866_981",
+          "removed_volume_mm3": 0.35767858529051233
+        }
+      ]
+    },
+    {
+      "operation_id": "O214",
+      "status": "FULL_SUPPORTED_DOMAIN",
+      "source_volume_mm3": 48.78831853071766,
+      "supported_removed_volume_mm3": 48.78831853071735,
+      "coverage_fraction": 0.9999999999999936,
+      "components": [
+        {
+          "component_id": "P399_444",
+          "removed_volume_mm3": 48.4306399454496
+        },
+        {
+          "component_id": "P83_822",
+          "removed_volume_mm3": 0.35767858526774887
+        }
+      ]
+    }
+  ]
+}

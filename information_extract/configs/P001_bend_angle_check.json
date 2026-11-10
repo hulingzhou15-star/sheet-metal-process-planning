@@ -1,0 +1,9 @@
+{
+  "operation_ids": ["O057", "O072", "O075", "O146", "O149", "O161"],
+  "confirmed_included_angle_deg_rounded": 166.07,
+  "superseded_reported_angle_deg": 166.67,
+  "confirmation": "2026-11-05 用户确认：按现有 CAD 的约 166.07°；不把此前 166.67°作为目标角覆盖。",
+  "dxf_line_angle_search_tolerance_deg": 0.002,
+  "normal_rotation_check_tolerance_deg": 0.000001,
+  "fractions": [0, 0.25, 0.5, 0.75, 1]
+}

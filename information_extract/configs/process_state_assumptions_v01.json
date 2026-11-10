@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "confirmed_on": "2026-11-02",
+  "scope": "project process-state design",
+  "within_station_execution": "SIMULTANEOUS",
+  "source": "User confirmed that all operations in the same station form simultaneously.",
+  "trajectory_parameterization": "NOT_YET_DEFINED",
+  "implementation_status": "RECORDED_FOR_FUTURE_3D_STATE_CHECKS"
+}

@@ -1,0 +1,541 @@
+{
+  "config": {
+    "schema_version": "m3.review.v0.8",
+    "batch_id": "P001_R02",
+    "blind_plan_prefix": "R02_PLAN_",
+    "comparison_prefix": "R02_CMP_",
+    "seeds": {
+      "whole_pair_cycle": 202610151,
+      "plan_blinding": 202610152,
+      "comparison_blinding": 202610153
+    },
+    "whole_comparisons": {
+      "method": "seeded_cycle",
+      "expected_selected_count": 16
+    },
+    "local_comparisons": {
+      "include_all_unique": true
+    },
+    "previews": {
+      "stations": [
+        "OP20",
+        "OP30"
+      ],
+      "whole_count": 1,
+      "local_count": 1
+    }
+  },
+  "audit": {
+    "group_counts": {
+      "WHOLE": 16,
+      "LOCAL": 13
+    },
+    "unique_plan_count": 29,
+    "whole_plan_degree": {
+      "RF_057": 2,
+      "RF_034": 2,
+      "RF_024": 2,
+      "RF_019": 2,
+      "RF_011": 2,
+      "RF_032": 2,
+      "RF_001": 2,
+      "RF_059": 2,
+      "RF_013": 2,
+      "RF_025": 2,
+      "RF_037": 2,
+      "RF_023": 2,
+      "RF_047": 2,
+      "RF_014": 2,
+      "RF_041": 2,
+      "RF_027": 2
+    },
+    "all_selected_have_two_whole_comparisons": true,
+    "unique_unordered_pair_count": 29,
+    "local_same_role_on_A": 3,
+    "uses_reference": false,
+    "uses_soft_scores": false,
+    "limitation": "Local comparisons share a generated base; overlapping plans are not independent training observations"
+  },
+  "comparisons": [
+    {
+      "internal_plan_1": "RF_011",
+      "internal_plan_2": "RF_032",
+      "group": "WHOLE",
+      "comparison_id": "R02_CMP_001",
+      "internal_plan_left": "RF_011",
+      "internal_plan_right": "RF_032",
+      "internal_plan_A": "RF_032",
+      "internal_plan_B": "RF_011",
+      "blind_plan_A": "R02_PLAN_16",
+      "blind_plan_B": "R02_PLAN_06",
+      "assignment_distance_raw": 49
+    },
+    {
+      "internal_plan_1": "RF_027",
+      "internal_plan_2": "RF_057",
+      "group": "WHOLE",
+      "comparison_id": "R02_CMP_002",
+      "internal_plan_left": "RF_027",
+      "internal_plan_right": "RF_057",
+      "internal_plan_A": "RF_057",
+      "internal_plan_B": "RF_027",
+      "blind_plan_A": "R02_PLAN_03",
+      "blind_plan_B": "R02_PLAN_04",
+      "assignment_distance_raw": 58
+    },
+    {
+      "internal_plan_1": "RF_032",
+      "internal_plan_2": "RF_001",
+      "group": "WHOLE",
+      "comparison_id": "R02_CMP_003",
+      "internal_plan_left": "RF_032",
+      "internal_plan_right": "RF_001",
+      "internal_plan_A": "RF_032",
+      "internal_plan_B": "RF_001",
+      "blind_plan_A": "R02_PLAN_16",
+      "blind_plan_B": "R02_PLAN_18",
+      "assignment_distance_raw": 48
+    },
+    {
+      "internal_plan_1": "RF_001",
+      "internal_plan_2": "RF_059",
+      "group": "WHOLE",
+      "comparison_id": "R02_CMP_004",
+      "internal_plan_left": "RF_001",
+      "internal_plan_right": "RF_059",
+      "internal_plan_A": "RF_001",
+      "internal_plan_B": "RF_059",
+      "blind_plan_A": "R02_PLAN_18",
+      "blind_plan_B": "R02_PLAN_12",
+      "assignment_distance_raw": 52
+    },
+    {
+      "internal_plan_1": "RF_041",
+      "internal_plan_2": "RF_027",
+      "group": "WHOLE",
+      "comparison_id": "R02_CMP_005",
+      "internal_plan_left": "RF_041",
+      "internal_plan_right": "RF_027",
+      "internal_plan_A": "RF_027",
+      "internal_plan_B": "RF_041",
+      "blind_plan_A": "R02_PLAN_04",
+      "blind_plan_B": "R02_PLAN_29",
+      "assignment_distance_raw": 49
+    },
+    {
+      "internal_plan_1": "RF_013",
+      "internal_plan_2": "LC_008_DIFFERENT",
+      "group": "LOCAL",
+      "source_contrast_id": "LC_008",
+      "focus_pairs": [
+        [
+          "O003",
+          "O101"
+        ]
+      ],
+      "comparison_id": "R02_CMP_006",
+      "internal_plan_left": "RF_013",
+      "internal_plan_right": "LC_008_DIFFERENT",
+      "internal_plan_A": "LC_008_DIFFERENT",
+      "internal_plan_B": "RF_013",
+      "blind_plan_A": "R02_PLAN_26",
+      "blind_plan_B": "R02_PLAN_13",
+      "assignment_distance_raw": 1
+    },
+    {
+      "internal_plan_1": "RF_013",
+      "internal_plan_2": "LC_001_DIFFERENT",
+      "group": "LOCAL",
+      "source_contrast_id": "LC_001",
+      "focus_pairs": [
+        [
+          "O015",
+          "O196"
+        ],
+        [
+          "O035",
+          "O196"
+        ],
+        [
+          "O031",
+          "O196"
+        ],
+        [
+          "O054",
+          "O196"
+        ]
+      ],
+      "comparison_id": "R02_CMP_007",
+      "internal_plan_left": "RF_013",
+      "internal_plan_right": "LC_001_DIFFERENT",
+      "internal_plan_A": "RF_013",
+      "internal_plan_B": "LC_001_DIFFERENT",
+      "blind_plan_A": "R02_PLAN_13",
+      "blind_plan_B": "R02_PLAN_01",
+      "assignment_distance_raw": 1
+    },
+    {
+      "internal_plan_1": "RF_047",
+      "internal_plan_2": "RF_014",
+      "group": "WHOLE",
+      "comparison_id": "R02_CMP_008",
+      "internal_plan_left": "RF_047",
+      "internal_plan_right": "RF_014",
+      "internal_plan_A": "RF_047",
+      "internal_plan_B": "RF_014",
+      "blind_plan_A": "R02_PLAN_07",
+      "blind_plan_B": "R02_PLAN_02",
+      "assignment_distance_raw": 48
+    },
+    {
+      "internal_plan_1": "RF_057",
+      "internal_plan_2": "RF_034",
+      "group": "WHOLE",
+      "comparison_id": "R02_CMP_009",
+      "internal_plan_left": "RF_057",
+      "internal_plan_right": "RF_034",
+      "internal_plan_A": "RF_034",
+      "internal_plan_B": "RF_057",
+      "blind_plan_A": "R02_PLAN_24",
+      "blind_plan_B": "R02_PLAN_03",
+      "assignment_distance_raw": 51
+    },
+    {
+      "internal_plan_1": "LC_012_SAME",
+      "internal_plan_2": "RF_013",
+      "group": "LOCAL",
+      "source_contrast_id": "LC_012",
+      "focus_pairs": [
+        [
+          "O135",
+          "O203"
+        ]
+      ],
+      "comparison_id": "R02_CMP_010",
+      "internal_plan_left": "LC_012_SAME",
+      "internal_plan_right": "RF_013",
+      "internal_plan_A": "RF_013",
+      "internal_plan_B": "LC_012_SAME",
+      "blind_plan_A": "R02_PLAN_13",
+      "blind_plan_B": "R02_PLAN_15",
+      "assignment_distance_raw": 1
+    },
+    {
+      "internal_plan_1": "RF_013",
+      "internal_plan_2": "RF_025",
+      "group": "WHOLE",
+      "comparison_id": "R02_CMP_011",
+      "internal_plan_left": "RF_013",
+      "internal_plan_right": "RF_025",
+      "internal_plan_A": "RF_025",
+      "internal_plan_B": "RF_013",
+      "blind_plan_A": "R02_PLAN_10",
+      "blind_plan_B": "R02_PLAN_13",
+      "assignment_distance_raw": 46
+    },
+    {
+      "internal_plan_1": "LC_011_SAME",
+      "internal_plan_2": "RF_013",
+      "group": "LOCAL",
+      "source_contrast_id": "LC_011",
+      "focus_pairs": [
+        [
+          "O006",
+          "O155"
+        ]
+      ],
+      "comparison_id": "R02_CMP_012",
+      "internal_plan_left": "LC_011_SAME",
+      "internal_plan_right": "RF_013",
+      "internal_plan_A": "LC_011_SAME",
+      "internal_plan_B": "RF_013",
+      "blind_plan_A": "R02_PLAN_23",
+      "blind_plan_B": "R02_PLAN_13",
+      "assignment_distance_raw": 1
+    },
+    {
+      "internal_plan_1": "RF_059",
+      "internal_plan_2": "RF_013",
+      "group": "WHOLE",
+      "comparison_id": "R02_CMP_013",
+      "internal_plan_left": "RF_059",
+      "internal_plan_right": "RF_013",
+      "internal_plan_A": "RF_059",
+      "internal_plan_B": "RF_013",
+      "blind_plan_A": "R02_PLAN_12",
+      "blind_plan_B": "R02_PLAN_13",
+      "assignment_distance_raw": 53
+    },
+    {
+      "internal_plan_1": "LC_007_SAME",
+      "internal_plan_2": "RF_013",
+      "group": "LOCAL",
+      "source_contrast_id": "LC_007",
+      "focus_pairs": [
+        [
+          "O086",
+          "O198"
+        ]
+      ],
+      "comparison_id": "R02_CMP_014",
+      "internal_plan_left": "LC_007_SAME",
+      "internal_plan_right": "RF_013",
+      "internal_plan_A": "LC_007_SAME",
+      "internal_plan_B": "RF_013",
+      "blind_plan_A": "R02_PLAN_05",
+      "blind_plan_B": "R02_PLAN_13",
+      "assignment_distance_raw": 1
+    },
+    {
+      "internal_plan_1": "RF_014",
+      "internal_plan_2": "RF_041",
+      "group": "WHOLE",
+      "comparison_id": "R02_CMP_015",
+      "internal_plan_left": "RF_014",
+      "internal_plan_right": "RF_041",
+      "internal_plan_A": "RF_041",
+      "internal_plan_B": "RF_014",
+      "blind_plan_A": "R02_PLAN_29",
+      "blind_plan_B": "R02_PLAN_02",
+      "assignment_distance_raw": 59
+    },
+    {
+      "internal_plan_1": "RF_013",
+      "internal_plan_2": "LC_004_DIFFERENT",
+      "group": "LOCAL",
+      "source_contrast_id": "LC_004",
+      "focus_pairs": [
+        [
+          "O105",
+          "O211"
+        ]
+      ],
+      "comparison_id": "R02_CMP_016",
+      "internal_plan_left": "RF_013",
+      "internal_plan_right": "LC_004_DIFFERENT",
+      "internal_plan_A": "LC_004_DIFFERENT",
+      "internal_plan_B": "RF_013",
+      "blind_plan_A": "R02_PLAN_28",
+      "blind_plan_B": "R02_PLAN_13",
+      "assignment_distance_raw": 1
+    },
+    {
+      "internal_plan_1": "RF_023",
+      "internal_plan_2": "RF_047",
+      "group": "WHOLE",
+      "comparison_id": "R02_CMP_017",
+      "internal_plan_left": "RF_023",
+      "internal_plan_right": "RF_047",
+      "internal_plan_A": "RF_023",
+      "internal_plan_B": "RF_047",
+      "blind_plan_A": "R02_PLAN_20",
+      "blind_plan_B": "R02_PLAN_07",
+      "assignment_distance_raw": 59
+    },
+    {
+      "internal_plan_1": "RF_034",
+      "internal_plan_2": "RF_024",
+      "group": "WHOLE",
+      "comparison_id": "R02_CMP_018",
+      "internal_plan_left": "RF_034",
+      "internal_plan_right": "RF_024",
+      "internal_plan_A": "RF_034",
+      "internal_plan_B": "RF_024",
+      "blind_plan_A": "R02_PLAN_24",
+      "blind_plan_B": "R02_PLAN_09",
+      "assignment_distance_raw": 46
+    },
+    {
+      "internal_plan_1": "RF_013",
+      "internal_plan_2": "LC_013_DIFFERENT",
+      "group": "LOCAL",
+      "source_contrast_id": "LC_013",
+      "focus_pairs": [
+        [
+          "O019",
+          "O021"
+        ]
+      ],
+      "comparison_id": "R02_CMP_019",
+      "internal_plan_left": "RF_013",
+      "internal_plan_right": "LC_013_DIFFERENT",
+      "internal_plan_A": "LC_013_DIFFERENT",
+      "internal_plan_B": "RF_013",
+      "blind_plan_A": "R02_PLAN_11",
+      "blind_plan_B": "R02_PLAN_13",
+      "assignment_distance_raw": 1
+    },
+    {
+      "internal_plan_1": "LC_003_SAME",
+      "internal_plan_2": "RF_013",
+      "group": "LOCAL",
+      "source_contrast_id": "LC_003",
+      "focus_pairs": [
+        [
+          "O078",
+          "O199"
+        ]
+      ],
+      "comparison_id": "R02_CMP_020",
+      "internal_plan_left": "LC_003_SAME",
+      "internal_plan_right": "RF_013",
+      "internal_plan_A": "RF_013",
+      "internal_plan_B": "LC_003_SAME",
+      "blind_plan_A": "R02_PLAN_13",
+      "blind_plan_B": "R02_PLAN_14",
+      "assignment_distance_raw": 1
+    },
+    {
+      "internal_plan_1": "RF_037",
+      "internal_plan_2": "RF_023",
+      "group": "WHOLE",
+      "comparison_id": "R02_CMP_021",
+      "internal_plan_left": "RF_037",
+      "internal_plan_right": "RF_023",
+      "internal_plan_A": "RF_037",
+      "internal_plan_B": "RF_023",
+      "blind_plan_A": "R02_PLAN_22",
+      "blind_plan_B": "R02_PLAN_20",
+      "assignment_distance_raw": 43
+    },
+    {
+      "internal_plan_1": "RF_025",
+      "internal_plan_2": "RF_037",
+      "group": "WHOLE",
+      "comparison_id": "R02_CMP_022",
+      "internal_plan_left": "RF_025",
+      "internal_plan_right": "RF_037",
+      "internal_plan_A": "RF_025",
+      "internal_plan_B": "RF_037",
+      "blind_plan_A": "R02_PLAN_10",
+      "blind_plan_B": "R02_PLAN_22",
+      "assignment_distance_raw": 46
+    },
+    {
+      "internal_plan_1": "RF_013",
+      "internal_plan_2": "LC_002_DIFFERENT",
+      "group": "LOCAL",
+      "source_contrast_id": "LC_002",
+      "focus_pairs": [
+        [
+          "O049",
+          "O197"
+        ]
+      ],
+      "comparison_id": "R02_CMP_023",
+      "internal_plan_left": "RF_013",
+      "internal_plan_right": "LC_002_DIFFERENT",
+      "internal_plan_A": "LC_002_DIFFERENT",
+      "internal_plan_B": "RF_013",
+      "blind_plan_A": "R02_PLAN_19",
+      "blind_plan_B": "R02_PLAN_13",
+      "assignment_distance_raw": 1
+    },
+    {
+      "internal_plan_1": "LC_010_SAME",
+      "internal_plan_2": "RF_013",
+      "group": "LOCAL",
+      "source_contrast_id": "LC_010",
+      "focus_pairs": [
+        [
+          "O069",
+          "O090"
+        ]
+      ],
+      "comparison_id": "R02_CMP_024",
+      "internal_plan_left": "LC_010_SAME",
+      "internal_plan_right": "RF_013",
+      "internal_plan_A": "RF_013",
+      "internal_plan_B": "LC_010_SAME",
+      "blind_plan_A": "R02_PLAN_13",
+      "blind_plan_B": "R02_PLAN_08",
+      "assignment_distance_raw": 1
+    },
+    {
+      "internal_plan_1": "RF_024",
+      "internal_plan_2": "RF_019",
+      "group": "WHOLE",
+      "comparison_id": "R02_CMP_025",
+      "internal_plan_left": "RF_024",
+      "internal_plan_right": "RF_019",
+      "internal_plan_A": "RF_024",
+      "internal_plan_B": "RF_019",
+      "blind_plan_A": "R02_PLAN_09",
+      "blind_plan_B": "R02_PLAN_17",
+      "assignment_distance_raw": 60
+    },
+    {
+      "internal_plan_1": "LC_006_SAME",
+      "internal_plan_2": "RF_013",
+      "group": "LOCAL",
+      "source_contrast_id": "LC_006",
+      "focus_pairs": [
+        [
+          "O127",
+          "O204"
+        ]
+      ],
+      "comparison_id": "R02_CMP_026",
+      "internal_plan_left": "LC_006_SAME",
+      "internal_plan_right": "RF_013",
+      "internal_plan_A": "RF_013",
+      "internal_plan_B": "LC_006_SAME",
+      "blind_plan_A": "R02_PLAN_13",
+      "blind_plan_B": "R02_PLAN_21",
+      "assignment_distance_raw": 1
+    },
+    {
+      "internal_plan_1": "RF_013",
+      "internal_plan_2": "LC_009_DIFFERENT",
+      "group": "LOCAL",
+      "source_contrast_id": "LC_009",
+      "focus_pairs": [
+        [
+          "O178",
+          "O200"
+        ]
+      ],
+      "comparison_id": "R02_CMP_027",
+      "internal_plan_left": "RF_013",
+      "internal_plan_right": "LC_009_DIFFERENT",
+      "internal_plan_A": "LC_009_DIFFERENT",
+      "internal_plan_B": "RF_013",
+      "blind_plan_A": "R02_PLAN_25",
+      "blind_plan_B": "R02_PLAN_13",
+      "assignment_distance_raw": 1
+    },
+    {
+      "internal_plan_1": "RF_019",
+      "internal_plan_2": "RF_011",
+      "group": "WHOLE",
+      "comparison_id": "R02_CMP_028",
+      "internal_plan_left": "RF_019",
+      "internal_plan_right": "RF_011",
+      "internal_plan_A": "RF_011",
+      "internal_plan_B": "RF_019",
+      "blind_plan_A": "R02_PLAN_06",
+      "blind_plan_B": "R02_PLAN_17",
+      "assignment_distance_raw": 48
+    },
+    {
+      "internal_plan_1": "LC_005_SAME",
+      "internal_plan_2": "RF_013",
+      "group": "LOCAL",
+      "source_contrast_id": "LC_005",
+      "focus_pairs": [
+        [
+          "O117",
+          "O208"
+        ]
+      ],
+      "comparison_id": "R02_CMP_029",
+      "internal_plan_left": "LC_005_SAME",
+      "internal_plan_right": "RF_013",
+      "internal_plan_A": "RF_013",
+      "internal_plan_B": "LC_005_SAME",
+      "blind_plan_A": "R02_PLAN_13",
+      "blind_plan_B": "R02_PLAN_27",
+      "assignment_distance_raw": 1
+    }
+  ]
+}

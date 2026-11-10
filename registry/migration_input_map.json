@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "old": "D:\\sheet_process_assignment\\data\\raw\\钣金加工数据表_P001.xlsx",
+      "path": "data/parts/P001/钣金加工数据表_P001.xlsx",
+      "sha256": "7c5453471547a1fa56510bf650a53f5b8a31b8089c53505196bc045bfe794259"
+    },
+    {
+      "old": "D:\\sheet_process_assignment\\data\\raw\\reconstructed_local.html",
+      "path": "information_extract/sources/P001/legacy_outline.html",
+      "sha256": "ba03173e4a62abe7c6b13eb0bbb954458f5d4580539deceabcbef6a84869c11d"
+    },
+    {
+      "old": "C:\\Users\\hulin\\Desktop\\图纸文件夹\\P001\\P001.dxf",
+      "path": "information_extract/sources/P001/process_drawing.dxf",
+      "sha256": "f3a805effd19864bdf1f82fdf8881ecdfbdbd1a566b414685cc79a4027fa4fef"
+    },
+    {
+      "old": "D:\\sheet_process_assignment\\information_extract\\outputs\\cad_single_solid_20261103\\P001\\P001_formed_single.stp",
+      "path": "information_extract/sources/P001/formed.step",
+      "sha256": "94575e1417e6ca4a36e5f330bc231997c6a4f6139fc5b1285531141ee5f9a941"
+    },
+    {
+      "old": "D:\\sheet_process_assignment\\information_extract\\Plotview 1.dxf",
+      "path": "information_extract/sources/P001/Plotview 1.dxf",
+      "sha256": "180a7761767ed99402df43516d71403b61fa1dcc725363a190aa4e51d16365ef"
+    },
+    {
+      "old": "D:\\sheet_process_assignment\\information_extract\\P002_1.dxf",
+      "path": "information_extract/sources/P002/P002_1.dxf",
+      "sha256": "a89cbdbde22fccb33d4cde2dd213a728d3cc5c56552b6fbf02686e11b58a894f"
+    },
+    {
+      "old": "D:\\sheet_process_assignment\\information_extract\\P003_1.dxf",
+      "path": "information_extract/sources/P003/P003_1.dxf",
+      "sha256": "965faf8f25b14be2fe9d307bd9093680391b2327bc0401789829ddcf96b2d481"
+    },
+    {
+      "old": "D:\\sheet_process_assignment\\information_extract\\P004.dxf",
+      "path": "information_extract/sources/P004/P004.dxf",
+      "sha256": "623df0e24fbb7348b96767b75f66af68c9e1943e1c881e04d0974c1deadd1a33"
+    },
+    {
+      "old": "D:\\sheet_process_assignment\\information_extract\\P004_01.dxf",
+      "path": "information_extract/sources/P004/P004_01.dxf",
+      "sha256": "38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3"
+    },
+    {
+      "old": "D:\\sheet_process_assignment\\outputs\\selected_plans_v02\\all_16_complete_assignments.json",
+      "path": "baselines/P001/plans/all_16_complete_assignments.json",
+      "sha256": "a1d17218fc9e0e53d4d9c2dc05f728a2a64e98c9b0ac2da94ebf36bfe708d5e9"
+    },
+    {
+      "old": "C:\\Users\\hulin\\Desktop\\图纸文件夹\\P001\\101-11-1-1(AE8M1101-S010) - 工艺预排.wkf",
+      "path": "information_extract/sources/P001/originals/101-11-1-1(AE8M1101-S010) - 工艺预排.wkf",
+      "sha256": "03c836d1bc67de4d147d3529b31b995b61a2d4a3c08ca0b30482e0992cd21f2d"
+    },
+    {
+      "old": "C:\\Users\\hulin\\Desktop\\图纸文件夹\\P001\\D002-A1313(A7991437-00A)A00排样图.dwg",
+      "path": "information_extract/sources/P001/originals/D002-A1313(A7991437-00A)A00排样图.dwg",
+      "sha256": "865faebd5a1e6e50549be674c030d2af9440492ec06041e89b925d3b415d76b7"
+    },
+    {
+      "old": "C:\\Users\\hulin\\Desktop\\图纸文件夹\\P001\\P001_formed.stp",
+      "path": "information_extract/sources/P001/originals/P001_formed.stp",
+      "sha256": "14412ff83c5a8efb7c530bf91b88f70b552675990dac2d40e0a4dfb69ab5f3af"
+    },
+    {
+      "old": "C:\\Users\\hulin\\Desktop\\图纸文件夹\\P001\\P001_formed.x_t",
+      "path": "information_extract/sources/P001/originals/P001_formed.x_t",
+      "sha256": "85019574654f0e2d190f839e8979db65dbd9733f40f5cd453c76b893862680c9"
+    },
+    {
+      "old": "C:\\Users\\hulin\\Desktop\\图纸文件夹\\P001\\P001_formed_single.stp",
+      "path": "information_extract/sources/P001/originals/P001_formed_single.stp",
+      "sha256": "94575e1417e6ca4a36e5f330bc231997c6a4f6139fc5b1285531141ee5f9a941"
+    },
+    {
+      "old": "C:\\Users\\hulin\\Desktop\\图纸文件夹\\P001\\钣金加工数据表_P001.xlsx",
+      "path": "information_extract/sources/P001/originals/钣金加工数据表_P001.xlsx",
+      "sha256": "7c5453471547a1fa56510bf650a53f5b8a31b8089c53505196bc045bfe794259"
+    },
+    {
+      "old": "C:\\Users\\hulin\\Desktop\\图纸文件夹\\P002\\D002-S0208-1-10-10-10(AE8M1101-S010)-排样图-2026.1.7.dwg",
+      "path": "information_extract/sources/P002/originals/D002-S0208-1-10-10-10(AE8M1101-S010)-排样图-2026.1.7.dwg",
+      "sha256": "429b26e6a40fa75100e7f2d9d9bd8716bfc2d0f80c461a06986da656c4915076"
+    },
+    {
+      "old": "C:\\Users\\hulin\\Desktop\\图纸文件夹\\P002\\D002-S0208-AE8M1101展开.wkf",
+      "path": "information_extract/sources/P002/originals/D002-S0208-AE8M1101展开.wkf",
+      "sha256": "149f25fdc10e7bcdea9c5377a27e60fb3fdad959a22c0c67f5fd06be1079dead"
+    },
+    {
+      "old": "C:\\Users\\hulin\\Desktop\\图纸文件夹\\P002\\钣金加工数据表_P002.xlsx",
+      "path": "data/parts/P002/钣金加工数据表_P002.xlsx",
+      "sha256": "b60ea9dc9313716109aba863c6d2ae8ecb4061ee2b9b27798561f1a43e821b07"
+    },
+    {
+      "old": "C:\\Users\\hulin\\Desktop\\图纸文件夹\\P003\\101-11-1-1(AC4G1046-01C).wkf",
+      "path": "information_extract/sources/P003/originals/101-11-1-1(AC4G1046-01C).wkf",
+      "sha256": "bf488a95dcfc83487771b75711f88cf3996a255deaa1a611de1eb1f3ad0b00c5"
+    },
+    {
+      "old": "C:\\Users\\hulin\\Desktop\\图纸文件夹\\P003\\D002-A0873-1-7-7-7(AC4G1046-00A)01B排样图.dwg",
+      "path": "information_extract/sources/P003/originals/D002-A0873-1-7-7-7(AC4G1046-00A)01B排样图.dwg",
+      "sha256": "071066a59013a0377535f2d6ef5a5e3e0ce1d077a7fc0c696c08c0c674814086"
+    },
+    {
+      "old": "C:\\Users\\hulin\\Desktop\\图纸文件夹\\P003\\钣金加工数据表_P003.xlsx",
+      "path": "data/parts/P003/钣金加工数据表_P003.xlsx",
+      "sha256": "b269bf911e8964a514b8ba4f9b0f3fa4bf8394db016b6a83e477c9be6b863647"
+    },
+    {
+      "old": "C:\\Users\\hulin\\Desktop\\图纸文件夹\\P004\\101--1-1()Strip-Layout-V00(2026.10.19).wkf",
+      "path": "information_extract/sources/P004/originals/101--1-1()Strip-Layout-V00(2026.10.19).wkf",
+      "sha256": "5b5f48119ec0f899163ccf6ef1338dd71a105bb231246630bb4b6e498e7ec342"
+    },
+    {
+      "old": "C:\\Users\\hulin\\Desktop\\图纸文件夹\\P004\\D004-S0088（195701800)-A00料带.dwg",
+      "path": "information_extract/sources/P004/originals/D004-S0088（195701800)-A00料带.dwg",
+      "sha256": "6ae72b220188e1ea91365225ea4e5c7b70a4f49d610de5e99c12f90e5a4f63bb"
+    }
+  ]
+}

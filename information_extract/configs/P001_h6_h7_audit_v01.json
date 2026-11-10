@@ -1,0 +1,10 @@
+{
+  "workbook": "../data/parts/P001/钣金加工数据表_P001.xlsx",
+  "stage_data": "outputs/stage_review_v01/P001/stage_data.json",
+  "candidate_file": "../outputs/selected_plans_v02/all_16_complete_assignments.json",
+  "local_collision_report": "outputs/local_collision_v01/P001/report.json",
+  "output": "outputs/h6_h7_audit_v01/P001",
+  "stage_sample_fractions": [0.0, 0.25, 0.5, 0.75, 1.0],
+  "coordinate_tolerance_mm": 0.000001,
+  "pair_examples_per_stage": 8
+}

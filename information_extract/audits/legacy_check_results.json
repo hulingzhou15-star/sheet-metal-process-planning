@@ -1,0 +1,149 @@
+{
+  "scope": "legacy reuse audit only; no application implementation or candidate generation",
+  "python": "C:\\Users\\hulin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "ezdxf_version": "1.4.4",
+  "legacy_root": "C:\\Users\\hulin\\Desktop\\新建文件夹\\dxf_extractor",
+  "regression": {
+    "files": [
+      "test_extractor.py",
+      "test_candidate_coordinates.py",
+      "test_reconstruction.py"
+    ],
+    "tests_run": 42,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true
+  },
+  "p001": {
+    "source": "D:\\sheet_process_assignment\\information_extract\\Plotview 1.dxf",
+    "sha256": "180a7761767ed99402df43516d71403b61fa1dcc725363a190aa4e51d16365ef",
+    "dxf_version": "AC1032",
+    "insunits": 4,
+    "stats": {
+      "top_level_insert_count": 1,
+      "block_count_including_layouts": 5,
+      "block_definition_count": 3,
+      "referenced_block_count": 1,
+      "unused_block_definitions": [
+        "*D1",
+        "_Open30"
+      ],
+      "insert_instance_count": 1,
+      "encountered_entity_counts": {
+        "INSERT": 1,
+        "CIRCLE": 160,
+        "LINE": 763,
+        "ARC": 276,
+        "LWPOLYLINE": 118
+      },
+      "accepted_source_entity_counts": {
+        "CIRCLE": 160,
+        "LINE": 763,
+        "ARC": 276,
+        "LWPOLYLINE": 118
+      },
+      "polyline_segment_counts": {
+        "LINE": 1050,
+        "ARC": 4
+      },
+      "raw_segment_counts": {
+        "CIRCLE": 160,
+        "LINE": 1813,
+        "ARC": 280
+      },
+      "raw_row_count": 2253,
+      "candidate_count": 1317,
+      "geometry_row_count": 2253,
+      "rejected_source_count": 0,
+      "closed_polyline_count": 2,
+      "hidden_raw_row_count": 0,
+      "issue_counts": {}
+    },
+    "validation": {
+      "passed": true,
+      "checks": {
+        "circles_checked": 160,
+        "independent_line_direction_local": 763,
+        "independent_horizontal_lines": 359,
+        "arcs_checked": 280,
+        "independent_vertical_lines": 404,
+        "polylines_checked": 118,
+        "polyline_connections_checked": 938,
+        "local_polyline_connections_checked": 938,
+        "closed_polylines_checked": 2,
+        "local_closed_polylines_checked": 2
+      },
+      "failures": []
+    },
+    "dxf_audit": {
+      "errors": [],
+      "fixes": []
+    },
+    "issues": [],
+    "frames": [
+      {
+        "block_name": "Plotview 1",
+        "insert_path": "76[0]",
+        "rotation": 270.0,
+        "xscale": 1,
+        "yscale": 1,
+        "transform_matrix_json": "[-1.8369701987210297e-16,-1.0,0.0,0.0,1.0,-1.8369701987210297e-16,0.0,0.0,0.0,0.0,1.0,0.0,2628.063991373277,783.706514878159,0.0,1.0]"
+      }
+    ],
+    "local_coordinate_checks": {
+      "rows_with_local_coordinates": 2253,
+      "rows_without_target_block": 0,
+      "inverse_point_checks": 4626,
+      "max_wcs_roundtrip_error": 1.1368683772161603e-13,
+      "max_local_abs_z": 0.0,
+      "radius_and_sweep_coordinate_system": "WCS; unchanged from the existing geometry schema"
+    },
+    "viewer_linear_transform": [
+      -1.8369701987210297e-16,
+      1.0,
+      -1.0,
+      -1.8369701987210297e-16
+    ]
+  },
+  "scaled_circle_contract_probe": {
+    "input_local_radius": 4,
+    "insert_scale": 2,
+    "output_local_center": [
+      2.0,
+      3.0
+    ],
+    "output_radius_in_wcs": 8.0,
+    "legacy_viewer_rejects_nonunit_frame": true,
+    "viewer_message": "当前重建器使用局部半径/角度等于 WCS 的单位比例、保向 XY 块；其它变换须先明确局部圆弧参数。",
+    "interpretation": "Local point fields must not be combined with WCS radius/sweep without a frame adapter."
+  },
+  "protected_files": {
+    "C:\\Users\\hulin\\Desktop\\新建文件夹\\dxf_extractor\\README.md": "0c986f70eec4b75c830a3d9b0fc0836b91c87630b63f6b711110ceccb5461e8e",
+    "C:\\Users\\hulin\\Desktop\\新建文件夹\\dxf_extractor\\requirements.txt": "47869d366d4f24b8ee008205075dab63927bb82ed928059f1caaf24a97115d49",
+    "C:\\Users\\hulin\\Desktop\\新建文件夹\\dxf_extractor\\dxf_loader.py": "bae7d9f99d56e6a0856348c31538225db82791caf28dc70b924cf3b3074f51f9",
+    "C:\\Users\\hulin\\Desktop\\新建文件夹\\dxf_extractor\\extractor.py": "1adc65e507840614fee2aa51c18f66c4d5b9ac28494a073b734cb68b71c16e6c",
+    "C:\\Users\\hulin\\Desktop\\新建文件夹\\dxf_extractor\\entity_parser.py": "3bd80e32da904dbddf50d3aca1a039d99886006ece1e9a725427fb8e8bc0b1d7",
+    "C:\\Users\\hulin\\Desktop\\新建文件夹\\dxf_extractor\\transform.py": "3397028084831a007449974ced8a1890393a724f43bea5cab5169fe6729a6c67",
+    "C:\\Users\\hulin\\Desktop\\新建文件夹\\dxf_extractor\\candidate_coordinates.py": "36832344b16b98315628fd846b5663d4847f3142ed48964fb5d139025828ebdd",
+    "C:\\Users\\hulin\\Desktop\\新建文件夹\\dxf_extractor\\validate.py": "a66a9ba1ff3c544589bf07964e9be4696bae370d267ae5ac2053fc1cc570308c",
+    "C:\\Users\\hulin\\Desktop\\新建文件夹\\dxf_extractor\\main.py": "bb6ed75297957ac59827af6630f9d8bea24ff2855bc69f8e4e321576f85705c5",
+    "C:\\Users\\hulin\\Desktop\\新建文件夹\\dxf_extractor\\export_excel.py": "8b8c9bb5fa29fea25c931492888ef217e52a3373d9d7c013f4c5c331b30bfc12",
+    "C:\\Users\\hulin\\Desktop\\新建文件夹\\dxf_extractor\\manual_coordinate_validation.py": "f43682ddbc6fee0a04c4288bfc64731804eccc2d8312bfcf3b9e3d38a7b199e3",
+    "C:\\Users\\hulin\\Desktop\\新建文件夹\\dxf_extractor\\reconstruct.py": "4b50934cdf9c86312e8a617c911140dd839ce8eb7cc1747844efea29a0d73a5b",
+    "C:\\Users\\hulin\\Desktop\\新建文件夹\\dxf_extractor\\reconstruction_viewer.js": "ddd842ea951960087ab4faa6a8b94663cabda9e2b70fb542f0054bf6964e1000",
+    "C:\\Users\\hulin\\Desktop\\新建文件夹\\dxf_extractor\\reconstruction_viewer.html": "c887529e69639b621cf96042a936c5f511fb09eaf689287c0f5654f74205b6e2",
+    "C:\\Users\\hulin\\Desktop\\新建文件夹\\dxf_extractor\\tests\\test_extractor.py": "2786944cdd32a116acad9590813a6f1e46976fca765c460420a3f7973cb73471",
+    "C:\\Users\\hulin\\Desktop\\新建文件夹\\dxf_extractor\\tests\\test_candidate_coordinates.py": "ce6304dba82b86db1d6425d6cb1892c9a605a68f06ed61d3835f1ac855227df8",
+    "C:\\Users\\hulin\\Desktop\\新建文件夹\\dxf_extractor\\tests\\test_reconstruction.py": "bebee937c5e8383c64bdc9fd15893e83c8a21ccdf60589619a7b83f4f6c6dc7d",
+    "D:\\sheet_process_assignment\\information_extract\\Plotview 1.dxf": "180a7761767ed99402df43516d71403b61fa1dcc725363a190aa4e51d16365ef"
+  },
+  "protected_files_unchanged": true,
+  "changed_files": [],
+  "not_tested": [
+    "legacy Excel writer and Node package setup",
+    "real browser interactions",
+    "historical special-purpose hole/surface-side/sweep-angle workflows",
+    "new multi-selection, bend grouping, bridge absorption, Sheet5 and annotation persistence"
+  ]
+}

@@ -1,0 +1,59 @@
+test_arc_negative_extrusion_keeps_start_and_clockwise (test_extractor.ExtractionTests.test_arc_negative_extrusion_keeps_start_and_clockwise) ... ok
+test_axis_tolerance_rules (test_extractor.ExtractionTests.test_axis_tolerance_rules) ... ok
+test_block_basepoint_nested_order_scale_rotation (test_extractor.ExtractionTests.test_block_basepoint_nested_order_scale_rotation) ... ok
+test_bulge_ocs_and_mirror_cancels_orientation (test_extractor.ExtractionTests.test_bulge_ocs_and_mirror_cancels_orientation) ... ok
+test_circle_negative_extrusion_then_270_rotation (test_extractor.ExtractionTests.test_circle_negative_extrusion_then_270_rotation) ... ok
+test_closed_capsule_keeps_original_sequence (test_extractor.ExtractionTests.test_closed_capsule_keeps_original_sequence) ... ok
+test_cycle_and_missing_block_reported (test_extractor.ExtractionTests.test_cycle_and_missing_block_reported) ... ok
+test_duplicate_block_instances_and_minsert_have_distinct_ids (test_extractor.ExtractionTests.test_duplicate_block_instances_and_minsert_have_distinct_ids) ... ok
+test_enabled_xclip_is_reported_and_not_silently_ignored (test_extractor.ExtractionTests.test_enabled_xclip_is_reported_and_not_silently_ignored) ... ok
+test_independent_line_normalized_raw_preserved (test_extractor.ExtractionTests.test_independent_line_normalized_raw_preserved) ... ok
+test_insert_negative_extrusion (test_extractor.ExtractionTests.test_insert_negative_extrusion) ... ok
+test_last_bulge_used_only_when_closed (test_extractor.ExtractionTests.test_last_bulge_used_only_when_closed) ... ok
+test_layer_and_byblock_color_linetype_inheritance (test_extractor.ExtractionTests.test_layer_and_byblock_color_linetype_inheritance) ... ok
+test_line_wcs_not_ocs (test_extractor.ExtractionTests.test_line_wcs_not_ocs) ... ok
+test_major_arc_and_wrap (test_extractor.ExtractionTests.test_major_arc_and_wrap) ... ok
+test_mirrored_arc_signed_sweep_and_positive_radius (test_extractor.ExtractionTests.test_mirrored_arc_signed_sweep_and_positive_radius) ... ok
+test_negative_bulge_major_arc_keeps_endpoints (test_extractor.ExtractionTests.test_negative_bulge_major_arc_keeps_endpoints) ... ok
+test_nested_nonuniform_scales_cancel (test_extractor.ExtractionTests.test_nested_nonuniform_scales_cancel) ... ok
+test_no_reuse_of_nonempty_output_directory (test_extractor.ExtractionTests.test_no_reuse_of_nonempty_output_directory) ... usage: check_legacy_extractor.py [-h] [--reference-excel REFERENCE_EXCEL]
+                                 [--output-dir OUTPUT_DIR]
+                                 [--tolerance TOLERANCE]
+                                 [--relative-tolerance RELATIVE_TOLERANCE]
+                                 [--samples SAMPLES]
+                                 [--sample-seed SAMPLE_SEED]
+                                 [--max-depth MAX_DEPTH]
+                                 [--local-block LOCAL_BLOCK]
+                                 [--update-candidates] [--no-excel]
+                                 [--preview]
+                                 dxf
+check_legacy_extractor.py: error: 输出目录必须为新的空目录，程序拒绝覆盖已有文件。
+ok
+test_nonuniform_circle_and_polyline_rejected_whole (test_extractor.ExtractionTests.test_nonuniform_circle_and_polyline_rejected_whole) ... ok
+test_nonuniform_pure_line_polyline_supported (test_extractor.ExtractionTests.test_nonuniform_pure_line_polyline_supported) ... ok
+test_nonzero_flat_elevation_preserved_and_reported (test_extractor.ExtractionTests.test_nonzero_flat_elevation_preserved_and_reported) ... ok
+test_open_polyline_direction_preserved (test_extractor.ExtractionTests.test_open_polyline_direction_preserved) ... ok
+test_precision_is_not_rounded (test_extractor.ExtractionTests.test_precision_is_not_rounded) ... ok
+test_tilted_and_nonplanar_geometry_rejected (test_extractor.ExtractionTests.test_tilted_and_nonplanar_geometry_rejected) ... ok
+test_unsupported_entities_and_unused_blocks (test_extractor.ExtractionTests.test_unsupported_entities_and_unused_blocks) ... ok
+test_child_block_transform_remains_inside_plotview_coordinates (test_candidate_coordinates.BlockLocalCandidateTests.test_child_block_transform_remains_inside_plotview_coordinates) ... ok
+test_closed_polyline_order_kept_under_mirror (test_candidate_coordinates.BlockLocalCandidateTests.test_closed_polyline_order_kept_under_mirror) ... ok
+test_mirror_nonuniform_scale_and_nonzero_basepoint (test_candidate_coordinates.BlockLocalCandidateTests.test_mirror_nonuniform_scale_and_nonzero_basepoint) ... ok
+test_multiple_array_instances_return_to_same_definition_coordinates (test_candidate_coordinates.BlockLocalCandidateTests.test_multiple_array_instances_return_to_same_definition_coordinates) ... ok
+test_ocs_conversion_is_retained_before_inverse (test_candidate_coordinates.BlockLocalCandidateTests.test_ocs_conversion_is_retained_before_inverse) ... ok
+test_plotview_nested_under_parent_uses_composed_inverse (test_candidate_coordinates.BlockLocalCandidateTests.test_plotview_nested_under_parent_uses_composed_inverse) ... ok
+test_rotation_changes_logical_start_in_both_frames (test_candidate_coordinates.BlockLocalCandidateTests.test_rotation_changes_logical_start_in_both_frames) ... ok
+test_unrelated_geometry_has_blank_local_coordinates (test_candidate_coordinates.BlockLocalCandidateTests.test_unrelated_geometry_has_blank_local_coordinates) ... ok
+test_cubic_circle_error_is_below_excel_precision (test_reconstruction.ReconstructionTests.test_cubic_circle_error_is_below_excel_precision) ... ok
+test_disconnected_segments_are_not_joined (test_reconstruction.ReconstructionTests.test_disconnected_segments_are_not_joined) ... ok
+test_large_parameter_error_is_rejected (test_reconstruction.ReconstructionTests.test_large_parameter_error_is_rejected) ... ok
+test_missing_local_coordinates_never_fall_back_to_wcs (test_reconstruction.ReconstructionTests.test_missing_local_coordinates_never_fall_back_to_wcs) ... ok
+test_rounded_endpoints_remain_exact_without_connectors (test_reconstruction.ReconstructionTests.test_rounded_endpoints_remain_exact_without_connectors) ... ok
+test_seq_order_keeps_existing_path (test_reconstruction.ReconstructionTests.test_seq_order_keeps_existing_path) ... ok
+test_signed_sweep_and_major_arc (test_reconstruction.ReconstructionTests.test_signed_sweep_and_major_arc) ... ok
+test_view_direction_matches_270_degree_cad_and_is_invertible (test_reconstruction.ReconstructionTests.test_view_direction_matches_270_degree_cad_and_is_invertible) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 0.048s
+
+OK

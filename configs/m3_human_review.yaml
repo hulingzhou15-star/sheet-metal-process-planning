@@ -1,0 +1,28 @@
+{
+  "inputs": {"expected_selected_count": 60, "expected_per_bucket": 20},
+  "representatives": {
+    "per_bucket": 4,
+    "typical_statistics_scope": "remaining",
+    "typical_epsilon": 1e-12,
+    "high_load_station": "OP60"
+  },
+  "pairs": {
+    "reference_per_bucket": 2,
+    "within_per_bucket": 2,
+    "adjacent_per_boundary": 3,
+    "challenge_per_kind": 3,
+    "challenge_distance_initial": 5,
+    "challenge_distance_step": 1,
+    "challenge_soft_initial": 0.01,
+    "challenge_soft_step": 0.005
+  },
+  "blinding": {
+    "plan_blinding_seed": 20261012,
+    "comparison_blinding_seed": 20261013,
+    "shuffle_comparison_order": true
+  },
+  "presentation": {
+    "numeric_decimal_places": 6,
+    "initial_open_comparisons": 1
+  }
+}

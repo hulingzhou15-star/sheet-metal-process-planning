@@ -1,0 +1,916 @@
+{
+  "representatives": [
+    {
+      "internal_id": "NEAR_001",
+      "bucket": "NEAR",
+      "selection_role": "LOW_SOFT",
+      "plan_hash": "387e940282fa4218e8ebea9dfd7b7c6cc6b4b46432091d6ee9f8c26eca15aa84",
+      "distance_to_expert_raw": 9,
+      "distance_to_expert_normalized": 0.07964601769911504,
+      "total_soft_penalty": 0.038105022831050224,
+      "soft_components": {
+        "bend_area_ordering": {
+          "raw_component": 0.01986301369863014,
+          "weight": 0.45,
+          "weighted_contribution": 0.008938356164383562
+        },
+        "precedence_extra_gap": {
+          "raw_component": 0.14583333333333331,
+          "weight": 0.2,
+          "weighted_contribution": 0.029166666666666664
+        },
+        "type_fragmentation": {
+          "raw_component": 0.0,
+          "weight": 0.35,
+          "weighted_contribution": 0.0
+        }
+      },
+      "op60_load": 4,
+      "selection_audit": {
+        "criterion": "minimum_total_soft_penalty"
+      },
+      "blind_id": "PLAN_A09"
+    },
+    {
+      "internal_id": "NEAR_005",
+      "bucket": "NEAR",
+      "selection_role": "TYPICAL",
+      "plan_hash": "99e3f8320302d880dc8abd6869707d6428c36ed825af4da2afd2cfca7bed8537",
+      "distance_to_expert_raw": 13,
+      "distance_to_expert_normalized": 0.11504424778761062,
+      "total_soft_penalty": 0.06784246575342466,
+      "soft_components": {
+        "bend_area_ordering": {
+          "raw_component": 0.09520547945205479,
+          "weight": 0.45,
+          "weighted_contribution": 0.04284246575342466
+        },
+        "precedence_extra_gap": {
+          "raw_component": 0.125,
+          "weight": 0.2,
+          "weighted_contribution": 0.025
+        },
+        "type_fragmentation": {
+          "raw_component": 0.0,
+          "weight": 0.35,
+          "weighted_contribution": 0.0
+        }
+      },
+      "op60_load": 4,
+      "selection_audit": {
+        "statistics_scope": "remaining_after_LOW_SOFT",
+        "source_count": 19,
+        "median_distance": 13,
+        "median_soft": 0.06625896934116113,
+        "distance_range": 11,
+        "soft_range": 0.027878343118069138,
+        "epsilon": 1e-12,
+        "candidate_scores": [
+          {
+            "internal_id": "NEAR_002",
+            "z_distance": 0.36363636363636365,
+            "z_soft": 0.25276396607195106,
+            "median_point_distance": 0.4428555379614216,
+            "plan_hash": "08e4ecae386af394c741c389f90fa5448cd03e01e8600681bef408e92d27cb88"
+          },
+          {
+            "internal_id": "NEAR_003",
+            "z_distance": 0.45454545454545453,
+            "z_soft": -0.4525299795261777,
+            "median_point_distance": 0.6414007737895993,
+            "plan_hash": "41f52e82fbf4c2d888295ade83e185a8eea1c8ea0c4c392e5eda028507d4b302"
+          },
+          {
+            "internal_id": "NEAR_004",
+            "z_distance": 0.0,
+            "z_soft": -0.6389587598713077,
+            "median_point_distance": 0.6389587598713077,
+            "plan_hash": "60dbd176570ab1f496896cae31ac2bd11c05377384addbe1f1eb48c2fdc45c10"
+          },
+          {
+            "internal_id": "NEAR_005",
+            "z_distance": 0.0,
+            "z_soft": 0.056800233986545684,
+            "median_point_distance": 0.056800233986545684,
+            "plan_hash": "99e3f8320302d880dc8abd6869707d6428c36ed825af4da2afd2cfca7bed8537"
+          },
+          {
+            "internal_id": "NEAR_006",
+            "z_distance": 0.18181818181818182,
+            "z_soft": 0.15823340157940943,
+            "median_point_distance": 0.24103041429466962,
+            "plan_hash": "35b9f832bd684eee43705d6d4260b26cbbdcfa88ce5adbd9b8408ca3beeafd94"
+          },
+          {
+            "internal_id": "NEAR_007",
+            "z_distance": 0.09090909090909091,
+            "z_soft": 0.2828897338403041,
+            "median_point_distance": 0.29713812330657846,
+            "plan_hash": "9f6712e71ee0d78a11182b73942751ddde8dfce9738ea6ea32152399410555f3"
+          },
+          {
+            "internal_id": "NEAR_008",
+            "z_distance": -0.09090909090909091,
+            "z_soft": -0.46130447499268834,
+            "median_point_distance": 0.4701768618915622,
+            "plan_hash": "b55b51cb6eafe0388228b86d04d74e0d45a8612147822fc2df1cb1c8f5c62e9f"
+          },
+          {
+            "internal_id": "NEAR_009",
+            "z_distance": 0.18181818181818182,
+            "z_soft": -0.06785609827434944,
+            "median_point_distance": 0.1940677750495625,
+            "plan_hash": "ab73464b202bf666072df259d9eefe1cc6ab1b367487f72f78931c2c6e5fd2c0"
+          },
+          {
+            "internal_id": "NEAR_010",
+            "z_distance": 0.5454545454545454,
+            "z_soft": 0.18186604270254436,
+            "median_point_distance": 0.574974711309383,
+            "plan_hash": "bf107c7ebe22125f27c94609ab48af9e6ea261061dbac48a89cbf67d28372b80"
+          },
+          {
+            "internal_id": "NEAR_011",
+            "z_distance": 0.5454545454545454,
+            "z_soft": 0.2577361801696403,
+            "median_point_distance": 0.6032815260933009,
+            "plan_hash": "a8682db35bc7b73be4971b591b50cef5dbbab9f7f8fd9286de595a16acdccb0f"
+          },
+          {
+            "internal_id": "NEAR_012",
+            "z_distance": 0.0,
+            "z_soft": 0.3610412401286923,
+            "median_point_distance": 0.3610412401286923,
+            "plan_hash": "eb98b5bdea63eb848962ff5146553e9caef4bd85f954d8780de95cecd059ed79"
+          },
+          {
+            "internal_id": "NEAR_013",
+            "z_distance": -0.09090909090909091,
+            "z_soft": 0.0,
+            "median_point_distance": 0.09090909090909091,
+            "plan_hash": "4e385871bfb49743515ddb8bd270f69bf54ba5a5692ea6e324fc2b00a32b5c99"
+          },
+          {
+            "internal_id": "NEAR_014",
+            "z_distance": -0.09090909090909091,
+            "z_soft": 0.01450716583796408,
+            "median_point_distance": 0.0920593323382673,
+            "plan_hash": "c85e349024906d4babba61ba6ef350609d72b31c9eedd15b50eb7da0674d2a24"
+          },
+          {
+            "internal_id": "NEAR_015",
+            "z_distance": 0.0,
+            "z_soft": -0.46890903773033105,
+            "median_point_distance": 0.46890903773033105,
+            "plan_hash": "99e5e8da96ece70aaff5a3611a8f5bdecabe05f39dee78ce49db159a3dd099f6"
+          },
+          {
+            "internal_id": "NEAR_016",
+            "z_distance": 0.0,
+            "z_soft": -0.1517402749341916,
+            "median_point_distance": 0.1517402749341916,
+            "plan_hash": "366b8bd5774bcaeded03a886b1599379ca0056d946282faa1842cc33eead5eae"
+          },
+          {
+            "internal_id": "NEAR_017",
+            "z_distance": -0.45454545454545453,
+            "z_soft": -0.5520327581164087,
+            "median_point_distance": 0.7150886212781905,
+            "plan_hash": "834a36f9ba621844e13ab51d9de4115f3532403ab162b93855d73428c1200c54"
+          },
+          {
+            "internal_id": "NEAR_018",
+            "z_distance": -0.18181818181818182,
+            "z_soft": -0.12465633226089512,
+            "median_point_distance": 0.2204473914846989,
+            "plan_hash": "1655289d1f1788f7af0f210a9b4bbb3e4c3b1086b0fa2996add41cf885e5fd2e"
+          },
+          {
+            "internal_id": "NEAR_019",
+            "z_distance": -0.36363636363636365,
+            "z_soft": 0.24896168470312935,
+            "median_point_distance": 0.44069640957114464,
+            "plan_hash": "86df27a4b9d54261ba453ec4e1552ecfd37c3927d97363482384ed5daa9bc95b"
+          },
+          {
+            "internal_id": "NEAR_020",
+            "z_distance": -0.45454545454545453,
+            "z_soft": -0.357589938578532,
+            "median_point_distance": 0.5783443043901549,
+            "plan_hash": "3f6031681df713711830d2380a1ec1493872374cd7385d265ffdb9b4633c544a"
+          }
+        ]
+      },
+      "blind_id": "PLAN_A11"
+    },
+    {
+      "internal_id": "NEAR_015",
+      "bucket": "NEAR",
+      "selection_role": "HIGH_OP60_LOAD",
+      "plan_hash": "99e5e8da96ece70aaff5a3611a8f5bdecabe05f39dee78ce49db159a3dd099f6",
+      "distance_to_expert_raw": 13,
+      "distance_to_expert_normalized": 0.11504424778761062,
+      "total_soft_penalty": 0.05318656229615133,
+      "soft_components": {
+        "bend_area_ordering": {
+          "raw_component": 0.052054794520547946,
+          "weight": 0.45,
+          "weighted_contribution": 0.023424657534246576
+        },
+        "precedence_extra_gap": {
+          "raw_component": 0.14880952380952378,
+          "weight": 0.2,
+          "weighted_contribution": 0.029761904761904757
+        },
+        "type_fragmentation": {
+          "raw_component": 0.0,
+          "weight": 0.35,
+          "weighted_contribution": 0.0
+        }
+      },
+      "op60_load": 7,
+      "selection_audit": {
+        "station_id": "OP60",
+        "criterion": "maximum_station_load_then_penalty_hash"
+      },
+      "blind_id": "PLAN_A04"
+    },
+    {
+      "internal_id": "NEAR_002",
+      "bucket": "NEAR",
+      "selection_role": "DIVERSITY",
+      "plan_hash": "08e4ecae386af394c741c389f90fa5448cd03e01e8600681bef408e92d27cb88",
+      "distance_to_expert_raw": 17,
+      "distance_to_expert_normalized": 0.1504424778761062,
+      "total_soft_penalty": 0.07330560991519897,
+      "soft_components": {
+        "bend_area_ordering": {
+          "raw_component": 0.10205479452054794,
+          "weight": 0.45,
+          "weighted_contribution": 0.04592465753424658
+        },
+        "precedence_extra_gap": {
+          "raw_component": 0.1369047619047619,
+          "weight": 0.2,
+          "weighted_contribution": 0.02738095238095238
+        },
+        "type_fragmentation": {
+          "raw_component": 0.0,
+          "weight": 0.35,
+          "weighted_contribution": 0.0
+        }
+      },
+      "op60_load": 5,
+      "selection_audit": {
+        "against_internal_ids": [
+          "NEAR_001",
+          "NEAR_005",
+          "NEAR_015"
+        ],
+        "candidate_min_distances": {
+          "NEAR_002": 0.21238938053097345,
+          "NEAR_003": 0.20353982300884957,
+          "NEAR_004": 0.17699115044247787,
+          "NEAR_006": 0.19469026548672566,
+          "NEAR_007": 0.18584070796460178,
+          "NEAR_008": 0.18584070796460178,
+          "NEAR_009": 0.17699115044247787,
+          "NEAR_010": 0.17699115044247787,
+          "NEAR_011": 0.17699115044247787,
+          "NEAR_012": 0.17699115044247787,
+          "NEAR_013": 0.168141592920354,
+          "NEAR_014": 0.168141592920354,
+          "NEAR_016": 0.1592920353982301,
+          "NEAR_017": 0.1504424778761062,
+          "NEAR_018": 0.1592920353982301,
+          "NEAR_019": 0.1592920353982301,
+          "NEAR_020": 0.13274336283185842
+        },
+        "selected_min_distance": 0.21238938053097345
+      },
+      "blind_id": "PLAN_A10"
+    },
+    {
+      "internal_id": "MEDIUM_001",
+      "bucket": "MEDIUM",
+      "selection_role": "LOW_SOFT",
+      "plan_hash": "7eda52eebca47ef9c14f4966478e97f4ef6a7014beda1b6b76c14add371d4c5c",
+      "distance_to_expert_raw": 30,
+      "distance_to_expert_normalized": 0.26548672566371684,
+      "total_soft_penalty": 0.05734181343770385,
+      "soft_components": {
+        "bend_area_ordering": {
+          "raw_component": 0.07054794520547945,
+          "weight": 0.45,
+          "weighted_contribution": 0.031746575342465756
+        },
+        "precedence_extra_gap": {
+          "raw_component": 0.12797619047619047,
+          "weight": 0.2,
+          "weighted_contribution": 0.025595238095238095
+        },
+        "type_fragmentation": {
+          "raw_component": 0.0,
+          "weight": 0.35,
+          "weighted_contribution": 0.0
+        }
+      },
+      "op60_load": 7,
+      "selection_audit": {
+        "criterion": "minimum_total_soft_penalty"
+      },
+      "blind_id": "PLAN_A01"
+    },
+    {
+      "internal_id": "MEDIUM_011",
+      "bucket": "MEDIUM",
+      "selection_role": "TYPICAL",
+      "plan_hash": "801d8015096796462fb22b891748c35811e15a2f1bc0bfc2edc24c36d29210f6",
+      "distance_to_expert_raw": 33,
+      "distance_to_expert_normalized": 0.2920353982300885,
+      "total_soft_penalty": 0.0871542726679713,
+      "soft_components": {
+        "bend_area_ordering": {
+          "raw_component": 0.13150684931506848,
+          "weight": 0.45,
+          "weighted_contribution": 0.05917808219178082
+        },
+        "precedence_extra_gap": {
+          "raw_component": 0.13988095238095238,
+          "weight": 0.2,
+          "weighted_contribution": 0.027976190476190477
+        },
+        "type_fragmentation": {
+          "raw_component": 0.0,
+          "weight": 0.35,
+          "weighted_contribution": 0.0
+        }
+      },
+      "op60_load": 7,
+      "selection_audit": {
+        "statistics_scope": "remaining_after_LOW_SOFT",
+        "source_count": 19,
+        "median_distance": 33,
+        "median_soft": 0.08651663405088063,
+        "distance_range": 16,
+        "soft_range": 0.02438193085453358,
+        "epsilon": 1e-12,
+        "candidate_scores": [
+          {
+            "internal_id": "MEDIUM_002",
+            "z_distance": 0.125,
+            "z_soft": -0.1717610862149686,
+            "median_point_distance": 0.21243086107660036,
+            "plan_hash": "3f5abb621e98b00d5759001b02dba59ae17228dd4da5d7d1823bb4805dccaad2"
+          },
+          {
+            "internal_id": "MEDIUM_003",
+            "z_distance": -0.0625,
+            "z_soft": 0.0,
+            "median_point_distance": 0.0625,
+            "plan_hash": "0c57717fd1d294118ac3b99ff717a0839676758114e6bdd5fa82eec49c072aa8"
+          },
+          {
+            "internal_id": "MEDIUM_004",
+            "z_distance": 0.3125,
+            "z_soft": 0.21142398501772464,
+            "median_point_distance": 0.3773014066244321,
+            "plan_hash": "08839e7541d12472094266ff6d0d9e75c1cbc3fbb28b4d7be158aef1d48906d7"
+          },
+          {
+            "internal_id": "MEDIUM_005",
+            "z_distance": 0.5625,
+            "z_soft": 0.3757608186743363,
+            "median_point_distance": 0.6764631866190558,
+            "plan_hash": "91c821f35c9c57f5f7af5cb03a0f11ae1d9f2647feea481f6e9a87302dcbd962"
+          },
+          {
+            "internal_id": "MEDIUM_006",
+            "z_distance": 0.375,
+            "z_soft": -0.6242391813256637,
+            "median_point_distance": 0.7282166954294133,
+            "plan_hash": "82d113a4487298107a0acf4506f83c11418e88f6deec5007998216b6fdcaec55"
+          },
+          {
+            "internal_id": "MEDIUM_007",
+            "z_distance": 0.5625,
+            "z_soft": 0.2183800414687987,
+            "median_point_distance": 0.6034037557986478,
+            "plan_hash": "adb132bbdaecf23ec5c2eeb97d723bdac2d85381c78d8f87c905fa301c86bda4"
+          },
+          {
+            "internal_id": "MEDIUM_008",
+            "z_distance": 0.1875,
+            "z_soft": -0.3892716206273829,
+            "median_point_distance": 0.43207481369071854,
+            "plan_hash": "ae0fd2c2ad5fca8eb4b4914f21202a7e93142abcb04838d22839a756b838170c"
+          },
+          {
+            "internal_id": "MEDIUM_009",
+            "z_distance": -0.0625,
+            "z_soft": -0.04401043408467631,
+            "median_point_distance": 0.07644061949200594,
+            "plan_hash": "3c2b5cd02b79a8d4b500ed2f3679b33f57d21f5559dec451723c2835e4471f61"
+          },
+          {
+            "internal_id": "MEDIUM_010",
+            "z_distance": 0.3125,
+            "z_soft": -0.004347535281920859,
+            "median_point_distance": 0.31253024023768894,
+            "plan_hash": "ac81d0c8ef8f3bb9ae3ecff9053c720f5d42f64f47f9a87442a6add453c4e60f"
+          },
+          {
+            "internal_id": "MEDIUM_011",
+            "z_distance": 0.0,
+            "z_soft": 0.02615209684970883,
+            "median_point_distance": 0.02615209684970883,
+            "plan_hash": "801d8015096796462fb22b891748c35811e15a2f1bc0bfc2edc24c36d29210f6"
+          },
+          {
+            "internal_id": "MEDIUM_012",
+            "z_distance": 0.375,
+            "z_soft": 0.010902280783893986,
+            "median_point_distance": 0.37515844616147304,
+            "plan_hash": "5b0a119e1c5bfb8fba660f2bdc5562a1fbc6471226105e21dd82c786734a1f63"
+          },
+          {
+            "internal_id": "MEDIUM_013",
+            "z_distance": -0.4375,
+            "z_soft": 0.018326533342250945,
+            "median_point_distance": 0.4378836738499674,
+            "plan_hash": "f3c92edee3f2a1135cf958cecbcaed162b8e06a3a108e5ed08f7dfee8bf26dbf"
+          },
+          {
+            "internal_id": "MEDIUM_014",
+            "z_distance": -0.125,
+            "z_soft": 0.13557621563774963,
+            "median_point_distance": 0.18440691485585237,
+            "plan_hash": "0044795d581af85dd41f39a49751bd2ec3ad39825138d566115da64025e3580a"
+          },
+          {
+            "internal_id": "MEDIUM_015",
+            "z_distance": 0.0,
+            "z_soft": 0.31429335830379285,
+            "median_point_distance": 0.31429335830379285,
+            "plan_hash": "db4b57c4b46b9a284333360de61410b3d721da67718890af6b8ff46cba080339"
+          },
+          {
+            "internal_id": "MEDIUM_016",
+            "z_distance": 0.0,
+            "z_soft": -0.2136311952377769,
+            "median_point_distance": 0.2136311952377769,
+            "plan_hash": "491a0aa49597db538499eea8cabe4dab36bb95f3f1b56f280f01fe5fe312cd8a"
+          },
+          {
+            "internal_id": "MEDIUM_017",
+            "z_distance": 0.375,
+            "z_soft": -0.19878269012106184,
+            "median_point_distance": 0.42442850739761356,
+            "plan_hash": "13695e019e8b322ffa9cb417044ad947d7092e729a0d630caeec0c4ba121ac25"
+          },
+          {
+            "internal_id": "MEDIUM_018",
+            "z_distance": -0.0625,
+            "z_soft": -0.18614139522439963,
+            "median_point_distance": 0.196353938122173,
+            "plan_hash": "854a4e19257bdf071d34ea68343a9f825d9960f21dc9c0e46e709465cb30d945"
+          },
+          {
+            "internal_id": "MEDIUM_019",
+            "z_distance": -0.0625,
+            "z_soft": -0.16520634071299606,
+            "median_point_distance": 0.17663347647537977,
+            "plan_hash": "ee7eca345f4be8993e7b6958fdf2e7271e1a19c6bb7092ee8f4e39550aa8451f"
+          },
+          {
+            "internal_id": "MEDIUM_020",
+            "z_distance": 0.0,
+            "z_soft": 0.20052170423383006,
+            "median_point_distance": 0.20052170423383006,
+            "plan_hash": "ec75b3d7b95ceae16ca7be51303335ea92f00572a2d4073ef79bf84566907959"
+          }
+        ]
+      },
+      "blind_id": "PLAN_A07"
+    },
+    {
+      "internal_id": "MEDIUM_006",
+      "bucket": "MEDIUM",
+      "selection_role": "HIGH_OP60_LOAD",
+      "plan_hash": "82d113a4487298107a0acf4506f83c11418e88f6deec5007998216b6fdcaec55",
+      "distance_to_expert_raw": 39,
+      "distance_to_expert_normalized": 0.34513274336283184,
+      "total_soft_penalty": 0.07129647749510765,
+      "soft_components": {
+        "bend_area_ordering": {
+          "raw_component": 0.10684931506849316,
+          "weight": 0.45,
+          "weighted_contribution": 0.048082191780821924
+        },
+        "precedence_extra_gap": {
+          "raw_component": 0.11607142857142858,
+          "weight": 0.2,
+          "weighted_contribution": 0.023214285714285715
+        },
+        "type_fragmentation": {
+          "raw_component": 0.0,
+          "weight": 0.35,
+          "weighted_contribution": 0.0
+        }
+      },
+      "op60_load": 7,
+      "selection_audit": {
+        "station_id": "OP60",
+        "criterion": "maximum_station_load_then_penalty_hash"
+      },
+      "blind_id": "PLAN_A13"
+    },
+    {
+      "internal_id": "MEDIUM_015",
+      "bucket": "MEDIUM",
+      "selection_role": "DIVERSITY",
+      "plan_hash": "db4b57c4b46b9a284333360de61410b3d721da67718890af6b8ff46cba080339",
+      "distance_to_expert_raw": 33,
+      "distance_to_expert_normalized": 0.2920353982300885,
+      "total_soft_penalty": 0.09417971298108285,
+      "soft_components": {
+        "bend_area_ordering": {
+          "raw_component": 0.14315068493150684,
+          "weight": 0.45,
+          "weighted_contribution": 0.06441780821917809
+        },
+        "precedence_extra_gap": {
+          "raw_component": 0.1488095238095238,
+          "weight": 0.2,
+          "weighted_contribution": 0.029761904761904764
+        },
+        "type_fragmentation": {
+          "raw_component": 0.0,
+          "weight": 0.35,
+          "weighted_contribution": 0.0
+        }
+      },
+      "op60_load": 7,
+      "selection_audit": {
+        "against_internal_ids": [
+          "MEDIUM_001",
+          "MEDIUM_011",
+          "MEDIUM_006"
+        ],
+        "candidate_min_distances": {
+          "MEDIUM_002": 0.35398230088495575,
+          "MEDIUM_003": 0.39823008849557523,
+          "MEDIUM_004": 0.36283185840707965,
+          "MEDIUM_005": 0.39823008849557523,
+          "MEDIUM_007": 0.3893805309734513,
+          "MEDIUM_008": 0.35398230088495575,
+          "MEDIUM_009": 0.36283185840707965,
+          "MEDIUM_010": 0.3805309734513274,
+          "MEDIUM_012": 0.3893805309734513,
+          "MEDIUM_013": 0.34513274336283184,
+          "MEDIUM_014": 0.34513274336283184,
+          "MEDIUM_015": 0.40707964601769914,
+          "MEDIUM_016": 0.3274336283185841,
+          "MEDIUM_017": 0.336283185840708,
+          "MEDIUM_018": 0.3274336283185841,
+          "MEDIUM_019": 0.3274336283185841,
+          "MEDIUM_020": 0.35398230088495575
+        },
+        "selected_min_distance": 0.40707964601769914
+      },
+      "blind_id": "PLAN_A05"
+    },
+    {
+      "internal_id": "FAR_001",
+      "bucket": "FAR",
+      "selection_role": "LOW_SOFT",
+      "plan_hash": "6f2db685dce0d1262ab4eed8f04c497901d47db1163986343a0758a255ad79c3",
+      "distance_to_expert_raw": 49,
+      "distance_to_expert_normalized": 0.4336283185840708,
+      "total_soft_penalty": 0.06568493150684931,
+      "soft_components": {
+        "bend_area_ordering": {
+          "raw_component": 0.09041095890410959,
+          "weight": 0.45,
+          "weighted_contribution": 0.04068493150684932
+        },
+        "precedence_extra_gap": {
+          "raw_component": 0.125,
+          "weight": 0.2,
+          "weighted_contribution": 0.025
+        },
+        "type_fragmentation": {
+          "raw_component": 0.0,
+          "weight": 0.35,
+          "weighted_contribution": 0.0
+        }
+      },
+      "op60_load": 7,
+      "selection_audit": {
+        "criterion": "minimum_total_soft_penalty"
+      },
+      "blind_id": "PLAN_A08"
+    },
+    {
+      "internal_id": "FAR_004",
+      "bucket": "FAR",
+      "selection_role": "TYPICAL",
+      "plan_hash": "3661d52e90facf68cdfcc4833f0546c7cd41e7ecef28f658f874f5b6d144ea50",
+      "distance_to_expert_raw": 52,
+      "distance_to_expert_normalized": 0.46017699115044247,
+      "total_soft_penalty": 0.10484996738421395,
+      "soft_components": {
+        "bend_area_ordering": {
+          "raw_component": 0.17876712328767122,
+          "weight": 0.45,
+          "weighted_contribution": 0.08044520547945205
+        },
+        "precedence_extra_gap": {
+          "raw_component": 0.12202380952380952,
+          "weight": 0.2,
+          "weighted_contribution": 0.024404761904761905
+        },
+        "type_fragmentation": {
+          "raw_component": 0.0,
+          "weight": 0.35,
+          "weighted_contribution": 0.0
+        }
+      },
+      "op60_load": 7,
+      "selection_audit": {
+        "statistics_scope": "remaining_after_LOW_SOFT",
+        "source_count": 19,
+        "median_distance": 50,
+        "median_soft": 0.10245923026744945,
+        "distance_range": 20,
+        "soft_range": 0.04439497716894976,
+        "epsilon": 1e-12,
+        "candidate_scores": [
+          {
+            "internal_id": "FAR_002",
+            "z_distance": 0.0,
+            "z_soft": 0.2935018183153952,
+            "median_point_distance": 0.2935018183153952,
+            "plan_hash": "d3a278c418a83cb576504ff2603abb4c4c2594af359459ead51c7a5fbe7f554e"
+          },
+          {
+            "internal_id": "FAR_003",
+            "z_distance": 0.2,
+            "z_soft": 0.0,
+            "median_point_distance": 0.2,
+            "plan_hash": "eff1a7bfde215f5ad62553e528cb2d1abc231a8abba0fca93687f329f818975c"
+          },
+          {
+            "internal_id": "FAR_004",
+            "z_distance": 0.1,
+            "z_soft": 0.0538515226095579,
+            "median_point_distance": 0.11357810742994323,
+            "plan_hash": "3661d52e90facf68cdfcc4833f0546c7cd41e7ecef28f658f874f5b6d144ea50"
+          },
+          {
+            "internal_id": "FAR_005",
+            "z_distance": -0.2,
+            "z_soft": -0.07350402233405562,
+            "median_point_distance": 0.21307942486144774,
+            "plan_hash": "f29d06612251eaf0bf7208b73fbca1bcb630b368f3a4df04656684b1672a93c9"
+          },
+          {
+            "internal_id": "FAR_006",
+            "z_distance": -0.1,
+            "z_soft": -0.20398192704698268,
+            "median_point_distance": 0.22717532119884978,
+            "plan_hash": "dac12b5db9684191d1b98f21a72e4f0545c95ba04ddf9d300c87e0f38935d126"
+          },
+          {
+            "internal_id": "FAR_007",
+            "z_distance": 0.7,
+            "z_soft": 0.0507291628402453,
+            "median_point_distance": 0.70183576993658,
+            "plan_hash": "2064bc74bce85a33ffc18d65c1b7ac41bee7fee8f7862885977396c836fc8dee"
+          },
+          {
+            "internal_id": "FAR_008",
+            "z_distance": -0.15,
+            "z_soft": -0.16423612386584902,
+            "median_point_distance": 0.22242640217042242,
+            "plan_hash": "f71fe57b1dd978ddc67b64d072bbad2c70f3c05dec800b77fb46c9ec5cb0286d"
+          },
+          {
+            "internal_id": "FAR_009",
+            "z_distance": 0.15,
+            "z_soft": -0.28273886052235264,
+            "median_point_distance": 0.320064467333502,
+            "plan_hash": "037ef6f5f1ec08b47e138caa17305195463dd5398b21014a3d185036d368e57b"
+          },
+          {
+            "internal_id": "FAR_010",
+            "z_distance": 0.25,
+            "z_soft": -0.6736950372846491,
+            "median_point_distance": 0.7185854182085556,
+            "plan_hash": "4debec6cc8da6f5c95e0685347002bc6245ff3feee59dc73ae77ddc29f26a6ef"
+          },
+          {
+            "internal_id": "FAR_011",
+            "z_distance": -0.25,
+            "z_soft": -0.31745215442824076,
+            "median_point_distance": 0.40407409017546725,
+            "plan_hash": "44af955312d628cb770664d0a994c41f924a318dc2980ab787dc93fe17c71e6e"
+          },
+          {
+            "internal_id": "FAR_012",
+            "z_distance": -0.3,
+            "z_soft": 0.25592330015060794,
+            "median_point_distance": 0.39433074386861866,
+            "plan_hash": "82276c6a8b258fc6bb940df71d9202442d51c3999f8708b6b4aa7407deaae762"
+          },
+          {
+            "internal_id": "FAR_013",
+            "z_distance": -0.05,
+            "z_soft": 0.326304962715351,
+            "median_point_distance": 0.3301135088006345,
+            "plan_hash": "d78417c657f97604e2e010db66d5cebf6a8026b619edfac5e647ca16b9d1817b"
+          },
+          {
+            "internal_id": "FAR_014",
+            "z_distance": 0.35,
+            "z_soft": -0.6241413510634394,
+            "median_point_distance": 0.715578385718361,
+            "plan_hash": "9a7a762abc9f37f77e92e861ce5d76d917f87bee5a85abcff152d6bfea8c21ed"
+          },
+          {
+            "internal_id": "FAR_015",
+            "z_distance": 0.0,
+            "z_soft": 0.19773720750835716,
+            "median_point_distance": 0.19773720750835716,
+            "plan_hash": "a018a27f930fb9734d333243bf1c91ee51ea8df4a12a24201d635d5ddef897ee"
+          },
+          {
+            "internal_id": "FAR_016",
+            "z_distance": 0.55,
+            "z_soft": 0.20515740366601765,
+            "median_point_distance": 0.5870175127532239,
+            "plan_hash": "5935eb8a280b2bbb18cc64bc2951bfebe2857176504f24e32e9654afba47c5dd"
+          },
+          {
+            "internal_id": "FAR_017",
+            "z_distance": -0.1,
+            "z_soft": 0.22624251551996477,
+            "median_point_distance": 0.2473573848277053,
+            "plan_hash": "e7bc25d1ec18525b695f57bbe39ed23378ac23c9945bfb18d2e19800f6b01bca"
+          },
+          {
+            "internal_id": "FAR_018",
+            "z_distance": 0.05,
+            "z_soft": -0.38831135436946734,
+            "median_point_distance": 0.3915171872756674,
+            "plan_hash": "42bac7ceb7ccc9ca26ea3fdd6655b7fcc820a522dd91d9520161a9d51c68ac68"
+          },
+          {
+            "internal_id": "FAR_019",
+            "z_distance": 0.0,
+            "z_soft": -0.1405429232634169,
+            "median_point_distance": 0.1405429232634169,
+            "plan_hash": "d8918cbeb17f6f95bce7dbd9002b4b516ba399000a576915f78545f236e6d907"
+          },
+          {
+            "internal_id": "FAR_020",
+            "z_distance": 0.6,
+            "z_soft": 0.15608125482129087,
+            "median_point_distance": 0.6199688363995313,
+            "plan_hash": "043acd4aaf71978056afdf3ca419bd8f0fbe58e98650adc37d987a46463d9548"
+          }
+        ]
+      },
+      "blind_id": "PLAN_A02"
+    },
+    {
+      "internal_id": "FAR_010",
+      "bucket": "FAR",
+      "selection_role": "HIGH_OP60_LOAD",
+      "plan_hash": "4debec6cc8da6f5c95e0685347002bc6245ff3feee59dc73ae77ddc29f26a6ef",
+      "distance_to_expert_raw": 55,
+      "distance_to_expert_normalized": 0.48672566371681414,
+      "total_soft_penalty": 0.0725505544683627,
+      "soft_components": {
+        "bend_area_ordering": {
+          "raw_component": 0.11095890410958904,
+          "weight": 0.45,
+          "weighted_contribution": 0.04993150684931507
+        },
+        "precedence_extra_gap": {
+          "raw_component": 0.1130952380952381,
+          "weight": 0.2,
+          "weighted_contribution": 0.022619047619047622
+        },
+        "type_fragmentation": {
+          "raw_component": 0.0,
+          "weight": 0.35,
+          "weighted_contribution": 0.0
+        }
+      },
+      "op60_load": 7,
+      "selection_audit": {
+        "station_id": "OP60",
+        "criterion": "maximum_station_load_then_penalty_hash"
+      },
+      "blind_id": "PLAN_A03"
+    },
+    {
+      "internal_id": "FAR_005",
+      "bucket": "FAR",
+      "selection_role": "DIVERSITY",
+      "plan_hash": "f29d06612251eaf0bf7208b73fbca1bcb630b368f3a4df04656684b1672a93c9",
+      "distance_to_expert_raw": 46,
+      "distance_to_expert_normalized": 0.40707964601769914,
+      "total_soft_penalty": 0.09919602087410308,
+      "soft_components": {
+        "bend_area_ordering": {
+          "raw_component": 0.15958904109589042,
+          "weight": 0.45,
+          "weighted_contribution": 0.0718150684931507
+        },
+        "precedence_extra_gap": {
+          "raw_component": 0.1369047619047619,
+          "weight": 0.2,
+          "weighted_contribution": 0.02738095238095238
+        },
+        "type_fragmentation": {
+          "raw_component": 0.0,
+          "weight": 0.35,
+          "weighted_contribution": 0.0
+        }
+      },
+      "op60_load": 7,
+      "selection_audit": {
+        "against_internal_ids": [
+          "FAR_001",
+          "FAR_004",
+          "FAR_010"
+        ],
+        "candidate_min_distances": {
+          "FAR_002": 0.37168141592920356,
+          "FAR_003": 0.3893805309734513,
+          "FAR_005": 0.39823008849557523,
+          "FAR_006": 0.3893805309734513,
+          "FAR_007": 0.35398230088495575,
+          "FAR_008": 0.3893805309734513,
+          "FAR_009": 0.35398230088495575,
+          "FAR_011": 0.35398230088495575,
+          "FAR_012": 0.35398230088495575,
+          "FAR_013": 0.35398230088495575,
+          "FAR_014": 0.3893805309734513,
+          "FAR_015": 0.36283185840707965,
+          "FAR_016": 0.34513274336283184,
+          "FAR_017": 0.3893805309734513,
+          "FAR_018": 0.336283185840708,
+          "FAR_019": 0.35398230088495575,
+          "FAR_020": 0.3893805309734513
+        },
+        "selected_min_distance": 0.39823008849557523
+      },
+      "blind_id": "PLAN_A06"
+    }
+  ],
+  "audit": {
+    "buckets": {
+      "NEAR": {
+        "source_count": 20,
+        "selected_count": 4,
+        "selected_internal_ids": [
+          "NEAR_001",
+          "NEAR_005",
+          "NEAR_015",
+          "NEAR_002"
+        ]
+      },
+      "MEDIUM": {
+        "source_count": 20,
+        "selected_count": 4,
+        "selected_internal_ids": [
+          "MEDIUM_001",
+          "MEDIUM_011",
+          "MEDIUM_006",
+          "MEDIUM_015"
+        ]
+      },
+      "FAR": {
+        "source_count": 20,
+        "selected_count": 4,
+        "selected_internal_ids": [
+          "FAR_001",
+          "FAR_004",
+          "FAR_010",
+          "FAR_005"
+        ]
+      }
+    },
+    "selection_order": [
+      "LOW_SOFT",
+      "TYPICAL",
+      "HIGH_OP60_LOAD",
+      "DIVERSITY"
+    ],
+    "typical_statistics_scope": "remaining_after_LOW_SOFT",
+    "random_selection": false
+  }
+}

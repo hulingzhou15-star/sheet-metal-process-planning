@@ -1,0 +1,473 @@
+{
+  "graph_k": 8,
+  "diagnostic_k": 5,
+  "geometry_operation_count": 211,
+  "missing_geometry_operations": [
+    "O001",
+    "O026",
+    "O175",
+    "O215",
+    "O216",
+    "O217",
+    "O218",
+    "O219",
+    "O220",
+    "O221",
+    "O222",
+    "O223",
+    "O224"
+  ],
+  "type_pair_count": 46,
+  "plans": {
+    "RF_013": {
+      "k5_type_pair_count": 46,
+      "same_station_pair_count": 22,
+      "same_station_pairs_missing_graph2": 0,
+      "same_station_pairs": [
+        {
+          "operation_ids": [
+            "O003",
+            "O101"
+          ],
+          "graph2_edge_present": true,
+          "both_geometries_present": true,
+          "boundary_distance": 20.544252789186043,
+          "graph_distance_restored": 20.544252789186043,
+          "station_ids": [
+            "OP30",
+            "OP30"
+          ],
+          "overlay": {
+            "same_station": 1,
+            "station_delta": 0.0,
+            "abs_station_gap": 0.0
+          }
+        },
+        {
+          "operation_ids": [
+            "O015",
+            "O196"
+          ],
+          "graph2_edge_present": true,
+          "both_geometries_present": true,
+          "boundary_distance": 2.0999999999999943,
+          "graph_distance_restored": 2.0999999999999943,
+          "station_ids": [
+            "OP30",
+            "OP30"
+          ],
+          "overlay": {
+            "same_station": 1,
+            "station_delta": 0.0,
+            "abs_station_gap": 0.0
+          }
+        },
+        {
+          "operation_ids": [
+            "O019",
+            "O021"
+          ],
+          "graph2_edge_present": true,
+          "both_geometries_present": true,
+          "boundary_distance": 71.36704700681796,
+          "graph_distance_restored": 71.36704700681796,
+          "station_ids": [
+            "OP30",
+            "OP30"
+          ],
+          "overlay": {
+            "same_station": 1,
+            "station_delta": 0.0,
+            "abs_station_gap": 0.0
+          }
+        },
+        {
+          "operation_ids": [
+            "O019",
+            "O063"
+          ],
+          "graph2_edge_present": true,
+          "both_geometries_present": true,
+          "boundary_distance": 38.39693915149697,
+          "graph_distance_restored": 38.39693915149697,
+          "station_ids": [
+            "OP30",
+            "OP30"
+          ],
+          "overlay": {
+            "same_station": 1,
+            "station_delta": 0.0,
+            "abs_station_gap": 0.0
+          }
+        },
+        {
+          "operation_ids": [
+            "O031",
+            "O088"
+          ],
+          "graph2_edge_present": true,
+          "both_geometries_present": true,
+          "boundary_distance": 24.44999999999999,
+          "graph_distance_restored": 24.44999999999999,
+          "station_ids": [
+            "OP30",
+            "OP30"
+          ],
+          "overlay": {
+            "same_station": 1,
+            "station_delta": 0.0,
+            "abs_station_gap": 0.0
+          }
+        },
+        {
+          "operation_ids": [
+            "O031",
+            "O196"
+          ],
+          "graph2_edge_present": true,
+          "both_geometries_present": true,
+          "boundary_distance": 4.000000000000057,
+          "graph_distance_restored": 4.000000000000057,
+          "station_ids": [
+            "OP30",
+            "OP30"
+          ],
+          "overlay": {
+            "same_station": 1,
+            "station_delta": 0.0,
+            "abs_station_gap": 0.0
+          }
+        },
+        {
+          "operation_ids": [
+            "O035",
+            "O196"
+          ],
+          "graph2_edge_present": true,
+          "both_geometries_present": true,
+          "boundary_distance": 2.1000000000000227,
+          "graph_distance_restored": 2.1000000000000227,
+          "station_ids": [
+            "OP30",
+            "OP30"
+          ],
+          "overlay": {
+            "same_station": 1,
+            "station_delta": 0.0,
+            "abs_station_gap": 0.0
+          }
+        },
+        {
+          "operation_ids": [
+            "O035",
+            "O200"
+          ],
+          "graph2_edge_present": true,
+          "both_geometries_present": true,
+          "boundary_distance": 33.117356926904,
+          "graph_distance_restored": 33.117356926904,
+          "station_ids": [
+            "OP30",
+            "OP30"
+          ],
+          "overlay": {
+            "same_station": 1,
+            "station_delta": 0.0,
+            "abs_station_gap": 0.0
+          }
+        },
+        {
+          "operation_ids": [
+            "O037",
+            "O197"
+          ],
+          "graph2_edge_present": true,
+          "both_geometries_present": true,
+          "boundary_distance": 12.593224325491414,
+          "graph_distance_restored": 12.593224325491414,
+          "station_ids": [
+            "OP30",
+            "OP30"
+          ],
+          "overlay": {
+            "same_station": 1,
+            "station_delta": 0.0,
+            "abs_station_gap": 0.0
+          }
+        },
+        {
+          "operation_ids": [
+            "O049",
+            "O197"
+          ],
+          "graph2_edge_present": true,
+          "both_geometries_present": true,
+          "boundary_distance": 2.0999999999999943,
+          "graph_distance_restored": 2.0999999999999943,
+          "station_ids": [
+            "OP30",
+            "OP30"
+          ],
+          "overlay": {
+            "same_station": 1,
+            "station_delta": 0.0,
+            "abs_station_gap": 0.0
+          }
+        },
+        {
+          "operation_ids": [
+            "O051",
+            "O197"
+          ],
+          "graph2_edge_present": true,
+          "both_geometries_present": true,
+          "boundary_distance": 2.0999999999999943,
+          "graph_distance_restored": 2.0999999999999943,
+          "station_ids": [
+            "OP30",
+            "OP30"
+          ],
+          "overlay": {
+            "same_station": 1,
+            "station_delta": 0.0,
+            "abs_station_gap": 0.0
+          }
+        },
+        {
+          "operation_ids": [
+            "O054",
+            "O196"
+          ],
+          "graph2_edge_present": true,
+          "both_geometries_present": true,
+          "boundary_distance": 28.895597179483833,
+          "graph_distance_restored": 28.895597179483833,
+          "station_ids": [
+            "OP30",
+            "OP30"
+          ],
+          "overlay": {
+            "same_station": 1,
+            "station_delta": 0.0,
+            "abs_station_gap": 0.0
+          }
+        },
+        {
+          "operation_ids": [
+            "O066",
+            "O200"
+          ],
+          "graph2_edge_present": true,
+          "both_geometries_present": true,
+          "boundary_distance": 2.0999999999999943,
+          "graph_distance_restored": 2.0999999999999943,
+          "station_ids": [
+            "OP30",
+            "OP30"
+          ],
+          "overlay": {
+            "same_station": 1,
+            "station_delta": 0.0,
+            "abs_station_gap": 0.0
+          }
+        },
+        {
+          "operation_ids": [
+            "O069",
+            "O088"
+          ],
+          "graph2_edge_present": true,
+          "both_geometries_present": true,
+          "boundary_distance": 34.300818054067925,
+          "graph_distance_restored": 34.300818054067925,
+          "station_ids": [
+            "OP30",
+            "OP30"
+          ],
+          "overlay": {
+            "same_station": 1,
+            "station_delta": 0.0,
+            "abs_station_gap": 0.0
+          }
+        },
+        {
+          "operation_ids": [
+            "O093",
+            "O206"
+          ],
+          "graph2_edge_present": true,
+          "both_geometries_present": true,
+          "boundary_distance": 2.0999999999999943,
+          "graph_distance_restored": 2.0999999999999943,
+          "station_ids": [
+            "OP30",
+            "OP30"
+          ],
+          "overlay": {
+            "same_station": 1,
+            "station_delta": 0.0,
+            "abs_station_gap": 0.0
+          }
+        },
+        {
+          "operation_ids": [
+            "O105",
+            "O211"
+          ],
+          "graph2_edge_present": true,
+          "both_geometries_present": true,
+          "boundary_distance": 2.1000000000000227,
+          "graph_distance_restored": 2.1000000000000227,
+          "station_ids": [
+            "OP30",
+            "OP30"
+          ],
+          "overlay": {
+            "same_station": 1,
+            "station_delta": 0.0,
+            "abs_station_gap": 0.0
+          }
+        },
+        {
+          "operation_ids": [
+            "O109",
+            "O206"
+          ],
+          "graph2_edge_present": true,
+          "both_geometries_present": true,
+          "boundary_distance": 69.06137853043113,
+          "graph_distance_restored": 69.06137853043113,
+          "station_ids": [
+            "OP30",
+            "OP30"
+          ],
+          "overlay": {
+            "same_station": 1,
+            "station_delta": 0.0,
+            "abs_station_gap": 0.0
+          }
+        },
+        {
+          "operation_ids": [
+            "O123",
+            "O205"
+          ],
+          "graph2_edge_present": true,
+          "both_geometries_present": true,
+          "boundary_distance": 2.1000000000000227,
+          "graph_distance_restored": 2.1000000000000227,
+          "station_ids": [
+            "OP30",
+            "OP30"
+          ],
+          "overlay": {
+            "same_station": 1,
+            "station_delta": 0.0,
+            "abs_station_gap": 0.0
+          }
+        },
+        {
+          "operation_ids": [
+            "O135",
+            "O202"
+          ],
+          "graph2_edge_present": true,
+          "both_geometries_present": true,
+          "boundary_distance": 2.1000000000000227,
+          "graph_distance_restored": 2.1000000000000227,
+          "station_ids": [
+            "OP30",
+            "OP30"
+          ],
+          "overlay": {
+            "same_station": 1,
+            "station_delta": 0.0,
+            "abs_station_gap": 0.0
+          }
+        },
+        {
+          "operation_ids": [
+            "O176",
+            "O206"
+          ],
+          "graph2_edge_present": true,
+          "both_geometries_present": true,
+          "boundary_distance": 40.46726876343499,
+          "graph_distance_restored": 40.46726876343499,
+          "station_ids": [
+            "OP30",
+            "OP30"
+          ],
+          "overlay": {
+            "same_station": 1,
+            "station_delta": 0.0,
+            "abs_station_gap": 0.0
+          }
+        },
+        {
+          "operation_ids": [
+            "O178",
+            "O200"
+          ],
+          "graph2_edge_present": true,
+          "both_geometries_present": true,
+          "boundary_distance": 29.822622144320906,
+          "graph_distance_restored": 29.822622144320903,
+          "station_ids": [
+            "OP30",
+            "OP30"
+          ],
+          "overlay": {
+            "same_station": 1,
+            "station_delta": 0.0,
+            "abs_station_gap": 0.0
+          }
+        },
+        {
+          "operation_ids": [
+            "O182",
+            "O206"
+          ],
+          "graph2_edge_present": true,
+          "both_geometries_present": true,
+          "boundary_distance": 29.348565859585158,
+          "graph_distance_restored": 29.348565859585158,
+          "station_ids": [
+            "OP30",
+            "OP30"
+          ],
+          "overlay": {
+            "same_station": 1,
+            "station_delta": 0.0,
+            "abs_station_gap": 0.0
+          }
+        }
+      ],
+      "O131_O203": {
+        "operation_ids": [
+          "O131",
+          "O203"
+        ],
+        "graph2_edge_present": true,
+        "both_geometries_present": true,
+        "boundary_distance": 2.1000000000000227,
+        "graph_distance_restored": 2.1000000000000227,
+        "station_ids": [
+          "OP30",
+          "OP20"
+        ],
+        "overlay": {
+          "same_station": 0,
+          "station_delta": -0.16666666666666666,
+          "abs_station_gap": 0.16666666666666666
+        }
+      }
+    }
+  },
+  "static_graph_fingerprint": "46f6a2ecfb8675bb40982b123e41afa75f7759ca504b795b4f1e4119c919454e",
+  "limitations": [
+    "k5 diagnostic coverage does not prove all physical interference is covered",
+    "global distance normalization is frozen; cross-part scale adequacy needs evaluation",
+    "edge fields are available but no training tensor adapter or learned scorer exists yet"
+  ]
+}

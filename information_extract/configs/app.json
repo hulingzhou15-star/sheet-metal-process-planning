@@ -1,0 +1,17 @@
+{
+  "part_id": "P001",
+  "source_file": "sources/P001/Plotview 1.dxf",
+  "material_block": "Plotview 1",
+  "geometry_tolerance": 1e-06,
+  "parallel_tolerance": 1e-06,
+  "default_rotation": 270,
+  "hit_tolerance_px": 7,
+  "display_decimals": 4,
+  "port": 8766,
+  "max_request_bytes": 20971520,
+  "solver": {
+    "max_time_seconds": 10,
+    "random_seed": 20261018,
+    "num_search_workers": 1
+  }
+}

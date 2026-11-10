@@ -1,0 +1,18 @@
+{
+  "anchor_types": ["FLANGING"],
+  "primary_size_multiple": 3.0,
+  "comparison_size_multiples": [2.0, 3.0, 4.0],
+  "relative_jump_ratio": 3.0,
+  "baseline_neighbor_count": 5,
+  "circle_diameter": "largest_recorded_concentric_circle",
+  "circular_target_metric": "center_distance",
+  "noncircular_target_metric": "recorded_curve_boundary_distance",
+  "noncircular_multiple_status": "exploratory_same_multiple_not_calibrated",
+  "examples": ["O184", "O066", "O015", "O031", "O035", "O180", "O182"],
+  "simple_hole_example": "O186",
+  "view": {
+    "default_anchor": "O184",
+    "local_extent_radius_multiplier": 4.0,
+    "overview_rank_limit": 12
+  }
+}

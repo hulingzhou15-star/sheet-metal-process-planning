@@ -1,0 +1,151 @@
+{
+  "source_original": "C:\\Users\\hulin\\Desktop\\图纸文件夹\\P004\\P004.dxf",
+  "source_sha256": "ca46fe2718afd6181a775e2a47961b1e6babfef49c6ff715dd4f9bae8198a239",
+  "insunits": 0,
+  "modelspace_types": {
+    "LINE": 60,
+    "CIRCLE": 52,
+    "LWPOLYLINE": 22
+  },
+  "layers": {
+    "LB": 36,
+    "UB": 34,
+    "MATER": 4,
+    "PS": 30,
+    "UP": 11,
+    "DIE": 10,
+    "PH": 8,
+    "LAYER0": 1
+  },
+  "block_types": [
+    {
+      "name": "_OPEN30",
+      "types": {
+        "LINE": 3
+      }
+    },
+    {
+      "name": "A$C7AB0377D",
+      "types": {
+        "LWPOLYLINE": 3
+      }
+    },
+    {
+      "name": "*D2",
+      "types": {
+        "LINE": 1,
+        "MTEXT": 1,
+        "INSERT": 1,
+        "POINT": 2
+      }
+    },
+    {
+      "name": "*D3",
+      "types": {
+        "LINE": 1,
+        "MTEXT": 1,
+        "INSERT": 1,
+        "POINT": 2
+      }
+    },
+    {
+      "name": "*D4",
+      "types": {
+        "LINE": 1,
+        "MTEXT": 1,
+        "INSERT": 1,
+        "POINT": 2
+      }
+    },
+    {
+      "name": "*D5",
+      "types": {
+        "LINE": 1,
+        "MTEXT": 1,
+        "INSERT": 1,
+        "POINT": 2
+      }
+    },
+    {
+      "name": "*D6",
+      "types": {
+        "LINE": 1,
+        "MTEXT": 1,
+        "INSERT": 1,
+        "POINT": 2
+      }
+    },
+    {
+      "name": "*D7",
+      "types": {
+        "LINE": 1,
+        "MTEXT": 1,
+        "INSERT": 1,
+        "POINT": 2
+      }
+    },
+    {
+      "name": "*D8",
+      "types": {
+        "LINE": 1,
+        "MTEXT": 1,
+        "INSERT": 1,
+        "POINT": 2
+      }
+    },
+    {
+      "name": "*D9",
+      "types": {
+        "LINE": 2,
+        "MTEXT": 1,
+        "SOLID": 1,
+        "POINT": 2
+      }
+    },
+    {
+      "name": "*D10",
+      "types": {
+        "LINE": 4,
+        "SOLID": 2,
+        "MTEXT": 1,
+        "POINT": 3
+      }
+    },
+    {
+      "name": "*D11",
+      "types": {
+        "LINE": 4,
+        "INSERT": 2,
+        "MTEXT": 1,
+        "POINT": 3
+      }
+    },
+    {
+      "name": "*D12",
+      "types": {
+        "LINE": 4,
+        "INSERT": 2,
+        "MTEXT": 1,
+        "POINT": 3
+      }
+    },
+    {
+      "name": "*D13",
+      "types": {
+        "LINE": 3,
+        "SOLID": 2,
+        "MTEXT": 1,
+        "POINT": 3
+      }
+    }
+  ],
+  "annotation_samples": [],
+  "existing_file_hashes": {
+    "projects/P001/project.json": "5678cfaf725f21623d24547a1a0aac7cee1dcda119a728b8f66843a875bac539",
+    "configs/app.json": "406b0099262d958a4ecedb49841cbd8bf99624729708ae1b63aacc326126ff15",
+    "projects/P002/project.json": "b7de0ae764357295b3c59fb6045b438a8f0fff11d199a73d8b8bde7a2aafe66b",
+    "configs/P002.json": "f87c03b14ee86cae56de3c65876569f9e112418ce7660119e3936174edb497d2",
+    "projects/P003/project.json": "d486c4260497469bae96ec3594c912752bd7e2ac07512d6d4d2acdb72ff526c3",
+    "configs/P003.json": "ca4ea9a0e7f1e94d86e217928b8d39f0c4b2c73f9d352fd88811a5c956550fb1"
+  }
+}

@@ -1,0 +1,7147 @@
+[
+  {
+    "comparison_id": "NP2_CMP_001",
+    "kind": "selected_vs_unselected",
+    "selection_reason": "secondary_score",
+    "explanation": "邻域罚分相同，所选方案次级分数更低。",
+    "before_plan_id": "NP2_045",
+    "after_plan_id": "NP2_001",
+    "before_plan_hash": "2cfcf7aac0a93456a148124d752b265dee58d228fa89d5365e5f7d03f51232f9",
+    "after_plan_hash": "c1ebb70f57ea3a676d6bb34e84640b549186e4d8fec1bb11fa23c427c90cf166",
+    "focus_pair_id": null,
+    "raw_hamming": 1,
+    "all_changes": [
+      {
+        "operation_id": "O137",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      }
+    ],
+    "external_same_station_changes": [],
+    "p5_delta": 0.0,
+    "secondary_delta": -0.00115502124664163,
+    "component_contribution_changes": {
+      "area": -0.00062026188835286,
+      "extra_gap": -0.0005347593582887694,
+      "group_fragmentation": 0.0
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_002",
+    "kind": "selected_vs_unselected",
+    "selection_reason": "secondary_score",
+    "explanation": "邻域罚分相同，所选方案次级分数更低。",
+    "before_plan_id": "NP2_041",
+    "after_plan_id": "NP2_005",
+    "before_plan_hash": "35b2abe90db6fb26680e3c853f2b34a2ce1c46dc8d3ffb48ed95af8781fde648",
+    "after_plan_hash": "8754f76f8dbb6da3f8b07c6a4eda12dd55eb26afa975c8e9654367563a1cd422",
+    "focus_pair_id": null,
+    "raw_hamming": 1,
+    "all_changes": [
+      {
+        "operation_id": "O137",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      }
+    ],
+    "external_same_station_changes": [],
+    "p5_delta": 0.0,
+    "secondary_delta": -0.0009482672838573435,
+    "component_contribution_changes": {
+      "area": -0.0004135079255685732,
+      "extra_gap": -0.0005347593582887694,
+      "group_fragmentation": 0.0
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_003",
+    "kind": "selected_vs_unselected",
+    "selection_reason": "secondary_score",
+    "explanation": "邻域罚分相同，所选方案次级分数更低。",
+    "before_plan_id": "NP2_037",
+    "after_plan_id": "NP2_009",
+    "before_plan_hash": "395db8f48b64870e1870b02b7953a8e88cafa607741bc33fd26351479374fcb3",
+    "after_plan_hash": "abd33216fd9399a15336d0079fa1f7071823b5ee0168e5b247441ece5ce1719e",
+    "focus_pair_id": null,
+    "raw_hamming": 1,
+    "all_changes": [
+      {
+        "operation_id": "O137",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      }
+    ],
+    "external_same_station_changes": [],
+    "p5_delta": 0.0,
+    "secondary_delta": -0.0009482672838573435,
+    "component_contribution_changes": {
+      "area": -0.0004135079255685732,
+      "extra_gap": -0.0005347593582887694,
+      "group_fragmentation": 0.0
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_004",
+    "kind": "selected_vs_unselected",
+    "selection_reason": "secondary_score",
+    "explanation": "邻域罚分相同，所选方案次级分数更低。",
+    "before_plan_id": "NP2_033",
+    "after_plan_id": "NP2_013",
+    "before_plan_hash": "8242bc041f82c7f336fa6a99c327993a33f50a0429291ec54c080219d3d4c123",
+    "after_plan_hash": "123df90722c1bbc53a6d1feed0fbbea4d0207c9c208af7a0c728542706caebe0",
+    "focus_pair_id": null,
+    "raw_hamming": 1,
+    "all_changes": [
+      {
+        "operation_id": "O137",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      }
+    ],
+    "external_same_station_changes": [],
+    "p5_delta": 0.0,
+    "secondary_delta": -0.0007415133210730568,
+    "component_contribution_changes": {
+      "area": -0.00020675396278428638,
+      "extra_gap": -0.0005347593582887694,
+      "group_fragmentation": 0.0
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_005",
+    "kind": "selected_vs_unselected",
+    "selection_reason": "secondary_score",
+    "explanation": "邻域罚分相同，所选方案次级分数更低。",
+    "before_plan_id": "NP2_061",
+    "after_plan_id": "NP2_017",
+    "before_plan_hash": "50abffd9326aae5fd0abc1cacf7748dc26f7836b972ff38d1a4280321ed07ac0",
+    "after_plan_hash": "ddfe7954d14976ecdfc823b80b604ef3286d5aab4a334e259747ffdd6428c803",
+    "focus_pair_id": null,
+    "raw_hamming": 1,
+    "all_changes": [
+      {
+        "operation_id": "O137",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      }
+    ],
+    "external_same_station_changes": [],
+    "p5_delta": 0.0,
+    "secondary_delta": -0.001361775209425917,
+    "component_contribution_changes": {
+      "area": -0.0008270158511371464,
+      "extra_gap": -0.0005347593582887694,
+      "group_fragmentation": 0.0
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_006",
+    "kind": "selected_vs_unselected",
+    "selection_reason": "secondary_score",
+    "explanation": "邻域罚分相同，所选方案次级分数更低。",
+    "before_plan_id": "NP2_053",
+    "after_plan_id": "NP2_021",
+    "before_plan_hash": "fb2d24f97b7dc1db552a17932f7291ec2c49b6c83a727e278157fe0dda006eb6",
+    "after_plan_hash": "aa9e5b6c6db22cbe6b4bb935f70e63dd50eb19d62b59d133869446637bd1583f",
+    "focus_pair_id": null,
+    "raw_hamming": 1,
+    "all_changes": [
+      {
+        "operation_id": "O137",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      }
+    ],
+    "external_same_station_changes": [],
+    "p5_delta": 0.0,
+    "secondary_delta": -0.00115502124664163,
+    "component_contribution_changes": {
+      "area": -0.00062026188835286,
+      "extra_gap": -0.0005347593582887694,
+      "group_fragmentation": 0.0
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_007",
+    "kind": "selected_vs_unselected",
+    "selection_reason": "secondary_score",
+    "explanation": "邻域罚分相同，所选方案次级分数更低。",
+    "before_plan_id": "NP2_057",
+    "after_plan_id": "NP2_025",
+    "before_plan_hash": "72b3249cb3ddf4a65c04adb6bbbcf0010102fc87c2f3e095cf17752905cfe7ee",
+    "after_plan_hash": "f97aace26ba72a846586b468d1084dce4a6d94d4cfa9b2ea9b7a9108afe11f8a",
+    "focus_pair_id": null,
+    "raw_hamming": 1,
+    "all_changes": [
+      {
+        "operation_id": "O137",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      }
+    ],
+    "external_same_station_changes": [],
+    "p5_delta": 0.0,
+    "secondary_delta": -0.00115502124664163,
+    "component_contribution_changes": {
+      "area": -0.00062026188835286,
+      "extra_gap": -0.0005347593582887694,
+      "group_fragmentation": 0.0
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_008",
+    "kind": "selected_vs_unselected",
+    "selection_reason": "secondary_score",
+    "explanation": "邻域罚分相同，所选方案次级分数更低。",
+    "before_plan_id": "NP2_049",
+    "after_plan_id": "NP2_029",
+    "before_plan_hash": "7f39f35235cc2d6547c24778a32712a416364013cdc0b6b371217364e13df812",
+    "after_plan_hash": "f4aadbb979efecfe6efbd6665f79b37e76005e54d180742395eb9d80f7ef7d27",
+    "focus_pair_id": null,
+    "raw_hamming": 1,
+    "all_changes": [
+      {
+        "operation_id": "O137",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      }
+    ],
+    "external_same_station_changes": [],
+    "p5_delta": 0.0,
+    "secondary_delta": -0.0009482672838573435,
+    "component_contribution_changes": {
+      "area": -0.0004135079255685732,
+      "extra_gap": -0.0005347593582887694,
+      "group_fragmentation": 0.0
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_009",
+    "kind": "selected_vs_unselected",
+    "selection_reason": "minimum_extra_gap_representative",
+    "explanation": "两级分数相同，差别来自稳定排序或多样性选择，未证明工艺优劣。",
+    "before_plan_id": "NP2_007",
+    "after_plan_id": "NP2_059",
+    "before_plan_hash": "b01728c610073f66a184c1b5311669fb42189f1e3f74b7c5cad45177b4546c52",
+    "after_plan_hash": "115abd043f7ec19ff844b2d594d3482e263c5b16f480921c32b84b0c19e1f12e",
+    "focus_pair_id": null,
+    "raw_hamming": 1,
+    "all_changes": [
+      {
+        "operation_id": "O002",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      }
+    ],
+    "external_same_station_changes": [],
+    "p5_delta": 0.0,
+    "secondary_delta": 0.0,
+    "component_contribution_changes": {
+      "area": 0.0,
+      "extra_gap": 0.0,
+      "group_fragmentation": 0.0
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_010",
+    "kind": "selected_vs_unselected",
+    "selection_reason": "diversity",
+    "explanation": "邻域罚分相同，所选方案次级分数更高；入选依据是代表性或多样性，不能声称分数更优。",
+    "before_plan_id": "NP2_052",
+    "after_plan_id": "NP2_056",
+    "before_plan_hash": "9693e3584a2e7d67f1276d5ab077bb9af09b7d852076455b936555a7ef2f6905",
+    "after_plan_hash": "3b15bc610b9a37e7ecc85797238ce01e44fd9c5c4de574dfeb138d8f16625a42",
+    "focus_pair_id": null,
+    "raw_hamming": 31,
+    "all_changes": [
+      {
+        "operation_id": "O002",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O006",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O013",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O020",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O053",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O068",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O077",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O090",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O091",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O092",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O095",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O100",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O103",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O108",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O111",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O112",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O126",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O129",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O130",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O137",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O151",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O163",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O168",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O172",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O187",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O189",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O190",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O192",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O195",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O213",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O214",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O076__O195",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O088__O090",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O147__O213",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O162__O214",
+        "before_same_station": true,
+        "after_same_station": false
+      }
+    ],
+    "p5_delta": 0.0,
+    "secondary_delta": 0.03056482037712021,
+    "component_contribution_changes": {
+      "area": 0.021295658166781528,
+      "extra_gap": 0.009269162210338688,
+      "group_fragmentation": 0.0
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_011",
+    "kind": "selected_vs_unselected",
+    "selection_reason": "diversity",
+    "explanation": "邻域罚分相同，所选方案次级分数更高；入选依据是代表性或多样性，不能声称分数更优。",
+    "before_plan_id": "NP2_016",
+    "after_plan_id": "NP2_004",
+    "before_plan_hash": "c4199d193b421675be05cc0c878475cb1f1971d9436c712304eb4950346a1694",
+    "after_plan_hash": "065b2a268feffe4c9789007d8628e0e7b830f419c41c0df79cb7e4d6f769e910",
+    "focus_pair_id": null,
+    "raw_hamming": 26,
+    "all_changes": [
+      {
+        "operation_id": "O002",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O004",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O005",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O006",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O009",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O010",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O014",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O018",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O053",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O059",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O080",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O111",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O122",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O134",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O150",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O151",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O157",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O162",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O167",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O170",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O171",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O186",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O188",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O191",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O194",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O195",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O073__O194",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O076__O195",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O080__O083",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O145__O157",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O150__O212",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O162__O214",
+        "before_same_station": false,
+        "after_same_station": true
+      }
+    ],
+    "p5_delta": 0.0,
+    "secondary_delta": 0.00032800539550448336,
+    "component_contribution_changes": {
+      "area": -0.00020675396278427988,
+      "extra_gap": 0.0005347593582887694,
+      "group_fragmentation": 0.0
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_012",
+    "kind": "selected_vs_unselected",
+    "selection_reason": "diversity",
+    "explanation": "邻域罚分相同，所选方案次级分数更高；入选依据是代表性或多样性，不能声称分数更优。",
+    "before_plan_id": "NP2_036",
+    "after_plan_id": "NP2_064",
+    "before_plan_hash": "8090fb0ad38e902953890d7123709a818d367269f8be2c471f3342e0622d588f",
+    "after_plan_hash": "c97ffad49854c9e65d5fab332f0ffd978bbf304b87cf8ba91968dd9f59861fbb",
+    "focus_pair_id": null,
+    "raw_hamming": 28,
+    "all_changes": [
+      {
+        "operation_id": "O002",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O003",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O006",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O010",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O014",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O017",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O018",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O019",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O043",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O053",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O059",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O068",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O090",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O095",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O096",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O111",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O112",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O125",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O137",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O157",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O163",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O168",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O173",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O187",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O188",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O190",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O193",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O214",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O003__O209",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O017__O025",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O017__O144",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O058__O193",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O088__O090",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O145__O157",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O162__O214",
+        "before_same_station": true,
+        "after_same_station": false
+      }
+    ],
+    "p5_delta": 0.0,
+    "secondary_delta": 0.009140171324466132,
+    "component_contribution_changes": {
+      "area": 0.006822880771881465,
+      "extra_gap": 0.002317290552584672,
+      "group_fragmentation": 0.0
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_013",
+    "kind": "selected_vs_unselected",
+    "selection_reason": "diversity",
+    "explanation": "邻域罚分相同，所选方案次级分数更低。",
+    "before_plan_id": "NP2_024",
+    "after_plan_id": "NP2_044",
+    "before_plan_hash": "1b7cd2112c817be3babe44b0813014c7fcb4f8b7c733ba3d79f861cacbbef8a0",
+    "after_plan_hash": "4f3d59f8e8266a77d0092e1124ee456da020e188943f689161ec96151650ed4f",
+    "focus_pair_id": null,
+    "raw_hamming": 37,
+    "all_changes": [
+      {
+        "operation_id": "O004",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O005",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O013",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O014",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O020",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O048",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O053",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O058",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O059",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O065",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O076",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O077",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O091",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O095",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O099",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O107",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O108",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O111",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O112",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O129",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O133",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O140",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O141",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O147",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O150",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O157",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O162",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O167",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O171",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O172",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O187",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O189",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O191",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O193",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O194",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O212",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O214",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O073__O194",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O076__O195",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O145__O157",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O147__O213",
+        "before_same_station": true,
+        "after_same_station": false
+      }
+    ],
+    "p5_delta": 0.0,
+    "secondary_delta": -0.0012902774041137037,
+    "component_contribution_changes": {
+      "area": -0.0028945554789800085,
+      "extra_gap": 0.0016042780748663221,
+      "group_fragmentation": 0.0
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_014",
+    "kind": "selected_vs_unselected",
+    "selection_reason": "diversity",
+    "explanation": "邻域罚分相同，所选方案次级分数更高；入选依据是代表性或多样性，不能声称分数更优。",
+    "before_plan_id": "NP2_040",
+    "after_plan_id": "NP2_012",
+    "before_plan_hash": "53cdef28ddca6597b13273838cfb47e40ca7657ac741c91c94e12f1c5cba1f8d",
+    "after_plan_hash": "9dad064caf29bfa8b17ba497a7f76af230329c4e0534c28f8d26521ef7c5f876",
+    "focus_pair_id": null,
+    "raw_hamming": 31,
+    "all_changes": [
+      {
+        "operation_id": "O003",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O004",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O005",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O009",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O018",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O020",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O058",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O073",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O076",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O090",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O095",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O107",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O108",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O111",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O112",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O121",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O122",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O126",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O134",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O150",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O154",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O157",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O162",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O166",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O174",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O188",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O189",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O190",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O192",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O195",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O213",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O003__O209",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O058__O193",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O073__O194",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O088__O090",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O145__O157",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O147__O213",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O150__O212",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O162__O214",
+        "before_same_station": true,
+        "after_same_station": false
+      }
+    ],
+    "p5_delta": 0.0,
+    "secondary_delta": 0.0011907701492977368,
+    "component_contribution_changes": {
+      "area": -0.00041350792556857363,
+      "extra_gap": 0.0016042780748663082,
+      "group_fragmentation": 0.0
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_015",
+    "kind": "selected_vs_unselected",
+    "selection_reason": "diversity",
+    "explanation": "邻域罚分相同，所选方案次级分数更低。",
+    "before_plan_id": "NP2_040",
+    "after_plan_id": "NP2_060",
+    "before_plan_hash": "53cdef28ddca6597b13273838cfb47e40ca7657ac741c91c94e12f1c5cba1f8d",
+    "after_plan_hash": "d4e8e244e5a5840579b642c4733339ced4d96b01fc62df6f43a6ab075ac22315",
+    "focus_pair_id": null,
+    "raw_hamming": 34,
+    "all_changes": [
+      {
+        "operation_id": "O004",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O005",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O009",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O013",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O020",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O048",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O058",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O059",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O062",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O065",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O092",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O103",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O104",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O107",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O112",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O116",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O125",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O134",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O137",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O140",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O141",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O147",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O154",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O163",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O169",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O170",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O172",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O174",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O186",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O192",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O193",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O195",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O212",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O214",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O076__O195",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O147__O213",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O150__O212",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O162__O214",
+        "before_same_station": true,
+        "after_same_station": false
+      }
+    ],
+    "p5_delta": 0.0,
+    "secondary_delta": -0.004662590554673094,
+    "component_contribution_changes": {
+      "area": -0.00537560303239145,
+      "extra_gap": 0.00071301247771835,
+      "group_fragmentation": 0.0
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_016",
+    "kind": "selected_vs_unselected",
+    "selection_reason": "diversity",
+    "explanation": "邻域罚分相同，所选方案次级分数更高；入选依据是代表性或多样性，不能声称分数更优。",
+    "before_plan_id": "NP2_031",
+    "after_plan_id": "NP2_048",
+    "before_plan_hash": "d57d3b614683616ba79b1111a49e3988242a282066b4e147d6341a3ebec4189f",
+    "after_plan_hash": "3edce9677efc2fc7d187ccd21fe7434a330887cdaa06d20418d7174d025efd57",
+    "focus_pair_id": null,
+    "raw_hamming": 35,
+    "all_changes": [
+      {
+        "operation_id": "O003",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O004",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O048",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O059",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O062",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O073",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O076",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O083",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O088",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O095",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O096",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O099",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O100",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O103",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O115",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O116",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O121",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O125",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O129",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O130",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O137",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O147",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O151",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O154",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O157",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O162",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O163",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O166",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O168",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O172",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O173",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O187",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O189",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O194",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O214",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O003__O209",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O076__O195",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O080__O083",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O088__O090",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O145__O157",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O147__O213",
+        "before_same_station": true,
+        "after_same_station": false
+      }
+    ],
+    "p5_delta": 0.0,
+    "secondary_delta": 0.2353892023572163,
+    "component_contribution_changes": {
+      "area": 0.049827705031013095,
+      "extra_gap": 0.018894830659536545,
+      "group_fragmentation": 0.16666666666666669
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_017",
+    "kind": "selected_vs_old_n1",
+    "selection_reason": "secondary_score",
+    "explanation": "邻域罚分相同，所选方案次级分数更低。",
+    "before_plan_id": "N1_007",
+    "after_plan_id": "NP2_001",
+    "before_plan_hash": "5b47ca22a2d02604be24b74ce810b1117bd39529e17e6734cf6af7e20c000f7d",
+    "after_plan_hash": "c1ebb70f57ea3a676d6bb34e84640b549186e4d8fec1bb11fa23c427c90cf166",
+    "focus_pair_id": null,
+    "raw_hamming": 34,
+    "all_changes": [
+      {
+        "operation_id": "O005",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O006",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O018",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O043",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O058",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O068",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O076",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O080",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O091",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O092",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O095",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O096",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O107",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O108",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O111",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O115",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O116",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O121",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O122",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O137",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O151",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O157",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O163",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O167",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O170",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O171",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O172",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O173",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O187",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O188",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O189",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O190",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O192",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O195",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O058__O193",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O080__O083",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O145__O157",
+        "before_same_station": false,
+        "after_same_station": true
+      }
+    ],
+    "p5_delta": 0.0,
+    "secondary_delta": -0.5588761085538156,
+    "component_contribution_changes": {
+      "area": -0.04693314955203308,
+      "extra_gap": -0.011942959001782535,
+      "group_fragmentation": -0.5
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_018",
+    "kind": "selected_vs_old_n1",
+    "selection_reason": "secondary_score",
+    "explanation": "邻域罚分相同，所选方案次级分数更低。",
+    "before_plan_id": "N1_010",
+    "after_plan_id": "NP2_005",
+    "before_plan_hash": "d4779d38d1aadfff07bf49a3bc56ad4453910c3b4fd60ec306b080409fe20524",
+    "after_plan_hash": "8754f76f8dbb6da3f8b07c6a4eda12dd55eb26afa975c8e9654367563a1cd422",
+    "focus_pair_id": null,
+    "raw_hamming": 34,
+    "all_changes": [
+      {
+        "operation_id": "O005",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O006",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O009",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O010",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O013",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O019",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O053",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O058",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O059",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O062",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O065",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O088",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O099",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O103",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O115",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O116",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O121",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O122",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O129",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O133",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O134",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O147",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O157",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O162",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O166",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O167",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O168",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O172",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O188",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O192",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O194",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O212",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O213",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O214",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O058__O193",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O073__O194",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O088__O090",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O145__O157",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O150__O212",
+        "before_same_station": false,
+        "after_same_station": true
+      }
+    ],
+    "p5_delta": 0.0,
+    "secondary_delta": -0.5524594876482013,
+    "component_contribution_changes": {
+      "area": -0.04176430048242591,
+      "extra_gap": -0.010695187165775395,
+      "group_fragmentation": -0.5
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_019",
+    "kind": "selected_vs_old_n1",
+    "selection_reason": "secondary_score",
+    "explanation": "邻域罚分相同，所选方案次级分数更低。",
+    "before_plan_id": "N1_010",
+    "after_plan_id": "NP2_009",
+    "before_plan_hash": "d4779d38d1aadfff07bf49a3bc56ad4453910c3b4fd60ec306b080409fe20524",
+    "after_plan_hash": "abd33216fd9399a15336d0079fa1f7071823b5ee0168e5b247441ece5ce1719e",
+    "focus_pair_id": null,
+    "raw_hamming": 34,
+    "all_changes": [
+      {
+        "operation_id": "O005",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O006",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O009",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O010",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O013",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O019",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O053",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O058",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O059",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O062",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O077",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O088",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O099",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O103",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O115",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O116",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O121",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O122",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O129",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O133",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O134",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O147",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O157",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O162",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O166",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O167",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O168",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O172",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O188",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O192",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O194",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O212",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O213",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O214",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O058__O193",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O073__O194",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O088__O090",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O145__O157",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O150__O212",
+        "before_same_station": false,
+        "after_same_station": true
+      }
+    ],
+    "p5_delta": 0.0,
+    "secondary_delta": -0.5524594876482013,
+    "component_contribution_changes": {
+      "area": -0.04176430048242591,
+      "extra_gap": -0.010695187165775395,
+      "group_fragmentation": -0.5
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_020",
+    "kind": "selected_vs_old_n1",
+    "selection_reason": "secondary_score",
+    "explanation": "邻域罚分相同，所选方案次级分数更低。",
+    "before_plan_id": "N1_010",
+    "after_plan_id": "NP2_013",
+    "before_plan_hash": "d4779d38d1aadfff07bf49a3bc56ad4453910c3b4fd60ec306b080409fe20524",
+    "after_plan_hash": "123df90722c1bbc53a6d1feed0fbbea4d0207c9c208af7a0c728542706caebe0",
+    "focus_pair_id": null,
+    "raw_hamming": 33,
+    "all_changes": [
+      {
+        "operation_id": "O005",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O006",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O009",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O010",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O013",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O019",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O053",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O058",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O059",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O062",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O088",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O099",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O103",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O115",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O116",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O121",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O122",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O129",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O133",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O134",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O147",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O157",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O162",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O166",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O167",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O168",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O172",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O188",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O192",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O194",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O212",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O213",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O214",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O058__O193",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O073__O194",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O088__O090",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O145__O157",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O150__O212",
+        "before_same_station": false,
+        "after_same_station": true
+      }
+    ],
+    "p5_delta": 0.0,
+    "secondary_delta": -0.5524309868048466,
+    "component_contribution_changes": {
+      "area": -0.04155754651964162,
+      "extra_gap": -0.010873440285204983,
+      "group_fragmentation": -0.5
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_021",
+    "kind": "selected_vs_old_n1",
+    "selection_reason": "secondary_score",
+    "explanation": "邻域罚分相同，所选方案次级分数更低。",
+    "before_plan_id": "N1_007",
+    "after_plan_id": "NP2_017",
+    "before_plan_hash": "5b47ca22a2d02604be24b74ce810b1117bd39529e17e6734cf6af7e20c000f7d",
+    "after_plan_hash": "ddfe7954d14976ecdfc823b80b604ef3286d5aab4a334e259747ffdd6428c803",
+    "focus_pair_id": null,
+    "raw_hamming": 33,
+    "all_changes": [
+      {
+        "operation_id": "O005",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O006",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O018",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O043",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O058",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O068",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O076",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O091",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O092",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O095",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O096",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O107",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O108",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O111",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O115",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O116",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O121",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O122",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O137",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O151",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O157",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O163",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O167",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O170",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O171",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O172",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O173",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O187",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O188",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O189",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O190",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O192",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O195",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O058__O193",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O145__O157",
+        "before_same_station": false,
+        "after_same_station": true
+      }
+    ],
+    "p5_delta": 0.0,
+    "secondary_delta": -0.5585481031583112,
+    "component_contribution_changes": {
+      "area": -0.047139903514817366,
+      "extra_gap": -0.011408199643493766,
+      "group_fragmentation": -0.5
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_022",
+    "kind": "selected_vs_old_n1",
+    "selection_reason": "secondary_score",
+    "explanation": "邻域罚分相同，所选方案次级分数更低。",
+    "before_plan_id": "N1_006",
+    "after_plan_id": "NP2_021",
+    "before_plan_hash": "806524bc992a2515244b3b6323873740a1f8b43fe9749d7eacedf23c01503741",
+    "after_plan_hash": "aa9e5b6c6db22cbe6b4bb935f70e63dd50eb19d62b59d133869446637bd1583f",
+    "focus_pair_id": null,
+    "raw_hamming": 33,
+    "all_changes": [
+      {
+        "operation_id": "O002",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O003",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O006",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O019",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O048",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O053",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O065",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O076",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O083",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O088",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O099",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O100",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O107",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O108",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O121",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O122",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O133",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O134",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O137",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O140",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O141",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O151",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O154",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O168",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O169",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O170",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O174",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O188",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O189",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O190",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O192",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O193",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O194",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O003__O209",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O058__O193",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O073__O194",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O076__O195",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O080__O083",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O088__O090",
+        "before_same_station": false,
+        "after_same_station": true
+      }
+    ],
+    "p5_delta": 0.0,
+    "secondary_delta": -0.5553965486952879,
+    "component_contribution_changes": {
+      "area": -0.04755341144038594,
+      "extra_gap": -0.007843137254901968,
+      "group_fragmentation": -0.5
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_023",
+    "kind": "selected_vs_old_n1",
+    "selection_reason": "secondary_score",
+    "explanation": "邻域罚分相同，所选方案次级分数更低。",
+    "before_plan_id": "N1_006",
+    "after_plan_id": "NP2_025",
+    "before_plan_hash": "806524bc992a2515244b3b6323873740a1f8b43fe9749d7eacedf23c01503741",
+    "after_plan_hash": "f97aace26ba72a846586b468d1084dce4a6d94d4cfa9b2ea9b7a9108afe11f8a",
+    "focus_pair_id": null,
+    "raw_hamming": 33,
+    "all_changes": [
+      {
+        "operation_id": "O002",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O003",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O006",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O019",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O048",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O053",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O076",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O077",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O083",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O088",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O099",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O100",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O107",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O108",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O121",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O122",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O133",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O134",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O137",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O140",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O141",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O151",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O154",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O168",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O169",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O170",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O174",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O188",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O189",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O190",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O192",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O193",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O194",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O003__O209",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O058__O193",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O073__O194",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O076__O195",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O080__O083",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O088__O090",
+        "before_same_station": false,
+        "after_same_station": true
+      }
+    ],
+    "p5_delta": 0.0,
+    "secondary_delta": -0.5553965486952879,
+    "component_contribution_changes": {
+      "area": -0.04755341144038594,
+      "extra_gap": -0.007843137254901968,
+      "group_fragmentation": -0.5
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_024",
+    "kind": "selected_vs_old_n1",
+    "selection_reason": "secondary_score",
+    "explanation": "邻域罚分相同，所选方案次级分数更低。",
+    "before_plan_id": "N1_006",
+    "after_plan_id": "NP2_029",
+    "before_plan_hash": "806524bc992a2515244b3b6323873740a1f8b43fe9749d7eacedf23c01503741",
+    "after_plan_hash": "f4aadbb979efecfe6efbd6665f79b37e76005e54d180742395eb9d80f7ef7d27",
+    "focus_pair_id": null,
+    "raw_hamming": 32,
+    "all_changes": [
+      {
+        "operation_id": "O002",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O003",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O006",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O019",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O048",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O053",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O076",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O083",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O088",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O099",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O100",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O107",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O108",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O121",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O122",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O133",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O134",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O137",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O140",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O141",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O151",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O154",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O168",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O169",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O170",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O174",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O188",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O189",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O190",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O192",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O193",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O194",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O003__O209",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O058__O193",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O073__O194",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O076__O195",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O080__O083",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O088__O090",
+        "before_same_station": false,
+        "after_same_station": true
+      }
+    ],
+    "p5_delta": 0.0,
+    "secondary_delta": -0.5553680478519332,
+    "component_contribution_changes": {
+      "area": -0.04734665747760165,
+      "extra_gap": -0.008021390374331555,
+      "group_fragmentation": -0.5
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_025",
+    "kind": "selected_vs_old_n1",
+    "selection_reason": "minimum_extra_gap_representative",
+    "explanation": "邻域罚分相同，所选方案次级分数更低。",
+    "before_plan_id": "N1_013",
+    "after_plan_id": "NP2_059",
+    "before_plan_hash": "21ccab9dbc59c661a4ba57b82adc53420f50e9c73ba36cf36b8a0d1d3e7af2c9",
+    "after_plan_hash": "115abd043f7ec19ff844b2d594d3482e263c5b16f480921c32b84b0c19e1f12e",
+    "focus_pair_id": null,
+    "raw_hamming": 33,
+    "all_changes": [
+      {
+        "operation_id": "O002",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O003",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O005",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O006",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O013",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O017",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O020",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O048",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O059",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O068",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O073",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O076",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O083",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O088",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O115",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O121",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O122",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O129",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O130",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O140",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O147",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O151",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O162",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O166",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O168",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O169",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O171",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O172",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O187",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O190",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O191",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O212",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O213",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O003__O209",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O017__O025",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O017__O144",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O073__O194",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O076__O195",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O080__O083",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O088__O090",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O150__O212",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O162__O214",
+        "before_same_station": false,
+        "after_same_station": true
+      }
+    ],
+    "p5_delta": 0.0,
+    "secondary_delta": -0.2085179438607095,
+    "component_contribution_changes": {
+      "area": -0.026878015161957276,
+      "extra_gap": -0.014973262032085558,
+      "group_fragmentation": -0.16666666666666669
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_026",
+    "kind": "selected_vs_old_n1",
+    "selection_reason": "diversity",
+    "explanation": "邻域罚分相同，所选方案次级分数更低。",
+    "before_plan_id": "N1_015",
+    "after_plan_id": "NP2_056",
+    "before_plan_hash": "0daae9f9d0007bd104a377fc9c9933aa35737d77c54067c7ee05507e551183e8",
+    "after_plan_hash": "3b15bc610b9a37e7ecc85797238ce01e44fd9c5c4de574dfeb138d8f16625a42",
+    "focus_pair_id": null,
+    "raw_hamming": 30,
+    "all_changes": [
+      {
+        "operation_id": "O002",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O009",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O010",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O014",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O019",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O043",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O048",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O059",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O062",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O065",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O073",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O077",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O080",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O092",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O096",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O100",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O104",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O107",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O126",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O129",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O134",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O141",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O162",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O169",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O170",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O173",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O187",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O192",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O213",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O214",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O073__O194",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O080__O083",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O147__O213",
+        "before_same_station": false,
+        "after_same_station": true
+      }
+    ],
+    "p5_delta": 0.0,
+    "secondary_delta": -0.009232430519980689,
+    "component_contribution_changes": {
+      "area": -0.011371467953135761,
+      "extra_gap": 0.0021390374331550915,
+      "group_fragmentation": 0.0
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_027",
+    "kind": "selected_vs_old_n1",
+    "selection_reason": "diversity",
+    "explanation": "邻域罚分相同，所选方案次级分数更高；入选依据是代表性或多样性，不能声称分数更优。",
+    "before_plan_id": "N1_010",
+    "after_plan_id": "NP2_004",
+    "before_plan_hash": "d4779d38d1aadfff07bf49a3bc56ad4453910c3b4fd60ec306b080409fe20524",
+    "after_plan_hash": "065b2a268feffe4c9789007d8628e0e7b830f419c41c0df79cb7e4d6f769e910",
+    "focus_pair_id": null,
+    "raw_hamming": 34,
+    "all_changes": [
+      {
+        "operation_id": "O003",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O004",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O009",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O010",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O014",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O018",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O043",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O048",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O058",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O059",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O077",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O088",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O095",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O096",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O099",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O104",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O107",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O111",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O125",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O126",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O130",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O140",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O141",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O162",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O163",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O166",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O168",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O170",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O171",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O189",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O191",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O195",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O212",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O214",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O003__O209",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O058__O193",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O076__O195",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O088__O090",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O150__O212",
+        "before_same_station": false,
+        "after_same_station": true
+      }
+    ],
+    "p5_delta": 0.0,
+    "secondary_delta": 0.02149565546411535,
+    "component_contribution_changes": {
+      "area": 0.017574086836664372,
+      "extra_gap": 0.00392156862745098,
+      "group_fragmentation": 0.0
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_028",
+    "kind": "selected_vs_old_n1",
+    "selection_reason": "diversity",
+    "explanation": "邻域罚分相同，所选方案次级分数更高；入选依据是代表性或多样性，不能声称分数更优。",
+    "before_plan_id": "N1_013",
+    "after_plan_id": "NP2_064",
+    "before_plan_hash": "21ccab9dbc59c661a4ba57b82adc53420f50e9c73ba36cf36b8a0d1d3e7af2c9",
+    "after_plan_hash": "c97ffad49854c9e65d5fab332f0ffd978bbf304b87cf8ba91968dd9f59861fbb",
+    "focus_pair_id": null,
+    "raw_hamming": 33,
+    "all_changes": [
+      {
+        "operation_id": "O002",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O003",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O005",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O009",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O010",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O019",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O020",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O043",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O048",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O062",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O073",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O080",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O099",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O100",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O103",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O104",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O107",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O108",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O116",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O125",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O137",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O141",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O147",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O151",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O154",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O157",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O163",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O167",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O168",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O172",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O173",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O188",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O190",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O003__O209",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O073__O194",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O080__O083",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O145__O157",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O147__O213",
+        "before_same_station": true,
+        "after_same_station": false
+      }
+    ],
+    "p5_delta": 0.0,
+    "secondary_delta": 0.04228554650981375,
+    "component_contribution_changes": {
+      "area": 0.03390764989662302,
+      "extra_gap": 0.008377896613190737,
+      "group_fragmentation": 0.0
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_029",
+    "kind": "selected_vs_old_n1",
+    "selection_reason": "diversity",
+    "explanation": "邻域罚分相同，所选方案次级分数更低。",
+    "before_plan_id": "N1_011",
+    "after_plan_id": "NP2_044",
+    "before_plan_hash": "824c8603dfdc7be55dc85b7975d351f9073a1b446cd2b935ee01ea8aae04c6f4",
+    "after_plan_hash": "4f3d59f8e8266a77d0092e1124ee456da020e188943f689161ec96151650ed4f",
+    "focus_pair_id": null,
+    "raw_hamming": 32,
+    "all_changes": [
+      {
+        "operation_id": "O003",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O004",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O005",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O010",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O019",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O062",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O068",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O073",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O076",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O091",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O099",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O100",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O103",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O104",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O111",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O112",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O129",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O130",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O134",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O137",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O147",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O151",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O162",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O166",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O168",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O169",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O171",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O173",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O186",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O192",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O195",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O212",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O003__O209",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O073__O194",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O147__O213",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O150__O212",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O162__O214",
+        "before_same_station": false,
+        "after_same_station": true
+      }
+    ],
+    "p5_delta": 0.0,
+    "secondary_delta": -0.011271960698319802,
+    "component_contribution_changes": {
+      "area": -0.008063404548587172,
+      "extra_gap": -0.0032085561497326165,
+      "group_fragmentation": 0.0
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_030",
+    "kind": "selected_vs_old_n1",
+    "selection_reason": "diversity",
+    "explanation": "邻域罚分相同，所选方案次级分数更高；入选依据是代表性或多样性，不能声称分数更优。",
+    "before_plan_id": "N1_012",
+    "after_plan_id": "NP2_012",
+    "before_plan_hash": "c2aef2b2d1fa71372f94527484cecc1c6d5cf4ab31f0be1b3f51573fdb2c736d",
+    "after_plan_hash": "9dad064caf29bfa8b17ba497a7f76af230329c4e0534c28f8d26521ef7c5f876",
+    "focus_pair_id": null,
+    "raw_hamming": 34,
+    "all_changes": [
+      {
+        "operation_id": "O002",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O013",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O020",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O053",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O058",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O062",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O073",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O077",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O080",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O083",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O088",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O092",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O095",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O100",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O103",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O108",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O111",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O112",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O116",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O121",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O125",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O126",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O137",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O147",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O150",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O151",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O154",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O167",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O171",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O173",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O174",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O187",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O189",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O190",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O058__O193",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O073__O194",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O088__O090",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O147__O213",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O150__O212",
+        "before_same_station": false,
+        "after_same_station": true
+      }
+    ],
+    "p5_delta": 0.0,
+    "secondary_delta": 0.01207723237155272,
+    "component_contribution_changes": {
+      "area": 0.012611991729841482,
+      "extra_gap": -0.0005347593582887694,
+      "group_fragmentation": 0.0
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_031",
+    "kind": "selected_vs_old_n1",
+    "selection_reason": "diversity",
+    "explanation": "邻域罚分相同，所选方案次级分数更高；入选依据是代表性或多样性，不能声称分数更优。",
+    "before_plan_id": "N1_006",
+    "after_plan_id": "NP2_060",
+    "before_plan_hash": "806524bc992a2515244b3b6323873740a1f8b43fe9749d7eacedf23c01503741",
+    "after_plan_hash": "d4e8e244e5a5840579b642c4733339ced4d96b01fc62df6f43a6ab075ac22315",
+    "focus_pair_id": null,
+    "raw_hamming": 29,
+    "all_changes": [
+      {
+        "operation_id": "O003",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O004",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O005",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O018",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O048",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O058",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O080",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O088",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O090",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O091",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O103",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O104",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O108",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O111",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O115",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O129",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O130",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O150",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O162",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O168",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O172",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O174",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O186",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O190",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O191",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O192",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O193",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O212",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O213",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O003__O209",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O080__O083",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O147__O213",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O162__O214",
+        "before_same_station": true,
+        "after_same_station": false
+      }
+    ],
+    "p5_delta": 0.0,
+    "secondary_delta": 0.014972279244383675,
+    "component_contribution_changes": {
+      "area": 0.010337698139214334,
+      "extra_gap": 0.00463458110516933,
+      "group_fragmentation": 0.0
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_032",
+    "kind": "selected_vs_old_n1",
+    "selection_reason": "diversity",
+    "explanation": "邻域罚分相同，所选方案次级分数更高；入选依据是代表性或多样性，不能声称分数更优。",
+    "before_plan_id": "N1_013",
+    "after_plan_id": "NP2_048",
+    "before_plan_hash": "21ccab9dbc59c661a4ba57b82adc53420f50e9c73ba36cf36b8a0d1d3e7af2c9",
+    "after_plan_hash": "3edce9677efc2fc7d187ccd21fe7434a330887cdaa06d20418d7174d025efd57",
+    "focus_pair_id": null,
+    "raw_hamming": 30,
+    "all_changes": [
+      {
+        "operation_id": "O004",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O005",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O013",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O017",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O020",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O062",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O068",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O095",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O096",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O099",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O100",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O103",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O116",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O122",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O125",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O137",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O140",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O154",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O157",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O163",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O169",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O171",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O173",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O189",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O190",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O192",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O194",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O212",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O213",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O214",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O017__O025",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O017__O144",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O073__O194",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O145__O157",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O147__O213",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O150__O212",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O162__O214",
+        "before_same_station": false,
+        "after_same_station": true
+      }
+    ],
+    "p5_delta": 0.0,
+    "secondary_delta": 0.026871258496506803,
+    "component_contribution_changes": {
+      "area": 0.022949689869055816,
+      "extra_gap": 0.003921568627450987,
+      "group_fragmentation": 0.0
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_033",
+    "kind": "known_case_posthoc",
+    "selection_reason": "diversity",
+    "explanation": "所选方案邻域罚分更低，按分层目标优先。",
+    "before_plan_id": "NB_007",
+    "after_plan_id": "NP2_060",
+    "before_plan_hash": "493d7b30c315458b86d4349d3510a5d6014d01ffe5c7a1bbdf95cc9bc01459e6",
+    "after_plan_hash": "d4e8e244e5a5840579b642c4733339ced4d96b01fc62df6f43a6ab075ac22315",
+    "focus_pair_id": "O066__O200",
+    "raw_hamming": 35,
+    "all_changes": [
+      {
+        "operation_id": "O002",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O003",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O009",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O013",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O014",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O017",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O020",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O043",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O048",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O053",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O058",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O077",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O088",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O100",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O108",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O112",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O115",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O121",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O122",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O125",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O126",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O137",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O147",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O151",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O162",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP30"
+      },
+      {
+        "operation_id": "O167",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O170",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O173",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O189",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP20",
+        "after_station": "OP10"
+      },
+      {
+        "operation_id": "O192",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O193",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O196",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O200",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O202",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O204",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O003__O209",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O015__O196",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O017__O025",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O017__O144",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O031__O196",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O035__O196",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O066__O200",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O088__O090",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O127__O204",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O135__O202",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O147__O213",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O162__O214",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O203__O204",
+        "before_same_station": false,
+        "after_same_station": true
+      }
+    ],
+    "p5_delta": -0.2727272727272727,
+    "secondary_delta": -0.0013255349129188672,
+    "component_contribution_changes": {
+      "area": -0.007029634734665745,
+      "extra_gap": 0.005704099821746883,
+      "group_fragmentation": 0.0
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_034",
+    "kind": "known_case_posthoc",
+    "selection_reason": "secondary_score",
+    "explanation": "所选方案邻域罚分更低，按分层目标优先。",
+    "before_plan_id": "NB_013",
+    "after_plan_id": "NP2_029",
+    "before_plan_hash": "91a741f86b6a451eccb9ec09c793e0670170dd56e97516a55fd4ceaf5ffe45e4",
+    "after_plan_hash": "f4aadbb979efecfe6efbd6665f79b37e76005e54d180742395eb9d80f7ef7d27",
+    "focus_pair_id": "O015__O196",
+    "raw_hamming": 34,
+    "all_changes": [
+      {
+        "operation_id": "O003",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O004",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O009",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O010",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O013",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O014",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O017",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O018",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O020",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O068",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O076",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O088",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O091",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O095",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O096",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O099",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O100",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O107",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O108",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O115",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O125",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O147",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O151",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O154",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O163",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O172",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O196",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O198",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O199",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O203",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O204",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O205",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O210",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O213",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O003__O209",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O015__O196",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O017__O025",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O017__O144",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O031__O196",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O035__O196",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O044__O198",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O046__O198",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O076__O195",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O078__O199",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O088__O090",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O089__O198",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O113__O210",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O123__O205",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O127__O203",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O127__O204",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O131__O203",
+        "before_same_station": true,
+        "after_same_station": false
+      }
+    ],
+    "p5_delta": -0.45454545454545453,
+    "secondary_delta": -0.5588326201980072,
+    "component_contribution_changes": {
+      "area": -0.0543762922122674,
+      "extra_gap": -0.00445632798573975,
+      "group_fragmentation": -0.5
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_035",
+    "kind": "known_case_posthoc",
+    "selection_reason": "secondary_score",
+    "explanation": "所选方案邻域罚分更低，按分层目标优先。",
+    "before_plan_id": "NB_013",
+    "after_plan_id": "NP2_029",
+    "before_plan_hash": "91a741f86b6a451eccb9ec09c793e0670170dd56e97516a55fd4ceaf5ffe45e4",
+    "after_plan_hash": "f4aadbb979efecfe6efbd6665f79b37e76005e54d180742395eb9d80f7ef7d27",
+    "focus_pair_id": "O031__O196",
+    "raw_hamming": 34,
+    "all_changes": [
+      {
+        "operation_id": "O003",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O004",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O009",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O010",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O013",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O014",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O017",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O018",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O020",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O068",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O076",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O088",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O091",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O095",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O096",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O099",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O100",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O107",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O108",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O115",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O125",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O147",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O151",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O154",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O163",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O172",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O196",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O198",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O199",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O203",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O204",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O205",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O210",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O213",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O003__O209",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O015__O196",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O017__O025",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O017__O144",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O031__O196",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O035__O196",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O044__O198",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O046__O198",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O076__O195",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O078__O199",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O088__O090",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O089__O198",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O113__O210",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O123__O205",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O127__O203",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O127__O204",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O131__O203",
+        "before_same_station": true,
+        "after_same_station": false
+      }
+    ],
+    "p5_delta": -0.45454545454545453,
+    "secondary_delta": -0.5588326201980072,
+    "component_contribution_changes": {
+      "area": -0.0543762922122674,
+      "extra_gap": -0.00445632798573975,
+      "group_fragmentation": -0.5
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  },
+  {
+    "comparison_id": "NP2_CMP_036",
+    "kind": "known_case_posthoc",
+    "selection_reason": "secondary_score",
+    "explanation": "所选方案邻域罚分更低，按分层目标优先。",
+    "before_plan_id": "NB_013",
+    "after_plan_id": "NP2_029",
+    "before_plan_hash": "91a741f86b6a451eccb9ec09c793e0670170dd56e97516a55fd4ceaf5ffe45e4",
+    "after_plan_hash": "f4aadbb979efecfe6efbd6665f79b37e76005e54d180742395eb9d80f7ef7d27",
+    "focus_pair_id": "O035__O196",
+    "raw_hamming": 34,
+    "all_changes": [
+      {
+        "operation_id": "O003",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O004",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O009",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O010",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O013",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O014",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O017",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP60"
+      },
+      {
+        "operation_id": "O018",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O020",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O068",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O076",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O088",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O091",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O095",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O096",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O099",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O100",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O107",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O108",
+        "operation_type": "BEND",
+        "before_station": "OP50",
+        "after_station": "OP40"
+      },
+      {
+        "operation_id": "O115",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O125",
+        "operation_type": "BEND",
+        "before_station": "OP60",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O147",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O151",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O154",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O163",
+        "operation_type": "BEND",
+        "before_station": "OP40",
+        "after_station": "OP50"
+      },
+      {
+        "operation_id": "O172",
+        "operation_type": "CIRCLE_PUNCH",
+        "before_station": "OP10",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O196",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O198",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O199",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O203",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O204",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O205",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O210",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      },
+      {
+        "operation_id": "O213",
+        "operation_type": "IRREGULAR_PUNCH",
+        "before_station": "OP30",
+        "after_station": "OP20"
+      }
+    ],
+    "external_same_station_changes": [
+      {
+        "pair_id": "O003__O209",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O015__O196",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O017__O025",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O017__O144",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O031__O196",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O035__O196",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O044__O198",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O046__O198",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O076__O195",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O078__O199",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O088__O090",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O089__O198",
+        "before_same_station": false,
+        "after_same_station": true
+      },
+      {
+        "pair_id": "O113__O210",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O123__O205",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O127__O203",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O127__O204",
+        "before_same_station": true,
+        "after_same_station": false
+      },
+      {
+        "pair_id": "O131__O203",
+        "before_same_station": true,
+        "after_same_station": false
+      }
+    ],
+    "p5_delta": -0.45454545454545453,
+    "secondary_delta": -0.5588326201980072,
+    "component_contribution_changes": {
+      "area": -0.0543762922122674,
+      "extra_gap": -0.00445632798573975,
+      "group_fragmentation": -0.5
+    },
+    "answer": null,
+    "causal_single_change_claim": false
+  }
+]

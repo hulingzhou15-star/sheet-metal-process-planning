@@ -1,0 +1,10 @@
+{
+  "schema_version": "m3.review.v0.8",
+  "batch_id": "P001_R02",
+  "blind_plan_prefix": "R02_PLAN_",
+  "comparison_prefix": "R02_CMP_",
+  "seeds": {"whole_pair_cycle": 202610151, "plan_blinding": 202610152, "comparison_blinding": 202610153},
+  "whole_comparisons": {"method": "seeded_cycle", "expected_selected_count": 16},
+  "local_comparisons": {"include_all_unique": true},
+  "previews": {"stations": ["OP20", "OP30"], "whole_count": 1, "local_count": 1}
+}

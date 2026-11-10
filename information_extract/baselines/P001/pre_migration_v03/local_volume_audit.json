@@ -1,0 +1,356 @@
+{
+  "interpretation": "Local geometric endpoint replacements are NOT volume conserving. Each crop includes a planar connection collar; no redistribution outside the crop is simulated.",
+  "operations": [
+    {
+      "operation_id": "O027",
+      "unformed_after_pre_punch_mm3": 38.49599999999999,
+      "formed_mm3": 43.954617111827865,
+      "delta_mm3": 5.458617111827877,
+      "delta_percent": 14.179699480018382
+    },
+    {
+      "operation_id": "O028",
+      "unformed_after_pre_punch_mm3": 38.495999999999995,
+      "formed_mm3": 43.95461711183573,
+      "delta_mm3": 5.458617111835736,
+      "delta_percent": 14.17969948003881
+    },
+    {
+      "operation_id": "O029",
+      "unformed_after_pre_punch_mm3": 38.495999999999995,
+      "formed_mm3": 43.95461711181877,
+      "delta_mm3": 5.458617111818775,
+      "delta_percent": 14.179699479994735
+    },
+    {
+      "operation_id": "O030",
+      "unformed_after_pre_punch_mm3": 38.495999999999995,
+      "formed_mm3": 43.954617111818855,
+      "delta_mm3": 5.45861711181886,
+      "delta_percent": 14.179699479994955
+    },
+    {
+      "operation_id": "O011",
+      "unformed_after_pre_punch_mm3": 14.476458947741808,
+      "formed_mm3": 18.244664853542467,
+      "delta_mm3": 3.7682059058006594,
+      "delta_percent": 26.02988700070512
+    },
+    {
+      "operation_id": "O015",
+      "unformed_after_pre_punch_mm3": 14.476458947741758,
+      "formed_mm3": 18.244664853542478,
+      "delta_mm3": 3.76820590580072,
+      "delta_percent": 26.02988700070563
+    },
+    {
+      "operation_id": "O021",
+      "unformed_after_pre_punch_mm3": 14.85571201288315,
+      "formed_mm3": 18.554865154114015,
+      "delta_mm3": 3.699153141230866,
+      "delta_percent": 24.900544235260426
+    },
+    {
+      "operation_id": "O023",
+      "unformed_after_pre_punch_mm3": 14.85571201288315,
+      "formed_mm3": 18.554865154114008,
+      "delta_mm3": 3.699153141230859,
+      "delta_percent": 24.90054423526038
+    },
+    {
+      "operation_id": "O031",
+      "unformed_after_pre_punch_mm3": 14.47645894774177,
+      "formed_mm3": 18.244664853543487,
+      "delta_mm3": 3.7682059058017163,
+      "delta_percent": 26.029887000712492
+    },
+    {
+      "operation_id": "O033",
+      "unformed_after_pre_punch_mm3": 14.476458947741802,
+      "formed_mm3": 18.244664853544048,
+      "delta_mm3": 3.7682059058022457,
+      "delta_percent": 26.02988700071609
+    },
+    {
+      "operation_id": "O035",
+      "unformed_after_pre_punch_mm3": 14.4764589477418,
+      "formed_mm3": 18.24466485354354,
+      "delta_mm3": 3.7682059058017394,
+      "delta_percent": 26.029887000712606
+    },
+    {
+      "operation_id": "O037",
+      "unformed_after_pre_punch_mm3": 14.476458947741795,
+      "formed_mm3": 18.24466485354303,
+      "delta_mm3": 3.768205905801233,
+      "delta_percent": 26.029887000709117
+    },
+    {
+      "operation_id": "O039",
+      "unformed_after_pre_punch_mm3": 14.476458947741772,
+      "formed_mm3": 18.244664853543508,
+      "delta_mm3": 3.768205905801736,
+      "delta_percent": 26.029887000712627
+    },
+    {
+      "operation_id": "O041",
+      "unformed_after_pre_punch_mm3": 14.4764589477418,
+      "formed_mm3": 18.24466485354307,
+      "delta_mm3": 3.7682059058012705,
+      "delta_percent": 26.029887000709362
+    },
+    {
+      "operation_id": "O044",
+      "unformed_after_pre_punch_mm3": 14.47645894774177,
+      "formed_mm3": 18.244664853542474,
+      "delta_mm3": 3.768205905800704,
+      "delta_percent": 26.0298870007055
+    },
+    {
+      "operation_id": "O046",
+      "unformed_after_pre_punch_mm3": 14.47645894774177,
+      "formed_mm3": 18.244664853542474,
+      "delta_mm3": 3.768205905800704,
+      "delta_percent": 26.0298870007055
+    },
+    {
+      "operation_id": "O049",
+      "unformed_after_pre_punch_mm3": 14.476458947741795,
+      "formed_mm3": 18.24466485354248,
+      "delta_mm3": 3.768205905800686,
+      "delta_percent": 26.029887000705344
+    },
+    {
+      "operation_id": "O051",
+      "unformed_after_pre_punch_mm3": 14.476458947741795,
+      "formed_mm3": 18.24466485354248,
+      "delta_mm3": 3.768205905800686,
+      "delta_percent": 26.029887000705344
+    },
+    {
+      "operation_id": "O054",
+      "unformed_after_pre_punch_mm3": 14.476458947741783,
+      "formed_mm3": 18.24466485354418,
+      "delta_mm3": 3.7682059058023967,
+      "delta_percent": 26.029887000717178
+    },
+    {
+      "operation_id": "O060",
+      "unformed_after_pre_punch_mm3": 14.476458947741822,
+      "formed_mm3": 18.244664853544162,
+      "delta_mm3": 3.76820590580234,
+      "delta_percent": 26.029887000716712
+    },
+    {
+      "operation_id": "O063",
+      "unformed_after_pre_punch_mm3": 14.476458948948153,
+      "formed_mm3": 18.24466485444055,
+      "delta_mm3": 3.7682059054923975,
+      "delta_percent": 26.029886996406624
+    },
+    {
+      "operation_id": "O066",
+      "unformed_after_pre_punch_mm3": 14.476458947741795,
+      "formed_mm3": 18.24466485354248,
+      "delta_mm3": 3.768205905800686,
+      "delta_percent": 26.029887000705344
+    },
+    {
+      "operation_id": "O069",
+      "unformed_after_pre_punch_mm3": 14.476458947741776,
+      "formed_mm3": 18.244664853544155,
+      "delta_mm3": 3.768205905802379,
+      "delta_percent": 26.029887000717068
+    },
+    {
+      "operation_id": "O078",
+      "unformed_after_pre_punch_mm3": 14.476458947741815,
+      "formed_mm3": 18.2446648535425,
+      "delta_mm3": 3.7682059058006843,
+      "delta_percent": 26.029887000705298
+    },
+    {
+      "operation_id": "O081",
+      "unformed_after_pre_punch_mm3": 14.476458947741815,
+      "formed_mm3": 18.244664853542364,
+      "delta_mm3": 3.7682059058005493,
+      "delta_percent": 26.029887000704367
+    },
+    {
+      "operation_id": "O084",
+      "unformed_after_pre_punch_mm3": 14.476458947741822,
+      "formed_mm3": 18.244664853543583,
+      "delta_mm3": 3.7682059058017607,
+      "delta_percent": 26.029887000712716
+    },
+    {
+      "operation_id": "O086",
+      "unformed_after_pre_punch_mm3": 14.47645894774177,
+      "formed_mm3": 18.24466485354301,
+      "delta_mm3": 3.7682059058012403,
+      "delta_percent": 26.029887000709206
+    },
+    {
+      "operation_id": "O093",
+      "unformed_after_pre_punch_mm3": 14.476458947741785,
+      "formed_mm3": 18.244664853542435,
+      "delta_mm3": 3.7682059058006505,
+      "delta_percent": 26.0298870007051
+    },
+    {
+      "operation_id": "O097",
+      "unformed_after_pre_punch_mm3": 14.476458947741783,
+      "formed_mm3": 18.244664853542456,
+      "delta_mm3": 3.7682059058006736,
+      "delta_percent": 26.029887000705276
+    },
+    {
+      "operation_id": "O101",
+      "unformed_after_pre_punch_mm3": 14.476458947741808,
+      "formed_mm3": 18.24466485354247,
+      "delta_mm3": 3.768205905800663,
+      "delta_percent": 26.029887000705145
+    },
+    {
+      "operation_id": "O105",
+      "unformed_after_pre_punch_mm3": 14.476458947741783,
+      "formed_mm3": 18.244664853542456,
+      "delta_mm3": 3.7682059058006736,
+      "delta_percent": 26.029887000705276
+    },
+    {
+      "operation_id": "O109",
+      "unformed_after_pre_punch_mm3": 14.476458947741754,
+      "formed_mm3": 18.244664853542425,
+      "delta_mm3": 3.76820590580067,
+      "delta_percent": 26.029887000705298
+    },
+    {
+      "operation_id": "O113",
+      "unformed_after_pre_punch_mm3": 14.476458947741754,
+      "formed_mm3": 18.244664853542428,
+      "delta_mm3": 3.7682059058006736,
+      "delta_percent": 26.029887000705322
+    },
+    {
+      "operation_id": "O117",
+      "unformed_after_pre_punch_mm3": 14.476458947741763,
+      "formed_mm3": 18.24466485354417,
+      "delta_mm3": 3.7682059058024056,
+      "delta_percent": 26.029887000717267
+    },
+    {
+      "operation_id": "O119",
+      "unformed_after_pre_punch_mm3": 14.476458947741763,
+      "formed_mm3": 18.24466485354417,
+      "delta_mm3": 3.7682059058024056,
+      "delta_percent": 26.029887000717267
+    },
+    {
+      "operation_id": "O123",
+      "unformed_after_pre_punch_mm3": 14.476458947741808,
+      "formed_mm3": 18.24466485354247,
+      "delta_mm3": 3.768205905800663,
+      "delta_percent": 26.029887000705145
+    },
+    {
+      "operation_id": "O127",
+      "unformed_after_pre_punch_mm3": 14.476458947741763,
+      "formed_mm3": 18.24466485354245,
+      "delta_mm3": 3.768205905800686,
+      "delta_percent": 26.029887000705386
+    },
+    {
+      "operation_id": "O131",
+      "unformed_after_pre_punch_mm3": 14.476458947741765,
+      "formed_mm3": 18.244664853542442,
+      "delta_mm3": 3.768205905800677,
+      "delta_percent": 26.029887000705322
+    },
+    {
+      "operation_id": "O135",
+      "unformed_after_pre_punch_mm3": 14.476458947754333,
+      "formed_mm3": 18.244664853552795,
+      "delta_mm3": 3.768205905798462,
+      "delta_percent": 26.02988700066744
+    },
+    {
+      "operation_id": "O138",
+      "unformed_after_pre_punch_mm3": 14.476458947741815,
+      "formed_mm3": 18.244664853543537,
+      "delta_mm3": 3.7682059058017217,
+      "delta_percent": 26.02988700071245
+    },
+    {
+      "operation_id": "O142",
+      "unformed_after_pre_punch_mm3": 14.476458947741808,
+      "formed_mm3": 18.244664853542417,
+      "delta_mm3": 3.7682059058006097,
+      "delta_percent": 26.02988700070479
+    },
+    {
+      "operation_id": "O152",
+      "unformed_after_pre_punch_mm3": 14.476458947741797,
+      "formed_mm3": 18.244664853544162,
+      "delta_mm3": 3.7682059058023647,
+      "delta_percent": 26.029887000716933
+    },
+    {
+      "operation_id": "O155",
+      "unformed_after_pre_punch_mm3": 14.476458947741804,
+      "formed_mm3": 18.2446648550872,
+      "delta_mm3": 3.768205907345397,
+      "delta_percent": 26.02988701137583
+    },
+    {
+      "operation_id": "O158",
+      "unformed_after_pre_punch_mm3": 14.4764589477418,
+      "formed_mm3": 18.24466485354351,
+      "delta_mm3": 3.768205905801711,
+      "delta_percent": 26.029887000712403
+    },
+    {
+      "operation_id": "O164",
+      "unformed_after_pre_punch_mm3": 14.4764589477418,
+      "formed_mm3": 18.24466485354417,
+      "delta_mm3": 3.7682059058023682,
+      "delta_percent": 26.029887000716954
+    },
+    {
+      "operation_id": "O176",
+      "unformed_after_pre_punch_mm3": 14.476458947741795,
+      "formed_mm3": 18.24466485354243,
+      "delta_mm3": 3.7682059058006363,
+      "delta_percent": 26.02988700070499
+    },
+    {
+      "operation_id": "O178",
+      "unformed_after_pre_punch_mm3": 14.476458947741797,
+      "formed_mm3": 18.244664853542446,
+      "delta_mm3": 3.7682059058006487,
+      "delta_percent": 26.029887000705077
+    },
+    {
+      "operation_id": "O180",
+      "unformed_after_pre_punch_mm3": 14.476458947741836,
+      "formed_mm3": 18.244664853542446,
+      "delta_mm3": 3.7682059058006097,
+      "delta_percent": 26.029887000704743
+    },
+    {
+      "operation_id": "O182",
+      "unformed_after_pre_punch_mm3": 14.476458947741795,
+      "formed_mm3": 18.244664853542414,
+      "delta_mm3": 3.7682059058006185,
+      "delta_percent": 26.029887000704875
+    },
+    {
+      "operation_id": "O184",
+      "unformed_after_pre_punch_mm3": 14.476458947741836,
+      "formed_mm3": 18.244664853542435,
+      "delta_mm3": 3.768205905800599,
+      "delta_percent": 26.029887000704655
+    }
+  ],
+  "total_delta_mm3": 195.0338345862481
+}

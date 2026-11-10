@@ -1,0 +1,2386 @@
+[
+  {
+    "plan_id": "RF_013",
+    "components": {
+      "bend_area_ordering": {
+        "raw_component": 0.14679531357684356,
+        "weight": 0.45,
+        "weighted_contribution": 0.0660578911095796
+      },
+      "precedence_extra_gap": {
+        "raw_component": 0.3181818181818182,
+        "weight": 0.2,
+        "weighted_contribution": 0.06363636363636364
+      },
+      "type_fragmentation": {
+        "raw_component": 0.0,
+        "weight": 0.35,
+        "weighted_contribution": 0.0
+      }
+    },
+    "total_soft_penalty": 0.12969425474594326,
+    "direction": {
+      "bend_direction_fragmentation": {
+        "value": 1.0,
+        "directions": [
+          {
+            "direction": "SMOOTH",
+            "operation_ids": [
+              "O009",
+              "O013",
+              "O017",
+              "O020",
+              "O025",
+              "O043",
+              "O048",
+              "O053",
+              "O056",
+              "O057",
+              "O059",
+              "O062",
+              "O065",
+              "O068",
+              "O071",
+              "O072",
+              "O074",
+              "O075",
+              "O077",
+              "O080",
+              "O083",
+              "O091",
+              "O095",
+              "O099",
+              "O103",
+              "O107",
+              "O111",
+              "O115",
+              "O121",
+              "O125",
+              "O129",
+              "O133",
+              "O137",
+              "O140",
+              "O144",
+              "O145",
+              "O146",
+              "O148",
+              "O149",
+              "O151",
+              "O154",
+              "O157",
+              "O160",
+              "O161",
+              "O163"
+            ],
+            "operation_count": 45,
+            "K_min": 3,
+            "K_max": 3,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              }
+            },
+            "participating": false,
+            "K_actual": 3,
+            "actual_used_stations": [
+              "OP40",
+              "OP50",
+              "OP60"
+            ],
+            "fragmentation_penalty": 0.0,
+            "skip_reason": "absent or no adjustable occupancy"
+          },
+          {
+            "direction": "ROUGH",
+            "operation_ids": [
+              "O010",
+              "O014",
+              "O092",
+              "O096",
+              "O100",
+              "O104",
+              "O108",
+              "O112",
+              "O116",
+              "O122",
+              "O126",
+              "O130",
+              "O134",
+              "O141"
+            ],
+            "operation_count": 14,
+            "K_min": 1,
+            "K_max": 2,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 1,
+                "best_bound": 1.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 2,
+                "best_bound": 2.0
+              }
+            },
+            "participating": true,
+            "K_actual": 2,
+            "actual_used_stations": [
+              "OP40",
+              "OP50"
+            ],
+            "fragmentation_penalty": 1.0,
+            "skip_reason": null
+          }
+        ],
+        "participating_direction_count": 1,
+        "weight": null,
+        "included_in_total": false,
+        "bounds_source": "H1-H7 feasible set; no expert or guardrail inputs"
+      }
+    },
+    "used_in_selection": false
+  },
+  {
+    "plan_id": "RF_041",
+    "components": {
+      "bend_area_ordering": {
+        "raw_component": 0.2412129565816678,
+        "weight": 0.45,
+        "weighted_contribution": 0.10854583046175051
+      },
+      "precedence_extra_gap": {
+        "raw_component": 0.3083778966131907,
+        "weight": 0.2,
+        "weighted_contribution": 0.06167557932263815
+      },
+      "type_fragmentation": {
+        "raw_component": 0.0,
+        "weight": 0.35,
+        "weighted_contribution": 0.0
+      }
+    },
+    "total_soft_penalty": 0.17022140978438866,
+    "direction": {
+      "bend_direction_fragmentation": {
+        "value": 1.0,
+        "directions": [
+          {
+            "direction": "SMOOTH",
+            "operation_ids": [
+              "O009",
+              "O013",
+              "O017",
+              "O020",
+              "O025",
+              "O043",
+              "O048",
+              "O053",
+              "O056",
+              "O057",
+              "O059",
+              "O062",
+              "O065",
+              "O068",
+              "O071",
+              "O072",
+              "O074",
+              "O075",
+              "O077",
+              "O080",
+              "O083",
+              "O091",
+              "O095",
+              "O099",
+              "O103",
+              "O107",
+              "O111",
+              "O115",
+              "O121",
+              "O125",
+              "O129",
+              "O133",
+              "O137",
+              "O140",
+              "O144",
+              "O145",
+              "O146",
+              "O148",
+              "O149",
+              "O151",
+              "O154",
+              "O157",
+              "O160",
+              "O161",
+              "O163"
+            ],
+            "operation_count": 45,
+            "K_min": 3,
+            "K_max": 3,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              }
+            },
+            "participating": false,
+            "K_actual": 3,
+            "actual_used_stations": [
+              "OP40",
+              "OP50",
+              "OP60"
+            ],
+            "fragmentation_penalty": 0.0,
+            "skip_reason": "absent or no adjustable occupancy"
+          },
+          {
+            "direction": "ROUGH",
+            "operation_ids": [
+              "O010",
+              "O014",
+              "O092",
+              "O096",
+              "O100",
+              "O104",
+              "O108",
+              "O112",
+              "O116",
+              "O122",
+              "O126",
+              "O130",
+              "O134",
+              "O141"
+            ],
+            "operation_count": 14,
+            "K_min": 1,
+            "K_max": 2,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 1,
+                "best_bound": 1.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 2,
+                "best_bound": 2.0
+              }
+            },
+            "participating": true,
+            "K_actual": 2,
+            "actual_used_stations": [
+              "OP40",
+              "OP50"
+            ],
+            "fragmentation_penalty": 1.0,
+            "skip_reason": null
+          }
+        ],
+        "participating_direction_count": 1,
+        "weight": null,
+        "included_in_total": false,
+        "bounds_source": "H1-H7 feasible set; no expert or guardrail inputs"
+      }
+    },
+    "used_in_selection": false
+  },
+  {
+    "plan_id": "RF_034",
+    "components": {
+      "bend_area_ordering": {
+        "raw_component": 0.2308752584424535,
+        "weight": 0.45,
+        "weighted_contribution": 0.10389386629910408
+      },
+      "precedence_extra_gap": {
+        "raw_component": 0.3190730837789661,
+        "weight": 0.2,
+        "weighted_contribution": 0.06381461675579322
+      },
+      "type_fragmentation": {
+        "raw_component": 0.0,
+        "weight": 0.35,
+        "weighted_contribution": 0.0
+      }
+    },
+    "total_soft_penalty": 0.1677084830548973,
+    "direction": {
+      "bend_direction_fragmentation": {
+        "value": 1.0,
+        "directions": [
+          {
+            "direction": "SMOOTH",
+            "operation_ids": [
+              "O009",
+              "O013",
+              "O017",
+              "O020",
+              "O025",
+              "O043",
+              "O048",
+              "O053",
+              "O056",
+              "O057",
+              "O059",
+              "O062",
+              "O065",
+              "O068",
+              "O071",
+              "O072",
+              "O074",
+              "O075",
+              "O077",
+              "O080",
+              "O083",
+              "O091",
+              "O095",
+              "O099",
+              "O103",
+              "O107",
+              "O111",
+              "O115",
+              "O121",
+              "O125",
+              "O129",
+              "O133",
+              "O137",
+              "O140",
+              "O144",
+              "O145",
+              "O146",
+              "O148",
+              "O149",
+              "O151",
+              "O154",
+              "O157",
+              "O160",
+              "O161",
+              "O163"
+            ],
+            "operation_count": 45,
+            "K_min": 3,
+            "K_max": 3,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              }
+            },
+            "participating": false,
+            "K_actual": 3,
+            "actual_used_stations": [
+              "OP40",
+              "OP50",
+              "OP60"
+            ],
+            "fragmentation_penalty": 0.0,
+            "skip_reason": "absent or no adjustable occupancy"
+          },
+          {
+            "direction": "ROUGH",
+            "operation_ids": [
+              "O010",
+              "O014",
+              "O092",
+              "O096",
+              "O100",
+              "O104",
+              "O108",
+              "O112",
+              "O116",
+              "O122",
+              "O126",
+              "O130",
+              "O134",
+              "O141"
+            ],
+            "operation_count": 14,
+            "K_min": 1,
+            "K_max": 2,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 1,
+                "best_bound": 1.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 2,
+                "best_bound": 2.0
+              }
+            },
+            "participating": true,
+            "K_actual": 2,
+            "actual_used_stations": [
+              "OP40",
+              "OP50"
+            ],
+            "fragmentation_penalty": 1.0,
+            "skip_reason": null
+          }
+        ],
+        "participating_direction_count": 1,
+        "weight": null,
+        "included_in_total": false,
+        "bounds_source": "H1-H7 feasible set; no expert or guardrail inputs"
+      }
+    },
+    "used_in_selection": false
+  },
+  {
+    "plan_id": "RF_047",
+    "components": {
+      "bend_area_ordering": {
+        "raw_component": 0.20124052377670573,
+        "weight": 0.45,
+        "weighted_contribution": 0.09055823569951758
+      },
+      "precedence_extra_gap": {
+        "raw_component": 0.2967914438502674,
+        "weight": 0.2,
+        "weighted_contribution": 0.05935828877005348
+      },
+      "type_fragmentation": {
+        "raw_component": 0.0,
+        "weight": 0.35,
+        "weighted_contribution": 0.0
+      }
+    },
+    "total_soft_penalty": 0.14991652446957107,
+    "direction": {
+      "bend_direction_fragmentation": {
+        "value": 1.0,
+        "directions": [
+          {
+            "direction": "SMOOTH",
+            "operation_ids": [
+              "O009",
+              "O013",
+              "O017",
+              "O020",
+              "O025",
+              "O043",
+              "O048",
+              "O053",
+              "O056",
+              "O057",
+              "O059",
+              "O062",
+              "O065",
+              "O068",
+              "O071",
+              "O072",
+              "O074",
+              "O075",
+              "O077",
+              "O080",
+              "O083",
+              "O091",
+              "O095",
+              "O099",
+              "O103",
+              "O107",
+              "O111",
+              "O115",
+              "O121",
+              "O125",
+              "O129",
+              "O133",
+              "O137",
+              "O140",
+              "O144",
+              "O145",
+              "O146",
+              "O148",
+              "O149",
+              "O151",
+              "O154",
+              "O157",
+              "O160",
+              "O161",
+              "O163"
+            ],
+            "operation_count": 45,
+            "K_min": 3,
+            "K_max": 3,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              }
+            },
+            "participating": false,
+            "K_actual": 3,
+            "actual_used_stations": [
+              "OP40",
+              "OP50",
+              "OP60"
+            ],
+            "fragmentation_penalty": 0.0,
+            "skip_reason": "absent or no adjustable occupancy"
+          },
+          {
+            "direction": "ROUGH",
+            "operation_ids": [
+              "O010",
+              "O014",
+              "O092",
+              "O096",
+              "O100",
+              "O104",
+              "O108",
+              "O112",
+              "O116",
+              "O122",
+              "O126",
+              "O130",
+              "O134",
+              "O141"
+            ],
+            "operation_count": 14,
+            "K_min": 1,
+            "K_max": 2,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 1,
+                "best_bound": 1.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 2,
+                "best_bound": 2.0
+              }
+            },
+            "participating": true,
+            "K_actual": 2,
+            "actual_used_stations": [
+              "OP40",
+              "OP50"
+            ],
+            "fragmentation_penalty": 1.0,
+            "skip_reason": null
+          }
+        ],
+        "participating_direction_count": 1,
+        "weight": null,
+        "included_in_total": false,
+        "bounds_source": "H1-H7 feasible set; no expert or guardrail inputs"
+      }
+    },
+    "used_in_selection": false
+  },
+  {
+    "plan_id": "RF_027",
+    "components": {
+      "bend_area_ordering": {
+        "raw_component": 0.20192970365265334,
+        "weight": 0.45,
+        "weighted_contribution": 0.090868366643694
+      },
+      "precedence_extra_gap": {
+        "raw_component": 0.3155080213903743,
+        "weight": 0.2,
+        "weighted_contribution": 0.06310160427807486
+      },
+      "type_fragmentation": {
+        "raw_component": 0.0,
+        "weight": 0.35,
+        "weighted_contribution": 0.0
+      }
+    },
+    "total_soft_penalty": 0.15396997092176887,
+    "direction": {
+      "bend_direction_fragmentation": {
+        "value": 1.0,
+        "directions": [
+          {
+            "direction": "SMOOTH",
+            "operation_ids": [
+              "O009",
+              "O013",
+              "O017",
+              "O020",
+              "O025",
+              "O043",
+              "O048",
+              "O053",
+              "O056",
+              "O057",
+              "O059",
+              "O062",
+              "O065",
+              "O068",
+              "O071",
+              "O072",
+              "O074",
+              "O075",
+              "O077",
+              "O080",
+              "O083",
+              "O091",
+              "O095",
+              "O099",
+              "O103",
+              "O107",
+              "O111",
+              "O115",
+              "O121",
+              "O125",
+              "O129",
+              "O133",
+              "O137",
+              "O140",
+              "O144",
+              "O145",
+              "O146",
+              "O148",
+              "O149",
+              "O151",
+              "O154",
+              "O157",
+              "O160",
+              "O161",
+              "O163"
+            ],
+            "operation_count": 45,
+            "K_min": 3,
+            "K_max": 3,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              }
+            },
+            "participating": false,
+            "K_actual": 3,
+            "actual_used_stations": [
+              "OP40",
+              "OP50",
+              "OP60"
+            ],
+            "fragmentation_penalty": 0.0,
+            "skip_reason": "absent or no adjustable occupancy"
+          },
+          {
+            "direction": "ROUGH",
+            "operation_ids": [
+              "O010",
+              "O014",
+              "O092",
+              "O096",
+              "O100",
+              "O104",
+              "O108",
+              "O112",
+              "O116",
+              "O122",
+              "O126",
+              "O130",
+              "O134",
+              "O141"
+            ],
+            "operation_count": 14,
+            "K_min": 1,
+            "K_max": 2,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 1,
+                "best_bound": 1.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 2,
+                "best_bound": 2.0
+              }
+            },
+            "participating": true,
+            "K_actual": 2,
+            "actual_used_stations": [
+              "OP40",
+              "OP50"
+            ],
+            "fragmentation_penalty": 1.0,
+            "skip_reason": null
+          }
+        ],
+        "participating_direction_count": 1,
+        "weight": null,
+        "included_in_total": false,
+        "bounds_source": "H1-H7 feasible set; no expert or guardrail inputs"
+      }
+    },
+    "used_in_selection": false
+  },
+  {
+    "plan_id": "RF_057",
+    "components": {
+      "bend_area_ordering": {
+        "raw_component": 0.2067539627842867,
+        "weight": 0.45,
+        "weighted_contribution": 0.09303928325292903
+      },
+      "precedence_extra_gap": {
+        "raw_component": 0.32798573975044565,
+        "weight": 0.2,
+        "weighted_contribution": 0.06559714795008913
+      },
+      "type_fragmentation": {
+        "raw_component": 0.0,
+        "weight": 0.35,
+        "weighted_contribution": 0.0
+      }
+    },
+    "total_soft_penalty": 0.15863643120301815,
+    "direction": {
+      "bend_direction_fragmentation": {
+        "value": 1.0,
+        "directions": [
+          {
+            "direction": "SMOOTH",
+            "operation_ids": [
+              "O009",
+              "O013",
+              "O017",
+              "O020",
+              "O025",
+              "O043",
+              "O048",
+              "O053",
+              "O056",
+              "O057",
+              "O059",
+              "O062",
+              "O065",
+              "O068",
+              "O071",
+              "O072",
+              "O074",
+              "O075",
+              "O077",
+              "O080",
+              "O083",
+              "O091",
+              "O095",
+              "O099",
+              "O103",
+              "O107",
+              "O111",
+              "O115",
+              "O121",
+              "O125",
+              "O129",
+              "O133",
+              "O137",
+              "O140",
+              "O144",
+              "O145",
+              "O146",
+              "O148",
+              "O149",
+              "O151",
+              "O154",
+              "O157",
+              "O160",
+              "O161",
+              "O163"
+            ],
+            "operation_count": 45,
+            "K_min": 3,
+            "K_max": 3,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              }
+            },
+            "participating": false,
+            "K_actual": 3,
+            "actual_used_stations": [
+              "OP40",
+              "OP50",
+              "OP60"
+            ],
+            "fragmentation_penalty": 0.0,
+            "skip_reason": "absent or no adjustable occupancy"
+          },
+          {
+            "direction": "ROUGH",
+            "operation_ids": [
+              "O010",
+              "O014",
+              "O092",
+              "O096",
+              "O100",
+              "O104",
+              "O108",
+              "O112",
+              "O116",
+              "O122",
+              "O126",
+              "O130",
+              "O134",
+              "O141"
+            ],
+            "operation_count": 14,
+            "K_min": 1,
+            "K_max": 2,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 1,
+                "best_bound": 1.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 2,
+                "best_bound": 2.0
+              }
+            },
+            "participating": true,
+            "K_actual": 2,
+            "actual_used_stations": [
+              "OP40",
+              "OP50"
+            ],
+            "fragmentation_penalty": 1.0,
+            "skip_reason": null
+          }
+        ],
+        "participating_direction_count": 1,
+        "weight": null,
+        "included_in_total": false,
+        "bounds_source": "H1-H7 feasible set; no expert or guardrail inputs"
+      }
+    },
+    "used_in_selection": false
+  },
+  {
+    "plan_id": "RF_001",
+    "components": {
+      "bend_area_ordering": {
+        "raw_component": 0.17505168849069608,
+        "weight": 0.45,
+        "weighted_contribution": 0.07877325982081324
+      },
+      "precedence_extra_gap": {
+        "raw_component": 0.2923351158645276,
+        "weight": 0.2,
+        "weighted_contribution": 0.05846702317290552
+      },
+      "type_fragmentation": {
+        "raw_component": 0.0,
+        "weight": 0.35,
+        "weighted_contribution": 0.0
+      }
+    },
+    "total_soft_penalty": 0.13724028299371877,
+    "direction": {
+      "bend_direction_fragmentation": {
+        "value": 1.0,
+        "directions": [
+          {
+            "direction": "SMOOTH",
+            "operation_ids": [
+              "O009",
+              "O013",
+              "O017",
+              "O020",
+              "O025",
+              "O043",
+              "O048",
+              "O053",
+              "O056",
+              "O057",
+              "O059",
+              "O062",
+              "O065",
+              "O068",
+              "O071",
+              "O072",
+              "O074",
+              "O075",
+              "O077",
+              "O080",
+              "O083",
+              "O091",
+              "O095",
+              "O099",
+              "O103",
+              "O107",
+              "O111",
+              "O115",
+              "O121",
+              "O125",
+              "O129",
+              "O133",
+              "O137",
+              "O140",
+              "O144",
+              "O145",
+              "O146",
+              "O148",
+              "O149",
+              "O151",
+              "O154",
+              "O157",
+              "O160",
+              "O161",
+              "O163"
+            ],
+            "operation_count": 45,
+            "K_min": 3,
+            "K_max": 3,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              }
+            },
+            "participating": false,
+            "K_actual": 3,
+            "actual_used_stations": [
+              "OP40",
+              "OP50",
+              "OP60"
+            ],
+            "fragmentation_penalty": 0.0,
+            "skip_reason": "absent or no adjustable occupancy"
+          },
+          {
+            "direction": "ROUGH",
+            "operation_ids": [
+              "O010",
+              "O014",
+              "O092",
+              "O096",
+              "O100",
+              "O104",
+              "O108",
+              "O112",
+              "O116",
+              "O122",
+              "O126",
+              "O130",
+              "O134",
+              "O141"
+            ],
+            "operation_count": 14,
+            "K_min": 1,
+            "K_max": 2,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 1,
+                "best_bound": 1.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 2,
+                "best_bound": 2.0
+              }
+            },
+            "participating": true,
+            "K_actual": 2,
+            "actual_used_stations": [
+              "OP40",
+              "OP50"
+            ],
+            "fragmentation_penalty": 1.0,
+            "skip_reason": null
+          }
+        ],
+        "participating_direction_count": 1,
+        "weight": null,
+        "included_in_total": false,
+        "bounds_source": "H1-H7 feasible set; no expert or guardrail inputs"
+      }
+    },
+    "used_in_selection": false
+  },
+  {
+    "plan_id": "RF_014",
+    "components": {
+      "bend_area_ordering": {
+        "raw_component": 0.2039972432804962,
+        "weight": 0.45,
+        "weighted_contribution": 0.09179875947622329
+      },
+      "precedence_extra_gap": {
+        "raw_component": 0.31105169340463457,
+        "weight": 0.2,
+        "weighted_contribution": 0.062210338680926916
+      },
+      "type_fragmentation": {
+        "raw_component": 0.0,
+        "weight": 0.35,
+        "weighted_contribution": 0.0
+      }
+    },
+    "total_soft_penalty": 0.1540090981571502,
+    "direction": {
+      "bend_direction_fragmentation": {
+        "value": 1.0,
+        "directions": [
+          {
+            "direction": "SMOOTH",
+            "operation_ids": [
+              "O009",
+              "O013",
+              "O017",
+              "O020",
+              "O025",
+              "O043",
+              "O048",
+              "O053",
+              "O056",
+              "O057",
+              "O059",
+              "O062",
+              "O065",
+              "O068",
+              "O071",
+              "O072",
+              "O074",
+              "O075",
+              "O077",
+              "O080",
+              "O083",
+              "O091",
+              "O095",
+              "O099",
+              "O103",
+              "O107",
+              "O111",
+              "O115",
+              "O121",
+              "O125",
+              "O129",
+              "O133",
+              "O137",
+              "O140",
+              "O144",
+              "O145",
+              "O146",
+              "O148",
+              "O149",
+              "O151",
+              "O154",
+              "O157",
+              "O160",
+              "O161",
+              "O163"
+            ],
+            "operation_count": 45,
+            "K_min": 3,
+            "K_max": 3,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              }
+            },
+            "participating": false,
+            "K_actual": 3,
+            "actual_used_stations": [
+              "OP40",
+              "OP50",
+              "OP60"
+            ],
+            "fragmentation_penalty": 0.0,
+            "skip_reason": "absent or no adjustable occupancy"
+          },
+          {
+            "direction": "ROUGH",
+            "operation_ids": [
+              "O010",
+              "O014",
+              "O092",
+              "O096",
+              "O100",
+              "O104",
+              "O108",
+              "O112",
+              "O116",
+              "O122",
+              "O126",
+              "O130",
+              "O134",
+              "O141"
+            ],
+            "operation_count": 14,
+            "K_min": 1,
+            "K_max": 2,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 1,
+                "best_bound": 1.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 2,
+                "best_bound": 2.0
+              }
+            },
+            "participating": true,
+            "K_actual": 2,
+            "actual_used_stations": [
+              "OP40",
+              "OP50"
+            ],
+            "fragmentation_penalty": 1.0,
+            "skip_reason": null
+          }
+        ],
+        "participating_direction_count": 1,
+        "weight": null,
+        "included_in_total": false,
+        "bounds_source": "H1-H7 feasible set; no expert or guardrail inputs"
+      }
+    },
+    "used_in_selection": false
+  },
+  {
+    "plan_id": "RF_024",
+    "components": {
+      "bend_area_ordering": {
+        "raw_component": 0.16747070985527224,
+        "weight": 0.45,
+        "weighted_contribution": 0.07536181943487251
+      },
+      "precedence_extra_gap": {
+        "raw_component": 0.3074866310160428,
+        "weight": 0.2,
+        "weighted_contribution": 0.06149732620320856
+      },
+      "type_fragmentation": {
+        "raw_component": 0.0,
+        "weight": 0.35,
+        "weighted_contribution": 0.0
+      }
+    },
+    "total_soft_penalty": 0.13685914563808108,
+    "direction": {
+      "bend_direction_fragmentation": {
+        "value": 1.0,
+        "directions": [
+          {
+            "direction": "SMOOTH",
+            "operation_ids": [
+              "O009",
+              "O013",
+              "O017",
+              "O020",
+              "O025",
+              "O043",
+              "O048",
+              "O053",
+              "O056",
+              "O057",
+              "O059",
+              "O062",
+              "O065",
+              "O068",
+              "O071",
+              "O072",
+              "O074",
+              "O075",
+              "O077",
+              "O080",
+              "O083",
+              "O091",
+              "O095",
+              "O099",
+              "O103",
+              "O107",
+              "O111",
+              "O115",
+              "O121",
+              "O125",
+              "O129",
+              "O133",
+              "O137",
+              "O140",
+              "O144",
+              "O145",
+              "O146",
+              "O148",
+              "O149",
+              "O151",
+              "O154",
+              "O157",
+              "O160",
+              "O161",
+              "O163"
+            ],
+            "operation_count": 45,
+            "K_min": 3,
+            "K_max": 3,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              }
+            },
+            "participating": false,
+            "K_actual": 3,
+            "actual_used_stations": [
+              "OP40",
+              "OP50",
+              "OP60"
+            ],
+            "fragmentation_penalty": 0.0,
+            "skip_reason": "absent or no adjustable occupancy"
+          },
+          {
+            "direction": "ROUGH",
+            "operation_ids": [
+              "O010",
+              "O014",
+              "O092",
+              "O096",
+              "O100",
+              "O104",
+              "O108",
+              "O112",
+              "O116",
+              "O122",
+              "O126",
+              "O130",
+              "O134",
+              "O141"
+            ],
+            "operation_count": 14,
+            "K_min": 1,
+            "K_max": 2,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 1,
+                "best_bound": 1.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 2,
+                "best_bound": 2.0
+              }
+            },
+            "participating": true,
+            "K_actual": 2,
+            "actual_used_stations": [
+              "OP40",
+              "OP50"
+            ],
+            "fragmentation_penalty": 1.0,
+            "skip_reason": null
+          }
+        ],
+        "participating_direction_count": 1,
+        "weight": null,
+        "included_in_total": false,
+        "bounds_source": "H1-H7 feasible set; no expert or guardrail inputs"
+      }
+    },
+    "used_in_selection": false
+  },
+  {
+    "plan_id": "RF_025",
+    "components": {
+      "bend_area_ordering": {
+        "raw_component": 0.19021364576154376,
+        "weight": 0.45,
+        "weighted_contribution": 0.0855961405926947
+      },
+      "precedence_extra_gap": {
+        "raw_component": 0.30303030303030304,
+        "weight": 0.2,
+        "weighted_contribution": 0.06060606060606061
+      },
+      "type_fragmentation": {
+        "raw_component": 0.0,
+        "weight": 0.35,
+        "weighted_contribution": 0.0
+      }
+    },
+    "total_soft_penalty": 0.14620220119875532,
+    "direction": {
+      "bend_direction_fragmentation": {
+        "value": 1.0,
+        "directions": [
+          {
+            "direction": "SMOOTH",
+            "operation_ids": [
+              "O009",
+              "O013",
+              "O017",
+              "O020",
+              "O025",
+              "O043",
+              "O048",
+              "O053",
+              "O056",
+              "O057",
+              "O059",
+              "O062",
+              "O065",
+              "O068",
+              "O071",
+              "O072",
+              "O074",
+              "O075",
+              "O077",
+              "O080",
+              "O083",
+              "O091",
+              "O095",
+              "O099",
+              "O103",
+              "O107",
+              "O111",
+              "O115",
+              "O121",
+              "O125",
+              "O129",
+              "O133",
+              "O137",
+              "O140",
+              "O144",
+              "O145",
+              "O146",
+              "O148",
+              "O149",
+              "O151",
+              "O154",
+              "O157",
+              "O160",
+              "O161",
+              "O163"
+            ],
+            "operation_count": 45,
+            "K_min": 3,
+            "K_max": 3,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              }
+            },
+            "participating": false,
+            "K_actual": 3,
+            "actual_used_stations": [
+              "OP40",
+              "OP50",
+              "OP60"
+            ],
+            "fragmentation_penalty": 0.0,
+            "skip_reason": "absent or no adjustable occupancy"
+          },
+          {
+            "direction": "ROUGH",
+            "operation_ids": [
+              "O010",
+              "O014",
+              "O092",
+              "O096",
+              "O100",
+              "O104",
+              "O108",
+              "O112",
+              "O116",
+              "O122",
+              "O126",
+              "O130",
+              "O134",
+              "O141"
+            ],
+            "operation_count": 14,
+            "K_min": 1,
+            "K_max": 2,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 1,
+                "best_bound": 1.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 2,
+                "best_bound": 2.0
+              }
+            },
+            "participating": true,
+            "K_actual": 2,
+            "actual_used_stations": [
+              "OP40",
+              "OP50"
+            ],
+            "fragmentation_penalty": 1.0,
+            "skip_reason": null
+          }
+        ],
+        "participating_direction_count": 1,
+        "weight": null,
+        "included_in_total": false,
+        "bounds_source": "H1-H7 feasible set; no expert or guardrail inputs"
+      }
+    },
+    "used_in_selection": false
+  },
+  {
+    "plan_id": "RF_019",
+    "components": {
+      "bend_area_ordering": {
+        "raw_component": 0.2308752584424535,
+        "weight": 0.45,
+        "weighted_contribution": 0.10389386629910408
+      },
+      "precedence_extra_gap": {
+        "raw_component": 0.29055258467023176,
+        "weight": 0.2,
+        "weighted_contribution": 0.058110516934046355
+      },
+      "type_fragmentation": {
+        "raw_component": 0.0,
+        "weight": 0.35,
+        "weighted_contribution": 0.0
+      }
+    },
+    "total_soft_penalty": 0.16200438323315042,
+    "direction": {
+      "bend_direction_fragmentation": {
+        "value": 1.0,
+        "directions": [
+          {
+            "direction": "SMOOTH",
+            "operation_ids": [
+              "O009",
+              "O013",
+              "O017",
+              "O020",
+              "O025",
+              "O043",
+              "O048",
+              "O053",
+              "O056",
+              "O057",
+              "O059",
+              "O062",
+              "O065",
+              "O068",
+              "O071",
+              "O072",
+              "O074",
+              "O075",
+              "O077",
+              "O080",
+              "O083",
+              "O091",
+              "O095",
+              "O099",
+              "O103",
+              "O107",
+              "O111",
+              "O115",
+              "O121",
+              "O125",
+              "O129",
+              "O133",
+              "O137",
+              "O140",
+              "O144",
+              "O145",
+              "O146",
+              "O148",
+              "O149",
+              "O151",
+              "O154",
+              "O157",
+              "O160",
+              "O161",
+              "O163"
+            ],
+            "operation_count": 45,
+            "K_min": 3,
+            "K_max": 3,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              }
+            },
+            "participating": false,
+            "K_actual": 3,
+            "actual_used_stations": [
+              "OP40",
+              "OP50",
+              "OP60"
+            ],
+            "fragmentation_penalty": 0.0,
+            "skip_reason": "absent or no adjustable occupancy"
+          },
+          {
+            "direction": "ROUGH",
+            "operation_ids": [
+              "O010",
+              "O014",
+              "O092",
+              "O096",
+              "O100",
+              "O104",
+              "O108",
+              "O112",
+              "O116",
+              "O122",
+              "O126",
+              "O130",
+              "O134",
+              "O141"
+            ],
+            "operation_count": 14,
+            "K_min": 1,
+            "K_max": 2,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 1,
+                "best_bound": 1.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 2,
+                "best_bound": 2.0
+              }
+            },
+            "participating": true,
+            "K_actual": 2,
+            "actual_used_stations": [
+              "OP40",
+              "OP50"
+            ],
+            "fragmentation_penalty": 1.0,
+            "skip_reason": null
+          }
+        ],
+        "participating_direction_count": 1,
+        "weight": null,
+        "included_in_total": false,
+        "bounds_source": "H1-H7 feasible set; no expert or guardrail inputs"
+      }
+    },
+    "used_in_selection": false
+  },
+  {
+    "plan_id": "RF_032",
+    "components": {
+      "bend_area_ordering": {
+        "raw_component": 0.1640248104755341,
+        "weight": 0.45,
+        "weighted_contribution": 0.07381116471399035
+      },
+      "precedence_extra_gap": {
+        "raw_component": 0.3199643493761141,
+        "weight": 0.2,
+        "weighted_contribution": 0.06399286987522283
+      },
+      "type_fragmentation": {
+        "raw_component": 0.0,
+        "weight": 0.35,
+        "weighted_contribution": 0.0
+      }
+    },
+    "total_soft_penalty": 0.1378040345892132,
+    "direction": {
+      "bend_direction_fragmentation": {
+        "value": 1.0,
+        "directions": [
+          {
+            "direction": "SMOOTH",
+            "operation_ids": [
+              "O009",
+              "O013",
+              "O017",
+              "O020",
+              "O025",
+              "O043",
+              "O048",
+              "O053",
+              "O056",
+              "O057",
+              "O059",
+              "O062",
+              "O065",
+              "O068",
+              "O071",
+              "O072",
+              "O074",
+              "O075",
+              "O077",
+              "O080",
+              "O083",
+              "O091",
+              "O095",
+              "O099",
+              "O103",
+              "O107",
+              "O111",
+              "O115",
+              "O121",
+              "O125",
+              "O129",
+              "O133",
+              "O137",
+              "O140",
+              "O144",
+              "O145",
+              "O146",
+              "O148",
+              "O149",
+              "O151",
+              "O154",
+              "O157",
+              "O160",
+              "O161",
+              "O163"
+            ],
+            "operation_count": 45,
+            "K_min": 3,
+            "K_max": 3,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              }
+            },
+            "participating": false,
+            "K_actual": 3,
+            "actual_used_stations": [
+              "OP40",
+              "OP50",
+              "OP60"
+            ],
+            "fragmentation_penalty": 0.0,
+            "skip_reason": "absent or no adjustable occupancy"
+          },
+          {
+            "direction": "ROUGH",
+            "operation_ids": [
+              "O010",
+              "O014",
+              "O092",
+              "O096",
+              "O100",
+              "O104",
+              "O108",
+              "O112",
+              "O116",
+              "O122",
+              "O126",
+              "O130",
+              "O134",
+              "O141"
+            ],
+            "operation_count": 14,
+            "K_min": 1,
+            "K_max": 2,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 1,
+                "best_bound": 1.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 2,
+                "best_bound": 2.0
+              }
+            },
+            "participating": true,
+            "K_actual": 2,
+            "actual_used_stations": [
+              "OP40",
+              "OP50"
+            ],
+            "fragmentation_penalty": 1.0,
+            "skip_reason": null
+          }
+        ],
+        "participating_direction_count": 1,
+        "weight": null,
+        "included_in_total": false,
+        "bounds_source": "H1-H7 feasible set; no expert or guardrail inputs"
+      }
+    },
+    "used_in_selection": false
+  },
+  {
+    "plan_id": "RF_023",
+    "components": {
+      "bend_area_ordering": {
+        "raw_component": 0.19365954514128186,
+        "weight": 0.45,
+        "weighted_contribution": 0.08714679531357684
+      },
+      "precedence_extra_gap": {
+        "raw_component": 0.31016042780748665,
+        "weight": 0.2,
+        "weighted_contribution": 0.062032085561497335
+      },
+      "type_fragmentation": {
+        "raw_component": 0.0,
+        "weight": 0.35,
+        "weighted_contribution": 0.0
+      }
+    },
+    "total_soft_penalty": 0.1491788808750742,
+    "direction": {
+      "bend_direction_fragmentation": {
+        "value": 1.0,
+        "directions": [
+          {
+            "direction": "SMOOTH",
+            "operation_ids": [
+              "O009",
+              "O013",
+              "O017",
+              "O020",
+              "O025",
+              "O043",
+              "O048",
+              "O053",
+              "O056",
+              "O057",
+              "O059",
+              "O062",
+              "O065",
+              "O068",
+              "O071",
+              "O072",
+              "O074",
+              "O075",
+              "O077",
+              "O080",
+              "O083",
+              "O091",
+              "O095",
+              "O099",
+              "O103",
+              "O107",
+              "O111",
+              "O115",
+              "O121",
+              "O125",
+              "O129",
+              "O133",
+              "O137",
+              "O140",
+              "O144",
+              "O145",
+              "O146",
+              "O148",
+              "O149",
+              "O151",
+              "O154",
+              "O157",
+              "O160",
+              "O161",
+              "O163"
+            ],
+            "operation_count": 45,
+            "K_min": 3,
+            "K_max": 3,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              }
+            },
+            "participating": false,
+            "K_actual": 3,
+            "actual_used_stations": [
+              "OP40",
+              "OP50",
+              "OP60"
+            ],
+            "fragmentation_penalty": 0.0,
+            "skip_reason": "absent or no adjustable occupancy"
+          },
+          {
+            "direction": "ROUGH",
+            "operation_ids": [
+              "O010",
+              "O014",
+              "O092",
+              "O096",
+              "O100",
+              "O104",
+              "O108",
+              "O112",
+              "O116",
+              "O122",
+              "O126",
+              "O130",
+              "O134",
+              "O141"
+            ],
+            "operation_count": 14,
+            "K_min": 1,
+            "K_max": 2,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 1,
+                "best_bound": 1.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 2,
+                "best_bound": 2.0
+              }
+            },
+            "participating": true,
+            "K_actual": 2,
+            "actual_used_stations": [
+              "OP40",
+              "OP50"
+            ],
+            "fragmentation_penalty": 1.0,
+            "skip_reason": null
+          }
+        ],
+        "participating_direction_count": 1,
+        "weight": null,
+        "included_in_total": false,
+        "bounds_source": "H1-H7 feasible set; no expert or guardrail inputs"
+      }
+    },
+    "used_in_selection": false
+  },
+  {
+    "plan_id": "RF_059",
+    "components": {
+      "bend_area_ordering": {
+        "raw_component": 0.2370778773259821,
+        "weight": 0.45,
+        "weighted_contribution": 0.10668504479669194
+      },
+      "precedence_extra_gap": {
+        "raw_component": 0.3422459893048128,
+        "weight": 0.2,
+        "weighted_contribution": 0.06844919786096257
+      },
+      "type_fragmentation": {
+        "raw_component": 0.0,
+        "weight": 0.35,
+        "weighted_contribution": 0.0
+      }
+    },
+    "total_soft_penalty": 0.1751342426576545,
+    "direction": {
+      "bend_direction_fragmentation": {
+        "value": 1.0,
+        "directions": [
+          {
+            "direction": "SMOOTH",
+            "operation_ids": [
+              "O009",
+              "O013",
+              "O017",
+              "O020",
+              "O025",
+              "O043",
+              "O048",
+              "O053",
+              "O056",
+              "O057",
+              "O059",
+              "O062",
+              "O065",
+              "O068",
+              "O071",
+              "O072",
+              "O074",
+              "O075",
+              "O077",
+              "O080",
+              "O083",
+              "O091",
+              "O095",
+              "O099",
+              "O103",
+              "O107",
+              "O111",
+              "O115",
+              "O121",
+              "O125",
+              "O129",
+              "O133",
+              "O137",
+              "O140",
+              "O144",
+              "O145",
+              "O146",
+              "O148",
+              "O149",
+              "O151",
+              "O154",
+              "O157",
+              "O160",
+              "O161",
+              "O163"
+            ],
+            "operation_count": 45,
+            "K_min": 3,
+            "K_max": 3,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              }
+            },
+            "participating": false,
+            "K_actual": 3,
+            "actual_used_stations": [
+              "OP40",
+              "OP50",
+              "OP60"
+            ],
+            "fragmentation_penalty": 0.0,
+            "skip_reason": "absent or no adjustable occupancy"
+          },
+          {
+            "direction": "ROUGH",
+            "operation_ids": [
+              "O010",
+              "O014",
+              "O092",
+              "O096",
+              "O100",
+              "O104",
+              "O108",
+              "O112",
+              "O116",
+              "O122",
+              "O126",
+              "O130",
+              "O134",
+              "O141"
+            ],
+            "operation_count": 14,
+            "K_min": 1,
+            "K_max": 2,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 1,
+                "best_bound": 1.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 2,
+                "best_bound": 2.0
+              }
+            },
+            "participating": true,
+            "K_actual": 2,
+            "actual_used_stations": [
+              "OP40",
+              "OP50"
+            ],
+            "fragmentation_penalty": 1.0,
+            "skip_reason": null
+          }
+        ],
+        "participating_direction_count": 1,
+        "weight": null,
+        "included_in_total": false,
+        "bounds_source": "H1-H7 feasible set; no expert or guardrail inputs"
+      }
+    },
+    "used_in_selection": false
+  },
+  {
+    "plan_id": "RF_011",
+    "components": {
+      "bend_area_ordering": {
+        "raw_component": 0.22329427980702962,
+        "weight": 0.45,
+        "weighted_contribution": 0.10048242591316334
+      },
+      "precedence_extra_gap": {
+        "raw_component": 0.2994652406417112,
+        "weight": 0.2,
+        "weighted_contribution": 0.059893048128342244
+      },
+      "type_fragmentation": {
+        "raw_component": 0.0,
+        "weight": 0.35,
+        "weighted_contribution": 0.0
+      }
+    },
+    "total_soft_penalty": 0.1603754740415056,
+    "direction": {
+      "bend_direction_fragmentation": {
+        "value": 1.0,
+        "directions": [
+          {
+            "direction": "SMOOTH",
+            "operation_ids": [
+              "O009",
+              "O013",
+              "O017",
+              "O020",
+              "O025",
+              "O043",
+              "O048",
+              "O053",
+              "O056",
+              "O057",
+              "O059",
+              "O062",
+              "O065",
+              "O068",
+              "O071",
+              "O072",
+              "O074",
+              "O075",
+              "O077",
+              "O080",
+              "O083",
+              "O091",
+              "O095",
+              "O099",
+              "O103",
+              "O107",
+              "O111",
+              "O115",
+              "O121",
+              "O125",
+              "O129",
+              "O133",
+              "O137",
+              "O140",
+              "O144",
+              "O145",
+              "O146",
+              "O148",
+              "O149",
+              "O151",
+              "O154",
+              "O157",
+              "O160",
+              "O161",
+              "O163"
+            ],
+            "operation_count": 45,
+            "K_min": 3,
+            "K_max": 3,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              }
+            },
+            "participating": false,
+            "K_actual": 3,
+            "actual_used_stations": [
+              "OP40",
+              "OP50",
+              "OP60"
+            ],
+            "fragmentation_penalty": 0.0,
+            "skip_reason": "absent or no adjustable occupancy"
+          },
+          {
+            "direction": "ROUGH",
+            "operation_ids": [
+              "O010",
+              "O014",
+              "O092",
+              "O096",
+              "O100",
+              "O104",
+              "O108",
+              "O112",
+              "O116",
+              "O122",
+              "O126",
+              "O130",
+              "O134",
+              "O141"
+            ],
+            "operation_count": 14,
+            "K_min": 1,
+            "K_max": 2,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 1,
+                "best_bound": 1.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 2,
+                "best_bound": 2.0
+              }
+            },
+            "participating": true,
+            "K_actual": 2,
+            "actual_used_stations": [
+              "OP40",
+              "OP50"
+            ],
+            "fragmentation_penalty": 1.0,
+            "skip_reason": null
+          }
+        ],
+        "participating_direction_count": 1,
+        "weight": null,
+        "included_in_total": false,
+        "bounds_source": "H1-H7 feasible set; no expert or guardrail inputs"
+      }
+    },
+    "used_in_selection": false
+  },
+  {
+    "plan_id": "RF_037",
+    "components": {
+      "bend_area_ordering": {
+        "raw_component": 0.22329427980702962,
+        "weight": 0.45,
+        "weighted_contribution": 0.10048242591316334
+      },
+      "precedence_extra_gap": {
+        "raw_component": 0.3065953654188948,
+        "weight": 0.2,
+        "weighted_contribution": 0.061319073083778965
+      },
+      "type_fragmentation": {
+        "raw_component": 0.0,
+        "weight": 0.35,
+        "weighted_contribution": 0.0
+      }
+    },
+    "total_soft_penalty": 0.1618014989969423,
+    "direction": {
+      "bend_direction_fragmentation": {
+        "value": 1.0,
+        "directions": [
+          {
+            "direction": "SMOOTH",
+            "operation_ids": [
+              "O009",
+              "O013",
+              "O017",
+              "O020",
+              "O025",
+              "O043",
+              "O048",
+              "O053",
+              "O056",
+              "O057",
+              "O059",
+              "O062",
+              "O065",
+              "O068",
+              "O071",
+              "O072",
+              "O074",
+              "O075",
+              "O077",
+              "O080",
+              "O083",
+              "O091",
+              "O095",
+              "O099",
+              "O103",
+              "O107",
+              "O111",
+              "O115",
+              "O121",
+              "O125",
+              "O129",
+              "O133",
+              "O137",
+              "O140",
+              "O144",
+              "O145",
+              "O146",
+              "O148",
+              "O149",
+              "O151",
+              "O154",
+              "O157",
+              "O160",
+              "O161",
+              "O163"
+            ],
+            "operation_count": 45,
+            "K_min": 3,
+            "K_max": 3,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 3,
+                "best_bound": 3.0
+              }
+            },
+            "participating": false,
+            "K_actual": 3,
+            "actual_used_stations": [
+              "OP40",
+              "OP50",
+              "OP60"
+            ],
+            "fragmentation_penalty": 0.0,
+            "skip_reason": "absent or no adjustable occupancy"
+          },
+          {
+            "direction": "ROUGH",
+            "operation_ids": [
+              "O010",
+              "O014",
+              "O092",
+              "O096",
+              "O100",
+              "O104",
+              "O108",
+              "O112",
+              "O116",
+              "O122",
+              "O126",
+              "O130",
+              "O134",
+              "O141"
+            ],
+            "operation_count": 14,
+            "K_min": 1,
+            "K_max": 2,
+            "proofs": {
+              "K_min": {
+                "status": "OPTIMAL",
+                "value": 1,
+                "best_bound": 1.0
+              },
+              "K_max": {
+                "status": "OPTIMAL",
+                "value": 2,
+                "best_bound": 2.0
+              }
+            },
+            "participating": true,
+            "K_actual": 2,
+            "actual_used_stations": [
+              "OP40",
+              "OP50"
+            ],
+            "fragmentation_penalty": 1.0,
+            "skip_reason": null
+          }
+        ],
+        "participating_direction_count": 1,
+        "weight": null,
+        "included_in_total": false,
+        "bounds_source": "H1-H7 feasible set; no expert or guardrail inputs"
+      }
+    },
+    "used_in_selection": false
+  }
+]

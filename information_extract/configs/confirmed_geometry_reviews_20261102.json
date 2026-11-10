@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "confirmed_on": "2026-11-02",
+  "P002": {
+    "source_sha256": "a89cbdbde22fccb33d4cde2dd213a728d3cc5c56552b6fbf02686e11b58a894f",
+    "O069": {
+      "uid": "4312d7a3-2c30-4a0c-a927-92eaf0949758",
+      "decision": "EXTRACT_EXISTING_SOURCE_SUBSEGMENTS",
+      "user_confirmation": "提取工具没有把共用边界上的局部小段单独切分。",
+      "parent_owner_operation_id": "O112",
+      "clips": [
+        {"parent_source_segment_id": "S_0153b10f11d76586a5bebec4", "start_fraction": 0.5068114989007494, "end_fraction": 0.6081737986819153},
+        {"parent_source_segment_id": "S_e102d013bbae3fe7f80bf4d8", "start_fraction": 0.2692307692275582, "end_fraction": 0.42307692308419576}
+      ]
+    },
+    "O120": {
+      "uid": "2c16133a-d250-42ca-96d1-1f189416c271",
+      "decision": "SYNC_USER_SAVED_CORRECTION",
+      "expected_feature_type": "CIRCLE_PUNCH"
+    }
+  },
+  "P003": {
+    "source_sha256": "965faf8f25b14be2fe9d307bd9093680391b2327bc0401789829ddcf96b2d481",
+    "O112": {
+      "uid": "5821a7bd-85f1-4e2c-9c4d-d255152bff7c",
+      "decision": "KEEP_USER_CONFIRMED_VIEW_DIFFERENCE",
+      "formed_shape": "ROUNDED_RECTANGLE",
+      "flat_drawing_shape": "CIRCLE",
+      "source_segment_id": "S_72ace7e42cd0cc52f1b5e4b2",
+      "note": "用户确认：三维零件为圆角矩形孔，二维展开图为圆孔，暂按两种来源分别保留。未推断圆到圆角矩形的成形或展开映射。"
+    }
+  }
+}

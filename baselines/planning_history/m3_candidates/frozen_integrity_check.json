@@ -1,0 +1,348 @@
+{
+  "checked_file_count": 57,
+  "all_unchanged": true,
+  "files": [
+    {
+      "path": "configs/m3_constraints.yaml",
+      "before_sha256": "59ce2fad51e8c56f6e2c57b6a350bd8334dc2ed9ab4b740339e4abded869c329",
+      "after_sha256": "59ce2fad51e8c56f6e2c57b6a350bd8334dc2ed9ab4b740339e4abded869c329",
+      "unchanged": true
+    },
+    {
+      "path": "data/raw/钣金加工数据表_P001.xlsx",
+      "before_sha256": "738efdb25c083290e15aa3c8724e1e2c4f0658e1cc7dcd83873b9ca0777b3bde",
+      "after_sha256": "738efdb25c083290e15aa3c8724e1e2c4f0658e1cc7dcd83873b9ca0777b3bde",
+      "unchanged": true
+    },
+    {
+      "path": "docs/MILESTONE_2_GRAPH_SPEC.md",
+      "before_sha256": "3b3ce2c5d57e3db55dacc04375bcc371160431bd07ea5057a7654e5e75387d6f",
+      "after_sha256": "3b3ce2c5d57e3db55dacc04375bcc371160431bd07ea5057a7654e5e75387d6f",
+      "unchanged": true
+    },
+    {
+      "path": "docs/MILESTONE_2_IMPLEMENTATION.md",
+      "before_sha256": "31418446b491d5c99c51cc315d5442c53a863813d3bc246f5e7f6c6c4fa497d3",
+      "after_sha256": "31418446b491d5c99c51cc315d5442c53a863813d3bc246f5e7f6c6c4fa497d3",
+      "unchanged": true
+    },
+    {
+      "path": "docs/MILESTONE_3_CONSTRAINT_SPEC.md",
+      "before_sha256": "06afa8b2797ca8d1af9a499ab777dcfb78463b180032847e102a8f3f1bca0cdc",
+      "after_sha256": "06afa8b2797ca8d1af9a499ab777dcfb78463b180032847e102a8f3f1bca0cdc",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/m3_diagnostics/expert_plan_constraint_report.json",
+      "before_sha256": "67eb002f1448e5003902ace366891ffe73894b0862f1f3f83f81a6d22cc55b1a",
+      "after_sha256": "67eb002f1448e5003902ace366891ffe73894b0862f1f3f83f81a6d22cc55b1a",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/m3_diagnostics/expert_plan_constraint_report.md",
+      "before_sha256": "fa199682ccaadc7f8f1ea6624aa12c1b22a3cbc3497b0573c01f2a0a04457a50",
+      "after_sha256": "fa199682ccaadc7f8f1ea6624aa12c1b22a3cbc3497b0573c01f2a0a04457a50",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/m3_diagnostics/frozen_input_manifest.json",
+      "before_sha256": "48e901204b788a3c1a5e739e05814c8b30bccf7a5c338e195d19d9ea5acd04ca",
+      "after_sha256": "48e901204b788a3c1a5e739e05814c8b30bccf7a5c338e195d19d9ea5acd04ca",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/m3_diagnostics/frozen_integrity_check.json",
+      "before_sha256": "58650bcc135166ea8e46086b5e30cf980966b4b918954a85143eeb8e6bc77675",
+      "after_sha256": "58650bcc135166ea8e46086b5e30cf980966b4b918954a85143eeb8e6bc77675",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/m3_diagnostics/test_results.json",
+      "before_sha256": "11ab82e9b76637f81dda947a23b59d44236ec2e245818b0070f89203a86f4a85",
+      "after_sha256": "11ab82e9b76637f81dda947a23b59d44236ec2e245818b0070f89203a86f4a85",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/m3_diagnostics/test_results.txt",
+      "before_sha256": "dce61a5865980e8f25354821841c60aad3abce214ab5f3ead44a473089fa0543",
+      "after_sha256": "dce61a5865980e8f25354821841c60aad3abce214ab5f3ead44a473089fa0543",
+      "unchanged": true
+    },
+    {
+      "path": "PROJECT_SPEC.md",
+      "before_sha256": "6065bc0a7948e03620deb2b1038ecb828991c5ef96976d4f05dd4f469d89887b",
+      "after_sha256": "6065bc0a7948e03620deb2b1038ecb828991c5ef96976d4f05dd4f469d89887b",
+      "unchanged": true
+    },
+    {
+      "path": "README.md",
+      "before_sha256": "4c43af4e5a71e2e445136e8c5016feeee6e0fd229adb6eb42d912893636a40ec",
+      "after_sha256": "4c43af4e5a71e2e445136e8c5016feeee6e0fd229adb6eb42d912893636a40ec",
+      "unchanged": true
+    },
+    {
+      "path": "requirements.txt",
+      "before_sha256": "06d28d69e958deafb09f0a44fcae9b548f15e4debc14ebc39aad5f0934856fbf",
+      "after_sha256": "06d28d69e958deafb09f0a44fcae9b548f15e4debc14ebc39aad5f0934856fbf",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/evaluate_plan_constraints.py",
+      "before_sha256": "3da63671c81c23b490d828983a89e097ffec536e142416e82c006a241ec65095",
+      "after_sha256": "3da63671c81c23b490d828983a89e097ffec536e142416e82c006a241ec65095",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/update_p001_geometry.py",
+      "before_sha256": "c37278eaea58c5f32fd9faa933209ea1f5284b8313bff06fa82d93ec79608f20",
+      "after_sha256": "c37278eaea58c5f32fd9faa933209ea1f5284b8313bff06fa82d93ec79608f20",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/validate_p001_geometry.py",
+      "before_sha256": "fc05800d7b6dae402b33db969ad8a6f4d4f28616a6bd07ff682a704a563c042e",
+      "after_sha256": "fc05800d7b6dae402b33db969ad8a6f4d4f28616a6bd07ff682a704a563c042e",
+      "unchanged": true
+    },
+    {
+      "path": "src/__init__.py",
+      "before_sha256": "4c253bd3c5856fe0b3ceb7784dce213c183375ca8e08777a26d7de6117df7351",
+      "after_sha256": "4c253bd3c5856fe0b3ceb7784dce213c183375ca8e08777a26d7de6117df7351",
+      "unchanged": true
+    },
+    {
+      "path": "src/constraints/__init__.py",
+      "before_sha256": "b3e1722963c227cee336606b98268c21cd61b085b13b03d53fca925c67108ec1",
+      "after_sha256": "b3e1722963c227cee336606b98268c21cd61b085b13b03d53fca925c67108ec1",
+      "unchanged": true
+    },
+    {
+      "path": "src/constraints/config.py",
+      "before_sha256": "9afb5831b9e919a0e7a729be68e9ad0b13c7a4bb43078c8587244175b22a1c77",
+      "after_sha256": "9afb5831b9e919a0e7a729be68e9ad0b13c7a4bb43078c8587244175b22a1c77",
+      "unchanged": true
+    },
+    {
+      "path": "src/constraints/context.py",
+      "before_sha256": "4def154c68850698fb1d8e21a43429077110e34a474bc0f911a2816b6e231f9e",
+      "after_sha256": "4def154c68850698fb1d8e21a43429077110e34a474bc0f911a2816b6e231f9e",
+      "unchanged": true
+    },
+    {
+      "path": "src/constraints/diagnostics.py",
+      "before_sha256": "b40711189ea69ceaa5002d199344ca80d156797593ca6fc69862f9a8456c1c45",
+      "after_sha256": "b40711189ea69ceaa5002d199344ca80d156797593ca6fc69862f9a8456c1c45",
+      "unchanged": true
+    },
+    {
+      "path": "src/constraints/guardrails.py",
+      "before_sha256": "dd32acb0a17d13b311c67ddb9a7ab3add9337086ebc4098b5f67134405b7946d",
+      "after_sha256": "dd32acb0a17d13b311c67ddb9a7ab3add9337086ebc4098b5f67134405b7946d",
+      "unchanged": true
+    },
+    {
+      "path": "src/constraints/hard_constraints.py",
+      "before_sha256": "b38184f19529ea99886a312491bc9d1df28c19d0268957397d91f7ef757b08fb",
+      "after_sha256": "b38184f19529ea99886a312491bc9d1df28c19d0268957397d91f7ef757b08fb",
+      "unchanged": true
+    },
+    {
+      "path": "src/constraints/region_assignment.py",
+      "before_sha256": "d6f0f52389f7305323a6fe9ee08c87f8aacda7afc0fb74bea6ae23982e41ac35",
+      "after_sha256": "d6f0f52389f7305323a6fe9ee08c87f8aacda7afc0fb74bea6ae23982e41ac35",
+      "unchanged": true
+    },
+    {
+      "path": "src/constraints/soft_priors.py",
+      "before_sha256": "e28cfc235e6cf53f19cd3c4cf8ca0079eb4cdbaa462f99a86c84d6c283007bac",
+      "after_sha256": "e28cfc235e6cf53f19cd3c4cf8ca0079eb4cdbaa462f99a86c84d6c283007bac",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/__init__.py",
+      "before_sha256": "b1fd0d7f1cc257f937e07404aca313b04eb523a70ff56d22cdea84128ac1a268",
+      "after_sha256": "b1fd0d7f1cc257f937e07404aca313b04eb523a70ff56d22cdea84128ac1a268",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/__main__.py",
+      "before_sha256": "b96941ff26662c55d92c6235c58fd30d504c2807927b942961ad145323c3111d",
+      "after_sha256": "b96941ff26662c55d92c6235c58fd30d504c2807927b942961ad145323c3111d",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/loader.py",
+      "before_sha256": "a186b7973df7ca6f6100e0084a269355fcd8b72b0af4b3207be86be2e4d0c10e",
+      "after_sha256": "a186b7973df7ca6f6100e0084a269355fcd8b72b0af4b3207be86be2e4d0c10e",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/report.py",
+      "before_sha256": "1da6790657bfa1e50176c1b7ffdb6c77403e8bbfca91ef2ad7d471ef1ff943ae",
+      "after_sha256": "1da6790657bfa1e50176c1b7ffdb6c77403e8bbfca91ef2ad7d471ef1ff943ae",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/schema.py",
+      "before_sha256": "25a07eaf609909e3f24d1ba619867000e07ac844b1dd3a12d427ab5d64ee9594",
+      "after_sha256": "25a07eaf609909e3f24d1ba619867000e07ac844b1dd3a12d427ab5d64ee9594",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/validator.py",
+      "before_sha256": "62cbe649354e463d84a2ac6c252e8c1cb9f2ee75ceedc8fdb3a614feb3602ced",
+      "after_sha256": "62cbe649354e463d84a2ac6c252e8c1cb9f2ee75ceedc8fdb3a614feb3602ced",
+      "unchanged": true
+    },
+    {
+      "path": "src/graph/__init__.py",
+      "before_sha256": "fe536b164013392b7229e5a019ebcd6be31001d9b35bfb0dbb22c46f28e4def3",
+      "after_sha256": "fe536b164013392b7229e5a019ebcd6be31001d9b35bfb0dbb22c46f28e4def3",
+      "unchanged": true
+    },
+    {
+      "path": "src/graph/__main__.py",
+      "before_sha256": "258676a6ce261f7507d296e5038354ec44b45f32b193763f959a2b11a22b63d7",
+      "after_sha256": "258676a6ce261f7507d296e5038354ec44b45f32b193763f959a2b11a22b63d7",
+      "unchanged": true
+    },
+    {
+      "path": "src/graph/builders.py",
+      "before_sha256": "65005fb188d23d1c10d59a3a6f110e5a9bdd8ebd7b392dd0bae8caff2b936861",
+      "after_sha256": "65005fb188d23d1c10d59a3a6f110e5a9bdd8ebd7b392dd0bae8caff2b936861",
+      "unchanged": true
+    },
+    {
+      "path": "src/graph/geometry_distance.py",
+      "before_sha256": "21ddf70a42f6051c5f4bd77088b72804e25132f1a02e934ef76b55f6e8f4ad17",
+      "after_sha256": "21ddf70a42f6051c5f4bd77088b72804e25132f1a02e934ef76b55f6e8f4ad17",
+      "unchanged": true
+    },
+    {
+      "path": "src/graph/geometry_features.py",
+      "before_sha256": "266059b34ba4dd9c497df26f2253b966cb2a3b2134a588b02a2c14e85cfc0c4e",
+      "after_sha256": "266059b34ba4dd9c497df26f2253b966cb2a3b2134a588b02a2c14e85cfc0c4e",
+      "unchanged": true
+    },
+    {
+      "path": "src/graph/geometry_primitives.py",
+      "before_sha256": "35402e9b7ac632612fff6f20f0a9b36a3372f3bf4160c3fc3ae48bc45274a50b",
+      "after_sha256": "35402e9b7ac632612fff6f20f0a9b36a3372f3bf4160c3fc3ae48bc45274a50b",
+      "unchanged": true
+    },
+    {
+      "path": "src/graph/plan_overlay.py",
+      "before_sha256": "3c37cddf434e317048a1e22aa4f9001fa6b000b918dba36ae6384e2009d73ff6",
+      "after_sha256": "3c37cddf434e317048a1e22aa4f9001fa6b000b918dba36ae6384e2009d73ff6",
+      "unchanged": true
+    },
+    {
+      "path": "src/graph/report.py",
+      "before_sha256": "f747f29abcc2faafd6034eb4bbe94e722eafee13fa69ee9481a0f078f74ee744",
+      "after_sha256": "f747f29abcc2faafd6034eb4bbe94e722eafee13fa69ee9481a0f078f74ee744",
+      "unchanged": true
+    },
+    {
+      "path": "src/graph/schema.py",
+      "before_sha256": "e462f7fde9f0f9713f9cbfe8873a5b31f1c8fced662656869f9a9f7bb284f744",
+      "after_sha256": "e462f7fde9f0f9713f9cbfe8873a5b31f1c8fced662656869f9a9f7bb284f744",
+      "unchanged": true
+    },
+    {
+      "path": "src/graph/semantic_relations.py",
+      "before_sha256": "73ea4e52c97e210aae68ddda8821bb89ffdab95036df0cc30f976359a734223f",
+      "after_sha256": "73ea4e52c97e210aae68ddda8821bb89ffdab95036df0cc30f976359a734223f",
+      "unchanged": true
+    },
+    {
+      "path": "src/graph/static_graph.py",
+      "before_sha256": "caf7150b41cb20344ba52ee784853776c563d7ccfa0c2db0e2b9d0cc93f0d5e1",
+      "after_sha256": "caf7150b41cb20344ba52ee784853776c563d7ccfa0c2db0e2b9d0cc93f0d5e1",
+      "unchanged": true
+    },
+    {
+      "path": "src/graph/station_context.py",
+      "before_sha256": "6ad48dacc70116e63af6b366bd7aa44b91b245903e21f83433db0f1e659f52f3",
+      "after_sha256": "6ad48dacc70116e63af6b366bd7aa44b91b245903e21f83433db0f1e659f52f3",
+      "unchanged": true
+    },
+    {
+      "path": "tests/graph_fixtures.py",
+      "before_sha256": "efece098dd699b1dbc6678fa8749ca8cda3d0560fd837535252bd1536befa30f",
+      "after_sha256": "efece098dd699b1dbc6678fa8749ca8cda3d0560fd837535252bd1536befa30f",
+      "unchanged": true
+    },
+    {
+      "path": "tests/m3_fixtures.py",
+      "before_sha256": "7b1dab61891941811caf25ff3e9abe46f357046d87880ef75d68efd125833356",
+      "after_sha256": "7b1dab61891941811caf25ff3e9abe46f357046d87880ef75d68efd125833356",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_data_layer.py",
+      "before_sha256": "e90d30c4478bb5b21c52440e4cc4aa017971c445f1b1c154f2e780c8c3f45858",
+      "after_sha256": "e90d30c4478bb5b21c52440e4cc4aa017971c445f1b1c154f2e780c8c3f45858",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_geometry_distance.py",
+      "before_sha256": "7d540cfef95d939d268fdebd992e078cfec55a509bf41a7eab19944b6e678417",
+      "after_sha256": "7d540cfef95d939d268fdebd992e078cfec55a509bf41a7eab19944b6e678417",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_graph_features.py",
+      "before_sha256": "e6e195ff953770ce1e5665232010e7eb79841a443f7d7977e8c331db312c48d0",
+      "after_sha256": "e6e195ff953770ce1e5665232010e7eb79841a443f7d7977e8c331db312c48d0",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_graph_knn.py",
+      "before_sha256": "c0cebdecd9ddd33d8a6b8d20eef0c72820ee2817d70b145e85b95a99f44a7cfe",
+      "after_sha256": "c0cebdecd9ddd33d8a6b8d20eef0c72820ee2817d70b145e85b95a99f44a7cfe",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_graph_report.py",
+      "before_sha256": "143f7b79f528d4247c1a08b5ef54d3465906db6525cdd707ca9f7ea426bcfc0b",
+      "after_sha256": "143f7b79f528d4247c1a08b5ef54d3465906db6525cdd707ca9f7ea426bcfc0b",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_graph_semantics.py",
+      "before_sha256": "e4bfc736ba93616e96b146da238dd75b041fda26e7e7609f1fe0d074dffb9e0d",
+      "after_sha256": "e4bfc736ba93616e96b146da238dd75b041fda26e7e7609f1fe0d074dffb9e0d",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_m3_constraint_context.py",
+      "before_sha256": "3e06fe8a722fe5c537a53a2eee1906262cec876a09d5082d99085c4d7da39f27",
+      "after_sha256": "3e06fe8a722fe5c537a53a2eee1906262cec876a09d5082d99085c4d7da39f27",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_m3_diagnostics.py",
+      "before_sha256": "e8cc44e60051f6c911e7c49ca41ff2106b3935d95fb1205ff500c736e5378ce6",
+      "after_sha256": "e8cc44e60051f6c911e7c49ca41ff2106b3935d95fb1205ff500c736e5378ce6",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_m3_guardrails.py",
+      "before_sha256": "7445ae6129a387e205ecc944911d03079b12c95933e8879500586cf47363297f",
+      "after_sha256": "7445ae6129a387e205ecc944911d03079b12c95933e8879500586cf47363297f",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_m3_hard_constraints.py",
+      "before_sha256": "a4ecf975838705e8a3963e64d6f1ffc79b21da422b16b6cde8ae91766d39b865",
+      "after_sha256": "a4ecf975838705e8a3963e64d6f1ffc79b21da422b16b6cde8ae91766d39b865",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_m3_soft_priors.py",
+      "before_sha256": "c45ca111ed7f0acebb5cfaca500a54e2cb3c82682ef07fb819812a2bd4d81826",
+      "after_sha256": "c45ca111ed7f0acebb5cfaca500a54e2cb3c82682ef07fb819812a2bd4d81826",
+      "unchanged": true
+    }
+  ]
+}

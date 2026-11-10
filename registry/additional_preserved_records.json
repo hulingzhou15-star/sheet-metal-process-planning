@@ -1,0 +1,378 @@
+{
+  "records": [
+    {
+      "source": "information_extract/.runtime/bend_angle_before.json",
+      "preserved": "information_extract/baselines/migration_records/bend_angle_before.json",
+      "sha256": "ad5fa218f78da50f5d095493c6199fba71a56b6eb55e2b394cb00281d9c0e7d1"
+    },
+    {
+      "source": "information_extract/.runtime/bend_angle_preview_session.json",
+      "preserved": "information_extract/baselines/migration_records/bend_angle_preview_session.json",
+      "sha256": "810a95feeeb3033717190e4fbd0cc0f605d21985de675767b7ccba7c46dcf4cb"
+    },
+    {
+      "source": "information_extract/.runtime/cad_export_audit_20261102.py",
+      "preserved": "information_extract/baselines/migration_records/cad_export_audit_20261102.py",
+      "sha256": "9148e6bf8afd87bc06d78b9dec9eb7c326cfee86fb23627daceaf686675fde0f"
+    },
+    {
+      "source": "information_extract/.runtime/frozen_baseline.json",
+      "preserved": "information_extract/baselines/migration_records/frozen_baseline.json",
+      "sha256": "108c20a71586bd4ec94ee36a674f79aa7478857216c764d36a66180ab073b713"
+    },
+    {
+      "source": "information_extract/.runtime/make_single_solid_20261103.py",
+      "preserved": "information_extract/baselines/migration_records/make_single_solid_20261103.py",
+      "sha256": "252e30a8d684c637074801bab38c5cc7205f9f55060132e3a9b3ab587820abea"
+    },
+    {
+      "source": "information_extract/.runtime/P002_cleanup_analysis.json",
+      "preserved": "information_extract/baselines/migration_records/P002_cleanup_analysis.json",
+      "sha256": "b226eb803d8abd61ea82383fe6f81b7b8fbc6c6addae796d16b7e47b4dd6e5f5"
+    },
+    {
+      "source": "information_extract/.runtime/P003_cleanup_analysis.json",
+      "preserved": "information_extract/baselines/migration_records/P003_cleanup_analysis.json",
+      "sha256": "7b3a9450ed0d278d9e84957b1424afbc1275a474c430d8a192c5047c1d2aae56"
+    },
+    {
+      "source": "information_extract/.runtime/P003_initial_drawing.json",
+      "preserved": "information_extract/baselines/migration_records/P003_initial_drawing.json",
+      "sha256": "c50df746f819b4285967e86a4ada30ed315f86eee7ca7dbc04c44d7a61a51d5b"
+    },
+    {
+      "source": "information_extract/.runtime/P003_preflight.json",
+      "preserved": "information_extract/baselines/migration_records/P003_preflight.json",
+      "sha256": "c512d02c2aca2d07f2c5e76e1aff4515a744c7e364e3c95f6d8714b906f3c4a8"
+    },
+    {
+      "source": "information_extract/.runtime/P004_01_realign.dxf",
+      "preserved": "information_extract/baselines/migration_records/P004_01_realign.dxf",
+      "sha256": "38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3"
+    },
+    {
+      "source": "information_extract/.runtime/P004_bend_local_registration.json",
+      "preserved": "information_extract/baselines/migration_records/P004_bend_local_registration.json",
+      "sha256": "149697dcfb34a78a3a8e8f2b9fa0bafb9af28fbe3ac18791b57bfec38f240745"
+    },
+    {
+      "source": "information_extract/.runtime/P004_bend_supplement_before.json",
+      "preserved": "information_extract/baselines/migration_records/P004_bend_supplement_before.json",
+      "sha256": "9a1f0ee08f4c383ea790fb46bb6784604c2b5aa293f7e258f5d71e367d64054a"
+    },
+    {
+      "source": "information_extract/.runtime/P004_bend_supplement_previous_conversion.json",
+      "preserved": "information_extract/baselines/migration_records/P004_bend_supplement_previous_conversion.json",
+      "sha256": "1d7b791432c3a6a3704dd8966096d0f56e2367fec28bf3adbe97f4eac3e77546"
+    },
+    {
+      "source": "information_extract/.runtime/P004_deduplication_topology_checks.json",
+      "preserved": "information_extract/baselines/migration_records/P004_deduplication_topology_checks.json",
+      "sha256": "be72eae40ae85e5d84bd5a982111f73e45e83166132371b652cdb0a9cbdb0038"
+    },
+    {
+      "source": "information_extract/.runtime/P004_duplicate_scan.json",
+      "preserved": "information_extract/baselines/migration_records/P004_duplicate_scan.json",
+      "sha256": "cbe4c1e143c82e15fbd5b8e101cdeb0f2f170641ca0dcf10534321101c040167"
+    },
+    {
+      "source": "information_extract/.runtime/P004_geometry_supplement_before_bends.json",
+      "preserved": "information_extract/baselines/migration_records/P004_geometry_supplement_before_bends.json",
+      "sha256": "a775167e9207211437a29cc35e8d37faeb12299ddedf8b001b1500d5f7f100a1"
+    },
+    {
+      "source": "information_extract/.runtime/P004_initial_drawing.json",
+      "preserved": "information_extract/baselines/migration_records/P004_initial_drawing.json",
+      "sha256": "bef6755bf971d50c4b03dba6b475821349316c9577547914e15f5f5fdd569820"
+    },
+    {
+      "source": "information_extract/.runtime/P004_mirrored_candidate.dxf",
+      "preserved": "information_extract/baselines/migration_records/P004_mirrored_candidate.dxf",
+      "sha256": "623df0e24fbb7348b96767b75f66af68c9e1943e1c881e04d0974c1deadd1a33"
+    },
+    {
+      "source": "information_extract/.runtime/P004_mirrored_recheck.dxf",
+      "preserved": "information_extract/baselines/migration_records/P004_mirrored_recheck.dxf",
+      "sha256": "623df0e24fbb7348b96767b75f66af68c9e1943e1c881e04d0974c1deadd1a33"
+    },
+    {
+      "source": "information_extract/.runtime/P004_mirror_comparison.json",
+      "preserved": "information_extract/baselines/migration_records/P004_mirror_comparison.json",
+      "sha256": "e6c60d7ee205248d75638c0e7f89f1dd79ddc6a13e1ecca72a5023809b692e92"
+    },
+    {
+      "source": "information_extract/.runtime/P004_preflight.json",
+      "preserved": "information_extract/baselines/migration_records/P004_preflight.json",
+      "sha256": "ca99e1ef7325a3fe0bc172814456e5a4fb4309bdf2ebfa0bef88eee39c039f17"
+    },
+    {
+      "source": "information_extract/.runtime/P004_readdition_alignment.json",
+      "preserved": "information_extract/baselines/migration_records/P004_readdition_alignment.json",
+      "sha256": "957899f84ad11ae09946d1702eff69e2ca6a26dbe56c182265d50a020e584219"
+    },
+    {
+      "source": "information_extract/.runtime/P004_supplement_analysis.json",
+      "preserved": "information_extract/baselines/migration_records/P004_supplement_analysis.json",
+      "sha256": "b8461b5cb52cc322bbf235cb499493b1d09c709ecce6fa2a43e0f8e79194c170"
+    },
+    {
+      "source": "information_extract/.runtime/P004_verification_session.json",
+      "preserved": "information_extract/baselines/migration_records/P004_verification_session.json",
+      "sha256": "745dff5bdc809ede04bea22e14ddf006b4293801bfa1acd427195e49055e8789"
+    },
+    {
+      "source": "information_extract/.runtime/process_tables_20261102/apply_coarse_types.mjs",
+      "preserved": "information_extract/baselines/migration_records/process_tables_20261102/apply_coarse_types.mjs",
+      "sha256": "f9a43c4aa679fa8f6665a607d3bb08f6f14fb52700795f763eb86635f9e7dd71"
+    },
+    {
+      "source": "information_extract/.runtime/process_tables_20261102/apply_geometry_reviews.mjs",
+      "preserved": "information_extract/baselines/migration_records/process_tables_20261102/apply_geometry_reviews.mjs",
+      "sha256": "54af4bb77f1dbbc3128d2fa213ead92a653608fb72a32874a4b417c37313c21d"
+    },
+    {
+      "source": "information_extract/.runtime/process_tables_20261102/build_process_workbooks.mjs",
+      "preserved": "information_extract/baselines/migration_records/process_tables_20261102/build_process_workbooks.mjs",
+      "sha256": "75bf4b56e15a1903831db2d85ac7c26592b48470a55a8839a7746c22cc320b98"
+    },
+    {
+      "source": "information_extract/.runtime/process_tables_20261102/coarse_type_authoring.json",
+      "preserved": "information_extract/baselines/migration_records/process_tables_20261102/coarse_type_authoring.json",
+      "sha256": "9c0c1a23b605827f80a7017277d5ed034436548ee4ef1dae194b927cf8ccffab"
+    },
+    {
+      "source": "information_extract/.runtime/process_tables_20261102/coarse_type_payload.json",
+      "preserved": "information_extract/baselines/migration_records/process_tables_20261102/coarse_type_payload.json",
+      "sha256": "fec3f4c7aa64341833ea97b761c46e0a7b5874f32c0c500b1ab7b8db3c38f602"
+    },
+    {
+      "source": "information_extract/.runtime/process_tables_20261102/coarse_type_sync.json",
+      "preserved": "information_extract/baselines/migration_records/process_tables_20261102/coarse_type_sync.json",
+      "sha256": "0275b38d9bfb275d8f02771e3c347e89ce9c1c9d2ad6173dee11bbf58496d99b"
+    },
+    {
+      "source": "information_extract/.runtime/process_tables_20261102/coarse_type_verification.json",
+      "preserved": "information_extract/baselines/migration_records/process_tables_20261102/coarse_type_verification.json",
+      "sha256": "f047e6560fd69b711934cb1c2bd8026a18cd71316edd7ee5f7e7e24c1936cdf5"
+    },
+    {
+      "source": "information_extract/.runtime/process_tables_20261102/fill_geometry_workbooks.mjs",
+      "preserved": "information_extract/baselines/migration_records/process_tables_20261102/fill_geometry_workbooks.mjs",
+      "sha256": "0e28f49c1b8f0c96fbde5050bd40b20e77d81eb325c9c21fd92d4c2258ce5f89"
+    },
+    {
+      "source": "information_extract/.runtime/process_tables_20261102/P002_coarse_types.xlsx",
+      "preserved": "information_extract/baselines/migration_records/process_tables_20261102/P002_coarse_types.xlsx",
+      "sha256": "44bee62ba780b27c02acdb9b9d1d0adfab07f25f73c01b51795c85608bb57336"
+    },
+    {
+      "source": "information_extract/.runtime/process_tables_20261102/P003_coarse_types.xlsx",
+      "preserved": "information_extract/baselines/migration_records/process_tables_20261102/P003_coarse_types.xlsx",
+      "sha256": "58d741be362daed82cfc5d69bdc4bfb3189f65cbf97be896d480d5b6dfe9de79"
+    },
+    {
+      "source": "information_extract/.runtime/process_tables_20261102/prepare_geometry_reviews.py",
+      "preserved": "information_extract/baselines/migration_records/process_tables_20261102/prepare_geometry_reviews.py",
+      "sha256": "d9e2c76fd3dd13e58547564b250f1de83d6a4dd14077f801d04ec829c9b98d3f"
+    },
+    {
+      "source": "information_extract/.runtime/process_tables_20261102/prepare_plain_style.py",
+      "preserved": "information_extract/baselines/migration_records/process_tables_20261102/prepare_plain_style.py",
+      "sha256": "dd8516edc74712e2404d9758b811f371bd23d019f3e43f6a207c2c26cff46715"
+    },
+    {
+      "source": "information_extract/.runtime/process_tables_20261102/verify_geometry_reviews.py",
+      "preserved": "information_extract/baselines/migration_records/process_tables_20261102/verify_geometry_reviews.py",
+      "sha256": "ba086ec7a4652da711e4cb9bfcc3f60a6a4993343f21e21e219b3bea1bd93ca9"
+    },
+    {
+      "source": "information_extract/.runtime/process_tables_20261102/verify_process_workbooks.py",
+      "preserved": "information_extract/baselines/migration_records/process_tables_20261102/verify_process_workbooks.py",
+      "sha256": "576401da0fe60a7ee1fb97973d667757f2819f1e04dda12c8357b787c3d5a72f"
+    },
+    {
+      "source": "information_extract/.runtime/process_tables_20261102/before_coarse_types/P002_desktop_544834161a7a.xlsx",
+      "preserved": "information_extract/baselines/migration_records/process_tables_20261102/before_coarse_types/P002_desktop_544834161a7a.xlsx",
+      "sha256": "544834161a7a6677fde4b4ff8d38eeb3aec991efa8b4486641a5f7a268408c59"
+    },
+    {
+      "source": "information_extract/.runtime/process_tables_20261102/before_coarse_types/P002_workspace_edd21252551f.xlsx",
+      "preserved": "information_extract/baselines/migration_records/process_tables_20261102/before_coarse_types/P002_workspace_edd21252551f.xlsx",
+      "sha256": "edd21252551f6eb3443ba263922a63bc6d947364ac916d2d69b24a0b7c716e79"
+    },
+    {
+      "source": "information_extract/.runtime/process_tables_20261102/before_coarse_types/P003_desktop_5a31ef4769f8.xlsx",
+      "preserved": "information_extract/baselines/migration_records/process_tables_20261102/before_coarse_types/P003_desktop_5a31ef4769f8.xlsx",
+      "sha256": "5a31ef4769f83d51e6b37960a179036019a8ea43b98c6aa9644dbd337b5ebc3a"
+    },
+    {
+      "source": "information_extract/.runtime/process_tables_20261102/before_coarse_types/P003_workspace_5a31ef4769f8.xlsx",
+      "preserved": "information_extract/baselines/migration_records/process_tables_20261102/before_coarse_types/P003_workspace_5a31ef4769f8.xlsx",
+      "sha256": "5a31ef4769f83d51e6b37960a179036019a8ea43b98c6aa9644dbd337b5ebc3a"
+    },
+    {
+      "source": "information_extract/.runtime/process_tables_20261102/before_coarse_types/钣金加工数据表_P002.xlsx",
+      "preserved": "information_extract/baselines/migration_records/process_tables_20261102/before_coarse_types/钣金加工数据表_P002.xlsx",
+      "sha256": "544834161a7a6677fde4b4ff8d38eeb3aec991efa8b4486641a5f7a268408c59"
+    },
+    {
+      "source": "information_extract/.runtime/process_tables_20261102/before_coarse_types/钣金加工数据表_P003.xlsx",
+      "preserved": "information_extract/baselines/migration_records/process_tables_20261102/before_coarse_types/钣金加工数据表_P003.xlsx",
+      "sha256": "5a31ef4769f83d51e6b37960a179036019a8ea43b98c6aa9644dbd337b5ebc3a"
+    },
+    {
+      "source": "information_extract/.runtime/process_tables_20261102/before_plain_style/P002_工艺信息表_待补全.xlsx",
+      "preserved": "information_extract/baselines/migration_records/process_tables_20261102/before_plain_style/P002_工艺信息表_待补全.xlsx",
+      "sha256": "62fb32491c88dca0c3853b5c2545377e211e3a9b854441029a862e47a9bd3eb1"
+    },
+    {
+      "source": "information_extract/.runtime/process_tables_20261102/before_plain_style/P003_工艺信息表_待补全.xlsx",
+      "preserved": "information_extract/baselines/migration_records/process_tables_20261102/before_plain_style/P003_工艺信息表_待补全.xlsx",
+      "sha256": "0b89a5bbbdc1b8323299f58b0c0e77f0b702edabbc5e4b908a2b799d1279fafe"
+    },
+    {
+      "source": "data/backups/P001/钣金加工数据表_P001_before_geometry_update_20261009_103504.xlsx",
+      "preserved": "baselines/data_history/P001/钣金加工数据表_P001_before_geometry_update_20261009_103504.xlsx",
+      "sha256": "ccd6b9f1fc556211174be07e42e9ff4080dde293aeb686188681231bc9e4eb4c"
+    },
+    {
+      "source": "data/backups/P001/钣金加工数据表_P001_before_sheet5_derived_20261012_142656.xlsx",
+      "preserved": "baselines/data_history/P001/钣金加工数据表_P001_before_sheet5_derived_20261012_142656.xlsx",
+      "sha256": "4ddc493a02c0092938d181376021d4d5f6d86e019a6451f6e86b403c0e958d15"
+    },
+    {
+      "source": "data/backups/P001/钣金加工数据表_P001_before_sheet5_fill_20261012_134615.xlsx",
+      "preserved": "baselines/data_history/P001/钣金加工数据表_P001_before_sheet5_fill_20261012_134615.xlsx",
+      "sha256": "eac40ad20c671e5811b7b4c23123d8ec5d519b88781b86d910275a67397cbf6f"
+    }
+  ],
+  "runtime_archive": {
+    "path": ".local/history/module_runtime_history.zip",
+    "sha256": "caef2c7110d276742aa69dcb2f134dd3c060cfdeb8f46dd240c4bc91a540157a",
+    "members": {
+      "information_extract/.runtime/auto_pairing_dom_log.txt": "4b2bda8b8004350117750b4c1bd016736a6e6e83b0585584acc37e9cd5cdc73a",
+      "information_extract/.runtime/auto_pairing_frontend_log.txt": "9d61932a1d8ca56231d6beda180621653e41076f37a9d62c391dc8c39316fe74",
+      "information_extract/.runtime/auto_pairing_test_log.txt": "a8a1feb1469c311c1781777f033e2c02d14b658298d1652e284ff4e874676da7",
+      "information_extract/.runtime/bend_angle_before.json": "ad5fa218f78da50f5d095493c6199fba71a56b6eb55e2b394cb00281d9c0e7d1",
+      "information_extract/.runtime/bend_angle_preview_session.json": "810a95feeeb3033717190e4fbd0cc0f605d21985de675767b7ccba7c46dcf4cb",
+      "information_extract/.runtime/bend_angle_preview_stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "information_extract/.runtime/bend_angle_preview_stdout.log": "5a2603c7d0e2ef04775334bf6a452cbe0981b0f1ce773dda9ba7aacbf8fba27f",
+      "information_extract/.runtime/bend_angle_tests.log": "07d50cd5e1f451e6f39edaf3e9ec69ef89b751f9696d16e33814ca43a566e1c3",
+      "information_extract/.runtime/cad_export_audit_20261102.py": "9148e6bf8afd87bc06d78b9dec9eb7c326cfee86fb23627daceaf686675fde0f",
+      "information_extract/.runtime/cad_parent_dom_log.txt": "2058feb1037f433e545148912d64e5b453e9231b3f83b1a9888292e35e687ef5",
+      "information_extract/.runtime/cad_parent_frontend_log.txt": "9d61932a1d8ca56231d6beda180621653e41076f37a9d62c391dc8c39316fe74",
+      "information_extract/.runtime/cad_parent_python_log.txt": "396886e8ada15e67d6b50cb6d68fa5f455a7c48249b670e81ded200d8a75b25a",
+      "information_extract/.runtime/duplicate_removal_tests.log": "bbc1f6579a723395f1ad5517862a7e68343b165ed6910ce89dc7a47e87a4bb1f",
+      "information_extract/.runtime/frozen_baseline.json": "108c20a71586bd4ec94ee36a674f79aa7478857216c764d36a66180ab073b713",
+      "information_extract/.runtime/make_single_solid_20261103.py": "252e30a8d684c637074801bab38c5cc7205f9f55060132e3a9b3ab587820abea",
+      "information_extract/.runtime/P002_cleanup_analysis.json": "b226eb803d8abd61ea82383fe6f81b7b8fbc6c6addae796d16b7e47b4dd6e5f5",
+      "information_extract/.runtime/P002_server.pid": "fa50bd19466e76a1067c28cdb371eb9e6f659bc28b62ec9f724e95c4a9cb5854",
+      "information_extract/.runtime/P002_server_stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "information_extract/.runtime/P002_server_stdout.log": "74aba51197acfb2fa3de33fde5113b8f1a31ef79455f7aba02470b3c9b813dd9",
+      "information_extract/.runtime/P003_cleanup_analysis.json": "7b3a9450ed0d278d9e84957b1424afbc1275a474c430d8a192c5047c1d2aae56",
+      "information_extract/.runtime/P003_cleanup_tests.log": "b0ce844e81280a01903af830d9ec6fc5a38f756c48966553592ad6eb5ad2f242",
+      "information_extract/.runtime/P003_initial_drawing.json": "c50df746f819b4285967e86a4ada30ed315f86eee7ca7dbc04c44d7a61a51d5b",
+      "information_extract/.runtime/P003_preflight.json": "c512d02c2aca2d07f2c5e76e1aff4515a744c7e364e3c95f6d8714b906f3c4a8",
+      "information_extract/.runtime/P003_server.pid": "dc1883b074e4ac56476f18504b896512a10746855361d1e33b7fbad48ef7e268",
+      "information_extract/.runtime/P003_server_stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "information_extract/.runtime/P003_server_stdout.log": "d8e3d166b25e5715e60969103f9dc299bd8d05280cc10a6f3e17ae3eeb85b6d4",
+      "information_extract/.runtime/P003_tests.log": "bf8774774e645591209cc18e8c56ccd893609436291630e57b1f286b6436b329",
+      "information_extract/.runtime/P004_01_realign.dxf": "38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3",
+      "information_extract/.runtime/P004_bend_local_registration.json": "149697dcfb34a78a3a8e8f2b9fa0bafb9af28fbe3ac18791b57bfec38f240745",
+      "information_extract/.runtime/P004_bend_supplement_before.json": "9a1f0ee08f4c383ea790fb46bb6784604c2b5aa293f7e258f5d71e367d64054a",
+      "information_extract/.runtime/P004_bend_supplement_dom.log": "6aa34b204528dd02cd65d2fe4f09605eadb1eac1c566fab65e7c74e7cc6915ba",
+      "information_extract/.runtime/P004_bend_supplement_frontend.log": "9d61932a1d8ca56231d6beda180621653e41076f37a9d62c391dc8c39316fe74",
+      "information_extract/.runtime/P004_bend_supplement_previous_conversion.json": "1d7b791432c3a6a3704dd8966096d0f56e2367fec28bf3adbe97f4eac3e77546",
+      "information_extract/.runtime/P004_bend_supplement_server.err.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "information_extract/.runtime/P004_bend_supplement_server.log": "b9554e9727ac4d33104c088c674993ecb4f95248c3e0d8ea6cc90f4931f7f6c3",
+      "information_extract/.runtime/P004_bend_supplement_tests.log": "a0ca47780ba83fce06affe84be221e1cb75d7da58b775789826256fe3865951b",
+      "information_extract/.runtime/P004_corrected_supplement_dom.log": "6aa34b204528dd02cd65d2fe4f09605eadb1eac1c566fab65e7c74e7cc6915ba",
+      "information_extract/.runtime/P004_corrected_supplement_frontend.log": "9d61932a1d8ca56231d6beda180621653e41076f37a9d62c391dc8c39316fe74",
+      "information_extract/.runtime/P004_corrected_supplement_server.err.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "information_extract/.runtime/P004_corrected_supplement_server.log": "3742a8b1b322e85b028884f497d69fb3f5a8aeb4a7c23ebbf148e053f1131dc1",
+      "information_extract/.runtime/P004_corrected_supplement_tests.log": "e0512a31e2e6758147ac73518783e945ca4078244e58723ef378533b4aecced1",
+      "information_extract/.runtime/P004_deduplication_dom.log": "6aa34b204528dd02cd65d2fe4f09605eadb1eac1c566fab65e7c74e7cc6915ba",
+      "information_extract/.runtime/P004_deduplication_final_server.err.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "information_extract/.runtime/P004_deduplication_final_server.log": "4e2b51e2c38f99bbe4e89a301bf3005cdc9677c4be228f123cf5210944eb80ca",
+      "information_extract/.runtime/P004_deduplication_final_tests.log": "3f45dcae252db978c89443b0dcb4f89f8da96ac137ad35f5fb7c531eaebb7c0b",
+      "information_extract/.runtime/P004_deduplication_final_tests_retry.log": "f47592d768906e15f1d5da6efeb6a8fb01c73d15824239dce707bdc39524645e",
+      "information_extract/.runtime/P004_deduplication_frontend.log": "9d61932a1d8ca56231d6beda180621653e41076f37a9d62c391dc8c39316fe74",
+      "information_extract/.runtime/P004_deduplication_server.err.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "information_extract/.runtime/P004_deduplication_server.log": "d8b576c674b01cd13b1adb7859280a30c5f486c7b3b895b6652532590dc1c268",
+      "information_extract/.runtime/P004_deduplication_tests.log": "0323996c77065abcadf61ed5c2e5d82a4f58927b18607153b051b5dbc9c67de3",
+      "information_extract/.runtime/P004_deduplication_topology_checks.json": "be72eae40ae85e5d84bd5a982111f73e45e83166132371b652cdb0a9cbdb0038",
+      "information_extract/.runtime/P004_duplicate_scan.json": "cbe4c1e143c82e15fbd5b8e101cdeb0f2f170641ca0dcf10534321101c040167",
+      "information_extract/.runtime/P004_geometry_supplement_before_bends.json": "a775167e9207211437a29cc35e8d37faeb12299ddedf8b001b1500d5f7f100a1",
+      "information_extract/.runtime/P004_initial_drawing.json": "bef6755bf971d50c4b03dba6b475821349316c9577547914e15f5f5fdd569820",
+      "information_extract/.runtime/P004_mirrored_candidate.dxf": "623df0e24fbb7348b96767b75f66af68c9e1943e1c881e04d0974c1deadd1a33",
+      "information_extract/.runtime/P004_mirrored_recheck.dxf": "623df0e24fbb7348b96767b75f66af68c9e1943e1c881e04d0974c1deadd1a33",
+      "information_extract/.runtime/P004_mirrored_source_server.err.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "information_extract/.runtime/P004_mirrored_source_server.log": "9f280449dc7df869dc9eb0eb0675f5aae256a48cc9c39fb41a2a89fe972eacff",
+      "information_extract/.runtime/P004_mirrored_source_tests.log": "f665a7ab0e921c4b777ef4273d0a4c080a2234e4fd8dd1d1529e758908580e15",
+      "information_extract/.runtime/P004_mirror_comparison.json": "e6c60d7ee205248d75638c0e7f89f1dd79ddc6a13e1ecca72a5023809b692e92",
+      "information_extract/.runtime/P004_preflight.json": "ca99e1ef7325a3fe0bc172814456e5a4fb4309bdf2ebfa0bef88eee39c039f17",
+      "information_extract/.runtime/P004_readdition_alignment.json": "957899f84ad11ae09946d1702eff69e2ca6a26dbe56c182265d50a020e584219",
+      "information_extract/.runtime/P004_rollback_dom.log": "6aa34b204528dd02cd65d2fe4f09605eadb1eac1c566fab65e7c74e7cc6915ba",
+      "information_extract/.runtime/P004_rollback_frontend.log": "9d61932a1d8ca56231d6beda180621653e41076f37a9d62c391dc8c39316fe74",
+      "information_extract/.runtime/P004_rollback_server.err.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "information_extract/.runtime/P004_rollback_server.log": "0a99717a292c4a6b3550ad6099d026965ab47cba3ed001387a40f54babe4cfbd",
+      "information_extract/.runtime/P004_rollback_tests.log": "5f2c8826003a74ebba4561d9ecf731493ffb39666e5529ccbf1b696e1b212391",
+      "information_extract/.runtime/P004_supplement_analysis.json": "b8461b5cb52cc322bbf235cb499493b1d09c709ecce6fa2a43e0f8e79194c170",
+      "information_extract/.runtime/P004_supplement_dom.log": "6aa34b204528dd02cd65d2fe4f09605eadb1eac1c566fab65e7c74e7cc6915ba",
+      "information_extract/.runtime/P004_supplement_frontend.log": "9d61932a1d8ca56231d6beda180621653e41076f37a9d62c391dc8c39316fe74",
+      "information_extract/.runtime/P004_supplement_server.err.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "information_extract/.runtime/P004_supplement_server.log": "53abf59855ddc32aeb38173dd36d1941969b47a7fab685089edb0a560fb23424",
+      "information_extract/.runtime/P004_supplement_tests.log": "d837197b8894bf8a65533e2371062da453d5f897d1dd7ead3df38c12f3caa8bf",
+      "information_extract/.runtime/P004_tests.log": "255d5d75ea0834ab0e9498ffacfd6e703825ec2a06995cd96a0d8f9e375086a1",
+      "information_extract/.runtime/P004_verification_session.json": "745dff5bdc809ede04bea22e14ddf006b4293801bfa1acd427195e49055e8789",
+      "information_extract/.runtime/P004_verification_stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "information_extract/.runtime/P004_verification_stdout.log": "a1740e0f79826dfed27ccd70e25397e2a59447109e538c05cd6cbc435ee8cf86",
+      "information_extract/.runtime/server.pid": "2aed9dbe66d400d86dc8283d920ed51556d6c3cf5706beb9fe9f7d2755cf4f08",
+      "information_extract/.runtime/server_stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "information_extract/.runtime/server_stdout.log": "c54237046fc9e11bf0b934dfb1c5cc17eba4bd2bb66118f2e7fcb5f4fa8f326c",
+      "information_extract/.runtime/source_cleanup_tests.log": "e74dc7f2b35a433e2095e6c7da2c7a97ace78f18457edca84ab7f3b8925756a5",
+      "information_extract/.runtime/workflow_v2_dialog_log.txt": "ed64df95936f7eda5e79fffdf709e0f42b682f5779be8fe22fc47f2df822e1d8",
+      "information_extract/.runtime/workflow_v2_frontend_log.txt": "046cf16356976cc7cff428b23661dc2e46c1b7a7ec4f161738258330ef3327f2",
+      "information_extract/.runtime/workflow_v2_test_log.txt": "a49c0ad4b155b914f605d6d31a51a8cd35139d850f4e94fb51f2842a2ff818dc",
+      "information_extract/.runtime/mapping_review_downloads/48dcaa45-5482-45ec-b82f-725fb05335f7": "7d886f0cd19e6db6a0d043a6425b0e6228f67a290ecd1d3aa00d217b52f05940",
+      "information_extract/.runtime/mapping_review_downloads/cd4b4555-abc3-44d3-9ce5-ecca3e72410c": "4e72e4ba0fd60b95e98fdc94fb207a095840a79d886e33b2693ef1e454831374",
+      "information_extract/.runtime/process_tables_20261102/apply_coarse_types.mjs": "f9a43c4aa679fa8f6665a607d3bb08f6f14fb52700795f763eb86635f9e7dd71",
+      "information_extract/.runtime/process_tables_20261102/apply_geometry_reviews.mjs": "54af4bb77f1dbbc3128d2fa213ead92a653608fb72a32874a4b417c37313c21d",
+      "information_extract/.runtime/process_tables_20261102/build.log": "61c074bbfde88e91604f65a750d656c9d71a23fd19af6824734a6a087af908c7",
+      "information_extract/.runtime/process_tables_20261102/build_process_workbooks.mjs": "75bf4b56e15a1903831db2d85ac7c26592b48470a55a8839a7746c22cc320b98",
+      "information_extract/.runtime/process_tables_20261102/coarse_build.log": "76679a9bba730f708430b9c6740f2f6d87d8f01c6155a750e9eeba162141fb6e",
+      "information_extract/.runtime/process_tables_20261102/coarse_type_authoring.json": "9c0c1a23b605827f80a7017277d5ed034436548ee4ef1dae194b927cf8ccffab",
+      "information_extract/.runtime/process_tables_20261102/coarse_type_payload.json": "fec3f4c7aa64341833ea97b761c46e0a7b5874f32c0c500b1ab7b8db3c38f602",
+      "information_extract/.runtime/process_tables_20261102/coarse_type_sync.json": "0275b38d9bfb275d8f02771e3c347e89ce9c1c9d2ad6173dee11bbf58496d99b",
+      "information_extract/.runtime/process_tables_20261102/coarse_type_verification.json": "f047e6560fd69b711934cb1c2bd8026a18cd71316edd7ee5f7e7e24c1936cdf5",
+      "information_extract/.runtime/process_tables_20261102/fill_geometry_workbooks.mjs": "0e28f49c1b8f0c96fbde5050bd40b20e77d81eb325c9c21fd92d4c2258ce5f89",
+      "information_extract/.runtime/process_tables_20261102/geometry_build.log": "90fffbdd3d04d37147de4a8a75095087c0688b424f0190ba125d62edfdbd95a9",
+      "information_extract/.runtime/process_tables_20261102/P002_coarse_types.xlsx": "44bee62ba780b27c02acdb9b9d1d0adfab07f25f73c01b51795c85608bb57336",
+      "information_extract/.runtime/process_tables_20261102/P002_coarse_types.xlsx.inspect.ndjson": "044634c45187e702f6dcf695bc22aea4da259d18af2b80e4d45c2a05bc3ce1d0",
+      "information_extract/.runtime/process_tables_20261102/P002_coarse_types_preview.png": "1d8692847bcf90b812d7eeccd26acb85ff12d69fc6b11cae39b6496ef54200ce",
+      "information_extract/.runtime/process_tables_20261102/P003_coarse_types.xlsx": "58d741be362daed82cfc5d69bdc4bfb3189f65cbf97be896d480d5b6dfe9de79",
+      "information_extract/.runtime/process_tables_20261102/P003_coarse_types.xlsx.inspect.ndjson": "db1a1b73fc662707e21dcde3dbf5f3f68d40a2565d823b8e0dfa8b77d167c9cf",
+      "information_extract/.runtime/process_tables_20261102/P003_coarse_types_preview.png": "0077eaed93a7c865bf9e5bcbc5dc0113bd0a65be46597179cdd675e3e72fb79f",
+      "information_extract/.runtime/process_tables_20261102/plain_build.log": "fecfe368efc0d9471a9bd00c8d77f11764e9f5a8358f46dc2a68c5d94c28e57f",
+      "information_extract/.runtime/process_tables_20261102/prepare_geometry_reviews.py": "d9e2c76fd3dd13e58547564b250f1de83d6a4dd14077f801d04ec829c9b98d3f",
+      "information_extract/.runtime/process_tables_20261102/prepare_plain_style.py": "dd8516edc74712e2404d9758b811f371bd23d019f3e43f6a207c2c26cff46715",
+      "information_extract/.runtime/process_tables_20261102/review_build.log": "f70aff85b14770e331e9ff094db533e99490a0811528bdc81884f77da87b0102",
+      "information_extract/.runtime/process_tables_20261102/verify_geometry_reviews.py": "ba086ec7a4652da711e4cb9bfcc3f60a6a4993343f21e21e219b3bea1bd93ca9",
+      "information_extract/.runtime/process_tables_20261102/verify_process_workbooks.py": "576401da0fe60a7ee1fb97973d667757f2819f1e04dda12c8357b787c3d5a72f",
+      "information_extract/.runtime/process_tables_20261102/before_coarse_types/P002_desktop_544834161a7a.xlsx": "544834161a7a6677fde4b4ff8d38eeb3aec991efa8b4486641a5f7a268408c59",
+      "information_extract/.runtime/process_tables_20261102/before_coarse_types/P002_workspace_edd21252551f.xlsx": "edd21252551f6eb3443ba263922a63bc6d947364ac916d2d69b24a0b7c716e79",
+      "information_extract/.runtime/process_tables_20261102/before_coarse_types/P003_desktop_5a31ef4769f8.xlsx": "5a31ef4769f83d51e6b37960a179036019a8ea43b98c6aa9644dbd337b5ebc3a",
+      "information_extract/.runtime/process_tables_20261102/before_coarse_types/P003_workspace_5a31ef4769f8.xlsx": "5a31ef4769f83d51e6b37960a179036019a8ea43b98c6aa9644dbd337b5ebc3a",
+      "information_extract/.runtime/process_tables_20261102/before_coarse_types/钣金加工数据表_P002.xlsx": "544834161a7a6677fde4b4ff8d38eeb3aec991efa8b4486641a5f7a268408c59",
+      "information_extract/.runtime/process_tables_20261102/before_coarse_types/钣金加工数据表_P003.xlsx": "5a31ef4769f83d51e6b37960a179036019a8ea43b98c6aa9644dbd337b5ebc3a",
+      "information_extract/.runtime/process_tables_20261102/before_plain_style/P002_工艺信息表_待补全.xlsx": "62fb32491c88dca0c3853b5c2545377e211e3a9b854441029a862e47a9bd3eb1",
+      "information_extract/.runtime/process_tables_20261102/before_plain_style/P003_工艺信息表_待补全.xlsx": "0b89a5bbbdc1b8323299f58b0c0e77f0b702edabbc5e4b908a2b799d1279fafe",
+      "information_extract/.runtime/three_d_browser_test/browser_failure.png": "19306c21b3f82928073a36923bc10440d4ff32cc9a742733afed992b39bb7a7f",
+      "information_extract/.runtime/three_d_browser_test/browser_test_bindings.json": "6feb004760a5c3e0d0393f66c5e3c803a10a15e0c408419d95005d584179c53e",
+      "information_extract/.runtime/three_d_browser_test/browser_test_downloads/3a26f3d4-9c57-438e-a7a5-f962b5d482fe": "d06bbe7dcb1d971221c501f362c40785681679ad1c1ec56dd5d64b8daef94d47",
+      "information_extract/.runtime/three_d_browser_test/downloads/233c14d5-50ab-4360-ad77-d30083907651": "914ee757c517d5da988459fe11ec757b5bbd2d9b026687d7b2a39cfc32b4055d",
+      "information_extract/.runtime/three_d_browser_test/downloads/853cce55-894a-40db-9f4c-84b109793ce8": "914ee757c517d5da988459fe11ec757b5bbd2d9b026687d7b2a39cfc32b4055d",
+      "information_extract/.runtime/three_d_browser_test/downloads/9fa07851-491a-45c1-aa91-a28798430e15": "6feb004760a5c3e0d0393f66c5e3c803a10a15e0c408419d95005d584179c53e"
+    }
+  }
+}

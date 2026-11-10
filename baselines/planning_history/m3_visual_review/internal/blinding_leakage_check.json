@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "file_count": 15,
+  "checked_files": [
+    "comparison_pairs.csv",
+    "plan_cards/PLAN_A01.html",
+    "plan_cards/PLAN_A02.html",
+    "plan_cards/PLAN_A03.html",
+    "plan_cards/PLAN_A04.html",
+    "plan_cards/PLAN_A05.html",
+    "plan_cards/PLAN_A06.html",
+    "plan_cards/PLAN_A07.html",
+    "plan_cards/PLAN_A08.html",
+    "plan_cards/PLAN_A09.html",
+    "plan_cards/PLAN_A10.html",
+    "plan_cards/PLAN_A11.html",
+    "plan_cards/PLAN_A12.html",
+    "plan_cards/PLAN_A13.html",
+    "review_pack.html"
+  ],
+  "findings": [],
+  "comparisons": 24,
+  "plans": 13,
+  "network_resources": 0,
+  "all_answers_blank": true
+}

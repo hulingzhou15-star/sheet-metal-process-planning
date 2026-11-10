@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "prior_files_verified": 35141,
+  "prior_files_changed": [],
+  "source_sha256": "7c5453471547a1fa56510bf650a53f5b8a31b8089c53505196bc045bfe794259",
+  "fresh_geometry_pairs": 22155,
+  "p5_pairs": 22,
+  "bounds_independently_resolved": 10,
+  "pool": 64,
+  "selected": 16,
+  "independent_scores": 155,
+  "comparisons": 36,
+  "selection_and_rejections_verified": true,
+  "tests_passed": 96,
+  "new_tests_passed": 36,
+  "browser_verified": true,
+  "entire_historical_suite_rerun": false,
+  "expert_used": false,
+  "training_labels_generated": false
+}

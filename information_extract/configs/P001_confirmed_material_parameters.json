@@ -1,0 +1,23 @@
+{
+  "part_id": "P001",
+  "confirmed_on": "2026-11-05",
+  "stock_thickness_mm": 0.8,
+  "status": "USER_CONFIRMED_WITH_CAD_MEASUREMENT_AND_DRAWING_TEXT_SUPPORT",
+  "user_confirmation": "板厚测得0.8就按0.8吧",
+  "drawing_source": "C:/Users/hulin/Desktop/图纸文件夹/P001/P001.dxf",
+  "drawing_sha256": "f3a805effd19864bdf1f82fdf8881ecdfbdbd1a566b414685cc79a4027fa4fef",
+  "evidence": [
+    {"handle": "1FF", "text": "GENERAL CHROME-FREE STEEL SHEET (t 0.8)"},
+    {"handle": "EC86", "text": "用料规格：T0.8*W811*H400", "scope": "EXISTING_PROCESS_DRAWING_AUDIT_ONLY"}
+  ],
+  "bend_inner_radius_mm": null,
+  "k_factor": null,
+  "bend_allowance_mm": null,
+  "bend_deduction_mm": null,
+  "bend_table": null,
+  "notes": [
+    "Confirmation record for subsequent material/state work; does not change historical geometry estimates or frozen data.",
+    "Existing local playback already uses approximately 0.8 mm geometric thickness; this audit does not rebuild it.",
+    "No material grade, stock rectangle, radius, angle or unfolding rule is automatically adopted from mixed process drawings."
+  ]
+}

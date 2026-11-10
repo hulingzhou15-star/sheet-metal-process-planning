@@ -1,0 +1,11 @@
+[
+  {
+    "path": "data/raw/review_pack.html",
+    "before_sha256": "ea1366520825702f396856083eb2778f6f75570041a4157dd901b879b45fc66a",
+    "change_type": "USER_REMOVED_DUPLICATE_REVIEW_COPY",
+    "confirmed_by_user": true,
+    "user_statement": "嗯，我把它删了，这个不重要",
+    "confirmed_date": "2026-10-13",
+    "reason": "Temporary byte-identical copy of frozen v0.3 public review HTML; original output remains frozen."
+  }
+]

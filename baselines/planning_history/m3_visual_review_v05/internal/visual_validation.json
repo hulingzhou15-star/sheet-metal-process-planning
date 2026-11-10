@@ -1,0 +1,111 @@
+{
+  "preview_count": 8,
+  "previews": [
+    {
+      "file": "comparison_difference_only.svg",
+      "same_viewport": true,
+      "matrices": [
+        "matrix(0 1 -1 0 0 0)",
+        "matrix(0 1 -1 0 0 0)"
+      ],
+      "outline_count": 32,
+      "png_exists": true
+    },
+    {
+      "file": "comparison_influence_regions.svg",
+      "same_viewport": true,
+      "matrices": [
+        "matrix(0 1 -1 0 0 0)",
+        "matrix(0 1 -1 0 0 0)"
+      ],
+      "outline_count": 32,
+      "png_exists": true
+    },
+    {
+      "file": "comparison_OP20.svg",
+      "same_viewport": true,
+      "matrices": [
+        "matrix(0 1 -1 0 0 0)",
+        "matrix(0 1 -1 0 0 0)"
+      ],
+      "outline_count": 32,
+      "png_exists": true
+    },
+    {
+      "file": "comparison_OP50.svg",
+      "same_viewport": true,
+      "matrices": [
+        "matrix(0 1 -1 0 0 0)",
+        "matrix(0 1 -1 0 0 0)"
+      ],
+      "outline_count": 32,
+      "png_exists": true
+    },
+    {
+      "file": "comparison_original_orientation.svg",
+      "same_viewport": true,
+      "matrices": [
+        "matrix(1 0 0 1 0 0)",
+        "matrix(1 0 0 1 0 0)"
+      ],
+      "outline_count": 32,
+      "png_exists": true
+    },
+    {
+      "file": "comparison_region_filter.svg",
+      "same_viewport": true,
+      "matrices": [
+        "matrix(0 1 -1 0 0 0)",
+        "matrix(0 1 -1 0 0 0)"
+      ],
+      "outline_count": 32,
+      "png_exists": true
+    },
+    {
+      "file": "single_OP20.svg",
+      "same_viewport": true,
+      "matrices": [
+        "matrix(0 1 -1 0 0 0)"
+      ],
+      "outline_count": 32,
+      "png_exists": true
+    },
+    {
+      "file": "single_OP50.svg",
+      "same_viewport": true,
+      "matrices": [
+        "matrix(0 1 -1 0 0 0)"
+      ],
+      "outline_count": 32,
+      "png_exists": true
+    }
+  ],
+  "static_png_visual_inspection": {
+    "completed": true,
+    "reviewed_files": [
+      "comparison_difference_only.png",
+      "comparison_influence_regions.png",
+      "comparison_OP20.png",
+      "comparison_OP50.png",
+      "comparison_original_orientation.png",
+      "comparison_region_filter.png",
+      "single_OP20.png",
+      "single_OP50.png"
+    ],
+    "coordinate_alignment_issue": false,
+    "observation": "Source board outlines and operations align; default 270-degree view matches saved HTML orientation. Current blue and non-current gray-blue remain distinct. Region overlays stay subordinate."
+  },
+  "ui_handler_regression": {
+    "passed": true,
+    "method": "Actual JavaScript with a test DOM; click/keyboard details, orientation toggle, Station, difference/region filters, zoom/pan/reset/fit and modes",
+    "real_browser_end_to_end": false
+  },
+  "plan_and_comparison_view_models_equal_v04": true,
+  "outside_visualization_file_count": 245,
+  "frozen_pass": true,
+  "source_html_unchanged": true,
+  "blind_files_checked": 15,
+  "blind_findings": 0,
+  "blank_form_rows": 24,
+  "labels_generated": false
+}

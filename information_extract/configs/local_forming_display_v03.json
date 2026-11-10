@@ -1,0 +1,11 @@
+{
+  "base": [0.20, 0.215, 0.23],
+  "baseCss": "#33373b",
+  "highlight": [1.0, 1.0, 1.0],
+  "highlightFill": [0.97, 0.98, 1.0],
+  "highlightCss": "#ffffff",
+  "highlightFillCss": "#f7faff",
+  "gloss": 0.20,
+  "glossExponent": 48.0,
+  "softReflection": 0.12
+}

@@ -1,0 +1,1276 @@
+{
+  "representative": {
+    "internal_id": "MEDIUM_011",
+    "bucket": "MEDIUM",
+    "selection_role": "TYPICAL",
+    "plan_hash": "801d8015096796462fb22b891748c35811e15a2f1bc0bfc2edc24c36d29210f6",
+    "distance_to_expert_raw": 33,
+    "distance_to_expert_normalized": 0.2920353982300885,
+    "total_soft_penalty": 0.0871542726679713,
+    "soft_components": {
+      "bend_area_ordering": {
+        "raw_component": 0.13150684931506848,
+        "weight": 0.45,
+        "weighted_contribution": 0.05917808219178082
+      },
+      "precedence_extra_gap": {
+        "raw_component": 0.13988095238095238,
+        "weight": 0.2,
+        "weighted_contribution": 0.027976190476190477
+      },
+      "type_fragmentation": {
+        "raw_component": 0.0,
+        "weight": 0.35,
+        "weighted_contribution": 0.0
+      }
+    },
+    "op60_load": 7,
+    "selection_audit": {
+      "statistics_scope": "remaining_after_LOW_SOFT",
+      "source_count": 19,
+      "median_distance": 33,
+      "median_soft": 0.08651663405088063,
+      "distance_range": 16,
+      "soft_range": 0.02438193085453358,
+      "epsilon": 1e-12,
+      "candidate_scores": [
+        {
+          "internal_id": "MEDIUM_002",
+          "z_distance": 0.125,
+          "z_soft": -0.1717610862149686,
+          "median_point_distance": 0.21243086107660036,
+          "plan_hash": "3f5abb621e98b00d5759001b02dba59ae17228dd4da5d7d1823bb4805dccaad2"
+        },
+        {
+          "internal_id": "MEDIUM_003",
+          "z_distance": -0.0625,
+          "z_soft": 0.0,
+          "median_point_distance": 0.0625,
+          "plan_hash": "0c57717fd1d294118ac3b99ff717a0839676758114e6bdd5fa82eec49c072aa8"
+        },
+        {
+          "internal_id": "MEDIUM_004",
+          "z_distance": 0.3125,
+          "z_soft": 0.21142398501772464,
+          "median_point_distance": 0.3773014066244321,
+          "plan_hash": "08839e7541d12472094266ff6d0d9e75c1cbc3fbb28b4d7be158aef1d48906d7"
+        },
+        {
+          "internal_id": "MEDIUM_005",
+          "z_distance": 0.5625,
+          "z_soft": 0.3757608186743363,
+          "median_point_distance": 0.6764631866190558,
+          "plan_hash": "91c821f35c9c57f5f7af5cb03a0f11ae1d9f2647feea481f6e9a87302dcbd962"
+        },
+        {
+          "internal_id": "MEDIUM_006",
+          "z_distance": 0.375,
+          "z_soft": -0.6242391813256637,
+          "median_point_distance": 0.7282166954294133,
+          "plan_hash": "82d113a4487298107a0acf4506f83c11418e88f6deec5007998216b6fdcaec55"
+        },
+        {
+          "internal_id": "MEDIUM_007",
+          "z_distance": 0.5625,
+          "z_soft": 0.2183800414687987,
+          "median_point_distance": 0.6034037557986478,
+          "plan_hash": "adb132bbdaecf23ec5c2eeb97d723bdac2d85381c78d8f87c905fa301c86bda4"
+        },
+        {
+          "internal_id": "MEDIUM_008",
+          "z_distance": 0.1875,
+          "z_soft": -0.3892716206273829,
+          "median_point_distance": 0.43207481369071854,
+          "plan_hash": "ae0fd2c2ad5fca8eb4b4914f21202a7e93142abcb04838d22839a756b838170c"
+        },
+        {
+          "internal_id": "MEDIUM_009",
+          "z_distance": -0.0625,
+          "z_soft": -0.04401043408467631,
+          "median_point_distance": 0.07644061949200594,
+          "plan_hash": "3c2b5cd02b79a8d4b500ed2f3679b33f57d21f5559dec451723c2835e4471f61"
+        },
+        {
+          "internal_id": "MEDIUM_010",
+          "z_distance": 0.3125,
+          "z_soft": -0.004347535281920859,
+          "median_point_distance": 0.31253024023768894,
+          "plan_hash": "ac81d0c8ef8f3bb9ae3ecff9053c720f5d42f64f47f9a87442a6add453c4e60f"
+        },
+        {
+          "internal_id": "MEDIUM_011",
+          "z_distance": 0.0,
+          "z_soft": 0.02615209684970883,
+          "median_point_distance": 0.02615209684970883,
+          "plan_hash": "801d8015096796462fb22b891748c35811e15a2f1bc0bfc2edc24c36d29210f6"
+        },
+        {
+          "internal_id": "MEDIUM_012",
+          "z_distance": 0.375,
+          "z_soft": 0.010902280783893986,
+          "median_point_distance": 0.37515844616147304,
+          "plan_hash": "5b0a119e1c5bfb8fba660f2bdc5562a1fbc6471226105e21dd82c786734a1f63"
+        },
+        {
+          "internal_id": "MEDIUM_013",
+          "z_distance": -0.4375,
+          "z_soft": 0.018326533342250945,
+          "median_point_distance": 0.4378836738499674,
+          "plan_hash": "f3c92edee3f2a1135cf958cecbcaed162b8e06a3a108e5ed08f7dfee8bf26dbf"
+        },
+        {
+          "internal_id": "MEDIUM_014",
+          "z_distance": -0.125,
+          "z_soft": 0.13557621563774963,
+          "median_point_distance": 0.18440691485585237,
+          "plan_hash": "0044795d581af85dd41f39a49751bd2ec3ad39825138d566115da64025e3580a"
+        },
+        {
+          "internal_id": "MEDIUM_015",
+          "z_distance": 0.0,
+          "z_soft": 0.31429335830379285,
+          "median_point_distance": 0.31429335830379285,
+          "plan_hash": "db4b57c4b46b9a284333360de61410b3d721da67718890af6b8ff46cba080339"
+        },
+        {
+          "internal_id": "MEDIUM_016",
+          "z_distance": 0.0,
+          "z_soft": -0.2136311952377769,
+          "median_point_distance": 0.2136311952377769,
+          "plan_hash": "491a0aa49597db538499eea8cabe4dab36bb95f3f1b56f280f01fe5fe312cd8a"
+        },
+        {
+          "internal_id": "MEDIUM_017",
+          "z_distance": 0.375,
+          "z_soft": -0.19878269012106184,
+          "median_point_distance": 0.42442850739761356,
+          "plan_hash": "13695e019e8b322ffa9cb417044ad947d7092e729a0d630caeec0c4ba121ac25"
+        },
+        {
+          "internal_id": "MEDIUM_018",
+          "z_distance": -0.0625,
+          "z_soft": -0.18614139522439963,
+          "median_point_distance": 0.196353938122173,
+          "plan_hash": "854a4e19257bdf071d34ea68343a9f825d9960f21dc9c0e46e709465cb30d945"
+        },
+        {
+          "internal_id": "MEDIUM_019",
+          "z_distance": -0.0625,
+          "z_soft": -0.16520634071299606,
+          "median_point_distance": 0.17663347647537977,
+          "plan_hash": "ee7eca345f4be8993e7b6958fdf2e7271e1a19c6bb7092ee8f4e39550aa8451f"
+        },
+        {
+          "internal_id": "MEDIUM_020",
+          "z_distance": 0.0,
+          "z_soft": 0.20052170423383006,
+          "median_point_distance": 0.20052170423383006,
+          "plan_hash": "ec75b3d7b95ceae16ca7be51303335ea92f00572a2d4073ef79bf84566907959"
+        }
+      ]
+    },
+    "blind_id": "PLAN_A07"
+  },
+  "diff": {
+    "changed_operation_count": 33,
+    "changed_operations": [
+      {
+        "operation_id": "O043",
+        "operation_type": "BEND",
+        "expert_station": "OP50",
+        "candidate_station": "OP60",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [
+          "O198"
+        ],
+        "precedence_sources": [
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O048",
+        "operation_type": "BEND",
+        "expert_station": "OP50",
+        "candidate_station": "OP40",
+        "station_rank_delta": -1,
+        "process_group_id": null,
+        "required_predecessor_ids": [
+          "O197"
+        ],
+        "precedence_sources": [
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O077",
+        "operation_type": "BEND",
+        "expert_station": "OP50",
+        "candidate_station": "OP40",
+        "station_rank_delta": -1,
+        "process_group_id": null,
+        "required_predecessor_ids": [
+          "O199"
+        ],
+        "precedence_sources": [
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O080",
+        "operation_type": "BEND",
+        "expert_station": "OP50",
+        "candidate_station": "OP40",
+        "station_rank_delta": -1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [],
+        "EXPLICIT_PREDECESSOR": false,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O091",
+        "operation_type": "BEND",
+        "expert_station": "OP50",
+        "candidate_station": "OP60",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [
+          "O206"
+        ],
+        "precedence_sources": [
+          "BEND_REGION_PRECEDENCE",
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": true
+      },
+      {
+        "operation_id": "O095",
+        "operation_type": "BEND",
+        "expert_station": "OP50",
+        "candidate_station": "OP60",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [
+          "O207"
+        ],
+        "precedence_sources": [
+          "BEND_REGION_PRECEDENCE",
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": true
+      },
+      {
+        "operation_id": "O096",
+        "operation_type": "BEND",
+        "expert_station": "OP40",
+        "candidate_station": "OP50",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [
+          "O207"
+        ],
+        "precedence_sources": [
+          "BEND_REGION_PRECEDENCE",
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": true
+      },
+      {
+        "operation_id": "O099",
+        "operation_type": "BEND",
+        "expert_station": "OP50",
+        "candidate_station": "OP60",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [
+          "O209"
+        ],
+        "precedence_sources": [
+          "BEND_REGION_PRECEDENCE",
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": true
+      },
+      {
+        "operation_id": "O100",
+        "operation_type": "BEND",
+        "expert_station": "OP40",
+        "candidate_station": "OP50",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [
+          "O209"
+        ],
+        "precedence_sources": [
+          "BEND_REGION_PRECEDENCE",
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": true
+      },
+      {
+        "operation_id": "O121",
+        "operation_type": "BEND",
+        "expert_station": "OP50",
+        "candidate_station": "OP60",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [
+          "O205"
+        ],
+        "precedence_sources": [
+          "BEND_REGION_PRECEDENCE",
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": true
+      },
+      {
+        "operation_id": "O122",
+        "operation_type": "BEND",
+        "expert_station": "OP40",
+        "candidate_station": "OP50",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [
+          "O205"
+        ],
+        "precedence_sources": [
+          "BEND_REGION_PRECEDENCE",
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": true
+      },
+      {
+        "operation_id": "O157",
+        "operation_type": "BEND",
+        "expert_station": "OP50",
+        "candidate_station": "OP40",
+        "station_rank_delta": -1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [],
+        "EXPLICIT_PREDECESSOR": false,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O163",
+        "operation_type": "BEND",
+        "expert_station": "OP50",
+        "candidate_station": "OP40",
+        "station_rank_delta": -1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [
+          "BEND_REGION_PRECEDENCE"
+        ],
+        "EXPLICIT_PREDECESSOR": false,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": true
+      },
+      {
+        "operation_id": "O166",
+        "operation_type": "CIRCLE_PUNCH",
+        "expert_station": "OP20",
+        "candidate_station": "OP10",
+        "station_rank_delta": -1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [],
+        "EXPLICIT_PREDECESSOR": false,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O170",
+        "operation_type": "CIRCLE_PUNCH",
+        "expert_station": "OP20",
+        "candidate_station": "OP10",
+        "station_rank_delta": -1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [],
+        "EXPLICIT_PREDECESSOR": false,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O174",
+        "operation_type": "CIRCLE_PUNCH",
+        "expert_station": "OP20",
+        "candidate_station": "OP10",
+        "station_rank_delta": -1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [],
+        "EXPLICIT_PREDECESSOR": false,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O187",
+        "operation_type": "CIRCLE_PUNCH",
+        "expert_station": "OP20",
+        "candidate_station": "OP10",
+        "station_rank_delta": -1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [],
+        "EXPLICIT_PREDECESSOR": false,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O189",
+        "operation_type": "CIRCLE_PUNCH",
+        "expert_station": "OP20",
+        "candidate_station": "OP10",
+        "station_rank_delta": -1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [],
+        "EXPLICIT_PREDECESSOR": false,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O002",
+        "operation_type": "IRREGULAR_PUNCH",
+        "expert_station": "OP20",
+        "candidate_station": "OP30",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [],
+        "EXPLICIT_PREDECESSOR": false,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O003",
+        "operation_type": "IRREGULAR_PUNCH",
+        "expert_station": "OP20",
+        "candidate_station": "OP30",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [],
+        "EXPLICIT_PREDECESSOR": false,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O058",
+        "operation_type": "IRREGULAR_PUNCH",
+        "expert_station": "OP30",
+        "candidate_station": "OP20",
+        "station_rank_delta": -1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [],
+        "EXPLICIT_PREDECESSOR": false,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O073",
+        "operation_type": "IRREGULAR_PUNCH",
+        "expert_station": "OP30",
+        "candidate_station": "OP20",
+        "station_rank_delta": -1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [],
+        "EXPLICIT_PREDECESSOR": false,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O076",
+        "operation_type": "IRREGULAR_PUNCH",
+        "expert_station": "OP30",
+        "candidate_station": "OP20",
+        "station_rank_delta": -1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [],
+        "EXPLICIT_PREDECESSOR": false,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O150",
+        "operation_type": "IRREGULAR_PUNCH",
+        "expert_station": "OP30",
+        "candidate_station": "OP20",
+        "station_rank_delta": -1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [],
+        "EXPLICIT_PREDECESSOR": false,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O162",
+        "operation_type": "IRREGULAR_PUNCH",
+        "expert_station": "OP30",
+        "candidate_station": "OP20",
+        "station_rank_delta": -1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [],
+        "EXPLICIT_PREDECESSOR": false,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O193",
+        "operation_type": "IRREGULAR_PUNCH",
+        "expert_station": "OP30",
+        "candidate_station": "OP20",
+        "station_rank_delta": -1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O197",
+        "operation_type": "IRREGULAR_PUNCH",
+        "expert_station": "OP20",
+        "candidate_station": "OP30",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O201",
+        "operation_type": "IRREGULAR_PUNCH",
+        "expert_station": "OP20",
+        "candidate_station": "OP30",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O202",
+        "operation_type": "IRREGULAR_PUNCH",
+        "expert_station": "OP20",
+        "candidate_station": "OP30",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O206",
+        "operation_type": "IRREGULAR_PUNCH",
+        "expert_station": "OP20",
+        "candidate_station": "OP30",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O208",
+        "operation_type": "IRREGULAR_PUNCH",
+        "expert_station": "OP20",
+        "candidate_station": "OP30",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O211",
+        "operation_type": "IRREGULAR_PUNCH",
+        "expert_station": "OP20",
+        "candidate_station": "OP30",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O214",
+        "operation_type": "IRREGULAR_PUNCH",
+        "expert_station": "OP30",
+        "candidate_station": "OP20",
+        "station_rank_delta": -1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      }
+    ],
+    "bend_changes": [
+      {
+        "bend_operation_id": "O043",
+        "expert_station": "OP50",
+        "candidate_station": "OP60",
+        "station_rank_delta": 1,
+        "bend_axis": "VERTICAL",
+        "affected_depth": 10.6,
+        "bend_length": 19.5,
+        "affected_area_proxy": 206.7,
+        "influence_region_id": "R008",
+        "parent_region_id": null,
+        "region_level": 0
+      },
+      {
+        "bend_operation_id": "O048",
+        "expert_station": "OP50",
+        "candidate_station": "OP40",
+        "station_rank_delta": -1,
+        "bend_axis": "VERTICAL",
+        "affected_depth": 10.6,
+        "bend_length": 22,
+        "affected_area_proxy": 233.2,
+        "influence_region_id": "R009",
+        "parent_region_id": null,
+        "region_level": 0
+      },
+      {
+        "bend_operation_id": "O077",
+        "expert_station": "OP50",
+        "candidate_station": "OP40",
+        "station_rank_delta": -1,
+        "bend_axis": "VERTICAL",
+        "affected_depth": 10.6,
+        "bend_length": 8,
+        "affected_area_proxy": 84.8,
+        "influence_region_id": "R021",
+        "parent_region_id": null,
+        "region_level": 0
+      },
+      {
+        "bend_operation_id": "O080",
+        "expert_station": "OP50",
+        "candidate_station": "OP40",
+        "station_rank_delta": -1,
+        "bend_axis": "VERTICAL",
+        "affected_depth": 10.6,
+        "bend_length": 8,
+        "affected_area_proxy": 84.8,
+        "influence_region_id": "R022",
+        "parent_region_id": null,
+        "region_level": 0
+      },
+      {
+        "bend_operation_id": "O091",
+        "expert_station": "OP50",
+        "candidate_station": "OP60",
+        "station_rank_delta": 1,
+        "bend_axis": "VERTICAL",
+        "affected_depth": 18.5,
+        "bend_length": 8,
+        "affected_area_proxy": 148,
+        "influence_region_id": "R024",
+        "parent_region_id": null,
+        "region_level": 0
+      },
+      {
+        "bend_operation_id": "O095",
+        "expert_station": "OP50",
+        "candidate_station": "OP60",
+        "station_rank_delta": 1,
+        "bend_axis": "VERTICAL",
+        "affected_depth": 18.5,
+        "bend_length": 8,
+        "affected_area_proxy": 148,
+        "influence_region_id": "R026",
+        "parent_region_id": null,
+        "region_level": 0
+      },
+      {
+        "bend_operation_id": "O096",
+        "expert_station": "OP40",
+        "candidate_station": "OP50",
+        "station_rank_delta": 1,
+        "bend_axis": "VERTICAL",
+        "affected_depth": 8.90000000000003,
+        "bend_length": 8,
+        "affected_area_proxy": 71.2000000000003,
+        "influence_region_id": "R027",
+        "parent_region_id": "R026",
+        "region_level": 1
+      },
+      {
+        "bend_operation_id": "O099",
+        "expert_station": "OP50",
+        "candidate_station": "OP60",
+        "station_rank_delta": 1,
+        "bend_axis": "VERTICAL",
+        "affected_depth": 18.5,
+        "bend_length": 8,
+        "affected_area_proxy": 148,
+        "influence_region_id": "R028",
+        "parent_region_id": null,
+        "region_level": 0
+      },
+      {
+        "bend_operation_id": "O100",
+        "expert_station": "OP40",
+        "candidate_station": "OP50",
+        "station_rank_delta": 1,
+        "bend_axis": "VERTICAL",
+        "affected_depth": 8.90000000000003,
+        "bend_length": 8,
+        "affected_area_proxy": 71.2000000000003,
+        "influence_region_id": "R029",
+        "parent_region_id": "R028",
+        "region_level": 1
+      },
+      {
+        "bend_operation_id": "O121",
+        "expert_station": "OP50",
+        "candidate_station": "OP60",
+        "station_rank_delta": 1,
+        "bend_axis": "VERTICAL",
+        "affected_depth": 18.5,
+        "bend_length": 8,
+        "affected_area_proxy": 148,
+        "influence_region_id": "R038",
+        "parent_region_id": null,
+        "region_level": 0
+      },
+      {
+        "bend_operation_id": "O122",
+        "expert_station": "OP40",
+        "candidate_station": "OP50",
+        "station_rank_delta": 1,
+        "bend_axis": "VERTICAL",
+        "affected_depth": 8.90000000000003,
+        "bend_length": 8,
+        "affected_area_proxy": 71.2000000000003,
+        "influence_region_id": "R039",
+        "parent_region_id": "R038",
+        "region_level": 1
+      },
+      {
+        "bend_operation_id": "O157",
+        "expert_station": "OP50",
+        "candidate_station": "OP40",
+        "station_rank_delta": -1,
+        "bend_axis": "HORIZONTAL",
+        "affected_depth": 10.5,
+        "bend_length": 38.7,
+        "affected_area_proxy": 406.35,
+        "influence_region_id": "R056",
+        "parent_region_id": null,
+        "region_level": 0
+      },
+      {
+        "bend_operation_id": "O163",
+        "expert_station": "OP50",
+        "candidate_station": "OP40",
+        "station_rank_delta": -1,
+        "bend_axis": "VERTICAL",
+        "affected_depth": 12.3,
+        "bend_length": 75.65,
+        "affected_area_proxy": 930.494999999997,
+        "influence_region_id": "R059",
+        "parent_region_id": "R049",
+        "region_level": 1
+      }
+    ],
+    "station_loads": [
+      {
+        "station_id": "OP10",
+        "expert_load": 53,
+        "candidate_load": 58,
+        "delta": 5
+      },
+      {
+        "station_id": "OP20",
+        "expert_load": 45,
+        "candidate_load": 39,
+        "delta": -6
+      },
+      {
+        "station_id": "OP30",
+        "expert_load": 63,
+        "candidate_load": 64,
+        "delta": 1
+      },
+      {
+        "station_id": "OP40",
+        "expert_load": 25,
+        "candidate_load": 27,
+        "delta": 2
+      },
+      {
+        "station_id": "OP50",
+        "expert_load": 36,
+        "candidate_load": 29,
+        "delta": -7
+      },
+      {
+        "station_id": "OP60",
+        "expert_load": 2,
+        "candidate_load": 7,
+        "delta": 5
+      },
+      {
+        "station_id": "OP70",
+        "expert_load": 0,
+        "candidate_load": 0,
+        "delta": 0
+      }
+    ],
+    "operation_type_movement": [
+      {
+        "operation_type": "BEND",
+        "total_operation_count": 59,
+        "changed_count": 13,
+        "unchanged_count": 46,
+        "station_transitions": {
+          "OP40 -> OP50": 3,
+          "OP50 -> OP40": 5,
+          "OP50 -> OP60": 5
+        }
+      },
+      {
+        "operation_type": "BRIDGE",
+        "total_operation_count": 4,
+        "changed_count": 0,
+        "unchanged_count": 4,
+        "station_transitions": {}
+      },
+      {
+        "operation_type": "CIRCLE_PUNCH",
+        "total_operation_count": 16,
+        "changed_count": 5,
+        "unchanged_count": 11,
+        "station_transitions": {
+          "OP20 -> OP10": 5
+        }
+      },
+      {
+        "operation_type": "DIMPLE",
+        "total_operation_count": 2,
+        "changed_count": 0,
+        "unchanged_count": 2,
+        "station_transitions": {}
+      },
+      {
+        "operation_type": "FLANGING",
+        "total_operation_count": 46,
+        "changed_count": 0,
+        "unchanged_count": 46,
+        "station_transitions": {}
+      },
+      {
+        "operation_type": "IRREGULAR_PUNCH",
+        "total_operation_count": 38,
+        "changed_count": 15,
+        "unchanged_count": 23,
+        "station_transitions": {
+          "OP20 -> OP30": 8,
+          "OP30 -> OP20": 7
+        }
+      },
+      {
+        "operation_type": "MARKING",
+        "total_operation_count": 3,
+        "changed_count": 0,
+        "unchanged_count": 3,
+        "station_transitions": {}
+      },
+      {
+        "operation_type": "PRE_PUNCH",
+        "total_operation_count": 46,
+        "changed_count": 0,
+        "unchanged_count": 46,
+        "station_transitions": {}
+      },
+      {
+        "operation_type": "TRIM",
+        "total_operation_count": 10,
+        "changed_count": 0,
+        "unchanged_count": 10,
+        "station_transitions": {}
+      }
+    ],
+    "precedence_related_changed_operations": [
+      {
+        "operation_id": "O043",
+        "operation_type": "BEND",
+        "expert_station": "OP50",
+        "candidate_station": "OP60",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [
+          "O198"
+        ],
+        "precedence_sources": [
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O048",
+        "operation_type": "BEND",
+        "expert_station": "OP50",
+        "candidate_station": "OP40",
+        "station_rank_delta": -1,
+        "process_group_id": null,
+        "required_predecessor_ids": [
+          "O197"
+        ],
+        "precedence_sources": [
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O077",
+        "operation_type": "BEND",
+        "expert_station": "OP50",
+        "candidate_station": "OP40",
+        "station_rank_delta": -1,
+        "process_group_id": null,
+        "required_predecessor_ids": [
+          "O199"
+        ],
+        "precedence_sources": [
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O091",
+        "operation_type": "BEND",
+        "expert_station": "OP50",
+        "candidate_station": "OP60",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [
+          "O206"
+        ],
+        "precedence_sources": [
+          "BEND_REGION_PRECEDENCE",
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": true
+      },
+      {
+        "operation_id": "O095",
+        "operation_type": "BEND",
+        "expert_station": "OP50",
+        "candidate_station": "OP60",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [
+          "O207"
+        ],
+        "precedence_sources": [
+          "BEND_REGION_PRECEDENCE",
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": true
+      },
+      {
+        "operation_id": "O096",
+        "operation_type": "BEND",
+        "expert_station": "OP40",
+        "candidate_station": "OP50",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [
+          "O207"
+        ],
+        "precedence_sources": [
+          "BEND_REGION_PRECEDENCE",
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": true
+      },
+      {
+        "operation_id": "O099",
+        "operation_type": "BEND",
+        "expert_station": "OP50",
+        "candidate_station": "OP60",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [
+          "O209"
+        ],
+        "precedence_sources": [
+          "BEND_REGION_PRECEDENCE",
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": true
+      },
+      {
+        "operation_id": "O100",
+        "operation_type": "BEND",
+        "expert_station": "OP40",
+        "candidate_station": "OP50",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [
+          "O209"
+        ],
+        "precedence_sources": [
+          "BEND_REGION_PRECEDENCE",
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": true
+      },
+      {
+        "operation_id": "O121",
+        "operation_type": "BEND",
+        "expert_station": "OP50",
+        "candidate_station": "OP60",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [
+          "O205"
+        ],
+        "precedence_sources": [
+          "BEND_REGION_PRECEDENCE",
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": true
+      },
+      {
+        "operation_id": "O122",
+        "operation_type": "BEND",
+        "expert_station": "OP40",
+        "candidate_station": "OP50",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [
+          "O205"
+        ],
+        "precedence_sources": [
+          "BEND_REGION_PRECEDENCE",
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": true
+      },
+      {
+        "operation_id": "O163",
+        "operation_type": "BEND",
+        "expert_station": "OP50",
+        "candidate_station": "OP40",
+        "station_rank_delta": -1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [
+          "BEND_REGION_PRECEDENCE"
+        ],
+        "EXPLICIT_PREDECESSOR": false,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": true
+      },
+      {
+        "operation_id": "O193",
+        "operation_type": "IRREGULAR_PUNCH",
+        "expert_station": "OP30",
+        "candidate_station": "OP20",
+        "station_rank_delta": -1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O197",
+        "operation_type": "IRREGULAR_PUNCH",
+        "expert_station": "OP20",
+        "candidate_station": "OP30",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O201",
+        "operation_type": "IRREGULAR_PUNCH",
+        "expert_station": "OP20",
+        "candidate_station": "OP30",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O202",
+        "operation_type": "IRREGULAR_PUNCH",
+        "expert_station": "OP20",
+        "candidate_station": "OP30",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O206",
+        "operation_type": "IRREGULAR_PUNCH",
+        "expert_station": "OP20",
+        "candidate_station": "OP30",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O208",
+        "operation_type": "IRREGULAR_PUNCH",
+        "expert_station": "OP20",
+        "candidate_station": "OP30",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O211",
+        "operation_type": "IRREGULAR_PUNCH",
+        "expert_station": "OP20",
+        "candidate_station": "OP30",
+        "station_rank_delta": 1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      },
+      {
+        "operation_id": "O214",
+        "operation_type": "IRREGULAR_PUNCH",
+        "expert_station": "OP30",
+        "candidate_station": "OP20",
+        "station_rank_delta": -1,
+        "process_group_id": null,
+        "required_predecessor_ids": [],
+        "precedence_sources": [
+          "EXPLICIT_PREDECESSOR"
+        ],
+        "EXPLICIT_PREDECESSOR": true,
+        "PROCESS_GROUP": false,
+        "BEND_REGION_PRECEDENCE": false
+      }
+    ]
+  }
+}

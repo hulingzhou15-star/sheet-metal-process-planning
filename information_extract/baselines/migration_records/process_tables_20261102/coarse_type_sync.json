@@ -1,0 +1,26 @@
+[
+  {
+    "Part": "P002",
+    "Target": "D:\\sheet_process_assignment\\information_extract\\outputs\\process_tables_20261102\\钣金加工数据表_P002.xlsx",
+    "Status": "UPDATED",
+    "Message": "仅修改动作大类；工序能力及其它数据已核对保留。"
+  },
+  {
+    "Part": "P002",
+    "Target": "C:\\Users\\hulin\\Desktop\\图纸文件夹\\P002\\钣金加工数据表_P002.xlsx",
+    "Status": "UPDATED",
+    "Message": "仅修改动作大类；工序能力及其它数据已核对保留。"
+  },
+  {
+    "Part": "P003",
+    "Target": "D:\\sheet_process_assignment\\information_extract\\outputs\\process_tables_20261102\\钣金加工数据表_P003.xlsx",
+    "Status": "UPDATED",
+    "Message": "仅修改动作大类；工序能力及其它数据已核对保留。"
+  },
+  {
+    "Part": "P003",
+    "Target": "C:\\Users\\hulin\\Desktop\\图纸文件夹\\P003\\钣金加工数据表_P003.xlsx",
+    "Status": "UPDATED",
+    "Message": "仅修改动作大类；工序能力及其它数据已核对保留。"
+  }
+]

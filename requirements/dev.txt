@@ -1,0 +1,2 @@
+-r cad.txt
+pytest==8.4.2

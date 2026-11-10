@@ -1,0 +1,27 @@
+{
+  "schema_version": "neighborhood_n1.v0.1",
+  "neighborhood_config": "configs/neighborhood_v01.json",
+  "policy": {
+    "name": "N1",
+    "status": "review_trial_only",
+    "relation_kind": "EXTERNAL_NEIGHBOR",
+    "anchor_type": "FLANGING",
+    "neighbor_type": "IRREGULAR_PUNCH",
+    "tier": "PRIORITY",
+    "condition": "different_station"
+  },
+  "generation": {
+    "seed": 20261016,
+    "pool_target": 16,
+    "selected_target": 16,
+    "max_attempts": 32,
+    "random_cost_abs_max": 100
+  },
+  "solver": {
+    "max_time_seconds": 5.0,
+    "max_deterministic_time": 1.0,
+    "num_search_workers": 1
+  },
+  "conflict_analysis": {"max_deletion_checks": 64},
+  "view": {"default_station": "OP30", "minimum_extent": 24.0, "padding_fraction": 0.18, "hit_radius_px": 6.0}
+}

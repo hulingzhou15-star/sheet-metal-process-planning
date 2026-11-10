@@ -1,0 +1,98 @@
+{
+  "source": "information_extract/sources/P001/process_drawing.dxf",
+  "expected_sha256": "f3a805effd19864bdf1f82fdf8881ecdfbdbd1a566b414685cc79a4027fa4fef",
+  "output": "outputs/process_drawing_assistance/P001",
+  "usage": "P001_EXPERT_DRAWING_ASSISTED_MODEL_DEVELOPMENT",
+  "fit_anchor_ids": [
+    "O186",
+    "O187",
+    "O188",
+    "O189"
+  ],
+  "held_out_anchor_ids": [
+    "O190",
+    "O191",
+    "O192"
+  ],
+  "local_operation_ids": [
+    "O009",
+    "O010",
+    "O011",
+    "O012"
+  ],
+  "local_crop_cad_xy_mm": [
+    348,
+    -18,
+    362,
+    5
+  ],
+  "local_center_search_mm": 0.08,
+  "render_page_width_mm": 300,
+  "views": [
+    {
+      "id": "unfold",
+      "title": "二维展开视图",
+      "insert_handles": [
+        "4EEF",
+        "4EF0",
+        "4EF1"
+      ],
+      "bounds": [
+        2500,
+        100,
+        3500,
+        800
+      ]
+    },
+    {
+      "id": "stage01",
+      "title_handle": "EC83",
+      "frame_handle": "EC88"
+    },
+    {
+      "id": "stage02",
+      "title_handle": "EC9F",
+      "frame_handle": "ECA2"
+    },
+    {
+      "id": "stage03",
+      "title_handle": "ECB6",
+      "frame_handle": "ECB9"
+    },
+    {
+      "id": "stage03_after",
+      "title_handle": "F09E",
+      "bounds": [
+        4186.926977918317,
+        -8960.961823725727,
+        5792.655998232707,
+        -7825.482016504142
+      ]
+    },
+    {
+      "id": "stage04",
+      "title_handle": "F0EC",
+      "frame_handle": "F0B2"
+    },
+    {
+      "id": "stage05",
+      "title_handle": "F0F0",
+      "frame_handle": "F0C5"
+    },
+    {
+      "id": "stage06",
+      "title_handle": "F0F4",
+      "frame_handle": "F0D8"
+    },
+    {
+      "id": "stage07",
+      "title_handle": "F7AB",
+      "frame_handle": "F797"
+    }
+  ],
+  "scope_notes": [
+    "Bounds are drawing-view crops only, not material boundaries or influence regions.",
+    "Process names and intermediate shapes are offline modeling evidence, not reference-free inference inputs.",
+    "No stage's missing line/circle is automatically interpreted as missing material or an unexecuted operation."
+  ]
+}

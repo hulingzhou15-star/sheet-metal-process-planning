@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "part_id": "P002",
+  "source_sha256": "a89cbdbde22fccb33d4cde2dd213a728d3cc5c56552b6fbf02686e11b58a894f",
+  "revision": 1,
+  "source_file_name": "P002_1.dxf",
+  "coordinate_system": "drawing WCS XY",
+  "source_units": "mm",
+  "expected_operation_count": null,
+  "inventory_confirmed": false,
+  "operations": [
+    {
+      "uid": "e948fec5-1070-41fd-9d2c-e3732b62ac0a",
+      "operation_id": "QA_P002",
+      "name": "开发验证圆孔（将撤销）",
+      "operation_type": "CIRCLE_PUNCH",
+      "surface_side": "NOT_APPLICABLE",
+      "cad_parent_operation_id": null,
+      "required_predecessor_ids": [],
+      "process_group_id": null,
+      "source_segment_ids": [
+        "S_36cc822984885393e28d3dc0"
+      ],
+      "geometry_mode": "source",
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": []
+    }
+  ],
+  "ignored_entities": {},
+  "station_rows": [],
+  "fixed_rows": [],
+  "sheet4_confirmed": false,
+  "saved_at": "2026-10-19T08:06:40.528059+00:00"
+}

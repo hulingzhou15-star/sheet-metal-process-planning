@@ -1,0 +1,408 @@
+{
+  "operation_count": 224,
+  "plan_count": 16,
+  "facts_fingerprint": "2ebcb176e4486fb47aa511232edeeac93e6f9a36eac948ed2d4e3f7a59061bd9",
+  "static_graph_sha256": "ec706332eda8d4d0c466051d433663c3dc7c697aba3d435753e5334c5578a8f7",
+  "plans": [
+    {
+      "plan_id": "NP2_001",
+      "assignment_sha256": "f1145d2eb6e7f9e1d35d1d1e216534f4f5c10832c169c774005df9ebf3d6f9e7",
+      "overlay_sha256": "d3331fb712c9720eeaef4bcb264744cecb2029e9d3a8f2ecb743899956009a28",
+      "graphs": [
+        {
+          "level": 0,
+          "edge_count": 0,
+          "edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "dynamic_edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "level": 1,
+          "edge_count": 558,
+          "edges_sha256": "1ed951c800f044fc0a3661975a55840822818a19eb0c298683dca9a5e8cae120",
+          "dynamic_edges_sha256": "baa7ebfea07142d37d0eca3b0592816b5da7d3b3df124737eb61a1d7eeabbe4e"
+        },
+        {
+          "level": 2,
+          "edge_count": 2728,
+          "edges_sha256": "4e62748a06537989d51ac5a5d6d330d3b6aad62974865384d78c751b07daa9ce",
+          "dynamic_edges_sha256": "e36d08d49bbf9ad1ed9073d792f27d260c5e95bf69c06e6acabccfaddcf41fbd"
+        }
+      ]
+    },
+    {
+      "plan_id": "NP2_005",
+      "assignment_sha256": "f9eba816ce02d39d4b9b1f1efc9bb135b4eab396786b646ad3fec001d57c4a35",
+      "overlay_sha256": "ab6b6b8b9dd5f496bc7b60e30b4ff6e05dd0f020168076cfde7285a775ac3346",
+      "graphs": [
+        {
+          "level": 0,
+          "edge_count": 0,
+          "edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "dynamic_edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "level": 1,
+          "edge_count": 558,
+          "edges_sha256": "1ed951c800f044fc0a3661975a55840822818a19eb0c298683dca9a5e8cae120",
+          "dynamic_edges_sha256": "fab056c522d01e310f2b7ceed034423732ec74db971eb85ebbda38050d57e0d3"
+        },
+        {
+          "level": 2,
+          "edge_count": 2728,
+          "edges_sha256": "4e62748a06537989d51ac5a5d6d330d3b6aad62974865384d78c751b07daa9ce",
+          "dynamic_edges_sha256": "c573d97c9026327ee3225fb10b04d43c3e55d5278be8459f11e90d3e750712c2"
+        }
+      ]
+    },
+    {
+      "plan_id": "NP2_009",
+      "assignment_sha256": "28c213e74dfd32189ae1e3172d86120d42341925ab9c3e3230692a5b6c325e62",
+      "overlay_sha256": "7d53df7fff7c6be052bc7ca4dd881b58c4debe8f348fe6f78448e144ac263404",
+      "graphs": [
+        {
+          "level": 0,
+          "edge_count": 0,
+          "edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "dynamic_edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "level": 1,
+          "edge_count": 558,
+          "edges_sha256": "1ed951c800f044fc0a3661975a55840822818a19eb0c298683dca9a5e8cae120",
+          "dynamic_edges_sha256": "3efbe40687ca65ab4a4a16e28ea133eead981a1295e974357c5d7b9cc0932a72"
+        },
+        {
+          "level": 2,
+          "edge_count": 2728,
+          "edges_sha256": "4e62748a06537989d51ac5a5d6d330d3b6aad62974865384d78c751b07daa9ce",
+          "dynamic_edges_sha256": "1c8b48dfa33d8ccd87e84588908031724507aeb827edd3af705a2a747d193a35"
+        }
+      ]
+    },
+    {
+      "plan_id": "NP2_013",
+      "assignment_sha256": "87479e31e1efd419c1f950441daf017594c9d2bdde0e838b3cfa9f6ee48bef16",
+      "overlay_sha256": "4c6d2657fe7eb73929203bd4e890ad223883cc17300670a3fda257a3872d4b19",
+      "graphs": [
+        {
+          "level": 0,
+          "edge_count": 0,
+          "edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "dynamic_edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "level": 1,
+          "edge_count": 558,
+          "edges_sha256": "1ed951c800f044fc0a3661975a55840822818a19eb0c298683dca9a5e8cae120",
+          "dynamic_edges_sha256": "d91c3a0d8951ff9f5a07c1e32142614d1fd7e34e0d680ef3313c4bcac5709d65"
+        },
+        {
+          "level": 2,
+          "edge_count": 2728,
+          "edges_sha256": "4e62748a06537989d51ac5a5d6d330d3b6aad62974865384d78c751b07daa9ce",
+          "dynamic_edges_sha256": "892e032988c86da866780ccac4f77730dc1c3fac6dad7ec5c465b093feebc225"
+        }
+      ]
+    },
+    {
+      "plan_id": "NP2_017",
+      "assignment_sha256": "4e44a6ab9a1f5e972b5dd48c9c648392089034790c98edc0f0f7ce9343589d21",
+      "overlay_sha256": "c90efdd822cbb96e6938d722b1e576cf5a6f8a7ed5e5e207dad8a46c0261d690",
+      "graphs": [
+        {
+          "level": 0,
+          "edge_count": 0,
+          "edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "dynamic_edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "level": 1,
+          "edge_count": 558,
+          "edges_sha256": "1ed951c800f044fc0a3661975a55840822818a19eb0c298683dca9a5e8cae120",
+          "dynamic_edges_sha256": "974d5e9fa4afaa58bb9be79ed7bc60f7bb389cf8e974db7d69f3862cd6611309"
+        },
+        {
+          "level": 2,
+          "edge_count": 2728,
+          "edges_sha256": "4e62748a06537989d51ac5a5d6d330d3b6aad62974865384d78c751b07daa9ce",
+          "dynamic_edges_sha256": "c1bbb3ad757e4b39acd68cc6c1e9bc3e1ba500bf4c977e36014daa730fc32c14"
+        }
+      ]
+    },
+    {
+      "plan_id": "NP2_021",
+      "assignment_sha256": "61a5ce71d7c0f207208342a242c9337b82a17ebc07e49afd1c5eae8497db1eda",
+      "overlay_sha256": "e1dc69743389791d98f33c9d8e07000ee4380dd3e735d9a3a02cd044f2ddaa44",
+      "graphs": [
+        {
+          "level": 0,
+          "edge_count": 0,
+          "edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "dynamic_edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "level": 1,
+          "edge_count": 558,
+          "edges_sha256": "1ed951c800f044fc0a3661975a55840822818a19eb0c298683dca9a5e8cae120",
+          "dynamic_edges_sha256": "5de5866d43625977a04c4c82740c4e80eba410ff3d67f0cdec00476940cf0fc2"
+        },
+        {
+          "level": 2,
+          "edge_count": 2728,
+          "edges_sha256": "4e62748a06537989d51ac5a5d6d330d3b6aad62974865384d78c751b07daa9ce",
+          "dynamic_edges_sha256": "1b528f9af6ad110c70e071ac6589860525f3bac92850ce8e2758fceddce5041d"
+        }
+      ]
+    },
+    {
+      "plan_id": "NP2_025",
+      "assignment_sha256": "53629d98c3b3a8b9751706c822d8cd600c2527562c5549dc17ae66deaaa0e362",
+      "overlay_sha256": "e181ac6a9b3c98807417dfc9dacc0761ac2a22b128895e758f0178eb0cd121a9",
+      "graphs": [
+        {
+          "level": 0,
+          "edge_count": 0,
+          "edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "dynamic_edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "level": 1,
+          "edge_count": 558,
+          "edges_sha256": "1ed951c800f044fc0a3661975a55840822818a19eb0c298683dca9a5e8cae120",
+          "dynamic_edges_sha256": "06ff5fda51f5d31b183a7bd4a8c61e5550f7afc29ba9b4d4518107870dea6515"
+        },
+        {
+          "level": 2,
+          "edge_count": 2728,
+          "edges_sha256": "4e62748a06537989d51ac5a5d6d330d3b6aad62974865384d78c751b07daa9ce",
+          "dynamic_edges_sha256": "1c2a999fa489a7bd17689cad5a4af3a069b619fd8e3f14e131c380a41e76fdd6"
+        }
+      ]
+    },
+    {
+      "plan_id": "NP2_029",
+      "assignment_sha256": "b81a9ad7d8a5a7abc5ea55b9af522d02ee8b4732d183329cba8cb2fce91b5a5c",
+      "overlay_sha256": "45c00d55d87e423dafc720753bd1119d83f90391a78dc0dd54f90c6f8d5e620d",
+      "graphs": [
+        {
+          "level": 0,
+          "edge_count": 0,
+          "edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "dynamic_edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "level": 1,
+          "edge_count": 558,
+          "edges_sha256": "1ed951c800f044fc0a3661975a55840822818a19eb0c298683dca9a5e8cae120",
+          "dynamic_edges_sha256": "4fba7e3923d0836f4ec987c23eff441095840abac504bc9ac94cf918cbbf47e4"
+        },
+        {
+          "level": 2,
+          "edge_count": 2728,
+          "edges_sha256": "4e62748a06537989d51ac5a5d6d330d3b6aad62974865384d78c751b07daa9ce",
+          "dynamic_edges_sha256": "a98f73316efbcbd4f6269e0e3d88704448eb43d0c456b4b28955a8d42957229a"
+        }
+      ]
+    },
+    {
+      "plan_id": "NP2_059",
+      "assignment_sha256": "a5c0eae8acbb329caa281576f9bc0b8292cc8886241c6870a50e6a298875ec20",
+      "overlay_sha256": "305cbc0e81c0cfaeec0b463e63447d5b3b5c9f315a992eca5d295f0891e79de2",
+      "graphs": [
+        {
+          "level": 0,
+          "edge_count": 0,
+          "edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "dynamic_edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "level": 1,
+          "edge_count": 558,
+          "edges_sha256": "1ed951c800f044fc0a3661975a55840822818a19eb0c298683dca9a5e8cae120",
+          "dynamic_edges_sha256": "4fb389c34661685077250fe54aaac6a2483552df2e56635950f0ae2c26ee1c07"
+        },
+        {
+          "level": 2,
+          "edge_count": 2728,
+          "edges_sha256": "4e62748a06537989d51ac5a5d6d330d3b6aad62974865384d78c751b07daa9ce",
+          "dynamic_edges_sha256": "87d02840fc318bf2543ae98705bf196c2855b0df41696db273f9495f05e6d3fc"
+        }
+      ]
+    },
+    {
+      "plan_id": "NP2_056",
+      "assignment_sha256": "4d6f1a702b7dcdd61c65d5d1497b6bc65a4ff7208a51084146203bfb40e9b52d",
+      "overlay_sha256": "462ec20b25d6d705ca1943d0d94686a6d72ba0c3e73a427b34d537ea585f63cb",
+      "graphs": [
+        {
+          "level": 0,
+          "edge_count": 0,
+          "edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "dynamic_edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "level": 1,
+          "edge_count": 558,
+          "edges_sha256": "1ed951c800f044fc0a3661975a55840822818a19eb0c298683dca9a5e8cae120",
+          "dynamic_edges_sha256": "835a498c7f56a6a234316f8670512bbcc083a70fc40fa79cc8a6f43fa93630f3"
+        },
+        {
+          "level": 2,
+          "edge_count": 2728,
+          "edges_sha256": "4e62748a06537989d51ac5a5d6d330d3b6aad62974865384d78c751b07daa9ce",
+          "dynamic_edges_sha256": "b9e5168f7e8d43d38c528d7a10c09b73d5fec0951dfb4e691905947b7b1088aa"
+        }
+      ]
+    },
+    {
+      "plan_id": "NP2_004",
+      "assignment_sha256": "9ad5089f9dd7ea3d4dafbf21563888f80f95076621e00217bc081752f469456a",
+      "overlay_sha256": "ba91cf9a9c5cde87ba2a69bf49a4372c5ef0e02253e8d420a5dc09b680605f92",
+      "graphs": [
+        {
+          "level": 0,
+          "edge_count": 0,
+          "edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "dynamic_edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "level": 1,
+          "edge_count": 558,
+          "edges_sha256": "1ed951c800f044fc0a3661975a55840822818a19eb0c298683dca9a5e8cae120",
+          "dynamic_edges_sha256": "aa2b10a09ae27d3b09c669696afb6743d89decb40b3445a4ea51538a1d44dd61"
+        },
+        {
+          "level": 2,
+          "edge_count": 2728,
+          "edges_sha256": "4e62748a06537989d51ac5a5d6d330d3b6aad62974865384d78c751b07daa9ce",
+          "dynamic_edges_sha256": "870a5deb0fa6457d22b2f540178bfe23a489c49ed97340979409c4524a736da6"
+        }
+      ]
+    },
+    {
+      "plan_id": "NP2_064",
+      "assignment_sha256": "f13e76db48ab51f544f84978c3a3d23530385a349e6dd938b55d6ea5db382535",
+      "overlay_sha256": "d235e7cc4949ba900d2b9d0b2f28ae78ca04e6a9cec3ec5700af4cb5a4fba6fe",
+      "graphs": [
+        {
+          "level": 0,
+          "edge_count": 0,
+          "edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "dynamic_edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "level": 1,
+          "edge_count": 558,
+          "edges_sha256": "1ed951c800f044fc0a3661975a55840822818a19eb0c298683dca9a5e8cae120",
+          "dynamic_edges_sha256": "dd533e2faf0e944b051326731b34fa094a204599e6480ddf74d3dd8804604e2f"
+        },
+        {
+          "level": 2,
+          "edge_count": 2728,
+          "edges_sha256": "4e62748a06537989d51ac5a5d6d330d3b6aad62974865384d78c751b07daa9ce",
+          "dynamic_edges_sha256": "a6ebc942cb4df448332d3ca33b62b084abf51aa8840005c5fd638bb7ef8dc21f"
+        }
+      ]
+    },
+    {
+      "plan_id": "NP2_044",
+      "assignment_sha256": "cb85d97511b3de6fdd2dd9b900b92c30979f5868820e2187c36b1d49beabf9c7",
+      "overlay_sha256": "14a86372472fa53ef3d53b15e4dcf5569da4ba4cfd8f395c9fe0310f13c9f53f",
+      "graphs": [
+        {
+          "level": 0,
+          "edge_count": 0,
+          "edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "dynamic_edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "level": 1,
+          "edge_count": 558,
+          "edges_sha256": "1ed951c800f044fc0a3661975a55840822818a19eb0c298683dca9a5e8cae120",
+          "dynamic_edges_sha256": "64c905c1d4f5ea8003c7a9ad4a78f17d2c4ede95ba1453cedb62635b92abfb26"
+        },
+        {
+          "level": 2,
+          "edge_count": 2728,
+          "edges_sha256": "4e62748a06537989d51ac5a5d6d330d3b6aad62974865384d78c751b07daa9ce",
+          "dynamic_edges_sha256": "5375cc2ffa43e69a7150112a088f130740e4d94b38a2b64cbc4738dca133d681"
+        }
+      ]
+    },
+    {
+      "plan_id": "NP2_012",
+      "assignment_sha256": "63fa0cd209a8052a7da2fdfaed8db3c3596cc830d4a9aa2703d9ba315f17dfcb",
+      "overlay_sha256": "582b8008ffae76e25071dc041b886a8d957f42daff152119a19cc182f2a323f3",
+      "graphs": [
+        {
+          "level": 0,
+          "edge_count": 0,
+          "edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "dynamic_edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "level": 1,
+          "edge_count": 558,
+          "edges_sha256": "1ed951c800f044fc0a3661975a55840822818a19eb0c298683dca9a5e8cae120",
+          "dynamic_edges_sha256": "62f65b878f984fefc322e11fc4ab1ee64f4eab9289afd57edd042685beb54078"
+        },
+        {
+          "level": 2,
+          "edge_count": 2728,
+          "edges_sha256": "4e62748a06537989d51ac5a5d6d330d3b6aad62974865384d78c751b07daa9ce",
+          "dynamic_edges_sha256": "497f4253e828fb0c322e54734bfe43d2b47bea098e0d7d71e228b96f8e8b9e2a"
+        }
+      ]
+    },
+    {
+      "plan_id": "NP2_060",
+      "assignment_sha256": "cc80de151348dc9c92f82bbb3231cbe66c148217e16da833ac27983473d333d9",
+      "overlay_sha256": "5d9507586f5f939c5a7e0efd5d629cfcef19c33a577837684a994419934c571d",
+      "graphs": [
+        {
+          "level": 0,
+          "edge_count": 0,
+          "edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "dynamic_edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "level": 1,
+          "edge_count": 558,
+          "edges_sha256": "1ed951c800f044fc0a3661975a55840822818a19eb0c298683dca9a5e8cae120",
+          "dynamic_edges_sha256": "284b5ff96ba94f9167da4ed7cf0256f84725d3333bd8c73407314bc3758a7e71"
+        },
+        {
+          "level": 2,
+          "edge_count": 2728,
+          "edges_sha256": "4e62748a06537989d51ac5a5d6d330d3b6aad62974865384d78c751b07daa9ce",
+          "dynamic_edges_sha256": "c665e6515b6663699643392f7be766d4f5ae6d955a664774ee9871d976d0c4fb"
+        }
+      ]
+    },
+    {
+      "plan_id": "NP2_048",
+      "assignment_sha256": "bd3dfba6a258449f5f73474c5506a85f77a167e7e422f07296f5f005144ba1d0",
+      "overlay_sha256": "72b544f7323e30e51621544ef0010e373ec94584266da9a951ec749024c127c1",
+      "graphs": [
+        {
+          "level": 0,
+          "edge_count": 0,
+          "edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "dynamic_edges_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "level": 1,
+          "edge_count": 558,
+          "edges_sha256": "1ed951c800f044fc0a3661975a55840822818a19eb0c298683dca9a5e8cae120",
+          "dynamic_edges_sha256": "56e28e10baf8e96e0719c32a3812d53839f86567bc850c1ad5ef7d26f9ce1a6d"
+        },
+        {
+          "level": 2,
+          "edge_count": 2728,
+          "edges_sha256": "4e62748a06537989d51ac5a5d6d330d3b6aad62974865384d78c751b07daa9ce",
+          "dynamic_edges_sha256": "dc8c3f5daba604069b1301b58e277cfb3bbdc2271303e5ea83590afa23b6b5d6"
+        }
+      ]
+    }
+  ]
+}

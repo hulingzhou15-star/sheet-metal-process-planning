@@ -1,0 +1,9 @@
+{
+  "facts_fingerprint": "2ebcb176e4486fb47aa511232edeeac93e6f9a36eac948ed2d4e3f7a59061bd9",
+  "source_sha256": "7c5453471547a1fa56510bf650a53f5b8a31b8089c53505196bc045bfe794259",
+  "input_artifacts": {
+    "selected_candidates.jsonl": "bc0639df01d779ce7cead091c2193748b7951057ce75d56f6ba59b9be9bd029e",
+    "local_contrasts.json": "ff5865f25a1fa17392fd6297c1dc8d497e493a3bd91b64a1ca77a2b058a85647",
+    "generation_report.json": "e3d3662ec1c4f798e907d7fd58fe883b424afc8a7ead8d7114fb682740f80385"
+  }
+}

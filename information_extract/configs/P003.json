@@ -1,0 +1,20 @@
+{
+  "part_id": "P003",
+  "source_file": "sources/P003/P003_1.dxf",
+  "material_block": "*Model_Space",
+  "coordinate_mode": "world_xy",
+  "display_annotations": true,
+  "geometry_tolerance": 1e-06,
+  "parallel_tolerance": 1e-06,
+  "default_rotation": 0,
+  "hit_tolerance_px": 7,
+  "display_decimals": 4,
+  "port": 8768,
+  "max_request_bytes": 20971520,
+  "solver": {
+    "max_time_seconds": 10,
+    "random_seed": 20261019,
+    "num_search_workers": 1
+  },
+  "confirmed_source_cleanup": "configs/P003_source_cleanup.json"
+}

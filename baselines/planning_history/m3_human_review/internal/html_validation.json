@@ -1,0 +1,18 @@
+{
+  "source": {
+    "passed": true,
+    "html_file_count": 14,
+    "comparison_count": 24,
+    "radio_count": 120,
+    "all_form_controls_blank": true,
+    "confidence_fields": 24,
+    "note_fields": 24,
+    "network_resources": 0,
+    "full_plan_links_verified": 48
+  },
+  "visual_preview": {
+    "completed": false,
+    "status": "blocked_by_browser_url_policy",
+    "reason": "Browser Use security policy rejected file:// local HTML navigation; only HTTP/HTTPS protocols are allowed. No workaround or bypass was attempted."
+  }
+}

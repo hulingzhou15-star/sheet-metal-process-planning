@@ -1,0 +1,35 @@
+import { browserExecutable } from './browser_runtime.mjs';
+import {chromium} from 'playwright';
+import path from 'node:path';import fs from 'node:fs/promises';import assert from 'node:assert/strict';import {pathToFileURL} from 'node:url';
+const out=path.resolve('information_extract/outputs/finite_material_v02/P001');
+const browser=await chromium.launch({executablePath:browserExecutable(),headless:true,args:['--use-angle=swiftshader','--enable-unsafe-swiftshader']});
+const context=await browser.newContext({viewport:{width:1680,height:1150}}),page=await context.newPage(),errors=[],checks=[];
+context.on('page',p=>p.on('pageerror',e=>errors.push(e.message)));page.on('pageerror',e=>errors.push(e.message));
+const state=()=>page.evaluate(()=>finiteMaterialReview.getState());
+try{
+ await page.goto(pathToFileURL(path.join(out,'review.html')).href,{timeout:120000});await page.waitForFunction(()=>window.finiteMaterialReview,{}, {timeout:120000});
+ await page.click('#cformed');await page.selectOption('#operation','O170');await page.click('#focus');const before=await state();
+ await page.click('#topView');let s=await state();assert.equal(s.camera.yaw,-Math.PI/2);assert.equal(s.camera.pitch,Math.PI/2);assert.deepEqual(s.fractions,before.fractions);
+ await page.click('#normalView');s=await state();const n=[s.transforms.P466_470[2],s.transforms.P466_470[6],s.transforms.P466_470[10]],eye=[Math.cos(s.camera.pitch)*Math.cos(s.camera.yaw),Math.cos(s.camera.pitch)*Math.sin(s.camera.yaw),Math.sin(s.camera.pitch)];assert.ok(eye.reduce((sum,v,i)=>sum+v*n[i],0)>1-1e-8);
+ checks.push('World top and face-normal views align exactly, without changing stage or bend fractions');
+ let next=page.waitForEvent('popup');await page.click('#popout2');const two=await next;await two.waitForSelector('#flat');assert.equal(await page.locator('#flat').count(),0);assert.equal(await two.locator('#flat').count(),1);
+ assert.deepEqual((await state()).fractions,before.fractions);assert.equal((await state()).popouts.two,true);
+ await page.selectOption('#station','OP20');await page.selectOption('#phase','entry');const entry=await two.locator('#flat').evaluate(c=>c.toDataURL());
+ await page.selectOption('#phase','completed');const completed=await two.locator('#flat').evaluate(c=>c.toDataURL());assert.notEqual(entry,completed);assert.match(await two.locator('#popupStatus').innerText(),/OP20/);
+ await two.click('#popupFit');await two.screenshot({path:path.join(out,'two_dimensional_window.png')});checks.push('2D view detaches into a real popup and follows the main page material state');
+ next=page.waitForEvent('popup');await page.click('#popout3');const three=await next;await three.waitForSelector('#scene');assert.equal(await page.locator('#scene').count(),0);
+ await page.selectOption('#station','OP40');await page.selectOption('#phase','motion');await page.fill('#tau','37');await page.dispatchEvent('#tau','input');assert.match(await three.locator('#popupStatus').innerText(),/37%/);
+ const otherPlan=await page.locator('#plan option').evaluateAll(options=>options.map(o=>o.value).find(id=>id!=='NP2_001'));
+ await page.selectOption('#plan',otherPlan);assert.ok((await three.locator('#popupStatus').innerText()).includes(otherPlan));await page.selectOption('#plan','NP2_001');
+ const phase=await state();await three.click('#topView');s=await state();assert.equal(s.camera.pitch,Math.PI/2);assert.deepEqual(s.fractions,phase.fractions);
+ const image=await three.evaluate(()=>opener.finiteMaterialReview.capture3D()),b=await three.locator('#overlay').boundingBox();await three.mouse.move(b.x+b.width/2,b.y+b.height/2);await three.mouse.down();await three.mouse.move(b.x+b.width/2+50,b.y+b.height/2+30);await three.mouse.up();assert.notEqual(await three.evaluate(()=>opener.finiteMaterialReview.capture3D()),image);
+ await three.setViewportSize({width:1420,height:980});assert.ok(await three.locator('#scene').evaluate(c=>c.width>1000));await three.click('#topView');await three.screenshot({path:path.join(out,'three_dimensional_top_window.png')});
+ checks.push('3D popup remains live with candidate, station and progress changes; rotation, top view and resize work');
+ await two.close();await page.waitForSelector('#flat');assert.equal((await state()).popouts.two,false);
+ await three.click('#popupReturn');await page.waitForSelector('#scene');assert.equal((await state()).popouts.three,false);await page.click('#topView');assert.equal((await state()).camera.pitch,Math.PI/2);assert.equal(await page.locator('#scene').evaluate(c=>c.getContext('webgl').isContextLost()),false);
+ next=page.waitForEvent('popup');await page.click('#popout3');const reopened=await next;await reopened.waitForSelector('#scene');await reopened.close();await page.waitForSelector('#scene');assert.equal(await page.locator('#scene').evaluate(c=>c.getContext('webgl').isContextLost()),false);
+ checks.push('Closing or returning either popup restores the original interactive canvas; reopening also works');
+ await page.evaluate(()=>{window.originalOpen=window.open;window.open=()=>null;});page.once('dialog',dialog=>dialog.accept());await page.click('#popout2');assert.equal(await page.locator('#flat').count(),1);await page.evaluate(()=>window.open=window.originalOpen);
+ checks.push('Blocked popups leave the main view intact and show a clear retry message');
+ assert.deepEqual(errors,[]);await fs.writeFile(path.join(out,'window_browser_qa.json'),JSON.stringify({checks,page_errors:errors},null,2));console.log({checks,page_errors:errors});
+}finally{await browser.close()}

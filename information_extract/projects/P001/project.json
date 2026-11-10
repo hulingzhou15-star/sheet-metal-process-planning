@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "part_id": "P001",
+  "source_sha256": "180a7761767ed99402df43516d71403b61fa1dcc725363a190aa4e51d16365ef",
+  "revision": 4,
+  "source_file_name": "Plotview 1.dxf",
+  "coordinate_system": "block-local material XY",
+  "source_units": "mm",
+  "expected_operation_count": null,
+  "inventory_confirmed": false,
+  "operations": [],
+  "ignored_entities": {},
+  "station_rows": [],
+  "fixed_rows": [],
+  "sheet4_confirmed": false,
+  "saved_at": "2026-10-18T10:33:58.934302+00:00"
+}

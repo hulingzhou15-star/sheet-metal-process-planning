@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "passed": true,
+  "counts": {
+    "ERROR": 0,
+    "WARNING": 0,
+    "INFO": 14
+  },
+  "source_path": "D:\\sheet_process_assignment\\data\\raw\\钣金加工数据表_P001.xlsx",
+  "source_sha256": "7c5453471547a1fa56510bf650a53f5b8a31b8089c53505196bc045bfe794259",
+  "distance_tolerance": 0.001,
+  "statistics": {
+    "operations": 224,
+    "stations": 7,
+    "geometries": 211,
+    "operation_types": {
+      "MARKING": 3,
+      "IRREGULAR_PUNCH": 38,
+      "DIMPLE": 2,
+      "BEND": 59,
+      "FLANGING": 46,
+      "PRE_PUNCH": 46,
+      "BRIDGE": 4,
+      "CIRCLE_PUNCH": 16,
+      "TRIM": 10
+    }
+  },
+  "checked_rules": [
+    "part_id_consistency",
+    "operation_id_unique",
+    "station_id_unique",
+    "station_order",
+    "operation_type_domain",
+    "geometry_references",
+    "no_orphan_geometry",
+    "predecessor_references",
+    "cad_parent_references",
+    "cad_parent_acyclic",
+    "process_group_structure",
+    "pre_punch_flanging_pair",
+    "geometry_seq",
+    "primitive_fields",
+    "operation_geometry_representation",
+    "irregular_contour_continuity_closure",
+    "irregular_contour_ccw",
+    "arc_consistency",
+    "bridge_center",
+    "surface_side_domain"
+  ],
+  "issues": [
+    {
+      "severity": "INFO",
+      "code": "STATION_EMPTY_CAPABILITY",
+      "message": "Station has an empty capability set",
+      "entity_id": "OP70",
+      "source": {
+        "sheet": "Sheet3",
+        "row": 8,
+        "field": null
+      },
+      "details": {}
+    },
+    {
+      "severity": "INFO",
+      "code": "GEOMETRY_NOT_PROVIDED",
+      "message": "No geometry provided; absence alone is not a data error",
+      "entity_id": "O001",
+      "source": {
+        "sheet": "Sheet1",
+        "row": 2,
+        "field": null
+      },
+      "details": {}
+    },
+    {
+      "severity": "INFO",
+      "code": "GEOMETRY_NOT_PROVIDED",
+      "message": "No geometry provided; absence alone is not a data error",
+      "entity_id": "O026",
+      "source": {
+        "sheet": "Sheet1",
+        "row": 27,
+        "field": null
+      },
+      "details": {}
+    },
+    {
+      "severity": "INFO",
+      "code": "GEOMETRY_NOT_PROVIDED",
+      "message": "No geometry provided; absence alone is not a data error",
+      "entity_id": "O175",
+      "source": {
+        "sheet": "Sheet1",
+        "row": 176,
+        "field": null
+      },
+      "details": {}
+    },
+    {
+      "severity": "INFO",
+      "code": "GEOMETRY_NOT_PROVIDED",
+      "message": "No geometry provided; absence alone is not a data error",
+      "entity_id": "O215",
+      "source": {
+        "sheet": "Sheet1",
+        "row": 216,
+        "field": null
+      },
+      "details": {}
+    },
+    {
+      "severity": "INFO",
+      "code": "GEOMETRY_NOT_PROVIDED",
+      "message": "No geometry provided; absence alone is not a data error",
+      "entity_id": "O216",
+      "source": {
+        "sheet": "Sheet1",
+        "row": 217,
+        "field": null
+      },
+      "details": {}
+    },
+    {
+      "severity": "INFO",
+      "code": "GEOMETRY_NOT_PROVIDED",
+      "message": "No geometry provided; absence alone is not a data error",
+      "entity_id": "O217",
+      "source": {
+        "sheet": "Sheet1",
+        "row": 218,
+        "field": null
+      },
+      "details": {}
+    },
+    {
+      "severity": "INFO",
+      "code": "GEOMETRY_NOT_PROVIDED",
+      "message": "No geometry provided; absence alone is not a data error",
+      "entity_id": "O218",
+      "source": {
+        "sheet": "Sheet1",
+        "row": 219,
+        "field": null
+      },
+      "details": {}
+    },
+    {
+      "severity": "INFO",
+      "code": "GEOMETRY_NOT_PROVIDED",
+      "message": "No geometry provided; absence alone is not a data error",
+      "entity_id": "O219",
+      "source": {
+        "sheet": "Sheet1",
+        "row": 220,
+        "field": null
+      },
+      "details": {}
+    },
+    {
+      "severity": "INFO",
+      "code": "GEOMETRY_NOT_PROVIDED",
+      "message": "No geometry provided; absence alone is not a data error",
+      "entity_id": "O220",
+      "source": {
+        "sheet": "Sheet1",
+        "row": 221,
+        "field": null
+      },
+      "details": {}
+    },
+    {
+      "severity": "INFO",
+      "code": "GEOMETRY_NOT_PROVIDED",
+      "message": "No geometry provided; absence alone is not a data error",
+      "entity_id": "O221",
+      "source": {
+        "sheet": "Sheet1",
+        "row": 222,
+        "field": null
+      },
+      "details": {}
+    },
+    {
+      "severity": "INFO",
+      "code": "GEOMETRY_NOT_PROVIDED",
+      "message": "No geometry provided; absence alone is not a data error",
+      "entity_id": "O222",
+      "source": {
+        "sheet": "Sheet1",
+        "row": 223,
+        "field": null
+      },
+      "details": {}
+    },
+    {
+      "severity": "INFO",
+      "code": "GEOMETRY_NOT_PROVIDED",
+      "message": "No geometry provided; absence alone is not a data error",
+      "entity_id": "O223",
+      "source": {
+        "sheet": "Sheet1",
+        "row": 224,
+        "field": null
+      },
+      "details": {}
+    },
+    {
+      "severity": "INFO",
+      "code": "GEOMETRY_NOT_PROVIDED",
+      "message": "No geometry provided; absence alone is not a data error",
+      "entity_id": "O224",
+      "source": {
+        "sheet": "Sheet1",
+        "row": 225,
+        "field": null
+      },
+      "details": {}
+    }
+  ]
+}

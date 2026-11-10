@@ -1,0 +1,35 @@
+{
+  "answer_source": {
+    "answer_source": "User screenshot; manual transcription, not imported from a completed CSV",
+    "image_path": "C:\\Users\\hulin\\AppData\\Local\\Temp\\codex-clipboard-8f456167-1367-474f-9314-5f88883793fd.png",
+    "image_sha256": "7206c9794867618b539817f6d04de77e179d0633cfee7ad419616c64c0302bc0",
+    "raw_sha256": "7c5453471547a1fa56510bf650a53f5b8a31b8089c53505196bc045bfe794259",
+    "original_form_sha256": "906411505f1edffcedfb55ecc9d02c55cb375adeb0d7ecaaaec0f24b108e492c",
+    "blind_mapping_sha256": "a2383c9661645cc9e6749905d76f94d5cca85fb19ce6c841f264d0335c454537"
+  },
+  "comparison_direction_matches_original": true,
+  "comparison_count": 24,
+  "unique_plan_count": 13,
+  "answer_counts": {
+    "D": 18,
+    "A": 3,
+    "B": 3
+  },
+  "explicit_preference_count": 6,
+  "explicit_preferences_involving_reference": 6,
+  "both_v06_feasible_explicit_preference_count": 4,
+  "both_v06_feasible_explicit_preference_ids": [
+    "CMP_004",
+    "CMP_006",
+    "CMP_010",
+    "CMP_016"
+  ],
+  "D_policy": "Preserve feedback; no A/B, tie or operation-pair labels are inferred",
+  "interpretation": "Historical reference-centered comparisons are diagnostic data, not an unseen-part test set",
+  "source_hash_checks": {
+    "raw_sha256": true,
+    "blind_mapping_sha256": true,
+    "original_form_sha256": true,
+    "image_sha256": true
+  }
+}

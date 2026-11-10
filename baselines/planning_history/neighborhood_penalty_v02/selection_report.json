@@ -1,0 +1,1904 @@
+{
+  "requested": 16,
+  "actual": 16,
+  "steps": [
+    {
+      "plan_id": "NP2_001",
+      "plan_hash": "c1ebb70f57ea3a676d6bb34e84640b549186e4d8fec1bb11fa23c427c90cf166",
+      "reason": "secondary_score"
+    },
+    {
+      "plan_id": "NP2_005",
+      "plan_hash": "8754f76f8dbb6da3f8b07c6a4eda12dd55eb26afa975c8e9654367563a1cd422",
+      "reason": "secondary_score"
+    },
+    {
+      "plan_id": "NP2_009",
+      "plan_hash": "abd33216fd9399a15336d0079fa1f7071823b5ee0168e5b247441ece5ce1719e",
+      "reason": "secondary_score"
+    },
+    {
+      "plan_id": "NP2_013",
+      "plan_hash": "123df90722c1bbc53a6d1feed0fbbea4d0207c9c208af7a0c728542706caebe0",
+      "reason": "secondary_score"
+    },
+    {
+      "plan_id": "NP2_017",
+      "plan_hash": "ddfe7954d14976ecdfc823b80b604ef3286d5aab4a334e259747ffdd6428c803",
+      "reason": "secondary_score"
+    },
+    {
+      "plan_id": "NP2_021",
+      "plan_hash": "aa9e5b6c6db22cbe6b4bb935f70e63dd50eb19d62b59d133869446637bd1583f",
+      "reason": "secondary_score"
+    },
+    {
+      "plan_id": "NP2_025",
+      "plan_hash": "f97aace26ba72a846586b468d1084dce4a6d94d4cfa9b2ea9b7a9108afe11f8a",
+      "reason": "secondary_score"
+    },
+    {
+      "plan_id": "NP2_029",
+      "plan_hash": "f4aadbb979efecfe6efbd6665f79b37e76005e54d180742395eb9d80f7ef7d27",
+      "reason": "secondary_score"
+    },
+    {
+      "plan_id": "NP2_059",
+      "plan_hash": "115abd043f7ec19ff844b2d594d3482e263c5b16f480921c32b84b0c19e1f12e",
+      "reason": "minimum_extra_gap_representative"
+    },
+    {
+      "plan_id": "NP2_056",
+      "plan_hash": "3b15bc610b9a37e7ecc85797238ce01e44fd9c5c4de574dfeb138d8f16625a42",
+      "reason": "diversity",
+      "minimum_raw_distance_to_previously_selected": 47,
+      "competition": [
+        {
+          "plan_hash": "8242bc041f82c7f336fa6a99c327993a33f50a0429291ec54c080219d3d4c123",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "35b2abe90db6fb26680e3c853f2b34a2ce1c46dc8d3ffb48ed95af8781fde648",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "395db8f48b64870e1870b02b7953a8e88cafa607741bc33fd26351479374fcb3",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "2cfcf7aac0a93456a148124d752b265dee58d228fa89d5365e5f7d03f51232f9",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "7f39f35235cc2d6547c24778a32712a416364013cdc0b6b371217364e13df812",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "72b3249cb3ddf4a65c04adb6bbbcf0010102fc87c2f3e095cf17752905cfe7ee",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "fb2d24f97b7dc1db552a17932f7291ec2c49b6c83a727e278157fe0dda006eb6",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "50abffd9326aae5fd0abc1cacf7748dc26f7836b972ff38d1a4280321ed07ac0",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "38c52077c5e1530766e4e4973f0bed056f8b6dd9fab0447bfb74066cbe23f0c2",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "0c480b65a970a167963d3ad3e30085c2fc788a4278f0bdcd1296afc47fe9588e",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "b254e787c04090912da108afce529fbae08bf8e1e4d54c62feaa697f7bd6569e",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "5749e57910c66b36b8345a8549c33be7bff6bb323726bcc17a7597f965d66372",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "71f9ba671faa0d673f675aad226e4f97fcb815a333b8d65ca2c0d572be695c6d",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "053fd28c1d1dc85f814f75a77bdf0e6e1091dfb3b7c39c1b15fa2538697b124e",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "d222bad9df423b8bcb9c296aa38fd01eea0057dfce43ddd4335bb89fa2fed543",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "5d3cc837bf4d6efbfd0db4fcc00165e3a90af4b9ca44d2cc71f1722fd8677943",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "1acfc334ff7a003dbd8b5ff3b21e5eeb82e2711b9d19b71130d3f7a6b93b4cbb",
+          "minimum_raw_distance": 17
+        },
+        {
+          "plan_hash": "b70f7c0d433d93dd38f9a1c489da3286a6614389fecaac6f98daa6a162880765",
+          "minimum_raw_distance": 18
+        },
+        {
+          "plan_hash": "ca2a5d8a687bdfb51bca7f80e7e2a7519a0ae44ce510edf9dc17ec9d4dd6cf5c",
+          "minimum_raw_distance": 17
+        },
+        {
+          "plan_hash": "baafad6971467bf60fd7bd52c91043896474bc7ddb5d7982fcd7281fffbd6af4",
+          "minimum_raw_distance": 17
+        },
+        {
+          "plan_hash": "0eba1f124010cdea35aea0adcc69305185f23774b0f2937039eb1d6c85813c01",
+          "minimum_raw_distance": 19
+        },
+        {
+          "plan_hash": "aebb8c5138651d87fbbf2e87f384143d54216ed7a8633070a2fde0f0ebaab2e1",
+          "minimum_raw_distance": 19
+        },
+        {
+          "plan_hash": "30a7d352140e498274dd2457783058aea868fecc4df1000b9d3ab244ee6dbddd",
+          "minimum_raw_distance": 18
+        },
+        {
+          "plan_hash": "12e99f3c60089a7e7f06572240219d6f0196635cacba9831876ec667a2eb1de6",
+          "minimum_raw_distance": 25
+        },
+        {
+          "plan_hash": "182cd05c6a26844f53440adf542cdbfb274af954cb013f88be4b6391c427140f",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "1a4019408f68e7ab61f68e2836aa52ab9da484b65f9abdb9a1beef53722c9766",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "39b6e8452e1555b2e72c5fcbfb8e173caf04f806356b3b9ac66fe77e52abf9f7",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "64b29c0f6525abb0442fab70ea46de5137145374f0c0fc970ecca09f96d56bd7",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "64d82c65ec81c63895b667836a4b04a395e85ec21e78f1bf3143da0df45df981",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "79bba9135881db1aee6b828032568145d153c71c3e666b8a512bfbc82115cb18",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "a7ccc9578d30759397390e4467829573fc138278b9e3f8c1f3e47fffb4f38d35",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "b01728c610073f66a184c1b5311669fb42189f1e3f74b7c5cad45177b4546c52",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "b33fdff505688d332f155294dc0a1559dee0a1f933af0a0bc11da98414e2e3f1",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "b3d857e52d5325cadfe001f869a419949604d9fa3aad8808178da2fe84807fdf",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "bc723c4b6436ff471a28cd62e96cd5f6aeb2b2d99d31db6dbffc615248ff3cdb",
+          "minimum_raw_distance": 4
+        },
+        {
+          "plan_hash": "bfcedb3869f5dc939652b634abf18b52e95277c96ebd03326671b3a006e876f4",
+          "minimum_raw_distance": 4
+        },
+        {
+          "plan_hash": "d540430005d5a8b0e11eae1cdb3f3af501e4d690a93d96b28d846f102edb98f4",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "d57d3b614683616ba79b1111a49e3988242a282066b4e147d6341a3ebec4189f",
+          "minimum_raw_distance": 4
+        },
+        {
+          "plan_hash": "ea7b6d5f662f755e1afee8dc6276ddfdcc4042ef5ed0368beee006d402fcfbf2",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "c1852fd0d19885bacdc6ee5ed28b5b4b5427a9a9c542aead6fff6e4a7df07b2e",
+          "minimum_raw_distance": 32
+        },
+        {
+          "plan_hash": "9693e3584a2e7d67f1276d5ab077bb9af09b7d852076455b936555a7ef2f6905",
+          "minimum_raw_distance": 42
+        },
+        {
+          "plan_hash": "4f3d59f8e8266a77d0092e1124ee456da020e188943f689161ec96151650ed4f",
+          "minimum_raw_distance": 42
+        },
+        {
+          "plan_hash": "1b7cd2112c817be3babe44b0813014c7fcb4f8b7c733ba3d79f861cacbbef8a0",
+          "minimum_raw_distance": 38
+        },
+        {
+          "plan_hash": "d4e8e244e5a5840579b642c4733339ced4d96b01fc62df6f43a6ab075ac22315",
+          "minimum_raw_distance": 39
+        },
+        {
+          "plan_hash": "ce635227a01dc6a7b3941c762329a4de2ffef6980a5423e03dc6d8b58c406e74",
+          "minimum_raw_distance": 39
+        },
+        {
+          "plan_hash": "3edce9677efc2fc7d187ccd21fe7434a330887cdaa06d20418d7174d025efd57",
+          "minimum_raw_distance": 39
+        },
+        {
+          "plan_hash": "c4199d193b421675be05cc0c878475cb1f1971d9436c712304eb4950346a1694",
+          "minimum_raw_distance": 35
+        },
+        {
+          "plan_hash": "065b2a268feffe4c9789007d8628e0e7b830f419c41c0df79cb7e4d6f769e910",
+          "minimum_raw_distance": 44
+        },
+        {
+          "plan_hash": "53cdef28ddca6597b13273838cfb47e40ca7657ac741c91c94e12f1c5cba1f8d",
+          "minimum_raw_distance": 33
+        },
+        {
+          "plan_hash": "9dad064caf29bfa8b17ba497a7f76af230329c4e0534c28f8d26521ef7c5f876",
+          "minimum_raw_distance": 40
+        },
+        {
+          "plan_hash": "8090fb0ad38e902953890d7123709a818d367269f8be2c471f3342e0622d588f",
+          "minimum_raw_distance": 44
+        },
+        {
+          "plan_hash": "96cfa584bca5984e3266560167b96a34d537a5a5ed692674e8da049b9d829aa5",
+          "minimum_raw_distance": 41
+        },
+        {
+          "plan_hash": "36f5c8611930b33316a70e178571f4db09d95315b5b3b2d32ff2a11c7104731f",
+          "minimum_raw_distance": 46
+        },
+        {
+          "plan_hash": "c97ffad49854c9e65d5fab332f0ffd978bbf304b87cf8ba91968dd9f59861fbb",
+          "minimum_raw_distance": 44
+        },
+        {
+          "plan_hash": "3b15bc610b9a37e7ecc85797238ce01e44fd9c5c4de574dfeb138d8f16625a42",
+          "minimum_raw_distance": 47
+        }
+      ]
+    },
+    {
+      "plan_id": "NP2_004",
+      "plan_hash": "065b2a268feffe4c9789007d8628e0e7b830f419c41c0df79cb7e4d6f769e910",
+      "reason": "diversity",
+      "minimum_raw_distance_to_previously_selected": 44,
+      "competition": [
+        {
+          "plan_hash": "8242bc041f82c7f336fa6a99c327993a33f50a0429291ec54c080219d3d4c123",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "35b2abe90db6fb26680e3c853f2b34a2ce1c46dc8d3ffb48ed95af8781fde648",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "395db8f48b64870e1870b02b7953a8e88cafa607741bc33fd26351479374fcb3",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "2cfcf7aac0a93456a148124d752b265dee58d228fa89d5365e5f7d03f51232f9",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "7f39f35235cc2d6547c24778a32712a416364013cdc0b6b371217364e13df812",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "72b3249cb3ddf4a65c04adb6bbbcf0010102fc87c2f3e095cf17752905cfe7ee",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "fb2d24f97b7dc1db552a17932f7291ec2c49b6c83a727e278157fe0dda006eb6",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "50abffd9326aae5fd0abc1cacf7748dc26f7836b972ff38d1a4280321ed07ac0",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "38c52077c5e1530766e4e4973f0bed056f8b6dd9fab0447bfb74066cbe23f0c2",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "0c480b65a970a167963d3ad3e30085c2fc788a4278f0bdcd1296afc47fe9588e",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "b254e787c04090912da108afce529fbae08bf8e1e4d54c62feaa697f7bd6569e",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "5749e57910c66b36b8345a8549c33be7bff6bb323726bcc17a7597f965d66372",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "71f9ba671faa0d673f675aad226e4f97fcb815a333b8d65ca2c0d572be695c6d",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "053fd28c1d1dc85f814f75a77bdf0e6e1091dfb3b7c39c1b15fa2538697b124e",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "d222bad9df423b8bcb9c296aa38fd01eea0057dfce43ddd4335bb89fa2fed543",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "5d3cc837bf4d6efbfd0db4fcc00165e3a90af4b9ca44d2cc71f1722fd8677943",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "1acfc334ff7a003dbd8b5ff3b21e5eeb82e2711b9d19b71130d3f7a6b93b4cbb",
+          "minimum_raw_distance": 17
+        },
+        {
+          "plan_hash": "b70f7c0d433d93dd38f9a1c489da3286a6614389fecaac6f98daa6a162880765",
+          "minimum_raw_distance": 18
+        },
+        {
+          "plan_hash": "ca2a5d8a687bdfb51bca7f80e7e2a7519a0ae44ce510edf9dc17ec9d4dd6cf5c",
+          "minimum_raw_distance": 17
+        },
+        {
+          "plan_hash": "baafad6971467bf60fd7bd52c91043896474bc7ddb5d7982fcd7281fffbd6af4",
+          "minimum_raw_distance": 17
+        },
+        {
+          "plan_hash": "0eba1f124010cdea35aea0adcc69305185f23774b0f2937039eb1d6c85813c01",
+          "minimum_raw_distance": 19
+        },
+        {
+          "plan_hash": "aebb8c5138651d87fbbf2e87f384143d54216ed7a8633070a2fde0f0ebaab2e1",
+          "minimum_raw_distance": 19
+        },
+        {
+          "plan_hash": "30a7d352140e498274dd2457783058aea868fecc4df1000b9d3ab244ee6dbddd",
+          "minimum_raw_distance": 18
+        },
+        {
+          "plan_hash": "12e99f3c60089a7e7f06572240219d6f0196635cacba9831876ec667a2eb1de6",
+          "minimum_raw_distance": 25
+        },
+        {
+          "plan_hash": "182cd05c6a26844f53440adf542cdbfb274af954cb013f88be4b6391c427140f",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "1a4019408f68e7ab61f68e2836aa52ab9da484b65f9abdb9a1beef53722c9766",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "39b6e8452e1555b2e72c5fcbfb8e173caf04f806356b3b9ac66fe77e52abf9f7",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "64b29c0f6525abb0442fab70ea46de5137145374f0c0fc970ecca09f96d56bd7",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "64d82c65ec81c63895b667836a4b04a395e85ec21e78f1bf3143da0df45df981",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "79bba9135881db1aee6b828032568145d153c71c3e666b8a512bfbc82115cb18",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "a7ccc9578d30759397390e4467829573fc138278b9e3f8c1f3e47fffb4f38d35",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "b01728c610073f66a184c1b5311669fb42189f1e3f74b7c5cad45177b4546c52",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "b33fdff505688d332f155294dc0a1559dee0a1f933af0a0bc11da98414e2e3f1",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "b3d857e52d5325cadfe001f869a419949604d9fa3aad8808178da2fe84807fdf",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "bc723c4b6436ff471a28cd62e96cd5f6aeb2b2d99d31db6dbffc615248ff3cdb",
+          "minimum_raw_distance": 4
+        },
+        {
+          "plan_hash": "bfcedb3869f5dc939652b634abf18b52e95277c96ebd03326671b3a006e876f4",
+          "minimum_raw_distance": 4
+        },
+        {
+          "plan_hash": "d540430005d5a8b0e11eae1cdb3f3af501e4d690a93d96b28d846f102edb98f4",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "d57d3b614683616ba79b1111a49e3988242a282066b4e147d6341a3ebec4189f",
+          "minimum_raw_distance": 4
+        },
+        {
+          "plan_hash": "ea7b6d5f662f755e1afee8dc6276ddfdcc4042ef5ed0368beee006d402fcfbf2",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "c1852fd0d19885bacdc6ee5ed28b5b4b5427a9a9c542aead6fff6e4a7df07b2e",
+          "minimum_raw_distance": 32
+        },
+        {
+          "plan_hash": "9693e3584a2e7d67f1276d5ab077bb9af09b7d852076455b936555a7ef2f6905",
+          "minimum_raw_distance": 31
+        },
+        {
+          "plan_hash": "4f3d59f8e8266a77d0092e1124ee456da020e188943f689161ec96151650ed4f",
+          "minimum_raw_distance": 39
+        },
+        {
+          "plan_hash": "1b7cd2112c817be3babe44b0813014c7fcb4f8b7c733ba3d79f861cacbbef8a0",
+          "minimum_raw_distance": 38
+        },
+        {
+          "plan_hash": "d4e8e244e5a5840579b642c4733339ced4d96b01fc62df6f43a6ab075ac22315",
+          "minimum_raw_distance": 38
+        },
+        {
+          "plan_hash": "ce635227a01dc6a7b3941c762329a4de2ffef6980a5423e03dc6d8b58c406e74",
+          "minimum_raw_distance": 39
+        },
+        {
+          "plan_hash": "3edce9677efc2fc7d187ccd21fe7434a330887cdaa06d20418d7174d025efd57",
+          "minimum_raw_distance": 39
+        },
+        {
+          "plan_hash": "c4199d193b421675be05cc0c878475cb1f1971d9436c712304eb4950346a1694",
+          "minimum_raw_distance": 35
+        },
+        {
+          "plan_hash": "065b2a268feffe4c9789007d8628e0e7b830f419c41c0df79cb7e4d6f769e910",
+          "minimum_raw_distance": 44
+        },
+        {
+          "plan_hash": "53cdef28ddca6597b13273838cfb47e40ca7657ac741c91c94e12f1c5cba1f8d",
+          "minimum_raw_distance": 33
+        },
+        {
+          "plan_hash": "9dad064caf29bfa8b17ba497a7f76af230329c4e0534c28f8d26521ef7c5f876",
+          "minimum_raw_distance": 40
+        },
+        {
+          "plan_hash": "8090fb0ad38e902953890d7123709a818d367269f8be2c471f3342e0622d588f",
+          "minimum_raw_distance": 44
+        },
+        {
+          "plan_hash": "96cfa584bca5984e3266560167b96a34d537a5a5ed692674e8da049b9d829aa5",
+          "minimum_raw_distance": 39
+        },
+        {
+          "plan_hash": "36f5c8611930b33316a70e178571f4db09d95315b5b3b2d32ff2a11c7104731f",
+          "minimum_raw_distance": 37
+        },
+        {
+          "plan_hash": "c97ffad49854c9e65d5fab332f0ffd978bbf304b87cf8ba91968dd9f59861fbb",
+          "minimum_raw_distance": 41
+        }
+      ]
+    },
+    {
+      "plan_id": "NP2_064",
+      "plan_hash": "c97ffad49854c9e65d5fab332f0ffd978bbf304b87cf8ba91968dd9f59861fbb",
+      "reason": "diversity",
+      "minimum_raw_distance_to_previously_selected": 41,
+      "competition": [
+        {
+          "plan_hash": "8242bc041f82c7f336fa6a99c327993a33f50a0429291ec54c080219d3d4c123",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "35b2abe90db6fb26680e3c853f2b34a2ce1c46dc8d3ffb48ed95af8781fde648",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "395db8f48b64870e1870b02b7953a8e88cafa607741bc33fd26351479374fcb3",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "2cfcf7aac0a93456a148124d752b265dee58d228fa89d5365e5f7d03f51232f9",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "7f39f35235cc2d6547c24778a32712a416364013cdc0b6b371217364e13df812",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "72b3249cb3ddf4a65c04adb6bbbcf0010102fc87c2f3e095cf17752905cfe7ee",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "fb2d24f97b7dc1db552a17932f7291ec2c49b6c83a727e278157fe0dda006eb6",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "50abffd9326aae5fd0abc1cacf7748dc26f7836b972ff38d1a4280321ed07ac0",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "38c52077c5e1530766e4e4973f0bed056f8b6dd9fab0447bfb74066cbe23f0c2",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "0c480b65a970a167963d3ad3e30085c2fc788a4278f0bdcd1296afc47fe9588e",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "b254e787c04090912da108afce529fbae08bf8e1e4d54c62feaa697f7bd6569e",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "5749e57910c66b36b8345a8549c33be7bff6bb323726bcc17a7597f965d66372",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "71f9ba671faa0d673f675aad226e4f97fcb815a333b8d65ca2c0d572be695c6d",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "053fd28c1d1dc85f814f75a77bdf0e6e1091dfb3b7c39c1b15fa2538697b124e",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "d222bad9df423b8bcb9c296aa38fd01eea0057dfce43ddd4335bb89fa2fed543",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "5d3cc837bf4d6efbfd0db4fcc00165e3a90af4b9ca44d2cc71f1722fd8677943",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "1acfc334ff7a003dbd8b5ff3b21e5eeb82e2711b9d19b71130d3f7a6b93b4cbb",
+          "minimum_raw_distance": 17
+        },
+        {
+          "plan_hash": "b70f7c0d433d93dd38f9a1c489da3286a6614389fecaac6f98daa6a162880765",
+          "minimum_raw_distance": 18
+        },
+        {
+          "plan_hash": "ca2a5d8a687bdfb51bca7f80e7e2a7519a0ae44ce510edf9dc17ec9d4dd6cf5c",
+          "minimum_raw_distance": 17
+        },
+        {
+          "plan_hash": "baafad6971467bf60fd7bd52c91043896474bc7ddb5d7982fcd7281fffbd6af4",
+          "minimum_raw_distance": 17
+        },
+        {
+          "plan_hash": "0eba1f124010cdea35aea0adcc69305185f23774b0f2937039eb1d6c85813c01",
+          "minimum_raw_distance": 19
+        },
+        {
+          "plan_hash": "aebb8c5138651d87fbbf2e87f384143d54216ed7a8633070a2fde0f0ebaab2e1",
+          "minimum_raw_distance": 19
+        },
+        {
+          "plan_hash": "30a7d352140e498274dd2457783058aea868fecc4df1000b9d3ab244ee6dbddd",
+          "minimum_raw_distance": 18
+        },
+        {
+          "plan_hash": "12e99f3c60089a7e7f06572240219d6f0196635cacba9831876ec667a2eb1de6",
+          "minimum_raw_distance": 25
+        },
+        {
+          "plan_hash": "182cd05c6a26844f53440adf542cdbfb274af954cb013f88be4b6391c427140f",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "1a4019408f68e7ab61f68e2836aa52ab9da484b65f9abdb9a1beef53722c9766",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "39b6e8452e1555b2e72c5fcbfb8e173caf04f806356b3b9ac66fe77e52abf9f7",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "64b29c0f6525abb0442fab70ea46de5137145374f0c0fc970ecca09f96d56bd7",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "64d82c65ec81c63895b667836a4b04a395e85ec21e78f1bf3143da0df45df981",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "79bba9135881db1aee6b828032568145d153c71c3e666b8a512bfbc82115cb18",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "a7ccc9578d30759397390e4467829573fc138278b9e3f8c1f3e47fffb4f38d35",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "b01728c610073f66a184c1b5311669fb42189f1e3f74b7c5cad45177b4546c52",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "b33fdff505688d332f155294dc0a1559dee0a1f933af0a0bc11da98414e2e3f1",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "b3d857e52d5325cadfe001f869a419949604d9fa3aad8808178da2fe84807fdf",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "bc723c4b6436ff471a28cd62e96cd5f6aeb2b2d99d31db6dbffc615248ff3cdb",
+          "minimum_raw_distance": 4
+        },
+        {
+          "plan_hash": "bfcedb3869f5dc939652b634abf18b52e95277c96ebd03326671b3a006e876f4",
+          "minimum_raw_distance": 4
+        },
+        {
+          "plan_hash": "d540430005d5a8b0e11eae1cdb3f3af501e4d690a93d96b28d846f102edb98f4",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "d57d3b614683616ba79b1111a49e3988242a282066b4e147d6341a3ebec4189f",
+          "minimum_raw_distance": 4
+        },
+        {
+          "plan_hash": "ea7b6d5f662f755e1afee8dc6276ddfdcc4042ef5ed0368beee006d402fcfbf2",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "c1852fd0d19885bacdc6ee5ed28b5b4b5427a9a9c542aead6fff6e4a7df07b2e",
+          "minimum_raw_distance": 32
+        },
+        {
+          "plan_hash": "9693e3584a2e7d67f1276d5ab077bb9af09b7d852076455b936555a7ef2f6905",
+          "minimum_raw_distance": 31
+        },
+        {
+          "plan_hash": "4f3d59f8e8266a77d0092e1124ee456da020e188943f689161ec96151650ed4f",
+          "minimum_raw_distance": 39
+        },
+        {
+          "plan_hash": "1b7cd2112c817be3babe44b0813014c7fcb4f8b7c733ba3d79f861cacbbef8a0",
+          "minimum_raw_distance": 38
+        },
+        {
+          "plan_hash": "d4e8e244e5a5840579b642c4733339ced4d96b01fc62df6f43a6ab075ac22315",
+          "minimum_raw_distance": 35
+        },
+        {
+          "plan_hash": "ce635227a01dc6a7b3941c762329a4de2ffef6980a5423e03dc6d8b58c406e74",
+          "minimum_raw_distance": 34
+        },
+        {
+          "plan_hash": "3edce9677efc2fc7d187ccd21fe7434a330887cdaa06d20418d7174d025efd57",
+          "minimum_raw_distance": 39
+        },
+        {
+          "plan_hash": "c4199d193b421675be05cc0c878475cb1f1971d9436c712304eb4950346a1694",
+          "minimum_raw_distance": 26
+        },
+        {
+          "plan_hash": "53cdef28ddca6597b13273838cfb47e40ca7657ac741c91c94e12f1c5cba1f8d",
+          "minimum_raw_distance": 33
+        },
+        {
+          "plan_hash": "9dad064caf29bfa8b17ba497a7f76af230329c4e0534c28f8d26521ef7c5f876",
+          "minimum_raw_distance": 38
+        },
+        {
+          "plan_hash": "8090fb0ad38e902953890d7123709a818d367269f8be2c471f3342e0622d588f",
+          "minimum_raw_distance": 34
+        },
+        {
+          "plan_hash": "96cfa584bca5984e3266560167b96a34d537a5a5ed692674e8da049b9d829aa5",
+          "minimum_raw_distance": 38
+        },
+        {
+          "plan_hash": "36f5c8611930b33316a70e178571f4db09d95315b5b3b2d32ff2a11c7104731f",
+          "minimum_raw_distance": 37
+        },
+        {
+          "plan_hash": "c97ffad49854c9e65d5fab332f0ffd978bbf304b87cf8ba91968dd9f59861fbb",
+          "minimum_raw_distance": 41
+        }
+      ]
+    },
+    {
+      "plan_id": "NP2_044",
+      "plan_hash": "4f3d59f8e8266a77d0092e1124ee456da020e188943f689161ec96151650ed4f",
+      "reason": "diversity",
+      "minimum_raw_distance_to_previously_selected": 39,
+      "competition": [
+        {
+          "plan_hash": "8242bc041f82c7f336fa6a99c327993a33f50a0429291ec54c080219d3d4c123",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "35b2abe90db6fb26680e3c853f2b34a2ce1c46dc8d3ffb48ed95af8781fde648",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "395db8f48b64870e1870b02b7953a8e88cafa607741bc33fd26351479374fcb3",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "2cfcf7aac0a93456a148124d752b265dee58d228fa89d5365e5f7d03f51232f9",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "7f39f35235cc2d6547c24778a32712a416364013cdc0b6b371217364e13df812",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "72b3249cb3ddf4a65c04adb6bbbcf0010102fc87c2f3e095cf17752905cfe7ee",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "fb2d24f97b7dc1db552a17932f7291ec2c49b6c83a727e278157fe0dda006eb6",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "50abffd9326aae5fd0abc1cacf7748dc26f7836b972ff38d1a4280321ed07ac0",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "38c52077c5e1530766e4e4973f0bed056f8b6dd9fab0447bfb74066cbe23f0c2",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "0c480b65a970a167963d3ad3e30085c2fc788a4278f0bdcd1296afc47fe9588e",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "b254e787c04090912da108afce529fbae08bf8e1e4d54c62feaa697f7bd6569e",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "5749e57910c66b36b8345a8549c33be7bff6bb323726bcc17a7597f965d66372",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "71f9ba671faa0d673f675aad226e4f97fcb815a333b8d65ca2c0d572be695c6d",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "053fd28c1d1dc85f814f75a77bdf0e6e1091dfb3b7c39c1b15fa2538697b124e",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "d222bad9df423b8bcb9c296aa38fd01eea0057dfce43ddd4335bb89fa2fed543",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "5d3cc837bf4d6efbfd0db4fcc00165e3a90af4b9ca44d2cc71f1722fd8677943",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "1acfc334ff7a003dbd8b5ff3b21e5eeb82e2711b9d19b71130d3f7a6b93b4cbb",
+          "minimum_raw_distance": 17
+        },
+        {
+          "plan_hash": "b70f7c0d433d93dd38f9a1c489da3286a6614389fecaac6f98daa6a162880765",
+          "minimum_raw_distance": 18
+        },
+        {
+          "plan_hash": "ca2a5d8a687bdfb51bca7f80e7e2a7519a0ae44ce510edf9dc17ec9d4dd6cf5c",
+          "minimum_raw_distance": 17
+        },
+        {
+          "plan_hash": "baafad6971467bf60fd7bd52c91043896474bc7ddb5d7982fcd7281fffbd6af4",
+          "minimum_raw_distance": 17
+        },
+        {
+          "plan_hash": "0eba1f124010cdea35aea0adcc69305185f23774b0f2937039eb1d6c85813c01",
+          "minimum_raw_distance": 19
+        },
+        {
+          "plan_hash": "aebb8c5138651d87fbbf2e87f384143d54216ed7a8633070a2fde0f0ebaab2e1",
+          "minimum_raw_distance": 19
+        },
+        {
+          "plan_hash": "30a7d352140e498274dd2457783058aea868fecc4df1000b9d3ab244ee6dbddd",
+          "minimum_raw_distance": 18
+        },
+        {
+          "plan_hash": "12e99f3c60089a7e7f06572240219d6f0196635cacba9831876ec667a2eb1de6",
+          "minimum_raw_distance": 25
+        },
+        {
+          "plan_hash": "182cd05c6a26844f53440adf542cdbfb274af954cb013f88be4b6391c427140f",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "1a4019408f68e7ab61f68e2836aa52ab9da484b65f9abdb9a1beef53722c9766",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "39b6e8452e1555b2e72c5fcbfb8e173caf04f806356b3b9ac66fe77e52abf9f7",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "64b29c0f6525abb0442fab70ea46de5137145374f0c0fc970ecca09f96d56bd7",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "64d82c65ec81c63895b667836a4b04a395e85ec21e78f1bf3143da0df45df981",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "79bba9135881db1aee6b828032568145d153c71c3e666b8a512bfbc82115cb18",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "a7ccc9578d30759397390e4467829573fc138278b9e3f8c1f3e47fffb4f38d35",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "b01728c610073f66a184c1b5311669fb42189f1e3f74b7c5cad45177b4546c52",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "b33fdff505688d332f155294dc0a1559dee0a1f933af0a0bc11da98414e2e3f1",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "b3d857e52d5325cadfe001f869a419949604d9fa3aad8808178da2fe84807fdf",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "bc723c4b6436ff471a28cd62e96cd5f6aeb2b2d99d31db6dbffc615248ff3cdb",
+          "minimum_raw_distance": 4
+        },
+        {
+          "plan_hash": "bfcedb3869f5dc939652b634abf18b52e95277c96ebd03326671b3a006e876f4",
+          "minimum_raw_distance": 4
+        },
+        {
+          "plan_hash": "d540430005d5a8b0e11eae1cdb3f3af501e4d690a93d96b28d846f102edb98f4",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "d57d3b614683616ba79b1111a49e3988242a282066b4e147d6341a3ebec4189f",
+          "minimum_raw_distance": 4
+        },
+        {
+          "plan_hash": "ea7b6d5f662f755e1afee8dc6276ddfdcc4042ef5ed0368beee006d402fcfbf2",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "c1852fd0d19885bacdc6ee5ed28b5b4b5427a9a9c542aead6fff6e4a7df07b2e",
+          "minimum_raw_distance": 32
+        },
+        {
+          "plan_hash": "9693e3584a2e7d67f1276d5ab077bb9af09b7d852076455b936555a7ef2f6905",
+          "minimum_raw_distance": 31
+        },
+        {
+          "plan_hash": "4f3d59f8e8266a77d0092e1124ee456da020e188943f689161ec96151650ed4f",
+          "minimum_raw_distance": 39
+        },
+        {
+          "plan_hash": "1b7cd2112c817be3babe44b0813014c7fcb4f8b7c733ba3d79f861cacbbef8a0",
+          "minimum_raw_distance": 29
+        },
+        {
+          "plan_hash": "d4e8e244e5a5840579b642c4733339ced4d96b01fc62df6f43a6ab075ac22315",
+          "minimum_raw_distance": 35
+        },
+        {
+          "plan_hash": "ce635227a01dc6a7b3941c762329a4de2ffef6980a5423e03dc6d8b58c406e74",
+          "minimum_raw_distance": 34
+        },
+        {
+          "plan_hash": "3edce9677efc2fc7d187ccd21fe7434a330887cdaa06d20418d7174d025efd57",
+          "minimum_raw_distance": 35
+        },
+        {
+          "plan_hash": "c4199d193b421675be05cc0c878475cb1f1971d9436c712304eb4950346a1694",
+          "minimum_raw_distance": 26
+        },
+        {
+          "plan_hash": "53cdef28ddca6597b13273838cfb47e40ca7657ac741c91c94e12f1c5cba1f8d",
+          "minimum_raw_distance": 33
+        },
+        {
+          "plan_hash": "9dad064caf29bfa8b17ba497a7f76af230329c4e0534c28f8d26521ef7c5f876",
+          "minimum_raw_distance": 38
+        },
+        {
+          "plan_hash": "8090fb0ad38e902953890d7123709a818d367269f8be2c471f3342e0622d588f",
+          "minimum_raw_distance": 28
+        },
+        {
+          "plan_hash": "96cfa584bca5984e3266560167b96a34d537a5a5ed692674e8da049b9d829aa5",
+          "minimum_raw_distance": 34
+        },
+        {
+          "plan_hash": "36f5c8611930b33316a70e178571f4db09d95315b5b3b2d32ff2a11c7104731f",
+          "minimum_raw_distance": 32
+        }
+      ]
+    },
+    {
+      "plan_id": "NP2_012",
+      "plan_hash": "9dad064caf29bfa8b17ba497a7f76af230329c4e0534c28f8d26521ef7c5f876",
+      "reason": "diversity",
+      "minimum_raw_distance_to_previously_selected": 38,
+      "competition": [
+        {
+          "plan_hash": "8242bc041f82c7f336fa6a99c327993a33f50a0429291ec54c080219d3d4c123",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "35b2abe90db6fb26680e3c853f2b34a2ce1c46dc8d3ffb48ed95af8781fde648",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "395db8f48b64870e1870b02b7953a8e88cafa607741bc33fd26351479374fcb3",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "2cfcf7aac0a93456a148124d752b265dee58d228fa89d5365e5f7d03f51232f9",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "7f39f35235cc2d6547c24778a32712a416364013cdc0b6b371217364e13df812",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "72b3249cb3ddf4a65c04adb6bbbcf0010102fc87c2f3e095cf17752905cfe7ee",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "fb2d24f97b7dc1db552a17932f7291ec2c49b6c83a727e278157fe0dda006eb6",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "50abffd9326aae5fd0abc1cacf7748dc26f7836b972ff38d1a4280321ed07ac0",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "38c52077c5e1530766e4e4973f0bed056f8b6dd9fab0447bfb74066cbe23f0c2",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "0c480b65a970a167963d3ad3e30085c2fc788a4278f0bdcd1296afc47fe9588e",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "b254e787c04090912da108afce529fbae08bf8e1e4d54c62feaa697f7bd6569e",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "5749e57910c66b36b8345a8549c33be7bff6bb323726bcc17a7597f965d66372",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "71f9ba671faa0d673f675aad226e4f97fcb815a333b8d65ca2c0d572be695c6d",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "053fd28c1d1dc85f814f75a77bdf0e6e1091dfb3b7c39c1b15fa2538697b124e",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "d222bad9df423b8bcb9c296aa38fd01eea0057dfce43ddd4335bb89fa2fed543",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "5d3cc837bf4d6efbfd0db4fcc00165e3a90af4b9ca44d2cc71f1722fd8677943",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "1acfc334ff7a003dbd8b5ff3b21e5eeb82e2711b9d19b71130d3f7a6b93b4cbb",
+          "minimum_raw_distance": 17
+        },
+        {
+          "plan_hash": "b70f7c0d433d93dd38f9a1c489da3286a6614389fecaac6f98daa6a162880765",
+          "minimum_raw_distance": 18
+        },
+        {
+          "plan_hash": "ca2a5d8a687bdfb51bca7f80e7e2a7519a0ae44ce510edf9dc17ec9d4dd6cf5c",
+          "minimum_raw_distance": 17
+        },
+        {
+          "plan_hash": "baafad6971467bf60fd7bd52c91043896474bc7ddb5d7982fcd7281fffbd6af4",
+          "minimum_raw_distance": 17
+        },
+        {
+          "plan_hash": "0eba1f124010cdea35aea0adcc69305185f23774b0f2937039eb1d6c85813c01",
+          "minimum_raw_distance": 19
+        },
+        {
+          "plan_hash": "aebb8c5138651d87fbbf2e87f384143d54216ed7a8633070a2fde0f0ebaab2e1",
+          "minimum_raw_distance": 19
+        },
+        {
+          "plan_hash": "30a7d352140e498274dd2457783058aea868fecc4df1000b9d3ab244ee6dbddd",
+          "minimum_raw_distance": 18
+        },
+        {
+          "plan_hash": "12e99f3c60089a7e7f06572240219d6f0196635cacba9831876ec667a2eb1de6",
+          "minimum_raw_distance": 25
+        },
+        {
+          "plan_hash": "182cd05c6a26844f53440adf542cdbfb274af954cb013f88be4b6391c427140f",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "1a4019408f68e7ab61f68e2836aa52ab9da484b65f9abdb9a1beef53722c9766",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "39b6e8452e1555b2e72c5fcbfb8e173caf04f806356b3b9ac66fe77e52abf9f7",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "64b29c0f6525abb0442fab70ea46de5137145374f0c0fc970ecca09f96d56bd7",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "64d82c65ec81c63895b667836a4b04a395e85ec21e78f1bf3143da0df45df981",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "79bba9135881db1aee6b828032568145d153c71c3e666b8a512bfbc82115cb18",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "a7ccc9578d30759397390e4467829573fc138278b9e3f8c1f3e47fffb4f38d35",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "b01728c610073f66a184c1b5311669fb42189f1e3f74b7c5cad45177b4546c52",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "b33fdff505688d332f155294dc0a1559dee0a1f933af0a0bc11da98414e2e3f1",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "b3d857e52d5325cadfe001f869a419949604d9fa3aad8808178da2fe84807fdf",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "bc723c4b6436ff471a28cd62e96cd5f6aeb2b2d99d31db6dbffc615248ff3cdb",
+          "minimum_raw_distance": 4
+        },
+        {
+          "plan_hash": "bfcedb3869f5dc939652b634abf18b52e95277c96ebd03326671b3a006e876f4",
+          "minimum_raw_distance": 4
+        },
+        {
+          "plan_hash": "d540430005d5a8b0e11eae1cdb3f3af501e4d690a93d96b28d846f102edb98f4",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "d57d3b614683616ba79b1111a49e3988242a282066b4e147d6341a3ebec4189f",
+          "minimum_raw_distance": 4
+        },
+        {
+          "plan_hash": "ea7b6d5f662f755e1afee8dc6276ddfdcc4042ef5ed0368beee006d402fcfbf2",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "c1852fd0d19885bacdc6ee5ed28b5b4b5427a9a9c542aead6fff6e4a7df07b2e",
+          "minimum_raw_distance": 32
+        },
+        {
+          "plan_hash": "9693e3584a2e7d67f1276d5ab077bb9af09b7d852076455b936555a7ef2f6905",
+          "minimum_raw_distance": 31
+        },
+        {
+          "plan_hash": "1b7cd2112c817be3babe44b0813014c7fcb4f8b7c733ba3d79f861cacbbef8a0",
+          "minimum_raw_distance": 29
+        },
+        {
+          "plan_hash": "d4e8e244e5a5840579b642c4733339ced4d96b01fc62df6f43a6ab075ac22315",
+          "minimum_raw_distance": 35
+        },
+        {
+          "plan_hash": "ce635227a01dc6a7b3941c762329a4de2ffef6980a5423e03dc6d8b58c406e74",
+          "minimum_raw_distance": 34
+        },
+        {
+          "plan_hash": "3edce9677efc2fc7d187ccd21fe7434a330887cdaa06d20418d7174d025efd57",
+          "minimum_raw_distance": 35
+        },
+        {
+          "plan_hash": "c4199d193b421675be05cc0c878475cb1f1971d9436c712304eb4950346a1694",
+          "minimum_raw_distance": 26
+        },
+        {
+          "plan_hash": "53cdef28ddca6597b13273838cfb47e40ca7657ac741c91c94e12f1c5cba1f8d",
+          "minimum_raw_distance": 33
+        },
+        {
+          "plan_hash": "9dad064caf29bfa8b17ba497a7f76af230329c4e0534c28f8d26521ef7c5f876",
+          "minimum_raw_distance": 38
+        },
+        {
+          "plan_hash": "8090fb0ad38e902953890d7123709a818d367269f8be2c471f3342e0622d588f",
+          "minimum_raw_distance": 28
+        },
+        {
+          "plan_hash": "96cfa584bca5984e3266560167b96a34d537a5a5ed692674e8da049b9d829aa5",
+          "minimum_raw_distance": 34
+        },
+        {
+          "plan_hash": "36f5c8611930b33316a70e178571f4db09d95315b5b3b2d32ff2a11c7104731f",
+          "minimum_raw_distance": 32
+        }
+      ]
+    },
+    {
+      "plan_id": "NP2_060",
+      "plan_hash": "d4e8e244e5a5840579b642c4733339ced4d96b01fc62df6f43a6ab075ac22315",
+      "reason": "diversity",
+      "minimum_raw_distance_to_previously_selected": 35,
+      "competition": [
+        {
+          "plan_hash": "8242bc041f82c7f336fa6a99c327993a33f50a0429291ec54c080219d3d4c123",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "35b2abe90db6fb26680e3c853f2b34a2ce1c46dc8d3ffb48ed95af8781fde648",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "395db8f48b64870e1870b02b7953a8e88cafa607741bc33fd26351479374fcb3",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "2cfcf7aac0a93456a148124d752b265dee58d228fa89d5365e5f7d03f51232f9",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "7f39f35235cc2d6547c24778a32712a416364013cdc0b6b371217364e13df812",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "72b3249cb3ddf4a65c04adb6bbbcf0010102fc87c2f3e095cf17752905cfe7ee",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "fb2d24f97b7dc1db552a17932f7291ec2c49b6c83a727e278157fe0dda006eb6",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "50abffd9326aae5fd0abc1cacf7748dc26f7836b972ff38d1a4280321ed07ac0",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "38c52077c5e1530766e4e4973f0bed056f8b6dd9fab0447bfb74066cbe23f0c2",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "0c480b65a970a167963d3ad3e30085c2fc788a4278f0bdcd1296afc47fe9588e",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "b254e787c04090912da108afce529fbae08bf8e1e4d54c62feaa697f7bd6569e",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "5749e57910c66b36b8345a8549c33be7bff6bb323726bcc17a7597f965d66372",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "71f9ba671faa0d673f675aad226e4f97fcb815a333b8d65ca2c0d572be695c6d",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "053fd28c1d1dc85f814f75a77bdf0e6e1091dfb3b7c39c1b15fa2538697b124e",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "d222bad9df423b8bcb9c296aa38fd01eea0057dfce43ddd4335bb89fa2fed543",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "5d3cc837bf4d6efbfd0db4fcc00165e3a90af4b9ca44d2cc71f1722fd8677943",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "1acfc334ff7a003dbd8b5ff3b21e5eeb82e2711b9d19b71130d3f7a6b93b4cbb",
+          "minimum_raw_distance": 17
+        },
+        {
+          "plan_hash": "b70f7c0d433d93dd38f9a1c489da3286a6614389fecaac6f98daa6a162880765",
+          "minimum_raw_distance": 18
+        },
+        {
+          "plan_hash": "ca2a5d8a687bdfb51bca7f80e7e2a7519a0ae44ce510edf9dc17ec9d4dd6cf5c",
+          "minimum_raw_distance": 17
+        },
+        {
+          "plan_hash": "baafad6971467bf60fd7bd52c91043896474bc7ddb5d7982fcd7281fffbd6af4",
+          "minimum_raw_distance": 17
+        },
+        {
+          "plan_hash": "0eba1f124010cdea35aea0adcc69305185f23774b0f2937039eb1d6c85813c01",
+          "minimum_raw_distance": 19
+        },
+        {
+          "plan_hash": "aebb8c5138651d87fbbf2e87f384143d54216ed7a8633070a2fde0f0ebaab2e1",
+          "minimum_raw_distance": 19
+        },
+        {
+          "plan_hash": "30a7d352140e498274dd2457783058aea868fecc4df1000b9d3ab244ee6dbddd",
+          "minimum_raw_distance": 18
+        },
+        {
+          "plan_hash": "12e99f3c60089a7e7f06572240219d6f0196635cacba9831876ec667a2eb1de6",
+          "minimum_raw_distance": 25
+        },
+        {
+          "plan_hash": "182cd05c6a26844f53440adf542cdbfb274af954cb013f88be4b6391c427140f",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "1a4019408f68e7ab61f68e2836aa52ab9da484b65f9abdb9a1beef53722c9766",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "39b6e8452e1555b2e72c5fcbfb8e173caf04f806356b3b9ac66fe77e52abf9f7",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "64b29c0f6525abb0442fab70ea46de5137145374f0c0fc970ecca09f96d56bd7",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "64d82c65ec81c63895b667836a4b04a395e85ec21e78f1bf3143da0df45df981",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "79bba9135881db1aee6b828032568145d153c71c3e666b8a512bfbc82115cb18",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "a7ccc9578d30759397390e4467829573fc138278b9e3f8c1f3e47fffb4f38d35",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "b01728c610073f66a184c1b5311669fb42189f1e3f74b7c5cad45177b4546c52",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "b33fdff505688d332f155294dc0a1559dee0a1f933af0a0bc11da98414e2e3f1",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "b3d857e52d5325cadfe001f869a419949604d9fa3aad8808178da2fe84807fdf",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "bc723c4b6436ff471a28cd62e96cd5f6aeb2b2d99d31db6dbffc615248ff3cdb",
+          "minimum_raw_distance": 4
+        },
+        {
+          "plan_hash": "bfcedb3869f5dc939652b634abf18b52e95277c96ebd03326671b3a006e876f4",
+          "minimum_raw_distance": 4
+        },
+        {
+          "plan_hash": "d540430005d5a8b0e11eae1cdb3f3af501e4d690a93d96b28d846f102edb98f4",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "d57d3b614683616ba79b1111a49e3988242a282066b4e147d6341a3ebec4189f",
+          "minimum_raw_distance": 4
+        },
+        {
+          "plan_hash": "ea7b6d5f662f755e1afee8dc6276ddfdcc4042ef5ed0368beee006d402fcfbf2",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "c1852fd0d19885bacdc6ee5ed28b5b4b5427a9a9c542aead6fff6e4a7df07b2e",
+          "minimum_raw_distance": 32
+        },
+        {
+          "plan_hash": "9693e3584a2e7d67f1276d5ab077bb9af09b7d852076455b936555a7ef2f6905",
+          "minimum_raw_distance": 31
+        },
+        {
+          "plan_hash": "1b7cd2112c817be3babe44b0813014c7fcb4f8b7c733ba3d79f861cacbbef8a0",
+          "minimum_raw_distance": 29
+        },
+        {
+          "plan_hash": "d4e8e244e5a5840579b642c4733339ced4d96b01fc62df6f43a6ab075ac22315",
+          "minimum_raw_distance": 35
+        },
+        {
+          "plan_hash": "ce635227a01dc6a7b3941c762329a4de2ffef6980a5423e03dc6d8b58c406e74",
+          "minimum_raw_distance": 34
+        },
+        {
+          "plan_hash": "3edce9677efc2fc7d187ccd21fe7434a330887cdaa06d20418d7174d025efd57",
+          "minimum_raw_distance": 35
+        },
+        {
+          "plan_hash": "c4199d193b421675be05cc0c878475cb1f1971d9436c712304eb4950346a1694",
+          "minimum_raw_distance": 26
+        },
+        {
+          "plan_hash": "53cdef28ddca6597b13273838cfb47e40ca7657ac741c91c94e12f1c5cba1f8d",
+          "minimum_raw_distance": 31
+        },
+        {
+          "plan_hash": "8090fb0ad38e902953890d7123709a818d367269f8be2c471f3342e0622d588f",
+          "minimum_raw_distance": 28
+        },
+        {
+          "plan_hash": "96cfa584bca5984e3266560167b96a34d537a5a5ed692674e8da049b9d829aa5",
+          "minimum_raw_distance": 34
+        },
+        {
+          "plan_hash": "36f5c8611930b33316a70e178571f4db09d95315b5b3b2d32ff2a11c7104731f",
+          "minimum_raw_distance": 32
+        }
+      ]
+    },
+    {
+      "plan_id": "NP2_048",
+      "plan_hash": "3edce9677efc2fc7d187ccd21fe7434a330887cdaa06d20418d7174d025efd57",
+      "reason": "diversity",
+      "minimum_raw_distance_to_previously_selected": 35,
+      "competition": [
+        {
+          "plan_hash": "8242bc041f82c7f336fa6a99c327993a33f50a0429291ec54c080219d3d4c123",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "35b2abe90db6fb26680e3c853f2b34a2ce1c46dc8d3ffb48ed95af8781fde648",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "395db8f48b64870e1870b02b7953a8e88cafa607741bc33fd26351479374fcb3",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "2cfcf7aac0a93456a148124d752b265dee58d228fa89d5365e5f7d03f51232f9",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "7f39f35235cc2d6547c24778a32712a416364013cdc0b6b371217364e13df812",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "72b3249cb3ddf4a65c04adb6bbbcf0010102fc87c2f3e095cf17752905cfe7ee",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "fb2d24f97b7dc1db552a17932f7291ec2c49b6c83a727e278157fe0dda006eb6",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "50abffd9326aae5fd0abc1cacf7748dc26f7836b972ff38d1a4280321ed07ac0",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "38c52077c5e1530766e4e4973f0bed056f8b6dd9fab0447bfb74066cbe23f0c2",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "0c480b65a970a167963d3ad3e30085c2fc788a4278f0bdcd1296afc47fe9588e",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "b254e787c04090912da108afce529fbae08bf8e1e4d54c62feaa697f7bd6569e",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "5749e57910c66b36b8345a8549c33be7bff6bb323726bcc17a7597f965d66372",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "71f9ba671faa0d673f675aad226e4f97fcb815a333b8d65ca2c0d572be695c6d",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "053fd28c1d1dc85f814f75a77bdf0e6e1091dfb3b7c39c1b15fa2538697b124e",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "d222bad9df423b8bcb9c296aa38fd01eea0057dfce43ddd4335bb89fa2fed543",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "5d3cc837bf4d6efbfd0db4fcc00165e3a90af4b9ca44d2cc71f1722fd8677943",
+          "minimum_raw_distance": 16
+        },
+        {
+          "plan_hash": "1acfc334ff7a003dbd8b5ff3b21e5eeb82e2711b9d19b71130d3f7a6b93b4cbb",
+          "minimum_raw_distance": 17
+        },
+        {
+          "plan_hash": "b70f7c0d433d93dd38f9a1c489da3286a6614389fecaac6f98daa6a162880765",
+          "minimum_raw_distance": 18
+        },
+        {
+          "plan_hash": "ca2a5d8a687bdfb51bca7f80e7e2a7519a0ae44ce510edf9dc17ec9d4dd6cf5c",
+          "minimum_raw_distance": 17
+        },
+        {
+          "plan_hash": "baafad6971467bf60fd7bd52c91043896474bc7ddb5d7982fcd7281fffbd6af4",
+          "minimum_raw_distance": 17
+        },
+        {
+          "plan_hash": "0eba1f124010cdea35aea0adcc69305185f23774b0f2937039eb1d6c85813c01",
+          "minimum_raw_distance": 19
+        },
+        {
+          "plan_hash": "aebb8c5138651d87fbbf2e87f384143d54216ed7a8633070a2fde0f0ebaab2e1",
+          "minimum_raw_distance": 19
+        },
+        {
+          "plan_hash": "30a7d352140e498274dd2457783058aea868fecc4df1000b9d3ab244ee6dbddd",
+          "minimum_raw_distance": 18
+        },
+        {
+          "plan_hash": "12e99f3c60089a7e7f06572240219d6f0196635cacba9831876ec667a2eb1de6",
+          "minimum_raw_distance": 25
+        },
+        {
+          "plan_hash": "182cd05c6a26844f53440adf542cdbfb274af954cb013f88be4b6391c427140f",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "1a4019408f68e7ab61f68e2836aa52ab9da484b65f9abdb9a1beef53722c9766",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "39b6e8452e1555b2e72c5fcbfb8e173caf04f806356b3b9ac66fe77e52abf9f7",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "64b29c0f6525abb0442fab70ea46de5137145374f0c0fc970ecca09f96d56bd7",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "64d82c65ec81c63895b667836a4b04a395e85ec21e78f1bf3143da0df45df981",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "79bba9135881db1aee6b828032568145d153c71c3e666b8a512bfbc82115cb18",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "a7ccc9578d30759397390e4467829573fc138278b9e3f8c1f3e47fffb4f38d35",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "b01728c610073f66a184c1b5311669fb42189f1e3f74b7c5cad45177b4546c52",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "b33fdff505688d332f155294dc0a1559dee0a1f933af0a0bc11da98414e2e3f1",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "b3d857e52d5325cadfe001f869a419949604d9fa3aad8808178da2fe84807fdf",
+          "minimum_raw_distance": 3
+        },
+        {
+          "plan_hash": "bc723c4b6436ff471a28cd62e96cd5f6aeb2b2d99d31db6dbffc615248ff3cdb",
+          "minimum_raw_distance": 4
+        },
+        {
+          "plan_hash": "bfcedb3869f5dc939652b634abf18b52e95277c96ebd03326671b3a006e876f4",
+          "minimum_raw_distance": 4
+        },
+        {
+          "plan_hash": "d540430005d5a8b0e11eae1cdb3f3af501e4d690a93d96b28d846f102edb98f4",
+          "minimum_raw_distance": 1
+        },
+        {
+          "plan_hash": "d57d3b614683616ba79b1111a49e3988242a282066b4e147d6341a3ebec4189f",
+          "minimum_raw_distance": 4
+        },
+        {
+          "plan_hash": "ea7b6d5f662f755e1afee8dc6276ddfdcc4042ef5ed0368beee006d402fcfbf2",
+          "minimum_raw_distance": 2
+        },
+        {
+          "plan_hash": "c1852fd0d19885bacdc6ee5ed28b5b4b5427a9a9c542aead6fff6e4a7df07b2e",
+          "minimum_raw_distance": 32
+        },
+        {
+          "plan_hash": "9693e3584a2e7d67f1276d5ab077bb9af09b7d852076455b936555a7ef2f6905",
+          "minimum_raw_distance": 31
+        },
+        {
+          "plan_hash": "1b7cd2112c817be3babe44b0813014c7fcb4f8b7c733ba3d79f861cacbbef8a0",
+          "minimum_raw_distance": 29
+        },
+        {
+          "plan_hash": "ce635227a01dc6a7b3941c762329a4de2ffef6980a5423e03dc6d8b58c406e74",
+          "minimum_raw_distance": 34
+        },
+        {
+          "plan_hash": "3edce9677efc2fc7d187ccd21fe7434a330887cdaa06d20418d7174d025efd57",
+          "minimum_raw_distance": 35
+        },
+        {
+          "plan_hash": "c4199d193b421675be05cc0c878475cb1f1971d9436c712304eb4950346a1694",
+          "minimum_raw_distance": 26
+        },
+        {
+          "plan_hash": "53cdef28ddca6597b13273838cfb47e40ca7657ac741c91c94e12f1c5cba1f8d",
+          "minimum_raw_distance": 31
+        },
+        {
+          "plan_hash": "8090fb0ad38e902953890d7123709a818d367269f8be2c471f3342e0622d588f",
+          "minimum_raw_distance": 28
+        },
+        {
+          "plan_hash": "96cfa584bca5984e3266560167b96a34d537a5a5ed692674e8da049b9d829aa5",
+          "minimum_raw_distance": 34
+        },
+        {
+          "plan_hash": "36f5c8611930b33316a70e178571f4db09d95315b5b3b2d32ff2a11c7104731f",
+          "minimum_raw_distance": 32
+        }
+      ]
+    }
+  ],
+  "method": "score_then_representatives_then_farthest_first",
+  "rejections": [
+    {
+      "plan_id": "NP2_033",
+      "plan_hash": "8242bc041f82c7f336fa6a99c327993a33f50a0429291ec54c080219d3d4c123",
+      "secondary_rank_in_pool": 9,
+      "nearest_selected_raw_distance": 1,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_041",
+      "plan_hash": "35b2abe90db6fb26680e3c853f2b34a2ce1c46dc8d3ffb48ed95af8781fde648",
+      "secondary_rank_in_pool": 10,
+      "nearest_selected_raw_distance": 1,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_037",
+      "plan_hash": "395db8f48b64870e1870b02b7953a8e88cafa607741bc33fd26351479374fcb3",
+      "secondary_rank_in_pool": 11,
+      "nearest_selected_raw_distance": 1,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_045",
+      "plan_hash": "2cfcf7aac0a93456a148124d752b265dee58d228fa89d5365e5f7d03f51232f9",
+      "secondary_rank_in_pool": 12,
+      "nearest_selected_raw_distance": 1,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_049",
+      "plan_hash": "7f39f35235cc2d6547c24778a32712a416364013cdc0b6b371217364e13df812",
+      "secondary_rank_in_pool": 13,
+      "nearest_selected_raw_distance": 1,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_057",
+      "plan_hash": "72b3249cb3ddf4a65c04adb6bbbcf0010102fc87c2f3e095cf17752905cfe7ee",
+      "secondary_rank_in_pool": 14,
+      "nearest_selected_raw_distance": 1,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_053",
+      "plan_hash": "fb2d24f97b7dc1db552a17932f7291ec2c49b6c83a727e278157fe0dda006eb6",
+      "secondary_rank_in_pool": 15,
+      "nearest_selected_raw_distance": 1,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_061",
+      "plan_hash": "50abffd9326aae5fd0abc1cacf7748dc26f7836b972ff38d1a4280321ed07ac0",
+      "secondary_rank_in_pool": 16,
+      "nearest_selected_raw_distance": 1,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_002",
+      "plan_hash": "38c52077c5e1530766e4e4973f0bed056f8b6dd9fab0447bfb74066cbe23f0c2",
+      "secondary_rank_in_pool": 17,
+      "nearest_selected_raw_distance": 16,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_006",
+      "plan_hash": "0c480b65a970a167963d3ad3e30085c2fc788a4278f0bdcd1296afc47fe9588e",
+      "secondary_rank_in_pool": 18,
+      "nearest_selected_raw_distance": 16,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_018",
+      "plan_hash": "b254e787c04090912da108afce529fbae08bf8e1e4d54c62feaa697f7bd6569e",
+      "secondary_rank_in_pool": 19,
+      "nearest_selected_raw_distance": 16,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_022",
+      "plan_hash": "5749e57910c66b36b8345a8549c33be7bff6bb323726bcc17a7597f965d66372",
+      "secondary_rank_in_pool": 20,
+      "nearest_selected_raw_distance": 16,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_026",
+      "plan_hash": "71f9ba671faa0d673f675aad226e4f97fcb815a333b8d65ca2c0d572be695c6d",
+      "secondary_rank_in_pool": 21,
+      "nearest_selected_raw_distance": 16,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_034",
+      "plan_hash": "053fd28c1d1dc85f814f75a77bdf0e6e1091dfb3b7c39c1b15fa2538697b124e",
+      "secondary_rank_in_pool": 22,
+      "nearest_selected_raw_distance": 16,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_042",
+      "plan_hash": "d222bad9df423b8bcb9c296aa38fd01eea0057dfce43ddd4335bb89fa2fed543",
+      "secondary_rank_in_pool": 23,
+      "nearest_selected_raw_distance": 16,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_038",
+      "plan_hash": "5d3cc837bf4d6efbfd0db4fcc00165e3a90af4b9ca44d2cc71f1722fd8677943",
+      "secondary_rank_in_pool": 24,
+      "nearest_selected_raw_distance": 16,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_063",
+      "plan_hash": "1acfc334ff7a003dbd8b5ff3b21e5eeb82e2711b9d19b71130d3f7a6b93b4cbb",
+      "secondary_rank_in_pool": 25,
+      "nearest_selected_raw_distance": 17,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_010",
+      "plan_hash": "b70f7c0d433d93dd38f9a1c489da3286a6614389fecaac6f98daa6a162880765",
+      "secondary_rank_in_pool": 26,
+      "nearest_selected_raw_distance": 18,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_030",
+      "plan_hash": "ca2a5d8a687bdfb51bca7f80e7e2a7519a0ae44ce510edf9dc17ec9d4dd6cf5c",
+      "secondary_rank_in_pool": 27,
+      "nearest_selected_raw_distance": 17,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_050",
+      "plan_hash": "baafad6971467bf60fd7bd52c91043896474bc7ddb5d7982fcd7281fffbd6af4",
+      "secondary_rank_in_pool": 28,
+      "nearest_selected_raw_distance": 17,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_058",
+      "plan_hash": "0eba1f124010cdea35aea0adcc69305185f23774b0f2937039eb1d6c85813c01",
+      "secondary_rank_in_pool": 29,
+      "nearest_selected_raw_distance": 19,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_046",
+      "plan_hash": "aebb8c5138651d87fbbf2e87f384143d54216ed7a8633070a2fde0f0ebaab2e1",
+      "secondary_rank_in_pool": 30,
+      "nearest_selected_raw_distance": 19,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_054",
+      "plan_hash": "30a7d352140e498274dd2457783058aea868fecc4df1000b9d3ab244ee6dbddd",
+      "secondary_rank_in_pool": 31,
+      "nearest_selected_raw_distance": 18,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_014",
+      "plan_hash": "12e99f3c60089a7e7f06572240219d6f0196635cacba9831876ec667a2eb1de6",
+      "secondary_rank_in_pool": 32,
+      "nearest_selected_raw_distance": 25,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_051",
+      "plan_hash": "182cd05c6a26844f53440adf542cdbfb274af954cb013f88be4b6391c427140f",
+      "secondary_rank_in_pool": 34,
+      "nearest_selected_raw_distance": 2,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_011",
+      "plan_hash": "1a4019408f68e7ab61f68e2836aa52ab9da484b65f9abdb9a1beef53722c9766",
+      "secondary_rank_in_pool": 35,
+      "nearest_selected_raw_distance": 2,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_003",
+      "plan_hash": "39b6e8452e1555b2e72c5fcbfb8e173caf04f806356b3b9ac66fe77e52abf9f7",
+      "secondary_rank_in_pool": 36,
+      "nearest_selected_raw_distance": 2,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_027",
+      "plan_hash": "64b29c0f6525abb0442fab70ea46de5137145374f0c0fc970ecca09f96d56bd7",
+      "secondary_rank_in_pool": 37,
+      "nearest_selected_raw_distance": 3,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_047",
+      "plan_hash": "64d82c65ec81c63895b667836a4b04a395e85ec21e78f1bf3143da0df45df981",
+      "secondary_rank_in_pool": 38,
+      "nearest_selected_raw_distance": 3,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_062",
+      "plan_hash": "79bba9135881db1aee6b828032568145d153c71c3e666b8a512bfbc82115cb18",
+      "secondary_rank_in_pool": 39,
+      "nearest_selected_raw_distance": 3,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_023",
+      "plan_hash": "a7ccc9578d30759397390e4467829573fc138278b9e3f8c1f3e47fffb4f38d35",
+      "secondary_rank_in_pool": 40,
+      "nearest_selected_raw_distance": 3,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_007",
+      "plan_hash": "b01728c610073f66a184c1b5311669fb42189f1e3f74b7c5cad45177b4546c52",
+      "secondary_rank_in_pool": 41,
+      "nearest_selected_raw_distance": 1,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_015",
+      "plan_hash": "b33fdff505688d332f155294dc0a1559dee0a1f933af0a0bc11da98414e2e3f1",
+      "secondary_rank_in_pool": 42,
+      "nearest_selected_raw_distance": 3,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_019",
+      "plan_hash": "b3d857e52d5325cadfe001f869a419949604d9fa3aad8808178da2fe84807fdf",
+      "secondary_rank_in_pool": 43,
+      "nearest_selected_raw_distance": 3,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_043",
+      "plan_hash": "bc723c4b6436ff471a28cd62e96cd5f6aeb2b2d99d31db6dbffc615248ff3cdb",
+      "secondary_rank_in_pool": 44,
+      "nearest_selected_raw_distance": 4,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_039",
+      "plan_hash": "bfcedb3869f5dc939652b634abf18b52e95277c96ebd03326671b3a006e876f4",
+      "secondary_rank_in_pool": 45,
+      "nearest_selected_raw_distance": 4,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_055",
+      "plan_hash": "d540430005d5a8b0e11eae1cdb3f3af501e4d690a93d96b28d846f102edb98f4",
+      "secondary_rank_in_pool": 46,
+      "nearest_selected_raw_distance": 1,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_031",
+      "plan_hash": "d57d3b614683616ba79b1111a49e3988242a282066b4e147d6341a3ebec4189f",
+      "secondary_rank_in_pool": 47,
+      "nearest_selected_raw_distance": 4,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_035",
+      "plan_hash": "ea7b6d5f662f755e1afee8dc6276ddfdcc4042ef5ed0368beee006d402fcfbf2",
+      "secondary_rank_in_pool": 48,
+      "nearest_selected_raw_distance": 2,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_020",
+      "plan_hash": "c1852fd0d19885bacdc6ee5ed28b5b4b5427a9a9c542aead6fff6e4a7df07b2e",
+      "secondary_rank_in_pool": 49,
+      "nearest_selected_raw_distance": 32,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_052",
+      "plan_hash": "9693e3584a2e7d67f1276d5ab077bb9af09b7d852076455b936555a7ef2f6905",
+      "secondary_rank_in_pool": 50,
+      "nearest_selected_raw_distance": 31,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_024",
+      "plan_hash": "1b7cd2112c817be3babe44b0813014c7fcb4f8b7c733ba3d79f861cacbbef8a0",
+      "secondary_rank_in_pool": 52,
+      "nearest_selected_raw_distance": 29,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_008",
+      "plan_hash": "ce635227a01dc6a7b3941c762329a4de2ffef6980a5423e03dc6d8b58c406e74",
+      "secondary_rank_in_pool": 54,
+      "nearest_selected_raw_distance": 34,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_016",
+      "plan_hash": "c4199d193b421675be05cc0c878475cb1f1971d9436c712304eb4950346a1694",
+      "secondary_rank_in_pool": 56,
+      "nearest_selected_raw_distance": 26,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_040",
+      "plan_hash": "53cdef28ddca6597b13273838cfb47e40ca7657ac741c91c94e12f1c5cba1f8d",
+      "secondary_rank_in_pool": 58,
+      "nearest_selected_raw_distance": 31,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_036",
+      "plan_hash": "8090fb0ad38e902953890d7123709a818d367269f8be2c471f3342e0622d588f",
+      "secondary_rank_in_pool": 60,
+      "nearest_selected_raw_distance": 28,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_028",
+      "plan_hash": "96cfa584bca5984e3266560167b96a34d537a5a5ed692674e8da049b9d829aa5",
+      "secondary_rank_in_pool": 61,
+      "nearest_selected_raw_distance": 34,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    },
+    {
+      "plan_id": "NP2_032",
+      "plan_hash": "36f5c8611930b33316a70e178571f4db09d95315b5b3b2d32ff2a11c7104731f",
+      "secondary_rank_in_pool": 62,
+      "nearest_selected_raw_distance": 32,
+      "reason": "Not in the score quota, not a reserved component representative, and not chosen by the logged farthest-first competitions before the quota was filled."
+    }
+  ],
+  "quality_guarantee": false,
+  "movable_operation_count": 113
+}

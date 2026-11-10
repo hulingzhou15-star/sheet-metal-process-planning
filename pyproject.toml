@@ -1,0 +1,13 @@
+[project]
+name = "sheet-metal-process-planning"
+version = "0.1.0"
+description = "Complete sheet metal process plan generation, review and future learned ranking"
+requires-python = ">=3.12,<3.13"
+dynamic = ["dependencies"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--import-mode=importlib"
+
+[tool.uv]
+package = false

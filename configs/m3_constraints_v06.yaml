@@ -1,0 +1,13 @@
+{
+  "rule_version": "m3.v0.6",
+  "soft_weights": {
+    "bend_area_ordering": 0.45,
+    "precedence_extra_gap": 0.20,
+    "type_fragmentation": 0.35
+  },
+  "bend_area_ordering": {"significance_ratio": 1.15, "exclude_all_hard_precedence_pairs": true},
+  "type_fragmentation": {"enabled_types": ["FLANGING"]},
+  "bend_direction_fragmentation": {"enabled_directions": ["SMOOTH", "ROUGH"], "weight": null},
+  "proximity_diagnostic": {"k": 5},
+  "solver": {"max_time_seconds": 30, "random_seed": 0, "num_search_workers": 1}
+}

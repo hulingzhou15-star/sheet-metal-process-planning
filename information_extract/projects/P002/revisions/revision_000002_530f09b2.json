@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "part_id": "P002",
+  "source_sha256": "a89cbdbde22fccb33d4cde2dd213a728d3cc5c56552b6fbf02686e11b58a894f",
+  "revision": 2,
+  "source_file_name": "P002_1.dxf",
+  "coordinate_system": "drawing WCS XY",
+  "source_units": "mm",
+  "expected_operation_count": null,
+  "inventory_confirmed": false,
+  "operations": [],
+  "ignored_entities": {},
+  "station_rows": [],
+  "fixed_rows": [],
+  "sheet4_confirmed": false,
+  "saved_at": "2026-10-19T08:07:02.692692+00:00"
+}

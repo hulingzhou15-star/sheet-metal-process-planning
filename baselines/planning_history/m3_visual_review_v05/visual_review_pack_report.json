@@ -1,0 +1,2914 @@
+{
+  "schema_version": "m3.v0.5",
+  "plan_count": 13,
+  "comparison_count": 24,
+  "geometry_audit": {
+    "geometry_type_coverage": {
+      "BEND": {
+        "operation_count": 59,
+        "rendered_count": 59
+      },
+      "BRIDGE": {
+        "operation_count": 4,
+        "rendered_count": 4
+      },
+      "CIRCLE_PUNCH": {
+        "operation_count": 16,
+        "rendered_count": 16
+      },
+      "DIMPLE": {
+        "operation_count": 2,
+        "rendered_count": 2
+      },
+      "FLANGING": {
+        "operation_count": 46,
+        "rendered_count": 46
+      },
+      "IRREGULAR_PUNCH": {
+        "operation_count": 38,
+        "rendered_count": 38
+      },
+      "MARKING": {
+        "operation_count": 3,
+        "rendered_count": 0
+      },
+      "PRE_PUNCH": {
+        "operation_count": 46,
+        "rendered_count": 46
+      },
+      "TRIM": {
+        "operation_count": 10,
+        "rendered_count": 0
+      }
+    },
+    "geometry_only_bbox": [
+      142.643,
+      -9.546,
+      528.943,
+      786.254
+    ],
+    "outline": {
+      "status": "available",
+      "source_path": "D:\\sheet_process_assignment\\data\\raw\\reconstructed_local.html",
+      "source_sha256": "ba03173e4a62abe7c6b13eb0bbb954458f5d4580539deceabcbef6a84869c11d",
+      "method": "Read saved visible M/L/C paths, invert saved display affine, trace exact local-endpoint cycles, retain closed contours not contained in another source cycle",
+      "boundary_model": "Multiple source exterior contours; no physical union, gap closure or new board shape",
+      "source_display_rotation_degrees": 270,
+      "source_line_arc_segments": 2093,
+      "closed_component_count": 93,
+      "exterior_contour_count": 32,
+      "excluded_inner_contour_count": 61,
+      "selected_source_segment_count": 385,
+      "selected_source_segment_ids": [
+        "segment-CAND000005-1",
+        "segment-CAND000008-1",
+        "segment-CAND000009-1",
+        "segment-CAND000007-1",
+        "segment-CAND000006-1",
+        "segment-CAND000010-1",
+        "segment-CAND000013-1",
+        "segment-CAND000023-1",
+        "segment-CAND000022-1",
+        "segment-CAND000021-1",
+        "segment-CAND000020-1",
+        "segment-CAND000019-1",
+        "segment-CAND000018-1",
+        "segment-CAND000017-1",
+        "segment-CAND000016-1",
+        "segment-CAND000015-1",
+        "segment-CAND000014-1",
+        "segment-CAND000024-1",
+        "segment-CAND000027-1",
+        "segment-CAND000032-1",
+        "segment-CAND000031-1",
+        "segment-CAND000030-1",
+        "segment-CAND000029-1",
+        "segment-CAND000028-1",
+        "segment-CAND000036-1",
+        "segment-CAND000041-1",
+        "segment-CAND000040-1",
+        "segment-CAND000039-1",
+        "segment-CAND000038-1",
+        "segment-CAND000037-1",
+        "segment-CAND000045-1",
+        "segment-CAND000048-1",
+        "segment-CAND000047-1",
+        "segment-CAND000046-1",
+        "segment-CAND000049-1",
+        "segment-CAND000050-1",
+        "segment-CAND000054-1",
+        "segment-CAND000055-1",
+        "segment-CAND000058-1",
+        "segment-CAND000059-1",
+        "segment-CAND000056-1",
+        "segment-CAND000057-1",
+        "segment-CAND000077-1",
+        "segment-CAND000078-1",
+        "segment-CAND000079-1",
+        "segment-CAND000080-1",
+        "segment-CAND000081-1",
+        "segment-CAND000082-1",
+        "segment-CAND000121-1",
+        "segment-CAND000137-1",
+        "segment-CAND000122-1",
+        "segment-CAND000123-1",
+        "segment-CAND000124-1",
+        "segment-CAND000136-1",
+        "segment-CAND000165-1",
+        "segment-CAND000176-1",
+        "segment-CAND000171-1",
+        "segment-CAND000175-1",
+        "segment-CAND000177-1",
+        "segment-CAND000169-1",
+        "segment-CAND000195-1",
+        "segment-CAND000199-1",
+        "segment-CAND000200-1",
+        "segment-CAND000198-1",
+        "segment-CAND000197-1",
+        "segment-CAND000196-1",
+        "segment-CAND000210-1",
+        "segment-CAND000252-1",
+        "segment-CAND000247-1",
+        "segment-CAND000251-1",
+        "segment-CAND000256-1",
+        "segment-CAND000257-1",
+        "segment-CAND000254-1",
+        "segment-CAND000255-1",
+        "segment-CAND000211-1",
+        "segment-CAND000212-1",
+        "segment-CAND000213-1",
+        "segment-CAND000214-1",
+        "segment-CAND000215-1",
+        "segment-CAND000216-1",
+        "segment-CAND000217-1",
+        "segment-CAND000218-1",
+        "segment-CAND000219-1",
+        "segment-CAND000220-1",
+        "segment-CAND000221-1",
+        "segment-CAND000222-1",
+        "segment-CAND000223-1",
+        "segment-CAND000224-1",
+        "segment-CAND000225-1",
+        "segment-CAND000226-1",
+        "segment-CAND000227-1",
+        "segment-CAND000228-1",
+        "segment-CAND000229-1",
+        "segment-CAND000230-1",
+        "segment-CAND000231-1",
+        "segment-CAND000232-1",
+        "segment-CAND000233-1",
+        "segment-CAND000234-1",
+        "segment-CAND000235-1",
+        "segment-CAND000236-1",
+        "segment-CAND000237-1",
+        "segment-CAND000238-1",
+        "segment-CAND000239-1",
+        "segment-CAND000253-1",
+        "segment-CAND000246-1",
+        "segment-CAND000240-1",
+        "segment-CAND000241-1",
+        "segment-CAND000242-1",
+        "segment-CAND000243-1",
+        "segment-CAND000244-1",
+        "segment-CAND000245-1",
+        "segment-CAND000250-1",
+        "segment-CAND000258-1",
+        "segment-CAND000249-1",
+        "segment-CAND000261-1",
+        "segment-CAND000262-1",
+        "segment-CAND000263-1",
+        "segment-CAND000264-1",
+        "segment-CAND000265-1",
+        "segment-CAND000266-1",
+        "segment-CAND000270-1",
+        "segment-CAND000275-1",
+        "segment-CAND000274-1",
+        "segment-CAND000273-1",
+        "segment-CAND000272-1",
+        "segment-CAND000271-1",
+        "segment-CAND000289-1",
+        "segment-CAND000291-1",
+        "segment-CAND000292-1",
+        "segment-CAND000290-1",
+        "segment-CAND000293-1",
+        "segment-CAND000295-1",
+        "segment-CAND000294-1",
+        "segment-CAND000296-1",
+        "segment-CAND000472-1",
+        "segment-CAND000473-1",
+        "segment-CAND000474-1",
+        "segment-CAND000475-1",
+        "segment-CAND000476-1",
+        "segment-CAND000477-1",
+        "segment-CAND000478-1",
+        "segment-CAND000479-1",
+        "segment-CAND000480-1",
+        "segment-CAND000481-1",
+        "segment-CAND000482-1",
+        "segment-CAND000483-1",
+        "segment-CAND000484-1",
+        "segment-CAND000485-1",
+        "segment-CAND000486-1",
+        "segment-CAND000487-1",
+        "segment-CAND000488-1",
+        "segment-CAND000489-1",
+        "segment-CAND000490-1",
+        "segment-CAND000491-1",
+        "segment-CAND000492-1",
+        "segment-CAND000537-1",
+        "segment-CAND000493-1",
+        "segment-CAND000494-1",
+        "segment-CAND000495-1",
+        "segment-CAND000496-1",
+        "segment-CAND000497-1",
+        "segment-CAND000498-1",
+        "segment-CAND000499-1",
+        "segment-CAND000500-1",
+        "segment-CAND000501-1",
+        "segment-CAND000502-1",
+        "segment-CAND000503-1",
+        "segment-CAND000504-1",
+        "segment-CAND000505-1",
+        "segment-CAND000506-1",
+        "segment-CAND000507-1",
+        "segment-CAND000508-1",
+        "segment-CAND000509-1",
+        "segment-CAND000510-1",
+        "segment-CAND000511-1",
+        "segment-CAND000512-1",
+        "segment-CAND000513-1",
+        "segment-CAND000514-1",
+        "segment-CAND000515-1",
+        "segment-CAND000516-1",
+        "segment-CAND000517-1",
+        "segment-CAND000518-1",
+        "segment-CAND000519-1",
+        "segment-CAND000520-1",
+        "segment-CAND000521-1",
+        "segment-CAND000522-1",
+        "segment-CAND000523-1",
+        "segment-CAND000524-1",
+        "segment-CAND000525-1",
+        "segment-CAND000526-1",
+        "segment-CAND000527-1",
+        "segment-CAND000543-1",
+        "segment-CAND000528-1",
+        "segment-CAND000529-1",
+        "segment-CAND000530-1",
+        "segment-CAND000531-1",
+        "segment-CAND000532-1",
+        "segment-CAND000533-1",
+        "segment-CAND000534-1",
+        "segment-CAND000535-1",
+        "segment-CAND000549-1",
+        "segment-CAND000553-1",
+        "segment-CAND000552-1",
+        "segment-CAND000551-1",
+        "segment-CAND000555-1",
+        "segment-CAND000550-1",
+        "segment-CAND000558-1",
+        "segment-CAND000561-1",
+        "segment-CAND000560-1",
+        "segment-CAND000559-1",
+        "segment-CAND000627-1",
+        "segment-CAND000632-1",
+        "segment-CAND000631-1",
+        "segment-CAND000633-1",
+        "segment-CAND000629-1",
+        "segment-CAND000628-1",
+        "segment-CAND000636-1",
+        "segment-CAND000637-1",
+        "segment-CAND000641-1",
+        "segment-CAND000638-1",
+        "segment-CAND000642-1",
+        "segment-CAND000640-1",
+        "segment-CAND000715-1",
+        "segment-CAND000719-1",
+        "segment-CAND000720-1",
+        "segment-CAND000718-1",
+        "segment-CAND000717-1",
+        "segment-CAND000716-1",
+        "segment-CAND000725-1",
+        "segment-CAND000726-1",
+        "segment-CAND000727-1",
+        "segment-CAND000728-1",
+        "segment-CAND000729-1",
+        "segment-CAND000730-1",
+        "segment-CAND000737-1",
+        "segment-CAND000742-1",
+        "segment-CAND000741-1",
+        "segment-CAND000740-1",
+        "segment-CAND000739-1",
+        "segment-CAND000738-1",
+        "segment-CAND000748-1",
+        "segment-CAND000753-1",
+        "segment-CAND000752-1",
+        "segment-CAND000751-1",
+        "segment-CAND000750-1",
+        "segment-CAND000749-1",
+        "segment-CAND000757-1",
+        "segment-CAND000762-1",
+        "segment-CAND000758-1",
+        "segment-CAND000759-1",
+        "segment-CAND000760-1",
+        "segment-CAND000761-1",
+        "segment-CAND000781-1",
+        "segment-CAND000804-1",
+        "segment-CAND000805-1",
+        "segment-CAND000784-1",
+        "segment-CAND000783-1",
+        "segment-CAND000782-1",
+        "segment-CAND000825-1",
+        "segment-CAND000848-1",
+        "segment-CAND000849-1",
+        "segment-CAND000828-1",
+        "segment-CAND000827-1",
+        "segment-CAND000826-1",
+        "segment-CAND000855-1",
+        "segment-CAND000860-1",
+        "segment-CAND000859-1",
+        "segment-CAND000858-1",
+        "segment-CAND000857-1",
+        "segment-CAND000856-1",
+        "segment-CAND000864-1",
+        "segment-CAND000869-1",
+        "segment-CAND000868-1",
+        "segment-CAND000867-1",
+        "segment-CAND000866-1",
+        "segment-CAND000865-1",
+        "segment-CAND000873-1",
+        "segment-CAND000878-1",
+        "segment-CAND000877-1",
+        "segment-CAND000876-1",
+        "segment-CAND000875-1",
+        "segment-CAND000874-1",
+        "segment-CAND000896-1",
+        "segment-CAND000920-1",
+        "segment-CAND000919-1",
+        "segment-CAND000899-1",
+        "segment-CAND000898-1",
+        "segment-CAND000897-1",
+        "segment-CAND001064-1",
+        "segment-CAND001158-1",
+        "segment-CAND001157-1",
+        "segment-CAND001156-1",
+        "segment-CAND001155-1",
+        "segment-CAND001154-1",
+        "segment-CAND001153-1",
+        "segment-CAND001152-1",
+        "segment-CAND001151-1",
+        "segment-CAND001150-1",
+        "segment-CAND001149-1",
+        "segment-CAND001148-1",
+        "segment-CAND001147-1",
+        "segment-CAND001146-1",
+        "segment-CAND001145-1",
+        "segment-CAND001144-1",
+        "segment-CAND001143-1",
+        "segment-CAND001142-1",
+        "segment-CAND001141-1",
+        "segment-CAND001140-1",
+        "segment-CAND001139-1",
+        "segment-CAND001138-1",
+        "segment-CAND001137-1",
+        "segment-CAND001136-1",
+        "segment-CAND001135-1",
+        "segment-CAND001134-1",
+        "segment-CAND001133-1",
+        "segment-CAND001132-1",
+        "segment-CAND001131-1",
+        "segment-CAND001130-1",
+        "segment-CAND001129-1",
+        "segment-CAND001128-1",
+        "segment-CAND001127-1",
+        "segment-CAND001126-1",
+        "segment-CAND001125-1",
+        "segment-CAND001124-1",
+        "segment-CAND001123-1",
+        "segment-CAND001122-1",
+        "segment-CAND001121-1",
+        "segment-CAND001120-1",
+        "segment-CAND001119-1",
+        "segment-CAND001118-1",
+        "segment-CAND001117-1",
+        "segment-CAND001116-1",
+        "segment-CAND001115-1",
+        "segment-CAND001114-1",
+        "segment-CAND001113-1",
+        "segment-CAND001112-1",
+        "segment-CAND001111-1",
+        "segment-CAND001110-1",
+        "segment-CAND001109-1",
+        "segment-CAND001108-1",
+        "segment-CAND001107-1",
+        "segment-CAND001106-1",
+        "segment-CAND001105-1",
+        "segment-CAND001104-1",
+        "segment-CAND001103-1",
+        "segment-CAND001102-1",
+        "segment-CAND001101-1",
+        "segment-CAND001100-1",
+        "segment-CAND001099-1",
+        "segment-CAND001098-1",
+        "segment-CAND001097-1",
+        "segment-CAND001096-1",
+        "segment-CAND001095-1",
+        "segment-CAND001094-1",
+        "segment-CAND001093-1",
+        "segment-CAND001092-1",
+        "segment-CAND001091-1",
+        "segment-CAND001090-1",
+        "segment-CAND001160-1",
+        "segment-CAND001159-1",
+        "segment-CAND001089-1",
+        "segment-CAND001088-1",
+        "segment-CAND001087-1",
+        "segment-CAND001086-1",
+        "segment-CAND001085-1",
+        "segment-CAND001084-1",
+        "segment-CAND001083-1",
+        "segment-CAND001082-1",
+        "segment-CAND001081-1",
+        "segment-CAND001080-1",
+        "segment-CAND001079-1",
+        "segment-CAND001078-1",
+        "segment-CAND001077-1",
+        "segment-CAND001076-1",
+        "segment-CAND001075-1",
+        "segment-CAND001074-1",
+        "segment-CAND001073-1",
+        "segment-CAND001072-1",
+        "segment-CAND001071-1",
+        "segment-CAND001070-1",
+        "segment-CAND001069-1",
+        "segment-CAND001068-1",
+        "segment-CAND001067-1",
+        "segment-CAND001066-1",
+        "segment-CAND001065-1"
+      ],
+      "excluded_interior_open_component_count": 32,
+      "excluded_interior_open_components": [
+        {
+          "source_segment_ids": [
+            "segment-CAND000061-1",
+            "segment-CAND000062-1",
+            "segment-CAND000062-2",
+            "segment-CAND000062-3",
+            "segment-CAND000062-4",
+            "segment-CAND000062-5",
+            "segment-CAND000062-6",
+            "segment-CAND000062-7",
+            "segment-CAND000062-8",
+            "segment-CAND000062-9",
+            "segment-CAND000063-1",
+            "segment-CAND000064-1",
+            "segment-CAND000064-2",
+            "segment-CAND000064-3",
+            "segment-CAND000064-4",
+            "segment-CAND000064-5",
+            "segment-CAND000064-6",
+            "segment-CAND000064-7",
+            "segment-CAND000064-8",
+            "segment-CAND000064-9",
+            "segment-CAND000065-1",
+            "segment-CAND000065-2",
+            "segment-CAND000065-3",
+            "segment-CAND000065-4",
+            "segment-CAND000065-5",
+            "segment-CAND000065-6",
+            "segment-CAND000065-7",
+            "segment-CAND000065-8",
+            "segment-CAND000065-9",
+            "segment-CAND000066-1",
+            "segment-CAND000067-1",
+            "segment-CAND000068-1",
+            "segment-CAND000069-1",
+            "segment-CAND000070-1",
+            "segment-CAND000071-1",
+            "segment-CAND000072-1",
+            "segment-CAND000072-2",
+            "segment-CAND000072-3",
+            "segment-CAND000072-4",
+            "segment-CAND000072-5",
+            "segment-CAND000072-6",
+            "segment-CAND000072-7",
+            "segment-CAND000072-8",
+            "segment-CAND000072-9",
+            "segment-CAND000073-1",
+            "segment-CAND000074-1",
+            "segment-CAND000075-1",
+            "segment-CAND000076-1",
+            "segment-CAND000088-1",
+            "segment-CAND000089-1",
+            "segment-CAND000090-1",
+            "segment-CAND000091-1",
+            "segment-CAND000092-1",
+            "segment-CAND000093-1",
+            "segment-CAND000094-1",
+            "segment-CAND000095-1",
+            "segment-CAND000096-1",
+            "segment-CAND000097-1",
+            "segment-CAND000099-1",
+            "segment-CAND000102-1",
+            "segment-CAND000103-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND000104-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND000105-1",
+            "segment-CAND000106-1",
+            "segment-CAND000106-2",
+            "segment-CAND000106-3",
+            "segment-CAND000106-4",
+            "segment-CAND000106-5",
+            "segment-CAND000106-6",
+            "segment-CAND000106-7",
+            "segment-CAND000106-8",
+            "segment-CAND000106-9",
+            "segment-CAND000107-1",
+            "segment-CAND000108-1",
+            "segment-CAND000108-2",
+            "segment-CAND000108-3",
+            "segment-CAND000108-4",
+            "segment-CAND000108-5",
+            "segment-CAND000108-6",
+            "segment-CAND000108-7",
+            "segment-CAND000108-8",
+            "segment-CAND000108-9",
+            "segment-CAND000109-1",
+            "segment-CAND000110-1",
+            "segment-CAND000110-2",
+            "segment-CAND000110-3",
+            "segment-CAND000110-4",
+            "segment-CAND000110-5",
+            "segment-CAND000110-6",
+            "segment-CAND000110-7",
+            "segment-CAND000110-8",
+            "segment-CAND000110-9",
+            "segment-CAND000111-1",
+            "segment-CAND000112-1",
+            "segment-CAND000112-2",
+            "segment-CAND000112-3",
+            "segment-CAND000112-4",
+            "segment-CAND000112-5",
+            "segment-CAND000112-6",
+            "segment-CAND000112-7",
+            "segment-CAND000112-8",
+            "segment-CAND000112-9",
+            "segment-CAND000113-1",
+            "segment-CAND000114-1",
+            "segment-CAND000115-1",
+            "segment-CAND000116-1",
+            "segment-CAND000117-1",
+            "segment-CAND000118-1",
+            "segment-CAND000119-1",
+            "segment-CAND000120-1",
+            "segment-CAND000130-1",
+            "segment-CAND000131-1",
+            "segment-CAND000132-1",
+            "segment-CAND000133-1",
+            "segment-CAND000134-1",
+            "segment-CAND000135-1",
+            "segment-CAND000139-1",
+            "segment-CAND000140-1",
+            "segment-CAND000142-1",
+            "segment-CAND000143-1",
+            "segment-CAND000145-1",
+            "segment-CAND000146-1",
+            "segment-CAND000147-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND000148-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND000149-1",
+            "segment-CAND000150-1",
+            "segment-CAND000150-2",
+            "segment-CAND000150-3",
+            "segment-CAND000150-4",
+            "segment-CAND000150-5",
+            "segment-CAND000150-6",
+            "segment-CAND000150-7",
+            "segment-CAND000150-8",
+            "segment-CAND000150-9",
+            "segment-CAND000151-1",
+            "segment-CAND000152-1",
+            "segment-CAND000152-2",
+            "segment-CAND000152-3",
+            "segment-CAND000152-4",
+            "segment-CAND000152-5",
+            "segment-CAND000152-6",
+            "segment-CAND000152-7",
+            "segment-CAND000152-8",
+            "segment-CAND000152-9",
+            "segment-CAND000153-1",
+            "segment-CAND000154-1",
+            "segment-CAND000155-1",
+            "segment-CAND000156-1",
+            "segment-CAND000156-2",
+            "segment-CAND000156-3",
+            "segment-CAND000156-4",
+            "segment-CAND000156-5",
+            "segment-CAND000156-6",
+            "segment-CAND000156-7",
+            "segment-CAND000156-8",
+            "segment-CAND000156-9",
+            "segment-CAND000157-1",
+            "segment-CAND000158-1",
+            "segment-CAND000159-1",
+            "segment-CAND000160-1",
+            "segment-CAND000160-2",
+            "segment-CAND000160-3",
+            "segment-CAND000160-4",
+            "segment-CAND000160-5",
+            "segment-CAND000160-6",
+            "segment-CAND000160-7",
+            "segment-CAND000160-8",
+            "segment-CAND000160-9",
+            "segment-CAND000161-1",
+            "segment-CAND000162-1",
+            "segment-CAND000163-1",
+            "segment-CAND000164-1",
+            "segment-CAND000166-1",
+            "segment-CAND000167-1",
+            "segment-CAND000168-1",
+            "segment-CAND000170-1",
+            "segment-CAND000172-1",
+            "segment-CAND000174-1",
+            "segment-CAND000178-1",
+            "segment-CAND000182-1",
+            "segment-CAND000184-1",
+            "segment-CAND000188-1",
+            "segment-CAND000189-1",
+            "segment-CAND000190-1",
+            "segment-CAND000191-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND000192-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND000765-1",
+            "segment-CAND000765-2",
+            "segment-CAND000765-3",
+            "segment-CAND000765-4",
+            "segment-CAND000765-5",
+            "segment-CAND000765-6",
+            "segment-CAND000765-7",
+            "segment-CAND000765-8",
+            "segment-CAND000765-9",
+            "segment-CAND000766-1",
+            "segment-CAND000767-1",
+            "segment-CAND000768-1",
+            "segment-CAND000769-1",
+            "segment-CAND000769-2",
+            "segment-CAND000769-3",
+            "segment-CAND000769-4",
+            "segment-CAND000769-5",
+            "segment-CAND000769-6",
+            "segment-CAND000769-7",
+            "segment-CAND000769-8",
+            "segment-CAND000769-9",
+            "segment-CAND000770-1",
+            "segment-CAND000771-1",
+            "segment-CAND000772-1",
+            "segment-CAND000773-1",
+            "segment-CAND000773-2",
+            "segment-CAND000773-3",
+            "segment-CAND000773-4",
+            "segment-CAND000773-5",
+            "segment-CAND000773-6",
+            "segment-CAND000773-7",
+            "segment-CAND000773-8",
+            "segment-CAND000773-9",
+            "segment-CAND000774-1",
+            "segment-CAND000775-1",
+            "segment-CAND000776-1",
+            "segment-CAND000776-2",
+            "segment-CAND000776-3",
+            "segment-CAND000776-4",
+            "segment-CAND000776-5",
+            "segment-CAND000776-6",
+            "segment-CAND000776-7",
+            "segment-CAND000776-8",
+            "segment-CAND000776-9",
+            "segment-CAND000777-1",
+            "segment-CAND000778-1",
+            "segment-CAND000779-1",
+            "segment-CAND000780-1",
+            "segment-CAND000785-1",
+            "segment-CAND000786-1",
+            "segment-CAND000787-1",
+            "segment-CAND000788-1",
+            "segment-CAND000789-1",
+            "segment-CAND000790-1",
+            "segment-CAND000791-1",
+            "segment-CAND000792-1",
+            "segment-CAND000793-1",
+            "segment-CAND000794-1",
+            "segment-CAND000795-1",
+            "segment-CAND000806-1",
+            "segment-CAND000807-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND000808-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND000809-1",
+            "segment-CAND000809-2",
+            "segment-CAND000809-3",
+            "segment-CAND000809-4",
+            "segment-CAND000809-5",
+            "segment-CAND000809-6",
+            "segment-CAND000809-7",
+            "segment-CAND000809-8",
+            "segment-CAND000809-9",
+            "segment-CAND000810-1",
+            "segment-CAND000811-1",
+            "segment-CAND000812-1",
+            "segment-CAND000813-1",
+            "segment-CAND000813-2",
+            "segment-CAND000813-3",
+            "segment-CAND000813-4",
+            "segment-CAND000813-5",
+            "segment-CAND000813-6",
+            "segment-CAND000813-7",
+            "segment-CAND000813-8",
+            "segment-CAND000813-9",
+            "segment-CAND000814-1",
+            "segment-CAND000815-1",
+            "segment-CAND000816-1",
+            "segment-CAND000817-1",
+            "segment-CAND000817-2",
+            "segment-CAND000817-3",
+            "segment-CAND000817-4",
+            "segment-CAND000817-5",
+            "segment-CAND000817-6",
+            "segment-CAND000817-7",
+            "segment-CAND000817-8",
+            "segment-CAND000817-9",
+            "segment-CAND000818-1",
+            "segment-CAND000819-1",
+            "segment-CAND000820-1",
+            "segment-CAND000820-2",
+            "segment-CAND000820-3",
+            "segment-CAND000820-4",
+            "segment-CAND000820-5",
+            "segment-CAND000820-6",
+            "segment-CAND000820-7",
+            "segment-CAND000820-8",
+            "segment-CAND000820-9",
+            "segment-CAND000821-1",
+            "segment-CAND000822-1",
+            "segment-CAND000823-1",
+            "segment-CAND000824-1",
+            "segment-CAND000829-1",
+            "segment-CAND000830-1",
+            "segment-CAND000831-1",
+            "segment-CAND000832-1",
+            "segment-CAND000833-1",
+            "segment-CAND000834-1",
+            "segment-CAND000835-1",
+            "segment-CAND000836-1",
+            "segment-CAND000837-1",
+            "segment-CAND000838-1",
+            "segment-CAND000839-1",
+            "segment-CAND000850-1",
+            "segment-CAND000851-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND000852-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND000880-1",
+            "segment-CAND000881-1",
+            "segment-CAND000881-2",
+            "segment-CAND000881-3",
+            "segment-CAND000881-4",
+            "segment-CAND000881-5",
+            "segment-CAND000881-6",
+            "segment-CAND000881-7",
+            "segment-CAND000881-8",
+            "segment-CAND000881-9",
+            "segment-CAND000882-1",
+            "segment-CAND000883-1",
+            "segment-CAND000883-2",
+            "segment-CAND000883-3",
+            "segment-CAND000883-4",
+            "segment-CAND000883-5",
+            "segment-CAND000883-6",
+            "segment-CAND000883-7",
+            "segment-CAND000883-8",
+            "segment-CAND000883-9",
+            "segment-CAND000884-1",
+            "segment-CAND000884-2",
+            "segment-CAND000884-3",
+            "segment-CAND000884-4",
+            "segment-CAND000884-5",
+            "segment-CAND000884-6",
+            "segment-CAND000884-7",
+            "segment-CAND000884-8",
+            "segment-CAND000884-9",
+            "segment-CAND000885-1",
+            "segment-CAND000886-1",
+            "segment-CAND000887-1",
+            "segment-CAND000888-1",
+            "segment-CAND000889-1",
+            "segment-CAND000890-1",
+            "segment-CAND000891-1",
+            "segment-CAND000891-2",
+            "segment-CAND000891-3",
+            "segment-CAND000891-4",
+            "segment-CAND000891-5",
+            "segment-CAND000891-6",
+            "segment-CAND000891-7",
+            "segment-CAND000891-8",
+            "segment-CAND000891-9",
+            "segment-CAND000892-1",
+            "segment-CAND000893-1",
+            "segment-CAND000894-1",
+            "segment-CAND000895-1",
+            "segment-CAND000900-1",
+            "segment-CAND000901-1",
+            "segment-CAND000902-1",
+            "segment-CAND000903-1",
+            "segment-CAND000904-1",
+            "segment-CAND000905-1",
+            "segment-CAND000906-1",
+            "segment-CAND000907-1",
+            "segment-CAND000908-1",
+            "segment-CAND000909-1",
+            "segment-CAND000910-1",
+            "segment-CAND000921-1",
+            "segment-CAND000922-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND000923-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND000924-1",
+            "segment-CAND000925-1",
+            "segment-CAND000926-1",
+            "segment-CAND000927-1",
+            "segment-CAND000928-1",
+            "segment-CAND000929-1",
+            "segment-CAND000930-1",
+            "segment-CAND000931-1",
+            "segment-CAND000946-1",
+            "segment-CAND000947-1",
+            "segment-CAND000979-1",
+            "segment-CAND000980-1",
+            "segment-CAND000981-1",
+            "segment-CAND000982-1",
+            "segment-CAND000983-1",
+            "segment-CAND000984-1",
+            "segment-CAND001010-1",
+            "segment-CAND001011-1",
+            "segment-CAND001012-1",
+            "segment-CAND001013-1",
+            "segment-CAND001014-1",
+            "segment-CAND001015-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND000932-1",
+            "segment-CAND000933-1",
+            "segment-CAND000934-1",
+            "segment-CAND000935-1",
+            "segment-CAND000936-1",
+            "segment-CAND000937-1",
+            "segment-CAND000938-1",
+            "segment-CAND000955-1",
+            "segment-CAND000956-1",
+            "segment-CAND000957-1",
+            "segment-CAND000964-1",
+            "segment-CAND000965-1",
+            "segment-CAND000966-1",
+            "segment-CAND000967-1",
+            "segment-CAND000968-1",
+            "segment-CAND000969-1",
+            "segment-CAND001016-1",
+            "segment-CAND001017-1",
+            "segment-CAND001018-1",
+            "segment-CAND001019-1",
+            "segment-CAND001020-1",
+            "segment-CAND001021-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND000939-1",
+            "segment-CAND000940-1",
+            "segment-CAND000941-1",
+            "segment-CAND000942-1",
+            "segment-CAND000943-1",
+            "segment-CAND000944-1",
+            "segment-CAND000945-1",
+            "segment-CAND000958-1",
+            "segment-CAND000959-1",
+            "segment-CAND000960-1",
+            "segment-CAND000970-1",
+            "segment-CAND000971-1",
+            "segment-CAND000972-1",
+            "segment-CAND000973-1",
+            "segment-CAND000974-1",
+            "segment-CAND000975-1",
+            "segment-CAND001022-1",
+            "segment-CAND001023-1",
+            "segment-CAND001024-1",
+            "segment-CAND001025-1",
+            "segment-CAND001026-1",
+            "segment-CAND001027-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND000948-1",
+            "segment-CAND000949-1",
+            "segment-CAND000950-1",
+            "segment-CAND000951-1",
+            "segment-CAND000952-1",
+            "segment-CAND000953-1",
+            "segment-CAND000954-1",
+            "segment-CAND000961-1",
+            "segment-CAND000962-1",
+            "segment-CAND000963-1",
+            "segment-CAND000976-1",
+            "segment-CAND000977-1",
+            "segment-CAND000978-1",
+            "segment-CAND000985-1",
+            "segment-CAND000986-1",
+            "segment-CAND000987-1",
+            "segment-CAND001028-1",
+            "segment-CAND001029-1",
+            "segment-CAND001030-1",
+            "segment-CAND001031-1",
+            "segment-CAND001032-1",
+            "segment-CAND001033-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND000988-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND000989-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND000990-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND000991-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND000992-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND000993-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND000994-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND000995-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND001168-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND001169-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND001170-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND001171-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND001172-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND001173-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND001174-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        },
+        {
+          "source_segment_ids": [
+            "segment-CAND001175-1"
+          ],
+          "reason": "Endpoint component is open or branched; no gap filling was performed"
+        }
+      ],
+      "unresolved_components": [],
+      "max_local_svg_endpoint_error": 2.099360442982168e-10,
+      "roundtrip_tolerance": 1e-06,
+      "containment_flatten_tolerance": 0.001,
+      "fallback_used": false,
+      "display_only": true,
+      "native_svg_bbox": [
+        140.6429999999999,
+        -788.854,
+        530.943000000065,
+        12.646000000000033
+      ]
+    },
+    "renderable_count": 211,
+    "no_geometry_ids": [
+      "O001",
+      "O026",
+      "O175",
+      "O215",
+      "O216",
+      "O217",
+      "O218",
+      "O219",
+      "O220",
+      "O221",
+      "O222",
+      "O223",
+      "O224"
+    ],
+    "unrenderable_geometry": [],
+    "bend_geometry_mapping_issues": [],
+    "region_group_counts": {
+      "NO_GEOMETRY": 13,
+      "OUTSIDE_REGION": 25,
+      "R001": 1,
+      "R002": 3,
+      "R003": 1,
+      "R004": 3,
+      "R005": 3,
+      "R006": 5,
+      "R007": 23,
+      "R008": 6,
+      "R009": 6,
+      "R010": 3,
+      "R011": 2,
+      "R012": 2,
+      "R013": 3,
+      "R014": 3,
+      "R015": 3,
+      "R016": 3,
+      "R017": 2,
+      "R018": 2,
+      "R019": 2,
+      "R020": 2,
+      "R021": 4,
+      "R022": 3,
+      "R023": 3,
+      "R024": 1,
+      "R025": 4,
+      "R026": 1,
+      "R027": 4,
+      "R028": 1,
+      "R029": 4,
+      "R030": 1,
+      "R031": 4,
+      "R032": 1,
+      "R033": 4,
+      "R034": 1,
+      "R035": 4,
+      "R036": 1,
+      "R037": 6,
+      "R038": 1,
+      "R039": 4,
+      "R040": 1,
+      "R041": 4,
+      "R042": 1,
+      "R043": 4,
+      "R044": 1,
+      "R045": 4,
+      "R046": 3,
+      "R047": 1,
+      "R048": 3,
+      "R049": 10,
+      "R050": 2,
+      "R051": 2,
+      "R052": 2,
+      "R053": 2,
+      "R054": 3,
+      "R055": 3,
+      "R056": 3,
+      "R057": 2,
+      "R058": 2,
+      "R059": 3
+    },
+    "d3": {
+      "exploratory_only": true,
+      "valid_region_count": 59,
+      "invalid_regions": [],
+      "representative_point_source": "M2 GeometryFeatureExtractorV1, converted back to material coordinates",
+      "boundary_convention": "closed rectangle; shared-boundary membership is reported",
+      "equal_smallest_area_policy": "unresolved; no region assigned without a unique smallest region",
+      "status": "available",
+      "valid_representative_point_count": 211,
+      "no_geometry_count": 13,
+      "outside_region_count": 25,
+      "invalid_representative_points": [],
+      "ambiguous_smallest_regions": [],
+      "assigned_operation_count": 186,
+      "nonempty_region_count": 59
+    }
+  },
+  "bbox": [
+    140.6429999999999,
+    -12.646000000000033,
+    530.943000000065,
+    788.854
+  ],
+  "view_box": [
+    100.5679999999999,
+    -828.9290000000001,
+    470.45000000006513,
+    881.6500000000001
+  ],
+  "blinding_audit": {
+    "passed": true,
+    "file_count": 15,
+    "checked_files": [
+      "comparison_pairs.csv",
+      "plan_cards/PLAN_A01.html",
+      "plan_cards/PLAN_A02.html",
+      "plan_cards/PLAN_A03.html",
+      "plan_cards/PLAN_A04.html",
+      "plan_cards/PLAN_A05.html",
+      "plan_cards/PLAN_A06.html",
+      "plan_cards/PLAN_A07.html",
+      "plan_cards/PLAN_A08.html",
+      "plan_cards/PLAN_A09.html",
+      "plan_cards/PLAN_A10.html",
+      "plan_cards/PLAN_A11.html",
+      "plan_cards/PLAN_A12.html",
+      "plan_cards/PLAN_A13.html",
+      "review_pack.html"
+    ],
+    "findings": [],
+    "comparisons": 24,
+    "plans": 13,
+    "network_resources": 0,
+    "all_answers_blank": true
+  },
+  "preview_files": [
+    {
+      "name": "single_OP20",
+      "svg": "D:\\sheet_process_assignment\\outputs\\m3_visual_review_v05\\internal\\previews\\single_OP20.svg",
+      "station": "OP20",
+      "state": {},
+      "png": "D:\\sheet_process_assignment\\outputs\\m3_visual_review_v05\\internal\\previews\\single_OP20.png"
+    },
+    {
+      "name": "comparison_OP20",
+      "svg": "D:\\sheet_process_assignment\\outputs\\m3_visual_review_v05\\internal\\previews\\comparison_OP20.svg",
+      "station": "OP20",
+      "state": {},
+      "png": "D:\\sheet_process_assignment\\outputs\\m3_visual_review_v05\\internal\\previews\\comparison_OP20.png"
+    },
+    {
+      "name": "single_OP50",
+      "svg": "D:\\sheet_process_assignment\\outputs\\m3_visual_review_v05\\internal\\previews\\single_OP50.svg",
+      "station": "OP50",
+      "state": {},
+      "png": "D:\\sheet_process_assignment\\outputs\\m3_visual_review_v05\\internal\\previews\\single_OP50.png"
+    },
+    {
+      "name": "comparison_OP50",
+      "svg": "D:\\sheet_process_assignment\\outputs\\m3_visual_review_v05\\internal\\previews\\comparison_OP50.svg",
+      "station": "OP50",
+      "state": {},
+      "png": "D:\\sheet_process_assignment\\outputs\\m3_visual_review_v05\\internal\\previews\\comparison_OP50.png"
+    },
+    {
+      "name": "comparison_difference_only",
+      "svg": "D:\\sheet_process_assignment\\outputs\\m3_visual_review_v05\\internal\\previews\\comparison_difference_only.svg",
+      "station": "OP20",
+      "state": {
+        "difference_only": true
+      },
+      "png": "D:\\sheet_process_assignment\\outputs\\m3_visual_review_v05\\internal\\previews\\comparison_difference_only.png"
+    },
+    {
+      "name": "comparison_influence_regions",
+      "svg": "D:\\sheet_process_assignment\\outputs\\m3_visual_review_v05\\internal\\previews\\comparison_influence_regions.svg",
+      "station": "OP50",
+      "state": {
+        "show_influence": true
+      },
+      "png": "D:\\sheet_process_assignment\\outputs\\m3_visual_review_v05\\internal\\previews\\comparison_influence_regions.png"
+    },
+    {
+      "name": "comparison_region_filter",
+      "svg": "D:\\sheet_process_assignment\\outputs\\m3_visual_review_v05\\internal\\previews\\comparison_region_filter.svg",
+      "station": "OP50",
+      "state": {
+        "region_filter": "R001",
+        "show_influence": true
+      },
+      "png": "D:\\sheet_process_assignment\\outputs\\m3_visual_review_v05\\internal\\previews\\comparison_region_filter.png"
+    },
+    {
+      "name": "comparison_original_orientation",
+      "svg": "D:\\sheet_process_assignment\\outputs\\m3_visual_review_v05\\internal\\previews\\comparison_original_orientation.svg",
+      "station": "OP20",
+      "state": {
+        "rotation_degrees": 0
+      },
+      "png": "D:\\sheet_process_assignment\\outputs\\m3_visual_review_v05\\internal\\previews\\comparison_original_orientation.png"
+    }
+  ],
+  "png_preview_issues": [],
+  "all_answers_blank": true,
+  "archive": "D:\\sheet_process_assignment\\outputs\\m3_visual_review_v05\\plan_comparison_visual_pack.zip",
+  "archive_contains_only_blind_material": true,
+  "frozen_integrity": {
+    "checked_file_count": 245,
+    "all_unchanged": true,
+    "files": [
+      {
+        "path": "configs/m3_candidate_generator.yaml",
+        "before_sha256": "e100a5b01da6b176b267f45f018d7f8a7863a294d689b779b966859a527e49fa",
+        "after_sha256": "e100a5b01da6b176b267f45f018d7f8a7863a294d689b779b966859a527e49fa",
+        "unchanged": true
+      },
+      {
+        "path": "configs/m3_constraints.yaml",
+        "before_sha256": "59ce2fad51e8c56f6e2c57b6a350bd8334dc2ed9ab4b740339e4abded869c329",
+        "after_sha256": "59ce2fad51e8c56f6e2c57b6a350bd8334dc2ed9ab4b740339e4abded869c329",
+        "unchanged": true
+      },
+      {
+        "path": "configs/m3_human_review.yaml",
+        "before_sha256": "86cf5f27db063bf03219110230fa80e75555ed10c2b72147ba4e67967f083b5b",
+        "after_sha256": "86cf5f27db063bf03219110230fa80e75555ed10c2b72147ba4e67967f083b5b",
+        "unchanged": true
+      },
+      {
+        "path": "data/raw/reconstructed_local.html",
+        "before_sha256": "ba03173e4a62abe7c6b13eb0bbb954458f5d4580539deceabcbef6a84869c11d",
+        "after_sha256": "ba03173e4a62abe7c6b13eb0bbb954458f5d4580539deceabcbef6a84869c11d",
+        "unchanged": true
+      },
+      {
+        "path": "data/raw/钣金加工数据表_P001.xlsx",
+        "before_sha256": "738efdb25c083290e15aa3c8724e1e2c4f0658e1cc7dcd83873b9ca0777b3bde",
+        "after_sha256": "738efdb25c083290e15aa3c8724e1e2c4f0658e1cc7dcd83873b9ca0777b3bde",
+        "unchanged": true
+      },
+      {
+        "path": "docs/MILESTONE_2_GRAPH_SPEC.md",
+        "before_sha256": "3b3ce2c5d57e3db55dacc04375bcc371160431bd07ea5057a7654e5e75387d6f",
+        "after_sha256": "3b3ce2c5d57e3db55dacc04375bcc371160431bd07ea5057a7654e5e75387d6f",
+        "unchanged": true
+      },
+      {
+        "path": "docs/MILESTONE_2_IMPLEMENTATION.md",
+        "before_sha256": "31418446b491d5c99c51cc315d5442c53a863813d3bc246f5e7f6c6c4fa497d3",
+        "after_sha256": "31418446b491d5c99c51cc315d5442c53a863813d3bc246f5e7f6c6c4fa497d3",
+        "unchanged": true
+      },
+      {
+        "path": "docs/MILESTONE_3_CANDIDATE_GENERATOR.md",
+        "before_sha256": "a4a8f38c71157d9407343df457c72160fd104f757ce7365e8ae868b715f70551",
+        "after_sha256": "a4a8f38c71157d9407343df457c72160fd104f757ce7365e8ae868b715f70551",
+        "unchanged": true
+      },
+      {
+        "path": "docs/MILESTONE_3_CONSTRAINT_SPEC.md",
+        "before_sha256": "06afa8b2797ca8d1af9a499ab777dcfb78463b180032847e102a8f3f1bca0cdc",
+        "after_sha256": "06afa8b2797ca8d1af9a499ab777dcfb78463b180032847e102a8f3f1bca0cdc",
+        "unchanged": true
+      },
+      {
+        "path": "docs/MILESTONE_3_HUMAN_REVIEW_PACK.md",
+        "before_sha256": "7652da824af355c4b79f94e520e6cfd860fc3a788f2ea56b30ec315dd2ee3b0a",
+        "after_sha256": "7652da824af355c4b79f94e520e6cfd860fc3a788f2ea56b30ec315dd2ee3b0a",
+        "unchanged": true
+      },
+      {
+        "path": "docs/MILESTONE_3_VISUALIZATION.md",
+        "before_sha256": "b416ba24f739962358391e57499849aaf3a4d94ecdc843598b4e2246d7ca58ea",
+        "after_sha256": "b416ba24f739962358391e57499849aaf3a4d94ecdc843598b4e2246d7ca58ea",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_candidates/batch_validation.json",
+        "before_sha256": "eba6eb96e15f1d7d11aaa3d57b06203caa9e081b845c7fb076e5e51f3d1f9a7b",
+        "after_sha256": "eba6eb96e15f1d7d11aaa3d57b06203caa9e081b845c7fb076e5e51f3d1f9a7b",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_candidates/candidate_generation_report.json",
+        "before_sha256": "38b01a3b2618381e202678eefea269aeb4f220160caec77f79b8dd85a44f5ab9",
+        "after_sha256": "38b01a3b2618381e202678eefea269aeb4f220160caec77f79b8dd85a44f5ab9",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_candidates/candidate_generation_report.md",
+        "before_sha256": "b7ac7207ea23c0a28dce1c8dc25ac1ce73796b504ac51df31cb2d088a4ba3834",
+        "after_sha256": "b7ac7207ea23c0a28dce1c8dc25ac1ce73796b504ac51df31cb2d088a4ba3834",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_candidates/candidate_pool.jsonl",
+        "before_sha256": "86ea1010579764706bb7299ea419469fd9f38167a7ca927488b51020d8d9592c",
+        "after_sha256": "86ea1010579764706bb7299ea419469fd9f38167a7ca927488b51020d8d9592c",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_candidates/expert_reference.json",
+        "before_sha256": "cd49ec8ddb18a8ed022cee2e8e02e2943e9e07df0ad4980c32e15616214d64b4",
+        "after_sha256": "cd49ec8ddb18a8ed022cee2e8e02e2943e9e07df0ad4980c32e15616214d64b4",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_candidates/frozen_input_manifest.json",
+        "before_sha256": "2d04f2677a4cf8117189380aea0d7a7a05d74fe77d24debd553054126e18e629",
+        "after_sha256": "2d04f2677a4cf8117189380aea0d7a7a05d74fe77d24debd553054126e18e629",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_candidates/frozen_integrity_check.json",
+        "before_sha256": "d49cfaac544c958a7a00f04935d94a0decc937c3ef8fe75bc62e347b3c93135b",
+        "after_sha256": "d49cfaac544c958a7a00f04935d94a0decc937c3ef8fe75bc62e347b3c93135b",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_candidates/operation_movement_frequency.csv",
+        "before_sha256": "18783c98609ff6aee5ecd06b0368e5b202902e0f712af49123f1d8ca737dd595",
+        "after_sha256": "18783c98609ff6aee5ecd06b0368e5b202902e0f712af49123f1d8ca737dd595",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_candidates/selected_candidate_summary.csv",
+        "before_sha256": "9f6f01dbde73ce23ef0fa65d58d3e1c686024592b19b80ba1008aa8376094596",
+        "after_sha256": "9f6f01dbde73ce23ef0fa65d58d3e1c686024592b19b80ba1008aa8376094596",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_candidates/selected_candidates.jsonl",
+        "before_sha256": "27b31e38a156c2751210a140fd8f568aa1da74f47f7d8c48a90bb5ac022799e7",
+        "after_sha256": "27b31e38a156c2751210a140fd8f568aa1da74f47f7d8c48a90bb5ac022799e7",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_candidates/selected_plan_assignments.csv",
+        "before_sha256": "1d19d5917f571bda97e24ac5abae2de3a2e05b52fa3226758ac843000751ea53",
+        "after_sha256": "1d19d5917f571bda97e24ac5abae2de3a2e05b52fa3226758ac843000751ea53",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_candidates/test_results.json",
+        "before_sha256": "bc69aa97b653927fae5156897804eba0b9858629b4544b3cb12f4853df353c9b",
+        "after_sha256": "bc69aa97b653927fae5156897804eba0b9858629b4544b3cb12f4853df353c9b",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_candidates/test_results.txt",
+        "before_sha256": "ee31edea11610f4091f0cb5194d926ccfd9baa11c619f15714c01c516c256189",
+        "after_sha256": "ee31edea11610f4091f0cb5194d926ccfd9baa11c619f15714c01c516c256189",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_diagnostics/expert_plan_constraint_report.json",
+        "before_sha256": "67eb002f1448e5003902ace366891ffe73894b0862f1f3f83f81a6d22cc55b1a",
+        "after_sha256": "67eb002f1448e5003902ace366891ffe73894b0862f1f3f83f81a6d22cc55b1a",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_diagnostics/expert_plan_constraint_report.md",
+        "before_sha256": "fa199682ccaadc7f8f1ea6624aa12c1b22a3cbc3497b0573c01f2a0a04457a50",
+        "after_sha256": "fa199682ccaadc7f8f1ea6624aa12c1b22a3cbc3497b0573c01f2a0a04457a50",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_diagnostics/frozen_input_manifest.json",
+        "before_sha256": "48e901204b788a3c1a5e739e05814c8b30bccf7a5c338e195d19d9ea5acd04ca",
+        "after_sha256": "48e901204b788a3c1a5e739e05814c8b30bccf7a5c338e195d19d9ea5acd04ca",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_diagnostics/frozen_integrity_check.json",
+        "before_sha256": "58650bcc135166ea8e46086b5e30cf980966b4b918954a85143eeb8e6bc77675",
+        "after_sha256": "58650bcc135166ea8e46086b5e30cf980966b4b918954a85143eeb8e6bc77675",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_diagnostics/test_results.json",
+        "before_sha256": "11ab82e9b76637f81dda947a23b59d44236ec2e245818b0070f89203a86f4a85",
+        "after_sha256": "11ab82e9b76637f81dda947a23b59d44236ec2e245818b0070f89203a86f4a85",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_diagnostics/test_results.txt",
+        "before_sha256": "dce61a5865980e8f25354821841c60aad3abce214ab5f3ead44a473089fa0543",
+        "after_sha256": "dce61a5865980e8f25354821841c60aad3abce214ab5f3ead44a473089fa0543",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/comparison_pairs.csv",
+        "before_sha256": "906411505f1edffcedfb55ecc9d02c55cb375adeb0d7ecaaaec0f24b108e492c",
+        "after_sha256": "906411505f1edffcedfb55ecc9d02c55cb375adeb0d7ecaaaec0f24b108e492c",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A01.csv",
+        "before_sha256": "124e1e62d96331bddaf1618d95ed667611269ec525d881225d9a3bf9d73f88d3",
+        "after_sha256": "124e1e62d96331bddaf1618d95ed667611269ec525d881225d9a3bf9d73f88d3",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A01.html",
+        "before_sha256": "8831ed528276bb417a022c93bfe461cc08629ef271166d43049a3761a6e874cd",
+        "after_sha256": "8831ed528276bb417a022c93bfe461cc08629ef271166d43049a3761a6e874cd",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A01.md",
+        "before_sha256": "034fd735e59839bacc6880964fd5dde03634e6f954106079b763b99da245079c",
+        "after_sha256": "034fd735e59839bacc6880964fd5dde03634e6f954106079b763b99da245079c",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A02.csv",
+        "before_sha256": "b33de73f93fcbbe8fa465d990b6ff1b535bb48627c54b67705d1a20b04577c95",
+        "after_sha256": "b33de73f93fcbbe8fa465d990b6ff1b535bb48627c54b67705d1a20b04577c95",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A02.html",
+        "before_sha256": "52f52d44f571136618be15c6442bd7d1f49518de3ae62d9d007d816287fb11e1",
+        "after_sha256": "52f52d44f571136618be15c6442bd7d1f49518de3ae62d9d007d816287fb11e1",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A02.md",
+        "before_sha256": "0d84e990ded67532032817bb77f847ac5c51399f306e580717cca28c1b48580c",
+        "after_sha256": "0d84e990ded67532032817bb77f847ac5c51399f306e580717cca28c1b48580c",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A03.csv",
+        "before_sha256": "4f69268e18bfc8d02c63b35a566dd04a4bd5661883435b3aa2e58ab62aff5831",
+        "after_sha256": "4f69268e18bfc8d02c63b35a566dd04a4bd5661883435b3aa2e58ab62aff5831",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A03.html",
+        "before_sha256": "edac77257690560870a875709e18924d25b2e194c9c5d238bfc39775c41c66be",
+        "after_sha256": "edac77257690560870a875709e18924d25b2e194c9c5d238bfc39775c41c66be",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A03.md",
+        "before_sha256": "95f0649c7d7135d87fd7cc0709d0171d9082b3dfe711624393f3c3bdac4752ce",
+        "after_sha256": "95f0649c7d7135d87fd7cc0709d0171d9082b3dfe711624393f3c3bdac4752ce",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A04.csv",
+        "before_sha256": "d6f78f6f1ceea2298575272b3a313657a3419dc314c316300a1596d6cb55b798",
+        "after_sha256": "d6f78f6f1ceea2298575272b3a313657a3419dc314c316300a1596d6cb55b798",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A04.html",
+        "before_sha256": "dbf85fb85e564209282469398986a524bbfb5dea7287c9ae60e414c35ef91e3f",
+        "after_sha256": "dbf85fb85e564209282469398986a524bbfb5dea7287c9ae60e414c35ef91e3f",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A04.md",
+        "before_sha256": "01eda6dd4f525d98b7052cc20f735e1df99ba0c6cac83e48e09a889209f84575",
+        "after_sha256": "01eda6dd4f525d98b7052cc20f735e1df99ba0c6cac83e48e09a889209f84575",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A05.csv",
+        "before_sha256": "1b5e6b4fb0d80a9c3bbaedfa162ed26781517ad95017b5ad1a25ecae7bee401d",
+        "after_sha256": "1b5e6b4fb0d80a9c3bbaedfa162ed26781517ad95017b5ad1a25ecae7bee401d",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A05.html",
+        "before_sha256": "69591291cef17a0e0e273ade9af147ba507b4b6e1d0cf825668ad252416c425d",
+        "after_sha256": "69591291cef17a0e0e273ade9af147ba507b4b6e1d0cf825668ad252416c425d",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A05.md",
+        "before_sha256": "62540d3936c4c74be13a03506cdc4b2a2e9c93efde5a3cfe6974e42ae3210f5a",
+        "after_sha256": "62540d3936c4c74be13a03506cdc4b2a2e9c93efde5a3cfe6974e42ae3210f5a",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A06.csv",
+        "before_sha256": "b87743262f5d035ce4603856a38ee1c2bc9e93009bbb69b6218ba262d317fc83",
+        "after_sha256": "b87743262f5d035ce4603856a38ee1c2bc9e93009bbb69b6218ba262d317fc83",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A06.html",
+        "before_sha256": "927793a10b18a9bfe2e574f0e9115c62b398a2623690137f5e3ce6f9571bbdf6",
+        "after_sha256": "927793a10b18a9bfe2e574f0e9115c62b398a2623690137f5e3ce6f9571bbdf6",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A06.md",
+        "before_sha256": "c1eb2da8c9598926af3f89342ae72edf196ebccd844a899803fbe11d27395b6a",
+        "after_sha256": "c1eb2da8c9598926af3f89342ae72edf196ebccd844a899803fbe11d27395b6a",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A07.csv",
+        "before_sha256": "45a07f059856b9f53a70ddc897eb626f12ed3bf70e5d599ee9035ecd8f60d5e3",
+        "after_sha256": "45a07f059856b9f53a70ddc897eb626f12ed3bf70e5d599ee9035ecd8f60d5e3",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A07.html",
+        "before_sha256": "c1c796ba76adb5bea4b861c6220b5e1fe44711c11edbda4fd0c34d0182253d35",
+        "after_sha256": "c1c796ba76adb5bea4b861c6220b5e1fe44711c11edbda4fd0c34d0182253d35",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A07.md",
+        "before_sha256": "f6d02c00ceb3902d2fe71087b875e70e326cd944d3e091b9da5ca4ba22c95eaa",
+        "after_sha256": "f6d02c00ceb3902d2fe71087b875e70e326cd944d3e091b9da5ca4ba22c95eaa",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A08.csv",
+        "before_sha256": "080d2eee70f0ae202aac7099a58149e469f09307c76a07f49bcc6f499db135f1",
+        "after_sha256": "080d2eee70f0ae202aac7099a58149e469f09307c76a07f49bcc6f499db135f1",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A08.html",
+        "before_sha256": "dce7b3024763c728bf08c9783507f761a7d80681f92657e886803fec93760381",
+        "after_sha256": "dce7b3024763c728bf08c9783507f761a7d80681f92657e886803fec93760381",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A08.md",
+        "before_sha256": "06552ce5f6560be5ad1eddc98f5f670d110b99aaae20130183ef8f4ecf1ea383",
+        "after_sha256": "06552ce5f6560be5ad1eddc98f5f670d110b99aaae20130183ef8f4ecf1ea383",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A09.csv",
+        "before_sha256": "5359261890506935581457a5c4445a0baa6cc2adef263777fd38c7bd0590d250",
+        "after_sha256": "5359261890506935581457a5c4445a0baa6cc2adef263777fd38c7bd0590d250",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A09.html",
+        "before_sha256": "918f1967747d5e1f45a78d48fc4f0eafb5f59bc52735e0fd131cbb8924b81be3",
+        "after_sha256": "918f1967747d5e1f45a78d48fc4f0eafb5f59bc52735e0fd131cbb8924b81be3",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A09.md",
+        "before_sha256": "2ca3723de983269fb5c27ee4d110780013674b3e38d5be46df649b73da7e88b7",
+        "after_sha256": "2ca3723de983269fb5c27ee4d110780013674b3e38d5be46df649b73da7e88b7",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A10.csv",
+        "before_sha256": "80d0e1dcd105bc426d140679b5bb2237ff8ddd0bedc245cd4e535dfb3c11b008",
+        "after_sha256": "80d0e1dcd105bc426d140679b5bb2237ff8ddd0bedc245cd4e535dfb3c11b008",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A10.html",
+        "before_sha256": "86f3e78120cf4f48d3189d39f16e406fe86c44c60d1e391b7750075ebce1733d",
+        "after_sha256": "86f3e78120cf4f48d3189d39f16e406fe86c44c60d1e391b7750075ebce1733d",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A10.md",
+        "before_sha256": "bbe8f19cebaf1c51f30500745070e2f1edce05ea0e7ef7e4587da5ab6b3de30d",
+        "after_sha256": "bbe8f19cebaf1c51f30500745070e2f1edce05ea0e7ef7e4587da5ab6b3de30d",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A11.csv",
+        "before_sha256": "b45700c4387da73c1a037d270bae97b73c2c65a40443257fed6cb43e22e529bd",
+        "after_sha256": "b45700c4387da73c1a037d270bae97b73c2c65a40443257fed6cb43e22e529bd",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A11.html",
+        "before_sha256": "3b2f3763d80e76be9ffbf6abcb7f54c97439059938c99cb2453cf87e9467e3b2",
+        "after_sha256": "3b2f3763d80e76be9ffbf6abcb7f54c97439059938c99cb2453cf87e9467e3b2",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A11.md",
+        "before_sha256": "6629aadd53b8f3394248eb65050d07abe479009b071bb47b812cb2362b99f92b",
+        "after_sha256": "6629aadd53b8f3394248eb65050d07abe479009b071bb47b812cb2362b99f92b",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A12.csv",
+        "before_sha256": "f6973f3ffd83a6cdb2a29c867b9bfb586dec5412cce1d6575da212f4b9eb5ae8",
+        "after_sha256": "f6973f3ffd83a6cdb2a29c867b9bfb586dec5412cce1d6575da212f4b9eb5ae8",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A12.html",
+        "before_sha256": "1a336056a4767e01d7ee7cb587f6241a38b9de24abab86521143cab914b2e395",
+        "after_sha256": "1a336056a4767e01d7ee7cb587f6241a38b9de24abab86521143cab914b2e395",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A12.md",
+        "before_sha256": "39e8a3e211f6d46afbc00bb9cfbdca37947f06d9452d7410655c30e170baaebb",
+        "after_sha256": "39e8a3e211f6d46afbc00bb9cfbdca37947f06d9452d7410655c30e170baaebb",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A13.csv",
+        "before_sha256": "fe57bb2acd48c02c10633e5e5cdd53538b82942c8560686810613a1cfa41cf62",
+        "after_sha256": "fe57bb2acd48c02c10633e5e5cdd53538b82942c8560686810613a1cfa41cf62",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A13.html",
+        "before_sha256": "769cd44f960e7da08c86ea2bdb9d4a36e62a43c96e76b96904b1f366cc30190e",
+        "after_sha256": "769cd44f960e7da08c86ea2bdb9d4a36e62a43c96e76b96904b1f366cc30190e",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/plan_cards/PLAN_A13.md",
+        "before_sha256": "c186a7d519491060f04c4c3723b69ba69446dddf8d541114fd1cd9936ede48b7",
+        "after_sha256": "c186a7d519491060f04c4c3723b69ba69446dddf8d541114fd1cd9936ede48b7",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/review_pack.html",
+        "before_sha256": "ea1366520825702f396856083eb2778f6f75570041a4157dd901b879b45fc66a",
+        "after_sha256": "ea1366520825702f396856083eb2778f6f75570041a4157dd901b879b45fc66a",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/expert_facing/review_pack.md",
+        "before_sha256": "5892f1fd7afa363ae02850edfbdb40dcf1dd72da1bed29009c7ce007727cf3e6",
+        "after_sha256": "5892f1fd7afa363ae02850edfbdb40dcf1dd72da1bed29009c7ce007727cf3e6",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/human_review_pack_report.json",
+        "before_sha256": "81a13e4a0ba2b105e858a34daecf4edee91eaaec996d3d53ba7d910197a557c1",
+        "after_sha256": "81a13e4a0ba2b105e858a34daecf4edee91eaaec996d3d53ba7d910197a557c1",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/human_review_pack_report.md",
+        "before_sha256": "ceda0f10eaadbda6a67499eb64e78e80edf9a3d593303608b561bb68f945bd1d",
+        "after_sha256": "ceda0f10eaadbda6a67499eb64e78e80edf9a3d593303608b561bb68f945bd1d",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/bend_changed_operations.csv",
+        "before_sha256": "350acdc19ac0d561712233195b4babf1677136cc2e7d3af24c3f263e700fd9fe",
+        "after_sha256": "350acdc19ac0d561712233195b4babf1677136cc2e7d3af24c3f263e700fd9fe",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/blind_plan_mapping.json",
+        "before_sha256": "a2383c9661645cc9e6749905d76f94d5cca85fb19ce6c841f264d0335c454537",
+        "after_sha256": "a2383c9661645cc9e6749905d76f94d5cca85fb19ce6c841f264d0335c454537",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/blinding_leakage_check.json",
+        "before_sha256": "686c68bf6a357a2e8a9c934aaf231941c8cc684c628737514c49ed2e57e9d8ba",
+        "after_sha256": "686c68bf6a357a2e8a9c934aaf231941c8cc684c628737514c49ed2e57e9d8ba",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/changed_operations.csv",
+        "before_sha256": "0701488008450f6b03b101724f33af94046ad659e9d72acdebdedcebe410bea5",
+        "after_sha256": "0701488008450f6b03b101724f33af94046ad659e9d72acdebdedcebe410bea5",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/comparison_pair_design.md",
+        "before_sha256": "5f293ecfe02707d57fc1a1b02c54a5c2642128d9688811e2f6343ace656805d8",
+        "after_sha256": "5f293ecfe02707d57fc1a1b02c54a5c2642128d9688811e2f6343ace656805d8",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/comparison_pairs_internal.csv",
+        "before_sha256": "7f9206d75b97c284e7d65099b93e6d0d384987cd4461b2f2233ad5527d5a7f49",
+        "after_sha256": "7f9206d75b97c284e7d65099b93e6d0d384987cd4461b2f2233ad5527d5a7f49",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/comparison_pairs_internal.json",
+        "before_sha256": "cc69c2704f8fcbf317e0556fac49a80e3e1e9431e8b2b7e14a1594935a2ceab6",
+        "after_sha256": "cc69c2704f8fcbf317e0556fac49a80e3e1e9431e8b2b7e14a1594935a2ceab6",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/diff_cards/FAR_001.json",
+        "before_sha256": "fb431cfe3182125b8454544d5b102468f92431d42e9f72beb4c14d108fabb319",
+        "after_sha256": "fb431cfe3182125b8454544d5b102468f92431d42e9f72beb4c14d108fabb319",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/diff_cards/FAR_001.md",
+        "before_sha256": "c28e756374021efd637ca86275866e7f8dd294936bff27e303d7148764f94df9",
+        "after_sha256": "c28e756374021efd637ca86275866e7f8dd294936bff27e303d7148764f94df9",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/diff_cards/FAR_004.json",
+        "before_sha256": "2dc5acaca5e89b0806ede22463474486409770b18a93793081ef6c978b2fb0d1",
+        "after_sha256": "2dc5acaca5e89b0806ede22463474486409770b18a93793081ef6c978b2fb0d1",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/diff_cards/FAR_004.md",
+        "before_sha256": "6658ee53c8a7a4769c61baaba0ff06125bf247b333096d8d0da39a469d0df864",
+        "after_sha256": "6658ee53c8a7a4769c61baaba0ff06125bf247b333096d8d0da39a469d0df864",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/diff_cards/FAR_005.json",
+        "before_sha256": "ac223b1a62703990033834a5bd766106bf0e14fc4c789ac255e45b426b0add22",
+        "after_sha256": "ac223b1a62703990033834a5bd766106bf0e14fc4c789ac255e45b426b0add22",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/diff_cards/FAR_005.md",
+        "before_sha256": "ea1c886321be39f8088c087bbf9ceb58ae409233f4dfee0c676fdbd730c4814c",
+        "after_sha256": "ea1c886321be39f8088c087bbf9ceb58ae409233f4dfee0c676fdbd730c4814c",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/diff_cards/FAR_010.json",
+        "before_sha256": "f9a6d67ca84f9480831ebbfa8a0401066615abf9559705fce10ebb752d0da341",
+        "after_sha256": "f9a6d67ca84f9480831ebbfa8a0401066615abf9559705fce10ebb752d0da341",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/diff_cards/FAR_010.md",
+        "before_sha256": "9d27b37d4425878bfc010f11eeb39b5d5a9b92bfaf4f4ee3399145509dfe9050",
+        "after_sha256": "9d27b37d4425878bfc010f11eeb39b5d5a9b92bfaf4f4ee3399145509dfe9050",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/diff_cards/MEDIUM_001.json",
+        "before_sha256": "f422b10547743ad40b8b7b599a72ceb88d24b766b12ae841a31c7eaa385234c6",
+        "after_sha256": "f422b10547743ad40b8b7b599a72ceb88d24b766b12ae841a31c7eaa385234c6",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/diff_cards/MEDIUM_001.md",
+        "before_sha256": "42b2ceab2fd243b6fcac3c46cdcab333f0922e4c771045d686707c66d6e2f148",
+        "after_sha256": "42b2ceab2fd243b6fcac3c46cdcab333f0922e4c771045d686707c66d6e2f148",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/diff_cards/MEDIUM_006.json",
+        "before_sha256": "579e13f71fa0b08e9c54f11f402c414cfdcefdf252d87dda8cd56102a39af4f0",
+        "after_sha256": "579e13f71fa0b08e9c54f11f402c414cfdcefdf252d87dda8cd56102a39af4f0",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/diff_cards/MEDIUM_006.md",
+        "before_sha256": "0402e119453b15fb2af051b7585edddc8ce2afc09a152542e1ebf04fa75eadb7",
+        "after_sha256": "0402e119453b15fb2af051b7585edddc8ce2afc09a152542e1ebf04fa75eadb7",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/diff_cards/MEDIUM_011.json",
+        "before_sha256": "7e6c143c3ef5370e0fc55ab03d03179be742200b814402a0c571e57876bf18ac",
+        "after_sha256": "7e6c143c3ef5370e0fc55ab03d03179be742200b814402a0c571e57876bf18ac",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/diff_cards/MEDIUM_011.md",
+        "before_sha256": "754e459bc5038f3053d9a518f71aef0ae0b2749897c20932e638305d03fac57d",
+        "after_sha256": "754e459bc5038f3053d9a518f71aef0ae0b2749897c20932e638305d03fac57d",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/diff_cards/MEDIUM_015.json",
+        "before_sha256": "d8f4c54a0864d0d1e392b5d20b843b7de64975397c8f2bf6a8daacdd3d50ad55",
+        "after_sha256": "d8f4c54a0864d0d1e392b5d20b843b7de64975397c8f2bf6a8daacdd3d50ad55",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/diff_cards/MEDIUM_015.md",
+        "before_sha256": "ee4171fd85421681305ed35499c31350484ccd7349fbc977b22cc2b9745bddd0",
+        "after_sha256": "ee4171fd85421681305ed35499c31350484ccd7349fbc977b22cc2b9745bddd0",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/diff_cards/NEAR_001.json",
+        "before_sha256": "c297eb86e561239b670d7014d9ea055586e4bc5cbc438d3549d4c44e40edbfc1",
+        "after_sha256": "c297eb86e561239b670d7014d9ea055586e4bc5cbc438d3549d4c44e40edbfc1",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/diff_cards/NEAR_001.md",
+        "before_sha256": "b043d091f111fbe4e0e398b19cbcfcabc72fe6ffb414814f1cb684ad5b755fd0",
+        "after_sha256": "b043d091f111fbe4e0e398b19cbcfcabc72fe6ffb414814f1cb684ad5b755fd0",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/diff_cards/NEAR_002.json",
+        "before_sha256": "6360bc333ef4a93b54304b4bff9d6c07c374ab1075e526e5310aa01a83fa0e22",
+        "after_sha256": "6360bc333ef4a93b54304b4bff9d6c07c374ab1075e526e5310aa01a83fa0e22",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/diff_cards/NEAR_002.md",
+        "before_sha256": "d392582300e1ec4b0b87ce77c6393e1afec0c207bdce6feb13355895aaea3392",
+        "after_sha256": "d392582300e1ec4b0b87ce77c6393e1afec0c207bdce6feb13355895aaea3392",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/diff_cards/NEAR_005.json",
+        "before_sha256": "2db1b1658e1d7a05e8bbb64492030a27fef699e6227fec74f4ddec28b84baa86",
+        "after_sha256": "2db1b1658e1d7a05e8bbb64492030a27fef699e6227fec74f4ddec28b84baa86",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/diff_cards/NEAR_005.md",
+        "before_sha256": "e2aab4c2688e6ba7f36fee814bd4228a803979216e95759aabbfc95961db1390",
+        "after_sha256": "e2aab4c2688e6ba7f36fee814bd4228a803979216e95759aabbfc95961db1390",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/diff_cards/NEAR_015.json",
+        "before_sha256": "2f8de24bd16e001f6721db0a583ac33272353ae5d0436603ada127b5fceceab7",
+        "after_sha256": "2f8de24bd16e001f6721db0a583ac33272353ae5d0436603ada127b5fceceab7",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/diff_cards/NEAR_015.md",
+        "before_sha256": "32c0573c8722909a1a5207ef1204b3f11c1721ae19a78cfb39943e186419c96f",
+        "after_sha256": "32c0573c8722909a1a5207ef1204b3f11c1721ae19a78cfb39943e186419c96f",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/frozen_input_manifest.json",
+        "before_sha256": "8d9ccee721c8d9c7df5a67c49132f278311efa4f2a7b3a27d6641c770f0ab25f",
+        "after_sha256": "8d9ccee721c8d9c7df5a67c49132f278311efa4f2a7b3a27d6641c770f0ab25f",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/frozen_integrity_check.json",
+        "before_sha256": "4ba7ea3d0835b9688b9b0b203998cff6ff0648db488b654e60260f469a104a35",
+        "after_sha256": "4ba7ea3d0835b9688b9b0b203998cff6ff0648db488b654e60260f469a104a35",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/html_validation.json",
+        "before_sha256": "519cae7f662b895b83de5bb257c5f212f73d7be8b280dc0ecf225a50858ce470",
+        "after_sha256": "519cae7f662b895b83de5bb257c5f212f73d7be8b280dc0ecf225a50858ce470",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/operation_type_movement_summary.csv",
+        "before_sha256": "d9201e2180a4ea20b4d1c229ef9d5a60c60914ad773a16f3ed713ba635cb895e",
+        "after_sha256": "d9201e2180a4ea20b4d1c229ef9d5a60c60914ad773a16f3ed713ba635cb895e",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/pack_validation.json",
+        "before_sha256": "0d2ab6963c39e1430c7b82fe5527aefbde7bcb921e6be18b71c42c2cc9b9a009",
+        "after_sha256": "0d2ab6963c39e1430c7b82fe5527aefbde7bcb921e6be18b71c42c2cc9b9a009",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/representative_selection.json",
+        "before_sha256": "15305212b2be532fa56bea6e0eb4f4a274b04b30c03f76bf03ebe15f65092435",
+        "after_sha256": "15305212b2be532fa56bea6e0eb4f4a274b04b30c03f76bf03ebe15f65092435",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/representative_selection_report.md",
+        "before_sha256": "c01afd6c3e174b390a94feee0dfca78a90d94c8a5bd3d92d9c2b6e15dc062937",
+        "after_sha256": "c01afd6c3e174b390a94feee0dfca78a90d94c8a5bd3d92d9c2b6e15dc062937",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/station_load_summary.csv",
+        "before_sha256": "b59eabf7ed9ae253a5d511e54e0972767d4977f22adfbfedf6ed8faab0275134",
+        "after_sha256": "b59eabf7ed9ae253a5d511e54e0972767d4977f22adfbfedf6ed8faab0275134",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/test_results.json",
+        "before_sha256": "e45b7bff5eae1cb95eeea62eb1756113719ba5d6c8fea125c35d782f131e690c",
+        "after_sha256": "e45b7bff5eae1cb95eeea62eb1756113719ba5d6c8fea125c35d782f131e690c",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/internal/test_results.txt",
+        "before_sha256": "68db94cc9b79dbbff8b9211b3580b88975827b47d8bca0053c970d3bdf48c60f",
+        "after_sha256": "68db94cc9b79dbbff8b9211b3580b88975827b47d8bca0053c970d3bdf48c60f",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_human_review/plan_comparison_pack.zip",
+        "before_sha256": "0499bd319cfaf0e43ff52cb7be3a4b7c6cda27f03c52072f182aa64180cd3189",
+        "after_sha256": "0499bd319cfaf0e43ff52cb7be3a4b7c6cda27f03c52072f182aa64180cd3189",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/expert_facing/comparison_pairs.csv",
+        "before_sha256": "906411505f1edffcedfb55ecc9d02c55cb375adeb0d7ecaaaec0f24b108e492c",
+        "after_sha256": "906411505f1edffcedfb55ecc9d02c55cb375adeb0d7ecaaaec0f24b108e492c",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/expert_facing/plan_cards/PLAN_A01.html",
+        "before_sha256": "ee31ccafe8c5f45887cc620c35e5a141781cdfada5be3feb845c7c22daafccc1",
+        "after_sha256": "ee31ccafe8c5f45887cc620c35e5a141781cdfada5be3feb845c7c22daafccc1",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/expert_facing/plan_cards/PLAN_A02.html",
+        "before_sha256": "fd529982ae74e062cbe6c3179fff83a7e05ff32fc7843324287239897a495daf",
+        "after_sha256": "fd529982ae74e062cbe6c3179fff83a7e05ff32fc7843324287239897a495daf",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/expert_facing/plan_cards/PLAN_A03.html",
+        "before_sha256": "95918cb1784a11d73302791b2461c315130a3f1c632b8aebc5ef214a33ca5dc4",
+        "after_sha256": "95918cb1784a11d73302791b2461c315130a3f1c632b8aebc5ef214a33ca5dc4",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/expert_facing/plan_cards/PLAN_A04.html",
+        "before_sha256": "73805f8542ccac75ec2ea7934b64e9c42f84b6596ed1ce2cec4ac6af230941e3",
+        "after_sha256": "73805f8542ccac75ec2ea7934b64e9c42f84b6596ed1ce2cec4ac6af230941e3",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/expert_facing/plan_cards/PLAN_A05.html",
+        "before_sha256": "9db9839e61974ca8e7eb88189fc1cd63dbce90696b635a7e306a3ae7702c0ca6",
+        "after_sha256": "9db9839e61974ca8e7eb88189fc1cd63dbce90696b635a7e306a3ae7702c0ca6",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/expert_facing/plan_cards/PLAN_A06.html",
+        "before_sha256": "e6e1a49d293bf710e969e4a0ffd1d9c9a20e15cd1ec072c306212aca24e1c735",
+        "after_sha256": "e6e1a49d293bf710e969e4a0ffd1d9c9a20e15cd1ec072c306212aca24e1c735",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/expert_facing/plan_cards/PLAN_A07.html",
+        "before_sha256": "02ead4c5e29aa1a2fcf3273ab37e0bfbafa0a2edf88d2f373dcbeab972cd1160",
+        "after_sha256": "02ead4c5e29aa1a2fcf3273ab37e0bfbafa0a2edf88d2f373dcbeab972cd1160",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/expert_facing/plan_cards/PLAN_A08.html",
+        "before_sha256": "50c6cedd31b9620cca73bb0cd0170a215aef86e0b4fe236fd05098a9199fddfd",
+        "after_sha256": "50c6cedd31b9620cca73bb0cd0170a215aef86e0b4fe236fd05098a9199fddfd",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/expert_facing/plan_cards/PLAN_A09.html",
+        "before_sha256": "bf09e25b823867eb6db446421c7de4c0c2529c0a32391c477ab927ba28d24522",
+        "after_sha256": "bf09e25b823867eb6db446421c7de4c0c2529c0a32391c477ab927ba28d24522",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/expert_facing/plan_cards/PLAN_A10.html",
+        "before_sha256": "5c94afb631084dd8025898a65f17ef6f2a4b5d313f3cc9fb4e43de2ae16b3caf",
+        "after_sha256": "5c94afb631084dd8025898a65f17ef6f2a4b5d313f3cc9fb4e43de2ae16b3caf",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/expert_facing/plan_cards/PLAN_A11.html",
+        "before_sha256": "0617a991ee4d520f249e173a792caf3d1efac83ed5857774ca8f0875d353f574",
+        "after_sha256": "0617a991ee4d520f249e173a792caf3d1efac83ed5857774ca8f0875d353f574",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/expert_facing/plan_cards/PLAN_A12.html",
+        "before_sha256": "ee5bf752c8f60ecc578a8bc555dd2df488365a2397dc0bead690b2c0912d3bba",
+        "after_sha256": "ee5bf752c8f60ecc578a8bc555dd2df488365a2397dc0bead690b2c0912d3bba",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/expert_facing/plan_cards/PLAN_A13.html",
+        "before_sha256": "68248e8ed01142afdc56eb030579bafee80ea04d6bdeec3a2f7ecfb31205437a",
+        "after_sha256": "68248e8ed01142afdc56eb030579bafee80ea04d6bdeec3a2f7ecfb31205437a",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/expert_facing/review_pack.html",
+        "before_sha256": "866b0dfb6a8a674fe7e107ca22472fb2a88d8a64566beca087cffeda6bb0bbd0",
+        "after_sha256": "866b0dfb6a8a674fe7e107ca22472fb2a88d8a64566beca087cffeda6bb0bbd0",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/acknowledged_input_changes.json",
+        "before_sha256": "c681b4ba94718d929b16a4da59c93a9e7e5f47ca6d2f0596d51a374d60d2a472",
+        "after_sha256": "c681b4ba94718d929b16a4da59c93a9e7e5f47ca6d2f0596d51a374d60d2a472",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/blinding_leakage_check.json",
+        "before_sha256": "8aba1ee1e692b4f2a9e21c00afb92413bdb10e4c33ea3e521cb4e19538924bc5",
+        "after_sha256": "8aba1ee1e692b4f2a9e21c00afb92413bdb10e4c33ea3e521cb4e19538924bc5",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/frozen_input_manifest.json",
+        "before_sha256": "2d1df53bf68e8e24f9b997ba0cb244aa13949b08a5a12d4cfee869cde9b1b0f9",
+        "after_sha256": "2d1df53bf68e8e24f9b997ba0cb244aa13949b08a5a12d4cfee869cde9b1b0f9",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/frozen_integrity_check.json",
+        "before_sha256": "72ee0322b78f6c476768534c632d55fd7b4617f7a98c12ad04d3d6bf7c6bbcde",
+        "after_sha256": "72ee0322b78f6c476768534c632d55fd7b4617f7a98c12ad04d3d6bf7c6bbcde",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/geometry_audit.json",
+        "before_sha256": "7da237bc1ee0f305d4dfb806084f66b8f8b828451187b82ba6f616e0c2cd0e3e",
+        "after_sha256": "7da237bc1ee0f305d4dfb806084f66b8f8b828451187b82ba6f616e0c2cd0e3e",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/plan_cards/PLAN_A01.html",
+        "before_sha256": "8e310945dc70de8c070109d74d7cd78fd848f13549a1ab03d6ba5b1eaca7adc9",
+        "after_sha256": "8e310945dc70de8c070109d74d7cd78fd848f13549a1ab03d6ba5b1eaca7adc9",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/plan_cards/PLAN_A02.html",
+        "before_sha256": "fb93f23bac20efda41c4b6128125a082e1bc0e938102e42f0294f734df3124ea",
+        "after_sha256": "fb93f23bac20efda41c4b6128125a082e1bc0e938102e42f0294f734df3124ea",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/plan_cards/PLAN_A03.html",
+        "before_sha256": "127a516ee194218a94bde2da19f4bfe4c942b9a308bac2483818e12761d5bc75",
+        "after_sha256": "127a516ee194218a94bde2da19f4bfe4c942b9a308bac2483818e12761d5bc75",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/plan_cards/PLAN_A04.html",
+        "before_sha256": "e466f97beccd09627b2899368497eff7b8e75dfbecab3d7d66af49dce8f08aec",
+        "after_sha256": "e466f97beccd09627b2899368497eff7b8e75dfbecab3d7d66af49dce8f08aec",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/plan_cards/PLAN_A05.html",
+        "before_sha256": "5f11eb9a967b9c6bee82db582d23102305bb1d8de074b2cf2029024d9abd493b",
+        "after_sha256": "5f11eb9a967b9c6bee82db582d23102305bb1d8de074b2cf2029024d9abd493b",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/plan_cards/PLAN_A06.html",
+        "before_sha256": "609577ae2811dfd39a839eacb2317833b627cf82149942cdcf44bcac38e7abd2",
+        "after_sha256": "609577ae2811dfd39a839eacb2317833b627cf82149942cdcf44bcac38e7abd2",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/plan_cards/PLAN_A07.html",
+        "before_sha256": "e2138c3ddd7c75b3739158698dfe2804c4f5e5a45b7be214862d5fd1af9457c7",
+        "after_sha256": "e2138c3ddd7c75b3739158698dfe2804c4f5e5a45b7be214862d5fd1af9457c7",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/plan_cards/PLAN_A08.html",
+        "before_sha256": "8682ef06666ecdd1287a5eeede61ca3f75c5b593774df80366732edbe4ab1ed0",
+        "after_sha256": "8682ef06666ecdd1287a5eeede61ca3f75c5b593774df80366732edbe4ab1ed0",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/plan_cards/PLAN_A09.html",
+        "before_sha256": "36a855fcb89909215e8c35b8750d37cd3124440f869be151758098da9daac2f0",
+        "after_sha256": "36a855fcb89909215e8c35b8750d37cd3124440f869be151758098da9daac2f0",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/plan_cards/PLAN_A10.html",
+        "before_sha256": "dadb04d060369533fd3dd3e46dc363f9bbaf00e76d302ed88d632c258b9e7b1f",
+        "after_sha256": "dadb04d060369533fd3dd3e46dc363f9bbaf00e76d302ed88d632c258b9e7b1f",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/plan_cards/PLAN_A11.html",
+        "before_sha256": "3a686aaaea926fc7fa9810d2b5676ca08dcf56d4cf819f8950696c544a013fa0",
+        "after_sha256": "3a686aaaea926fc7fa9810d2b5676ca08dcf56d4cf819f8950696c544a013fa0",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/plan_cards/PLAN_A12.html",
+        "before_sha256": "feda50fc561dff5a91864ef40bc2430dbf70c30e3ea2f3021360567390849fe0",
+        "after_sha256": "feda50fc561dff5a91864ef40bc2430dbf70c30e3ea2f3021360567390849fe0",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/plan_cards/PLAN_A13.html",
+        "before_sha256": "f3f45faf3c4adfdfcaf0074265f8df7a9614ca706add88ba80036c9dc8654d48",
+        "after_sha256": "f3f45faf3c4adfdfcaf0074265f8df7a9614ca706add88ba80036c9dc8654d48",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/previews/comparison_difference_only.png",
+        "before_sha256": "8d6db2cbc6a69835e149dfb1654e60f2ab2cec615a056418e5969f339d679a5f",
+        "after_sha256": "8d6db2cbc6a69835e149dfb1654e60f2ab2cec615a056418e5969f339d679a5f",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/previews/comparison_difference_only.svg",
+        "before_sha256": "a86aebe3b62d8783e90fd34a3edd698b49260f24ec17bc111c29302642f2bfa5",
+        "after_sha256": "a86aebe3b62d8783e90fd34a3edd698b49260f24ec17bc111c29302642f2bfa5",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/previews/comparison_influence_regions.png",
+        "before_sha256": "b3b5de6031ea6fc94bd73c03307aec429b61d70528bf5c025e90b9d929ac64e8",
+        "after_sha256": "b3b5de6031ea6fc94bd73c03307aec429b61d70528bf5c025e90b9d929ac64e8",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/previews/comparison_influence_regions.svg",
+        "before_sha256": "9c7d988bc03c70dd9b445592ebab67edebab6475325e213410c53d601efe6f08",
+        "after_sha256": "9c7d988bc03c70dd9b445592ebab67edebab6475325e213410c53d601efe6f08",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/previews/comparison_OP20.png",
+        "before_sha256": "3f97fbd406c51049e42f5c3136fab3498fe0b0046dca863d5b241b3c879f023f",
+        "after_sha256": "3f97fbd406c51049e42f5c3136fab3498fe0b0046dca863d5b241b3c879f023f",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/previews/comparison_OP20.svg",
+        "before_sha256": "f7f2bfad465524143e09b7a0063a0b31e51f3364f1e620eeff3e4790744ff71b",
+        "after_sha256": "f7f2bfad465524143e09b7a0063a0b31e51f3364f1e620eeff3e4790744ff71b",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/previews/comparison_OP50.png",
+        "before_sha256": "f83d28f48fda845b3a22fe72d1a7594a94adb7d83021d61573e91ce18ac99047",
+        "after_sha256": "f83d28f48fda845b3a22fe72d1a7594a94adb7d83021d61573e91ce18ac99047",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/previews/comparison_OP50.svg",
+        "before_sha256": "3ab6507a36872dcb26b85b594124197927a6875018a95b538d82c6397e7aa570",
+        "after_sha256": "3ab6507a36872dcb26b85b594124197927a6875018a95b538d82c6397e7aa570",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/previews/comparison_region_filter.png",
+        "before_sha256": "b8ee80201b8a87d9601af18acec40960b41875fc1f458e056188ba1a118026af",
+        "after_sha256": "b8ee80201b8a87d9601af18acec40960b41875fc1f458e056188ba1a118026af",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/previews/comparison_region_filter.svg",
+        "before_sha256": "45d44d184546e08f6e67faef1700b29a827459037f9ec7d1a9d11b91be87ba36",
+        "after_sha256": "45d44d184546e08f6e67faef1700b29a827459037f9ec7d1a9d11b91be87ba36",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/previews/single_OP20.png",
+        "before_sha256": "36c550dc0effbf5ebf162d1755026fe96c203a86509b08e05a74c879ef192f23",
+        "after_sha256": "36c550dc0effbf5ebf162d1755026fe96c203a86509b08e05a74c879ef192f23",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/previews/single_OP20.svg",
+        "before_sha256": "b62128aa0c6716ef7fb4c8f3779a120eac9bd820bbee699e65bf050f4eb1dc05",
+        "after_sha256": "b62128aa0c6716ef7fb4c8f3779a120eac9bd820bbee699e65bf050f4eb1dc05",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/previews/single_OP50.png",
+        "before_sha256": "cdf6c3bb5a655182b070e2f46cdd8762dcbbd0dba08b27686085163eb0af8974",
+        "after_sha256": "cdf6c3bb5a655182b070e2f46cdd8762dcbbd0dba08b27686085163eb0af8974",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/previews/single_OP50.svg",
+        "before_sha256": "f121fd8ec6a9272cef12fd2407bf2606d2d7bf13bfa02719b8514ad65dfced63",
+        "after_sha256": "f121fd8ec6a9272cef12fd2407bf2606d2d7bf13bfa02719b8514ad65dfced63",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/review_pack_internal.html",
+        "before_sha256": "e846682201e6a3bbb66248a6ec3071bc2383c494dd13c81f8dfa71cca614f209",
+        "after_sha256": "e846682201e6a3bbb66248a6ec3071bc2383c494dd13c81f8dfa71cca614f209",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/test_results.json",
+        "before_sha256": "15a47e191db46cdddf4d178eea1fcfe0106bbe0b6af65ba7ad25c3306be09254",
+        "after_sha256": "15a47e191db46cdddf4d178eea1fcfe0106bbe0b6af65ba7ad25c3306be09254",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/test_results.txt",
+        "before_sha256": "f3db88c39796b40b0beb04d6b4da708999c01215feca96a0aef1eb8058ff3c74",
+        "after_sha256": "f3db88c39796b40b0beb04d6b4da708999c01215feca96a0aef1eb8058ff3c74",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/visual_validation.json",
+        "before_sha256": "99e6889c5a7b2ea353f7e20af3da1901e581a8026b123c9cb401d61ee4bf020f",
+        "after_sha256": "99e6889c5a7b2ea353f7e20af3da1901e581a8026b123c9cb401d61ee4bf020f",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/internal/visual_view_models.json",
+        "before_sha256": "b4c9a7e5aa8d96972ec25d4f8c52a135405af45063075f16c747fd18abdbf19f",
+        "after_sha256": "b4c9a7e5aa8d96972ec25d4f8c52a135405af45063075f16c747fd18abdbf19f",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/plan_comparison_visual_pack.zip",
+        "before_sha256": "6bef18525630141291212eb04081dccc15e7e011d0840bb1cac7170d9d18f2ae",
+        "after_sha256": "6bef18525630141291212eb04081dccc15e7e011d0840bb1cac7170d9d18f2ae",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/visual_review_pack_report.json",
+        "before_sha256": "b85c0dae434d52363400c2a5450e31c0418a60b0ff28884121a3cd94b0d2f943",
+        "after_sha256": "b85c0dae434d52363400c2a5450e31c0418a60b0ff28884121a3cd94b0d2f943",
+        "unchanged": true
+      },
+      {
+        "path": "outputs/m3_visual_review/visual_review_pack_report.md",
+        "before_sha256": "2b579ff51ad5489f752c8348e91da23106873e180a925297e08c62bff0b96e0e",
+        "after_sha256": "2b579ff51ad5489f752c8348e91da23106873e180a925297e08c62bff0b96e0e",
+        "unchanged": true
+      },
+      {
+        "path": "PROJECT_SPEC.md",
+        "before_sha256": "6065bc0a7948e03620deb2b1038ecb828991c5ef96976d4f05dd4f469d89887b",
+        "after_sha256": "6065bc0a7948e03620deb2b1038ecb828991c5ef96976d4f05dd4f469d89887b",
+        "unchanged": true
+      },
+      {
+        "path": "README.md",
+        "before_sha256": "4c43af4e5a71e2e445136e8c5016feeee6e0fd229adb6eb42d912893636a40ec",
+        "after_sha256": "4c43af4e5a71e2e445136e8c5016feeee6e0fd229adb6eb42d912893636a40ec",
+        "unchanged": true
+      },
+      {
+        "path": "requirements-m3.txt",
+        "before_sha256": "5c6abdd92cd9ad3f85ecf0b90d8fc9add94a8d2a27e17c02d7d8f8446da2623f",
+        "after_sha256": "5c6abdd92cd9ad3f85ecf0b90d8fc9add94a8d2a27e17c02d7d8f8446da2623f",
+        "unchanged": true
+      },
+      {
+        "path": "requirements.txt",
+        "before_sha256": "06d28d69e958deafb09f0a44fcae9b548f15e4debc14ebc39aad5f0934856fbf",
+        "after_sha256": "06d28d69e958deafb09f0a44fcae9b548f15e4debc14ebc39aad5f0934856fbf",
+        "unchanged": true
+      },
+      {
+        "path": "scripts/build_human_review_pack.py",
+        "before_sha256": "832b085c83518287ecd52f8aa06c89084e6ab5d1ad7f078cf4d64e3df6a68a2c",
+        "after_sha256": "832b085c83518287ecd52f8aa06c89084e6ab5d1ad7f078cf4d64e3df6a68a2c",
+        "unchanged": true
+      },
+      {
+        "path": "scripts/evaluate_plan_constraints.py",
+        "before_sha256": "3da63671c81c23b490d828983a89e097ffec536e142416e82c006a241ec65095",
+        "after_sha256": "3da63671c81c23b490d828983a89e097ffec536e142416e82c006a241ec65095",
+        "unchanged": true
+      },
+      {
+        "path": "scripts/generate_candidate_plans.py",
+        "before_sha256": "2dfb666ee5af520c1183e49d8cd449e459c8ef4d8f033a9b3319b75af13eeed7",
+        "after_sha256": "2dfb666ee5af520c1183e49d8cd449e459c8ef4d8f033a9b3319b75af13eeed7",
+        "unchanged": true
+      },
+      {
+        "path": "scripts/update_p001_geometry.py",
+        "before_sha256": "c37278eaea58c5f32fd9faa933209ea1f5284b8313bff06fa82d93ec79608f20",
+        "after_sha256": "c37278eaea58c5f32fd9faa933209ea1f5284b8313bff06fa82d93ec79608f20",
+        "unchanged": true
+      },
+      {
+        "path": "scripts/validate_p001_geometry.py",
+        "before_sha256": "fc05800d7b6dae402b33db969ad8a6f4d4f28616a6bd07ff682a704a563c042e",
+        "after_sha256": "fc05800d7b6dae402b33db969ad8a6f4d4f28616a6bd07ff682a704a563c042e",
+        "unchanged": true
+      },
+      {
+        "path": "src/__init__.py",
+        "before_sha256": "4c253bd3c5856fe0b3ceb7784dce213c183375ca8e08777a26d7de6117df7351",
+        "after_sha256": "4c253bd3c5856fe0b3ceb7784dce213c183375ca8e08777a26d7de6117df7351",
+        "unchanged": true
+      },
+      {
+        "path": "src/candidate/__init__.py",
+        "before_sha256": "220767875932c74786333abb2558e81a8cacc738ab6aa9ecac23e9ce7521f01d",
+        "after_sha256": "220767875932c74786333abb2558e81a8cacc738ab6aa9ecac23e9ce7521f01d",
+        "unchanged": true
+      },
+      {
+        "path": "src/candidate/config.py",
+        "before_sha256": "bb8a50a647655b27572f5bb701aa93c77206d6f9b14dad9ac52c60521159dd42",
+        "after_sha256": "bb8a50a647655b27572f5bb701aa93c77206d6f9b14dad9ac52c60521159dd42",
+        "unchanged": true
+      },
+      {
+        "path": "src/candidate/cp_sat_model.py",
+        "before_sha256": "8f6df3f25ddbb2d2eecab5d349dac86ac0569c0f2c6b0e7e479a47b2dbedbf2a",
+        "after_sha256": "8f6df3f25ddbb2d2eecab5d349dac86ac0569c0f2c6b0e7e479a47b2dbedbf2a",
+        "unchanged": true
+      },
+      {
+        "path": "src/candidate/distance.py",
+        "before_sha256": "b0b215c61751d8dcb5e5e06cc79242b7dfade975d502d12b57fb1472f2df9569",
+        "after_sha256": "b0b215c61751d8dcb5e5e06cc79242b7dfade975d502d12b57fb1472f2df9569",
+        "unchanged": true
+      },
+      {
+        "path": "src/candidate/generator.py",
+        "before_sha256": "64bdb24efa7a013b35a56f445586720caca42d573a66beb11b513240950215a8",
+        "after_sha256": "64bdb24efa7a013b35a56f445586720caca42d573a66beb11b513240950215a8",
+        "unchanged": true
+      },
+      {
+        "path": "src/candidate/report.py",
+        "before_sha256": "6a6a98c3827e0e0c71e1012f7ad298801bf93eaacd41b80e29ef2b2725121c16",
+        "after_sha256": "6a6a98c3827e0e0c71e1012f7ad298801bf93eaacd41b80e29ef2b2725121c16",
+        "unchanged": true
+      },
+      {
+        "path": "src/candidate/selector.py",
+        "before_sha256": "75600efa5eda51e36323107c1aadf8235594e9cb42f92a9a3ccd9e44a3bf3de3",
+        "after_sha256": "75600efa5eda51e36323107c1aadf8235594e9cb42f92a9a3ccd9e44a3bf3de3",
+        "unchanged": true
+      },
+      {
+        "path": "src/candidate/serialization.py",
+        "before_sha256": "a8975cf9c9b16d88a9913984243b72effb2ee77dabdc56a3fff549ce672e3f9f",
+        "after_sha256": "a8975cf9c9b16d88a9913984243b72effb2ee77dabdc56a3fff549ce672e3f9f",
+        "unchanged": true
+      },
+      {
+        "path": "src/constraints/__init__.py",
+        "before_sha256": "b3e1722963c227cee336606b98268c21cd61b085b13b03d53fca925c67108ec1",
+        "after_sha256": "b3e1722963c227cee336606b98268c21cd61b085b13b03d53fca925c67108ec1",
+        "unchanged": true
+      },
+      {
+        "path": "src/constraints/config.py",
+        "before_sha256": "9afb5831b9e919a0e7a729be68e9ad0b13c7a4bb43078c8587244175b22a1c77",
+        "after_sha256": "9afb5831b9e919a0e7a729be68e9ad0b13c7a4bb43078c8587244175b22a1c77",
+        "unchanged": true
+      },
+      {
+        "path": "src/constraints/context.py",
+        "before_sha256": "4def154c68850698fb1d8e21a43429077110e34a474bc0f911a2816b6e231f9e",
+        "after_sha256": "4def154c68850698fb1d8e21a43429077110e34a474bc0f911a2816b6e231f9e",
+        "unchanged": true
+      },
+      {
+        "path": "src/constraints/diagnostics.py",
+        "before_sha256": "b40711189ea69ceaa5002d199344ca80d156797593ca6fc69862f9a8456c1c45",
+        "after_sha256": "b40711189ea69ceaa5002d199344ca80d156797593ca6fc69862f9a8456c1c45",
+        "unchanged": true
+      },
+      {
+        "path": "src/constraints/guardrails.py",
+        "before_sha256": "dd32acb0a17d13b311c67ddb9a7ab3add9337086ebc4098b5f67134405b7946d",
+        "after_sha256": "dd32acb0a17d13b311c67ddb9a7ab3add9337086ebc4098b5f67134405b7946d",
+        "unchanged": true
+      },
+      {
+        "path": "src/constraints/hard_constraints.py",
+        "before_sha256": "b38184f19529ea99886a312491bc9d1df28c19d0268957397d91f7ef757b08fb",
+        "after_sha256": "b38184f19529ea99886a312491bc9d1df28c19d0268957397d91f7ef757b08fb",
+        "unchanged": true
+      },
+      {
+        "path": "src/constraints/region_assignment.py",
+        "before_sha256": "d6f0f52389f7305323a6fe9ee08c87f8aacda7afc0fb74bea6ae23982e41ac35",
+        "after_sha256": "d6f0f52389f7305323a6fe9ee08c87f8aacda7afc0fb74bea6ae23982e41ac35",
+        "unchanged": true
+      },
+      {
+        "path": "src/constraints/soft_priors.py",
+        "before_sha256": "e28cfc235e6cf53f19cd3c4cf8ca0079eb4cdbaa462f99a86c84d6c283007bac",
+        "after_sha256": "e28cfc235e6cf53f19cd3c4cf8ca0079eb4cdbaa462f99a86c84d6c283007bac",
+        "unchanged": true
+      },
+      {
+        "path": "src/data/__init__.py",
+        "before_sha256": "b1fd0d7f1cc257f937e07404aca313b04eb523a70ff56d22cdea84128ac1a268",
+        "after_sha256": "b1fd0d7f1cc257f937e07404aca313b04eb523a70ff56d22cdea84128ac1a268",
+        "unchanged": true
+      },
+      {
+        "path": "src/data/__main__.py",
+        "before_sha256": "b96941ff26662c55d92c6235c58fd30d504c2807927b942961ad145323c3111d",
+        "after_sha256": "b96941ff26662c55d92c6235c58fd30d504c2807927b942961ad145323c3111d",
+        "unchanged": true
+      },
+      {
+        "path": "src/data/loader.py",
+        "before_sha256": "a186b7973df7ca6f6100e0084a269355fcd8b72b0af4b3207be86be2e4d0c10e",
+        "after_sha256": "a186b7973df7ca6f6100e0084a269355fcd8b72b0af4b3207be86be2e4d0c10e",
+        "unchanged": true
+      },
+      {
+        "path": "src/data/report.py",
+        "before_sha256": "1da6790657bfa1e50176c1b7ffdb6c77403e8bbfca91ef2ad7d471ef1ff943ae",
+        "after_sha256": "1da6790657bfa1e50176c1b7ffdb6c77403e8bbfca91ef2ad7d471ef1ff943ae",
+        "unchanged": true
+      },
+      {
+        "path": "src/data/schema.py",
+        "before_sha256": "25a07eaf609909e3f24d1ba619867000e07ac844b1dd3a12d427ab5d64ee9594",
+        "after_sha256": "25a07eaf609909e3f24d1ba619867000e07ac844b1dd3a12d427ab5d64ee9594",
+        "unchanged": true
+      },
+      {
+        "path": "src/data/validator.py",
+        "before_sha256": "62cbe649354e463d84a2ac6c252e8c1cb9f2ee75ceedc8fdb3a614feb3602ced",
+        "after_sha256": "62cbe649354e463d84a2ac6c252e8c1cb9f2ee75ceedc8fdb3a614feb3602ced",
+        "unchanged": true
+      },
+      {
+        "path": "src/graph/__init__.py",
+        "before_sha256": "fe536b164013392b7229e5a019ebcd6be31001d9b35bfb0dbb22c46f28e4def3",
+        "after_sha256": "fe536b164013392b7229e5a019ebcd6be31001d9b35bfb0dbb22c46f28e4def3",
+        "unchanged": true
+      },
+      {
+        "path": "src/graph/__main__.py",
+        "before_sha256": "258676a6ce261f7507d296e5038354ec44b45f32b193763f959a2b11a22b63d7",
+        "after_sha256": "258676a6ce261f7507d296e5038354ec44b45f32b193763f959a2b11a22b63d7",
+        "unchanged": true
+      },
+      {
+        "path": "src/graph/builders.py",
+        "before_sha256": "65005fb188d23d1c10d59a3a6f110e5a9bdd8ebd7b392dd0bae8caff2b936861",
+        "after_sha256": "65005fb188d23d1c10d59a3a6f110e5a9bdd8ebd7b392dd0bae8caff2b936861",
+        "unchanged": true
+      },
+      {
+        "path": "src/graph/geometry_distance.py",
+        "before_sha256": "21ddf70a42f6051c5f4bd77088b72804e25132f1a02e934ef76b55f6e8f4ad17",
+        "after_sha256": "21ddf70a42f6051c5f4bd77088b72804e25132f1a02e934ef76b55f6e8f4ad17",
+        "unchanged": true
+      },
+      {
+        "path": "src/graph/geometry_features.py",
+        "before_sha256": "266059b34ba4dd9c497df26f2253b966cb2a3b2134a588b02a2c14e85cfc0c4e",
+        "after_sha256": "266059b34ba4dd9c497df26f2253b966cb2a3b2134a588b02a2c14e85cfc0c4e",
+        "unchanged": true
+      },
+      {
+        "path": "src/graph/geometry_primitives.py",
+        "before_sha256": "35402e9b7ac632612fff6f20f0a9b36a3372f3bf4160c3fc3ae48bc45274a50b",
+        "after_sha256": "35402e9b7ac632612fff6f20f0a9b36a3372f3bf4160c3fc3ae48bc45274a50b",
+        "unchanged": true
+      },
+      {
+        "path": "src/graph/plan_overlay.py",
+        "before_sha256": "3c37cddf434e317048a1e22aa4f9001fa6b000b918dba36ae6384e2009d73ff6",
+        "after_sha256": "3c37cddf434e317048a1e22aa4f9001fa6b000b918dba36ae6384e2009d73ff6",
+        "unchanged": true
+      },
+      {
+        "path": "src/graph/report.py",
+        "before_sha256": "f747f29abcc2faafd6034eb4bbe94e722eafee13fa69ee9481a0f078f74ee744",
+        "after_sha256": "f747f29abcc2faafd6034eb4bbe94e722eafee13fa69ee9481a0f078f74ee744",
+        "unchanged": true
+      },
+      {
+        "path": "src/graph/schema.py",
+        "before_sha256": "e462f7fde9f0f9713f9cbfe8873a5b31f1c8fced662656869f9a9f7bb284f744",
+        "after_sha256": "e462f7fde9f0f9713f9cbfe8873a5b31f1c8fced662656869f9a9f7bb284f744",
+        "unchanged": true
+      },
+      {
+        "path": "src/graph/semantic_relations.py",
+        "before_sha256": "73ea4e52c97e210aae68ddda8821bb89ffdab95036df0cc30f976359a734223f",
+        "after_sha256": "73ea4e52c97e210aae68ddda8821bb89ffdab95036df0cc30f976359a734223f",
+        "unchanged": true
+      },
+      {
+        "path": "src/graph/static_graph.py",
+        "before_sha256": "caf7150b41cb20344ba52ee784853776c563d7ccfa0c2db0e2b9d0cc93f0d5e1",
+        "after_sha256": "caf7150b41cb20344ba52ee784853776c563d7ccfa0c2db0e2b9d0cc93f0d5e1",
+        "unchanged": true
+      },
+      {
+        "path": "src/graph/station_context.py",
+        "before_sha256": "6ad48dacc70116e63af6b366bd7aa44b91b245903e21f83433db0f1e659f52f3",
+        "after_sha256": "6ad48dacc70116e63af6b366bd7aa44b91b245903e21f83433db0f1e659f52f3",
+        "unchanged": true
+      },
+      {
+        "path": "src/review/__init__.py",
+        "before_sha256": "10f7159420c2cf826bbae1b5d25f15c48d3ca025edf6adbd9ccc443766a21617",
+        "after_sha256": "10f7159420c2cf826bbae1b5d25f15c48d3ca025edf6adbd9ccc443766a21617",
+        "unchanged": true
+      },
+      {
+        "path": "src/review/blinding.py",
+        "before_sha256": "6ab9979ad3b16d6dbb86ff161bfb2f0094136e37d51929138bd06c0d6d9b37a7",
+        "after_sha256": "6ab9979ad3b16d6dbb86ff161bfb2f0094136e37d51929138bd06c0d6d9b37a7",
+        "unchanged": true
+      },
+      {
+        "path": "src/review/config.py",
+        "before_sha256": "aa8269371d93d7b3b9c80a533f79f36893af5c618601536a47950f8d71d3bf5c",
+        "after_sha256": "aa8269371d93d7b3b9c80a533f79f36893af5c618601536a47950f8d71d3bf5c",
+        "unchanged": true
+      },
+      {
+        "path": "src/review/pair_selector.py",
+        "before_sha256": "99a134e38b63162299f9a53d8300cf5fe16e7171cceaa0478715f80115afe190",
+        "after_sha256": "99a134e38b63162299f9a53d8300cf5fe16e7171cceaa0478715f80115afe190",
+        "unchanged": true
+      },
+      {
+        "path": "src/review/plan_diff.py",
+        "before_sha256": "21628045a26d3f0ecc6b1dea107de24464ba4c8de1e595b8efd7940c7efdb156",
+        "after_sha256": "21628045a26d3f0ecc6b1dea107de24464ba4c8de1e595b8efd7940c7efdb156",
+        "unchanged": true
+      },
+      {
+        "path": "src/review/report.py",
+        "before_sha256": "b4900b8447a1940fee0116ff578c89b89a7789ab3a60fd37639e7228e283964d",
+        "after_sha256": "b4900b8447a1940fee0116ff578c89b89a7789ab3a60fd37639e7228e283964d",
+        "unchanged": true
+      },
+      {
+        "path": "src/review/representative_selector.py",
+        "before_sha256": "7690bbb5de822b67b670ee9d65e254a51140aecd6c7e053f80c1cbeef4c4fe41",
+        "after_sha256": "7690bbb5de822b67b670ee9d65e254a51140aecd6c7e053f80c1cbeef4c4fe41",
+        "unchanged": true
+      },
+      {
+        "path": "tests/candidate_fixtures.py",
+        "before_sha256": "38046a4dbf25b34ce2ae2f37837d6cd81b5d995bb1fedae24bfa77a4f9a6d546",
+        "after_sha256": "38046a4dbf25b34ce2ae2f37837d6cd81b5d995bb1fedae24bfa77a4f9a6d546",
+        "unchanged": true
+      },
+      {
+        "path": "tests/graph_fixtures.py",
+        "before_sha256": "efece098dd699b1dbc6678fa8749ca8cda3d0560fd837535252bd1536befa30f",
+        "after_sha256": "efece098dd699b1dbc6678fa8749ca8cda3d0560fd837535252bd1536befa30f",
+        "unchanged": true
+      },
+      {
+        "path": "tests/m3_fixtures.py",
+        "before_sha256": "7b1dab61891941811caf25ff3e9abe46f357046d87880ef75d68efd125833356",
+        "after_sha256": "7b1dab61891941811caf25ff3e9abe46f357046d87880ef75d68efd125833356",
+        "unchanged": true
+      },
+      {
+        "path": "tests/review_fixtures.py",
+        "before_sha256": "f71aac3701fe3c5a6a2e1ae84e8c485099a83262c06be6fc7af0f09572897b76",
+        "after_sha256": "f71aac3701fe3c5a6a2e1ae84e8c485099a83262c06be6fc7af0f09572897b76",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_data_layer.py",
+        "before_sha256": "e90d30c4478bb5b21c52440e4cc4aa017971c445f1b1c154f2e780c8c3f45858",
+        "after_sha256": "e90d30c4478bb5b21c52440e4cc4aa017971c445f1b1c154f2e780c8c3f45858",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_geometry_distance.py",
+        "before_sha256": "7d540cfef95d939d268fdebd992e078cfec55a509bf41a7eab19944b6e678417",
+        "after_sha256": "7d540cfef95d939d268fdebd992e078cfec55a509bf41a7eab19944b6e678417",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_graph_features.py",
+        "before_sha256": "e6e195ff953770ce1e5665232010e7eb79841a443f7d7977e8c331db312c48d0",
+        "after_sha256": "e6e195ff953770ce1e5665232010e7eb79841a443f7d7977e8c331db312c48d0",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_graph_knn.py",
+        "before_sha256": "c0cebdecd9ddd33d8a6b8d20eef0c72820ee2817d70b145e85b95a99f44a7cfe",
+        "after_sha256": "c0cebdecd9ddd33d8a6b8d20eef0c72820ee2817d70b145e85b95a99f44a7cfe",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_graph_report.py",
+        "before_sha256": "143f7b79f528d4247c1a08b5ef54d3465906db6525cdd707ca9f7ea426bcfc0b",
+        "after_sha256": "143f7b79f528d4247c1a08b5ef54d3465906db6525cdd707ca9f7ea426bcfc0b",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_graph_semantics.py",
+        "before_sha256": "e4bfc736ba93616e96b146da238dd75b041fda26e7e7609f1fe0d074dffb9e0d",
+        "after_sha256": "e4bfc736ba93616e96b146da238dd75b041fda26e7e7609f1fe0d074dffb9e0d",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_m3_candidate_distance.py",
+        "before_sha256": "7ed41120f706d4e471c4e306f9952011ec5b2c9846a838412768a35d90256730",
+        "after_sha256": "7ed41120f706d4e471c4e306f9952011ec5b2c9846a838412768a35d90256730",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_m3_candidate_generator.py",
+        "before_sha256": "87776b11a99f42f2e5fdf5df7de0a1ffbcea15bc0ff21eb561b3ece5ecff1187",
+        "after_sha256": "87776b11a99f42f2e5fdf5df7de0a1ffbcea15bc0ff21eb561b3ece5ecff1187",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_m3_candidate_model.py",
+        "before_sha256": "e3d48d778eec0a1f50d940fba77e5da4abe119ec7690152fe76d426071ff841e",
+        "after_sha256": "e3d48d778eec0a1f50d940fba77e5da4abe119ec7690152fe76d426071ff841e",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_m3_candidate_selector.py",
+        "before_sha256": "803468e82c707560131f702f9ed27a14f5cf9e9b04ecd47e2df6120b453e0c93",
+        "after_sha256": "803468e82c707560131f702f9ed27a14f5cf9e9b04ecd47e2df6120b453e0c93",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_m3_constraint_context.py",
+        "before_sha256": "3e06fe8a722fe5c537a53a2eee1906262cec876a09d5082d99085c4d7da39f27",
+        "after_sha256": "3e06fe8a722fe5c537a53a2eee1906262cec876a09d5082d99085c4d7da39f27",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_m3_diagnostics.py",
+        "before_sha256": "e8cc44e60051f6c911e7c49ca41ff2106b3935d95fb1205ff500c736e5378ce6",
+        "after_sha256": "e8cc44e60051f6c911e7c49ca41ff2106b3935d95fb1205ff500c736e5378ce6",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_m3_guardrails.py",
+        "before_sha256": "7445ae6129a387e205ecc944911d03079b12c95933e8879500586cf47363297f",
+        "after_sha256": "7445ae6129a387e205ecc944911d03079b12c95933e8879500586cf47363297f",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_m3_hard_constraints.py",
+        "before_sha256": "a4ecf975838705e8a3963e64d6f1ffc79b21da422b16b6cde8ae91766d39b865",
+        "after_sha256": "a4ecf975838705e8a3963e64d6f1ffc79b21da422b16b6cde8ae91766d39b865",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_m3_review_blinding.py",
+        "before_sha256": "77132c8ab21e95c643ce02b4a59ab60fc89eec646cd4d94eb5f4820f31e8d673",
+        "after_sha256": "77132c8ab21e95c643ce02b4a59ab60fc89eec646cd4d94eb5f4820f31e8d673",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_m3_review_pair_selector.py",
+        "before_sha256": "a7359305fcd14ee33857eec92bdb03d4cdd674e6573bcebdc27fcf3a57967f45",
+        "after_sha256": "a7359305fcd14ee33857eec92bdb03d4cdd674e6573bcebdc27fcf3a57967f45",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_m3_review_plan_diff.py",
+        "before_sha256": "a1a37d848251bc26722e37fc4278bdcda4958d00e1d50d06ebe3ce85ef63be22",
+        "after_sha256": "a1a37d848251bc26722e37fc4278bdcda4958d00e1d50d06ebe3ce85ef63be22",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_m3_review_representative_selector.py",
+        "before_sha256": "5a87d1940bbf7bd394a42d265d9b0af2fae7b8c8d26e0a567f7e9ec2d925ff18",
+        "after_sha256": "5a87d1940bbf7bd394a42d265d9b0af2fae7b8c8d26e0a567f7e9ec2d925ff18",
+        "unchanged": true
+      },
+      {
+        "path": "tests/test_m3_soft_priors.py",
+        "before_sha256": "c45ca111ed7f0acebb5cfaca500a54e2cb3c82682ef07fb819812a2bd4d81826",
+        "after_sha256": "c45ca111ed7f0acebb5cfaca500a54e2cb3c82682ef07fb819812a2bd4d81826",
+        "unchanged": true
+      }
+    ],
+    "observed_baseline_file_count": 262,
+    "authorized_visual_changes": [
+      {
+        "path": "configs/m3_visualization.yaml",
+        "before_sha256": "bef8727901d43a0ae924c53f6911e18b0fa23aada16665f830d76ca576d24aa2",
+        "after_sha256": "71690782e45033de3529342a30e16f2cccde2cc92795bbe7b7b2673cc3144384",
+        "unchanged": false
+      },
+      {
+        "path": "scripts/build_visual_review_pack.py",
+        "before_sha256": "65c12b5e7911bcdf3ecdb5a6399b18bdc60e620f0078296a47a39de3f31c853f",
+        "after_sha256": "a96319681a19410da680a256d00582f460afcf677f5805f6e9aaec97f622d507",
+        "unchanged": false
+      },
+      {
+        "path": "src/visualization/config.py",
+        "before_sha256": "831224724517cfcee9aed0cdd7982768f6b85a07ea420355cd4c87cebc9d2ad7",
+        "after_sha256": "aa0d2e70084342d0867592918aa18bddd37a48f41ae119da7dbad790a5b2f9fd",
+        "unchanged": false
+      },
+      {
+        "path": "src/visualization/geometry_adapter.py",
+        "before_sha256": "9492771f48419a4e186f79ab0df18fcc654b49fed0e67b4021a06ae1121f3f52",
+        "after_sha256": "9a1ad7c096a70c235a063b288e96f2660ee901ee468d3ae6200496d63879b037",
+        "unchanged": false
+      },
+      {
+        "path": "src/visualization/preview.py",
+        "before_sha256": "b774bfcae611a793f96e21d143ec636bf209ce3cf6347d744b44c869266b352a",
+        "after_sha256": "9686224bbf6d74ce61292b9731a7f70413958b6787cf1b648e457a432674edca",
+        "unchanged": false
+      },
+      {
+        "path": "src/visualization/review_ui.js",
+        "before_sha256": "c68a6237da8b831f4012b9d4187d0986c127c506477ad5a1e48d96738e1a5454",
+        "after_sha256": "ec0bd5c2f02eacd84cdf58a598f0110e215ffc3dff300c6f1a474b98f925d4a9",
+        "unchanged": false
+      },
+      {
+        "path": "src/visualization/review_visualization.py",
+        "before_sha256": "2ceeb26658288e68fae86669bae69bacf3b80607013c9837c194d4f006b25892",
+        "after_sha256": "d7f5e7696382d960340b8ea98131bf29289ef647732c655b805631d4983f65c5",
+        "unchanged": false
+      },
+      {
+        "path": "src/visualization/svg_renderer.py",
+        "before_sha256": "8478497bcd472e1312e8199906d4181313398cdb87840b46c542ca8b2300b588",
+        "after_sha256": "67695820fb235c24765c0a60ec2e3390ac3ea90cc5641e8565f3b751ab873e9a",
+        "unchanged": false
+      },
+      {
+        "path": "tests/test_m3_visual_svg_renderer.py",
+        "before_sha256": "022b0b2ab8aff0675abec6c72e1998f92619dd38955232407d5136530aa469e4",
+        "after_sha256": "18aef8dc94ad037b525254893e2ffe7e77da948170662100f957ad49298ea269",
+        "unchanged": false
+      }
+    ],
+    "all_outside_visualization_unchanged": true,
+    "user_acknowledged_changes": []
+  },
+  "labels_generated": false,
+  "default_rotation_degrees": 270,
+  "human_answer_ui": {
+    "direct_html_entry": true,
+    "local_browser_drafts": true,
+    "csv_download": true,
+    "automatic_submission": false,
+    "browser_check": {
+      "passed": true,
+      "browser": "Chrome headless",
+      "checks": [
+        "fresh page blank",
+        "focus current answer",
+        "human input and local draft",
+        "reload restores answers",
+        "real CSV download all 24 pairs unicode and quotes",
+        "storage blocked still accepts answers and downloads",
+        "no network requests or script errors"
+      ],
+      "network_requests": 0,
+      "page_errors": [],
+      "public_html": "D:\\sheet_process_assignment\\outputs\\m3_visual_review_v05\\expert_facing\\review_pack.html",
+      "public_html_sha256": "1c971bb6e7f516e3bfb15e841608228be22ccb0586eda6206dfb70282fdafadf"
+    }
+  },
+  "outputs": {
+    "expert_facing_html": "D:\\sheet_process_assignment\\outputs\\m3_visual_review_v05\\expert_facing\\review_pack.html",
+    "internal_html": "D:\\sheet_process_assignment\\outputs\\m3_visual_review_v05\\internal\\review_pack_internal.html"
+  },
+  "provenance": {
+    "workbook_sha256": "738efdb25c083290e15aa3c8724e1e2c4f0658e1cc7dcd83873b9ca0777b3bde",
+    "config_sha256": "71690782e45033de3529342a30e16f2cccde2cc92795bbe7b7b2673cc3144384",
+    "mapping_sha256": "a2383c9661645cc9e6749905d76f94d5cca85fb19ce6c841f264d0335c454537",
+    "comparison_mapping_sha256": "cc69c2704f8fcbf317e0556fac49a80e3e1e9431e8b2b7e14a1594935a2ceab6"
+  },
+  "tests": {
+    "tests_run": 352,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true,
+    "test_module_counts": {
+      "test_data_layer": 46,
+      "test_geometry_distance": 14,
+      "test_graph_features": 21,
+      "test_graph_knn": 14,
+      "test_graph_report": 5,
+      "test_graph_semantics": 7,
+      "test_m3_candidate_distance": 10,
+      "test_m3_candidate_generator": 12,
+      "test_m3_candidate_model": 8,
+      "test_m3_candidate_selector": 10,
+      "test_m3_constraint_context": 12,
+      "test_m3_diagnostics": 14,
+      "test_m3_guardrails": 7,
+      "test_m3_hard_constraints": 14,
+      "test_m3_review_blinding": 11,
+      "test_m3_review_pair_selector": 8,
+      "test_m3_review_plan_diff": 8,
+      "test_m3_review_representative_selector": 9,
+      "test_m3_soft_priors": 26,
+      "test_m3_visual_diff_view_model": 9,
+      "test_m3_visual_geometry_adapter": 12,
+      "test_m3_visual_plan_view_model": 11,
+      "test_m3_visual_readability": 17,
+      "test_m3_visual_review_answers": 17,
+      "test_m3_visual_review_pack": 13,
+      "test_m3_visual_svg_renderer": 11,
+      "test_m3_visual_ui_interactions": 6
+    }
+  }
+}

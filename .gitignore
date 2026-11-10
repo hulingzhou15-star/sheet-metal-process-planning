@@ -1,0 +1,18 @@
+# Rebuilt products and local environments
+.venv*/
+.local/
+**/.runtime/
+**/runtime_deps/
+**/node_modules/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+/outputs/
+/information_extract/outputs/
+/data/derived/
+/data/processed/
+*.log
+.env
+.env.*
+!*.example
+~$*

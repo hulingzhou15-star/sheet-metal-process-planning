@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>P001 · 二维—三维动作关联</title><style>/*__STYLE__*/</style></head>
+<body>
+<header><div><span class="mark">3D</span><strong>P001 · 几何与动作关联</strong><small id="headline"></small></div><div class="header-actions"><span id="saved">本机独立保存</span><button id="export">下载关联备份</button><button id="import">导入关联备份</button><input hidden id="file" type="file" accept=".json"></div></header>
+<div class="notice"><b>成品几何检查</b><span id="registration"></span><span>折弯建议尚未确定移动侧与轨迹。</span></div>
+<main>
+<aside class="list-panel"><div class="panel-title">加工动作 <span id="opcount"></span></div><input id="search" placeholder="编号、名称、类型"><select id="filter"><option value="ALL">全部动作</option><option value="BEND">折弯</option><option value="ANCHOR">配准基准孔</option><option value="PROPOSAL">有折弯建议</option><option value="MISSING">缺少二维几何</option><option value="BOUND">已有三维关联</option></select><div id="list"></div><div id="coverage" class="footnote"></div></aside>
+<section class="workspace">
+<div class="view-card"><div class="toolbar"><b>展开态 · 二维来源</b><button id="fit2">全图</button><button id="focus2">聚焦动作</button></div><div class="canvas-wrap"><canvas id="flat"></canvas><span class="hint">滚轮缩放 · 拖动平移 · 点击选动作</span></div></div>
+<div class="view-card three"><div class="toolbar"><b>成品态 · 三维 CAD</b><select id="view"><option value="iso">立体</option><option value="top">俯视 XY</option><option value="front">正视 XZ</option><option value="side">侧视 YZ</option></select><button id="fit3">全图</button><button id="focus3">聚焦选面</button><label><input id="edges" type="checkbox" checked>轮廓边</label><label><input id="transparent" type="checkbox">透视选区</label><button id="hide">隐藏选面</button><button id="show">全部显示</button></div><div class="canvas-wrap"><canvas id="solid"></canvas><span class="hint">左键拖动旋转 · 右键 / Shift 拖动平移 · 滚轮缩放 · 点击多选面</span><span id="gpu-error" hidden></span></div></div>
+</section>
+<aside class="detail-panel"><div id="opdetail"></div><div class="panel-title">三维选面 <span id="selection-count">0</span></div><div id="faces" class="face-list"></div><div class="button-row"><button id="clear">清空选面</button><button id="neighbors">扩展一层邻面</button></div><label class="field">关联说明<textarea id="note" placeholder="记录对应依据或待确认问题"></textarea></label><div class="button-row"><button class="primary" id="save">保存关联草稿</button><button id="confirm">确认关联</button></div><p class="footnote">确认表示动作与这些 CAD 面有关联；尚不表示已确定加工移动区域或三维可制造性。选面可跨多个区域。</p><div id="proposals"></div><details><summary>配准证据与缺失信息</summary><div id="evidence"></div></details></aside>
+</main><div id="toast" role="status"></div>
+<script id="data" type="application/json">/*__DATA__*/</script><script>/*__CORE__*/</script><script>/*__APP__*/</script>
+</body></html>

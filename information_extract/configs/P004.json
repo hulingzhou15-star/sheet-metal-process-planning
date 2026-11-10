@@ -1,0 +1,98 @@
+{
+  "part_id": "P004",
+  "source_file": "sources/P004/P004.dxf",
+  "material_block": "*Model_Space",
+  "coordinate_mode": "world_xy",
+  "display_annotations": true,
+  "geometry_tolerance": 1e-06,
+  "parallel_tolerance": 1e-06,
+  "default_rotation": 0,
+  "hit_tolerance_px": 7,
+  "display_decimals": 4,
+  "port": 8769,
+  "max_request_bytes": 20971520,
+  "solver": {
+    "max_time_seconds": 10,
+    "random_seed": 20261019,
+    "num_search_workers": 1
+  },
+  "confirmed_source_units": "mm",
+  "confirmed_geometry_supplement": "configs/P004_geometry_supplement.json",
+  "confirmed_duplicate_source_removals": [
+    {
+      "keep_id": "S_f88c32d35acd23e232d3a0fb",
+      "remove_id": "S_46cc9be3f306899dbc9f7a2e",
+      "relation": "COINCIDENT"
+    },
+    {
+      "keep_id": "S_e52ddbfcf08a827e8cb46666",
+      "remove_id": "S_875ca4e74c5db33cbc909aee",
+      "relation": "COINCIDENT"
+    },
+    {
+      "keep_id": "S_b265053fc6c3df77795d4df2",
+      "remove_id": "S_9fe61599ebfb9dd7f28437c0",
+      "relation": "COINCIDENT"
+    },
+    {
+      "keep_id": "S_074b99beb1539073128d4f0f",
+      "remove_id": "S_a7880c6b949ebef1be28653a",
+      "relation": "COINCIDENT"
+    },
+    {
+      "keep_id": "S_a351d00e73d76f2955a9ce81",
+      "remove_id": "S_179ff4221989a864a44c9e9c",
+      "relation": "COINCIDENT"
+    },
+    {
+      "keep_id": "S_1649d1f6d9e76f9df3f19f7c",
+      "remove_id": "S_51ea8f1960d07d698b295e6f",
+      "relation": "COINCIDENT"
+    },
+    {
+      "keep_id": "S_9b1e3df9c19cddf5edbdc9e0",
+      "remove_id": "S_0bf58a90690ded8a9eff74d4",
+      "relation": "COINCIDENT"
+    },
+    {
+      "keep_id": "S_cc5b8326b4b5f996d4163d98",
+      "remove_id": "S_0d90dbd4bbbbe7df3288c515",
+      "relation": "COINCIDENT"
+    },
+    {
+      "keep_id": "S_0cd0a8360e83dcae5a2efd4c",
+      "remove_id": "S_4d129f07158897a10b5e7849",
+      "relation": "COINCIDENT"
+    },
+    {
+      "keep_id": "S_4926a257fa9384605cc5e1c9",
+      "remove_id": "S_aeb949eaa6090517a3f1b576",
+      "relation": "COINCIDENT"
+    },
+    {
+      "keep_id": "S_2cc5d4c2767f4d7c5af60018",
+      "remove_id": "S_8243edc53a8fc8d3f232d6ff",
+      "relation": "COINCIDENT"
+    },
+    {
+      "keep_id": "S_c29379ddde3735b7076bf5c4",
+      "remove_id": "S_787510f8f1e128119bd7e6d3",
+      "relation": "COINCIDENT"
+    },
+    {
+      "keep_id": "S_02d48264ebc20a4bb156b3f7",
+      "remove_id": "S_ecef1ca3cbbbd80cf420293a",
+      "relation": "FULLY_COVERED"
+    },
+    {
+      "keep_id": "S_928c6ed75ddfcd9a4c77d48f",
+      "remove_id": "S_53567d499827331d75d604a4",
+      "relation": "FULLY_COVERED"
+    },
+    {
+      "keep_id": "S_1026c7724d3030ec0843c2a1",
+      "remove_id": "S_73cd93d58126cb953e82fbec",
+      "relation": "FULLY_COVERED"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "passed": true,
+  "checks": {
+    "pool_unique": true,
+    "pool_hard_feasible": true,
+    "pool_hashes_valid": true,
+    "selection_is_subset": true,
+    "all_local_checks_passed": true,
+    "static_graph_unchanged_after_overlays": true,
+    "full_pool_reproducible": true,
+    "full_selection_reproducible": true
+  },
+  "local_checks": [
+    {
+      "contrast_id": "LC_001",
+      "both_hard_feasible": true,
+      "same_role_correct": true,
+      "different_role_correct": true,
+      "all_changes_disclosed": true,
+      "both_hashes_valid": true,
+      "unlabeled": true,
+      "graph_edge_present": true,
+      "overlay_same_correct": true,
+      "overlay_different_correct": true
+    },
+    {
+      "contrast_id": "LC_002",
+      "both_hard_feasible": true,
+      "same_role_correct": true,
+      "different_role_correct": true,
+      "all_changes_disclosed": true,
+      "both_hashes_valid": true,
+      "unlabeled": true,
+      "graph_edge_present": true,
+      "overlay_same_correct": true,
+      "overlay_different_correct": true
+    },
+    {
+      "contrast_id": "LC_003",
+      "both_hard_feasible": true,
+      "same_role_correct": true,
+      "different_role_correct": true,
+      "all_changes_disclosed": true,
+      "both_hashes_valid": true,
+      "unlabeled": true,
+      "graph_edge_present": true,
+      "overlay_same_correct": true,
+      "overlay_different_correct": true
+    },
+    {
+      "contrast_id": "LC_004",
+      "both_hard_feasible": true,
+      "same_role_correct": true,
+      "different_role_correct": true,
+      "all_changes_disclosed": true,
+      "both_hashes_valid": true,
+      "unlabeled": true,
+      "graph_edge_present": true,
+      "overlay_same_correct": true,
+      "overlay_different_correct": true
+    },
+    {
+      "contrast_id": "LC_005",
+      "both_hard_feasible": true,
+      "same_role_correct": true,
+      "different_role_correct": true,
+      "all_changes_disclosed": true,
+      "both_hashes_valid": true,
+      "unlabeled": true,
+      "graph_edge_present": true,
+      "overlay_same_correct": true,
+      "overlay_different_correct": true
+    },
+    {
+      "contrast_id": "LC_006",
+      "both_hard_feasible": true,
+      "same_role_correct": true,
+      "different_role_correct": true,
+      "all_changes_disclosed": true,
+      "both_hashes_valid": true,
+      "unlabeled": true,
+      "graph_edge_present": true,
+      "overlay_same_correct": true,
+      "overlay_different_correct": true
+    },
+    {
+      "contrast_id": "LC_007",
+      "both_hard_feasible": true,
+      "same_role_correct": true,
+      "different_role_correct": true,
+      "all_changes_disclosed": true,
+      "both_hashes_valid": true,
+      "unlabeled": true,
+      "graph_edge_present": true,
+      "overlay_same_correct": true,
+      "overlay_different_correct": true
+    },
+    {
+      "contrast_id": "LC_008",
+      "both_hard_feasible": true,
+      "same_role_correct": true,
+      "different_role_correct": true,
+      "all_changes_disclosed": true,
+      "both_hashes_valid": true,
+      "unlabeled": true,
+      "graph_edge_present": true,
+      "overlay_same_correct": true,
+      "overlay_different_correct": true
+    },
+    {
+      "contrast_id": "LC_009",
+      "both_hard_feasible": true,
+      "same_role_correct": true,
+      "different_role_correct": true,
+      "all_changes_disclosed": true,
+      "both_hashes_valid": true,
+      "unlabeled": true,
+      "graph_edge_present": true,
+      "overlay_same_correct": true,
+      "overlay_different_correct": true
+    },
+    {
+      "contrast_id": "LC_010",
+      "both_hard_feasible": true,
+      "same_role_correct": true,
+      "different_role_correct": true,
+      "all_changes_disclosed": true,
+      "both_hashes_valid": true,
+      "unlabeled": true,
+      "graph_edge_present": true,
+      "overlay_same_correct": true,
+      "overlay_different_correct": true
+    },
+    {
+      "contrast_id": "LC_011",
+      "both_hard_feasible": true,
+      "same_role_correct": true,
+      "different_role_correct": true,
+      "all_changes_disclosed": true,
+      "both_hashes_valid": true,
+      "unlabeled": true,
+      "graph_edge_present": true,
+      "overlay_same_correct": true,
+      "overlay_different_correct": true
+    },
+    {
+      "contrast_id": "LC_012",
+      "both_hard_feasible": true,
+      "same_role_correct": true,
+      "different_role_correct": true,
+      "all_changes_disclosed": true,
+      "both_hashes_valid": true,
+      "unlabeled": true,
+      "graph_edge_present": true,
+      "overlay_same_correct": true,
+      "overlay_different_correct": true
+    },
+    {
+      "contrast_id": "LC_013",
+      "both_hard_feasible": true,
+      "same_role_correct": true,
+      "different_role_correct": true,
+      "all_changes_disclosed": true,
+      "both_hashes_valid": true,
+      "unlabeled": true,
+      "graph_edge_present": true,
+      "overlay_same_correct": true,
+      "overlay_different_correct": true
+    }
+  ],
+  "selected_pairwise_raw_distance": {
+    "min": 43,
+    "max": 63,
+    "mean": 50.38333333333333
+  },
+  "movable_operations": 113
+}

@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "tests": {
+    "tests_run": 352,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true,
+    "test_module_counts": {
+      "test_data_layer": 46,
+      "test_geometry_distance": 14,
+      "test_graph_features": 21,
+      "test_graph_knn": 14,
+      "test_graph_report": 5,
+      "test_graph_semantics": 7,
+      "test_m3_candidate_distance": 10,
+      "test_m3_candidate_generator": 12,
+      "test_m3_candidate_model": 8,
+      "test_m3_candidate_selector": 10,
+      "test_m3_constraint_context": 12,
+      "test_m3_diagnostics": 14,
+      "test_m3_guardrails": 7,
+      "test_m3_hard_constraints": 14,
+      "test_m3_review_blinding": 11,
+      "test_m3_review_pair_selector": 8,
+      "test_m3_review_plan_diff": 8,
+      "test_m3_review_representative_selector": 9,
+      "test_m3_soft_priors": 26,
+      "test_m3_visual_diff_view_model": 9,
+      "test_m3_visual_geometry_adapter": 12,
+      "test_m3_visual_plan_view_model": 11,
+      "test_m3_visual_readability": 17,
+      "test_m3_visual_review_answers": 17,
+      "test_m3_visual_review_pack": 13,
+      "test_m3_visual_svg_renderer": 11,
+      "test_m3_visual_ui_interactions": 6
+    }
+  },
+  "browser_check": {
+    "passed": true,
+    "browser": "Chrome headless",
+    "checks": [
+      "fresh page blank",
+      "focus current answer",
+      "human input and local draft",
+      "reload restores answers",
+      "real CSV download all 24 pairs unicode and quotes",
+      "storage blocked still accepts answers and downloads",
+      "no network requests or script errors"
+    ],
+    "network_requests": 0,
+    "page_errors": [],
+    "public_html": "D:\\sheet_process_assignment\\outputs\\m3_visual_review_v05\\expert_facing\\review_pack.html",
+    "public_html_sha256": "1c971bb6e7f516e3bfb15e841608228be22ccb0586eda6206dfb70282fdafadf"
+  },
+  "public_file_count": 15,
+  "all_public_answers_blank": true,
+  "comparison_csv_unchanged": true,
+  "view_models_unchanged": true,
+  "frozen_file_count": 245,
+  "blinding_findings": [],
+  "changed_source_files": [
+    "src/visualization/review_visualization.py",
+    "scripts/build_visual_review_pack.py",
+    "tests/visual_ui_dom_harness.js",
+    "docs/MILESTONE_3_VISUALIZATION_V05.md"
+  ],
+  "new_source_files": [
+    "src/visualization/review_answers.js",
+    "tests/visual_review_answers_harness.js",
+    "tests/test_m3_visual_review_answers.py"
+  ]
+}

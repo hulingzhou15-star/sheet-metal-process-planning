@@ -1,0 +1,9 @@
+{
+  "archive_files": 42,
+  "archive_contains_only_blinded_material": true,
+  "archive_leakage_findings": 0,
+  "blank_form_rows": 24,
+  "all_answers_confidence_notes_blank": true,
+  "bend_changed_rows": 136,
+  "csv_extra_blank_lines": false
+}

@@ -1,0 +1,30 @@
+{
+  "run": 425,
+  "passed": 420,
+  "failures": [
+    {
+      "test": "test_m3_candidate_generator.CandidateGeneratorTests.test_p001_small_batch_post_selection_report_and_frozen_integrity",
+      "traceback": "Traceback (most recent call last):\n  File \"D:\\sheet_process_assignment\\tests\\test_m3_candidate_generator.py\", line 154, in test_p001_small_batch_post_selection_report_and_frozen_integrity\n    self.assertTrue(check_integrity(ROOT, manifest)[\"all_unchanged\"])\nAssertionError: False is not true\n"
+    },
+    {
+      "test": "test_m3_review_blinding.BlindingTests.test_frozen_files_unchanged",
+      "traceback": "Traceback (most recent call last):\n  File \"D:\\sheet_process_assignment\\tests\\test_m3_review_blinding.py\", line 135, in test_frozen_files_unchanged\n    self.assertTrue(check_integrity(ROOT, manifest)[\"all_unchanged\"])\nAssertionError: False is not true\n"
+    },
+    {
+      "test": "test_m3_visual_readability.RotationReadabilityTests.test_plan_and_comparison_models_equal_frozen_v04",
+      "traceback": "Traceback (most recent call last):\n  File \"D:\\sheet_process_assignment\\tests\\test_m3_visual_readability.py\", line 140, in test_plan_and_comparison_models_equal_frozen_v04\n    self.assertEqual(json.loads(json.dumps(views)),old[\"plans\"]);self.assertEqual(json.loads(json.dumps(comparisons)),old[\"comparisons\"])\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: {'PLA[8350 chars] 'O023', 'surface_side': 'SMOOTH', 'region_gro[1022061 chars]}}]}} != {'PLA[8350 chars] 'O022', 'surface_side': 'SMOOTH', 'region_gro[1022061 chars]}}]}}\nDiff is 2574984 characters long. Set self.maxDiff to None to see it.\n"
+    },
+    {
+      "test": "test_m3_visual_readability.RotationReadabilityTests.test_v04_output_preserved_and_only_visual_paths_allowed",
+      "traceback": "Traceback (most recent call last):\n  File \"D:\\sheet_process_assignment\\tests\\test_m3_visual_readability.py\", line 149, in test_v04_output_preserved_and_only_visual_paths_allowed\n    check=check_v05_integrity(ROOT,baseline);self.assertTrue(check[\"all_unchanged\"])\n                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: False is not true\n"
+    },
+    {
+      "test": "test_m3_visual_review_pack.ReviewPackTests.test_frozen_integrity_old_and_v03_inputs",
+      "traceback": "Traceback (most recent call last):\n  File \"D:\\sheet_process_assignment\\tests\\test_m3_visual_review_pack.py\", line 92, in test_frozen_integrity_old_and_v03_inputs\n    self.assertTrue(integrity[\"all_unchanged\"]);self.assertEqual(integrity[\"checked_file_count\"],len(manifest)-len(integrity[\"user_acknowledged_changes\"]))\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: False is not true\n"
+    }
+  ],
+  "errors": [],
+  "skipped": 0,
+  "fully_green": false,
+  "unexpected_failure_ids": []
+}

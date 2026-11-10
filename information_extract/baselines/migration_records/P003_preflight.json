@@ -1,0 +1,224 @@
+{
+  "source": "C:\\Users\\hulin\\Desktop\\图纸文件夹\\P003\\P003_1.dxf",
+  "sha256": "965faf8f25b14be2fe9d307bd9093680391b2327bc0401789829ddcf96b2d481",
+  "insunits": 4,
+  "modelspace_types": {
+    "CIRCLE": 128,
+    "LWPOLYLINE": 20,
+    "LINE": 17,
+    "DIMENSION": 1,
+    "MTEXT": 59
+  },
+  "layouts": [
+    "Layout1",
+    "Model"
+  ],
+  "blocks": [
+    {
+      "name": "*Model_Space",
+      "entity_count": 225,
+      "types": {
+        "CIRCLE": 128,
+        "LWPOLYLINE": 20,
+        "LINE": 17,
+        "DIMENSION": 1,
+        "MTEXT": 59
+      }
+    },
+    {
+      "name": "_OPEN30",
+      "entity_count": 3,
+      "types": {
+        "LINE": 3
+      }
+    },
+    {
+      "name": "*D1",
+      "entity_count": 10,
+      "types": {
+        "LINE": 4,
+        "INSERT": 2,
+        "MTEXT": 1,
+        "POINT": 3
+      }
+    },
+    {
+      "name": "*D2",
+      "entity_count": 10,
+      "types": {
+        "LINE": 4,
+        "INSERT": 2,
+        "MTEXT": 1,
+        "POINT": 3
+      }
+    },
+    {
+      "name": "*D3",
+      "entity_count": 8,
+      "types": {
+        "LINE": 2,
+        "INSERT": 2,
+        "MTEXT": 1,
+        "POINT": 3
+      }
+    },
+    {
+      "name": "*D4",
+      "entity_count": 10,
+      "types": {
+        "LINE": 4,
+        "INSERT": 2,
+        "MTEXT": 1,
+        "POINT": 3
+      }
+    },
+    {
+      "name": "*D5",
+      "entity_count": 10,
+      "types": {
+        "LINE": 4,
+        "INSERT": 2,
+        "MTEXT": 1,
+        "POINT": 3
+      }
+    },
+    {
+      "name": "*D6",
+      "entity_count": 10,
+      "types": {
+        "LINE": 4,
+        "INSERT": 2,
+        "MTEXT": 1,
+        "POINT": 3
+      }
+    },
+    {
+      "name": "*D7",
+      "entity_count": 10,
+      "types": {
+        "LINE": 4,
+        "INSERT": 2,
+        "MTEXT": 1,
+        "POINT": 3
+      }
+    },
+    {
+      "name": "*D8",
+      "entity_count": 10,
+      "types": {
+        "LINE": 4,
+        "INSERT": 2,
+        "MTEXT": 1,
+        "POINT": 3
+      }
+    },
+    {
+      "name": "*D9",
+      "entity_count": 10,
+      "types": {
+        "LINE": 4,
+        "INSERT": 2,
+        "MTEXT": 1,
+        "POINT": 3
+      }
+    },
+    {
+      "name": "*D10",
+      "entity_count": 10,
+      "types": {
+        "LINE": 4,
+        "INSERT": 2,
+        "MTEXT": 1,
+        "POINT": 3
+      }
+    },
+    {
+      "name": "*D11",
+      "entity_count": 10,
+      "types": {
+        "LINE": 4,
+        "INSERT": 2,
+        "MTEXT": 1,
+        "POINT": 3
+      }
+    },
+    {
+      "name": "*D12",
+      "entity_count": 10,
+      "types": {
+        "LINE": 4,
+        "INSERT": 2,
+        "MTEXT": 1,
+        "POINT": 3
+      }
+    },
+    {
+      "name": "*D13",
+      "entity_count": 10,
+      "types": {
+        "LINE": 4,
+        "INSERT": 2,
+        "MTEXT": 1,
+        "POINT": 3
+      }
+    },
+    {
+      "name": "*D14",
+      "entity_count": 10,
+      "types": {
+        "LINE": 4,
+        "INSERT": 2,
+        "MTEXT": 1,
+        "POINT": 3
+      }
+    },
+    {
+      "name": "*D15",
+      "entity_count": 10,
+      "types": {
+        "LINE": 4,
+        "INSERT": 2,
+        "MTEXT": 1,
+        "POINT": 3
+      }
+    },
+    {
+      "name": "*D16",
+      "entity_count": 10,
+      "types": {
+        "LINE": 4,
+        "INSERT": 2,
+        "MTEXT": 1,
+        "POINT": 3
+      }
+    },
+    {
+      "name": "*D17",
+      "entity_count": 5,
+      "types": {
+        "LINE": 1,
+        "MTEXT": 1,
+        "INSERT": 1,
+        "POINT": 2
+      }
+    },
+    {
+      "name": "*D18",
+      "entity_count": 5,
+      "types": {
+        "LINE": 1,
+        "MTEXT": 1,
+        "INSERT": 1,
+        "POINT": 2
+      }
+    }
+  ],
+  "model_layers": {
+    "MATER": 214,
+    "0": 11
+  },
+  "existing_project_hashes": {
+    "P001": "5678cfaf725f21623d24547a1a0aac7cee1dcda119a728b8f66843a875bac539",
+    "P002": "b7de0ae764357295b3c59fb6045b438a8f0fff11d199a73d8b8bde7a2aafe66b"
+  }
+}

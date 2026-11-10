@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>二维动作整理 · Information Extract</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header id="app-header" class="app-header">
+    <div class="brand"><span class="brand-mark">IE</span><div><h1>二维动作整理</h1><p id="source-label">正在读取 DXF…</p></div></div>
+    <div class="header-actions"><span id="save-status" class="status-pill">正在连接</span><button id="undo" title="Ctrl+Z">撤销</button><button id="redo" title="Ctrl+Y">重做</button><button id="save-project" class="primary">保存标注</button></div>
+  </header>
+  <nav class="project-bar" aria-label="项目与数据操作">
+    <label>零件 <input id="part-id" readonly title="由当前源图的 configs/app.json 确定" class="compact-input" value="P001" aria-label="零件编号"></label>
+    <label>预期动作数 <input id="expected-count" class="count-input" type="number" min="0" placeholder="可选"></label>
+    <label class="check"><input id="inventory-confirmed" type="checkbox">整图动作解释完成</label>
+    <span class="toolbar-spacer"></span>
+    <button id="reload-project">重新读取</button><button id="backup-project">下载项目备份</button><button id="import-project">导入项目 JSON</button><button id="import-operations">导入动作清单</button><button id="import-workbook">导入 Sheet3 / 4</button><button id="compile-geometry" class="primary">整理几何</button><button id="validate-project">检查数据</button><button id="export-draft">导出检查包</button><button id="export-validated">导出正式表</button>
+    <input id="project-file" type="file" accept=".json,application/json" hidden><input id="operations-file" type="file" accept=".xlsx,.csv,.tsv" hidden><input id="workbook-file" type="file" accept=".xlsx" hidden>
+  </nav>
+  <main class="workspace">
+    <aside class="left-panel">
+      <div class="panel-heading"><h2>加工动作 <span id="operation-count">0</span></h2><button id="new-operation" class="small primary">＋ 新建</button></div>
+      <div class="search-wrap"><input id="operation-search" placeholder="查找编号、名称、类型…" aria-label="查找动作"><p class="field-help">最新创建的动作在最上方</p></div>
+      <div class="list-controls"><select id="operation-filter" aria-label="动作类型筛选"><option value="">全部类型</option></select><button id="fit-current" class="small">聚焦当前</button></div>
+      <div id="operation-list" class="operation-list" role="list" aria-label="加工动作列表"></div>
+      <div class="inventory-summary"><p id="workflow-state" class="workflow-state"></p><strong>实体处理进度</strong><div id="statistics" class="statistics"></div><p id="configuration-state"></p><p class="muted">动作数量与几何片段数量不同；不必为每条背景线创建动作。</p></div>
+    </aside>
+    <section class="canvas-panel">
+      <div class="canvas-toolbar">
+        <div class="button-group" aria-label="画布工具"><button data-tool="select" class="active" title="点击追加，再次点击取消；无需按 Shift">多选</button><button data-tool="box" title="框住完整实体，追加到当前选择">框选</button><button data-tool="pan">平移</button></div>
+        <button id="clear-selection">清空选择</button><button id="expand-group" title="将当前片段所在原始 CAD 对象的全部子段加入选择">选同源子段</button>
+        <span class="toolbar-spacer"></span><select id="orientation" aria-label="显示方向"><option value="270">270° 熟悉视角</option><option value="0">原始工程方向</option></select><button id="fit-all">全图</button>
+      </div>
+      <div class="display-bar"><label class="check"><input id="show-regions" type="checkbox" checked>影响区</label><label class="check"><input id="only-unhandled" type="checkbox">突出未处理</label><label class="check"><input id="show-background" type="checkbox" checked>显示背景</label><label class="check"><input id="show-annotations" type="checkbox" checked>图纸文字</label><span class="legend-dot active-dot"></span>当前/父动作<span class="legend-dot selected-dot"></span>本次选择<span id="parent-highlight-status" hidden></span></div>
+      <div id="canvas-wrap" class="canvas-wrap"><svg id="drawing" tabindex="0" aria-label="DXF 二维图纸，可点选与框选" xmlns="http://www.w3.org/2000/svg"><g id="material-layer"><g id="source-layer"></g><g id="region-layer"></g><g id="geometry-layer"></g></g><g id="annotation-layer" style="pointer-events:none;font-family:Microsoft YaHei,sans-serif"></g><rect id="selection-box" class="selection-box" hidden></rect></svg><div id="empty-canvas" class="canvas-message">正在加载图纸…</div><div id="hit-picker" class="hit-picker" hidden></div><div id="canvas-hint" class="canvas-hint">滚轮缩放 · 中键 / 空格拖动 · 连续点击多选 · Alt 点选切换重叠实体</div></div>
+      <div class="canvas-footer"><span id="selection-status">已选 0 个片段</span><span id="coordinate-status">材料坐标 —</span><span id="zoom-status">100%</span></div>
+      <section id="report-panel" class="report-panel" hidden><div class="report-heading"><strong id="report-title">检查结果</strong><button id="close-report" class="small">收起</button></div><div id="report-content"></div><div id="export-links"></div></section>
+    </section>
+    <aside class="right-panel">
+      <div class="panel-heading"><div><h2 id="editor-title">新建加工动作</h2><p id="editor-context" class="muted">选取图元并填写属性，创建后自动进入下一动作。</p></div></div>
+      <form id="operation-form" autocomplete="off">
+        <div class="field-row"><label>动作编号 <span class="required">*</span><input id="operation-id" placeholder="如 O066" required></label><label>动作类型 <span class="required">*</span><select id="operation-type" required></select></label></div>
+        <label>动作名称 <span class="required">*</span><input id="operation-name" placeholder="原始特征名称" required></label>
+        <label id="bend-angle-row" hidden>折弯角度（°）<input id="bend-angle" type="number" step="any" placeholder="未知可留空" aria-describedby="bend-angle-help"><span id="bend-angle-help" class="field-help">按图纸填写角度值；不据此推断折弯方向或影响区。</span></label>
+        <div class="field-row"><label>表面侧<select id="surface-side"></select></label><label>CAD 父动作<input id="cad-parent" list="operation-options" placeholder="编号，可后补"></label></div>
+        <label>明确前置动作<input id="predecessors" aria-describedby="predecessors-help" placeholder="必须先完成的动作编号，如 O003"></label>
+        <p id="predecessors-help" class="field-help">仅填已确认必须更早工序完成的动作编号，例如折弯之前必须先冲的异形孔。预孔—翻孔先后已由加工组表达，无需重复填入；未确认可暂留空。</p>
+        <label>加工组（自动）<input id="process-group" readonly aria-describedby="pairing-help" placeholder="根据预孔与翻孔的 CAD 对应关系自动填写"></label>
+        <p id="pairing-help" class="field-help">唯一确定对应预孔与翻孔后自动归组，无需手填。</p>
+        <datalist id="operation-options"></datalist>
+        <fieldset><legend>动作图元绑定</legend>
+          <p class="field-help">连续点击可添加多条线、圆弧或圆；再点一次取消。允许多个独立轮廓，标注时不生成最终几何。</p>
+          <p class="selection-summary" id="draft-selection-count">新动作：本次已选 0 个来源片段</p>
+          <p id="binding-warning" class="binding-warning" hidden></p><label id="shared-row" class="check" hidden><input id="shared-confirmed" type="checkbox">确认这些图元由多个动作共用</label>
+          <label id="centerline-row" class="check" hidden><input id="bend-source-centerline" type="checkbox">所选图元是图中真实的折弯中线</label>
+          <label id="span-confirm-row" class="check" hidden><input id="span-confirmed" type="checkbox">已核对一般折弯的整体跨度</label>
+          <label id="footprint-confirm-row" class="check" hidden><input id="footprint-confirmed" type="checkbox">已核对折桥外围范围</label>
+          <label id="absorb-row" class="check" hidden><input id="absorb-interior" type="checkbox" checked>收纳范围内未绑定的辅助线（独立圆孔保留）</label>
+          <label class="check"><input id="no-geometry" type="checkbox">确认此动作无适用二维几何</label>
+          <label id="no-geometry-row" hidden>原因<textarea id="no-geometry-reason" rows="2"></textarea></label>
+          <label id="protrusion-row" hidden>拉包凸起侧<select id="protrusion-side"><option value="UNKNOWN">尚未确认</option><option value="SMOOTH">向光面凸起</option><option value="ROUGH">向毛面凸起</option></select></label>
+          <label>备注<textarea id="operation-notes" rows="2" placeholder="可记录轮廓含义或待确认问题"></textarea></label>
+          <p id="geometry-help" class="field-help"></p>
+          <div class="inline-actions"><button id="view-source" type="button">查看已选来源</button></div>
+          <div id="preview-issues" class="inline-issues"></div>
+        </fieldset>
+        <fieldset id="region-editor" hidden><legend>折弯影响区 · Sheet5</legend>
+          <label class="check"><input id="region-enabled" type="checkbox">为此折弯设置影响区</label>
+          <div id="region-fields" hidden>
+            <label>影响区编号<input id="region-id" placeholder="如 R066"></label>
+            <div class="field-row"><label>影响侧<select id="affected-side"><option value="">请选择</option><option value="POSITIVE_X">＋X（竖直折弯）</option><option value="NEGATIVE_X">−X（竖直折弯）</option><option value="POSITIVE_Y">＋Y（水平折弯）</option><option value="NEGATIVE_Y">−Y（水平折弯）</option></select></label><label>远边界坐标<input id="far-boundary" type="number" step="any" placeholder="原材料坐标"></label></div>
+            <p class="field-help">当前影响区仅适用水平/竖直的一般折弯；整理几何后核对结果。</p>
+            <label>父影响区<select id="parent-region"><option value="">无父级 / 尚未确认</option></select></label>
+            <label class="check"><input id="parent-confirmed" type="checkbox">已确认父级选择（包括明确无父级）</label>
+            <label class="check"><input id="region-confirmed" type="checkbox">已核对影响侧、边界与区域预览</label>
+          </div>
+        </fieldset>
+        <div class="editor-actions"><button id="apply-operation" class="primary" type="submit">创建动作，录下一个</button><button id="delete-operation" class="danger" type="button" hidden>删除</button></div>
+        <p id="draft-state" class="field-help">图纸选择不会自动创建动作。</p>
+      </form>
+      <section class="entity-section"><h3>来源片段</h3><div id="entity-details" class="entity-details">点选图元可查看精确材料坐标和来源。</div><div class="inline-actions"><button id="ignore-selection">标记为背景</button><button id="restore-selection">恢复未处理</button><button id="exclude-absorption">解除区域收纳</button></div></section>
+    </aside>
+  </main>
+  <div id="toast" role="status" class="toast" hidden></div>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

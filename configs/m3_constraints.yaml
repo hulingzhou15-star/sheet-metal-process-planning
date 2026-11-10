@@ -1,0 +1,23 @@
+{
+  "soft_weights": {
+    "bend_area_ordering": 0.45,
+    "precedence_extra_gap": 0.20,
+    "type_fragmentation": 0.35
+  },
+  "bend_area_ordering": {
+    "significance_ratio": 1.15,
+    "exclude_ancestor_descendant_pairs": true
+  },
+  "depth_diagnostic": {
+    "significance_ratio": 1.15,
+    "exclude_ancestor_descendant_pairs": true
+  },
+  "type_fragmentation": {
+    "enabled_types": ["FLANGING"]
+  },
+  "station_overload_guardrail": {
+    "enabled": true,
+    "relative_limit": 1.75,
+    "absolute_slack": 5
+  }
+}

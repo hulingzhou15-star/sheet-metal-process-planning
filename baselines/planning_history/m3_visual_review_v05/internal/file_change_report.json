@@ -1,0 +1,23 @@
+{
+  "new_files": [
+    "docs/MILESTONE_3_VISUALIZATION_V05.md",
+    "src/visualization/display_transform.py",
+    "src/visualization/outline_adapter.py",
+    "tests/test_m3_visual_readability.py",
+    "tests/test_m3_visual_ui_interactions.py",
+    "tests/visual_ui_dom_harness.js"
+  ],
+  "modified_files": [
+    "configs/m3_visualization.yaml",
+    "scripts/build_visual_review_pack.py",
+    "src/visualization/config.py",
+    "src/visualization/geometry_adapter.py",
+    "src/visualization/preview.py",
+    "src/visualization/review_ui.js",
+    "src/visualization/review_visualization.py",
+    "src/visualization/svg_renderer.py",
+    "tests/test_m3_visual_svg_renderer.py"
+  ],
+  "new_count": 6,
+  "modified_count": 9
+}

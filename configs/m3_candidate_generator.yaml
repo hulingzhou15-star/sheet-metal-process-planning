@@ -1,0 +1,28 @@
+{
+  "solver": {
+    "engine": "cp_sat",
+    "random_seed": 20261012,
+    "max_distance_timeout_seconds": 30,
+    "per_candidate_timeout_seconds": 5,
+    "num_search_workers": 1
+  },
+  "generation": {
+    "pool_target_per_bucket": 80,
+    "final_target_per_bucket": 20,
+    "max_attempts_per_bucket": 500,
+    "random_objective_coefficient_abs_max": 100,
+    "exact_distance_fallback": 1,
+    "use_no_good_constraints": true
+  },
+  "distance_buckets": {
+    "near_max_ratio": 0.25,
+    "medium_max_ratio": 0.55
+  },
+  "selection": {
+    "soft_prefilter_fraction": 0.70,
+    "method": "farthest_first"
+  },
+  "guardrails": {"apply_station_overload_guardrail": true},
+  "diagnostics": {"include_d3": true, "top_movement_count": 15},
+  "reporting": {"progress_every_attempts": 10}
+}

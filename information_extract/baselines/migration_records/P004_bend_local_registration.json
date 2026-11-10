@@ -1,0 +1,182 @@
+{
+  "id": "P004_U_PROFILE_MIRROR",
+  "type": "REFLECTION_X_TRANSLATION",
+  "translation_xy": [
+    6740.119162995884,
+    4174.470053604143
+  ],
+  "selected_source_ids": [
+    "S_ef1679a170fe23028d77c62b",
+    "S_bc287023e1a7a2ab544bbc82"
+  ],
+  "anchor_pairs": [
+    {
+      "reference_id": "S_519655dba222a1b97c9124f5",
+      "baseline_id": "S_fbf7b9f99b5938ffb7de460e"
+    },
+    {
+      "reference_id": "S_9eb086171c14055da0772feb",
+      "baseline_id": "S_696f0e01956d1f7bac5d2b7d"
+    },
+    {
+      "reference_id": "S_a85c5529fdb60119afb48441",
+      "baseline_id": "S_c9dfc3774cd5fae49ae3c91e"
+    },
+    {
+      "reference_id": "S_74c36920b23f0e92b9de42dd",
+      "baseline_id": "S_cbef0ba2092eeefd539ffa2f"
+    },
+    {
+      "reference_id": "S_b7ba0b17f98710bfdf938b55",
+      "baseline_id": "S_12a72ce06a3decc19be15ecd"
+    },
+    {
+      "reference_id": "S_98bfa4dc663f7723f475e2b8",
+      "baseline_id": "S_b263a93987b2df529057663d"
+    },
+    {
+      "reference_id": "S_8d61e7bfbb1049a050598b3f",
+      "baseline_id": "S_40364f64885cbd8794c59671"
+    },
+    {
+      "reference_id": "S_14f7bef549130662ebcee579",
+      "baseline_id": "S_e8037aa5c452cdfb48371634"
+    },
+    {
+      "reference_id": "S_9186cf8ea56b1e87bb0760e7",
+      "baseline_id": "S_3ad41e05a8a6a7914c375f98"
+    },
+    {
+      "reference_id": "S_09b041541a9749de98d5ead4",
+      "baseline_id": "S_bed3b08c9c2d8901164a6aa3"
+    },
+    {
+      "reference_id": "S_78aaa96ebce71f1b6e101e31",
+      "baseline_id": "S_a35be7c8e63a65e429b6ba4f"
+    },
+    {
+      "reference_id": "S_b903e11b76fafb0b3def766e",
+      "baseline_id": "S_0f8f47f4f0d8ada117a7e4d6"
+    },
+    {
+      "reference_id": "S_9ad5d2cee4c7b95dfc9821b7",
+      "baseline_id": "S_4f0518d67afddb7e69278940"
+    },
+    {
+      "reference_id": "S_77a109c3aaab857a27885467",
+      "baseline_id": "S_e24b280bb1fb51f33bf05b2a"
+    },
+    {
+      "reference_id": "S_031d91acfce2d8c5fda9ed72",
+      "baseline_id": "S_cc271a18bc083ffd017695c3"
+    },
+    {
+      "reference_id": "S_64c74784d78c8239cbb62af1",
+      "baseline_id": "S_f37ecfb7a7d3578383a48e7e"
+    },
+    {
+      "reference_id": "S_37d752c6e97dce3214697d8e",
+      "baseline_id": "S_e68700d0743984ba41936e60"
+    },
+    {
+      "reference_id": "S_e43eb89ce0216182ecc87f9a",
+      "baseline_id": "S_b5dd06e67135151ddf10f6ea"
+    },
+    {
+      "reference_id": "S_fbbfb9008e68ca89b27d30d2",
+      "baseline_id": "S_ad39a4e02c15d0fc3147b8f8"
+    },
+    {
+      "reference_id": "S_ff552e2e3238b23b63fd3543",
+      "baseline_id": "S_303f07c08175b09bcafde864"
+    },
+    {
+      "reference_id": "S_41575ff9068b9de82d0ed905",
+      "baseline_id": "S_108685306690f07295388b79"
+    },
+    {
+      "reference_id": "S_83efa6e0ec2329bdd47a2c64",
+      "baseline_id": "S_a220b215f83cb73816ed55ee"
+    },
+    {
+      "reference_id": "S_9a29a5b8e8e2abb4a3698c70",
+      "baseline_id": "S_742fea49b93febfb95b4fbe7"
+    },
+    {
+      "reference_id": "S_f8a29c2c906aa959c9c72535",
+      "baseline_id": "S_6ef5f24c77c77266d517d935"
+    },
+    {
+      "reference_id": "S_551e856af6d2726df39db7b1",
+      "baseline_id": "S_c57434f647d6a86c71f63893"
+    },
+    {
+      "reference_id": "S_90547630cc2d09f5563a618e",
+      "baseline_id": "S_1920a883f0b5a072edcac374"
+    },
+    {
+      "reference_id": "S_fd09185955de0718ece11690",
+      "baseline_id": "S_450e6f495094f00d2e44a2dd"
+    },
+    {
+      "reference_id": "S_3798fc5ac9330cd4e0f746ca",
+      "baseline_id": "S_9dd2434f8197d54122b48d62"
+    },
+    {
+      "reference_id": "S_be630485b2240d3e88a8c1b2",
+      "baseline_id": "S_7d1f3dc0a1664919d0d04e04"
+    },
+    {
+      "reference_id": "S_7a32b7795a53192ed3f66c5c",
+      "baseline_id": "S_863730916b59f2f4d707b5fe"
+    },
+    {
+      "reference_id": "S_91e5299c3f48ed5d3bff05c7",
+      "baseline_id": "S_73af6b335db7d0d264cee208"
+    },
+    {
+      "reference_id": "S_5d6631c5f6f21335ea56fc69",
+      "baseline_id": "S_3480d0c06e01114e65b864fd"
+    },
+    {
+      "reference_id": "S_c52a0747faee39cd0b6acdd2",
+      "baseline_id": "S_62aac50e4301f57cca86dbb9"
+    },
+    {
+      "reference_id": "S_c9d150ec491962efaf76bcdc",
+      "baseline_id": "S_229530ad70d407fb2eb986e2"
+    },
+    {
+      "reference_id": "S_618eea8186b88d8623f04136",
+      "baseline_id": "S_dc29bf70b910c20e359aff8a"
+    },
+    {
+      "reference_id": "S_35852ff521950edeb13c8f19",
+      "baseline_id": "S_036b6c84172a89ce593abe6d"
+    },
+    {
+      "reference_id": "S_cf48db52696fb55b40a8d7e5",
+      "baseline_id": "S_13273a00773023ab3269566a"
+    },
+    {
+      "reference_id": "S_300fd1f357f00c515a2ae99c",
+      "baseline_id": "S_4e85489faed4f1c1dc44d0d3"
+    },
+    {
+      "reference_id": "S_e9e3c34a657e3b2f446916f4",
+      "baseline_id": "S_a2e805dc10201e8efba68578"
+    },
+    {
+      "reference_id": "S_8776748a53304d0d5fefd42a",
+      "baseline_id": "S_9e635892f74609b19edcf7f6"
+    },
+    {
+      "reference_id": "S_ee90229a724e42c166bcd394",
+      "baseline_id": "S_6172d4a086e0a5b4b0e794b4"
+    },
+    {
+      "reference_id": "S_5895880089088c2027e09244",
+      "baseline_id": "S_947e0eb01499e2325ef5cdca"
+    }
+  ]
+}

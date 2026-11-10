@@ -1,0 +1,14 @@
+{
+  "output": "outputs/local_collision_v01/P001",
+  "model": "outputs/finite_bend_v01/P001/model.json",
+  "material": "outputs/material_state_v01/P001/viewer_data.json",
+  "asset": "outputs/three_d_state_v01/P001/asset.json",
+  "cad_config": "configs/three_d_state_v01.json",
+  "temporal_intervals": [12, 24],
+  "band_intervals": [16, 32],
+  "contact_tolerance_mm": 0.000001,
+  "intersection_volume_tolerance_mm3": 0.000001,
+  "mesh_linear_deflection_mm": 0.08,
+  "mesh_angular_deflection_rad": 0.2,
+  "operation_ids": ["O009", "O010"]
+}

@@ -1,0 +1,12 @@
+{
+  "output": "outputs/finite_bend_v01/P001",
+  "operation_ids": ["O009", "O010"],
+  "geometry_tolerance_mm": 0.000001,
+  "boundary_search_mm": 0.5,
+  "band_mesh_intervals": 32,
+  "geometry_validation_tolerance_mm": 0.08,
+  "source_drawing_pack": "outputs/process_drawing_assistance/P001",
+  "source_material_pack": "outputs/material_state_v01/P001",
+  "source_cad_pack": "outputs/three_d_state_v01/P001",
+  "interpretation": "Local drawing-assisted geometric reconstruction; not a material parameter identification or forming solver."
+}

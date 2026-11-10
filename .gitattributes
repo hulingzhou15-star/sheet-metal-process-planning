@@ -1,0 +1,137 @@
+* text=auto
+*.py text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.ps1 text eol=crlf
+*.xlsx binary
+*.dxf binary
+*.step binary
+*.stp binary
+*.zip binary
+
+# Frozen inputs preserve exact bytes across checkout (including line endings).
+baselines/** -text
+information_extract/sources/** -text
+information_extract/baselines/** -text
+"src/constraints/config.py" -text
+"src/constraints/context.py" -text
+"src/constraints/diagnostics.py" -text
+"src/constraints/guardrails.py" -text
+"src/constraints/hard_constraints.py" -text
+"src/constraints/region_assignment.py" -text
+"src/constraints/soft_priors.py" -text
+"src/constraints/__init__.py" -text
+"src/constraints/v06/config.py" -text
+"src/constraints/v06/context.py" -text
+"src/constraints/v06/feasibility.py" -text
+"src/constraints/v06/hard_constraints.py" -text
+"src/constraints/v06/proximity.py" -text
+"src/constraints/v06/soft_priors.py" -text
+"src/constraints/v06/__init__.py" -text
+"src/candidate/config.py" -text
+"src/candidate/cp_sat_model.py" -text
+"src/candidate/distance.py" -text
+"src/candidate/generator.py" -text
+"src/candidate/report.py" -text
+"src/candidate/selector.py" -text
+"src/candidate/serialization.py" -text
+"src/candidate/__init__.py" -text
+"src/graph/builders.py" -text
+"src/graph/geometry_distance.py" -text
+"src/graph/geometry_features.py" -text
+"src/graph/geometry_primitives.py" -text
+"src/graph/plan_overlay.py" -text
+"src/graph/schema.py" -text
+"src/graph/semantic_relations.py" -text
+"src/graph/static_graph.py" -text
+"src/graph/station_context.py" -text
+"src/graph/__init__.py" -text
+"src/inference/audit.py" -text
+"src/inference/contrasts.py" -text
+"src/inference/generation.py" -text
+"src/inference/input.py" -text
+"src/inference/report.py" -text
+"src/inference/__init__.py" -text
+"src/neighborhood_penalty/catalogue.py" -text
+"src/neighborhood_penalty/config.py" -text
+"src/neighborhood_penalty/generation.py" -text
+"src/neighborhood_penalty/model.py" -text
+"src/neighborhood_penalty/review.py" -text
+"src/neighborhood_penalty/scoring.py" -text
+"src/neighborhood_penalty/__init__.py" -text
+"configs/m3_candidate_generator.yaml" -text
+"configs/m3_constraints.yaml" -text
+"configs/m3_constraints_v06.yaml" -text
+"configs/m3_human_review.yaml" -text
+"configs/m3_reference_free_v07.json" -text
+"configs/m3_review_v08.json" -text
+"configs/neighborhood_n1.json" -text
+"configs/neighborhood_penalty_v02.json" -text
+"configs/neighborhood_v01.json" -text
+"configs/proximity_geometry_review.json" -text
+"configs/relative_proximity_audit.json" -text
+"configs/relative_proximity_trial.json" -text
+"information_extract/projects/P001/project.json" -text
+"information_extract/projects/P002/project.json" -text
+"information_extract/projects/P003/project.json" -text
+"information_extract/projects/P004/project.json" -text
+"information_extract/projects/P001/revisions/revision_000001_2cd278f4.json" -text
+"information_extract/projects/P001/revisions/revision_000002_de5b678d.json" -text
+"information_extract/projects/P001/revisions/revision_000003_a357acfb.json" -text
+"information_extract/projects/P001/revisions/revision_000004_80417215.json" -text
+"information_extract/projects/P002/revisions/revision_000001_b1f291af.json" -text
+"information_extract/projects/P002/revisions/revision_000002_530f09b2.json" -text
+"information_extract/projects/P002/revisions/revision_000003_a10c44bd.json" -text
+"information_extract/projects/P002/revisions/revision_000004_1a7bc2b9.json" -text
+"information_extract/projects/P002/revisions/revision_000005_6f7539f2.json" -text
+"information_extract/projects/P002/revisions/revision_000006_f98ec648.json" -text
+"information_extract/projects/P002/revisions/revision_000007_7da4ba6b.json" -text
+"information_extract/projects/P002/revisions/revision_000008_76714dfb.json" -text
+"information_extract/projects/P002/revisions/revision_000009_d2e020ff.json" -text
+"information_extract/projects/P002/revisions/revision_000010_488dfa8b.json" -text
+"information_extract/projects/P003/revisions/revision_000001_dbe4165e.json" -text
+"information_extract/projects/P003/revisions/revision_000002_0fe7a446.json" -text
+"information_extract/projects/P003/revisions/revision_000003_f6262162.json" -text
+"information_extract/projects/P004/revisions/revision_000001_3bebe865.json" -text
+"information_extract/projects/P004/revisions/revision_000002_4303efe2.json" -text
+"information_extract/projects/P004/revisions/revision_000003_6ef9e70c.json" -text
+"information_extract/projects/P004/revisions/revision_000004_57d1dbc3.json" -text
+"information_extract/projects/P004/revisions/revision_000005_22fe7e10.json" -text
+"data/parts/P001/钣金加工数据表_P001.xlsx" -text
+"information_extract/sources/P001/legacy_outline.html" -text
+"information_extract/sources/P001/process_drawing.dxf" -text
+"information_extract/sources/P001/formed.step" -text
+"information_extract/sources/P001/Plotview 1.dxf" -text
+"information_extract/sources/P002/P002_1.dxf" -text
+"information_extract/sources/P003/P003_1.dxf" -text
+"information_extract/sources/P004/P004.dxf" -text
+"information_extract/sources/P004/P004_01.dxf" -text
+"baselines/P001/plans/all_16_complete_assignments.json" -text
+"information_extract/sources/P001/originals/101-11-1-1(AE8M1101-S010) - 工艺预排.wkf" -text
+"information_extract/sources/P001/originals/D002-A1313(A7991437-00A)A00排样图.dwg" -text
+"information_extract/sources/P001/originals/P001_formed.stp" -text
+"information_extract/sources/P001/originals/P001_formed.x_t" -text
+"information_extract/sources/P001/originals/P001_formed_single.stp" -text
+"information_extract/sources/P001/originals/钣金加工数据表_P001.xlsx" -text
+"information_extract/sources/P002/originals/D002-S0208-1-10-10-10(AE8M1101-S010)-排样图-2026.1.7.dwg" -text
+"information_extract/sources/P002/originals/D002-S0208-AE8M1101展开.wkf" -text
+"data/parts/P002/钣金加工数据表_P002.xlsx" -text
+"information_extract/sources/P003/originals/101-11-1-1(AC4G1046-01C).wkf" -text
+"information_extract/sources/P003/originals/D002-A0873-1-7-7-7(AC4G1046-00A)01B排样图.dwg" -text
+"data/parts/P003/钣金加工数据表_P003.xlsx" -text
+"information_extract/sources/P004/originals/101--1-1()Strip-Layout-V00(2026.10.19).wkf" -text
+"information_extract/sources/P004/originals/D004-S0088（195701800)-A00料带.dwg" -text
+
+# Preserve tested source and historical records exactly; diffs remain textual.
+src/** -text
+scripts/** -text
+tests/** -text
+configs/** -text
+information_extract/three_d/** -text
+information_extract/scripts/** -text
+information_extract/tests/** -text
+information_extract/extract_app/** -text
+information_extract/configs/** -text
+docs/archive/** -text

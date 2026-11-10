@@ -1,0 +1,40 @@
+import { browserExecutable } from './browser_runtime.mjs';
+import {chromium} from 'playwright';
+import path from 'node:path';import fs from 'node:fs/promises';import assert from 'node:assert/strict';import {pathToFileURL} from 'node:url';
+const out=path.resolve('information_extract/outputs/finite_material_v02/P001');
+const browser=await chromium.launch({executablePath:browserExecutable(),headless:true,args:['--use-angle=swiftshader','--enable-unsafe-swiftshader']});
+const page=await browser.newPage({viewport:{width:1680,height:1150}}),errors=[],checks=[];page.on('pageerror',e=>errors.push(e.message));
+try{
+ await page.goto(pathToFileURL(path.join(out,'review.html')).href,{timeout:120000});await page.waitForFunction(()=>window.finiteMaterialReview,{}, {timeout:120000});
+ assert.equal(await page.locator('#plan option').count(),16);assert.equal(await page.locator('#station option').count(),7);
+ assert.equal(await page.evaluate(()=>finiteMaterialReview.data.model.bends.length),59);
+ await page.click('#cflat');assert.ok((await page.evaluate(()=>finiteMaterialReview.getState())).executed_removal_ids.includes('O193'));
+ await page.selectOption('#view','top');await page.screenshot({path:path.join(out,'C193_OP20_cut.png'),fullPage:true});
+ const flatImage=await page.evaluate(()=>finiteMaterialReview.capture3D());
+ await page.click('#cformed');await page.selectOption('#view','iso');await page.screenshot({path:path.join(out,'C193_OP60_tongue.png'),fullPage:true});
+ assert.notEqual(await page.evaluate(()=>finiteMaterialReview.capture3D()),flatImage);
+ assert.match(await page.locator('#selectedInfo').innerText(),/P273_302/);
+ checks.push('C-shaped region is removed in OP20; retained tongue has independent material ownership and distinct formed pose');
+ await page.selectOption('#station','OP20');await page.selectOption('#phase','entry');
+ assert.ok(!(await page.evaluate(()=>finiteMaterialReview.getState())).executed_removal_ids.includes('O193'));
+ await page.selectOption('#phase','motion');await page.fill('#tau','50');await page.dispatchEvent('#tau','input');
+ assert.ok(!(await page.evaluate(()=>finiteMaterialReview.getState())).executed_removal_ids.includes('O193'));
+ await page.selectOption('#phase','completed');assert.ok((await page.evaluate(()=>finiteMaterialReview.getState())).executed_removal_ids.includes('O193'));
+ checks.push('No future holes: station entry and unknown cut-process retain prior material; completed state adds the actual cut');
+ await page.selectOption('#station','OP40');await page.selectOption('#phase','motion');await page.fill('#tau','37');await page.dispatchEvent('#tau','input');
+ const s=await page.evaluate(()=>finiteMaterialReview.getState());
+ const simultaneous=await page.evaluate(()=>{const d=finiteMaterialReview.data,p=d.plans.find(p=>p.plan_id==='NP2_001');return d.model.bends.filter(b=>p.assignments[b.operation_id]==='OP40').map(b=>b.joint_id);});
+ assert.ok(simultaneous.every(id=>s.fractions[id]===.37));
+ const samples=JSON.parse(await fs.readFile(path.join(out,'mapping_samples.json'),'utf8'));
+ const mapped=await page.evaluate(samples=>samples.map(s=>s.flat_points.map(p=>finiteMaterialReview.mapPoint(s.component,p))),samples);
+ let maxError=0;for(let i=0;i<samples.length;i++)for(let j=0;j<samples[i].world_points.length;j++)for(let k=0;k<3;k++)maxError=Math.max(maxError,Math.abs(mapped[i][j][k]-samples[i].world_points[j][k]));
+ assert.ok(maxError<1e-7);checks.push(`Common-station progress and Python/JS finite-strip mappings agree across ${samples.length} components`);
+ await page.click('#whole');await page.screenshot({path:path.join(out,'OP40_common_motion.png'),fullPage:true});
+ const images=new Set();for(const pid of await page.locator('#plan option').evaluateAll(options=>options.map(o=>o.value))){await page.selectOption('#plan',pid);const state=await page.evaluate(()=>finiteMaterialReview.getState());assert.equal(state.plan_id,pid);assert.ok(state.triangle_count>40000);images.add(state.material_id);}
+ checks.push('All 16 frozen candidates switch material variants and common-progress poses');
+ await page.selectOption('#plan','NP2_001');await page.selectOption('#station','OP50');await page.selectOption('#phase','motion');await page.fill('#tau','50');await page.dispatchEvent('#tau','input');
+ const before=await page.evaluate(()=>finiteMaterialReview.capture3D()),box=await page.locator('#overlay').boundingBox();await page.mouse.move(box.x+box.width/2,box.y+box.height/2);await page.mouse.down();await page.mouse.move(box.x+box.width/2+55,box.y+box.height/2+25);await page.mouse.up();assert.notEqual(await page.evaluate(()=>finiteMaterialReview.capture3D()),before);
+ await page.locator('#coverageSummary').click();assert.match(await page.locator('#coverage').innerText(),/不守恒/);assert.match(await page.locator('#coverage').innerText(),/O196–O200/);
+ assert.deepEqual(errors,[]);checks.push('Camera controls, volume limitation and remaining unknown coverage displayed without browser errors');
+ await fs.writeFile(path.join(out,'browser_qa.json'),JSON.stringify({checks,page_errors:errors,max_python_js_error_mm:maxError},null,2));console.log({checks,page_errors:errors,max_python_js_error_mm:maxError});
+}finally{await browser.close()}

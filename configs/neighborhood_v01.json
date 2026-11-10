@@ -1,0 +1,27 @@
+{
+  "schema_version": "neighborhood.v0.1",
+  "rules": {
+    "coordinate_units": "source_coordinates_no_conversion",
+    "active_types": ["FLANGING", "BEND", "IRREGULAR_PUNCH"],
+    "circular_types": ["FLANGING", "PRE_PUNCH", "CIRCLE_PUNCH"],
+    "size_multiple": 3.0,
+    "size_sensitivity": [2.0, 3.0, 4.0],
+    "absolute_thresholds": {"BEND_IRREGULAR": 10.0, "IRREGULAR_IRREGULAR": 10.0, "BEND_BEND": 10.0},
+    "absolute_sensitivity": [5.0, 10.0, 15.0],
+    "relative_jump_ratio": 3.0,
+    "relative_policy": "first_finite_jump_tiers_only",
+    "evidence_profile_sample_count": 24,
+    "numeric_witness_tolerance": 1e-8
+  },
+  "generation": {
+    "seed": 20261016,
+    "base_pool_target": 16,
+    "base_max_attempts": 24,
+    "base_selection_target": 4,
+    "pair_budget_per_base": 24,
+    "selected_target": 16,
+    "selection": "farthest_first_no_quality_prefilter"
+  },
+  "solver": {"max_time_seconds": 5.0, "max_deterministic_time": 1.0, "num_search_workers": 1},
+  "view": {"default_operation": "O066", "initial_rows": 5, "minimum_extent": 24.0, "padding_fraction": 0.18}
+}

@@ -1,0 +1,23 @@
+{
+  "version": "geometry-review.2026-10-16",
+  "circular_types": ["FLANGING", "PRE_PUNCH", "CIRCLE_PUNCH"],
+  "active_review_types": ["FLANGING", "BEND", "IRREGULAR_PUNCH"],
+  "size_multiples": [2.0, 3.0, 4.0],
+  "primary_size_multiple": 3.0,
+  "relative_jump_ratio": 3.0,
+  "absolute_thresholds": {
+    "BEND_IRREGULAR": null,
+    "IRREGULAR_IRREGULAR": null,
+    "BEND_BEND": null
+  },
+  "numeric_witness_tolerance": 1e-8,
+  "contour_profile_sample_count": 24,
+  "view": {
+    "default_operation": "O025",
+    "initial_pair": ["O025", "O066"],
+    "initial_other_pairs": [["O196", "O031"], ["O025", "O196"], ["O009", "O010"]],
+    "default_rows": 20,
+    "pair_padding_fraction": 0.18,
+    "minimum_pair_extent": 24.0
+  }
+}

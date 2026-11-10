@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "part_id": "P001",
+  "step": "sources/P001/formed.step",
+  "expected_step_sha256": "94575e1417e6ca4a36e5f330bc231997c6a4f6139fc5b1285531141ee5f9a941",
+  "workbook": "../data/parts/P001/钣金加工数据表_P001.xlsx",
+  "output": "outputs/three_d_state_v01/P001",
+  "unit": "mm",
+  "mesh": {
+    "linear_deflection_mm": 0.12,
+    "angular_deflection_rad": 0.25
+  },
+  "edge_sample_count": 24,
+  "registration": {
+    "radius_tolerance_mm": 0.03,
+    "position_tolerance_mm": 0.08,
+    "minimum_anchor_count": 4,
+    "axis_tolerance": 1e-05,
+    "noncollinear_tolerance_mm2": 1.0,
+    "competing_solution_match_margin": 2
+  },
+  "bend_proposals": {
+    "axis_parallel_tolerance": 1e-05,
+    "maximum_axis_offset_mm": 15.0,
+    "minimum_overlap_ratio": 0.25,
+    "maximum_candidates_per_operation": 5,
+    "maximum_base_adjacency_hops": 2
+  },
+  "numerical_tolerance": 1e-09
+}

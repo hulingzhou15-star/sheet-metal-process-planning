@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "browser": "Microsoft Edge headless",
+  "comparison_views_checked": 36,
+  "p5_pair_views_checked": 22,
+  "known_cases": 4,
+  "exact_scores_and_selection_reasons": true,
+  "group_bounds_visible": true,
+  "all_changes_disclosed": true,
+  "whole_local_fit": true,
+  "station_colors": true,
+  "difference_mode": true,
+  "rotation_270": true,
+  "actual_curve_hit": true,
+  "outline": true,
+  "synchronized_pan_zoom": true,
+  "internal_not_blind": true,
+  "page_errors": [],
+  "http_requests": []
+}

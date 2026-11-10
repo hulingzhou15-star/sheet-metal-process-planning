@@ -1,0 +1,26 @@
+{
+  "part_id": "P002",
+  "source_file": "sources/P002/P002_1.dxf",
+  "material_block": "*Model_Space",
+  "coordinate_mode": "world_xy",
+  "display_annotations": true,
+  "geometry_tolerance": 1e-06,
+  "parallel_tolerance": 1e-06,
+  "default_rotation": 0,
+  "hit_tolerance_px": 7,
+  "display_decimals": 4,
+  "confirmed_duplicate_line_removals": [
+    {
+      "keep_id": "S_a051af663dd2e4edfd536e34",
+      "remove_id": "S_d5b5b6472c2e3271d0142cea"
+    }
+  ],
+  "port": 8767,
+  "max_request_bytes": 20971520,
+  "solver": {
+    "max_time_seconds": 10,
+    "random_seed": 20261019,
+    "num_search_workers": 1
+  },
+  "confirmed_source_cleanup": "configs/P002_source_cleanup.json"
+}

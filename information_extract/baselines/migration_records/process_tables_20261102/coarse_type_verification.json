@@ -1,0 +1,33 @@
+[
+  {
+    "part": "P002",
+    "changed_rows": 55,
+    "verified_nonempty_cells": 1334,
+    "operation_types": {
+      "PUNCH": 55,
+      "FLANGING": 27,
+      "PRE_PUNCH": 27,
+      "DIMPLE": 6,
+      "BEND": 17,
+      "DRAW_FORM": 3
+    },
+    "sheet3_preserved": true,
+    "styles_preserved": true,
+    "passed": true
+  },
+  {
+    "part": "P003",
+    "changed_rows": 30,
+    "verified_nonempty_cells": 1129,
+    "operation_types": {
+      "PUNCH": 30,
+      "FLANGING": 29,
+      "PRE_PUNCH": 29,
+      "BEND": 9,
+      "DIMPLE": 22
+    },
+    "sheet3_preserved": true,
+    "styles_preserved": true,
+    "passed": true
+  }
+]

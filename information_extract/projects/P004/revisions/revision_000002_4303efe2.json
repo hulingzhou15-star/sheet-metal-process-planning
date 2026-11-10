@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "part_id": "P004",
+  "source_sha256": "ca46fe2718afd6181a775e2a47961b1e6babfef49c6ff715dd4f9bae8198a239",
+  "revision": 2,
+  "source_file_name": "P004.dxf",
+  "coordinate_system": "drawing WCS XY",
+  "source_units": "mm",
+  "expected_operation_count": null,
+  "inventory_confirmed": false,
+  "operations": [
+    {
+      "uid": "9f0bb238-7b50-42b1-ba87-2e4e28de4cd8",
+      "operation_id": "O001",
+      "name": "RE半剪1",
+      "operation_type": "MARKING",
+      "feature_type": "MARKING",
+      "geometry_shape": "UNSPECIFIED",
+      "bend_angle_deg": null,
+      "surface_side": "NOT_APPLICABLE",
+      "cad_parent_operation_id": null,
+      "required_predecessor_ids": [],
+      "process_group_id": null,
+      "source_segment_ids": [],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "",
+      "protrusion_side": "UNKNOWN"
+    },
+    {
+      "uid": "600f1f38-3346-43b4-b72b-4e95a2e3222f",
+      "operation_id": "O002",
+      "name": "光面一般折弯10",
+      "operation_type": "BEND",
+      "feature_type": "BEND_STRAIGHT",
+      "geometry_shape": "STRAIGHT",
+      "bend_angle_deg": 150,
+      "surface_side": "SMOOTH",
+      "cad_parent_operation_id": null,
+      "required_predecessor_ids": [],
+      "process_group_id": null,
+      "source_segment_ids": [
+        "S_73ff9471540ad647fd55f4f7",
+        "S_b6f54bafd0bf451d429ac466"
+      ],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "",
+      "protrusion_side": "UNKNOWN"
+    },
+    {
+      "uid": "51df30aa-9fb1-4312-9f51-0e1cc33f8c0e",
+      "operation_id": "O003",
+      "name": "光面一般折弯11",
+      "operation_type": "BEND",
+      "feature_type": "BEND_STRAIGHT",
+      "geometry_shape": "STRAIGHT",
+      "bend_angle_deg": 140,
+      "surface_side": "SMOOTH",
+      "cad_parent_operation_id": null,
+      "required_predecessor_ids": [],
+      "process_group_id": null,
+      "source_segment_ids": [
+        "S_2ba72bd003349b8c2f31fc19",
+        "S_cae6bde56b4934d76686046a"
+      ],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "",
+      "protrusion_side": "UNKNOWN"
+    }
+  ],
+  "ignored_entities": {},
+  "station_rows": [],
+  "fixed_rows": [],
+  "sheet4_confirmed": false,
+  "workflow_version": 2,
+  "saved_at": "2026-10-27T11:56:43.634910+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": {
+    "blank_csv_identity": true,
+    "blank_csv_answers": true,
+    "browser_export_identity": true,
+    "browser_export_test_answer": true,
+    "browser_export_unicode_note": true,
+    "browser_qa_passed": true,
+    "zip_crc_ok": true,
+    "zip_has_no_internal_files": true,
+    "zip_csv_blank": true
+  },
+  "archive_sha256": "1070177a3a4a5e7c6c04c9557a905ab99234fbc0e113a1a6511c663d403d923f"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "sheet-metal-process-planning-tools",
+  "private": true,
+  "scripts": {
+    "test:geometry-ui": "node information_extract/tests/test_local_forming_browser.mjs"
+  },
+  "devDependencies": {"playwright": "1.62.1"}
+}

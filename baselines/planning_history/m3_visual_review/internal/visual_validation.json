@@ -1,0 +1,76 @@
+{
+  "static_preview_count": 7,
+  "previews": [
+    {
+      "file": "comparison_difference_only.svg",
+      "panel_count": 2,
+      "same_viewbox": true,
+      "png_exists": true
+    },
+    {
+      "file": "comparison_influence_regions.svg",
+      "panel_count": 2,
+      "same_viewbox": true,
+      "png_exists": true
+    },
+    {
+      "file": "comparison_OP20.svg",
+      "panel_count": 2,
+      "same_viewbox": true,
+      "png_exists": true
+    },
+    {
+      "file": "comparison_OP50.svg",
+      "panel_count": 2,
+      "same_viewbox": true,
+      "png_exists": true
+    },
+    {
+      "file": "comparison_region_filter.svg",
+      "panel_count": 2,
+      "same_viewbox": true,
+      "png_exists": true
+    },
+    {
+      "file": "single_OP20.svg",
+      "panel_count": 1,
+      "same_viewbox": true,
+      "png_exists": true
+    },
+    {
+      "file": "single_OP50.svg",
+      "panel_count": 1,
+      "same_viewbox": true,
+      "png_exists": true
+    }
+  ],
+  "png_visual_inspection": {
+    "completed": true,
+    "files_reviewed": [
+      "comparison_difference_only.png",
+      "comparison_influence_regions.png",
+      "comparison_OP20.png",
+      "comparison_OP50.png",
+      "comparison_region_filter.png",
+      "single_OP20.png",
+      "single_OP50.png"
+    ],
+    "coordinate_direction": "x-right/y-up",
+    "geometry_mapping_issues": [],
+    "observation": "No evident coordinate rotation, misplaced primitive or incorrect Station emphasis in the seven static previews. Fine geometry can overlap at full extent; synchronized local zoom and the Operation list are available."
+  },
+  "browser_end_to_end_test": {
+    "completed": false,
+    "scope": "Static SVG/PNG visual inspection, HTML/source checks and Node display-function tests only; no full browser interaction test."
+  },
+  "frozen_integrity": {
+    "passed": true,
+    "checked": 189,
+    "observed_baseline": 190,
+    "acknowledged_deletions": 1
+  },
+  "blinding_pass": true,
+  "public_files_checked": 15,
+  "blank_forms": 24,
+  "labels_generated": false
+}

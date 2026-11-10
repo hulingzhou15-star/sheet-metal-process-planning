@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "part_id": "P001",
+  "source_sha256": "180a7761767ed99402df43516d71403b61fa1dcc725363a190aa4e51d16365ef",
+  "revision": 2,
+  "expected_operation_count": null,
+  "inventory_confirmed": false,
+  "operations": [
+    {
+      "uid": "4d636f0b-bd2e-4d2a-9283-4f61898e3ef0",
+      "operation_id": "QA_CIRCLE",
+      "name": "验收示例：圆形几何绑定",
+      "operation_type": "CIRCLE_PUNCH",
+      "surface_side": "NOT_APPLICABLE",
+      "cad_parent_operation_id": null,
+      "required_predecessor_ids": [],
+      "process_group_id": null,
+      "source_segment_ids": [
+        "S_650ff8335ead0b2e0fbb293a"
+      ],
+      "geometry_mode": "source",
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": []
+    },
+    {
+      "uid": "a3964542-3508-4cb5-9a9d-5e2fecf59ccb",
+      "operation_id": "QA_BEND",
+      "name": "验收示例：四处分段双线",
+      "operation_type": "BEND",
+      "surface_side": "SMOOTH",
+      "cad_parent_operation_id": null,
+      "required_predecessor_ids": [],
+      "process_group_id": null,
+      "source_segment_ids": [
+        "S_c01db09b5c2f83c852581427",
+        "S_0a9757c3eb8d7a404c2b7664",
+        "S_924bfe00d2611780db13889c",
+        "S_be43e1cce0cb312e2ecf0817",
+        "S_89469f0e3d9ac45e9648ab34",
+        "S_38acbb77b1291ba22d4aa10e",
+        "S_dee01ccc89cd1348735f6b0d",
+        "S_9887f5ac231d6faf09ff6bc7"
+      ],
+      "geometry_mode": "bend_midline",
+      "geometry_options": {
+        "confirmed_span": true,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "no_geometry_reason": "",
+      "region": {
+        "influence_region_id": "QA_REGION",
+        "affected_side": "POSITIVE_X",
+        "far_boundary_coord": 530,
+        "parent_region_id": null,
+        "parent_confirmed": true,
+        "confirmed": true
+      },
+      "absorb_interior": true,
+      "absorption_exclusions": []
+    }
+  ],
+  "ignored_entities": {},
+  "station_rows": [],
+  "fixed_rows": [],
+  "sheet4_confirmed": false,
+  "saved_at": "2026-10-18T10:22:24.256994+00:00",
+  "source_file_name": "Plotview 1.dxf",
+  "coordinate_system": "block-local material XY",
+  "source_units": "mm"
+}

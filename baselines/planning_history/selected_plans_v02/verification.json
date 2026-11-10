@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "existing_files_verified": 212,
+  "changed": [],
+  "unit_tests": 5,
+  "browser_checks": {
+    "passed": true,
+    "plans_checked": 16,
+    "assignment_cells_checked": 3584,
+    "station_views_checked": 112,
+    "visible_geometry_per_plan": 211,
+    "missing_geometry_preserved": 13,
+    "all_16_png_exported": true,
+    "all_16_tiles": true,
+    "exact_frozen_assignments": true,
+    "order_preserved": true,
+    "rotation_270": true,
+    "outline": true,
+    "actual_curve_hit": true,
+    "search_and_type_filter": true,
+    "pan_zoom_fit": true,
+    "json_and_svg_download_verified": true,
+    "page_errors": [],
+    "http_requests": []
+  },
+  "full_pngs": 16,
+  "full_svgs": 16
+}

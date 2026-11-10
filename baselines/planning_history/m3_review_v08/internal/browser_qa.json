@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "browser": "Microsoft Edge headless",
+  "offline_file_protocol": true,
+  "comparisons": 29,
+  "station_sync": true,
+  "operation_detail": true,
+  "region_fit": true,
+  "difference_mode": true,
+  "rotation_270": true,
+  "csv_download": true,
+  "draft_restored": true,
+  "single_plan": true,
+  "page_errors": [],
+  "network_requests": [],
+  "tested_comparison_id": "R02_CMP_006",
+  "download_filename": "comparison_pairs_completed.csv"
+}

@@ -1,0 +1,770 @@
+{
+  "schema_version": 1,
+  "part_id": "P002",
+  "source_sha256": "a89cbdbde22fccb33d4cde2dd213a728d3cc5c56552b6fbf02686e11b58a894f",
+  "revision": 5,
+  "source_file_name": "P002_1.dxf",
+  "coordinate_system": "drawing WCS XY",
+  "source_units": "mm",
+  "expected_operation_count": null,
+  "inventory_confirmed": false,
+  "operations": [
+    {
+      "uid": "e867f4b0-c4c4-4dfb-9bab-5d1702e1913f",
+      "operation_id": "O001",
+      "name": "OB孔2",
+      "operation_type": "IRREGULAR_PUNCH",
+      "feature_type": "IRREGULAR_PUNCH",
+      "geometry_shape": "NONCIRCULAR",
+      "surface_side": "NOT_APPLICABLE",
+      "cad_parent_operation_id": null,
+      "required_predecessor_ids": [],
+      "process_group_id": null,
+      "source_segment_ids": [
+        "S_0fd99c1272542f7c8fbc7001",
+        "S_53ce3d14ae8d06f2e8618ccf",
+        "S_a654edcf5cd0951396c484e4",
+        "S_f8323a5e2480e29fbf0ca02d"
+      ],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "",
+      "protrusion_side": "UNKNOWN"
+    },
+    {
+      "uid": "1bf64375-3af1-401b-9557-c2b6a4bc19eb",
+      "operation_id": "O002",
+      "name": "OB孔3",
+      "operation_type": "IRREGULAR_PUNCH",
+      "feature_type": "IRREGULAR_PUNCH",
+      "geometry_shape": "NONCIRCULAR",
+      "surface_side": "NOT_APPLICABLE",
+      "cad_parent_operation_id": null,
+      "required_predecessor_ids": [],
+      "process_group_id": null,
+      "source_segment_ids": [
+        "S_fa4c10e8d7e870d22f0d5fa9",
+        "S_9ba914f7dec0e20bfd73b7db",
+        "S_443f71b2cf68b57a3b11c1aa",
+        "S_dd12feb6cbfc3fa94077ae3c"
+      ],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "",
+      "protrusion_side": "UNKNOWN"
+    },
+    {
+      "uid": "a07ff52d-ea78-4870-8986-f12876850705",
+      "operation_id": "O003",
+      "name": "OB孔4",
+      "operation_type": "IRREGULAR_PUNCH",
+      "feature_type": "IRREGULAR_PUNCH",
+      "geometry_shape": "NONCIRCULAR",
+      "surface_side": "NOT_APPLICABLE",
+      "cad_parent_operation_id": null,
+      "required_predecessor_ids": [],
+      "process_group_id": null,
+      "source_segment_ids": [
+        "S_d8309aedb9518c8d13ec33e3",
+        "S_41475346448546a8bb3f658b",
+        "S_cf17a305ce7bb01c3536770a",
+        "S_ebd38cb93dea73272fd7adca"
+      ],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "",
+      "protrusion_side": "UNKNOWN"
+    },
+    {
+      "uid": "fbcbc0e3-5723-4f2b-a002-6cc80a870388",
+      "operation_id": "O004",
+      "name": "OB孔5",
+      "operation_type": "IRREGULAR_PUNCH",
+      "feature_type": "IRREGULAR_PUNCH",
+      "geometry_shape": "NONCIRCULAR",
+      "surface_side": "NOT_APPLICABLE",
+      "cad_parent_operation_id": null,
+      "required_predecessor_ids": [],
+      "process_group_id": null,
+      "source_segment_ids": [
+        "S_e2dfce5e6c01ab2617f3dcec",
+        "S_3232ee11e3b76ca398b1a2a4",
+        "S_7cdf94cbe2b9921bf850fc7d",
+        "S_a7bd1aedde4e0a41c6d84d18"
+      ],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "",
+      "protrusion_side": "UNKNOWN"
+    },
+    {
+      "uid": "066ddb03-7294-43d7-a163-681a2eebd530",
+      "operation_id": "O005",
+      "name": "OB孔6",
+      "operation_type": "IRREGULAR_PUNCH",
+      "feature_type": "IRREGULAR_PUNCH",
+      "geometry_shape": "NONCIRCULAR",
+      "surface_side": "NOT_APPLICABLE",
+      "cad_parent_operation_id": null,
+      "required_predecessor_ids": [],
+      "process_group_id": null,
+      "source_segment_ids": [
+        "S_e7eb99f870fe88c6086bc1a8",
+        "S_0f92be9d7667856f3e4bc895",
+        "S_d7b24ad33b7da55f3704c59a",
+        "S_dd96d16a7cf4c8c912bd851c"
+      ],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "",
+      "protrusion_side": "UNKNOWN"
+    },
+    {
+      "uid": "2500efa0-5216-4a91-b11a-7a359bef5e11",
+      "operation_id": "O006",
+      "name": "OB孔9",
+      "operation_type": "IRREGULAR_PUNCH",
+      "feature_type": "IRREGULAR_PUNCH",
+      "geometry_shape": "NONCIRCULAR",
+      "surface_side": "NOT_APPLICABLE",
+      "cad_parent_operation_id": null,
+      "required_predecessor_ids": [],
+      "process_group_id": null,
+      "source_segment_ids": [
+        "S_02284f4b4db4e7fc305575d9",
+        "S_c9214cebc20afe53a78fbf7b",
+        "S_ecf4ae3c2003ce4fe935ad56",
+        "S_c73be28052ae2122748ae5d4"
+      ],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "",
+      "protrusion_side": "UNKNOWN"
+    },
+    {
+      "uid": "34b42356-0202-46a3-975a-c975475f5711",
+      "operation_id": "O007",
+      "name": "OB孔10",
+      "operation_type": "IRREGULAR_PUNCH",
+      "feature_type": "IRREGULAR_PUNCH",
+      "geometry_shape": "NONCIRCULAR",
+      "surface_side": "NOT_APPLICABLE",
+      "cad_parent_operation_id": null,
+      "required_predecessor_ids": [],
+      "process_group_id": null,
+      "source_segment_ids": [
+        "S_a1d6868ab6a8d36ee8c7d20b",
+        "S_f7bc45c08568b9fa5c450be8",
+        "S_f96f948c2b2da69c557ddfff",
+        "S_8dad417d710d3ff44a3c45dd"
+      ],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "",
+      "protrusion_side": "UNKNOWN"
+    },
+    {
+      "uid": "87bfaffc-1872-4e4d-89f4-4786864ade6e",
+      "operation_id": "O008",
+      "name": "光面翻孔11",
+      "operation_type": "FLANGING",
+      "feature_type": "FLANGING_CIRCULAR",
+      "geometry_shape": "CIRCULAR",
+      "surface_side": "SMOOTH",
+      "cad_parent_operation_id": null,
+      "required_predecessor_ids": [],
+      "process_group_id": "PG001",
+      "source_segment_ids": [
+        "S_d82c8b320cda147d28b4aabf",
+        "S_7e1669b0d594f167e1e5d780"
+      ],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "",
+      "protrusion_side": "UNKNOWN",
+      "process_group_source": "AUTO_CAD_PAIR",
+      "process_group_pair_uids": [
+        "87bfaffc-1872-4e4d-89f4-4786864ade6e",
+        "a1f450c2-0b55-4986-9ae3-8ebcf3f422ef"
+      ]
+    },
+    {
+      "uid": "a1f450c2-0b55-4986-9ae3-8ebcf3f422ef",
+      "operation_id": "O009",
+      "name": "光面翻孔11 预孔",
+      "operation_type": "PRE_PUNCH",
+      "feature_type": "PRE_PUNCH_CIRCULAR",
+      "geometry_shape": "CIRCULAR",
+      "surface_side": "SMOOTH",
+      "cad_parent_operation_id": "O008",
+      "required_predecessor_ids": [],
+      "process_group_id": "PG001",
+      "source_segment_ids": [
+        "S_93279287e25f775a677a82e3"
+      ],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "",
+      "protrusion_side": "UNKNOWN",
+      "process_group_source": "AUTO_CAD_PAIR",
+      "process_group_pair_uids": [
+        "87bfaffc-1872-4e4d-89f4-4786864ade6e",
+        "a1f450c2-0b55-4986-9ae3-8ebcf3f422ef"
+      ]
+    },
+    {
+      "uid": "d99dab55-f212-4e77-abcd-367203168ed0",
+      "operation_id": "O010",
+      "name": "光面翻孔15",
+      "operation_type": "FLANGING",
+      "feature_type": "FLANGING_CIRCULAR",
+      "geometry_shape": "CIRCULAR",
+      "surface_side": "SMOOTH",
+      "cad_parent_operation_id": null,
+      "required_predecessor_ids": [],
+      "process_group_id": "PG_O010",
+      "source_segment_ids": [
+        "S_92541e5f2f9ed95a75a77cd0",
+        "S_e3c6d3cd9b93f65c59438528"
+      ],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "",
+      "protrusion_side": "UNKNOWN",
+      "process_group_source": "AUTO_CAD_PAIR",
+      "process_group_pair_uids": [
+        "a6409f2c-2d46-4266-a1c5-51d0ae05f531",
+        "d99dab55-f212-4e77-abcd-367203168ed0"
+      ]
+    },
+    {
+      "uid": "a6409f2c-2d46-4266-a1c5-51d0ae05f531",
+      "operation_id": "O011",
+      "name": "光面翻孔15 预孔",
+      "operation_type": "PRE_PUNCH",
+      "feature_type": "PRE_PUNCH_CIRCULAR",
+      "geometry_shape": "CIRCULAR",
+      "surface_side": "SMOOTH",
+      "cad_parent_operation_id": "O010",
+      "required_predecessor_ids": [],
+      "process_group_id": "PG_O010",
+      "source_segment_ids": [
+        "S_5818478f91a62f49c17ae4cd"
+      ],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "",
+      "protrusion_side": "UNKNOWN",
+      "process_group_source": "AUTO_CAD_PAIR",
+      "process_group_pair_uids": [
+        "a6409f2c-2d46-4266-a1c5-51d0ae05f531",
+        "d99dab55-f212-4e77-abcd-367203168ed0"
+      ]
+    },
+    {
+      "uid": "cdd69554-f680-4f8f-95fb-8ee328b4f623",
+      "operation_id": "O012",
+      "name": "光面翻孔16",
+      "operation_type": "FLANGING",
+      "feature_type": "FLANGING_CIRCULAR",
+      "geometry_shape": "CIRCULAR",
+      "surface_side": "SMOOTH",
+      "cad_parent_operation_id": null,
+      "required_predecessor_ids": [],
+      "process_group_id": "PG_O012",
+      "source_segment_ids": [
+        "S_f4b189975c66acd5e2a871c9",
+        "S_617360ef826f7903c0b208df"
+      ],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "",
+      "protrusion_side": "UNKNOWN",
+      "process_group_source": "AUTO_CAD_PAIR",
+      "process_group_pair_uids": [
+        "5c2df4c6-42ca-4333-a4a3-86ebbd4d33c6",
+        "cdd69554-f680-4f8f-95fb-8ee328b4f623"
+      ]
+    },
+    {
+      "uid": "5c2df4c6-42ca-4333-a4a3-86ebbd4d33c6",
+      "operation_id": "O013",
+      "name": "光面翻孔16 预孔",
+      "operation_type": "PRE_PUNCH",
+      "feature_type": "PRE_PUNCH_CIRCULAR",
+      "geometry_shape": "CIRCULAR",
+      "surface_side": "SMOOTH",
+      "cad_parent_operation_id": "O012",
+      "required_predecessor_ids": [],
+      "process_group_id": "PG_O012",
+      "source_segment_ids": [
+        "S_f6101ae386e03091ed943851"
+      ],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "",
+      "protrusion_side": "UNKNOWN",
+      "process_group_source": "AUTO_CAD_PAIR",
+      "process_group_pair_uids": [
+        "5c2df4c6-42ca-4333-a4a3-86ebbd4d33c6",
+        "cdd69554-f680-4f8f-95fb-8ee328b4f623"
+      ]
+    },
+    {
+      "uid": "67b20751-a1b3-4dd6-8c07-9fc4b98ccadb",
+      "operation_id": "O014",
+      "name": "光面米凸2",
+      "operation_type": "DIMPLE",
+      "feature_type": "DIMPLE",
+      "geometry_shape": "UNSPECIFIED",
+      "surface_side": "SMOOTH",
+      "cad_parent_operation_id": null,
+      "required_predecessor_ids": [],
+      "process_group_id": null,
+      "source_segment_ids": [
+        "S_f7c96bc9726636ce1a6edd6d",
+        "S_97e586fce121a2bd1a425448"
+      ],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "",
+      "protrusion_side": "UNKNOWN"
+    },
+    {
+      "uid": "88fd8b4e-5093-4657-b56f-bb438edde645",
+      "operation_id": "O015",
+      "name": "光面一般折弯12",
+      "operation_type": "BEND",
+      "feature_type": "BEND_STRAIGHT",
+      "geometry_shape": "STRAIGHT",
+      "surface_side": "SMOOTH",
+      "cad_parent_operation_id": null,
+      "required_predecessor_ids": [],
+      "process_group_id": null,
+      "source_segment_ids": [
+        "S_68c66ed49cbcbd4d7307834a",
+        "S_25fdf7eb92628972b7d2acc3"
+      ],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "",
+      "protrusion_side": "UNKNOWN"
+    },
+    {
+      "uid": "134171ff-f8b3-448d-9f0a-7ab945e7c911",
+      "operation_id": "O016",
+      "name": "OB孔1",
+      "operation_type": "IRREGULAR_PUNCH",
+      "feature_type": "IRREGULAR_PUNCH",
+      "geometry_shape": "NONCIRCULAR",
+      "surface_side": "NOT_APPLICABLE",
+      "cad_parent_operation_id": "O015",
+      "required_predecessor_ids": [],
+      "process_group_id": null,
+      "source_segment_ids": [
+        "S_c6f25c8bb9ba137d5ec5c98d",
+        "S_b5af3af101dece74c2549316",
+        "S_833bea78cf91ff26f25ec7e9",
+        "S_831aaabb73a8aa1180c69a11"
+      ],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "",
+      "protrusion_side": "UNKNOWN"
+    },
+    {
+      "uid": "b02ecb8a-67d4-4639-aa2b-58b6e4c17e90",
+      "operation_id": "O017",
+      "name": "毛面一般折弯3",
+      "operation_type": "BEND",
+      "feature_type": "BEND_STRAIGHT",
+      "geometry_shape": "STRAIGHT",
+      "surface_side": "ROUGH",
+      "cad_parent_operation_id": "O015",
+      "required_predecessor_ids": [],
+      "process_group_id": null,
+      "source_segment_ids": [
+        "S_3b0b8e2392ac0bbcdd8f26a8",
+        "S_0c943a128029a9e73c9e30b4"
+      ],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "",
+      "protrusion_side": "UNKNOWN"
+    },
+    {
+      "uid": "ababe4b2-2161-4f34-a6d4-a920b46f8da3",
+      "operation_id": "O018",
+      "name": "毛面翻孔1",
+      "operation_type": "FLANGING",
+      "feature_type": "FLANGING_CIRCULAR",
+      "geometry_shape": "CIRCULAR",
+      "surface_side": "ROUGH",
+      "cad_parent_operation_id": "O017",
+      "required_predecessor_ids": [],
+      "process_group_id": "PG_O018",
+      "source_segment_ids": [
+        "S_bff18b4ca35dec6babdef995",
+        "S_3b27c5ca3c74cb2a759af2b9"
+      ],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "",
+      "protrusion_side": "UNKNOWN",
+      "process_group_source": "AUTO_CAD_PAIR",
+      "process_group_pair_uids": [
+        "a92ac2c3-886b-4bed-b780-0989bd16b341",
+        "ababe4b2-2161-4f34-a6d4-a920b46f8da3"
+      ]
+    },
+    {
+      "uid": "a92ac2c3-886b-4bed-b780-0989bd16b341",
+      "operation_id": "O019",
+      "name": "毛面翻孔1 预孔",
+      "operation_type": "PRE_PUNCH",
+      "feature_type": "PRE_PUNCH_CIRCULAR",
+      "geometry_shape": "CIRCULAR",
+      "surface_side": "ROUGH",
+      "cad_parent_operation_id": "O018",
+      "required_predecessor_ids": [],
+      "process_group_id": "PG_O018",
+      "source_segment_ids": [
+        "S_449d9ea7d98aab5a77a47d3e"
+      ],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "",
+      "protrusion_side": "UNKNOWN",
+      "process_group_source": "AUTO_CAD_PAIR",
+      "process_group_pair_uids": [
+        "a92ac2c3-886b-4bed-b780-0989bd16b341",
+        "ababe4b2-2161-4f34-a6d4-a920b46f8da3"
+      ]
+    },
+    {
+      "uid": "e00320e9-5a4b-4f32-acc4-6dcef2add5ab",
+      "operation_id": "O020",
+      "name": "光面一般折弯18",
+      "operation_type": "BEND",
+      "feature_type": "BEND_STRAIGHT",
+      "geometry_shape": "STRAIGHT",
+      "surface_side": "SMOOTH",
+      "cad_parent_operation_id": null,
+      "required_predecessor_ids": [],
+      "process_group_id": null,
+      "source_segment_ids": [
+        "S_aea15dd91764847e6348c454",
+        "S_11673875b5522e8e6eb5d2fb"
+      ],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "",
+      "protrusion_side": "UNKNOWN"
+    },
+    {
+      "uid": "11ceb46b-9551-424c-9d2c-5cc32669ebd9",
+      "operation_id": "O021",
+      "name": "光面翻孔13",
+      "operation_type": "FLANGING",
+      "feature_type": "FLANGING_CIRCULAR",
+      "geometry_shape": "CIRCULAR",
+      "surface_side": "SMOOTH",
+      "cad_parent_operation_id": "O020",
+      "required_predecessor_ids": [],
+      "process_group_id": "PG_O021",
+      "source_segment_ids": [
+        "S_c86a49571b5e48c6280470bc",
+        "S_9df9000027030deef5ac6833"
+      ],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "",
+      "protrusion_side": "UNKNOWN",
+      "process_group_source": "AUTO_CAD_PAIR",
+      "process_group_pair_uids": [
+        "11ceb46b-9551-424c-9d2c-5cc32669ebd9",
+        "388341d5-f1c1-4ad3-b85a-fddc377f4ec9"
+      ]
+    },
+    {
+      "uid": "388341d5-f1c1-4ad3-b85a-fddc377f4ec9",
+      "operation_id": "O022",
+      "name": "光面翻孔13 预孔",
+      "operation_type": "PRE_PUNCH",
+      "feature_type": "PRE_PUNCH_CIRCULAR",
+      "geometry_shape": "CIRCULAR",
+      "surface_side": "SMOOTH",
+      "cad_parent_operation_id": "O021",
+      "required_predecessor_ids": [],
+      "process_group_id": "PG_O021",
+      "source_segment_ids": [
+        "S_c020aaa5e9833c1d7bcb0d2a"
+      ],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "",
+      "protrusion_side": "UNKNOWN",
+      "process_group_source": "AUTO_CAD_PAIR",
+      "process_group_pair_uids": [
+        "11ceb46b-9551-424c-9d2c-5cc32669ebd9",
+        "388341d5-f1c1-4ad3-b85a-fddc377f4ec9"
+      ]
+    },
+    {
+      "uid": "d4792d5d-c828-40e3-933c-1c3e7d942bb0",
+      "operation_id": "O023",
+      "name": "毛面米凸1",
+      "operation_type": "DIMPLE",
+      "feature_type": "DIMPLE",
+      "geometry_shape": "UNSPECIFIED",
+      "surface_side": "ROUGH",
+      "cad_parent_operation_id": "O020",
+      "required_predecessor_ids": [],
+      "process_group_id": null,
+      "source_segment_ids": [
+        "S_5f065f93c52c0420f43367eb",
+        "S_f1236e1928d56fdcd131fb32"
+      ],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "",
+      "protrusion_side": "UNKNOWN"
+    }
+  ],
+  "ignored_entities": {},
+  "station_rows": [],
+  "fixed_rows": [],
+  "sheet4_confirmed": false,
+  "saved_at": "2026-10-19T15:37:07.646427+00:00",
+  "workflow_version": 2
+}

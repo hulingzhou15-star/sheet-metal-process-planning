@@ -1,0 +1,16 @@
+{
+  "configs/neighborhood_penalty_v02.json": "02367cdf71900b8908e1b56fc86554a57e256913c265ceed373384176f5cbbe1",
+  "docs/NEIGHBORHOOD_PENALTY_V02_IMPLEMENTATION.md": "b5e995d13fb08f78963cc8d8630b2d48bba3300dfe0a9a65f53bc5d8b1d643e2",
+  "src/neighborhood_penalty/catalogue.py": "7ecce77bd96188b028b03401453422f8b939d55febd332b6b9e84769b739d555",
+  "src/neighborhood_penalty/config.py": "a7a4fb59da1b0d19fdd522284a31cc6db5acd41b16a5ebe915fde05c90ad66a7",
+  "src/neighborhood_penalty/generation.py": "987667458bccf5215e8af7e080583b5e3ea14ff4cc13bfb33efca9656a2eb15b",
+  "src/neighborhood_penalty/model.py": "af501c705b3ac20e5700dc6f637bb5e2dc85e146dd67f2ff8cf52643e9c8e402",
+  "src/neighborhood_penalty/review.py": "256b0a42395f5038792b61451ac3055939d211b4cea0d0fb6762e8f23876dc7c",
+  "src/neighborhood_penalty/scoring.py": "0fae70df82c3bc369f58993b1fef3b1ede58da7f2ba0253bb9a6ed2e6df501e2",
+  "src/neighborhood_penalty/__init__.py": "c25a3f2d4aa8211461b9575585d6b5b665690b9c3ab09fde8ccc6024e763c0d7",
+  "src/visualization/neighborhood_penalty_review.html": "359eb259414d88dab928a522920393d3ec7e7176850e1c1ebace76dfb4b0071b",
+  "scripts/run_neighborhood_penalty_v02.py": "b5cadfe02073e0554068527eb3e03b7bba3b94057a7c4655f9acd5585402b220",
+  "scripts/verify_neighborhood_penalty_v02.py": "85fb45c91eb65233893c77ec6a780cf456445bfb49be53e36d0c4a1ccae281e5",
+  "tests/test_neighborhood_penalty_v02.py": "e7fbf557a9e0fb55ac37fffb7dd41a50b2c83d255925436dc3c7769df2335633",
+  "tests/neighborhood_penalty_v02_browser_qa.cjs": "83ecd8e55b6bdacddbc8fc4acffe42a8c2da309ee59dc76d84094a2b184c41e3"
+}

@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "part_id": "P004",
+  "annotation_project": "information_extract/projects/P004/project.json",
+  "geometry_sources": "information_extract/sources/P004",
+  "status": "ANNOTATION_IN_PROGRESS_NOT_TRAINING_READY"
+}

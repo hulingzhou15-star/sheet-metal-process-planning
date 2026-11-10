@@ -1,0 +1,9 @@
+{
+  "part_id": "P001",
+  "plans": "../baselines/P001/plans/all_16_complete_assignments.json",
+  "panel_membership_search_tolerance_mm": 1.0,
+  "boundary_curve_samples": 32,
+  "mesh_linear_deflection_mm": 0.12,
+  "mesh_angular_deflection_rad": 0.25,
+  "note": "1 mm is a proposal search tolerance for existing zero-width inverse folding, not a fit/clearance acceptance tolerance."
+}

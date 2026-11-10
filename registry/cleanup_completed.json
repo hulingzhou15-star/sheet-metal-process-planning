@@ -1,0 +1,133 @@
+{
+  "physical_deletion": false,
+  "reason": "Recursive removal was blocked by automatic approval; use reversible quarantine",
+  "entries": [
+    {
+      "source": "outputs",
+      "destination": ".local/quarantine/planning_outputs",
+      "files": 43705,
+      "bytes": 2331480749,
+      "action": "REVERSIBLE_MOVE",
+      "reason": "Verified replacement inputs, regenerated outputs, or replaced environment",
+      "completed": true
+    },
+    {
+      "source": "information_extract/outputs",
+      "destination": ".local/quarantine/geometry_outputs",
+      "files": 1335,
+      "bytes": 570867808,
+      "action": "REVERSIBLE_MOVE",
+      "reason": "Verified replacement inputs, regenerated outputs, or replaced environment",
+      "completed": true
+    },
+    {
+      "source": ".venv-m3",
+      "destination": ".local/quarantine/legacy_python_environment",
+      "files": 546,
+      "bytes": 89323538,
+      "action": "REVERSIBLE_MOVE",
+      "reason": "Verified replacement inputs, regenerated outputs, or replaced environment",
+      "completed": true
+    },
+    {
+      "source": "information_extract/.runtime",
+      "destination": ".local/quarantine/legacy_module_runtime",
+      "files": 11331,
+      "bytes": 948508114,
+      "action": "REVERSIBLE_MOVE",
+      "reason": "Verified replacement inputs, regenerated outputs, or replaced environment",
+      "completed": true
+    },
+    {
+      "source": "information_extract/audits/runtime_deps",
+      "destination": ".local/quarantine/legacy_audit_dependencies",
+      "files": 1745,
+      "bytes": 70081088,
+      "action": "REVERSIBLE_MOVE",
+      "reason": "Verified replacement inputs, regenerated outputs, or replaced environment",
+      "completed": true
+    },
+    {
+      "source": "data/raw",
+      "destination": ".local/quarantine/legacy_raw_inputs",
+      "files": 2,
+      "bytes": 3045958,
+      "action": "REVERSIBLE_MOVE",
+      "reason": "Verified replacement inputs, regenerated outputs, or replaced environment",
+      "completed": true
+    },
+    {
+      "source": "data/backups",
+      "destination": ".local/quarantine/legacy_workbook_backups",
+      "files": 3,
+      "bytes": 208128,
+      "action": "REVERSIBLE_MOVE",
+      "reason": "Verified replacement inputs, regenerated outputs, or replaced environment",
+      "completed": true
+    },
+    {
+      "source": "data/candidates",
+      "destination": ".local/quarantine/empty_candidates_directory",
+      "files": 0,
+      "bytes": 0,
+      "action": "REVERSIBLE_MOVE",
+      "reason": "Verified replacement inputs, regenerated outputs, or replaced environment",
+      "completed": true
+    },
+    {
+      "source": "data/processed",
+      "destination": ".local/quarantine/empty_processed_directory",
+      "files": 0,
+      "bytes": 0,
+      "action": "REVERSIBLE_MOVE",
+      "reason": "Verified replacement inputs, regenerated outputs, or replaced environment",
+      "completed": true
+    },
+    {
+      "source": "information_extract/Plotview 1.dxf",
+      "destination": ".local/quarantine/legacy_dxf/Plotview 1.dxf",
+      "files": 1,
+      "bytes": 432278,
+      "action": "REVERSIBLE_MOVE",
+      "reason": "Verified replacement inputs, regenerated outputs, or replaced environment",
+      "completed": true
+    },
+    {
+      "source": "information_extract/P002_1.dxf",
+      "destination": ".local/quarantine/legacy_dxf/P002_1.dxf",
+      "files": 1,
+      "bytes": 193219,
+      "action": "REVERSIBLE_MOVE",
+      "reason": "Verified replacement inputs, regenerated outputs, or replaced environment",
+      "completed": true
+    },
+    {
+      "source": "information_extract/P003_1.dxf",
+      "destination": ".local/quarantine/legacy_dxf/P003_1.dxf",
+      "files": 1,
+      "bytes": 188034,
+      "action": "REVERSIBLE_MOVE",
+      "reason": "Verified replacement inputs, regenerated outputs, or replaced environment",
+      "completed": true
+    },
+    {
+      "source": "information_extract/P004.dxf",
+      "destination": ".local/quarantine/legacy_dxf/P004.dxf",
+      "files": 1,
+      "bytes": 179275,
+      "action": "REVERSIBLE_MOVE",
+      "reason": "Verified replacement inputs, regenerated outputs, or replaced environment",
+      "completed": true
+    },
+    {
+      "source": "information_extract/P004_01.dxf",
+      "destination": ".local/quarantine/legacy_dxf/P004_01.dxf",
+      "files": 1,
+      "bytes": 179729,
+      "action": "REVERSIBLE_MOVE",
+      "reason": "Verified replacement inputs, regenerated outputs, or replaced environment",
+      "completed": true
+    }
+  ],
+  "verified_reconstruction_promoted": true
+}

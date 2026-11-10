@@ -1,0 +1,17 @@
+{
+  "plan_id": "NP2_001",
+  "stations": ["OP40", "OP50", "OP60"],
+  "time_intervals": [12, 24],
+  "contact_tolerance_mm": 0.000001,
+  "volume_tolerance_mm3": 0.000001,
+  "relative_transform_cache_decimals": 12,
+  "mesh_linear_deflection_mm": 0.12,
+  "mesh_angular_deflection_rad": 0.25,
+  "stage_data": "outputs/stage_review_v01/P001/stage_data.json",
+  "asset": "outputs/three_d_state_v01/P001/asset.json",
+  "cad_config": "configs/three_d_state_v01.json",
+  "material_config": "configs/P001_confirmed_material_parameters.json",
+  "candidates": "../outputs/selected_plans_v02/all_16_complete_assignments.json",
+  "workbook": "../data/parts/P001/钣金加工数据表_P001.xlsx",
+  "output": "outputs/whole_panel_collision_v01/P001"
+}

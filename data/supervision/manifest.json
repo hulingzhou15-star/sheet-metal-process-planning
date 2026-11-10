@@ -1,0 +1,5 @@
+{
+  "status": "UNCLASSIFIED_HISTORICAL_REVIEW_RECORDS_NOT_TRAINING_READY",
+  "records_root": "baselines/planning_history",
+  "policy": "Audit original answers, plan identity and blind maps before training; synthetic browser answers excluded. C/D are not fabricated A/B labels."
+}

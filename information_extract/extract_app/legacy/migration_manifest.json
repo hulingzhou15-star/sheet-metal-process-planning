@@ -1,0 +1,38 @@
+[
+  {
+    "source": "C:\\Users\\hulin\\Desktop\\新建文件夹\\dxf_extractor\\dxf_loader.py",
+    "source_sha256": "bae7d9f99d56e6a0856348c31538225db82791caf28dc70b924cf3b3074f51f9",
+    "target": "extract_app\\legacy\\dxf_loader.py",
+    "adaptation": "package-relative imports only"
+  },
+  {
+    "source": "C:\\Users\\hulin\\Desktop\\新建文件夹\\dxf_extractor\\extractor.py",
+    "source_sha256": "1adc65e507840614fee2aa51c18f66c4d5b9ac28494a073b734cb68b71c16e6c",
+    "target": "extract_app\\legacy\\extractor.py",
+    "adaptation": "package-relative imports only"
+  },
+  {
+    "source": "C:\\Users\\hulin\\Desktop\\新建文件夹\\dxf_extractor\\entity_parser.py",
+    "source_sha256": "3bd80e32da904dbddf50d3aca1a039d99886006ece1e9a725427fb8e8bc0b1d7",
+    "target": "extract_app\\legacy\\entity_parser.py",
+    "adaptation": "package-relative imports only"
+  },
+  {
+    "source": "C:\\Users\\hulin\\Desktop\\新建文件夹\\dxf_extractor\\transform.py",
+    "source_sha256": "3397028084831a007449974ced8a1890393a724f43bea5cab5169fe6729a6c67",
+    "target": "extract_app\\legacy\\transform.py",
+    "adaptation": "package-relative imports only"
+  },
+  {
+    "source": "C:\\Users\\hulin\\Desktop\\新建文件夹\\dxf_extractor\\candidate_coordinates.py",
+    "source_sha256": "36832344b16b98315628fd846b5663d4847f3142ed48964fb5d139025828ebdd",
+    "target": "extract_app\\legacy\\candidate_coordinates.py",
+    "adaptation": "package-relative imports only"
+  },
+  {
+    "source": "C:\\Users\\hulin\\Desktop\\新建文件夹\\dxf_extractor\\validate.py",
+    "source_sha256": "a66a9ba1ff3c544589bf07964e9be4696bae370d267ae5ac2053fc1cc570308c",
+    "target": "extract_app\\legacy\\validate.py",
+    "adaptation": "package-relative imports only"
+  }
+]

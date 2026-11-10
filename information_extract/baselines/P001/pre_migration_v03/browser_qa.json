@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "All five restored holes have visible before/after states and selectable split contours",
+    "Four bridges and representative flange directions/radii switch real end states and show STEP local comparisons",
+    "Unknown simultaneous local process is disclosed; no premature forming at intermediate progress",
+    "65 local/restored components agree in Python/JS and the GPU; JS error 4.440892098500626e-16 mm",
+    "All 16 candidates selectable; final state contains 100 cut and 50 local forming events",
+    "2D/3D popouts, normal/top view, antialiasing, clear default and thin highlights retained"
+  ],
+  "page_errors": []
+}

@@ -1,0 +1,70 @@
+import { browserExecutable } from './browser_runtime.mjs';
+import {chromium} from 'playwright';
+import path from 'node:path';import fs from 'node:fs/promises';import assert from 'node:assert/strict';import {pathToFileURL} from 'node:url';
+const out=path.resolve('information_extract/outputs/stage_review_v01/P001');
+const browser=await chromium.launch({executablePath:browserExecutable(),headless:true});
+const page=await browser.newPage({viewport:{width:1700,height:1120}}),errors=[],checks=[];page.on('pageerror',e=>errors.push(e.message));
+try{
+ await page.goto(pathToFileURL(path.join(out,'review.html')).href);await page.waitForFunction(()=>window.stageReview);
+ assert.equal(await page.locator('#plan option').count(),16);assert.equal(await page.locator('.stage').count(),7);
+ assert.equal(await page.locator('#outline2').isChecked(),true);
+ const outlineBefore=await page.evaluate(()=>({image:document.querySelector('#flat').toDataURL(),hits:stageReview.getState().hits2,active:stageReview.getState().active}));
+ await page.uncheck('#outline2');const outlineOff=await page.evaluate(()=>({image:document.querySelector('#flat').toDataURL(),hits:stageReview.getState().hits2,active:stageReview.getState().active}));
+ assert.notEqual(outlineBefore.image,outlineOff.image);assert.deepEqual(outlineBefore.hits,outlineOff.hits);assert.deepEqual(outlineBefore.active,outlineOff.active);await page.check('#outline2');
+ assert.equal(await page.evaluate(()=>document.querySelector('#flat').toDataURL()),outlineBefore.image);
+ checks.push('Default outline visibly renders beneath actions, toggles reversibly, adds no hit targets or executed actions');
+ for(const station of ['OP10','OP20','OP30','OP40','OP50','OP60','OP70']){
+  await page.click(`[data-station="${station}"]`);const s=await page.evaluate(()=>stageReview.getState());
+  assert.equal(s.station_id,station);assert.equal(await page.locator('#list button').count(),s.active.length);
+  assert.ok(s.hits2.every(h=>s.active.includes(h.id)));assert.ok(s.hits3.every(h=>s.active.includes(h.id)));
+  await page.screenshot({path:path.join(out,`${station}.png`),fullPage:true});
+ }
+ checks.push('Seven distinct completed-stage pages and actual rendered hit paths gated by assignment');
+ await page.click('[data-station="OP10"]');assert.equal(await page.evaluate(()=>stageReview.choose('O009')),false);
+ await page.click('[data-station="OP50"]');assert.equal(await page.evaluate(()=>stageReview.choose('O009')),true);assert.match(await page.locator('#detail').innerText(),/O009/);
+ const state=await page.evaluate(()=>stageReview.getState());assert.ok(state.hits2.some(h=>h.id==='O009'));assert.ok(state.hits3.some(h=>h.id==='O009'));
+ await page.click('#focus3');await page.click('#focus2');await page.screenshot({path:path.join(out,'O009_selected.png'),fullPage:true});
+ checks.push('Selecting an executed bend highlights both views; future selection rejected');
+ await page.evaluate(()=>stageReview.choose('O057'));assert.match(await page.locator('#detail').innerText(),/166\.0697°/);assert.match(await page.locator('#detail').innerText(),/13\.9303°/);await page.screenshot({path:path.join(out,'O057_angle.png'),fullPage:true});await page.evaluate(()=>stageReview.choose('O009'));
+ checks.push('Non-right-angle bend details separate included angle from rotation amount');
+ await page.click('#fit3');await page.click('#fit2');
+ for(const key of ['flat','solid']){
+  const hit=await page.evaluate(key=>{const s=stageReview.getState();const hs=key==='flat'?s.hits2:s.hits3;const c=document.getElementById(key);return hs.find(h=>h.a[0]>5&&h.a[0]<c.width-5&&h.a[1]>5&&h.a[1]<c.height-5);},key);assert.ok(hit);
+  const b=await page.locator('#'+key).boundingBox();await page.mouse.click(b.x+hit.a[0],b.y+hit.a[1]);assert.ok((await page.evaluate(()=>stageReview.getState())).selected);
+ }
+ checks.push('Native 2D and 3D line hit interaction');
+ await page.selectOption('#filter','current');const s=await page.evaluate(()=>stageReview.getState());assert.equal(await page.locator('#list button').count(),s.current.length);await page.selectOption('#filter','cumulative');
+ await page.selectOption('#plan',{index:15});assert.equal((await page.evaluate(()=>stageReview.getState())).plan_id,await page.evaluate(()=>stageReview.data.plans[15].plan_id));
+ await page.click('[data-station="OP30"]');await page.evaluate(()=>stageReview.choose('O001'));assert.match(await page.locator('#selection-note').innerText(),/不能完成三维高亮/);
+ await page.selectOption('#view','side');await page.uncheck('#support');await page.check('#support');
+ const b=await page.locator('#solid').boundingBox();await page.mouse.move(b.x+b.width/2,b.y+b.height/2);await page.mouse.down();await page.mouse.move(b.x+b.width/2+30,b.y+b.height/2+10);await page.mouse.up();await page.mouse.wheel(0,-100);
+ const download=page.waitForEvent('download');await page.click('#png');assert.match((await download).suggestedFilename(),/schematic.png$/);
+ checks.push('Plan switch, current list, missing geometry, camera, support toggle, PNG export');
+ await page.setViewportSize({width:1536,height:864});await page.selectOption('#view','iso');await page.click('[data-station="OP50"]');await page.evaluate(()=>stageReview.choose('O009'));await page.waitForTimeout(120);
+ const normal=await page.locator('#solid').boundingBox();assert.ok(normal.height>280);assert.ok(normal.y+normal.height<=865);
+ assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth||document.documentElement.scrollHeight>innerHeight),false);
+ const before=await page.evaluate(()=>stageReview.getState());
+ await page.screenshot({path:path.join(out,'layout_dual.png'),fullPage:true});
+ await page.click('#expand-solid');await page.waitForTimeout(120);const large=await page.locator('#solid').boundingBox();assert.ok(large.height>normal.height*1.8);assert.ok(large.width>normal.width);assert.equal(await page.locator('#flat').isVisible(),false);
+ let enlarged=await page.evaluate(()=>stageReview.getState());assert.equal(enlarged.selected,before.selected);assert.equal(enlarged.plan_id,before.plan_id);assert.deepEqual(enlarged.camera.center,before.camera.center);
+ const line=enlarged.hits3.find(h=>h.a[0]>8&&h.a[0]<large.width-8&&h.a[1]>8&&h.a[1]<large.height-8);assert.ok(line);await page.mouse.click(large.x+line.a[0],large.y+line.a[1]);assert.ok((await page.evaluate(()=>stageReview.getState())).selected);
+ await page.screenshot({path:path.join(out,'layout_large_3d.png'),fullPage:true});await page.keyboard.press('Escape');await page.waitForTimeout(120);assert.equal(await page.locator('#flat').isVisible(),true);
+ const restored=await page.evaluate(()=>stageReview.getState());assert.ok(Math.abs(restored.camera.scale-before.camera.scale)<1e-6);
+ await page.click('#toggle-sidebars');await page.waitForTimeout(120);assert.ok((await page.locator('#solid').boundingBox()).width>normal.width);await page.click('#toggle-sidebars');
+ await page.click('#toggle-previews');await page.waitForTimeout(120);assert.equal(await page.locator('.stage canvas').first().isVisible(),true);await page.click('#toggle-previews');
+ await page.click('#expand-flat');await page.waitForTimeout(120);assert.equal(await page.locator('#solid').isVisible(),false);assert.ok((await page.locator('#flat').boundingBox()).height>normal.height*1.8);await page.click('#expand-flat');
+ await page.setViewportSize({width:1024,height:768});await page.waitForTimeout(120);assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth||document.documentElement.scrollHeight>innerHeight),false);
+ checks.push('Viewport-filling dual canvases, reversible 2D/3D enlargement, enlarged hit testing, sidebar and preview toggles, compact screen layout');
+ await page.setViewportSize({width:1536,height:950});await page.selectOption('#plan',{index:0});await page.click('[data-station="OP40"]');await page.evaluate(()=>stageReview.choose('O057'));await page.waitForTimeout(120);
+ const beforePose=await page.evaluate(()=>stageReview.getState());await page.click('#expand-solid');await page.click('#bend-side');await page.waitForTimeout(120);
+ assert.equal(await page.inputValue('#view'),'bend');assert.equal(await page.isChecked('#before-stage'),true);
+ const sidePose=await page.evaluate(()=>stageReview.getState());assert.deepEqual(sidePose.transforms,beforePose.transforms);assert.deepEqual(sidePose.fractions,beforePose.fractions);
+ assert.ok(sidePose.hits3.every(h=>sidePose.active.includes(h.id)));
+ const sideImage=await page.locator('#solid').screenshot();await page.uncheck('#before-stage');assert.notDeepEqual(await page.locator('#solid').screenshot(),sideImage);await page.check('#before-stage');
+ await page.screenshot({path:path.join(out,'O057_side_before_after.png'),fullPage:true});
+ await page.selectOption('#view','iso');await page.click('#focus3');await page.screenshot({path:path.join(out,'OP40_O057_panels.png'),fullPage:true});
+ await page.click('[data-station="OP50"]');await page.click('#focus3');await page.screenshot({path:path.join(out,'OP50_O057_panels.png'),fullPage:true});
+ await page.evaluate(()=>stageReview.choose('O012'));assert.equal(await page.isDisabled('#bend-side'),true);
+ checks.push('Moving-panel emphasis, local axis projection and before-stage ghosts change presentation only, without changing poses or introducing future hit geometry');
+ assert.deepEqual(errors,[]);const result={passed:true,checks,page_errors:errors};await fs.writeFile(path.join(out,'browser_qa.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
+}finally{await browser.close();}

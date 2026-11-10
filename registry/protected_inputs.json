@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "src/constraints/config.py",
+      "sha256": "9afb5831b9e919a0e7a729be68e9ad0b13c7a4bb43078c8587244175b22a1c77"
+    },
+    {
+      "path": "src/constraints/context.py",
+      "sha256": "4def154c68850698fb1d8e21a43429077110e34a474bc0f911a2816b6e231f9e"
+    },
+    {
+      "path": "src/constraints/diagnostics.py",
+      "sha256": "b40711189ea69ceaa5002d199344ca80d156797593ca6fc69862f9a8456c1c45"
+    },
+    {
+      "path": "src/constraints/guardrails.py",
+      "sha256": "dd32acb0a17d13b311c67ddb9a7ab3add9337086ebc4098b5f67134405b7946d"
+    },
+    {
+      "path": "src/constraints/hard_constraints.py",
+      "sha256": "b38184f19529ea99886a312491bc9d1df28c19d0268957397d91f7ef757b08fb"
+    },
+    {
+      "path": "src/constraints/region_assignment.py",
+      "sha256": "d6f0f52389f7305323a6fe9ee08c87f8aacda7afc0fb74bea6ae23982e41ac35"
+    },
+    {
+      "path": "src/constraints/soft_priors.py",
+      "sha256": "e28cfc235e6cf53f19cd3c4cf8ca0079eb4cdbaa462f99a86c84d6c283007bac"
+    },
+    {
+      "path": "src/constraints/__init__.py",
+      "sha256": "b3e1722963c227cee336606b98268c21cd61b085b13b03d53fca925c67108ec1"
+    },
+    {
+      "path": "src/constraints/v06/config.py",
+      "sha256": "a395dcafb385c91ef544eb52d18db3070a59272f5213d36d3dc761f18f7e1138"
+    },
+    {
+      "path": "src/constraints/v06/context.py",
+      "sha256": "e7c3b52f9107f8927540e939f7206fc80af39fb254c5d38cf79631cabe3017e5"
+    },
+    {
+      "path": "src/constraints/v06/feasibility.py",
+      "sha256": "b9993ea83d8517b5b0020255f7613637da2cc27a925fc2a61ea9ac009d73ac95"
+    },
+    {
+      "path": "src/constraints/v06/hard_constraints.py",
+      "sha256": "fa04a393b65b518755c3bee04037d5321853662aa43db612dda4db08f3a945e2"
+    },
+    {
+      "path": "src/constraints/v06/proximity.py",
+      "sha256": "50909d067e3df567765dda1843e3d8f7b08113de223c2234c20a29b7013d58ad"
+    },
+    {
+      "path": "src/constraints/v06/soft_priors.py",
+      "sha256": "8c28bbfe400365ef8a04534caf8d5400749c1cee7f2e1b1ad847ec06ba94a480"
+    },
+    {
+      "path": "src/constraints/v06/__init__.py",
+      "sha256": "4d713619aaf17a4f8e8b246ab5770dbf94cebfce36f458df05efa6383962f88f"
+    },
+    {
+      "path": "src/candidate/config.py",
+      "sha256": "bb8a50a647655b27572f5bb701aa93c77206d6f9b14dad9ac52c60521159dd42"
+    },
+    {
+      "path": "src/candidate/cp_sat_model.py",
+      "sha256": "8f6df3f25ddbb2d2eecab5d349dac86ac0569c0f2c6b0e7e479a47b2dbedbf2a"
+    },
+    {
+      "path": "src/candidate/distance.py",
+      "sha256": "b0b215c61751d8dcb5e5e06cc79242b7dfade975d502d12b57fb1472f2df9569"
+    },
+    {
+      "path": "src/candidate/generator.py",
+      "sha256": "64bdb24efa7a013b35a56f445586720caca42d573a66beb11b513240950215a8"
+    },
+    {
+      "path": "src/candidate/report.py",
+      "sha256": "6a6a98c3827e0e0c71e1012f7ad298801bf93eaacd41b80e29ef2b2725121c16"
+    },
+    {
+      "path": "src/candidate/selector.py",
+      "sha256": "75600efa5eda51e36323107c1aadf8235594e9cb42f92a9a3ccd9e44a3bf3de3"
+    },
+    {
+      "path": "src/candidate/serialization.py",
+      "sha256": "a8975cf9c9b16d88a9913984243b72effb2ee77dabdc56a3fff549ce672e3f9f"
+    },
+    {
+      "path": "src/candidate/__init__.py",
+      "sha256": "220767875932c74786333abb2558e81a8cacc738ab6aa9ecac23e9ce7521f01d"
+    },
+    {
+      "path": "src/graph/builders.py",
+      "sha256": "65005fb188d23d1c10d59a3a6f110e5a9bdd8ebd7b392dd0bae8caff2b936861"
+    },
+    {
+      "path": "src/graph/geometry_distance.py",
+      "sha256": "21ddf70a42f6051c5f4bd77088b72804e25132f1a02e934ef76b55f6e8f4ad17"
+    },
+    {
+      "path": "src/graph/geometry_features.py",
+      "sha256": "266059b34ba4dd9c497df26f2253b966cb2a3b2134a588b02a2c14e85cfc0c4e"
+    },
+    {
+      "path": "src/graph/geometry_primitives.py",
+      "sha256": "35402e9b7ac632612fff6f20f0a9b36a3372f3bf4160c3fc3ae48bc45274a50b"
+    },
+    {
+      "path": "src/graph/plan_overlay.py",
+      "sha256": "3c37cddf434e317048a1e22aa4f9001fa6b000b918dba36ae6384e2009d73ff6"
+    },
+    {
+      "path": "src/graph/schema.py",
+      "sha256": "e462f7fde9f0f9713f9cbfe8873a5b31f1c8fced662656869f9a9f7bb284f744"
+    },
+    {
+      "path": "src/graph/semantic_relations.py",
+      "sha256": "73ea4e52c97e210aae68ddda8821bb89ffdab95036df0cc30f976359a734223f"
+    },
+    {
+      "path": "src/graph/static_graph.py",
+      "sha256": "caf7150b41cb20344ba52ee784853776c563d7ccfa0c2db0e2b9d0cc93f0d5e1"
+    },
+    {
+      "path": "src/graph/station_context.py",
+      "sha256": "6ad48dacc70116e63af6b366bd7aa44b91b245903e21f83433db0f1e659f52f3"
+    },
+    {
+      "path": "src/graph/__init__.py",
+      "sha256": "fe536b164013392b7229e5a019ebcd6be31001d9b35bfb0dbb22c46f28e4def3"
+    },
+    {
+      "path": "src/inference/audit.py",
+      "sha256": "2d73017046f2134d955ea5953a2168a7ba1977034aea11939a9e4c3a3b51ffef"
+    },
+    {
+      "path": "src/inference/contrasts.py",
+      "sha256": "f7e07fde408bc04eac9adf4f5db1fd2188e08d1f0ecc7affe2e247aca66e8b12"
+    },
+    {
+      "path": "src/inference/generation.py",
+      "sha256": "694d128ae0fe27d45e77eded1c1bb11b3eaa1487f9ecf918af7b98f3ecf71f2b"
+    },
+    {
+      "path": "src/inference/input.py",
+      "sha256": "c17b6516bce58bc8d04e4625917dbcf4ed3e82d2f48acbc4a6855bd61b5b9ab0"
+    },
+    {
+      "path": "src/inference/report.py",
+      "sha256": "101f73b14b7209ab102e5cd99504ffad2a4fcf50f09b79a6dd1485d83c8777be"
+    },
+    {
+      "path": "src/inference/__init__.py",
+      "sha256": "596d7d1ac69f27915567781a790461a137a87f540cbbdd2f4addb3a37d9548ea"
+    },
+    {
+      "path": "src/neighborhood_penalty/catalogue.py",
+      "sha256": "7ecce77bd96188b028b03401453422f8b939d55febd332b6b9e84769b739d555"
+    },
+    {
+      "path": "src/neighborhood_penalty/config.py",
+      "sha256": "a7a4fb59da1b0d19fdd522284a31cc6db5acd41b16a5ebe915fde05c90ad66a7"
+    },
+    {
+      "path": "src/neighborhood_penalty/generation.py",
+      "sha256": "987667458bccf5215e8af7e080583b5e3ea14ff4cc13bfb33efca9656a2eb15b"
+    },
+    {
+      "path": "src/neighborhood_penalty/model.py",
+      "sha256": "af501c705b3ac20e5700dc6f637bb5e2dc85e146dd67f2ff8cf52643e9c8e402"
+    },
+    {
+      "path": "src/neighborhood_penalty/review.py",
+      "sha256": "256b0a42395f5038792b61451ac3055939d211b4cea0d0fb6762e8f23876dc7c"
+    },
+    {
+      "path": "src/neighborhood_penalty/scoring.py",
+      "sha256": "0fae70df82c3bc369f58993b1fef3b1ede58da7f2ba0253bb9a6ed2e6df501e2"
+    },
+    {
+      "path": "src/neighborhood_penalty/__init__.py",
+      "sha256": "c25a3f2d4aa8211461b9575585d6b5b665690b9c3ab09fde8ccc6024e763c0d7"
+    },
+    {
+      "path": "configs/m3_candidate_generator.yaml",
+      "sha256": "e100a5b01da6b176b267f45f018d7f8a7863a294d689b779b966859a527e49fa"
+    },
+    {
+      "path": "configs/m3_constraints.yaml",
+      "sha256": "59ce2fad51e8c56f6e2c57b6a350bd8334dc2ed9ab4b740339e4abded869c329"
+    },
+    {
+      "path": "configs/m3_constraints_v06.yaml",
+      "sha256": "026203870b7dcdf929e9265e0a4cb8e4df29bef69c0bc647f2c89ee2ed3c1d22"
+    },
+    {
+      "path": "configs/m3_human_review.yaml",
+      "sha256": "86cf5f27db063bf03219110230fa80e75555ed10c2b72147ba4e67967f083b5b"
+    },
+    {
+      "path": "configs/m3_reference_free_v07.json",
+      "sha256": "283020dcef339e0f9939aa71e24287770a7e5622234e2e26f667edeb5d89de7a"
+    },
+    {
+      "path": "configs/m3_review_v08.json",
+      "sha256": "0305c9776df30392bffc1db781d46ef6bc75f4319c74c950c43a38f854b98227"
+    },
+    {
+      "path": "configs/neighborhood_n1.json",
+      "sha256": "3d9eb0893e09a1526136edcc0a5cdd039b01b3cfc595ce9892d4640666d56f8a"
+    },
+    {
+      "path": "configs/neighborhood_penalty_v02.json",
+      "sha256": "02367cdf71900b8908e1b56fc86554a57e256913c265ceed373384176f5cbbe1"
+    },
+    {
+      "path": "configs/neighborhood_v01.json",
+      "sha256": "77a58f42bd4debb78b64da17388662a000723024a1a4560005462c8dfe621226"
+    },
+    {
+      "path": "configs/proximity_geometry_review.json",
+      "sha256": "906cc7e03b621287fbbbad255076f0bc5e7f53ea506b5a0cc86c74fbeaf76769"
+    },
+    {
+      "path": "configs/relative_proximity_audit.json",
+      "sha256": "db4cc0b4e8b62080020bcc5f8ba705dc7b44486e86e54ee5dfe90aa637cdb777"
+    },
+    {
+      "path": "configs/relative_proximity_trial.json",
+      "sha256": "67a8b60f707cd6382a6aefc6e581db2b2e8f822f6e96e6bc8bdc9c192aa42c4e"
+    },
+    {
+      "path": "information_extract/projects/P001/project.json",
+      "sha256": "5678cfaf725f21623d24547a1a0aac7cee1dcda119a728b8f66843a875bac539"
+    },
+    {
+      "path": "information_extract/projects/P002/project.json",
+      "sha256": "568dd65bc87b73faecab0fec29365ac58b130d77fdbd678f8892790eafa3e912"
+    },
+    {
+      "path": "information_extract/projects/P003/project.json",
+      "sha256": "a7f2426de7f2bf0676418291bb08e130831d20660edc24d8ba765bc756a61037"
+    },
+    {
+      "path": "information_extract/projects/P004/project.json",
+      "sha256": "eaf6150407e1dcefec0d9b5464f5cec382fd2a730beecb82c76e2842b3771814"
+    },
+    {
+      "path": "information_extract/projects/P001/revisions/revision_000001_2cd278f4.json",
+      "sha256": "ebfff8a48b74075b86a929ab92ef042c2813d0832530ca831ec54a8e9d7adcaa"
+    },
+    {
+      "path": "information_extract/projects/P001/revisions/revision_000002_de5b678d.json",
+      "sha256": "934e12bfd8739937d3ec64ce6d74bf385ecdece6d699754c94c0584a29dc9fb7"
+    },
+    {
+      "path": "information_extract/projects/P001/revisions/revision_000003_a357acfb.json",
+      "sha256": "a3a69f31be42fac8c919d75369d80033915af8a4f872bd62ec3f139f3181dccc"
+    },
+    {
+      "path": "information_extract/projects/P001/revisions/revision_000004_80417215.json",
+      "sha256": "5678cfaf725f21623d24547a1a0aac7cee1dcda119a728b8f66843a875bac539"
+    },
+    {
+      "path": "information_extract/projects/P002/revisions/revision_000001_b1f291af.json",
+      "sha256": "f30095991832d7d1d011b316dd0baae6f6dd8d8fdf95010e620f08e7b08e45cf"
+    },
+    {
+      "path": "information_extract/projects/P002/revisions/revision_000002_530f09b2.json",
+      "sha256": "fdf085fae4768715ef6768a7cf707d24bf89cf76a7954632e90115561b2b744a"
+    },
+    {
+      "path": "information_extract/projects/P002/revisions/revision_000003_a10c44bd.json",
+      "sha256": "3078215c78319a501a7306975ba5cade74a078a945652dbe7939ed52f35585b7"
+    },
+    {
+      "path": "information_extract/projects/P002/revisions/revision_000004_1a7bc2b9.json",
+      "sha256": "8cf93e015f84874250be132bbfa29874a1e3f23d91ad0f9d32ba72aab64343b9"
+    },
+    {
+      "path": "information_extract/projects/P002/revisions/revision_000005_6f7539f2.json",
+      "sha256": "b3967834b0628297024f652a431e626487366f0dbc96ec4468e81608bd41f209"
+    },
+    {
+      "path": "information_extract/projects/P002/revisions/revision_000006_f98ec648.json",
+      "sha256": "7762840c4079964dd7aaeda5eb53b8cd2b08d795f3ebec70fb8bd3d86fc22d60"
+    },
+    {
+      "path": "information_extract/projects/P002/revisions/revision_000007_7da4ba6b.json",
+      "sha256": "7b36e370316304273cbfd4128eabf58d1fd6713aecf145c51be4ea007aef7fba"
+    },
+    {
+      "path": "information_extract/projects/P002/revisions/revision_000008_76714dfb.json",
+      "sha256": "b7de0ae764357295b3c59fb6045b438a8f0fff11d199a73d8b8bde7a2aafe66b"
+    },
+    {
+      "path": "information_extract/projects/P002/revisions/revision_000009_d2e020ff.json",
+      "sha256": "ecedabbdd13b521ffb517020a0251c18a199725983c4bc6bfa6e4331ddd1069a"
+    },
+    {
+      "path": "information_extract/projects/P002/revisions/revision_000010_488dfa8b.json",
+      "sha256": "568dd65bc87b73faecab0fec29365ac58b130d77fdbd678f8892790eafa3e912"
+    },
+    {
+      "path": "information_extract/projects/P003/revisions/revision_000001_dbe4165e.json",
+      "sha256": "b5814ea74fe154ec14fe9b773ee5fce8dabe0acf9bdb0a4b39b9eb53e69aa60a"
+    },
+    {
+      "path": "information_extract/projects/P003/revisions/revision_000002_0fe7a446.json",
+      "sha256": "d486c4260497469bae96ec3594c912752bd7e2ac07512d6d4d2acdb72ff526c3"
+    },
+    {
+      "path": "information_extract/projects/P003/revisions/revision_000003_f6262162.json",
+      "sha256": "a7f2426de7f2bf0676418291bb08e130831d20660edc24d8ba765bc756a61037"
+    },
+    {
+      "path": "information_extract/projects/P004/revisions/revision_000001_3bebe865.json",
+      "sha256": "52d6f8b50450070b4cd5ee30cd2ef99f4639b4d2e2404297a68a13243468d667"
+    },
+    {
+      "path": "information_extract/projects/P004/revisions/revision_000002_4303efe2.json",
+      "sha256": "af4f701457636e4c95d869e4b31b2f5f8f5f9143020011a0725a1832b5a785cb"
+    },
+    {
+      "path": "information_extract/projects/P004/revisions/revision_000003_6ef9e70c.json",
+      "sha256": "19d87c4c1ffc3083b909462b22031a1d6e425b1600d2ea38414df8aacdb4136d"
+    },
+    {
+      "path": "information_extract/projects/P004/revisions/revision_000004_57d1dbc3.json",
+      "sha256": "4f0a77499c20832f6859936bbad3d82a076b1c8a91fbdc64e88621edd5aba909"
+    },
+    {
+      "path": "information_extract/projects/P004/revisions/revision_000005_22fe7e10.json",
+      "sha256": "eaf6150407e1dcefec0d9b5464f5cec382fd2a730beecb82c76e2842b3771814"
+    },
+    {
+      "path": "data/parts/P001/钣金加工数据表_P001.xlsx",
+      "sha256": "7c5453471547a1fa56510bf650a53f5b8a31b8089c53505196bc045bfe794259"
+    },
+    {
+      "path": "information_extract/sources/P001/legacy_outline.html",
+      "sha256": "ba03173e4a62abe7c6b13eb0bbb954458f5d4580539deceabcbef6a84869c11d"
+    },
+    {
+      "path": "information_extract/sources/P001/process_drawing.dxf",
+      "sha256": "f3a805effd19864bdf1f82fdf8881ecdfbdbd1a566b414685cc79a4027fa4fef"
+    },
+    {
+      "path": "information_extract/sources/P001/formed.step",
+      "sha256": "94575e1417e6ca4a36e5f330bc231997c6a4f6139fc5b1285531141ee5f9a941"
+    },
+    {
+      "path": "information_extract/sources/P001/Plotview 1.dxf",
+      "sha256": "180a7761767ed99402df43516d71403b61fa1dcc725363a190aa4e51d16365ef"
+    },
+    {
+      "path": "information_extract/sources/P002/P002_1.dxf",
+      "sha256": "a89cbdbde22fccb33d4cde2dd213a728d3cc5c56552b6fbf02686e11b58a894f"
+    },
+    {
+      "path": "information_extract/sources/P003/P003_1.dxf",
+      "sha256": "965faf8f25b14be2fe9d307bd9093680391b2327bc0401789829ddcf96b2d481"
+    },
+    {
+      "path": "information_extract/sources/P004/P004.dxf",
+      "sha256": "623df0e24fbb7348b96767b75f66af68c9e1943e1c881e04d0974c1deadd1a33"
+    },
+    {
+      "path": "information_extract/sources/P004/P004_01.dxf",
+      "sha256": "38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3"
+    },
+    {
+      "path": "baselines/P001/plans/all_16_complete_assignments.json",
+      "sha256": "a1d17218fc9e0e53d4d9c2dc05f728a2a64e98c9b0ac2da94ebf36bfe708d5e9"
+    },
+    {
+      "path": "information_extract/sources/P001/originals/101-11-1-1(AE8M1101-S010) - 工艺预排.wkf",
+      "sha256": "03c836d1bc67de4d147d3529b31b995b61a2d4a3c08ca0b30482e0992cd21f2d"
+    },
+    {
+      "path": "information_extract/sources/P001/originals/D002-A1313(A7991437-00A)A00排样图.dwg",
+      "sha256": "865faebd5a1e6e50549be674c030d2af9440492ec06041e89b925d3b415d76b7"
+    },
+    {
+      "path": "information_extract/sources/P001/originals/P001_formed.stp",
+      "sha256": "14412ff83c5a8efb7c530bf91b88f70b552675990dac2d40e0a4dfb69ab5f3af"
+    },
+    {
+      "path": "information_extract/sources/P001/originals/P001_formed.x_t",
+      "sha256": "85019574654f0e2d190f839e8979db65dbd9733f40f5cd453c76b893862680c9"
+    },
+    {
+      "path": "information_extract/sources/P001/originals/P001_formed_single.stp",
+      "sha256": "94575e1417e6ca4a36e5f330bc231997c6a4f6139fc5b1285531141ee5f9a941"
+    },
+    {
+      "path": "information_extract/sources/P001/originals/钣金加工数据表_P001.xlsx",
+      "sha256": "7c5453471547a1fa56510bf650a53f5b8a31b8089c53505196bc045bfe794259"
+    },
+    {
+      "path": "information_extract/sources/P002/originals/D002-S0208-1-10-10-10(AE8M1101-S010)-排样图-2026.1.7.dwg",
+      "sha256": "429b26e6a40fa75100e7f2d9d9bd8716bfc2d0f80c461a06986da656c4915076"
+    },
+    {
+      "path": "information_extract/sources/P002/originals/D002-S0208-AE8M1101展开.wkf",
+      "sha256": "149f25fdc10e7bcdea9c5377a27e60fb3fdad959a22c0c67f5fd06be1079dead"
+    },
+    {
+      "path": "data/parts/P002/钣金加工数据表_P002.xlsx",
+      "sha256": "b60ea9dc9313716109aba863c6d2ae8ecb4061ee2b9b27798561f1a43e821b07"
+    },
+    {
+      "path": "information_extract/sources/P003/originals/101-11-1-1(AC4G1046-01C).wkf",
+      "sha256": "bf488a95dcfc83487771b75711f88cf3996a255deaa1a611de1eb1f3ad0b00c5"
+    },
+    {
+      "path": "information_extract/sources/P003/originals/D002-A0873-1-7-7-7(AC4G1046-00A)01B排样图.dwg",
+      "sha256": "071066a59013a0377535f2d6ef5a5e3e0ce1d077a7fc0c696c08c0c674814086"
+    },
+    {
+      "path": "data/parts/P003/钣金加工数据表_P003.xlsx",
+      "sha256": "b269bf911e8964a514b8ba4f9b0f3fa4bf8394db016b6a83e477c9be6b863647"
+    },
+    {
+      "path": "information_extract/sources/P004/originals/101--1-1()Strip-Layout-V00(2026.10.19).wkf",
+      "sha256": "5b5f48119ec0f899163ccf6ef1338dd71a105bb231246630bb4b6e498e7ec342"
+    },
+    {
+      "path": "information_extract/sources/P004/originals/D004-S0088（195701800)-A00料带.dwg",
+      "sha256": "6ae72b220188e1ea91365225ea4e5c7b70a4f49d610de5e99c12f90e5a4f63bb"
+    }
+  ]
+}

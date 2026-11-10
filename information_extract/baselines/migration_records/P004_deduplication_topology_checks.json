@@ -1,0 +1,51 @@
+{
+  "9E": {
+    "before": {
+      "count": 8,
+      "closed_paths": 1
+    },
+    "after": {
+      "count": 8,
+      "closed_paths": 1
+    }
+  },
+  "9F": {
+    "before": {
+      "count": 8,
+      "closed_paths": 1
+    },
+    "after": {
+      "count": 0
+    }
+  },
+  "B6": {
+    "before": {
+      "count": 39,
+      "closed_paths": 1
+    },
+    "after": {
+      "count": 36,
+      "path_error": "所选轮廓有断口、分叉或重叠；请核对绑定图元，剖面/说明线应单独标记为背景。"
+    }
+  },
+  "A1": {
+    "before": {
+      "count": 16,
+      "closed_paths": 1
+    },
+    "after": {
+      "count": 16,
+      "closed_paths": 1
+    }
+  },
+  "198": {
+    "before": {
+      "count": 219,
+      "closed_paths": 1
+    },
+    "after": {
+      "count": 219,
+      "closed_paths": 1
+    }
+  }
+}

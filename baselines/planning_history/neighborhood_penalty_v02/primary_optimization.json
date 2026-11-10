@@ -1,0 +1,463 @@
+{
+  "facts_fingerprint": "2ebcb176e4486fb47aa511232edeeac93e6f9a36eac948ed2d4e3f7a59061bd9",
+  "catalogue_fingerprint": "74d358b1bc6fd12c7392b073debd88a5d1575dccb35d13656b92a8ab0fe57e8c",
+  "solver": {
+    "seed": 2058785180,
+    "status": "OPTIMAL",
+    "wall_time_seconds": 0.0056144,
+    "deterministic_time": 3.121e-05,
+    "objective_value": 0.0,
+    "best_objective_bound": 0.0
+  },
+  "integer_objective": {
+    "scale": 22,
+    "constant": 0,
+    "conservative_abs_bound": 132,
+    "arithmetic": "exact_rational_integer_scaled"
+  },
+  "minimum_proven": true,
+  "generation_allowed": true,
+  "witness_used_as_candidate_or_hint": false,
+  "state": "primary_proven",
+  "minimum_integer_value": 0,
+  "minimum_exact": "0",
+  "minimum": 0.0,
+  "proof": "nonnegative_zero_witness",
+  "witness": {
+    "assignments": {
+      "O001": "OP30",
+      "O002": "OP20",
+      "O003": "OP20",
+      "O004": "OP20",
+      "O005": "OP20",
+      "O006": "OP20",
+      "O007": "OP30",
+      "O008": "OP30",
+      "O009": "OP60",
+      "O010": "OP40",
+      "O011": "OP30",
+      "O012": "OP10",
+      "O013": "OP60",
+      "O014": "OP40",
+      "O015": "OP30",
+      "O016": "OP10",
+      "O017": "OP60",
+      "O018": "OP20",
+      "O019": "OP20",
+      "O020": "OP40",
+      "O021": "OP30",
+      "O022": "OP10",
+      "O023": "OP30",
+      "O024": "OP10",
+      "O025": "OP60",
+      "O026": "OP30",
+      "O027": "OP40",
+      "O028": "OP40",
+      "O029": "OP40",
+      "O030": "OP40",
+      "O031": "OP30",
+      "O032": "OP10",
+      "O033": "OP30",
+      "O034": "OP10",
+      "O035": "OP30",
+      "O036": "OP10",
+      "O037": "OP30",
+      "O038": "OP10",
+      "O039": "OP30",
+      "O040": "OP10",
+      "O041": "OP30",
+      "O042": "OP10",
+      "O043": "OP40",
+      "O044": "OP30",
+      "O045": "OP10",
+      "O046": "OP30",
+      "O047": "OP10",
+      "O048": "OP40",
+      "O049": "OP30",
+      "O050": "OP10",
+      "O051": "OP30",
+      "O052": "OP10",
+      "O053": "OP40",
+      "O054": "OP30",
+      "O055": "OP10",
+      "O056": "OP50",
+      "O057": "OP40",
+      "O058": "OP20",
+      "O059": "OP40",
+      "O060": "OP30",
+      "O061": "OP10",
+      "O062": "OP40",
+      "O063": "OP30",
+      "O064": "OP10",
+      "O065": "OP40",
+      "O066": "OP30",
+      "O067": "OP10",
+      "O068": "OP40",
+      "O069": "OP30",
+      "O070": "OP10",
+      "O071": "OP50",
+      "O072": "OP40",
+      "O073": "OP20",
+      "O074": "OP50",
+      "O075": "OP40",
+      "O076": "OP20",
+      "O077": "OP40",
+      "O078": "OP30",
+      "O079": "OP10",
+      "O080": "OP40",
+      "O081": "OP30",
+      "O082": "OP10",
+      "O083": "OP40",
+      "O084": "OP30",
+      "O085": "OP10",
+      "O086": "OP30",
+      "O087": "OP10",
+      "O088": "OP20",
+      "O089": "OP20",
+      "O090": "OP20",
+      "O091": "OP60",
+      "O092": "OP40",
+      "O093": "OP30",
+      "O094": "OP10",
+      "O095": "OP60",
+      "O096": "OP40",
+      "O097": "OP30",
+      "O098": "OP10",
+      "O099": "OP60",
+      "O100": "OP40",
+      "O101": "OP30",
+      "O102": "OP10",
+      "O103": "OP60",
+      "O104": "OP40",
+      "O105": "OP30",
+      "O106": "OP10",
+      "O107": "OP60",
+      "O108": "OP40",
+      "O109": "OP30",
+      "O110": "OP10",
+      "O111": "OP60",
+      "O112": "OP40",
+      "O113": "OP30",
+      "O114": "OP10",
+      "O115": "OP60",
+      "O116": "OP40",
+      "O117": "OP30",
+      "O118": "OP10",
+      "O119": "OP30",
+      "O120": "OP10",
+      "O121": "OP60",
+      "O122": "OP40",
+      "O123": "OP30",
+      "O124": "OP10",
+      "O125": "OP60",
+      "O126": "OP40",
+      "O127": "OP30",
+      "O128": "OP10",
+      "O129": "OP60",
+      "O130": "OP40",
+      "O131": "OP30",
+      "O132": "OP10",
+      "O133": "OP60",
+      "O134": "OP40",
+      "O135": "OP30",
+      "O136": "OP10",
+      "O137": "OP40",
+      "O138": "OP30",
+      "O139": "OP10",
+      "O140": "OP60",
+      "O141": "OP40",
+      "O142": "OP30",
+      "O143": "OP10",
+      "O144": "OP60",
+      "O145": "OP50",
+      "O146": "OP40",
+      "O147": "OP20",
+      "O148": "OP50",
+      "O149": "OP40",
+      "O150": "OP20",
+      "O151": "OP40",
+      "O152": "OP30",
+      "O153": "OP10",
+      "O154": "OP40",
+      "O155": "OP30",
+      "O156": "OP10",
+      "O157": "OP40",
+      "O158": "OP30",
+      "O159": "OP10",
+      "O160": "OP50",
+      "O161": "OP40",
+      "O162": "OP20",
+      "O163": "OP40",
+      "O164": "OP30",
+      "O165": "OP10",
+      "O166": "OP10",
+      "O167": "OP10",
+      "O168": "OP10",
+      "O169": "OP10",
+      "O170": "OP10",
+      "O171": "OP10",
+      "O172": "OP10",
+      "O173": "OP10",
+      "O174": "OP10",
+      "O175": "OP30",
+      "O176": "OP30",
+      "O177": "OP10",
+      "O178": "OP30",
+      "O179": "OP10",
+      "O180": "OP30",
+      "O181": "OP10",
+      "O182": "OP30",
+      "O183": "OP10",
+      "O184": "OP30",
+      "O185": "OP10",
+      "O186": "OP10",
+      "O187": "OP10",
+      "O188": "OP10",
+      "O189": "OP10",
+      "O190": "OP10",
+      "O191": "OP10",
+      "O192": "OP10",
+      "O193": "OP20",
+      "O194": "OP20",
+      "O195": "OP20",
+      "O196": "OP20",
+      "O197": "OP20",
+      "O198": "OP20",
+      "O199": "OP20",
+      "O200": "OP20",
+      "O201": "OP20",
+      "O202": "OP20",
+      "O203": "OP20",
+      "O204": "OP20",
+      "O205": "OP20",
+      "O206": "OP20",
+      "O207": "OP20",
+      "O208": "OP20",
+      "O209": "OP20",
+      "O210": "OP20",
+      "O211": "OP20",
+      "O212": "OP20",
+      "O213": "OP20",
+      "O214": "OP20",
+      "O215": "OP10",
+      "O216": "OP20",
+      "O217": "OP10",
+      "O218": "OP20",
+      "O219": "OP10",
+      "O220": "OP20",
+      "O221": "OP10",
+      "O222": "OP20",
+      "O223": "OP10",
+      "O224": "OP20"
+    },
+    "plan_hash": "f49c2884f3ef774d0ba7aea143ec36754a2acdae13138da3a1962814ac655ace",
+    "p5": {
+      "value": 0.0,
+      "exact": "0",
+      "types": {
+        "FLANGING_IRREGULAR": {
+          "pair_count": 22,
+          "same_station_count": 0,
+          "value": 0.0,
+          "pairs": [
+            {
+              "pair_id": "O015__O196",
+              "station_ids": [
+                "OP30",
+                "OP20"
+              ],
+              "same_station": false
+            },
+            {
+              "pair_id": "O031__O196",
+              "station_ids": [
+                "OP30",
+                "OP20"
+              ],
+              "same_station": false
+            },
+            {
+              "pair_id": "O035__O196",
+              "station_ids": [
+                "OP30",
+                "OP20"
+              ],
+              "same_station": false
+            },
+            {
+              "pair_id": "O044__O198",
+              "station_ids": [
+                "OP30",
+                "OP20"
+              ],
+              "same_station": false
+            },
+            {
+              "pair_id": "O046__O198",
+              "station_ids": [
+                "OP30",
+                "OP20"
+              ],
+              "same_station": false
+            },
+            {
+              "pair_id": "O049__O197",
+              "station_ids": [
+                "OP30",
+                "OP20"
+              ],
+              "same_station": false
+            },
+            {
+              "pair_id": "O051__O197",
+              "station_ids": [
+                "OP30",
+                "OP20"
+              ],
+              "same_station": false
+            },
+            {
+              "pair_id": "O066__O200",
+              "station_ids": [
+                "OP30",
+                "OP20"
+              ],
+              "same_station": false
+            },
+            {
+              "pair_id": "O078__O199",
+              "station_ids": [
+                "OP30",
+                "OP20"
+              ],
+              "same_station": false
+            },
+            {
+              "pair_id": "O086__O089",
+              "station_ids": [
+                "OP30",
+                "OP20"
+              ],
+              "same_station": false
+            },
+            {
+              "pair_id": "O093__O206",
+              "station_ids": [
+                "OP30",
+                "OP20"
+              ],
+              "same_station": false
+            },
+            {
+              "pair_id": "O097__O207",
+              "station_ids": [
+                "OP30",
+                "OP20"
+              ],
+              "same_station": false
+            },
+            {
+              "pair_id": "O101__O209",
+              "station_ids": [
+                "OP30",
+                "OP20"
+              ],
+              "same_station": false
+            },
+            {
+              "pair_id": "O105__O211",
+              "station_ids": [
+                "OP30",
+                "OP20"
+              ],
+              "same_station": false
+            },
+            {
+              "pair_id": "O109__O201",
+              "station_ids": [
+                "OP30",
+                "OP20"
+              ],
+              "same_station": false
+            },
+            {
+              "pair_id": "O113__O210",
+              "station_ids": [
+                "OP30",
+                "OP20"
+              ],
+              "same_station": false
+            },
+            {
+              "pair_id": "O117__O208",
+              "station_ids": [
+                "OP30",
+                "OP20"
+              ],
+              "same_station": false
+            },
+            {
+              "pair_id": "O119__O208",
+              "station_ids": [
+                "OP30",
+                "OP20"
+              ],
+              "same_station": false
+            },
+            {
+              "pair_id": "O123__O205",
+              "station_ids": [
+                "OP30",
+                "OP20"
+              ],
+              "same_station": false
+            },
+            {
+              "pair_id": "O127__O204",
+              "station_ids": [
+                "OP30",
+                "OP20"
+              ],
+              "same_station": false
+            },
+            {
+              "pair_id": "O131__O203",
+              "station_ids": [
+                "OP30",
+                "OP20"
+              ],
+              "same_station": false
+            },
+            {
+              "pair_id": "O135__O202",
+              "station_ids": [
+                "OP30",
+                "OP20"
+              ],
+              "same_station": false
+            }
+          ]
+        }
+      },
+      "same_station_count": 0,
+      "applicability": "applicable",
+      "coverage_status": "coverage_incomplete",
+      "missing_geometry_operations": [
+        "O001",
+        "O026",
+        "O175",
+        "O215",
+        "O216",
+        "O217",
+        "O218",
+        "O219",
+        "O220",
+        "O221",
+        "O222",
+        "O223",
+        "O224"
+      ]
+    }
+  },
+  "residual_pair_individually_unavoidable_claimed": false
+}

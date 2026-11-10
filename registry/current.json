@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "planning": "reference_free_with_H1_H7",
+  "graph": "frozen_Graph0_Graph1_Graph2_k8",
+  "frozen_plans": "baselines/P001/plans/all_16_complete_assignments.json",
+  "geometry": "local_forming_v03",
+  "learning": "NOT_IMPLEMENTED",
+  "verification": "registry/reproduction.json",
+  "part_manifests": [
+    "data/parts/P001/manifest.json",
+    "data/parts/P002/manifest.json",
+    "data/parts/P003/manifest.json",
+    "data/parts/P004/manifest.json"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "part_id": "P001",
+  "workbook": "data/parts/P001/钣金加工数据表_P001.xlsx",
+  "frozen_plans": "baselines/P001/plans/all_16_complete_assignments.json",
+  "geometry_version": "local_forming_v03",
+  "review": "information_extract/outputs/local_forming_v03/P001/review.html",
+  "python": ".venv/Scripts/python.exe",
+  "learning_status": "NOT_IMPLEMENTED"
+}

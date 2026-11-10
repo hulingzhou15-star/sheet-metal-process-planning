@@ -1,0 +1,2 @@
+# Compatibility entry; use scripts/setup.ps1 for the complete environment.
+-r requirements/core.txt

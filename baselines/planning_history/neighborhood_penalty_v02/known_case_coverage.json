@@ -1,0 +1,30 @@
+[
+  {
+    "pair_id": "O066__O200",
+    "covered": true,
+    "new_pool_same_count": 0,
+    "selected_same_count": 0,
+    "used_for_generation": false
+  },
+  {
+    "pair_id": "O015__O196",
+    "covered": true,
+    "new_pool_same_count": 0,
+    "selected_same_count": 0,
+    "used_for_generation": false
+  },
+  {
+    "pair_id": "O031__O196",
+    "covered": true,
+    "new_pool_same_count": 0,
+    "selected_same_count": 0,
+    "used_for_generation": false
+  },
+  {
+    "pair_id": "O035__O196",
+    "covered": true,
+    "new_pool_same_count": 0,
+    "selected_same_count": 0,
+    "used_for_generation": false
+  }
+]

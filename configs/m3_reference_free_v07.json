@@ -1,0 +1,26 @@
+{
+  "schema_version": "m3.reference_free.v0.7",
+  "generation": {
+    "seed": 20261015,
+    "pool_target": 64,
+    "selected_target": 16,
+    "max_attempts": 96,
+    "random_cost_abs_max": 100
+  },
+  "solver": {
+    "max_time_seconds": 5,
+    "max_deterministic_time": 1.0,
+    "num_search_workers": 1
+  },
+  "local_contrasts": {
+    "analysis_k": 5,
+    "type_pair": ["FLANGING", "IRREGULAR_PUNCH"],
+    "max_pairs": 16,
+    "sampling": "distance_rank_stratified",
+    "objective": "minimum_changed_operations"
+  },
+  "selection": {
+    "method": "farthest_first",
+    "soft_prefilter_enabled": false
+  }
+}

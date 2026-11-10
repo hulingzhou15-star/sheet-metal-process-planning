@@ -1,0 +1,865 @@
+{
+  "html": "D:\\sheet_process_assignment\\information_extract\\outputs\\P004\\P004_drawing.html",
+  "editor_url": "http://127.0.0.1:8769/",
+  "source": {
+    "sha256": "ca46fe2718afd6181a775e2a47961b1e6babfef49c6ff715dd4f9bae8198a239",
+    "file_name": "P004.dxf",
+    "coordinate_system": "drawing WCS XY",
+    "units": "mm",
+    "declared_units": "源单位（未指定）",
+    "unit_basis": "USER_CONFIRMED",
+    "insunits": 0,
+    "material_block": "*Model_Space",
+    "material_frame": {
+      "coordinate_mode": "world_xy",
+      "inverse_transform_matrix_json": "[1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]"
+    },
+    "dxf_audit": {
+      "errors": [],
+      "fixes": []
+    }
+  },
+  "segment_count": 684,
+  "segment_types": {
+    "LINE": 335,
+    "CIRCLE": 52,
+    "ARC": 297
+  },
+  "display_annotation_count": 0,
+  "issues": [],
+  "raw_stats": {
+    "top_level_insert_count": 0,
+    "block_count_including_layouts": 16,
+    "block_definition_count": 14,
+    "referenced_block_count": 0,
+    "unused_block_definitions": [
+      "_OPEN30",
+      "A$C7AB0377D",
+      "*D2",
+      "*D3",
+      "*D4",
+      "*D5",
+      "*D6",
+      "*D7",
+      "*D8",
+      "*D9",
+      "*D10",
+      "*D11",
+      "*D12",
+      "*D13"
+    ],
+    "insert_instance_count": 0,
+    "encountered_entity_counts": {
+      "LINE": 60,
+      "CIRCLE": 52,
+      "LWPOLYLINE": 22
+    },
+    "accepted_source_entity_counts": {
+      "LINE": 60,
+      "CIRCLE": 52,
+      "LWPOLYLINE": 22
+    },
+    "polyline_segment_counts": {
+      "ARC": 297,
+      "LINE": 259
+    },
+    "raw_segment_counts": {
+      "LINE": 319,
+      "CIRCLE": 52,
+      "ARC": 297
+    },
+    "raw_row_count": 668,
+    "candidate_count": 134,
+    "geometry_row_count": 668,
+    "rejected_source_count": 0,
+    "closed_polyline_count": 22,
+    "hidden_raw_row_count": 0,
+    "issue_counts": {}
+  },
+  "removed_sources": [],
+  "source_cleanup": null,
+  "source_supplement": {
+    "manifest": "configs/P004_geometry_supplement.json",
+    "manifest_sha256": "a775167e9207211437a29cc35e8d37faeb12299ddedf8b001b1500d5f7f100a1",
+    "baseline_sha256": "ca46fe2718afd6181a775e2a47961b1e6babfef49c6ff715dd4f9bae8198a239",
+    "reference_file": "P004_01.dxf",
+    "reference_sha256": "38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3",
+    "registration": {
+      "type": "TRANSLATION",
+      "translation_xy": [
+        -702.9847898912888,
+        4174.470053604143
+      ],
+      "matched_circle_count": 8,
+      "distinct_center_count": 4,
+      "max_residual_mm": 1.4380373887290168e-12,
+      "anchors": [
+        {
+          "baseline_id": "S_a84629d2b9234722cc4f7eed",
+          "reference_id": "S_408c4558cd0a4a965a1f46f7"
+        },
+        {
+          "baseline_id": "S_5b0165634077fce44659a5ae",
+          "reference_id": "S_19186ec9e6dffaa76f9b466c"
+        },
+        {
+          "baseline_id": "S_ebd50a4f81b1c683ac945ba7",
+          "reference_id": "S_e91cd08e154ce17388041704"
+        },
+        {
+          "baseline_id": "S_400f35ace04f4e394a3633bc",
+          "reference_id": "S_40dc9b134131b06abf7e92d1"
+        },
+        {
+          "baseline_id": "S_153907547aa652a49168da03",
+          "reference_id": "S_825bfb4e7e7735173902e586"
+        },
+        {
+          "baseline_id": "S_d8ac7f683bb8bdbe3cc15375",
+          "reference_id": "S_f112160763d3401383226c5a"
+        },
+        {
+          "baseline_id": "S_886b01e1edcb9414cc916054",
+          "reference_id": "S_80a382988d52ede8ba66aeb0"
+        },
+        {
+          "baseline_id": "S_04c4dac9e5810833a87afcfc",
+          "reference_id": "S_f7e6ce9bd7306b07c53221f6"
+        }
+      ]
+    },
+    "added_source_ids": [
+      "S_dabe0c4d1eac18d3cd5de099",
+      "S_1394f23f4797f2aae7e55494",
+      "S_b9e88589491b3947425f4c98",
+      "S_e5f3217f82669e42a08fdf0a",
+      "S_45f8a2491e1c67e1b9d3fdce",
+      "S_e0788d7616e90f621c778934",
+      "S_2d50ab32b7bc72adbcf9acb6",
+      "S_8b3a66e8c47eec93207b7d75",
+      "S_670332bd2819362a17bec40a",
+      "S_35c1d078e19a46ed51f70d61",
+      "S_37e33ed703f38dd0abf74265",
+      "S_683cb6580d5719b583b0966f",
+      "S_c4d2c25e2e9de8aa250dd41e",
+      "S_dc6d91e195de7fc4d72ae2fc",
+      "S_34259619dd87d7f9a2abbbd3",
+      "S_e3af258ea3867916f4dbfc7c"
+    ],
+    "selected_source_ids": [
+      "S_b0ff554800787e0111230453",
+      "S_b329162c813c047e9ef4942b",
+      "S_48dc055b9ff8b7920b51f0c0",
+      "S_ef6aeecb303ee505ba2b20cd",
+      "S_dc1c41b316636a467b96e5cf",
+      "S_f107c2c90b38985a24360703",
+      "S_1075ea7a62898579f36506c6",
+      "S_eee15dc1e5e1b5eb251fff96",
+      "S_8403d003728d8a7f66fc3135",
+      "S_51a0c77e1a2be1f019cc0958",
+      "S_5da5bcd5d5d118cc5161ee7f",
+      "S_24e4a7f1181f46732eb16156",
+      "S_1a4b79a5a465237b068bca20",
+      "S_df93caa5cde9795754d8c8ed",
+      "S_695ca256ba1316000d7549e1",
+      "S_de6f6dbb7ba6420223c0bfed"
+    ],
+    "omitted_duplicate_sources": [
+      {
+        "retained_id": "S_b0ff554800787e0111230453",
+        "omitted_id": "S_4f6fef0c3f903d96a6991d71",
+        "retained_handle": "13D",
+        "omitted_handle": "143"
+      },
+      {
+        "retained_id": "S_b329162c813c047e9ef4942b",
+        "omitted_id": "S_699fc96a6b8b8122028d086f",
+        "retained_handle": "13E",
+        "omitted_handle": "144"
+      },
+      {
+        "retained_id": "S_48dc055b9ff8b7920b51f0c0",
+        "omitted_id": "S_a1fa976457807f995035df78",
+        "retained_handle": "13F",
+        "omitted_handle": "145"
+      },
+      {
+        "retained_id": "S_ef6aeecb303ee505ba2b20cd",
+        "omitted_id": "S_48941fb4fc1afcf45d12299a",
+        "retained_handle": "140",
+        "omitted_handle": "146"
+      },
+      {
+        "retained_id": "S_dc1c41b316636a467b96e5cf",
+        "omitted_id": "S_a437dd91793aee520f809679",
+        "retained_handle": "141",
+        "omitted_handle": "147"
+      },
+      {
+        "retained_id": "S_f107c2c90b38985a24360703",
+        "omitted_id": "S_ed510ca09494fe6db65ba847",
+        "retained_handle": "142",
+        "omitted_handle": "148"
+      },
+      {
+        "retained_id": "S_1075ea7a62898579f36506c6",
+        "omitted_id": "S_a97e2b7d0a81d309a4f62bdd",
+        "retained_handle": "149",
+        "omitted_handle": "14F"
+      },
+      {
+        "retained_id": "S_eee15dc1e5e1b5eb251fff96",
+        "omitted_id": "S_1d59ee63963c71d1c8752968",
+        "retained_handle": "14A",
+        "omitted_handle": "150"
+      },
+      {
+        "retained_id": "S_8403d003728d8a7f66fc3135",
+        "omitted_id": "S_74b92f642ac5bdd3b7f9aa8e",
+        "retained_handle": "14B",
+        "omitted_handle": "151"
+      },
+      {
+        "retained_id": "S_51a0c77e1a2be1f019cc0958",
+        "omitted_id": "S_2f12966f124e901cfff5b8f5",
+        "retained_handle": "14C",
+        "omitted_handle": "152"
+      },
+      {
+        "retained_id": "S_5da5bcd5d5d118cc5161ee7f",
+        "omitted_id": "S_91b4fe62babb6e751eee8c96",
+        "retained_handle": "14D",
+        "omitted_handle": "153"
+      },
+      {
+        "retained_id": "S_24e4a7f1181f46732eb16156",
+        "omitted_id": "S_ada1afcd288e136598b3612f",
+        "retained_handle": "14E",
+        "omitted_handle": "154"
+      },
+      {
+        "retained_id": "S_1a4b79a5a465237b068bca20",
+        "omitted_id": "S_22c1838f2b48edeaa355108a",
+        "retained_handle": "155",
+        "omitted_handle": "159"
+      },
+      {
+        "retained_id": "S_df93caa5cde9795754d8c8ed",
+        "omitted_id": "S_c174fe5fb0417312b08158a3",
+        "retained_handle": "156",
+        "omitted_handle": "15A"
+      },
+      {
+        "retained_id": "S_695ca256ba1316000d7549e1",
+        "omitted_id": "S_496b01684527a8d384ca246c",
+        "retained_handle": "157",
+        "omitted_handle": "15B"
+      },
+      {
+        "retained_id": "S_de6f6dbb7ba6420223c0bfed",
+        "omitted_id": "S_b5d9d9209962232754fc38e2",
+        "retained_handle": "158",
+        "omitted_handle": "15C"
+      }
+    ],
+    "imported_text_count": 0,
+    "added_segments": [
+      {
+        "id": "S_dabe0c4d1eac18d3cd5de099",
+        "segment_type": "LINE",
+        "source_group": "supplement:38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3:13D",
+        "source_handle": "13D",
+        "instance_path": "",
+        "polyline_seq": null,
+        "layer": "MATER",
+        "linetype": "Continuous",
+        "color": 8,
+        "is_visible": true,
+        "raw_entity_id": "E000838",
+        "source_entity_type": "LINE",
+        "start_x": 2843.8571865522963,
+        "start_y": 3848.1841449540416,
+        "end_x": 2843.8571865522963,
+        "end_y": 3862.184144954036,
+        "center_x": null,
+        "center_y": null,
+        "radius": null,
+        "sweep_angle": null,
+        "bbox": [
+          2843.8571865522963,
+          3848.1841449540416,
+          2843.8571865522963,
+          3862.184144954036
+        ],
+        "provenance": {
+          "source_file": "P004_01.dxf",
+          "source_sha256": "38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3",
+          "original_source_id": "S_b0ff554800787e0111230453",
+          "translation_xy": [
+            -702.9847898912888,
+            4174.470053604143
+          ]
+        }
+      },
+      {
+        "id": "S_1394f23f4797f2aae7e55494",
+        "segment_type": "LINE",
+        "source_group": "supplement:38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3:13E",
+        "source_handle": "13E",
+        "instance_path": "",
+        "polyline_seq": null,
+        "layer": "MATER",
+        "linetype": "Continuous",
+        "color": 8,
+        "is_visible": true,
+        "raw_entity_id": "E000839",
+        "source_entity_type": "LINE",
+        "start_x": 2838.557186552297,
+        "start_y": 3847.8841449539896,
+        "end_x": 2838.557186552297,
+        "end_y": 3848.184144954049,
+        "center_x": null,
+        "center_y": null,
+        "radius": null,
+        "sweep_angle": null,
+        "bbox": [
+          2838.557186552297,
+          3847.8841449539896,
+          2838.557186552297,
+          3848.184144954049
+        ],
+        "provenance": {
+          "source_file": "P004_01.dxf",
+          "source_sha256": "38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3",
+          "original_source_id": "S_b329162c813c047e9ef4942b",
+          "translation_xy": [
+            -702.9847898912888,
+            4174.470053604143
+          ]
+        }
+      },
+      {
+        "id": "S_b9e88589491b3947425f4c98",
+        "segment_type": "LINE",
+        "source_group": "supplement:38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3:13F",
+        "source_handle": "13F",
+        "instance_path": "",
+        "polyline_seq": null,
+        "layer": "MATER",
+        "linetype": "Continuous",
+        "color": 8,
+        "is_visible": true,
+        "raw_entity_id": "E000840",
+        "source_entity_type": "LINE",
+        "start_x": 2838.557186552297,
+        "start_y": 3848.184144954049,
+        "end_x": 2843.557186552297,
+        "end_y": 3848.1841449540416,
+        "center_x": null,
+        "center_y": null,
+        "radius": null,
+        "sweep_angle": null,
+        "bbox": [
+          2838.557186552297,
+          3848.1841449540416,
+          2843.557186552297,
+          3848.184144954049
+        ],
+        "provenance": {
+          "source_file": "P004_01.dxf",
+          "source_sha256": "38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3",
+          "original_source_id": "S_48dc055b9ff8b7920b51f0c0",
+          "translation_xy": [
+            -702.9847898912888,
+            4174.470053604143
+          ]
+        }
+      },
+      {
+        "id": "S_e5f3217f82669e42a08fdf0a",
+        "segment_type": "LINE",
+        "source_group": "supplement:38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3:140",
+        "source_handle": "140",
+        "instance_path": "",
+        "polyline_seq": null,
+        "layer": "MATER",
+        "linetype": "Continuous",
+        "color": 8,
+        "is_visible": true,
+        "raw_entity_id": "E000841",
+        "source_entity_type": "LINE",
+        "start_x": 2843.557186552297,
+        "start_y": 3848.1841449540416,
+        "end_x": 2843.557186552297,
+        "end_y": 3862.184144954036,
+        "center_x": null,
+        "center_y": null,
+        "radius": null,
+        "sweep_angle": null,
+        "bbox": [
+          2843.557186552297,
+          3848.1841449540416,
+          2843.557186552297,
+          3862.184144954036
+        ],
+        "provenance": {
+          "source_file": "P004_01.dxf",
+          "source_sha256": "38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3",
+          "original_source_id": "S_ef6aeecb303ee505ba2b20cd",
+          "translation_xy": [
+            -702.9847898912888,
+            4174.470053604143
+          ]
+        }
+      },
+      {
+        "id": "S_45f8a2491e1c67e1b9d3fdce",
+        "segment_type": "LINE",
+        "source_group": "supplement:38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3:141",
+        "source_handle": "141",
+        "instance_path": "",
+        "polyline_seq": null,
+        "layer": "MATER",
+        "linetype": "Continuous",
+        "color": 8,
+        "is_visible": true,
+        "raw_entity_id": "E000842",
+        "source_entity_type": "LINE",
+        "start_x": 2838.557186552297,
+        "start_y": 3862.1841449540307,
+        "end_x": 2843.557186552297,
+        "end_y": 3862.184144954036,
+        "center_x": null,
+        "center_y": null,
+        "radius": null,
+        "sweep_angle": null,
+        "bbox": [
+          2838.557186552297,
+          3862.1841449540307,
+          2843.557186552297,
+          3862.184144954036
+        ],
+        "provenance": {
+          "source_file": "P004_01.dxf",
+          "source_sha256": "38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3",
+          "original_source_id": "S_dc1c41b316636a467b96e5cf",
+          "translation_xy": [
+            -702.9847898912888,
+            4174.470053604143
+          ]
+        }
+      },
+      {
+        "id": "S_e0788d7616e90f621c778934",
+        "segment_type": "LINE",
+        "source_group": "supplement:38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3:142",
+        "source_handle": "142",
+        "instance_path": "",
+        "polyline_seq": null,
+        "layer": "MATER",
+        "linetype": "Continuous",
+        "color": 8,
+        "is_visible": true,
+        "raw_entity_id": "E000843",
+        "source_entity_type": "LINE",
+        "start_x": 2838.557186552297,
+        "start_y": 3862.1841449540307,
+        "end_x": 2838.557186552297,
+        "end_y": 3862.4841449539954,
+        "center_x": null,
+        "center_y": null,
+        "radius": null,
+        "sweep_angle": null,
+        "bbox": [
+          2838.557186552297,
+          3862.1841449540307,
+          2838.557186552297,
+          3862.4841449539954
+        ],
+        "provenance": {
+          "source_file": "P004_01.dxf",
+          "source_sha256": "38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3",
+          "original_source_id": "S_f107c2c90b38985a24360703",
+          "translation_xy": [
+            -702.9847898912888,
+            4174.470053604143
+          ]
+        }
+      },
+      {
+        "id": "S_2d50ab32b7bc72adbcf9acb6",
+        "segment_type": "LINE",
+        "source_group": "supplement:38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3:149",
+        "source_handle": "149",
+        "instance_path": "",
+        "polyline_seq": null,
+        "layer": "MATER",
+        "linetype": "Continuous",
+        "color": 8,
+        "is_visible": true,
+        "raw_entity_id": "E000850",
+        "source_entity_type": "LINE",
+        "start_x": 2988.557186552296,
+        "start_y": 3848.1841449540416,
+        "end_x": 2988.557186552296,
+        "end_y": 3862.1841449540343,
+        "center_x": null,
+        "center_y": null,
+        "radius": null,
+        "sweep_angle": null,
+        "bbox": [
+          2988.557186552296,
+          3848.1841449540416,
+          2988.557186552296,
+          3862.1841449540343
+        ],
+        "provenance": {
+          "source_file": "P004_01.dxf",
+          "source_sha256": "38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3",
+          "original_source_id": "S_1075ea7a62898579f36506c6",
+          "translation_xy": [
+            -702.9847898912888,
+            4174.470053604143
+          ]
+        }
+      },
+      {
+        "id": "S_8b3a66e8c47eec93207b7d75",
+        "segment_type": "LINE",
+        "source_group": "supplement:38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3:14A",
+        "source_handle": "14A",
+        "instance_path": "",
+        "polyline_seq": null,
+        "layer": "MATER",
+        "linetype": "Continuous",
+        "color": 8,
+        "is_visible": true,
+        "raw_entity_id": "E000851",
+        "source_entity_type": "LINE",
+        "start_x": 2993.557186552297,
+        "start_y": 3847.8841449539896,
+        "end_x": 2993.557186552297,
+        "end_y": 3848.184144954049,
+        "center_x": null,
+        "center_y": null,
+        "radius": null,
+        "sweep_angle": null,
+        "bbox": [
+          2993.557186552297,
+          3847.8841449539896,
+          2993.557186552297,
+          3848.184144954049
+        ],
+        "provenance": {
+          "source_file": "P004_01.dxf",
+          "source_sha256": "38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3",
+          "original_source_id": "S_eee15dc1e5e1b5eb251fff96",
+          "translation_xy": [
+            -702.9847898912888,
+            4174.470053604143
+          ]
+        }
+      },
+      {
+        "id": "S_670332bd2819362a17bec40a",
+        "segment_type": "LINE",
+        "source_group": "supplement:38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3:14B",
+        "source_handle": "14B",
+        "instance_path": "",
+        "polyline_seq": null,
+        "layer": "MATER",
+        "linetype": "Continuous",
+        "color": 8,
+        "is_visible": true,
+        "raw_entity_id": "E000852",
+        "source_entity_type": "LINE",
+        "start_x": 2993.557186552297,
+        "start_y": 3862.1841449540307,
+        "end_x": 2993.557186552297,
+        "end_y": 3862.4841449539954,
+        "center_x": null,
+        "center_y": null,
+        "radius": null,
+        "sweep_angle": null,
+        "bbox": [
+          2993.557186552297,
+          3862.1841449540307,
+          2993.557186552297,
+          3862.4841449539954
+        ],
+        "provenance": {
+          "source_file": "P004_01.dxf",
+          "source_sha256": "38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3",
+          "original_source_id": "S_8403d003728d8a7f66fc3135",
+          "translation_xy": [
+            -702.9847898912888,
+            4174.470053604143
+          ]
+        }
+      },
+      {
+        "id": "S_35c1d078e19a46ed51f70d61",
+        "segment_type": "LINE",
+        "source_group": "supplement:38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3:14C",
+        "source_handle": "14C",
+        "instance_path": "",
+        "polyline_seq": null,
+        "layer": "MATER",
+        "linetype": "Continuous",
+        "color": 8,
+        "is_visible": true,
+        "raw_entity_id": "E000853",
+        "source_entity_type": "LINE",
+        "start_x": 2988.8571865522963,
+        "start_y": 3862.1841449540343,
+        "end_x": 2993.557186552297,
+        "end_y": 3862.1841449540307,
+        "center_x": null,
+        "center_y": null,
+        "radius": null,
+        "sweep_angle": null,
+        "bbox": [
+          2988.8571865522963,
+          3862.1841449540307,
+          2993.557186552297,
+          3862.1841449540343
+        ],
+        "provenance": {
+          "source_file": "P004_01.dxf",
+          "source_sha256": "38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3",
+          "original_source_id": "S_51a0c77e1a2be1f019cc0958",
+          "translation_xy": [
+            -702.9847898912888,
+            4174.470053604143
+          ]
+        }
+      },
+      {
+        "id": "S_37e33ed703f38dd0abf74265",
+        "segment_type": "LINE",
+        "source_group": "supplement:38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3:14D",
+        "source_handle": "14D",
+        "instance_path": "",
+        "polyline_seq": null,
+        "layer": "MATER",
+        "linetype": "Continuous",
+        "color": 8,
+        "is_visible": true,
+        "raw_entity_id": "E000854",
+        "source_entity_type": "LINE",
+        "start_x": 2988.8571865522963,
+        "start_y": 3848.1841449540416,
+        "end_x": 2988.8571865522963,
+        "end_y": 3862.1841449540343,
+        "center_x": null,
+        "center_y": null,
+        "radius": null,
+        "sweep_angle": null,
+        "bbox": [
+          2988.8571865522963,
+          3848.1841449540416,
+          2988.8571865522963,
+          3862.1841449540343
+        ],
+        "provenance": {
+          "source_file": "P004_01.dxf",
+          "source_sha256": "38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3",
+          "original_source_id": "S_5da5bcd5d5d118cc5161ee7f",
+          "translation_xy": [
+            -702.9847898912888,
+            4174.470053604143
+          ]
+        }
+      },
+      {
+        "id": "S_683cb6580d5719b583b0966f",
+        "segment_type": "LINE",
+        "source_group": "supplement:38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3:14E",
+        "source_handle": "14E",
+        "instance_path": "",
+        "polyline_seq": null,
+        "layer": "MATER",
+        "linetype": "Continuous",
+        "color": 8,
+        "is_visible": true,
+        "raw_entity_id": "E000855",
+        "source_entity_type": "LINE",
+        "start_x": 2988.8571865522963,
+        "start_y": 3848.1841449540416,
+        "end_x": 2993.557186552297,
+        "end_y": 3848.184144954049,
+        "center_x": null,
+        "center_y": null,
+        "radius": null,
+        "sweep_angle": null,
+        "bbox": [
+          2988.8571865522963,
+          3848.1841449540416,
+          2993.557186552297,
+          3848.184144954049
+        ],
+        "provenance": {
+          "source_file": "P004_01.dxf",
+          "source_sha256": "38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3",
+          "original_source_id": "S_24e4a7f1181f46732eb16156",
+          "translation_xy": [
+            -702.9847898912888,
+            4174.470053604143
+          ]
+        }
+      },
+      {
+        "id": "S_c4d2c25e2e9de8aa250dd41e",
+        "segment_type": "LINE",
+        "source_group": "supplement:38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3:155",
+        "source_handle": "155",
+        "instance_path": "",
+        "polyline_seq": null,
+        "layer": "MATER",
+        "linetype": "Continuous",
+        "color": 8,
+        "is_visible": true,
+        "raw_entity_id": "E000862",
+        "source_entity_type": "LINE",
+        "start_x": 2843.8571865522963,
+        "start_y": 3862.184144954036,
+        "end_x": 2988.557186552296,
+        "end_y": 3862.1841449540343,
+        "center_x": null,
+        "center_y": null,
+        "radius": null,
+        "sweep_angle": null,
+        "bbox": [
+          2843.8571865522963,
+          3862.1841449540343,
+          2988.557186552296,
+          3862.184144954036
+        ],
+        "provenance": {
+          "source_file": "P004_01.dxf",
+          "source_sha256": "38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3",
+          "original_source_id": "S_1a4b79a5a465237b068bca20",
+          "translation_xy": [
+            -702.9847898912888,
+            4174.470053604143
+          ]
+        }
+      },
+      {
+        "id": "S_dc6d91e195de7fc4d72ae2fc",
+        "segment_type": "LINE",
+        "source_group": "supplement:38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3:156",
+        "source_handle": "156",
+        "instance_path": "",
+        "polyline_seq": null,
+        "layer": "MATER",
+        "linetype": "Continuous",
+        "color": 8,
+        "is_visible": true,
+        "raw_entity_id": "E000863",
+        "source_entity_type": "LINE",
+        "start_x": 2843.8571865522963,
+        "start_y": 3848.1841449540416,
+        "end_x": 2988.557186552296,
+        "end_y": 3848.1841449540416,
+        "center_x": null,
+        "center_y": null,
+        "radius": null,
+        "sweep_angle": null,
+        "bbox": [
+          2843.8571865522963,
+          3848.1841449540416,
+          2988.557186552296,
+          3848.1841449540416
+        ],
+        "provenance": {
+          "source_file": "P004_01.dxf",
+          "source_sha256": "38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3",
+          "original_source_id": "S_df93caa5cde9795754d8c8ed",
+          "translation_xy": [
+            -702.9847898912888,
+            4174.470053604143
+          ]
+        }
+      },
+      {
+        "id": "S_34259619dd87d7f9a2abbbd3",
+        "segment_type": "LINE",
+        "source_group": "supplement:38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3:157",
+        "source_handle": "157",
+        "instance_path": "",
+        "polyline_seq": null,
+        "layer": "MATER",
+        "linetype": "Continuous",
+        "color": 8,
+        "is_visible": true,
+        "raw_entity_id": "E000864",
+        "source_entity_type": "LINE",
+        "start_x": 2838.557186552297,
+        "start_y": 3847.8841449539896,
+        "end_x": 2993.557186552297,
+        "end_y": 3847.8841449539896,
+        "center_x": null,
+        "center_y": null,
+        "radius": null,
+        "sweep_angle": null,
+        "bbox": [
+          2838.557186552297,
+          3847.8841449539896,
+          2993.557186552297,
+          3847.8841449539896
+        ],
+        "provenance": {
+          "source_file": "P004_01.dxf",
+          "source_sha256": "38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3",
+          "original_source_id": "S_695ca256ba1316000d7549e1",
+          "translation_xy": [
+            -702.9847898912888,
+            4174.470053604143
+          ]
+        }
+      },
+      {
+        "id": "S_e3af258ea3867916f4dbfc7c",
+        "segment_type": "LINE",
+        "source_group": "supplement:38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3:158",
+        "source_handle": "158",
+        "instance_path": "",
+        "polyline_seq": null,
+        "layer": "MATER",
+        "linetype": "Continuous",
+        "color": 8,
+        "is_visible": true,
+        "raw_entity_id": "E000865",
+        "source_entity_type": "LINE",
+        "start_x": 2838.557186552297,
+        "start_y": 3862.4841449539954,
+        "end_x": 2993.557186552297,
+        "end_y": 3862.4841449539954,
+        "center_x": null,
+        "center_y": null,
+        "radius": null,
+        "sweep_angle": null,
+        "bbox": [
+          2838.557186552297,
+          3862.4841449539954,
+          2993.557186552297,
+          3862.4841449539954
+        ],
+        "provenance": {
+          "source_file": "P004_01.dxf",
+          "source_sha256": "38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3",
+          "original_source_id": "S_de6f6dbb7ba6420223c0bfed",
+          "translation_xy": [
+            -702.9847898912888,
+            4174.470053604143
+          ]
+        }
+      }
+    ]
+  },
+  "background_source_ids": [],
+  "removed_text_count": 0,
+  "removed_annotation_issues": [],
+  "annotation_note": "TEXT is display-only, not manufacturing geometry or an operation."
+}

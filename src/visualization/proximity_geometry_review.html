@@ -1,0 +1,103 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>P001 全动作几何邻近审查</title>
+<style>
+:root{font-family:"Microsoft YaHei",Arial,sans-serif;background:#f3f5f8;color:#26384d}body{margin:0;padding:20px}h1{font-size:24px;margin:0 0 10px}h2{font-size:17px;margin:12px 0}p{line-height:1.65;margin:7px 0}.note{font-size:13px;color:#586a80}.controls,.card{background:white;border:1px solid #d5deea;border-radius:7px;padding:14px}.controls{display:flex;gap:14px;align-items:center;flex-wrap:wrap}select,input,button{font:inherit;border:1px solid #a9b7ca;background:white;border-radius:4px;padding:6px}input[type=number]{width:92px}button{cursor:pointer}main{display:grid;grid-template-columns:minmax(480px,1.05fr) minmax(440px,1fr);gap:16px;margin-top:16px}#canvas{width:100%;height:540px;background:#fafbfd;border:1px solid #dce3ed;touch-action:none;cursor:grab}.detail{white-space:pre-line;line-height:1.8;font-size:13px;background:#f3f6fa;padding:10px;min-height:85px}.table-scroll{max-height:350px;overflow:auto}table{border-collapse:collapse;width:100%;font-size:13px}th{background:#e8eef5;text-align:left;position:sticky;top:0;padding:8px}td{padding:7px;border-bottom:1px solid #e2e7ee}tr[data-pair]{cursor:pointer}tr.within{background:#edf5fc}tr.selected{background:#fff0da}.num{text-align:right;white-space:nowrap}.legend{font-size:12px;line-height:1.9}.legend span{display:inline-block;margin-right:12px}.summary{margin-top:16px}.pending{color:#8b5721}#op-state{font-size:13px;line-height:1.7}#profile{font-size:13px}.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}details{margin-top:12px}summary{cursor:pointer;font-weight:bold}@media(max-width:1100px){main{grid-template-columns:1fr}}
+</style>
+<h1>P001 全动作几何邻近审查</h1>
+<p>查看真实轮廓、最近位置和已有工艺关系。自身预孔单列，外部对象不强制凑满固定数量。</p>
+<p class="note">尺寸范围属于试验。未设阈值的组合保持“待判断”，几何接触不等于加工干涉。本页没有生成工艺评分或修改候选。</p>
+<div class="controls">
+ <label>动作 <select id="operation"></select></label>
+ <label>关系类型 <select id="family"><option value="ALL">全部</option></select></label>
+ <label>尺寸倍数 <select id="multiple"></select></label>
+ <label>外部对象 <select id="row-limit"><option value="20">前20名（仅显示限制）</option><option value="ALL">全部</option></select></label>
+ <label>第二对象 <select id="other"></select></label><button id="show-pair">查看组合</button>
+</div>
+<main>
+ <section class="card"><div class="toolbar"><button id="local-fit">最近位置局部</button><button id="whole-fit">两个完整特征</button><button id="zoom-in">放大</button><button id="zoom-out">缩小</button><label><input id="regions" type="checkbox">显示记录的 influence region</label></div>
+ <p id="pair-title"></p><svg id="canvas" xmlns="http://www.w3.org/2000/svg"></svg>
+ <div class="legend"><span style="color:#2e6dae">蓝：对象A</span><span style="color:#c56a20">橙：对象B</span><span style="color:#a63847">红：边界最近点连线</span><span style="color:#428082">青虚线：中心距离口径</span><span>默认270°，可拖动平移、滚轮缩放</span></div>
+ <div id="pair-detail" class="detail"></div><p id="profile"></p>
+ </section>
+ <section class="card"><h2>当前动作的覆盖状态</h2><div id="op-state"></div>
+ <h2>内部工艺组</h2><div id="internal"></div>
+ <h2>外部对象 <span id="external-count"></span></h2><p class="note">按原始边界距离排序。CAD parent 单列为事实，不因此合并特征或排除外部对象。</p>
+ <div class="table-scroll"><table><thead><tr><th>对象</th><th>类型</th><th>边界距离</th><th>试验结果</th></tr></thead><tbody id="external"></tbody></table></div>
+ <div id="threshold-controls"><p>无孔径组合的临时边界距离阈值（空白表示未设定；仅本页试验，不保存）</p><label>折弯—异形孔 <input id="threshold-BEND_IRREGULAR" type="number" min="0" step="0.1" placeholder="未设定"></label> <label>异形孔—异形孔 <input id="threshold-IRREGULAR_IRREGULAR" type="number" min="0" step="0.1" placeholder="未设定"></label> <label>折弯—折弯 <input id="threshold-BEND_BEND" type="number" min="0" step="0.1" placeholder="未设定"></label></div>
+ <details><summary>外部距离的相对断层候选</summary><div id="cuts"></div><p class="note">内部预孔已排除在外部排序之外。断层只作观察，不自动截断。</p></details>
+ </section>
+</main>
+<section class="card summary"><h2>全件覆盖与尚未确定的部分</h2><div id="summary"></div><p class="note">轮廓距离采样统计只帮助观察局部接近的分布，不替代解析最短距离，不自动断言持续接近或工艺冲突。原始来源与数值验证见同目录报告。</p></section>
+<script id="payload" type="application/json">__PAYLOAD__</script>
+<script>
+'use strict';
+const {evidence:E,geometries,outline_markup}=JSON.parse(document.getElementById('payload').textContent),cfg=E.config,$=id=>document.getElementById(id),ns='http://www.w3.org/2000/svg';
+const byId=new Map(E.pairs.map(p=>[p.pair_id,p])),attached=new Map(Object.keys(E.operations).map(id=>[id,[]]));
+for(const p of E.pairs){attached.get(p.a).push(p);attached.get(p.b).push(p);}
+const familyNames={CIRCULAR_CIRCULAR:'圆形—圆形',BEND_CIRCULAR:'折弯—圆形',IRREGULAR_CIRCULAR:'异形孔—圆形',BEND_IRREGULAR:'折弯—异形孔',IRREGULAR_IRREGULAR:'异形孔—异形孔',BEND_BEND:'折弯—折弯',PENDING_TYPE_POLICY:'其它类型（待定）'};
+const stateNames={PARTIAL_GEOMETRIC_POLICY:'几何证据可查，邻域规则尚未完整确定',TARGET_ONLY_BY_TRIAL_POLICY:'本轮作为被检查对象，不强制主动建组',PENDING_TYPE_POLICY:'该类型的主动邻域规则待定',MISSING_GEOMETRY:'缺少几何，不能据此判断不需要邻居'};
+const metricNames={CENTER_TO_FINITE_BEND:'孔中心到有限折弯段',CENTER_TO_CENTER:'圆心距离',RECORDED_BOUNDARY:'记录轮廓距离'},locationNames={START:'起点',END:'终点',INTERIOR:'段内',FULL_CIRCLE:'圆周',ARC_ENDPOINT:'圆弧端点',ARC_INTERIOR:'圆弧内'};
+let active=null,view=[0,0,100,100],drag=null;
+function option(select,value,text){const op=document.createElement('option');op.value=value;op.textContent=text;select.appendChild(op);}
+for(const r of Object.values(E.operations)){option($('operation'),r.operation_id,`${r.operation_id} · ${r.operation_type}`);option($('other'),r.operation_id,`${r.operation_id} · ${r.operation_type}`);}
+Object.entries(familyNames).forEach(([id,text])=>option($('family'),id,text));cfg.size_multiples.forEach(m=>option($('multiple'),m,`${m}×直径`));
+$('operation').value=cfg.view.default_operation;$('multiple').value=cfg.primary_size_multiple;$('other').value=cfg.view.initial_pair[1];
+for(const [f,v] of Object.entries(cfg.absolute_thresholds))$('threshold-'+f).value=v??'';
+function n(v){if(v==null)return'未定义';return Number(v).toFixed(4).replace(/\.?0+$/,'');}
+function other(p,id=$('operation').value){return p.a===id?p.b:p.a;}
+function temporaryThreshold(f){const input=$('threshold-'+f);return input&&input.value.trim()!==''&&Number.isFinite(input.valueAsNumber)&&input.valueAsNumber>=0?input.valueAsNumber:null;}
+function status(p){const t=temporaryThreshold(p.family);if(t!=null)return{code:p.boundary_distance<=t?'WITHIN_TRIAL_RANGE':'OUTSIDE_TRIAL_RANGE',text:p.boundary_distance<=t?'临时范围内':'临时范围外'};
+ if(p.gates.length){const decisions=p.gates.map(g=>g.passes[String(Number($('multiple').value))]);return decisions.every(Boolean)?{code:'WITHIN_TRIAL_RANGE',text:'尺寸范围内'}:decisions.some(Boolean)?{code:'DIRECTION_DEPENDENT_RANGE',text:'随中心尺度而异'}:{code:'OUTSIDE_TRIAL_RANGE',text:'尺寸范围外'};}
+ return {code:'UNRESOLVED',text:p.curve_contact?'曲线接触，范围待定':'待定范围'};}
+function element(tag,attrs={}){const e=document.createElementNS(ns,tag);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,String(v)));return e;}
+function displayPoint(p){return[p[1],p[0]];}
+function setView(){ $('canvas').setAttribute('viewBox',view.join(' '));}
+function boxFit(box){const pad=Math.max(box[2]-box[0],box[3]-box[1],cfg.view.minimum_pair_extent)*cfg.view.pair_padding_fraction;view=[box[1]-pad,box[0]-pad,Math.max(box[3]-box[1],cfg.view.minimum_pair_extent)+2*pad,Math.max(box[2]-box[0],cfg.view.minimum_pair_extent)+2*pad];setView();}
+function fitPair(local=true){if(!active)return;const p=active,w=p.boundary_witness;if(local){const points=[w.point_a,w.point_b,...p.gates.flatMap(g=>g.point_from?[g.point_from,g.point_to]:[])],xs=points.map(p=>p[0]),ys=points.map(p=>p[1]);let size=Math.max(Math.max(...xs)-Math.min(...xs),Math.max(...ys)-Math.min(...ys),cfg.view.minimum_pair_extent),cx=(Math.max(...xs)+Math.min(...xs))/2,cy=(Math.max(...ys)+Math.min(...ys))/2;boxFit([cx-size/2,cy-size/2,cx+size/2,cy+size/2]);}
+ else{const a=E.operations[p.a].bbox,b=E.operations[p.b].bbox;boxFit([Math.min(a[0],b[0]),Math.min(a[1],b[1]),Math.max(a[2],b[2]),Math.max(a[3],b[3])]);}}
+function draw(){const canvas=$('canvas');canvas.replaceChildren();if(!active)return;const p=active,scene=element('g',{transform:'matrix(0 1 -1 0 0 0)'});canvas.appendChild(scene);
+ const outline=element('g');outline.innerHTML=outline_markup;scene.appendChild(outline);
+ if($('regions').checked)for(const op of [p.a,p.b]){const b=E.operations[op].recorded_region?.bbox;if(b)scene.appendChild(element('rect',{x:b[0],y:-b[3],width:b[2]-b[0],height:b[3]-b[1],fill:'#93a3b4','fill-opacity':.07,stroke:'#899caf','stroke-width':1,'vector-effect':'non-scaling-stroke'}));}
+ const ordered=Object.keys(geometries).filter(id=>id!==p.a&&id!==p.b).concat([p.a,p.b]);
+ for(const op of ordered){const color=op===p.a?'#2e6dae':op===p.b?'#c56a20':'#9aa8b8',g=element('g',{'data-operation':op,fill:'none',stroke:color,'stroke-width':op===p.a||op===p.b?2:1});g.innerHTML=geometries[op];g.querySelectorAll('path,circle').forEach(e=>e.setAttribute('vector-effect','non-scaling-stroke'));const title=element('title');title.textContent=`${op} ${E.operations[op].source_feature_ref||''}`;g.appendChild(title);g.addEventListener('click',()=>{const id=$('operation').value;if(id!==op)selectPair([id,op].sort().join('__'));});scene.appendChild(g);}
+ const w=p.boundary_witness,u=Math.max(view[2]/Math.max(canvas.clientWidth,1),view[3]/Math.max(canvas.clientHeight,1));
+ for(const [op,index] of [[p.a,w.primitive_index_a],[p.b,w.primitive_index_b]]){const g=scene.querySelector(`[data-operation="${op}"]`),shape=g.querySelectorAll('path,circle')[index];if(shape)shape.setAttribute('stroke-width','3.4');}
+ const line=(a,b,color,dash)=>scene.appendChild(element('line',{x1:a[0],y1:-a[1],x2:b[0],y2:-b[1],stroke:color,'stroke-width':2,'stroke-dasharray':dash,'vector-effect':'non-scaling-stroke','pointer-events':'none'}));
+ line(w.point_a,w.point_b,'#a63847','5 3');
+ for(const point of [w.point_a,w.point_b])scene.appendChild(element('circle',{cx:point[0],cy:-point[1],r:3*u,fill:'#a63847',stroke:'white','stroke-width':1,'vector-effect':'non-scaling-stroke','pointer-events':'none'}));
+ for(const g of p.gates)if(g.point_from)line(g.point_from,g.point_to,'#428082','3 4');
+ const shownA=displayPoint(w.point_a),shownB=displayPoint(w.point_b);
+ for(const [point,id,color] of [[w.point_a,p.a,'#2e6dae'],[w.point_b,p.b,'#a75a1c']]){const shown=displayPoint(point),isA=id===p.a,text=element('text',{x:isA?Math.min(shownA[0],shownB[0])-8*u:Math.max(shownA[0],shownB[0])+8*u,y:shown[1]+(isA?-10:19)*u,'text-anchor':isA?'end':'start',fill:color,stroke:'white','stroke-width':2*u,'paint-order':'stroke','font-size':13*u,'pointer-events':'none'});text.textContent=id;canvas.appendChild(text);}
+ setView();
+}
+function details(){if(!active)return;const p=active,w=p.boundary_witness,lines=[`${familyNames[p.family]}；${status(p).text}`,`解析边界距离：${n(p.boundary_distance)}；最近图元：A[${w.primitive_index_a}] ${locationNames[w.location_a]}，B[${w.primitive_index_b}] ${locationNames[w.location_b]}`,
+ `边界最近点：A (${w.point_a.map(n).join(', ')})；B (${w.point_b.map(n).join(', ')})`];
+ for(const g of p.gates){lines.push(`尺度来自 ${g.scale_operation}：直径 ${n(g.diameter)}；${metricNames[g.metric]}=${n(g.measurement)}；当前长度阈值 ${n(g.diameter*Number($('multiple').value))}`);if(g.projection)lines.push(`折弯最近点位置：${locationNames[g.projection.location]}；未夹紧投影参数 ${n(g.projection.unclamped_parameter)}；旧轮廓口径距离 ${n(g.legacy_boundary_measurement)}`);}
+ if(p.bend_geometry){const b=p.bend_geometry;lines.push(`折弯夹角：${n(b.acute_angle_degrees)}°；沿A投影重叠 ${n(b.projection_on_a?.overlap_length)}；沿B投影重叠 ${n(b.projection_on_b?.overlap_length)}`);}
+ if(p.relations.internal_pre_punch_flanging)lines.push(`内部PRE_PUNCH/FLANGING工艺组：${p.relations.process_group_id}`);
+ if(p.relations.cad_parent_relations.length)lines.push('已有CAD：'+p.relations.cad_parent_relations.map(r=>`${r.child} child → ${r.parent} parent`).join('；'));
+ if(p.relations.direct_hard_precedence.length)lines.push('已有硬先后：'+p.relations.direct_hard_precedence.map(r=>`${r.before} → ${r.after} [${r.source}]`).join('；'));
+ if(p.existing_precedence_path?.length)lines.push('已有先后路径：'+p.existing_precedence_path.join(' → '));
+ lines.push('此处未判定实际加工干涉或是否可同序。');$('pair-detail').textContent=lines.join('\n');
+ const profile=[];for(const side of ['a','b']){const d=p[`profile_${side}_to_${side==='a'?'b':'a'}`];if(d)profile.push(`沿${side.toUpperCase()}轮廓采样${d.sample_count}点：距离q10=${n(d.q10)}，中位=${n(d.q50)}，q90=${n(d.q90)}（仅采样观察）。`);}$('profile').textContent=profile.join(' ');
+}
+function selectPair(id){const p=byId.get(id);if(!p){active=null;$('pair-title').textContent='该组合缺少可计算几何';$('pair-detail').textContent='没有几何证据，不能据此判断是否需要邻居。';$('profile').textContent='';$('canvas').replaceChildren();return;}active=p;$('other').value=other(p);$('pair-title').textContent=`${p.a} ${E.operations[p.a].source_feature_ref||''} / ${p.b} ${E.operations[p.b].source_feature_ref||''}`;fitPair(true);details();draw();document.querySelectorAll('[data-pair]').forEach(tr=>tr.classList.toggle('selected',tr.dataset.pair===id));}
+function pairTable(rows,container){const table=document.createElement('table'),tbody=document.createElement('tbody');for(const p of rows){const tr=document.createElement('tr');tr.dataset.pair=p.pair_id;tr.classList.toggle('within',status(p).code==='WITHIN_TRIAL_RANGE');tr.classList.toggle('selected',active?.pair_id===p.pair_id);const target=other(p);for(const [i,v] of [target,E.operations[target].operation_type,n(p.boundary_distance),status(p).text].entries()){const td=document.createElement('td');td.textContent=v;if(i===2)td.className='num';tr.appendChild(td);}tr.addEventListener('click',()=>selectPair(p.pair_id));tbody.appendChild(tr);}if(container===$('external'))container.replaceChildren(...tbody.children);else{table.appendChild(tbody);container.replaceChildren(table);}}
+function refresh(keepPair=false){const id=$('operation').value,op=E.operations[id],all=attached.get(id),rel=E.relative_external_analysis[id],family=$('family').value;
+ $('op-state').textContent=`${op.source_feature_ref||id} · ${op.operation_type}。${stateNames[op.review_status]}。几何可查对象 ${all.length} 个；${op.unresolved_pair_count} 个组合尚无范围规则。`;
+ const internal=all.filter(p=>p.relations.internal_pre_punch_flanging);if(internal.length)pairTable(internal,$('internal'));else $('internal').textContent='没有已记录的内部预孔工艺组。';
+ const external=(rel?.external_pair_ids||[]).map(id=>byId.get(id)).filter(p=>family==='ALL'||p.family===family),shown=$('row-limit').value==='ALL'?external:external.slice(0,Number($('row-limit').value));
+ $('external-count').textContent=`显示 ${shown.length} / ${external.length}`;pairTable(shown,$('external'));
+ $('cuts').replaceChildren();for(const c of rel?.candidate_cuts||[]){const p=document.createElement('p');p.textContent=`外部第${c.after_external_rank}位，${other(byId.get(c.left_pair))} → ${other(byId.get(c.right_pair))}，距离跳变 ${n(c.ratio)} 倍`;$('cuts').appendChild(p);}if(!rel?.candidate_cuts.length)$('cuts').textContent='没有有限的相对倍数断层。';
+ if(!keepPair){const initial=shown[0]||internal[0];if(initial)selectPair(initial.pair_id);else{active=null;$('canvas').replaceChildren();$('pair-title').textContent='当前筛选下没有可查组合';$('pair-detail').textContent=stateNames[op.review_status];$('profile').textContent='';}}
+ else if(active){details();draw();}
+}
+const s=E.summary;$('summary').textContent=`${s.operations}个Operation，${s.geometry_operations}个有几何；${s.all_geometric_pairs}组两两证据。折弯${s.operation_type_counts.BEND}个，异形孔${s.operation_type_counts.IRREGULAR_PUNCH}个。内部预孔工艺组${s.internal_pre_punch_flanging_pairs}组。主动邻域规则部分确定${s.operation_status_counts.PARTIAL_GEOMETRIC_POLICY}个，本轮只作被检查对象${s.operation_status_counts.TARGET_ONLY_BY_TRIAL_POLICY}个，其它类型规则待定${s.operation_status_counts.PENDING_TYPE_POLICY}个，缺少几何${s.operation_status_counts.MISSING_GEOMETRY}个。全部动作均有状态记录，尚未全部获得最终邻域规则。`;
+$('operation').addEventListener('change',()=>refresh());$('family').addEventListener('change',()=>refresh());$('row-limit').addEventListener('change',()=>refresh(true));$('multiple').addEventListener('change',()=>refresh(true));$('show-pair').addEventListener('click',()=>selectPair([$ ('operation').value,$('other').value].sort().join('__')));
+for(const family of Object.keys(cfg.absolute_thresholds))$('threshold-'+family).addEventListener('input',()=>refresh(true));
+$('regions').addEventListener('change',draw);$('local-fit').addEventListener('click',()=>{fitPair(true);draw();});$('whole-fit').addEventListener('click',()=>{fitPair(false);draw();});
+function zoom(f){const[x,y,w,h]=view;view=[x+w*(1-f)/2,y+h*(1-f)/2,w*f,h*f];draw();}
+$('zoom-in').addEventListener('click',()=>zoom(.75));$('zoom-out').addEventListener('click',()=>zoom(4/3));$('canvas').addEventListener('wheel',e=>{e.preventDefault();zoom(e.deltaY<0?.9:1/.9);},{passive:false});
+$('canvas').addEventListener('pointerdown',e=>drag={x:e.clientX,y:e.clientY,view:[...view],captured:false});$('canvas').addEventListener('pointermove',e=>{if(!drag)return;if(!drag.captured&&Math.hypot(e.clientX-drag.x,e.clientY-drag.y)<3)return;if(!drag.captured){$('canvas').setPointerCapture(e.pointerId);drag.captured=true;}const r=$('canvas').getBoundingClientRect(),scale=Math.max(drag.view[2]/r.width,drag.view[3]/r.height);view=[drag.view[0]-(e.clientX-drag.x)*scale,drag.view[1]-(e.clientY-drag.y)*scale,drag.view[2],drag.view[3]];setView();});$('canvas').addEventListener('pointerup',()=>drag=null);$('canvas').addEventListener('pointercancel',()=>drag=null);
+refresh();selectPair([...cfg.view.initial_pair].sort().join('__'));
+</script></html>

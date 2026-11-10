@@ -1,0 +1,15 @@
+{
+  "pool_count": 240,
+  "selected_count": 60,
+  "all_pool_hard_feasible": true,
+  "all_pool_guardrail_pass": true,
+  "all_pool_scores_match_frozen_evaluator": true,
+  "all_hashes_valid": true,
+  "selected_subset_of_pool": true,
+  "selection_replay_identical": true,
+  "assignment_matrix_rows": 224,
+  "assignment_matrix_columns": 62,
+  "summary_rows": 60,
+  "matrix_assignments_match_jsonl": true,
+  "movement_and_diagnostic_totals_reconcile": true
+}
