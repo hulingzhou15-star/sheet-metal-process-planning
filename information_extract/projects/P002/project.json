@@ -2,11 +2,11 @@
   "schema_version": 1,
   "part_id": "P002",
   "source_sha256": "a89cbdbde22fccb33d4cde2dd213a728d3cc5c56552b6fbf02686e11b58a894f",
-  "revision": 10,
+  "revision": 16,
   "source_file_name": "P002_1.dxf",
   "coordinate_system": "drawing WCS XY",
   "source_units": "mm",
-  "expected_operation_count": null,
+  "expected_operation_count": 136,
   "inventory_confirmed": false,
   "operations": [
     {
@@ -39,7 +39,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40"
     },
     {
       "uid": "1bf64375-3af1-401b-9557-c2b6a4bc19eb",
@@ -71,7 +72,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40"
     },
     {
       "uid": "a07ff52d-ea78-4870-8986-f12876850705",
@@ -103,7 +105,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40"
     },
     {
       "uid": "fbcbc0e3-5723-4f2b-a002-6cc80a870388",
@@ -135,7 +138,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30"
     },
     {
       "uid": "066ddb03-7294-43d7-a163-681a2eebd530",
@@ -167,7 +171,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40"
     },
     {
       "uid": "2500efa0-5216-4a91-b11a-7a359bef5e11",
@@ -199,7 +204,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40"
     },
     {
       "uid": "34b42356-0202-46a3-975a-c975475f5711",
@@ -231,7 +237,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40"
     },
     {
       "uid": "87bfaffc-1872-4e4d-89f4-4786864ade6e",
@@ -262,6 +269,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP50",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "87bfaffc-1872-4e4d-89f4-4786864ade6e",
@@ -296,6 +304,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "87bfaffc-1872-4e4d-89f4-4786864ade6e",
@@ -331,6 +340,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP50",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "a6409f2c-2d46-4266-a1c5-51d0ae05f531",
@@ -365,6 +375,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "a6409f2c-2d46-4266-a1c5-51d0ae05f531",
@@ -400,6 +411,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP50",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "5c2df4c6-42ca-4333-a4a3-86ebbd4d33c6",
@@ -434,6 +446,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "5c2df4c6-42ca-4333-a4a3-86ebbd4d33c6",
@@ -468,7 +481,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP50"
     },
     {
       "uid": "88fd8b4e-5093-4657-b56f-bb438edde645",
@@ -501,7 +515,8 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
-      "bend_angle_deg": 90
+      "bend_angle_deg": 90,
+      "expert_station": "OP90"
     },
     {
       "uid": "134171ff-f8b3-448d-9f0a-7ab945e7c911",
@@ -533,7 +548,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20"
     },
     {
       "uid": "b02ecb8a-67d4-4639-aa2b-58b6e4c17e90",
@@ -564,7 +580,8 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
-      "bend_angle_deg": 90
+      "bend_angle_deg": 90,
+      "expert_station": "OP70"
     },
     {
       "uid": "ababe4b2-2161-4f34-a6d4-a920b46f8da3",
@@ -595,6 +612,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "a92ac2c3-886b-4bed-b780-0989bd16b341",
@@ -629,6 +647,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "a92ac2c3-886b-4bed-b780-0989bd16b341",
@@ -664,7 +683,8 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
-      "bend_angle_deg": 90
+      "bend_angle_deg": 90,
+      "expert_station": "OP90"
     },
     {
       "uid": "11ceb46b-9551-424c-9d2c-5cc32669ebd9",
@@ -695,6 +715,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP50",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "11ceb46b-9551-424c-9d2c-5cc32669ebd9",
@@ -729,6 +750,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "11ceb46b-9551-424c-9d2c-5cc32669ebd9",
@@ -763,7 +785,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30"
     },
     {
       "uid": "63abebf7-2cf6-43c9-9865-2fa0f8f71f41",
@@ -794,7 +817,8 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
-      "bend_angle_deg": 90
+      "bend_angle_deg": 90,
+      "expert_station": "OP90"
     },
     {
       "uid": "1de63b90-0f4a-47dc-ad4f-890c3da1b1d8",
@@ -825,6 +849,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP50",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "157f7d07-7e63-4464-9860-ab3cccae0a95",
@@ -859,6 +884,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "157f7d07-7e63-4464-9860-ab3cccae0a95",
@@ -894,6 +920,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP50",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "649f03fd-192d-4fea-bf8f-1e17ffa4e4c1",
@@ -928,6 +955,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "649f03fd-192d-4fea-bf8f-1e17ffa4e4c1",
@@ -963,6 +991,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP50",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "16f722e2-20e0-4c35-99ea-12eb14e5731c",
@@ -997,6 +1026,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "16f722e2-20e0-4c35-99ea-12eb14e5731c",
@@ -1032,6 +1062,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP50",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "9bcd31ee-576f-4076-973f-aeb0646d5e81",
@@ -1066,6 +1097,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "9bcd31ee-576f-4076-973f-aeb0646d5e81",
@@ -1101,6 +1133,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP50",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "6009d195-ab28-4a2a-b452-551304679134",
@@ -1135,6 +1168,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "6009d195-ab28-4a2a-b452-551304679134",
@@ -1170,6 +1204,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP50",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "368cb877-b75d-4740-8176-27f131341d87",
@@ -1204,6 +1239,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "368cb877-b75d-4740-8176-27f131341d87",
@@ -1239,7 +1275,8 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
-      "bend_angle_deg": 90
+      "bend_angle_deg": 90,
+      "expert_station": "OP60"
     },
     {
       "uid": "d347aa0a-6df6-4ad0-b610-3cbd33c842df",
@@ -1270,6 +1307,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP50",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "6e6feb7f-e120-40a6-95a1-218cb58391e7",
@@ -1304,6 +1342,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "6e6feb7f-e120-40a6-95a1-218cb58391e7",
@@ -1339,7 +1378,8 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
-      "bend_angle_deg": 90
+      "bend_angle_deg": 90,
+      "expert_station": "OP60"
     },
     {
       "uid": "86a5f6c3-6660-4f20-8023-cf1138634e5e",
@@ -1371,7 +1411,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40"
     },
     {
       "uid": "ff46e2a1-8e6e-47bf-bbbc-c5377fc46c82",
@@ -1401,7 +1442,8 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
-      "bend_angle_deg": 90
+      "bend_angle_deg": 90,
+      "superseded_by_operation_id": "O136"
     },
     {
       "uid": "35cfac8a-8d28-403f-bd85-8dbe4768f0dc",
@@ -1432,7 +1474,8 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
-      "bend_angle_deg": 90
+      "bend_angle_deg": 90,
+      "superseded_by_operation_id": "O136"
     },
     {
       "uid": "510597a3-2a2d-40c2-b143-6c10b250c9d0",
@@ -1461,7 +1504,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40"
     },
     {
       "uid": "8979a80a-7721-4d4d-8bb5-d910134585f8",
@@ -1490,7 +1534,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30"
     },
     {
       "uid": "76737676-f01b-4eea-9b12-105152e29ee2",
@@ -1519,7 +1564,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30"
     },
     {
       "uid": "e6ae3f87-0530-4298-a692-c86217770bf4",
@@ -1550,7 +1596,8 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
-      "bend_angle_deg": 90
+      "bend_angle_deg": 90,
+      "expert_station": "OP70"
     },
     {
       "uid": "463a0cd5-1d59-4103-8179-69a9fbaab47d",
@@ -1580,7 +1627,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP50"
     },
     {
       "uid": "94249a8b-e3ed-4865-93d4-41b7254459de",
@@ -1610,7 +1658,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP50"
     },
     {
       "uid": "33f37910-61e4-4a39-9a11-75b832126952",
@@ -1641,7 +1690,8 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
-      "bend_angle_deg": 90
+      "bend_angle_deg": 90,
+      "expert_station": "OP60"
     },
     {
       "uid": "2fc00605-02c9-4d71-9632-fe672cadc069",
@@ -1672,6 +1722,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP50",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "2fc00605-02c9-4d71-9632-fe672cadc069",
@@ -1706,6 +1757,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "2fc00605-02c9-4d71-9632-fe672cadc069",
@@ -1741,7 +1793,8 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
-      "bend_angle_deg": 90
+      "bend_angle_deg": 90,
+      "expert_station": "OP50"
     },
     {
       "uid": "34f5abb0-f165-4c2b-b79f-26235c6e9fb2",
@@ -1770,7 +1823,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40"
     },
     {
       "uid": "2defe37d-ecce-43e5-8cbc-a3bb5cb53a6b",
@@ -1814,7 +1868,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40"
     },
     {
       "uid": "42720ffb-a899-48cf-983a-381f9d4af511",
@@ -1858,7 +1913,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40"
     },
     {
       "uid": "eb196633-00a2-43b7-8b3d-7804528e23b9",
@@ -1889,6 +1945,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "1b91dc37-2c31-468d-978b-a5f0192bce25",
@@ -1923,6 +1980,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "1b91dc37-2c31-468d-978b-a5f0192bce25",
@@ -1958,6 +2016,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "53b6dfd9-8fa8-467f-81fe-18076262e15b",
@@ -1992,6 +2051,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "53b6dfd9-8fa8-467f-81fe-18076262e15b",
@@ -2027,6 +2087,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "6ae1e7f7-4ed2-4390-a6f0-122de1ad194e",
@@ -2061,6 +2122,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "6ae1e7f7-4ed2-4390-a6f0-122de1ad194e",
@@ -2096,7 +2158,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP10"
     },
     {
       "uid": "31150019-189d-464c-a75d-affa25ee09cc",
@@ -2125,7 +2188,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20"
     },
     {
       "uid": "3f156a5a-0b83-46d3-a455-2cd0ed4bdce6",
@@ -2154,7 +2218,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20"
     },
     {
       "uid": "822b0afd-4418-46f5-ac77-a27d733348da",
@@ -2183,7 +2248,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20"
     },
     {
       "uid": "84bbc048-e619-495e-808f-64c4867c8116",
@@ -2212,7 +2278,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20"
     },
     {
       "uid": "cbda5b6c-d50c-4df5-be5d-01fe32e4ce8d",
@@ -2241,16 +2308,17 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20"
     },
     {
       "uid": "4312d7a3-2c30-4a0c-a927-92eaf0949758",
       "operation_id": "O069",
-      "name": "规则抽孔1",
-      "operation_type": "IRREGULAR_PUNCH",
-      "feature_type": "IRREGULAR_PUNCH",
-      "geometry_shape": "NONCIRCULAR",
-      "surface_side": "NOT_APPLICABLE",
+      "name": "曲线折D:\\bug_deal\\87583弯4",
+      "operation_type": "BEND",
+      "feature_type": "BEND_CURVED",
+      "geometry_shape": "CURVED",
+      "surface_side": "ROUGH",
       "cad_parent_operation_id": null,
       "required_predecessor_ids": [],
       "process_group_id": null,
@@ -2283,7 +2351,9 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP80",
+      "bend_angle_deg": 90
     },
     {
       "uid": "ae28af31-dc05-430d-ab92-ca9f928079ff",
@@ -2327,7 +2397,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP50"
     },
     {
       "uid": "fc44035b-c3dc-479d-b79e-6ce792605cd6",
@@ -2371,7 +2442,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP50"
     },
     {
       "uid": "2f76e8f7-0cc1-4303-a9bb-399e9a18d983",
@@ -2402,6 +2474,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "2f76e8f7-0cc1-4303-a9bb-399e9a18d983",
@@ -2436,6 +2509,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "2f76e8f7-0cc1-4303-a9bb-399e9a18d983",
@@ -2471,6 +2545,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "33ca8429-8b0b-492f-8db8-2cf4fec241f0",
@@ -2505,6 +2580,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "33ca8429-8b0b-492f-8db8-2cf4fec241f0",
@@ -2540,6 +2616,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "4fe8787c-d214-4036-b995-666acc9f0614",
@@ -2574,6 +2651,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "4fe8787c-d214-4036-b995-666acc9f0614",
@@ -2609,6 +2687,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "d7860c23-c0a5-4c57-8745-2d6af0f1a69d",
@@ -2643,6 +2722,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "d7860c23-c0a5-4c57-8745-2d6af0f1a69d",
@@ -2678,6 +2758,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "906aaf2a-ad0d-4a0f-ad89-6dd4f74c7b71",
@@ -2712,6 +2793,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "906aaf2a-ad0d-4a0f-ad89-6dd4f74c7b71",
@@ -2747,6 +2829,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "c2bff877-f257-43a9-80bb-b8272cc6b0a0",
@@ -2781,6 +2864,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "c2bff877-f257-43a9-80bb-b8272cc6b0a0",
@@ -2816,6 +2900,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "289cf6a5-4336-4460-bb11-782a8bb2d411",
@@ -2850,6 +2935,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "289cf6a5-4336-4460-bb11-782a8bb2d411",
@@ -2887,7 +2973,8 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
-      "bend_angle_deg": 90
+      "bend_angle_deg": 90,
+      "expert_station": "OP70"
     },
     {
       "uid": "0f711b72-aa03-4087-968f-64ae1db7d816",
@@ -2918,7 +3005,8 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
-      "bend_angle_deg": 90
+      "bend_angle_deg": 90,
+      "expert_station": "OP80"
     },
     {
       "uid": "0072ae18-79f9-4571-b0ee-378115695402",
@@ -2963,7 +3051,8 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
-      "bend_angle_deg": 90
+      "bend_angle_deg": 90,
+      "expert_station": "OP90"
     },
     {
       "uid": "d1bcf38c-6f51-4d61-b4d5-8d38d3098eae",
@@ -2995,7 +3084,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30"
     },
     {
       "uid": "65c42e2e-60e8-4667-b223-9565f88ce998",
@@ -3026,6 +3116,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP50",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "34bb2f41-7133-4637-af2c-b179b35b14f1",
@@ -3060,6 +3151,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "34bb2f41-7133-4637-af2c-b179b35b14f1",
@@ -3095,6 +3187,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP50",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "16781921-bfb9-4be3-9050-405630d5baf0",
@@ -3129,6 +3222,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "16781921-bfb9-4be3-9050-405630d5baf0",
@@ -3164,7 +3258,8 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
-      "bend_angle_deg": 90
+      "bend_angle_deg": 90,
+      "expert_station": "OP60"
     },
     {
       "uid": "f3bd1b20-7573-4045-926d-33fad5155104",
@@ -3193,7 +3288,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30"
     },
     {
       "uid": "8a410313-ff1b-4238-9d9b-765ebd4553d1",
@@ -3228,7 +3324,8 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
-      "bend_angle_deg": 90
+      "bend_angle_deg": 90,
+      "expert_station": "OP90"
     },
     {
       "uid": "d75d0b58-dcb3-45e9-a39d-b34cf712ab4a",
@@ -3259,6 +3356,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP50",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "d75d0b58-dcb3-45e9-a39d-b34cf712ab4a",
@@ -3293,6 +3391,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "d75d0b58-dcb3-45e9-a39d-b34cf712ab4a",
@@ -3328,6 +3427,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP50",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "761367b8-9350-4619-b688-fa3009e6580c",
@@ -3362,6 +3462,7 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40",
       "process_group_source": "AUTO_CAD_PAIR",
       "process_group_pair_uids": [
         "761367b8-9350-4619-b688-fa3009e6580c",
@@ -3396,7 +3497,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30"
     },
     {
       "uid": "87eb8473-e19f-4bdc-bf93-8114af3bc219",
@@ -3426,7 +3528,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30"
     },
     {
       "uid": "27d7fedc-72d0-44b2-af14-ea61244d574c",
@@ -3455,7 +3558,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40"
     },
     {
       "uid": "52bed14b-71db-416d-b151-1127c8a5019e",
@@ -3490,7 +3594,8 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
-      "bend_angle_deg": 90
+      "bend_angle_deg": 90,
+      "expert_station": "OP70"
     },
     {
       "uid": "4884a2b8-6c0d-4951-a312-f2c64f78f889",
@@ -3511,7 +3616,9 @@
         "S_613f66133db1ba7266096b86",
         "S_44e798f8c45ded161cdec19d",
         "S_b50f6173b03ad7cfa0e37d4d",
-        "S_fc8f90f370a0a0a2ca8285e7"
+        "S_fc8f90f370a0a0a2ca8285e7",
+        "S_5e01ca39a4aae718a8c40123",
+        "S_36cc822984885393e28d3dc0"
       ],
       "shared_source_segment_ids": [],
       "geometry_options": {
@@ -3525,8 +3632,24 @@
       "region": null,
       "absorb_interior": true,
       "absorption_exclusions": [],
-      "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "notes": "用户确认：O106/O107视作本拉包的组成孔，随O105作为一个动作分配；保留孔几何，不推定序内先冲后拉。",
+      "protrusion_side": "UNKNOWN",
+      "primary_source_segment_ids": [
+        "S_262d2b81eb2256aecf1b2a05",
+        "S_26996690faa05fc11a264d1c",
+        "S_54a10aa4ed41ae2172dfe0e6",
+        "S_8cb44661bf55c7277b316423",
+        "S_613f66133db1ba7266096b86",
+        "S_44e798f8c45ded161cdec19d",
+        "S_b50f6173b03ad7cfa0e37d4d",
+        "S_fc8f90f370a0a0a2ca8285e7"
+      ],
+      "composite_operation_ids": [
+        "O106",
+        "O107"
+      ],
+      "composite_policy": "INTEGRATED_DRAW_FORM",
+      "expert_station": "OP10"
     },
     {
       "uid": "a10bb84b-b96e-40b3-a03a-6b5975ad6493",
@@ -3536,7 +3659,7 @@
       "feature_type": "CIRCLE_PUNCH",
       "geometry_shape": "CIRCULAR",
       "surface_side": "NOT_APPLICABLE",
-      "cad_parent_operation_id": "O105",
+      "cad_parent_operation_id": null,
       "required_predecessor_ids": [],
       "process_group_id": null,
       "source_segment_ids": [
@@ -3555,7 +3678,9 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "not_later_than_operation_ids": [],
+      "superseded_by_operation_id": "O105"
     },
     {
       "uid": "aad850d8-218d-47e2-92e7-01ef2db32bb5",
@@ -3565,7 +3690,7 @@
       "feature_type": "CIRCLE_PUNCH",
       "geometry_shape": "CIRCULAR",
       "surface_side": "NOT_APPLICABLE",
-      "cad_parent_operation_id": "O105",
+      "cad_parent_operation_id": null,
       "required_predecessor_ids": [],
       "process_group_id": null,
       "source_segment_ids": [
@@ -3584,7 +3709,9 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "not_later_than_operation_ids": [],
+      "superseded_by_operation_id": "O105"
     },
     {
       "uid": "7239790e-337c-48c4-988c-deda45c93f23",
@@ -3628,7 +3755,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP10"
     },
     {
       "uid": "ffa7b0fd-82ec-468f-980d-40e1fb92c76e",
@@ -3676,7 +3804,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40"
     },
     {
       "uid": "28dc63d0-ca8d-432f-bc92-c042912e8b72",
@@ -3724,7 +3853,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40"
     },
     {
       "uid": "9f2c4a8b-e588-43be-8765-5032c8d1b5e3",
@@ -3756,7 +3886,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40"
     },
     {
       "uid": "3f8d392d-2a19-4346-ac65-2a61947f3ca3",
@@ -3817,7 +3948,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40"
     },
     {
       "uid": "df3f6e1e-307c-495e-9386-080466665932",
@@ -3853,7 +3985,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30"
     },
     {
       "uid": "03a02831-ad22-4b17-9e17-8db2cbee6038",
@@ -3889,7 +4022,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40"
     },
     {
       "uid": "8c5324f5-5769-4289-b234-0197de1f16ae",
@@ -3931,7 +4065,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20"
     },
     {
       "uid": "ad74ead8-2090-49a9-b5e5-107e2e69198d",
@@ -3967,7 +4102,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30"
     },
     {
       "uid": "9cd34bba-adeb-4aca-bf40-e3983ef825b6",
@@ -4003,7 +4139,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20"
     },
     {
       "uid": "8c1dc297-edde-4006-b5cc-ac5d7f675980",
@@ -4039,7 +4176,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20"
     },
     {
       "uid": "c958f8e9-b0dd-4d72-9bfb-9ebfdf5d7cf9",
@@ -4075,7 +4213,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30"
     },
     {
       "uid": "2c16133a-d250-42ca-96d1-1f189416c271",
@@ -4105,7 +4244,8 @@
       "absorption_exclusions": [],
       "notes": "",
       "protrusion_side": "UNKNOWN",
-      "bend_angle_deg": null
+      "bend_angle_deg": null,
+      "expert_station": "OP20"
     },
     {
       "uid": "29f381d7-3448-4531-b42c-daa88ef2c213",
@@ -4134,7 +4274,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20"
     },
     {
       "uid": "0e460152-3c13-4a30-9f16-88f715fa762f",
@@ -4163,7 +4304,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP50"
     },
     {
       "uid": "b674877a-86d9-4f2c-b63a-d0abe0116129",
@@ -4192,7 +4334,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20"
     },
     {
       "uid": "849412f1-c303-40ce-9e22-679964e73699",
@@ -4221,7 +4364,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30"
     },
     {
       "uid": "29961649-438f-4a5d-ab83-8f8c83c1d9a5",
@@ -4250,7 +4394,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30"
     },
     {
       "uid": "5cb22422-2bec-4581-84de-d16ba0c0ad53",
@@ -4279,7 +4424,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20"
     },
     {
       "uid": "875814ab-38f7-4f2b-b89f-636c06094fab",
@@ -4308,7 +4454,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP50"
     },
     {
       "uid": "2864ca56-1fae-42fc-a216-2447a1de07a6",
@@ -4337,7 +4484,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP50"
     },
     {
       "uid": "c971d34b-138d-48ca-8ff9-450e5638b284",
@@ -4366,7 +4514,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40"
     },
     {
       "uid": "644900ca-befa-4c22-89f3-68930234e8ae",
@@ -4395,7 +4544,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP20"
     },
     {
       "uid": "2a485c7e-9f2d-466b-b655-e868e323c88d",
@@ -4424,7 +4574,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP40"
     },
     {
       "uid": "fe218018-258a-464c-849a-1681a8bd9797",
@@ -4453,7 +4604,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30"
     },
     {
       "uid": "7bb555eb-fbcb-4e5f-96e0-22927d94642f",
@@ -4482,7 +4634,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30"
     },
     {
       "uid": "d1cb1ae7-2dbb-44db-95c6-426440f5006d",
@@ -4511,7 +4664,8 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP30"
     },
     {
       "uid": "87370cf7-581d-4952-bd7f-23657cdce32a",
@@ -4540,13 +4694,347 @@
       "absorb_interior": true,
       "absorption_exclusions": [],
       "notes": "",
-      "protrusion_side": "UNKNOWN"
+      "protrusion_side": "UNKNOWN",
+      "expert_station": "OP50"
+    },
+    {
+      "uid": "P002_composite_O136",
+      "operation_id": "O136",
+      "name": "光面Z折",
+      "operation_type": "BEND",
+      "feature_type": "BEND_Z",
+      "geometry_shape": "COMPOSITE_Z",
+      "surface_side": "SMOOTH",
+      "cad_parent_operation_id": "O040",
+      "required_predecessor_ids": [],
+      "process_group_id": null,
+      "source_segment_ids": [
+        "S_3d4ae006753d4c48e37a8433",
+        "S_ea94d59b768ce07daf20e2b5",
+        "S_50a0471495e0ce17e0736df4"
+      ],
+      "shared_source_segment_ids": [],
+      "geometry_options": {
+        "confirmed_span": false,
+        "confirmed_footprint": false,
+        "start_segment_id": null
+      },
+      "bend_source_is_centerline": false,
+      "no_geometry": false,
+      "no_geometry_reason": "",
+      "region": null,
+      "absorb_interior": true,
+      "absorption_exclusions": [],
+      "notes": "用户确认：O042/O043合并为光面Z折，O136父动作为O040；原两动作不独立分配。专家OP50沿用两原动作图示工序。",
+      "protrusion_side": "UNKNOWN",
+      "bend_angle_deg": null,
+      "expert_station": "OP50",
+      "composite_operation_ids": [
+        "O042",
+        "O043"
+      ]
     }
   ],
   "ignored_entities": {},
-  "station_rows": [],
+  "station_rows": [
+    {
+      "part_id": "P002",
+      "station_id": "OP10",
+      "order": 1,
+      "allowed_operation_types": "FLANGING, DRAW_FORM"
+    },
+    {
+      "part_id": "P002",
+      "station_id": "OP20",
+      "order": 2,
+      "allowed_operation_types": "PUNCH"
+    },
+    {
+      "part_id": "P002",
+      "station_id": "OP30",
+      "order": 3,
+      "allowed_operation_types": "PUNCH, FLANGING, DIMPLE"
+    },
+    {
+      "part_id": "P002",
+      "station_id": "OP40",
+      "order": 4,
+      "allowed_operation_types": "PUNCH"
+    },
+    {
+      "part_id": "P002",
+      "station_id": "OP50",
+      "order": 5,
+      "allowed_operation_types": "FLANGING, DIMPLE, PUNCH, BEND"
+    },
+    {
+      "part_id": "P002",
+      "station_id": "OP60",
+      "order": 6,
+      "allowed_operation_types": "BEND"
+    },
+    {
+      "part_id": "P002",
+      "station_id": "OP70",
+      "order": 7,
+      "allowed_operation_types": "BEND"
+    },
+    {
+      "part_id": "P002",
+      "station_id": "OP80",
+      "order": 8,
+      "allowed_operation_types": "BEND"
+    },
+    {
+      "part_id": "P002",
+      "station_id": "OP90",
+      "order": 9,
+      "allowed_operation_types": "BEND"
+    },
+    {
+      "part_id": "P002",
+      "station_id": "OP100",
+      "order": 10,
+      "allowed_operation_types": "NONE"
+    }
+  ],
   "fixed_rows": [],
   "sheet4_confirmed": false,
-  "saved_at": "2026-11-02T03:12:44.942579+00:00",
-  "workflow_version": 2
+  "saved_at": "2026-11-13T04:04:21.675805+00:00",
+  "workflow_version": 2,
+  "planning_scope": "seven_classes_no_trim_v1",
+  "station_import_source": {
+    "path": "data/parts/P002/钣金加工数据表_P002.xlsx",
+    "sha256": "b60ea9dc9313716109aba863c6d2ae8ecb4061ee2b9b27798561f1a43e821b07",
+    "sheets": [
+      "Sheet3"
+    ]
+  },
+  "user_decisions": [
+    {
+      "id": "P002_Z_BEND_AND_HOLE_NOT_LATER_20261111",
+      "merge": {
+        "operation_ids": [
+          "O042",
+          "O043"
+        ],
+        "replacement": "O136",
+        "parent": "O040",
+        "name": "光面Z折"
+      },
+      "removed_cad_parent_links": [
+        {
+          "child": "O106",
+          "parent": "O105"
+        },
+        {
+          "child": "O107",
+          "parent": "O105"
+        }
+      ],
+      "not_later_than": [
+        {
+          "operation_id": "O106",
+          "not_later_than": "O105"
+        },
+        {
+          "operation_id": "O107",
+          "not_later_than": "O105"
+        }
+      ],
+      "source": "用户明确确认：H7保留；两孔去除拉包父子关系，但必须不晚于拉包。",
+      "expert_note": "原图孔OP40、拉包OP10仍冲突，不改图示分配以满足约束。"
+    },
+    {
+      "id": "P002_DRAW_INTEGRATED_HOLES_20261111",
+      "quote": "那把这两个孔视作拉包的一部分吧",
+      "operation_id": "O105",
+      "component_operation_ids": [
+        "O106",
+        "O107"
+      ],
+      "single_allocation_action": true,
+      "expert_station": "OP10",
+      "supersedes_not_later_relations": [
+        {
+          "operation_id": "O106",
+          "not_later_than": "O105"
+        },
+        {
+          "operation_id": "O107",
+          "not_later_than": "O105"
+        }
+      ],
+      "scope": "用户建模抽象；保留原图OP40两孔高亮证据，不将其冒充为OP10孔轮廓高亮，不假设序内先后。"
+    },
+    {
+      "id": "P002_P004_EXPERT_CORRESPONDENCE_CONFIRMED_20261113",
+      "quote": "现在确认P002-P004的专家分配工序都对应上了",
+      "scope": "将已有完整对应草稿回填P002活动动作；合并退出的四条记录不参与分配。",
+      "assignments_added": {
+        "O001": "OP40",
+        "O002": "OP40",
+        "O003": "OP40",
+        "O004": "OP30",
+        "O005": "OP40",
+        "O006": "OP40",
+        "O007": "OP40",
+        "O008": "OP50",
+        "O009": "OP40",
+        "O010": "OP50",
+        "O011": "OP20",
+        "O012": "OP50",
+        "O013": "OP20",
+        "O014": "OP50",
+        "O015": "OP90",
+        "O016": "OP20",
+        "O017": "OP70",
+        "O018": "OP30",
+        "O019": "OP20",
+        "O020": "OP90",
+        "O021": "OP50",
+        "O022": "OP40",
+        "O023": "OP30",
+        "O024": "OP90",
+        "O025": "OP50",
+        "O026": "OP40",
+        "O027": "OP50",
+        "O028": "OP20",
+        "O029": "OP50",
+        "O030": "OP20",
+        "O031": "OP50",
+        "O032": "OP20",
+        "O033": "OP50",
+        "O034": "OP20",
+        "O035": "OP50",
+        "O036": "OP20",
+        "O037": "OP60",
+        "O038": "OP50",
+        "O039": "OP40",
+        "O040": "OP60",
+        "O041": "OP40",
+        "O044": "OP40",
+        "O045": "OP30",
+        "O046": "OP30",
+        "O047": "OP70",
+        "O048": "OP50",
+        "O049": "OP50",
+        "O050": "OP60",
+        "O051": "OP50",
+        "O052": "OP40",
+        "O053": "OP50",
+        "O054": "OP40",
+        "O055": "OP40",
+        "O056": "OP40",
+        "O057": "OP30",
+        "O058": "OP20",
+        "O059": "OP30",
+        "O060": "OP20",
+        "O061": "OP30",
+        "O062": "OP20",
+        "O063": "OP10",
+        "O064": "OP20",
+        "O065": "OP20",
+        "O066": "OP20",
+        "O067": "OP20",
+        "O068": "OP20",
+        "O069": "OP80",
+        "O070": "OP50",
+        "O071": "OP50",
+        "O072": "OP30",
+        "O073": "OP20",
+        "O074": "OP30",
+        "O075": "OP20",
+        "O076": "OP30",
+        "O077": "OP20",
+        "O078": "OP30",
+        "O079": "OP20",
+        "O080": "OP30",
+        "O081": "OP20",
+        "O082": "OP30",
+        "O083": "OP20",
+        "O084": "OP30",
+        "O085": "OP20",
+        "O086": "OP70",
+        "O087": "OP80",
+        "O088": "OP90",
+        "O089": "OP30",
+        "O090": "OP50",
+        "O091": "OP40",
+        "O092": "OP50",
+        "O093": "OP40",
+        "O094": "OP60",
+        "O095": "OP30",
+        "O096": "OP90",
+        "O097": "OP50",
+        "O098": "OP40",
+        "O099": "OP50",
+        "O100": "OP40",
+        "O101": "OP30",
+        "O102": "OP30",
+        "O103": "OP40",
+        "O104": "OP70",
+        "O108": "OP10",
+        "O109": "OP40",
+        "O110": "OP40",
+        "O111": "OP40",
+        "O112": "OP40",
+        "O113": "OP30",
+        "O114": "OP40",
+        "O115": "OP20",
+        "O116": "OP30",
+        "O117": "OP20",
+        "O118": "OP20",
+        "O119": "OP30",
+        "O120": "OP20",
+        "O121": "OP20",
+        "O122": "OP50",
+        "O123": "OP20",
+        "O124": "OP30",
+        "O125": "OP30",
+        "O126": "OP20",
+        "O127": "OP50",
+        "O128": "OP50",
+        "O129": "OP40",
+        "O130": "OP20",
+        "O131": "OP40",
+        "O132": "OP30",
+        "O133": "OP30",
+        "O134": "OP30",
+        "O135": "OP50"
+      },
+      "draft_sha256": "baf08282988f1396166e4c21808ba220c0a331fc3be57c861f756acbacfd4d29"
+    },
+    {
+      "id": "P002_O069_CURVED_BEND_90_20261113",
+      "quote": "O069规则抽孔看起来像曲线折弯，应当是90度；根据STEP找到对应关系。",
+      "old_name": "规则抽孔1",
+      "old_type": "IRREGULAR_PUNCH",
+      "new_name": "曲线折弯4",
+      "new_type": "BEND",
+      "new_feature_type": "BEND_CURVED",
+      "bend_angle_deg": 90,
+      "expert_station": "OP80",
+      "source_segment_ids_preserved": [
+        "S_0a48f06b83cb44f6e6dbbd11",
+        "S_d5550c08b3ee82a7a69a9c9b",
+        "S_e63ec085d3771d44fbb01396",
+        "S_27d65e7bd6f0d833b7263bcc",
+        "S_2c60ef5ead36bdbbc8d789a6",
+        "S_a20c37ac8d412b67d17a428a",
+        "S_874b036d79ce9efcd324d513",
+        "S_91dd90396dbc9ead2e42e17e",
+        "S_18ebc26d28d084ce1d8c274c",
+        "S_079735dbb0b01b036bd4ca55",
+        "S_ca6e765174f69b840e12c451",
+        "S_0ba1b341a6c9f12d80259c99",
+        "S_5c09c24b939c1d7faf5d09e8",
+        "S_7483b6d8e1a92f983789bf49"
+      ],
+      "step_sha256": "a694ebc9900d3c4ceecd75bbf030cba1454f5311461baf1fd7c70dae6ac7f8e7",
+      "measurement_file": "outputs/p002_o069_step_v01/measurement.json",
+      "measurement_sha256": "6f86082c0190e9e21b8a1adff60ce58dbf85ce6fa901fbe3b84c18e8ab704009",
+      "surface_side_policy": "STEP负Z仅表示模型方向，不推断光面/毛面；保留原NOT_APPLICABLE，与当前其它曲线折弯一致。"
+    }
+  ]
 }

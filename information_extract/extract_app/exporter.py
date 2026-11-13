@@ -65,14 +65,17 @@ def _write_json(path, value):
 
 
 def _rows(project, report):
+    from .process_config import planning_operations, expanded_capabilities, excludes_trim, tokens
     part = project.get("part_id")
     result = {sheet: [] for sheet in HEADERS}
     geometries = report.get("geometries", {})
-    for operation in project.get("operations", []):
+    active_operations = planning_operations(project)
+    for operation in active_operations:
         uid = operation.get("uid")
         segments = geometries.get(uid, [])
         # A stable identity follows the editor UID, never the editable O-number.
-        geometry_id = f"G_{uid}" if segments else None
+        from .business_geometry import active_business_geometry
+        geometry_id = (operation['business_geometry']['geometry_id'] if active_business_geometry(operation) else f"G_{uid}") if segments else None
         result["Sheet1"].append({
             "part_id": part, "operation_id": operation.get("operation_id"),
             "source_feature_ref": operation.get("name"),
@@ -90,9 +93,13 @@ def _rows(project, report):
             record.setdefault("seq", index)
             result["Sheet2"].append(record)
     for station in project.get("station_rows", []):
-        result["Sheet3"].append({"part_id": part, **station})
-    result["Sheet4"] = deepcopy(project.get("fixed_rows", []))
-    result["Sheet5"] = deepcopy(report.get("regions", []))
+        row = {"part_id": part, **station}
+        if excludes_trim(project) or "PUNCH" in tokens(station.get("allowed_operation_types")):
+            row["allowed_operation_types"] = ", ".join(expanded_capabilities(station.get("allowed_operation_types"), omit_trim=excludes_trim(project)))
+        result["Sheet3"].append(row)
+    excluded_ids = {op['operation_id'] for op in project.get('operations', []) if op not in active_operations}
+    result["Sheet4"] = [deepcopy(row) for row in project.get("fixed_rows", []) if row.get('operation_id') not in excluded_ids]
+    result["Sheet5"] = deepcopy([r for r in report.get("regions", []) if r.get('bend_operation_id') not in excluded_ids])
     return result
 
 
@@ -135,25 +142,33 @@ def _load_context(path):
     return load_inference_context(path)
 
 
-def _check_hard_feasibility(context, settings):
+def _check_hard_feasibility(context, settings, relations=()):
     """One witness solve, with no objectives, candidate pool, or expert inputs."""
     from ortools.sat.python import cp_model
     from src.constraints.v06.feasibility import build_feasibility_model, make_solver
     from src.constraints.v06.hard_constraints import HardConstraintEngine
 
     model, ranks = build_feasibility_model(context)
+    from .allocation_constraints import add_not_later_constraints, check_not_later_constraints
+    add_not_later_constraints(model,ranks,relations)
     solver = make_solver(settings)
     status = solver.solve(model)
     label = solver.status_name(status)
     result = {"status": label, "feasible": None, "settings": settings,
               "purpose": "single H1-H7 feasibility witness; no candidate generation"}
+    if relations:
+        result.update(purpose='single H1-H7 plus explicit not-later constraints witness; no candidate generation',
+                      not_later_relation_count=len(relations))
     if status in (cp_model.OPTIMAL, cp_model.FEASIBLE):
         witness = {operation_id: context.ordered_stations[solver.value(rank)].station_id
                    for operation_id, rank in ranks.items()}
         checked = HardConstraintEngine(context).evaluate(witness).to_dict()
+        relation_check=check_not_later_constraints(witness,{s.station_id:i for i,s in enumerate(context.ordered_stations)},relations)
         result.update(feasible=checked["feasible"], witness_operation_count=len(witness),
                       hard_constraint_check=checked)
-        if not checked["feasible"]:
+        if relations:
+            result.update(additional_relation_check=relation_check,feasible=checked['feasible'] and relation_check['feasible'])
+        if not result["feasible"]:
             result["status"] = "WITNESS_CHECK_FAILED"
     elif status == cp_model.INFEASIBLE:
         result["feasible"] = False
@@ -222,7 +237,9 @@ def export_workbook(project, report, output_dir: Path, *, mode="draft", module_r
                 try:
                     settings = {**SOLVER_SETTINGS, **project.get("solver_settings", {}),
                                 **project.get("export_solver_settings", {})}
-                    hard = _check_hard_feasibility(context, settings)
+                    from .process_config import not_later_relations
+                    relations=not_later_relations(project)
+                    hard = _check_hard_feasibility(context, settings, relations) if relations else _check_hard_feasibility(context, settings)
                     combined["hard_feasibility"] = hard
                     if hard.get("feasible") is True:
                         combined["ready"] = True
@@ -240,6 +257,7 @@ def export_workbook(project, report, output_dir: Path, *, mode="draft", module_r
         book_path = formal_path
     combined["exported_mode"] = "formal" if combined["ready"] else "draft"
     combined["workbook_name"] = book_path.name
+    exported_geometry_ids = {r['operation_id']: r['geometry_id'] for r in _rows(project, report)['Sheet1']}
     manifest = {
         "schema_version": 1, "created_at_utc": datetime.now(timezone.utc).isoformat(),
         "part_id": project.get("part_id"), "source_sha256": project.get("source_sha256"),
@@ -247,15 +265,16 @@ def export_workbook(project, report, output_dir: Path, *, mode="draft", module_r
         "coordinate_system": project.get("coordinate_system"),
         "workbook_name": book_path.name, "workbook_sha256": hashlib.sha256(book_path.read_bytes()).hexdigest(),
         "export_mode": combined["exported_mode"], "expert_reference_required": False,
+        "planning_scope": project.get("planning_scope", "legacy"),
         "operations": [{"uid": op.get("uid"), "operation_id": op.get("operation_id"),
-                        "geometry_id": f"G_{op.get('uid')}" if report.get("geometries", {}).get(op.get("uid")) else None,
+                        "geometry_id": exported_geometry_ids.get(op.get('operation_id')),
                         "geometry_mode": op.get("geometry_mode"),
                         "source_segment_ids": op.get("source_segment_ids", []),
                         "no_geometry_reason": op.get("no_geometry_reason")}
                        for op in project.get("operations", [])],
         "station_import_source": project.get("station_import_source"),
         "sheet4_confirmed": bool(project.get("sheet4_confirmed")),
-        "note": "Only annotated facts are exported; no reference assignments or candidate identities are used.",
+        "note": "The facts workbook excludes reference assignments and candidate identities. Expert annotations are exported separately in expert_assignments.json and are not inference inputs.",
     }
     report_path, manifest_path = folder / "validation_report.json", folder / "source_manifest.json"
     if report.get("drawing_source_supplement"):
@@ -263,6 +282,28 @@ def export_workbook(project, report, output_dir: Path, *, mode="draft", module_r
     _write_json(report_path, combined)
     _write_json(manifest_path, manifest)
     artifacts = [book_path, report_path, manifest_path]
+    from .process_config import not_later_relations
+    relations=not_later_relations(project)
+    if relations:
+        relations_path=folder/'allocation_relations.json'
+        _write_json(relations_path,{'part_id':project['part_id'],'schema_version':1,
+                                   'required_for_allocation':True,'not_later_than':relations,
+                                   'semantics':'station_order(operation_id) <= station_order(not_later_than); same station allowed',
+                                   'expert_reference_included':False})
+        artifacts.append(relations_path)
+        manifest['required_allocation_relations']='allocation_relations.json'
+        manifest['workbook_alone_is_complete_allocation_input']=False
+        _write_json(manifest_path,manifest)
+    # Reference assignments remain a separate artifact, never Sheet1 / Sheet4.
+    from .process_config import inspect_process, planning_operations
+    expert_path = folder / "expert_assignments.json"
+    _write_json(expert_path, {"part_id": project.get("part_id"),
+                            "scope": "expert reference only; excluded from facts workbook and inference",
+                            "assignments": [{"operation_id": op.get("operation_id"),
+                                             "expert_station": op.get("expert_station") or None}
+                                            for op in planning_operations(project)],
+                            "diagnostics": inspect_process(project)})
+    artifacts.append(expert_path)
     metadata_path = folder / "operation_metadata.json"
     _write_json(metadata_path, {"part_id": project.get("part_id"), "angle_unit": "deg",
                                 "scope": "annotation metadata; not used for constraints, scoring, or geometry inference",

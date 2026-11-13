@@ -134,4 +134,6 @@ information_extract/scripts/** -text
 information_extract/tests/** -text
 information_extract/extract_app/** -text
 information_extract/configs/** -text
+information_extract/projects/** -text
+information_extract/web/** -text
 docs/archive/** -text

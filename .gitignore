@@ -16,3 +16,7 @@
 .env.*
 !*.example
 ~$*
+
+# CAD application recovery caches and error logs (keep originals in sources).
+/information_extract/sources/**/.*.wkf/
+/information_extract/sources/**/acad.err

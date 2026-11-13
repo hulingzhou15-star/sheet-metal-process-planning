@@ -52,6 +52,9 @@ def make_handler(root, drawing, store):
                                         "operation_types": OPERATION_TYPES, "surface_sides": SURFACE_SIDES})
                 elif path == "/api/project":
                     self.json_response({"project": annotation_project(store.load())})
+                elif path == "/api/station_defaults":
+                    from .process_config import existing_station_defaults
+                    self.json_response(existing_station_defaults(root, store.empty["part_id"]))
                 elif path == "/api/health":
                     self.json_response({"status": "ok", "module": "information_extract", "source_sha256": drawing["source"]["sha256"]})
                 else:
@@ -84,7 +87,10 @@ def make_handler(root, drawing, store):
                 if not 0 < length <= drawing["config"]["max_request_bytes"]:
                     raise ValueError("请求为空或超过文件大小限制。")
                 data = json.loads(self.rfile.read(length))
-                source_path = contained(root, drawing["source"]["file_name"]) if drawing["source"].get("file_name") else None
+                # file_name is a display/provenance basename; source_file is the
+                # configured module-relative path after repository migration.
+                source_relative = drawing["config"].get("source_file") or drawing["source"].get("file_name")
+                source_path = contained(root, source_relative) if source_relative else None
                 if source_path and hashlib.sha256(source_path.read_bytes()).hexdigest() != drawing["source"]["sha256"]:
                     raise ValueError("源 DXF 在服务运行期间发生改变，请先保存备份，再重新启动服务核对来源。")
                 for dependency in drawing.get("source_dependencies", []):

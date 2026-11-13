@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "confirmed_on": "2026-11-11",
+  "P003": {
+    "O112": {
+      "decision": "MODEL_FROM_FLAT_CIRCLE",
+      "source_sha256": "965faf8f25b14be2fe9d307bd9093680391b2327bc0401789829ddcf96b2d481",
+      "source_segment_id": "S_72ace7e42cd0cc52f1b5e4b2",
+      "model_shape": "CIRCLE",
+      "diameter_mm": 7.0,
+      "note": "用户确认以二维圆孔记录为准，建模采用圆孔。原始 STEP 的圆角矩形差异保留追溯，不用于此孔建模；不推断圆到圆角矩形的成形。"
+    }
+  }
+}

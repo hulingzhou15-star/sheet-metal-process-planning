@@ -1,0 +1,27 @@
+<!doctype html><html lang="zh"><meta charset="utf-8"><title>P002–P004 · 特征对应核查</title>
+<style>body{font:16px system-ui;background:#f3f6fa;color:#263d50;margin:24px}button,select{font:inherit;padding:8px;margin:4px;border:1px solid #b8c9d8;border-radius:5px;background:white}table{border-collapse:collapse;background:white;width:100%}td,th{padding:10px;border:1px solid #d6dfe7;text-align:left}.views{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}.panel{background:white;padding:18px;border:1px solid #d6dfe7;border-radius:8px}svg{width:100%;height:420px;background:#f8fafc}li{margin:10px 0}.note{padding:12px;background:#fff1d4}pre{white-space:pre-wrap;font-size:14px}a{color:#1769a5}</style>
+<h1>P002–P004 · 特征对应核查</h1>
+<p>二维来源绑定、预孔/翻孔配组、二维—三维对应、折弯影响区分别核查。此页只读，未修改标注或业务表。</p>
+<div id="summary"></div>
+<p><select id="part"></select><select id="filter"><option value="issues">有待处理记录</option><option value="all">全部已记录动作</option></select><select id="operation"></select><button id="whole">整件定位</button><button id="local">局部放大</button></p>
+<div class="views"><div class="panel"><h2 id="title"></h2><svg id="drawing"></svg><p>灰色：当前二维图纸；蓝色：编辑器已绑定来源。工作表的派生子段另列说明。</p></div><div class="panel"><h2>来源与待处理事项</h2><div id="detail"></div></div></div>
+<script>
+const DATA=__AUDIT_DATA__;
+const $=id=>document.getElementById(id),esc=s=>String(s??'未记录').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+$('summary').innerHTML='<table><tr><th>零件</th><th>已录动作</th><th>已配预孔/翻孔组</th><th>待配动作</th><th>已填影响区/折弯</th><th>整图完成确认</th><th>仓库 STEP</th></tr>'+DATA.parts.map(p=>`<tr><td>${p.part_id}</td><td>${p.operation_count}</td><td>${p.paired_groups_from_explicit_records}</td><td>${p.pending_pair_operations.join('、')||'无'}</td><td>${p.filled_annotation_regions}/${p.bend_count}</td><td>${p.inventory_confirmed?'已确认':'未确认'}</td><td>${p.step_files.length?'有':'未发现'}</td></tr>`).join('')+'</table>';
+$('part').innerHTML=DATA.parts.map(p=>`<option>${p.part_id}</option>`).join('');
+let whole=false;
+function part(){return DATA.parts.find(p=>p.part_id===$('part').value)}
+function populate(){const p=part();$('operation').innerHTML=p.operations.filter(o=>$('filter').value==='all'||o.notes.length).map(o=>`<option value="${o.operation_id}">${o.operation_id} · ${esc(o.name)} · ${o.notes.length} 项记录</option>`).join('');render()}
+function path(s){const x=s.start_x,y=-s.start_y;if(s.segment_type==='CIRCLE')return `<circle cx="${s.center_x}" cy="${-s.center_y}" r="${s.radius}"/>`;if(s.segment_type==='ARC')return `<path d="M ${x} ${y} A ${s.radius} ${s.radius} 0 ${Math.abs(s.sweep_angle)>180?1:0} ${s.sweep_angle>0?0:1} ${s.end_x} ${-s.end_y}"/>`;return `<path d="M ${x} ${y} L ${s.end_x} ${-s.end_y}"/>`}
+function render(){const p=part(),o=p.operations.find(o=>o.operation_id===$('operation').value);if(!o)return;
+ const selected=new Set(o.source_segment_ids),all=p.drawing.segments,focus=whole?all:all.filter(s=>selected.has(s.id));
+ const bs=(focus.length?focus:all).map(s=>s.bbox),b=[Math.min(...bs.map(b=>b[0])),Math.min(...bs.map(b=>b[1])),Math.max(...bs.map(b=>b[2])),Math.max(...bs.map(b=>b[3]))],pad=Math.max(b[2]-b[0],b[3]-b[1],1)*.15;
+ $('drawing').setAttribute('viewBox',`${b[0]-pad} ${-b[3]-pad} ${b[2]-b[0]+2*pad} ${b[3]-b[1]+2*pad}`);
+ $('drawing').innerHTML='<g fill="none" stroke="#c6ccd3" stroke-width=".8">'+all.map(path).join('')+'</g><g fill="none" stroke="#298bc8" stroke-width="1.3">'+all.filter(s=>selected.has(s.id)).map(path).join('')+'</g>';
+ $('drawing').querySelectorAll('path,circle').forEach(e=>e.setAttribute('vector-effect','non-scaling-stroke'));
+ $('title').textContent=`${p.part_id} · ${o.operation_id} · ${o.name}`;
+ $('detail').innerHTML=`<p>类型：${esc(o.feature_type)}；绑定 ${o.source_segment_ids.length} 个二维来源。</p><p>工作表几何状态：${esc(o.workbook_geometry_status)}；几何行数 ${o.workbook_geometry_rows}。</p><p>预孔/翻孔配组：${esc(o.pairing?.message||'不适用')}。</p><div class="note">三维对应本轮尚未核验。${p.step_files.length?'已发现 STEP，尚需建立对应。':'仓库未发现此件 STEP；WKF/DWG 的保留不等于已建立三维面对应。'}</div><ul>${o.notes.map(n=>`<li>${esc(n)}</li>`).join('')||'<li>本轮静态检查未列出额外问题；不等于配对或整图已完成。</li>'}</ul><p>${esc(o.workbook_geometry_note||'')}</p><p><a href="../${p.part_id}/${p.part_id}_drawing.html">打开现有完整二维图纸</a></p>`;
+}
+$('part').onchange=populate;$('filter').onchange=populate;$('operation').onchange=render;$('whole').onclick=()=>{whole=true;render()};$('local').onclick=()=>{whole=false;render()};populate();
+</script></html>

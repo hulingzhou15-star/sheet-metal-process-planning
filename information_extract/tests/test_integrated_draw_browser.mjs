@@ -1,0 +1,50 @@
+import assert from 'node:assert/strict';
+import {chromium} from 'playwright';
+import {browserExecutable} from './browser_runtime.mjs';
+const browser=await chromium.launch({executablePath:browserExecutable(),headless:true});
+try{
+ const page=await browser.newPage({viewport:{width:1700,height:1100}}),errors=[];let saved;
+ page.on('pageerror',e=>errors.push(String(e)));
+ await page.route('**/api/save',async route=>{const d=route.request().postDataJSON();saved=structuredClone(d.project);saved.revision=d.expected_revision+1;await route.fulfill({json:{project:saved}});});
+ await page.route('**/api/project',async route=>saved?route.fulfill({json:{project:saved}}):route.continue());
+ await page.goto('http://127.0.0.1:8767/');
+ await page.waitForFunction(()=>window.informationExtract?.getState().project?.operations?.length===136);
+ await page.locator('#operation-search').fill('O105');await page.locator('.operation-item').click();
+ assert.equal(await page.locator('#expert-station').inputValue(),'OP10');
+ assert.match(await page.locator('#geometry-help').innerText(),/O106、O107/);
+ assert.equal(await page.evaluate(()=>informationExtract.getState().selected.size),10);
+ assert.equal(await page.locator('#binding-warning').isVisible(),false);
+ assert.match(await page.locator('#configuration-state').innerText(),/\/132/);
+ await page.click('#fit-current');
+ await page.screenshot({path:'information_extract/outputs/p002_integrated_draw_holes_20261111/O105_editor.png'});
+ await page.locator('#operation-name').fill('浏览器测试拉包');await page.click('#apply-operation');
+ await page.click('#save-project');
+ await page.waitForFunction(()=>document.querySelector('#save-status').textContent.startsWith('已保存'));
+ const by=Object.fromEntries(saved.operations.map(o=>[o.operation_id,o]));
+ assert.deepEqual(by.O105.composite_operation_ids,['O106','O107']);
+ assert.equal(by.O105.primary_source_segment_ids.length,8);
+ for(const oid of ['O106','O107']){
+  assert.equal(by[oid].superseded_by_operation_id,'O105');assert.deepEqual(by[oid].not_later_than_operation_ids,[]);
+  await page.locator('#operation-search').fill(oid);await page.locator('.operation-item').click();
+  assert.equal(await page.locator('#expert-station').isDisabled(),true);
+  assert.equal(await page.locator('#not-later-than').inputValue(),'');
+  assert.match(await page.locator('.operation-item').innerText(),/已合并到 O105/);
+ }
+ await page.click('#reload-project');
+ await page.waitForFunction(()=>document.querySelector('#toast').textContent.includes('重新读取'));
+ await page.locator('#operation-search').fill('O105');await page.locator('.operation-item').click();
+ assert.equal(await page.locator('#operation-name').inputValue(),'浏览器测试拉包');
+ const checked=await page.evaluate(async()=>{const r=await fetch('/api/validate',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({project:informationExtract.getState().project})});return (await r.json()).report;});
+ assert.deepEqual(checked.errors,[]);assert.deepEqual(checked.process_config.relation_capacity_issues,[]);
+ await page.goto('http://127.0.0.1:8770/p002_expert_dxf_v01/review.html');
+ assert.match(await page.locator('#summary').innerText(),/132\/132/);
+ assert.match(await page.locator('#summary').innerText(),/0 项 CAD.*0 项不晚于/);
+ await page.selectOption('#filter','all');assert.equal(await page.locator('#op option').count(),136);
+ await page.selectOption('#op','O105');
+ assert.match(await page.locator('#rightTitle').innerText(),/1\/10/);
+ assert.match(await page.locator('#detail').innerText(),/两孔在OP40高亮/);
+ await page.screenshot({path:'information_extract/outputs/p002_integrated_draw_holes_20261111/O105_expert.png'});
+ await page.selectOption('#op','O106');assert.match(await page.locator('#detail').innerText(),/已合并到 O105/);
+ assert.deepEqual(errors,[]);
+ console.log(JSON.stringify({passed:true,records:136,allocation:132,bodySources:8,holeSources:2,conflicts:0,save:'intercepted'}));
+}finally{await browser.close();}

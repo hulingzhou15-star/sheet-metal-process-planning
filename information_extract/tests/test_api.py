@@ -1,5 +1,6 @@
 """HTTP integration tests on ephemeral ports and module-confined temp projects."""
 import base64
+import hashlib
 from copy import deepcopy
 from http.client import HTTPConnection
 from http.server import ThreadingHTTPServer
@@ -95,6 +96,32 @@ class ApiTests(unittest.TestCase):
         self.assertEqual(status, 200)
         self.assertIn(b"<!doctype html>", content)
 
+    def test_migrated_source_path_all_post_routes_and_hash_guard(self):
+        source = self.root / 'sources/P_TEST/part.dxf'
+        source.parent.mkdir(parents=True)
+        source.write_bytes(b'original-source')
+        self.drawing['source'].update(file_name='part.dxf', sha256=hashlib.sha256(source.read_bytes()).hexdigest())
+        self.drawing['config']['source_file'] = 'sources/P_TEST/part.dxf'
+        self.store.empty['source_sha256'] = self.drawing['source']['sha256']
+        project = annotation_project(self.project(ready=True))
+        for route in ('validate', 'normalize_project', 'pairing', 'compile_geometry'):
+            status, result = self.request('POST', '/api/'+route, {'project': project})
+            self.assertEqual(status, 200, (route, result))
+            if route == 'compile_geometry':
+                project = result['project']
+        status, result = self.request('POST', '/api/save', {'project': project, 'expected_revision': 0})
+        self.assertEqual(status, 200, result)
+        for mode in ('draft', 'validated'):
+            status, result = self.request('POST', '/api/export', {'project': project, 'mode': mode})
+            self.assertEqual(status, 200, result)
+        content = 'operation_id,name,operation_type\nO099,test,CIRCLE_PUNCH\n'.encode()
+        status, result = self.request('POST', '/api/import_operations', {'filename':'actions.csv','base64':base64.b64encode(content).decode()})
+        self.assertEqual(status, 200, result)
+        source.write_bytes(b'changed-source')
+        status, result = self.request('POST', '/api/validate', {'project': project})
+        self.assertEqual(status, 400)
+        self.assertIn('源 DXF', result['error'])
+
     def test_save_conflict_preserves_latest_canonical_and_revisions(self):
         project = self.project()
         status, saved = self.request("POST", "/api/save", {"project": project, "expected_revision": 0})
@@ -143,7 +170,8 @@ class ApiTests(unittest.TestCase):
         self.assertFalse(value["ready"])
         self.assertEqual(value["mode"], "draft")
         self.assertEqual(value["report"]["data_contract"]["status"], "NOT_CHECKED")
-        self.assertEqual(len(value["files"]), 4)
+        self.assertEqual(len(value["files"]), 5)
+        self.assertIn("expert_assignments.json", [f["name"] for f in value["files"]])
         self.assertIn('operation_metadata.json', [item['name'] for item in value['files']])
         for record in value["files"]:
             self.assertTrue(record["url"].startswith("/outputs/"))

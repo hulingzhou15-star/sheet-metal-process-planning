@@ -8,7 +8,7 @@ import path from 'node:path';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const code=fs.readFileSync(path.join(root,'web/app.js'),'utf8').replace(/bootstrap\(\);\s*$/,'');
 const html=fs.readFileSync(path.join(root,'web/index.html'),'utf8');
-const context=vm.createContext({window:{},console,crypto:globalThis.crypto,document:{}});
+const context=vm.createContext({window:{},console,crypto:globalThis.crypto,document:{getElementById:()=>({checked:true})}});
 vm.runInContext(code,context);
 const run=expression=>JSON.parse(JSON.stringify(vm.runInContext(expression,context)));
 let passed=0;
@@ -78,6 +78,10 @@ check('box selection appends and never duplicates existing IDs',()=>{
 check('all default action bindings use a unique ID set',()=>{
   vm.runInContext(`setSelection(['a','a','b'],true);`,context);
   assert.deepEqual(run('state.draft.source_segment_ids'),['first','box','a','b']);
+});
+check('box selection excludes hidden background',()=>{
+  vm.runInContext(`document.getElementById=()=>({checked:false});state.selected=new Set();state.statuses={hidden:'ignored',visible:'unhandled'};segments=new Map([['hidden',{id:'hidden',bbox:[0,-2,1,-1]}],['visible',{id:'visible',bbox:[0,-2,1,-1]}]]);boxSelect([0,0],[2,3],false);`,context);
+  assert.deepEqual(run('[...state.selected]'),['visible']);
 });
 check('frontend has no automatic geometry preview API request',()=>{
   assert.doesNotMatch(code,/request\('\/api\/preview'/);

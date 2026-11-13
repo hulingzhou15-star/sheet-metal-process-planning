@@ -10,3 +10,18 @@
 #parent-highlight-status{color:#326ca8;background:#eaf2fa;padding:3px 6px;border-radius:3px}
 
 #source-layer.highlight-unhandled path.selected,#source-layer.highlight-unhandled path.current{opacity:1}
+
+/* Unhandled emphasis must remain visible, without dimming active inspection. */
+#source-layer.highlight-unhandled path.unhandled{stroke:#247cba;opacity:1}
+#source-layer.highlight-unhandled path.current,#source-layer.highlight-unhandled path.cad-parent,#source-layer.highlight-unhandled path.selected,#source-layer.highlight-unhandled path.hovered{opacity:1}
+#source-layer.highlight-unhandled path.selected{stroke:#d27b26}
+
+#station-dialog{width:min(960px,94vw);max-height:88vh;border:1px solid #c7d6e3;border-radius:12px;padding:24px;color:#283e50;background:#f8fbfd;overflow:auto}
+#station-dialog::backdrop{background:rgba(23,40,55,.4)}
+#station-dialog h2{margin-top:0}
+.station-card{background:white;border:1px solid #d6e1eb;border-radius:8px;padding:14px;margin:12px 0}
+.station-heading{display:flex;gap:16px;align-items:end;margin-bottom:12px}
+.station-heading label{display:flex;flex-direction:column;gap:6px}.station-heading input{width:140px}
+.station-capabilities{display:flex;flex-wrap:wrap;gap:12px 20px}.station-capabilities label{white-space:nowrap}
+.station-footer{position:sticky;bottom:-24px;background:#f8fbfd;padding:14px 0;display:flex;gap:12px;justify-content:flex-end;border-top:1px solid #d6e1eb}
+#station-error,#expert-station-hint{color:#975418}.operation-expert{font-size:12px;color:#326ca8;margin-top:5px}

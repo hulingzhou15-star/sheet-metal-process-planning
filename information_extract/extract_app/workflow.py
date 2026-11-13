@@ -22,6 +22,7 @@ FEATURE_TYPES = [
     {"key": "FLANGING_NONCIRCULAR", "label": "翻孔—异形", "operation_type": "FLANGING", "shape": "NONCIRCULAR"},
     {"key": "BEND_STRAIGHT", "label": "一般折弯", "operation_type": "BEND", "shape": "STRAIGHT"},
     {"key": "BEND_CURVED", "label": "曲线折弯", "operation_type": "BEND", "shape": "CURVED"},
+    {"key": "BEND_Z", "label": "Z折（组合）", "operation_type": "BEND", "shape": "COMPOSITE_Z"},
     {"key": "DIMPLE", "label": "凸米", "operation_type": "DIMPLE", "shape": "UNSPECIFIED"},
     {"key": "DRAW_FORM", "label": "拉包（凸包）", "operation_type": "DRAW_FORM", "shape": "MULTI_CONTOUR"},
     {"key": "BRIDGE", "label": "折桥", "operation_type": "BRIDGE", "shape": "UNSPECIFIED"},
@@ -35,6 +36,10 @@ def annotation_project(project):
     """Upgrade in memory, preserving all old fields and source bindings."""
     result = deepcopy(project)
     result["workflow_version"] = 2
+    from .process_config import PLANNING_SCOPE, grouped_capabilities
+    result["planning_scope"] = PLANNING_SCOPE
+    for row in result.get("station_rows", []):
+        row["allowed_operation_types"] = ", ".join(grouped_capabilities(row.get("allowed_operation_types"), omit_trim=True))
     for op in result["operations"]:
         if not op.get("feature_type"):
             kind = op.get("operation_type")
@@ -60,11 +65,17 @@ def annotation_project(project):
 
 def batch_fingerprint(project, config):
     project = deepcopy(project)
+    for op in project.get("operations", []):
+        op.pop("expert_station", None)  # Reference edits cannot invalidate geometry.
+        if isinstance(op.get('source_business_row'), dict):
+            op['source_business_row'].pop('expert_station', None)
     if project.get("workflow_version") == 2:
         synchronize_pairing(project)
     facts = {key: project.get(key) for key in
              ("source_sha256", "part_id", "operations", "ignored_entities",
               "inventory_confirmed", "expected_operation_count")}
+    if "planning_scope" in project:
+        facts["planning_scope"] = project["planning_scope"]
     facts["geometry_config"] = {key: config.get(key) for key in
                                 ("geometry_tolerance", "parallel_tolerance")}
     return hashlib.sha256(json.dumps(facts, sort_keys=True, ensure_ascii=False,
@@ -148,6 +159,10 @@ def _circle(path, tolerance):
 
 def compile_operation(op, selected, config):
     """Called only by the explicit batch command, never by select/save/validate."""
+    from .business_geometry import business_record
+    imported = business_record(op)
+    if imported is not None:
+        return imported
     tolerance = config["geometry_tolerance"]
     kind, shape = op["operation_type"], FEATURE_BY_KEY[op["feature_type"]]["shape"]
     record = {"operation_id": op["operation_id"], "feature_type": op["feature_type"],
@@ -157,6 +172,14 @@ def compile_operation(op, selected, config):
     if op.get("no_geometry"):
         if kind == "DRAW_FORM" or (kind in {"PRE_PUNCH", "FLANGING"} and shape == "NONCIRCULAR"):
             record.update(legacy_supported=False, issues=["无适用几何的说明已保存；此新类型/形状仍需旧下游适配，不能借此绕过正式检查。"])
+        return record
+    if kind == 'BEND' and shape == 'COMPOSITE_Z':
+        record.update(status='RULE_PENDING', legacy_supported=False,
+                      component_operation_ids=list(op.get('composite_operation_ids', [])),
+                      paths=[{'path_id':'Z_SOURCES','role':'COMPOSITE_BEND_SOURCES','closed':False,
+                              'source_segment_ids':record['source_segment_ids'],
+                              'segments':[_primitive(s,tolerance) for s in selected]}],
+                      issues=['Z折按一个动作分配，保留两处折弯来源；多折弯几何/Sheet5适配待完成，不压成一条中线。'])
         return record
     if kind == "BEND" and shape == "CURVED":
         record.update(status="RULE_PENDING", legacy_supported=False,
@@ -195,6 +218,12 @@ def compile_operation(op, selected, config):
     if kind in {"CIRCLE_PUNCH", "IRREGULAR_PUNCH", "PRE_PUNCH", "FLANGING", "DRAW_FORM"}:
         paths = _paths(selected, tolerance)
         record["paths"] = paths
+        if op.get('composite_policy')=='INTEGRATED_DRAW_FORM':
+            primary=set(op.get('primary_source_segment_ids', []))
+            record['component_operation_ids']=list(op.get('composite_operation_ids', []))
+            record['composite_policy']='INTEGRATED_DRAW_FORM'
+            for path in paths:
+                path['role']='DRAW_FORM_PROFILE' if set(path['source_segment_ids'])<=primary else 'INTEGRATED_HOLE'
         if shape == "CIRCULAR":
             circles = [_circle(path, tolerance) for path in paths]
             if kind != "FLANGING" and len(circles) != 1:
@@ -231,6 +260,12 @@ def compile_project(project, drawing, annotation_report):
     index = {s["id"]: s for s in drawing["segments"]}
     records = {}
     for op in project["operations"]:
+        from .process_config import excludes_trim
+        if op.get('superseded_by_operation_id') or (excludes_trim(project) and op.get("operation_type") == "TRIM"):
+            records[op["uid"]] = {"operation_id": op["operation_id"], "status": "READY",
+                                   "paths": [], "legacy_geometry": [], "legacy_supported": True,
+                                   "issues": [], "excluded_from_allocation": True}
+            continue
         try:
             records[op["uid"]] = compile_operation(op, [index[sid] for sid in op.get("source_segment_ids", [])], drawing["config"])
         except (ValueError, KeyError, TypeError) as exc:

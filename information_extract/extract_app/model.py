@@ -43,6 +43,10 @@ def basic_check(project, drawing):
     for op in project["operations"]:
         if not isinstance(op.get("source_segment_ids", []), list) or not isinstance(op.get("required_predecessor_ids", []), list):
             raise ValueError("几何来源和前置动作必须保存为列表。")
+        for field in ('not_later_than_operation_ids','composite_operation_ids','primary_source_segment_ids'):
+            value=op.get(field,[])
+            if not isinstance(value,list) or any(not isinstance(x,str) or not x.strip() for x in value) or len(value)!=len(set(value)):
+                raise ValueError('动作关系必须为不重复的编号列表：'+field)
 
 
 def coverage(project, drawing, geometries):
@@ -64,14 +68,15 @@ def coverage(project, drawing, geometries):
                 absorbed_by.setdefault(sid, []).append(op["operation_id"])
     statuses, details = {}, {}
     background_sources = set(drawing.get("background_source_ids", []))
+    business_reference = project.get('business_import', {}).get('geometry_mode') == 'approved_workbook_not_dxf_binding'
     for sid in segments:
-        status = "bound" if sid in bound else "absorbed" if sid in absorbed_by else "ignored" if project.get("ignored_entities", {}).get(sid) or sid in background_sources else "unhandled"
+        status = "bound" if sid in bound else "absorbed" if sid in absorbed_by else "ignored" if project.get("ignored_entities", {}).get(sid) or sid in background_sources else "reference" if business_reference else "unhandled"
         statuses[sid] = status
         details[sid] = {"status": status, "absorbed_by": absorbed_by.get(sid, [])}
     counts = Counter(statuses.values())
     statistics = {"total": len(segments), "operation_count": len(project["operations"]),
                   "unsupported": len(drawing.get("issues", [])),
-                  **{k: counts[k] for k in ("bound", "absorbed", "ignored", "unhandled")}}
+                  **{k: counts[k] for k in ("bound", "absorbed", "ignored", "unhandled", "reference")}}
     return statuses, statistics, details
 
 
@@ -85,6 +90,8 @@ def validate_project(project, drawing, *, annotation_only=False):
         project = deepcopy(project)
         pairing = synchronize_pairing(project)
     errors, warnings, geometries, regions = [], [], {}, []
+    from .business_geometry import business_record
+    imported_records = {}
     def issue(code, message, op=None, warning=False):
         (warnings if warning else errors).append({"code": code, "message": message,
                                                  **({"operation_id": op.get("operation_id", "")} if op else {})})
@@ -92,6 +99,8 @@ def validate_project(project, drawing, *, annotation_only=False):
         issue(entry["code"], entry["message"])
     segment_map = {s["id"]: s for s in drawing["segments"]}
     operations = project["operations"]
+    from .process_config import excludes_trim, planning_operations
+    trim_excluded = excludes_trim(project)
     ids = [op.get("operation_id", "") for op in operations]
     counts = Counter(ids)
     by_id = {op.get("operation_id"): op for op in operations}
@@ -116,6 +125,19 @@ def validate_project(project, drawing, *, annotation_only=False):
         selected = op.get("source_segment_ids", [])
         if len(selected) != len(set(selected)) or any(s not in segment_map for s in selected):
             issue("SOURCE_REFERENCE", "几何来源重复或不属于当前图纸。", op)
+            continue
+        if op.get('superseded_by_operation_id') or (trim_excluded and op.get("operation_type") == "TRIM"):
+            continue
+        try:
+            imported = business_record(op)
+        except (ValueError, KeyError, TypeError) as exc:
+            issue("BUSINESS_GEOMETRY_INVALID", str(exc), op)
+            continue
+        if imported is not None:
+            imported_records[op['uid']] = imported
+            geometries[op['uid']] = imported['legacy_geometry']
+            if imported['region']:
+                regions.append(imported['region'])
             continue
         if staged:
             feature = FEATURE_BY_KEY.get(op.get("feature_type"))
@@ -150,7 +172,7 @@ def validate_project(project, drawing, *, annotation_only=False):
     batch = current_batch(project, drawing["config"]) if staged else None
     if staged:
         owners = {}
-        for op in operations:
+        for op in planning_operations(project):
             for sid in op.get("source_segment_ids", []):
                 owners.setdefault(sid, []).append(op)
         for sid, members in owners.items():
@@ -161,6 +183,8 @@ def validate_project(project, drawing, *, annotation_only=False):
                 issue("GEOMETRY_NOT_COMPILED", "几何尚未统一整理，或标注已变化；确认整图解释完成后点击“整理几何”。", warning=True)
             else:
                 for op in operations:
+                    if op['uid'] in imported_records:
+                        continue
                     record = batch["records"].get(op["uid"], {})
                     if record.get("status") != "READY":
                         issue("GEOMETRY_PENDING", "；".join(record.get("issues", ["几何尚待处理"])), op)
@@ -218,6 +242,9 @@ def validate_project(project, drawing, *, annotation_only=False):
             visited.add(rid)
             current = lookup.get(current.get("parent_region_id"))
     statuses, statistics, details = coverage(project, drawing, geometries)
+    statistics['business_geometry_operations'] = len(imported_records)
+    statistics['missing_action_geometry'] = sum(not op.get('source_segment_ids') and op['uid'] not in imported_records
+                                                and not op.get('no_geometry') and not op.get('superseded_by_operation_id') and not (trim_excluded and op.get('operation_type') == 'TRIM') for op in operations)
     if statistics["unhandled"]:
         issue("UNHANDLED", f"仍有 {statistics['unhandled']} 个几何片段尚未处理。", warning=True)
     if drawing.get("issues"):
@@ -230,18 +257,27 @@ def validate_project(project, drawing, *, annotation_only=False):
             issue("IGNORE_INVALID", "背景/忽略实体必须来自本图并记录原因。")
     for key, message in (("inventory_confirmed", "尚未确认动作清单完整。"),
                          ("sheet4_confirmed", "尚未确认 Sheet4 固定 TRIM。")):
+        if key == "sheet4_confirmed" and trim_excluded:
+            continue
         if not project.get(key):
             issue("COMPLETION_PENDING", message, warning=True)
     if not project.get("station_rows"):
-        issue("STATIONS_PENDING", "尚未导入用户填写的 Sheet3。", warning=True)
+        issue("STATIONS_PENDING", "尚未在工序能力窗口指定工序。", warning=True)
+    from .process_config import inspect_process
+    process_report = inspect_process(project)
+    for message in process_report["station_errors"]:
+        issue("STATION_CONFIG", message)
+    for message in process_report['relation_capacity_issues']:
+        issue('NOT_LATER_CAPABILITY_CONFLICT',message,warning=True)
     geometry_complete = not staged or bool(batch and all(r.get("status") == "READY" for r in batch["records"].values()) and len(batch["records"]) == len(operations))
     legacy_compatible = not staged or bool(batch and all(r.get("legacy_supported") for r in batch["records"].values()))
-    ready = not errors and geometry_complete and legacy_compatible and not statistics["unhandled"] and project.get("inventory_confirmed", False) and project.get("sheet4_confirmed", False) and bool(project.get("station_rows"))
+    ready = not errors and not process_report['relation_capacity_issues'] and geometry_complete and legacy_compatible and not statistics["unhandled"] and project.get("inventory_confirmed", False) and (trim_excluded or project.get("sheet4_confirmed", False)) and bool(project.get("station_rows"))
     return {"errors": errors, "warnings": warnings, "geometries": geometries, "regions": regions,
             "statuses": statuses, "statistics": statistics, "status_details": details, "ready": bool(ready),
             "geometry_complete": geometry_complete, "legacy_compatible": legacy_compatible,
+            "process_config": process_report,
             "geometry_state": ("CURRENT" if batch else "NOT_COMPILED_OR_STALE") if staged else "LEGACY",
-            "geometry_records": batch["records"] if batch and not annotation_only else {},
+            "geometry_records": {**(batch["records"] if batch and not annotation_only else {}), **imported_records},
             "pairing": pairing, "drawing_source_supplement": deepcopy(drawing.get("source_supplement"))}
 
 
@@ -275,6 +311,10 @@ class ProjectStore:
         for op in project["operations"]:
             op["cad_parent_operation_id"] = renamed.get(op.get("cad_parent_operation_id"), op.get("cad_parent_operation_id"))
             op["required_predecessor_ids"] = [renamed.get(x, x) for x in op.get("required_predecessor_ids", [])]
+            for field in ('not_later_than_operation_ids','composite_operation_ids'):
+                if field in op:op[field]=[renamed.get(x,x) for x in op[field]]
+            if op.get('superseded_by_operation_id'):
+                op['superseded_by_operation_id']=renamed.get(op['superseded_by_operation_id'],op['superseded_by_operation_id'])
             previous_op = old.get(op["uid"])
             if previous_op and previous_op.get("source_segment_ids") != op.get("source_segment_ids") and previous_op.get("region") == op.get("region") and op.get("region"):
                 op["region"]["confirmed"] = False

@@ -126,6 +126,14 @@ def load_drawing(path: Path, config: dict):
     segments, cleanup_removed, background_source_ids = apply_source_cleanup(
         segments, cleanup, config["geometry_tolerance"])
     removed_sources.extend(cleanup_removed)
+    from .source_correction import apply_confirmed_correction
+    segments, correction, correction_dependencies = apply_confirmed_correction(path, config, before, segments)
+    source_dependencies.extend(correction_dependencies)
+    revision = None
+    if config.get('confirmed_geometry_revision'):
+        revision_config = dict(config, confirmed_geometry_correction=config['confirmed_geometry_revision'])
+        segments, revision, revision_dependencies = apply_confirmed_correction(path, revision_config, before, segments)
+        source_dependencies.extend(revision_dependencies)
     bounds = [min(s["bbox"][0] for s in segments), min(s["bbox"][1] for s in segments),
               max(s["bbox"][2] for s in segments), max(s["bbox"][3] for s in segments)]
     annotations, displayed_text_handles = [], set()
@@ -187,6 +195,8 @@ def load_drawing(path: Path, config: dict):
             "config": config, "raw_stats": data["stats"], "removed_sources": removed_sources,
             "background_source_ids": background_source_ids,
             "source_supplement": supplement, "source_dependencies": source_dependencies,
+            "source_correction": correction,
+            "source_revision": revision,
             "removed_annotations": removed_annotations,
             "removed_annotation_issues": removed_annotation_issues,
             "source_cleanup": {"manifest": config["confirmed_source_cleanup"],

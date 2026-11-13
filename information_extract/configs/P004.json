@@ -94,5 +94,7 @@
       "remove_id": "S_73cd93d58126cb953e82fbec",
       "relation": "FULLY_COVERED"
     }
-  ]
+  ],
+  "confirmed_geometry_correction": "configs/P004_geometry_correction_20261111.json",
+  "confirmed_geometry_revision": "configs/P004_geometry_revision_20261111.json"
 }

@@ -1,0 +1,66 @@
+{
+  "part_id": "P002",
+  "source_sha256": "dce37451ab873aca6eaed9cd5ee36335cc0918457eec47d983bc816ba36300a4",
+  "flat_source_sha256": "a89cbdbde22fccb33d4cde2dd213a728d3cc5c56552b6fbf02686e11b58a894f",
+  "decisions": [
+    {
+      "id": "P002_DRAW_FORM_SINGLE_OP10_20261111",
+      "operation_type": "DRAW_FORM",
+      "operation_ids": [
+        "O063",
+        "O108"
+      ],
+      "station_id": "OP10",
+      "station_order": 1,
+      "single_stage": true,
+      "only_allowed_station": "OP10",
+      "source": "用户本轮明确确认",
+      "quote": "拉包现在就认为是单工序动作，在此图纸内也只有第1序允许",
+      "scope": "仅 P002 当前专家图；保留多序原色证据，不把黄色泛化为全图通用语义。",
+      "superseded_for_O105_by": "P002_O105_INTEGRATED_HOLES_OP10_20261111"
+    },
+    {
+      "id": "P002_O112_COMPOSITE_OP40_20261111",
+      "operation_type": "IRREGULAR_PUNCH",
+      "operation_ids": [
+        "O112"
+      ],
+      "station_id": "OP40",
+      "single_stage": true,
+      "resolution_method": "USER_CONFIRMED_COMPOSITE_SINGLE_STAGE",
+      "source": "用户本轮明确确认",
+      "quote": "O112实际上是两个孔的复合，我们姑且认为这个特征在OP40一步成形",
+      "scope": "暂按一个复合动作分配，不拆动作；不声称原图所有轮廓在OP40首次形成。"
+    },
+    {
+      "id": "P002_O117_IDENTIFIED_OP20_20261111",
+      "operation_type": "IRREGULAR_PUNCH",
+      "operation_ids": [
+        "O117"
+      ],
+      "station_id": "OP20",
+      "resolution_method": "USER_IDENTIFIED_RADIUS_VARIANT",
+      "expert_entity_handle": "108C5",
+      "source": "用户截图指认与原DXF局部核验",
+      "quote": "O117这个孔不是在这里吗（截图为2/10，箭头指向绿色圆角方孔）",
+      "scope": "同位置5×5孔；展开R约0.69428，OP20 R0.5；保留原几何和严格逐段匹配结果。"
+    },
+    {
+      "id": "P002_O105_INTEGRATED_HOLES_OP10_20261111",
+      "operation_type": "DRAW_FORM",
+      "operation_ids": [
+        "O105"
+      ],
+      "component_operation_ids": [
+        "O106",
+        "O107"
+      ],
+      "station_id": "OP10",
+      "single_stage": true,
+      "resolution_method": "USER_INTEGRATED_DRAW_HOLES",
+      "source": "用户将两孔视为拉包组成部分；沿用本件拉包仅第1序的确认",
+      "quote": "那把这两个孔视作拉包的一部分吧",
+      "scope": "O105作为单一拉包动作，含两孔；主轮廓OP10证据与两孔原OP40证据均保留，不推定序内先冲后拉。"
+    }
+  ]
+}

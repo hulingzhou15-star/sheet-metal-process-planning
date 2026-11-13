@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "baseline_sha256": "623df0e24fbb7348b96767b75f66af68c9e1943e1c881e04d0974c1deadd1a33",
-  "reference_file": "sources/P004/P004_01.dxf",
+  "reference_file": "sources/P004/history/P004_01.dxf",
   "reference_sha256": "38b978572a9f8f4e0959f42991614ea1623ef1665fb508d81681b5959bc7f6e3",
   "purpose": "Supplement only the user-designated strip and two bend boundaries on the already mirrored P004. No local transform, no text, no automatic operation binding.",
   "registration": {

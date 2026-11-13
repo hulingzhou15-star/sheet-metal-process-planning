@@ -1,5 +1,7 @@
 # 钣金工序规划项目总体架构草案
 
+2026-11-13研究方向补充：用户明确三维路线的核心任务是探索替代二维折弯影响区的分配判定能力，重点覆盖曲线折弯。本文“诊断消费候选、不反向改分配”描述当前基线实现，不排除独立版本研究三维判断接入分配搜索；替代尚未验证，不能直接改冻结规则。见 information_extract/BEND_ALLOCATION_3D_RESEARCH_20261113.md。
+
 日期：2026-11-10。状态：用户已批准，2026-11-10 已完成核心迁移与隔离复现。实际交付与可恢复清理方式见 REPOSITORY_MIGRATION_20261110.md；GNN 尚未实现。
 
 目标仓库：`https://github.com/hulingzhou15-star/sheet-metal-process-planning.git`。

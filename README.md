@@ -19,6 +19,15 @@ Python 3.12.12 位于 `.local/python`，环境 `.venv`；传递依赖锁定于 `
 
 ## 运行
 
+当前分配/评分采用几何连接树P1、停用H6并保留H7。先对P001编译材料域并评分，再可独立生成候选：
+
+```powershell
+.venv/Scripts/python.exe -B -X utf8 -m information_extract.scripts.run_geometry_allocation
+.venv/Scripts/python.exe -B -X utf8 -m information_extract.scripts.run_geometry_allocation --mode generate --basis information_extract/outputs/geometry_allocation_v1/P001/material_basis.json --output information_extract/outputs/geometry_allocation_v1_generated/P001
+```
+
+见 [正式采用与验证记录](information_extract/GEOMETRIC_P1_ADOPTION_20261113.md)。下列`reproduce`命令继续复现冻结历史基线，不自动改用新评分。
+
 从仓库根目录运行：
 
 ```powershell

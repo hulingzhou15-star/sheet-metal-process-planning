@@ -1,0 +1,47 @@
+{
+  "part_id": "P003",
+  "source": "sources/P003/originals/P003_FULL.dxf",
+  "source_sha256": "4f917737c426d395a1705884ffad29e5879e03bc0e78b885f32dada3e62beb0f",
+  "screenshot": "sources/P003/confirmations/OP70_four_bends_20261112.png",
+  "screenshot_sha256": "fdd3e2384d8dbad0aedcde7c016095c66334254acb166030f7e862984f23e509",
+  "decision_id": "P003_OP70_FOUR_BENDS_USER_IDENTIFIED_20261112",
+  "station_id": "OP60",
+  "operation_ids": [
+    "O071",
+    "O072",
+    "O073",
+    "O074"
+  ],
+  "quote": "这就是第7序，很明显4个折弯啊",
+  "matched_raw_frame_id": "view_07",
+  "raw_nearest_title": "工序名称：6/7  折弯",
+  "local_flat_bounds": [
+    7100,
+    1500,
+    7177,
+    1730
+  ],
+  "local_expert_bounds_in_base_frame": [
+    7060,
+    1460,
+    7220,
+    1770
+  ],
+  "scope": "按用户明确窗口映射：1/2/4/5/6/7→OP10/20/30/40/50/60；第3与第8窗口退出分配，OP70仅NONE。四小折弯在原窗口7→OP60。",
+  "previous_station_id": "OP70",
+  "station_revision": {
+    "id": "P003_EXPERT_SCHEDULE_RECONCILIATION_20261112",
+    "reason": "用户核查第3窗口是否重复，并指定OP70为NONE；原第7窗口的四个折弯对应原6/7标题，按实际工序OP60登记。此前以窗口序号登记OP70的决定被替代。"
+  },
+  "window_to_station": {
+    "1": "OP10",
+    "2": "OP20",
+    "3": null,
+    "4": "OP30",
+    "5": "OP40",
+    "6": "OP50",
+    "7": "OP60",
+    "8": null
+  },
+  "effective_mapping_decision": "P003_EXPLICIT_WINDOW_MAPPING_20261112"
+}

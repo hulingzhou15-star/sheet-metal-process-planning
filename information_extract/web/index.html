@@ -15,7 +15,7 @@
     <label>零件 <input id="part-id" readonly title="由当前源图的 configs/app.json 确定" class="compact-input" value="P001" aria-label="零件编号"></label>
     <label>预期动作数 <input id="expected-count" class="count-input" type="number" min="0" placeholder="可选"></label>
     <label class="check"><input id="inventory-confirmed" type="checkbox">整图动作解释完成</label>
-    <span class="toolbar-spacer"></span>
+    <span class="toolbar-spacer"></span><button id="edit-stations">工序能力</button>
     <button id="reload-project">重新读取</button><button id="backup-project">下载项目备份</button><button id="import-project">导入项目 JSON</button><button id="import-operations">导入动作清单</button><button id="import-workbook">导入 Sheet3 / 4</button><button id="compile-geometry" class="primary">整理几何</button><button id="validate-project">检查数据</button><button id="export-draft">导出检查包</button><button id="export-validated">导出正式表</button>
     <input id="project-file" type="file" accept=".json,application/json" hidden><input id="operations-file" type="file" accept=".xlsx,.csv,.tsv" hidden><input id="workbook-file" type="file" accept=".xlsx" hidden>
   </nav>
@@ -24,6 +24,7 @@
       <div class="panel-heading"><h2>加工动作 <span id="operation-count">0</span></h2><button id="new-operation" class="small primary">＋ 新建</button></div>
       <div class="search-wrap"><input id="operation-search" placeholder="查找编号、名称、类型…" aria-label="查找动作"><p class="field-help">最新创建的动作在最上方</p></div>
       <div class="list-controls"><select id="operation-filter" aria-label="动作类型筛选"><option value="">全部类型</option></select><button id="fit-current" class="small">聚焦当前</button></div>
+      <label class="check" style="margin:0 16px 8px"><input id="missing-geometry-only" type="checkbox">仅看待补几何</label>
       <div id="operation-list" class="operation-list" role="list" aria-label="加工动作列表"></div>
       <div class="inventory-summary"><p id="workflow-state" class="workflow-state"></p><strong>实体处理进度</strong><div id="statistics" class="statistics"></div><p id="configuration-state"></p><p class="muted">动作数量与几何片段数量不同；不必为每条背景线创建动作。</p></div>
     </aside>
@@ -43,10 +44,14 @@
       <form id="operation-form" autocomplete="off">
         <div class="field-row"><label>动作编号 <span class="required">*</span><input id="operation-id" placeholder="如 O066" required></label><label>动作类型 <span class="required">*</span><select id="operation-type" required></select></label></div>
         <label>动作名称 <span class="required">*</span><input id="operation-name" placeholder="原始特征名称" required></label>
+        <label>专家工序<select id="expert-station"><option value="">尚未分配</option></select><span class="field-help">记录专家方案，不作为固定分配。请先在“工序能力”中建立工序。</span></label>
+        <p id="expert-station-hint" class="field-help"></p>
         <label id="bend-angle-row" hidden>折弯角度（°）<input id="bend-angle" type="number" step="any" placeholder="未知可留空" aria-describedby="bend-angle-help"><span id="bend-angle-help" class="field-help">按图纸填写角度值；不据此推断折弯方向或影响区。</span></label>
         <div class="field-row"><label>表面侧<select id="surface-side"></select></label><label>CAD 父动作<input id="cad-parent" list="operation-options" placeholder="编号，可后补"></label></div>
         <label>明确前置动作<input id="predecessors" aria-describedby="predecessors-help" placeholder="必须先完成的动作编号，如 O003"></label>
         <p id="predecessors-help" class="field-help">仅填已确认必须更早工序完成的动作编号，例如折弯之前必须先冲的异形孔。预孔—翻孔先后已由加工组表达，无需重复填入；未确认可暂留空。</p>
+        <label>本动作必须不晚于<input id="not-later-than" list="operation-options" placeholder="允许同序，例如 O105"></label>
+        <p class="field-help">本动作工序 ≤ 所填动作工序，允许同时加工；独立于 CAD 父动作的严格先后。</p>
         <label>加工组（自动）<input id="process-group" readonly aria-describedby="pairing-help" placeholder="根据预孔与翻孔的 CAD 对应关系自动填写"></label>
         <p id="pairing-help" class="field-help">唯一确定对应预孔与翻孔后自动归组，无需手填。</p>
         <datalist id="operation-options"></datalist>
@@ -84,6 +89,16 @@
     </aside>
   </main>
   <div id="toast" role="status" class="toast" hidden></div>
+  <dialog id="station-dialog" aria-labelledby="station-title">
+    <h2 id="station-title">工序顺序与加工能力</h2>
+    <p>按实际加工顺序填写序号，勾选每一序允许的动作类型。专家动作分配与工序能力分别记录。</p>
+    <div class="inline-actions"><button id="add-station">＋ 新增工序</button><button id="load-station-defaults">载入本件已有工序资料</button></div>
+    <p class="field-help">“未指定”保留为待补；NONE 表示确认该序不允许本项目列出的动作。冲孔统一包含圆孔、异形孔、预孔；折弯包含一般折弯和曲线折弯。切边不参与分配。</p>
+    <div id="station-rows"></div>
+    <p id="station-error" role="status"></p>
+    <div class="station-footer"><button id="cancel-stations">取消</button><button id="apply-stations" class="primary">应用工序设置</button></div>
+    <p class="field-help">应用后点击页面“保存标注”写入本地；可撤销、重做。已被引用的工序不能直接删除。</p>
+  </dialog>
   <script type="module" src="/app.js"></script>
 </body>
 </html>
