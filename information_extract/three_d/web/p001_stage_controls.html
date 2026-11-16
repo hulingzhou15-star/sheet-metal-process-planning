@@ -1,0 +1,40 @@
+<style>
+.sample-bar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:12px 0}
+.sample-bar input{width:min(42vw,420px)}
+.sample-bar button:disabled,.toolbar button:disabled{opacity:.5;cursor:default}
+.replay-table{width:100%;border-collapse:collapse;margin:8px 0}
+.replay-table th,.replay-table td{padding:5px 8px;border-bottom:1px solid #d2dde5;text-align:left;white-space:nowrap}
+.replay-table tr[data-active=true]{background:#edf5fa}
+.table-scroll{overflow:auto}.issue-row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:4px 0}
+.issue{color:#a32727}.unknown{color:#8a580a}.plan-links{display:flex;gap:16px;flex-wrap:wrap}
+#featureList{display:flex;gap:5px;flex-wrap:wrap}.feature-button{font-size:12px}
+[hidden]{display:none!important}
+</style>
+<main>
+<h1>P001 · 候选逐序回放与运动自干涉</h1>
+<p id="displayVersion"></p>
+<div class="toolbar">
+<label>候选 <select id="plan"></select></label>
+<label>工序 <select id="station"></select></label>
+<label>状态 <select id="phase"><option value="entry">进入态</option><option value="motion">共同加工过程</option><option value="completed">完成态</option></select></label>
+<button type="button" id="play" aria-pressed="false">播放本序</button>
+<button type="button" id="playAll" aria-pressed="false">播放整案</button>
+<label>速度 <select id="speed"><option value="1">1×</option><option value="2">2×</option><option value="4">4×</option></select></label>
+</div>
+<div class="sample-bar">
+<button type="button" id="prevSample">上一采样</button><button type="button" id="nextSample">下一采样</button>
+<input id="sample" type="range" min="0" max="0" value="0" step="1" aria-label="整案实际采样点"><output id="progress" for="sample"></output>
+</div>
+<!-- panels -->
+<div id="state" class="status" role="status">正在载入材料模型…</div>
+<p id="trajectoryNotice" class="note" hidden>当前用进入态局部材料回放共同折弯进度。去料、局部成形端态在完成采样统一切换。</p>
+<p id="selectedInfo"></p>
+<details id="stageFeatures"><summary id="featureSummary">本序特征</summary><div id="featureList"></div></details>
+<details open><summary>候选统计与工序概览</summary>
+<p id="planStats"></p><div class="table-scroll"><table class="replay-table"><thead><tr><th>工序</th><th>动作</th><th>折弯</th><th>采样</th><th>重叠对次</th><th>未判定对次</th></tr></thead><tbody id="stationRows"></tbody></table></div>
+<div class="plan-links"><a id="rawReport" target="_blank" rel="noopener">原始干涉报告</a><a id="summaryReport" target="_blank" rel="noopener" hidden>本轮复筛汇总</a><a id="materialReport" target="_blank" rel="noopener" hidden>材料动作依据</a><a href="completed.step" download>下载成品 STEP</a></div>
+</details>
+<details open><summary>当前采样干涉与未判定记录</summary><div id="sampleIssues"></div></details>
+<details id="planIssuesPanel"><summary id="planIssueSummary">整案干涉与未判定记录</summary><div id="planIssues"></div></details>
+<details><summary>几何与诊断适用范围</summary><div id="coverage"></div></details>
+<pre id="error" hidden></pre></main>

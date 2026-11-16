@@ -1,5 +1,163 @@
 # 当前交接
 
+## 2026-11-16 P001 按活动工艺重新生成并复核
+
+从仓库根目录执行 `.venv/Scripts/python.exe -B -X utf8 -m information_extract.scripts.regenerate_p001_candidates`。程序从现有展开和 STEP 材料资产重建工序状态，以 214 项活动事实求解，依次执行 24 和 96 等分筛查。本轮没有需要反馈排除的正体积交叠。若重跑发现已确认交叠，只排除命中的完整分配，保留见证并补充候选。适用范围及 P001–P004 的复现命令见 [候选生成、三维反馈与回放流程](information_extract/CANDIDATE_MOTION_WORKFLOW.md)。
+
+`information_extract/outputs/p001_motion_regeneration_v01` 内有初始池 `initial_pool.json`、筛查记录 `coarse_checks.json` 和 `dense_checks.json`、`staged/` 工序材料、最终 `pool.json`、入选 `plans.json` 和 `selected/` 原始逐采样报告。P001_R001 排名第一。首轮 64/64 通过，96 等分 16/16 通过。输入指纹和保护边界通过本轮核对。当前记录覆盖刚性区，局部成形端态取自 STEP。
+
+回放构建执行 `.venv/Scripts/python.exe -B -X utf8 -m information_extract.scripts.build_p001_stage_review --regenerated`，测试执行 `node information_extract/tests/test_p001_stage_review_browser.mjs --regenerated`。新版 `stage/` 目录内含 `index.html`、`completed.step` 和核验清单 `manifest.json`。历史批次的对齐版可用同一命令省略 `--regenerated` 构建至 `p001_stage_workspace_v01`。综合页 P001 链接指向新批次。
+
+## 2026-11-16 P002 重新生成与逐序复核
+
+使用项目虚拟环境，依次执行 `regenerate_p002_candidates`、`supplement_p002_candidates`、`publish_p002_regenerated_review` 三个 `information_extract.scripts` 模块。命令和复现范围见[流程规范](information_extract/CANDIDATE_MOTION_WORKFLOW.md)。首批 64 个新分配录入 28 种完整折弯分配，其中 61 个通过，3 个 O112 时序未决。普通三轮得到 62 个通过和 7 个材料未决；按现有回填适用范围定向补足 R070/R071，两案各完成 112 个采样状态。补足仅约束本轮模型覆盖的搜索范围，正式 H7 与评分沿用现行规则。
+
+`p002_motion_regeneration_v01` 有 `screening.json`、`pool.json`、`plans.json`、`summary.json` 和逐方案报告。普通批次的汇总快照在 `before_supplement/`，补足分配与证据在 `staged/batch_04/`。最终以 R004 替换去掉空折弯工序后与另一方案等价的 R027，入选 16 种同步折弯分组，默认 P002_R043。最终入选共 7,065 态、1,208,115 区域对×状态。回放入口在 `stage/index.html`，筛查总览在同批次根目录 `index.html`。
+
+## 2026-11-16 四件零件综合回放
+
+源码 information_extract/three_d/web/part_motion_review.html。发布到现有 8770 服务的输出根目录，运行 Copy-Item -LiteralPath information_extract/three_d/web/part_motion_review.html -Destination information_extract/outputs/part_motion_review.html。入口 http://127.0.0.1:8770/part_motion_review.html，使用相对地址加载各零件的已发布资产。地址片段可直达对应零件，例如 #P001，点击当前零件可从内嵌报告回到回放。浏览器实测同一时刻仅加载一个回放，切换时旧回放的浮动窗口关闭。未提交推送。
+
+## 2026-11-16 P004 运动筛查与展示
+
+见 information_extract/P004_STAGE_MOTION_20261116.md。先运行 generate_p004_allocation --prepare-only、build_p004_material_basis、generate_p004_allocation，再运行 regenerate_p004_candidates 和 build_p004_stage_review。所有模块以 .venv/Scripts/python.exe -B -X utf8 -m information_extract.scripts.<模块> 从仓库根目录执行。几何基础在 p004_generation_v01，初始池在 geometry_allocation_v1_generated/P004，最终筛查、逐序报告和展示页在 p004_motion_regeneration_v01。
+
+全池 39 种折弯分配均通过加密检查，P004_R005 排名第一，入选 16 种折弯运动。默认中面轴保留 DXF 展开配准，第一方案的 STEP 圆柱轴对照也通过 77 态。新检查器用保守包围盒筛出可证明分离的区域，再做正体积求交，零正体积归为同一状态。原距离预检的轴位对照仍可在 reference_axis_probes 查阅。
+
+用 node information_extract/tests/test_p004_stage_review_browser.mjs 复验回放，亦可提供实际 HTTP URL。支持 16 方案工序表、OP40 凸米切换、O013 四段联动、播放及 STEP 对照。分析覆盖刚性材料区采样和局部成形端态。
+
+## 2026-11-16 P003 重新生成方案展示页
+
+从仓库根目录运行 .venv/Scripts/python.exe -B -X utf8 -m information_extract.scripts.build_p003_regenerated_review，由现有逐序诊断发布 p003_motion_regeneration_v01/stage/index.html。页面使用三种入选材料状态、21 张展开投影和 22 份预打包三维网格，链接到各方案原始报告、材料审计和共享 STEP。OP20 完成态首次使用 J297 STEP 圆柱轴，页面按当前材料动作边界显示参照。
+
+可用 node information_extract/tests/test_p003_regeneration_replay_browser.mjs 复验，也可在命令末尾提供实际本地回放 URL。已在 localhost:8770 验证 16 方案、工序汇总、96 等分、J297 两步端点、4× 播放、STEP 和报告链接。另核对独立窗口和播放缓存表现。新页的来源和发布文件摘要在 stage/verification.json，未提交推送。
+
+## 2026-11-16 P003 干涉反馈重新生成
+
+在根目录执行 .venv/Scripts/python.exe -B -X utf8 -m information_extract.scripts.regenerate_p003_candidates。入口复用现行 P5 和次级评分。求解器按 10 个折弯动作的完整工序元组排除 41 组历史碰撞和本轮重复路径。对 NP2_036 附近合法路径做 24 等分检查，清晰结果加密至 96 等分。空工序位移等价的运动按同一个折弯顺序计算多样性。path_checks.json 可复用已检查状态，材料、检查器及采样协议按指纹核对。
+
+本轮查 21 组且通过 16 种不同折弯运动，生成 64 个完整方案并选出 16 个。NP2_036 位于新池，入选代表 P003_R024 使用相同折弯分配以及评分更低的前段动作分配。P003_R016 排名第一。以 DXF 原配准检查 OP10 和 OP20 的前段材料状态，材料完成后采用 J297 STEP 轴，逐序报告记录每个阶段的实际位置。完整报告含 6,304 态、283,680 区域对×状态，正体积交叠与内核未决均为 0。目录 p003_motion_regeneration_v01 含 pool.json、plans.json、summary.json 及逐方案诊断。未提交推送。
+
+## 2026-11-16 P003 剩余 48 方案补查与全池复核
+
+从原 pool.json 精确扣除前轮 16 个已查方案，运行 check_p003_remaining_motion 保留各工序原 24 等分协议。新目录 p003_candidate_motion_remaining_v01 含 48 份逐采样诊断、28 材料状态、110 个材料动作审计，以及 NP2_025 的 48 等分复验（83 个共有状态、最大体积差 0）。运行 summarize_p003_pool_motion 汇总 64 方案并对各方案的非相邻峰值样本换用 J297 STEP 圆柱轴复判，详见 pool_interference.json。
+
+63 个方案在两种轴位下均有非相邻交叠，NP2_036 是唯一保留的筛查候选。用 refine_p003_motion_case NP2_036 --axis midplane 和 --axis step_cylinder 分别运行，默认 96 等分。两份各 391 态的结果在 confirmation/NP2_036；中面轴的正体积量仅来自 J297 相邻区，圆柱轴结果无正体积交叠。三维结论限刚性材料区采样，后续覆盖边界沿用模块报告。筛查记录独立于候选和评分，未提交推送。
+
+## 2026-11-16 P003 回放性能修复及复验
+
+在仓库根目录运行 .venv/Scripts/python.exe -B -X utf8 -m information_extract.scripts.build_p003_stage_review，可从现有核心输出重发 stage/index.html。P003 专用加载和上传逻辑在 information_extract/three_d/web/p003_replay_assets.js，发布器派生双视图页面。新文件位于 stage/flat_raster、stage/packed、stage/replay_plans。旧 stage/flat 投影保留，当前页面已使用 PNG 底图和矢量特征线。核心 STEP、实体与干涉报告仍可从页面链接查看。
+
+复验命令 node information_extract/tests/test_p003_stage_replay.mjs，覆盖同材料不重绘、姿态变化复用缓冲、滑块竞态、明细、定位、播放和 STEP。已另行通过 localhost:8770 HTTP 和无头 Chromium 验证。双视图页面更新无需重算干涉，177 输入及 151 核心输出已核对。三维检查覆盖范围按原工艺报告。P001、P002 界面仍用原资产；当前未提交推送。
+
+## 2026-11-16 P003逐序三维模型及首轮干涉检查完成
+
+先读 information_extract/P003_STAGE_MOTION_20261116.md。新入口 check_p003_candidate_motion、summarize_p003_motion、build_p003_stage_review；材料、运动分别在p003_staged_material.py和p003_motion.py。输出p003_candidate_motion_v01含224阶段记录、12材料状态、110/110材料动作覆盖、36新增BRep、16方案诊断与回放。J297共享两步有符号增量+135°/−45°，由候选分配驱动，无专家序回灌。OP30以后使用完整STEP分割刚性材料，可先运行--bend-only得到可复用指纹匹配的检查，再完整生成。
+
+原轮1374态、61830对×状态，1247正交叠、无内核未决，全部16有非相邻交叠。分组P409_410/P70_295为539态16方案，P296_305/P70_295为67态4方案，J297相邻P104_105/P298_299为641态16方案。单独转轴敏感性 check_p003_axis_sensitivity 在独立目录，报告两处非相邻峰值56.10→56.06、9.70→9.20mm³，相邻抽查48.40→0mm³。不能把相邻铰链近似假象与非相邻提示混写。NP2_024加密202态，共有106态一致。当前完成态16方案无正交叠并逐份STEP字节一致。未覆盖工具装夹、有限宽带全对与连续局部成形，未自动筛选或重评分。
+
+首版回放 stage/index.html 使用真实文件数据和模拟渲染核对，HTTP 和无头 Chromium 复验见回放性能修复记录。15相关测试通过，177来源与151核心输出核对、保护103匹配+5既有差异。未提交推送。
+
+## 2026-11-16 P003候选生成完成，后续可建运动模型
+
+先读 information_extract/P003_GENERATION_20261116.md。新脚本依次为build_p003_material_basis与generate_p003_allocation，使用项目.venv。依据revision9的120活动动作和7工序生成64池/16选。H6停用，H7 50条严格子先父后，O069→O120明确前置继续保留，不引入先前已取消的五条父子关系。OP70能力为空，所有候选均未使用该序。
+
+p003_generation_v01含实际DXF配准、10份STEP分割BRep及9关节skeleton。O069/O120同关节J297，未重复划分材料，体积约16721.206915mm³。下步做逐序模型时必须从累计0°到135°再回到90°，不得将45°用作最终姿态。方向以J297有向轴为准，同序共享进度。几何树与H7独立，不将材料关节自动新增为工艺前置。对应残差0.3–1.5mm，非0.08mm定量展开通过。
+
+正式输出geometry_allocation_v1_generated/P003，P5=0、P1 39对，头名NP2_001次级77/1080。64硬约束通过，16精确评分比对通过，19相关测试通过，173输入指纹一致，保护103匹配＋5已知差异。保留生成日志和来源清单，未运行P003运动干涉，不将候选评分作为制造安全。未提交推送。
+
+## 2026-11-16 P002新审查页与P001界面联动对齐
+
+入口移到p002_candidate_motion_v05/stage/index.html，旧replay.html可从新页打开。运行 .venv/Scripts/python.exe -B -X utf8 -m information_extract.scripts.build_p002_stage_review 从现有v05重发界面。源码p002_stage_workspace.html/js，样式和主题取P001 v0.3。发布脚本把133份原状态网格投影到展开参考坐标，并从DXF、STEP配准和材料审计生成132动作定位，显示用途。曲线上3D轮廓随已有曲线网格插值，成品对照采用STEP全件及局部聚焦。新文件独立保存在stage，避免改旧运行产物指纹。主交互经模拟DOM和真实HTTP数据核对，浏览器UI未实测。本次仅更新界面和交接，未重跑运动或提交推送。
+
+## 2026-11-16 P002四曲线和逐序建模已接入16候选
+
+先读 information_extract/P002_CURVE_AND_STAGE_MODELS_20261116.md。当前入口是 check_p002_curve_motion，默认p002_candidate_motion_v05。p002_curve_motion.py负责导向段、网格变形和O094随动。p002_staged_material.py按真实候选事件重建实体，sampled_mesh_contact.py负责变化区域的网格预筛。复用既有刚体位姿、材料事件调度和v02原条件OCCT结果。四曲线和O094均使用同一工序进度，H7严格先后。材料进入态/完成态统一切换。
+
+实际保存320条记录、36种独立状态、133份材料BRep、16份采样报告及16个原字节成品STEP。运动覆盖1884态和322164个区域对×状态。251份压缩网格按当前视图加载。O112/O115回填仅用于所选16方案已逐一核对的先去料后相关折弯情形，不作为新硬规则。动作审计完整覆盖115个材料动作。同图纸专家序隔离，候选分配与评分以既有选集为准。
+
+117个穿越提示集中在O112去料前的C001/C005界面，去重17组实体复核均为接触、交叠体积0。另834条网格接触或边界类提示未逐一实体复核。保留原始网格标记。几何近似、局部成形连续轨迹、有限弯曲带、工具和装夹的覆盖边界见模块报告。日常查阅用v05的replay.html。先前试跑v03/v04未完成，文件保留。298输入核验一致，23项相关测试通过，未全仓或computer-use。未提交推送。
+
+## 2026-11-16 后续采用现有方法作曲线运动近似
+
+用户指示“套着用用就行了，不需要那么严格”。先读 information_extract/CURVED_FLANGING_METHODS_20261116.md 和PROJECT_SPEC新增口径。联网查到曲线拉伸/收缩翻边解析模型及SOLIDWORKS截面沿路径扫掠的几何方法；选择扫掠＋角度插值作为P002工程近似，真实连续成形的逐点实测不再作为实现前置条件。时间插值为项目适配，论文摘要不能冒称全文公式已复现。下一步基于DXF/STEP局部截面生成四曲线中间网格，接O094随动，再适配非刚体碰撞及16候选回放。基本端态/网格有效性检查保留；同序同时、H7及冻结边界不改。当前代码仍是v02未知曲线分支，本轮仅文档调研，无新增模型或测试、未提交推送。
+
+## 2026-11-13 已做DXF阶段对应并补O094局部参考
+
+先读 information_extract/P002_STAGE_EVIDENCE_20261113.md。新增three_d/p002_stage_evidence.py、p002_stage_motion.py，脚本probe_p002_stage_evidence、measure_p002_stage_geometry、verify_p002_later_side_view、publish_p002_stage_evidence、check_p002_stage_motion，测试test_p002_stage_motion和独立页面p002_stage_motion_review.html。全部位于information_extract；旧v01代码与产物保留。
+
+outputs/p002_stage_evidence_v01包含全部尺寸/引线/文字、六张原图、stage_geometry.json、later_side_validation.json、O094投影图、三份局部端态STEP及回读校验。四曲线OP90最远壁边576点吻合，但O069/O104较早侧视3mm差异原因未定、O096全部侧投影最大0.47904mm，不能称完整阶段/曲面变形已验证。80°/90°文字不与五目标擅自绑定。
+
+O094据两条10mm源线、OP50自由边2DAA2/poly:145及5.2mm侧视尺寸10E59校准；X/Y各0.4mm补偿。OP50/70/80自由轮廓各170点吻合；人为弯曲带切边不参与轮廓验收。自身直折用共享tau线性角度/补偿参考，O088运动期间仍未知。不要把局部J540载体推广成整个O088的刚性铰链。专家OP仅作证据，不回灌候选；16候选真实分配不变，H7严格/同序同时保持。
+
+check_p002_stage_motion已跑完16方案及空缓存加密复查，输出p002_candidate_motion_v02：1884态、251812已检/70352未知对×状态，正交叠与内核未决均0。已检219787材料一致、32025仅成品参照；未知仍保留。NP2_049复查208态，30059已检/5509未知，共有112态一致、最大数值差1.421e-14。197来源/实现不变、保护103匹配＋5既有差异；19测试通过，旧v01来源/产物校验仍通过。主运行411.20秒；两页HTTP200，无浏览器UI/全仓/computer-use。
+
+下步仍需四曲线非刚性阶段及运动、P002逐序去料/局部端态材料切换，不能把13个受支持自身折弯动作说成17个完整运动已实现。所有方案仍UNKNOWN_INCOMPLETE_MODEL，未改评分/候选或冻结数据。新旧输出来源改变需新目录，不改指纹掩盖差异。每个工作段更新根文档；本轮及此前修改均未提交推送。
+
+## 2026-11-13 下一步优先使用DXF阶段证据
+
+用户指出可从DXF找未确定项的加工证据。已核实五项全部有完整高亮：O069→OP80(14/14)、O088→OP90(16/16)、O094→OP60(2/2)、O096→OP90(6/6)、O104→OP70(6/6)，均红色；专家图哈希仍匹配，旧证据rev15与当前rev16相关绑定不变。详见 information_extract/P002_CANDIDATE_MOTION_20261113.md 顶部。别把程序未支持曲线/逐序材料说成图纸缺证据。原图239个尺寸及24引线未进入旧提取，直接读到90°/80°、光面/毛面文字但未定位到动作，不可臆配。
+
+继续提取各目标的前序/加工序/后续视图及局部尺寸引线，与STEP端态建立对应，区分阶段实测和连续插值假设，补O094先局部直折再随O088区域运动的阶段模型。原图专家工序不回灌16候选分配或正式推理。此次仅核查和补文档，未改模型/原始数据、未新增测试/重跑运动，未提交推送；下面模型不完整状态仍有效。
+
+## 2026-11-13 P002三维参考诊断已运行，完整过程仍缺模型
+
+先读 information_extract/P002_CANDIDATE_MOTION_20261113.md。新增three_d/p002_motion_reference.py、scripts/check_p002_candidate_motion.py、scripts/verify_p002_candidate_motion.py、tests/test_p002_motion_reference.py和three_d/web/p002_motion_review.{html,js}，均在information_extract。复用已有刚性铰链、PanelChecker和WebGL；19实体、14结构铰链，16方案各输出模型/采样/报告及与来源字节相同的成品STEP。页面8770/p002_candidate_motion_v01/index.html。
+
+严禁把这批输出描述成完整逐序模型或完整干涉通过：4曲线O069/O088/O096/O104未实现运动，O094因依附O088也未知；只有12个折弯动作运动有已支持的刚性参考位姿。未知沿几何树传播，完成端才采用曲线STEP位姿。所有实体始终为成品材料，79去料＋36局部成形的事件记录虽完整，尚未施加到实体。9方案在首次折弯前完成全部非折弯动作，其余7部分阶段有材料不一致；Z双铰链同步角度仅参考假设，同序不加内部先后。
+
+首轮1884态，19实体171对/态总322164对×状态：213164已知位姿且非折弯完成材料一致，27755已知位姿但仅成品材料参考，81245未知运动未检查。实际检查240919参考对×状态，正交叠0、内核未知0；全部方案整体UNKNOWN_INCOMPLETE_MODEL。NP2_049空缓存48等分208态复查完成，原112态计数一致、最大数值差1.421e-14；加密仍无参考交叠，未知运动保留。21项相关测试通过，189输入/实现一致，保护103匹配＋5既有差异，主运行含复查408.39秒。HTTP200和JS语法通过；未跑全仓或浏览器UI。详见verification.json、coverage_analysis.json及模块报告，候选及分数不改。
+
+继续需实现曲线变形/O094随动、逐序去料/STEP端态替换和有限弯曲校准。已有P001驱动含P001专用材料域/刀具体，不可直接换件名冒充支持。输出来源不符则新目录，别改指纹/删历史输出。切边不建模；工具、装夹、连续成形未覆盖，不宣称制造安全。所有本轮和此前工作仍未提交推送。
+
+## 2026-11-13 P002已完成64池／16选，接续运动诊断
+
+先读 information_extract/P002_GENERATION_PROGRESS_20261113.md 顶部，再看新增 scripts/build_p002_material_cells.py、three_d/project_geometry_scoring.py、scripts/generate_p002_allocation.py、tests/test_p002_geometry_generation.py（均在information_extract）。132动作10工序，19个STEP材料实体覆盖12直折＋4曲线＋1合并Z折，切边无；拉包保持DRAW_FORM，三个仅OP10。H6停用、75条H7严格先后保持；同序同时加工，几何树与H7不混用。
+
+当前成果 information_extract/outputs/geometry_allocation_v1_generated/P002，64不同候选/16入选，P5最小0已证明，118个几何P1比较对。64池中16个同为最低分17761/431200且P1=0，其中入选8个为NP2_005/017/025/033/041/045/049/057；另外8个为多样性入选。16入选的CP目标与独立评分精确一致，64池全部独立硬检查通过。36相关测试通过，180输入/实现运行前后不变，保护103匹配＋5既有差异保留。HTTP8770/geometry_allocation_v1_generated/P002/index.html可按方案/工序/类型看分配，HTTP200和JS语法通过，未测UI或全仓。
+
+复现顺序：模块prepare_p002_generation → build_p002_material_cells → generate_p002_allocation，用仓库.venv python -B -X utf8。前置readiness仍false是准备脚本自身范围，不代表下游未生成；完整结果看新目录plans/verification。所有输出有来源指纹，旧前置输入不匹配则重建，不能改期望值。新增评分器明确拒绝当前P002没有的非严格“不晚于”关系，通用候选扩展尚未实现。
+
+接续不要直接跑P001运动驱动声称覆盖P002：本轮只建立完成STEP材料域和候选评分，没有逐序材料/曲线/Z运动。12直折几何身份在既有2mm搜索范围内各仅1候选；Z双射唯一，但未解决定量展开补偿（0.2–1.216553mm及Z 0.4/1.45mm残差）。0.08mm定量匹配仍未通过，原未确认标签保留；P1域身份与制造运动精度不是一项验收。体积分体/整体差0.058234mm³、相对1.82e-6明示，实体有效/归属完整/两两无正交叠通过，不称质量守恒或制造安全。下一步应对16方案实现受支持的逐序材料及运动诊断，未知曲线轨迹显式保留；然后P003/P004。GNN尚未实现。
+
+本工作段未提交/推送，新增实现/测试/报告和根文档仍未提交；此前P001未提交材料检查工作完整保留。人工项目、源图、冻结src/config/评分/候选/reference与保护期望未改。下文“未生成”是早一阶段交接。
+
+## 2026-11-13 P002候选生成接入：事实/硬约束和几何拓扑提案
+
+用户要求按最新标准推进P002候选生成。入口information_extract/P002_GENERATION_PROGRESS_20261113.md；实际项目revision16、136记录/132活动、10工序，无切边，O042/O043/O106/O107退出独立分配。project_allocation_facts.py已实现白名单事实入口，专家序和旧影响区不进入指纹/求解，DRAW_FORM保持真实类型，O105两组成孔不拆回独立动作。硬求解OPTIMAL并独立复核132动作；H3=2/H4=27/H7=75/H6=0，同序语义不变。
+
+用户指定三处曲线侧别按O069同向判同类。直接STEP基板边界匹配：O069/7段ROUGH参照，O088/8段SMOOTH、O096/3段SMOOTH、O104/3段ROUGH。写入派生事实，未改人工project.json。用户当前O069名称及其它保存字段保留，不从世界坐标独立猜侧别。
+
+STEP提案37区域/48连接，基板分量36区域、13独立环，P63_256未连入圆柱铰链图。未任意删环或用H7代替材料连接。12一般折弯均有唯一几何连接提案，端点残差0.2–1.216553mm（原2mm搜索门限，非0.08mm定量匹配通过）；4曲线依据STEP邻接形成复合区域提案，O136保留J531/J64两连接的区域并集。共17动作拓扑提案，但没有正式实体体积，不可拿来评分。
+
+正式候选池/排名尚未生成，运动干涉未执行。后续必须完成非平面壁/局部端态材料归属、有限折弯带分界与Z折补偿，编译匹配事实的P1基准；另接入DRAW_FORM分散评分和多路径P5。旧P5的BEND_CIRCULAR只支持单有限直线，不能对曲线直接跳过记零；不要求用户补Sheet5。当前输出明确formal_generation_ready=false，没有假造零分或套P001基准。
+
+运行`.venv/Scripts/python.exe -B -X utf8 -m information_extract.scripts.prepare_p002_generation`；产物information_extract/outputs/p002_generation_v01，8770/p002_generation_v01/index.html实测HTTP200。18项相关测试通过，144来源/实现指纹一致，保护仍103匹配+5既有差异，不改期望值。未全仓/浏览器UI，无computer-use。新增事实/准备/侧别探查实现、测试和报告；更新规范/状态/交接，未提交推送，保留此前P001未提交修改。
+
+## 2026-11-13 入选16方案材料重建与运动检查完成
+
+最新入口 information_extract/GENERATED_ALLOCATION_CHECK_20261113.md。用户批准先16后视需要64，并再次明确切边不再建模/规划、凸米和刻印端态直接取STEP。新驱动check_generated_allocation.py已重建16方案逐序材料；100去料、55局部端态（新增2凸米/3刻印）、59折弯覆盖214有效动作。224条进入/完成记录、21材料状态；同序运动用进入态，完成端统一切换。几何树与H7分别处理，H6停用，原候选和评分不变。
+
+实际16×83=1328态、2350560区域对×状态，正体积交叠0、内核未决0，2531次求交；重建/核验/检查153.70秒。NP2_008空缓存83态复核完全一致。5种可比较材料状态逐组件对称差最大0，最终材料和位姿一致；独立核对全部事件记录和采样态引用。新增STEP片与母板连接、无同母板组件正交叠。28项相关测试通过，992来源/实现指纹一致；保护仍103匹配+5既有差异。未跑全仓或浏览器UI，无computer-use，不宣称制造安全。
+
+结果information_extract/outputs/generated_allocation_collision_v01/P001，审查http://127.0.0.1:8770/generated_allocation_collision_v01/P001/index.html实测HTTP200。命令`.venv/Scripts/python.exe -B -X utf8 -m information_extract.scripts.check_generated_allocation --resume`；输入/实现改变须新输出目录，不改旧指纹。
+
+重要范围发现：原64池/16选文件仍有10条历史固定TRIM记录。本轮仅在独立执行投影排除O215–O224，其余214分配逐项不变，原文件及旧224记录评分保留。切边不列为待补几何。后续新生成入口仍需接入214事实并重新编译相容P1材料基准；不能宣称旧64池已按214口径重新生成/评分。新增5个STEP端态仅用于本次几何检查，没有自动替换原P1基准。
+
+下一主线优先P002曲线/Z折/拉包材料域，再P003多步折弯/P004；不必先重跑全部64。折弯带全对、连续局部成形、工具/装夹仍未覆盖，GNN未实现。本轮新增实现/测试/模块报告，并更新PROJECT_SPEC、CURRENT_STATUS、HANDOFF；修改未提交推送，保留此前未提交文档修改，人工/冻结输入及保护期望值未改。
+
+## 2026-11-13 接续核查：当前代码、产物与下一步
+
+本轮先查git status，起始工作区干净，HEAD与本地origin/main均为0e3a766。另执行git ls-remote实时查询远端，因连接重置失败，未独立确认服务器当前分支。按要求读取规范、交接与正式采用报告，并检查allocation_policy.py、geometric_p1.py、run_geometry_allocation.py及材料状态映射实现。确认新入口H6停用、H7保留，几何材料树与H7动作关系分开，几何P1实际进入独立评分和CP-SAT目标。
+
+磁盘评分产物为16方案；生成产物为64候选/16入选，59材料域、60区域、1451比较对。两组inputs.json的458/111个来源指纹逐项匹配当前文件；现存primary记录P5最优0，本轮未重新生成候选或重跑运动干涉。本轮实际执行unittest四模块test_geometric_p1、test_allocation_policy、test_p1_material_proxy、test_bend_allocation_experiment，共28项通过（26.121秒），不冒称重跑历史33项或全仓通过。
+
+实际执行doctor在P001人工项目保护哈希差异处失败，后续环境检查未执行；独立遍历清单为103匹配、5差异，仍为P001–P004四份人工project.json及迁移前P004_01.dxf路径，未改期望哈希。
+
+下一步：先为新候选接通按分配重建逐序材料状态，再执行运动干涉诊断。代码map_material_states目前只允许折弯改序；64候选中48个相对viewer首方案改变了非折弯分配，不能直接复用该映射或按plan_id套旧状态。同序使用进入态材料并统一切换完成态；几何材料树不等于H7关系。之后补P002曲线/Z折/拉包、P003多步折弯及P004材料模型，跨件验证几何域。干涉诊断不作制造安全证明或真实监督标签。
+
+本轮仅更新CURRENT_STATUS.md与HANDOFF.md，未改业务代码、人工数据、冻结基线或保护清单，未提交推送；无computer-use。
+
 ## 2026-11-13 Git版本归档
 
 用户已授权本次提交并推送origin/main；归档范围为当前累计代码、人工标注/修订、CAD来源和项目记录，包含几何P1正式采用。下方历史“未提交”以当前git status/log为准。CAD自动恢复缓存和acad.err保留本机并忽略，outputs/.local/.venv不上传；人工项目及新修订按原字节入库。测试依据为本轮之前已完成的33项相关测试及评分/生成验证，未新增全仓通过声明；保护103匹配与5项既有差异继续保留说明。

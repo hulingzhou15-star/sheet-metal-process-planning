@@ -49,18 +49,19 @@ def checked_checkpoint(checkpoint, signature, samples):
 
 
 def run(plan_id='NP2_001', viewer=None, report_dir=None, shared=None,
-        signature=None, resume=False, steps=24):
+        signature=None, resume=False, steps=24, geometry_root=None, historical_recheck=True):
     v=read(OUT/'viewer_data.json') if viewer is None else viewer
     model=v['model'];plan=next(p for p in v['plans'] if p['plan_id']==plan_id)
     destination=OUT if report_dir is None else Path(report_dir)
+    geometry_root=OUT if geometry_root is None else Path(geometry_root)
     checkpoint_path=destination/'collision_checkpoint.json' 
     variants={x['material_id']:x for x in v['variants']};orders={s['station_id']:s['order'] for s in v['stations']}
-    old=read(MODULE/'baselines/P001/previous_panel_issues.json')['issues'] if plan_id=='NP2_001' else []
+    old=read(MODULE/'baselines/P001/previous_panel_issues.json')['issues'] if historical_recheck and plan_id=='NP2_001' else []
     shared={} if shared is None else shared
     shapes=shared.setdefault('shapes',{});boxes=shared.setdefault('boxes',{});cache=shared.setdefault('cache',{});runs=[];kernel_calls=0
     def shape(gid):
         if gid not in shapes:
-            shapes[gid]=load_shape(OUT/v['geometries'][gid]['brep_file']);boxes[gid]=bounds(shapes[gid])
+            shapes[gid]=load_shape(geometry_root/v['geometries'][gid]['brep_file']);boxes[gid]=bounds(shapes[gid])
         return shapes[gid]
     samples=make_samples(v,plan,steps)
     if resume and checkpoint_path.exists():
@@ -102,7 +103,9 @@ def run(plan_id='NP2_001', viewer=None, report_dir=None, shared=None,
         matches=[{'phase':r['phase'],'tau':r['tau'],**p} for r in runs if r['station_id']==issue['station_id'] for p in r['issues'] if p['region_ids']==issue['region_ids']]
         recheck.append({'station_id':issue['station_id'],'region_ids':issue['region_ids'],'status':'UNKNOWN_KERNEL_FAILURE' if any(p['status']=='UNKNOWN_KERNEL_FAILURE' for p in matches) else 'RESIDUAL_MODEL_OVERLAP' if matches else 'NO_OVERLAP_AT_RECHECK_SAMPLES','samples':matches})
     local_hits=[{'station_id':r['station_id'],'phase':r['phase'],'tau':r['tau'],'region_ids':p['region_ids'],**c} for r in runs for p in r['issues'] for c in p['component_overlaps'] if c['local_forming_operations']]
-    result={'plan_id':plan['plan_id'],'signature':signature,'motion_subdivisions':steps,'source_sha256':{str(OUT/'viewer_data.json'):sha(OUT/'viewer_data.json')},'scope':'ALL_60_RIGID_REGION_PAIRS_INCLUDING_STEP_LOCAL_PATCHES; finite bands excluded; sampled states, no continuous forming/tooling verdict',
+    source=geometry_root/'viewer_data.json'
+    source_key=source.resolve().relative_to(MODULE.parent).as_posix()
+    result={'plan_id':plan['plan_id'],'signature':signature,'motion_subdivisions':steps,'source_sha256':{source_key:sha(source)},'scope':'ALL_60_RIGID_REGION_PAIRS_INCLUDING_STEP_LOCAL_PATCHES; finite bands excluded; sampled states, no continuous forming/tooling verdict',
             'sample_count':len(runs),'kernel_calls':kernel_calls,'old_62_recheck_summary':dict(Counter(r['status'] for r in recheck)),'old_62_recheck':recheck,'local_forming_overlap_samples':local_hits,'runs':runs,'candidate_filter_enabled':False,'same_station_local_process':'UNKNOWN_ENTRY_GEOMETRY_DURING_MOTION_COMPLETED_ENDPOINT_SWITCH'}
     atomic_write(destination/'collision_report.json',result);print(plan_id,result['old_62_recheck_summary'], 'local hits',len(local_hits),flush=True)
     return result

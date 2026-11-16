@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>P001–P004 工序回放</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: "Segoe UI", "Microsoft YaHei", system-ui, sans-serif;
+      color: #223546;
+      background: #eef2f5;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      height: 100vh;
+      height: 100dvh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: .55rem 1rem;
+      padding: .7rem clamp(.65rem, 2vw, 1.4rem);
+      background: #fff;
+      border-bottom: 1px solid #ccd7e1;
+    }
+    h1 { margin: 0; font-size: 1.05rem; font-weight: 650; }
+    nav {
+      display: flex;
+      gap: .2rem;
+      padding: .2rem;
+      background: #eef2f6;
+      border: 1px solid #dbe3ea;
+      border-radius: .5rem;
+    }
+    nav a, #open-part {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 2rem;
+      border-radius: .32rem;
+      text-decoration: none;
+      font-size: .88rem;
+    }
+    nav a {
+      padding: .2rem .62rem;
+      color: #425a6e;
+      font-variant-numeric: tabular-nums;
+    }
+    nav a:hover { background: #dfe8ef; }
+    nav a[aria-current="page"] { background: #254660; color: #fff; }
+    #open-part {
+      margin-left: auto;
+      padding: .2rem .7rem;
+      color: #254660;
+      border: 1px solid #bbcddd;
+      white-space: nowrap;
+    }
+    #open-part:hover { background: #eef4f8; }
+    #open-part[hidden] { display: none; }
+    a:focus-visible { outline: 2px solid #3479aa; outline-offset: 2px; }
+    main { position: relative; flex: 1; min-height: 0; }
+    iframe { display: block; width: 100%; height: 100%; border: 0; }
+    #loading {
+      position: absolute;
+      inset: 1rem auto auto 1rem;
+      margin: 0;
+      padding: .5rem .75rem;
+      background: #fff;
+      border: 1px solid #ccd7e1;
+      border-radius: .35rem;
+      font-size: .88rem;
+      pointer-events: none;
+    }
+    @media (max-width: 520px) {
+      nav { order: 1; flex-basis: 100%; }
+      nav a { flex: 1; min-height: 2.35rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>零件工序回放</h1>
+    <nav aria-label="选择零件">
+      <a href="#P001" data-replay="p001_motion_regeneration_v01/stage/index.html">P001</a>
+      <a href="#P002" data-replay="p002_motion_regeneration_v01/stage/index.html">P002</a>
+      <a href="#P003" data-replay="p003_motion_regeneration_v01/stage/index.html">P003</a>
+      <a href="#P004" data-replay="p004_motion_regeneration_v01/stage/index.html">P004</a>
+    </nav>
+    <a id="open-part" target="_blank" rel="noopener" hidden>独立打开</a>
+  </header>
+  <main>
+    <iframe id="viewer" title="零件工序回放"></iframe>
+    <p id="loading" role="status" hidden></p>
+  </main>
+  <script>
+    'use strict';
+
+    const tabs = [...document.querySelectorAll('nav [data-replay]')];
+    const defaultTab = tabs.at(-1);
+    const viewer = document.getElementById('viewer');
+    const loading = document.getElementById('loading');
+    const openPart = document.getElementById('open-part');
+    let activeTab;
+
+    function showPart() {
+      const tab = tabs.find(link => link.hash === location.hash.toUpperCase()) ?? defaultTab;
+      const url = new URL(tab.dataset.replay, location.href);
+      if (tab === activeTab && viewer.contentWindow.location.href === url.href) return;
+      activeTab?.removeAttribute('aria-current');
+      activeTab = tab;
+      tab.setAttribute('aria-current', 'page');
+
+      const part = tab.textContent;
+      viewer.title = part + ' 工序回放';
+      loading.textContent = '正在加载 ' + part;
+      loading.hidden = false;
+      openPart.href = url.href;
+      openPart.setAttribute('aria-label', '在新窗口打开 ' + part);
+      openPart.hidden = false;
+      viewer.contentWindow.location.replace(url.href);
+    }
+
+    if (location.protocol === 'file:') {
+      location.replace('http://127.0.0.1:8770/part_motion_review.html' + location.hash);
+    } else {
+      viewer.addEventListener('load', () => {
+        if (viewer.contentWindow.location.href === openPart.href) loading.hidden = true;
+      });
+      for (const tab of tabs) {
+        tab.addEventListener('click', () => {
+          if (tab === activeTab) showPart();
+        });
+      }
+      window.addEventListener('hashchange', showPart);
+      showPart();
+    }
+  </script>
+</body>
+</html>

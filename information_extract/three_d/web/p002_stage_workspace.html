@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>P002 · 逐序材料与折弯回放</title>
+  <link rel="stylesheet" href="review.css">
+  <style>
+    :root { color-scheme: light; }
+    button:disabled, select:disabled, input:disabled { opacity:.55; cursor:default; }
+    .panel h2 { display:flex; flex-wrap:wrap; align-items:center; gap:8px; min-height:32px; }
+    .panel h2 strong { margin-right:auto; }
+    .panel h2 button, .panel h2 select, .panel h2 label { font-size:12px; }
+    .note { font-size:13px; }
+    .toolbar button[aria-pressed="true"] { background:#dcebfa; }
+    .legend { display:inline-flex; align-items:center; gap:6px; font-size:13px; margin-right:16px; }
+    .swatch { width:12px; height:12px; border-radius:50%; border:1px solid #778594; }
+    .swatch.base { background:#25282c; } .swatch.current { background:white; } .swatch.selected { background:#cf2e45; }
+    #operation { max-width:min(345px, 90vw); }
+    #selectedInfo { min-height:22px; }
+    .table-scroll { overflow:auto; max-height:360px; }
+    table { width:100%; border-collapse:collapse; }
+    th, td { text-align:left; padding:6px 10px; border-bottom:1px solid #e2e9ef; }
+    .table-scroll th { position:sticky; top:0; background:#fafcfd; }
+    .jump { padding:2px 8px; }
+    .placeholder { min-height:240px; display:grid; place-content:center; gap:8px; text-align:center; }
+    .panel h2 label { white-space:normal; }
+    .report-links { display:flex; flex-wrap:wrap; gap:8px 16px; }
+    [hidden] { display:none !important; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>P002 · 逐序材料与折弯回放</h1>
+  <p class="note">四处曲线折弯采用截面扫掠近似。同序运动使用进入态材料，去料与局部成形在完成端统一切换。</p>
+  <div class="toolbar">
+    <label>候选 <select id="plan"></select></label>
+    <label>工序 <select id="station"></select></label>
+    <label>状态 <select id="phase"><option value="entry">进入态</option><option value="motion">共同加工过程</option><option value="completed">完成态</option></select></label>
+    <button id="prev" aria-label="上一个采样">‹</button>
+    <input id="sample" type="range" min="0" value="0" aria-label="方案采样进度">
+    <button id="next" aria-label="下一个采样">›</button>
+    <span id="progress"></span>
+    <button id="playStation" aria-pressed="false">播放本序</button>
+    <button id="playPlan" aria-pressed="false">播放全方案</button>
+  </div>
+  <div class="toolbar">
+    <label>聚焦特征 <select id="operation"></select></label>
+    <button id="focus">聚焦特征</button>
+    <button id="before">本特征加工前</button>
+    <button id="after">本特征加工后</button>
+    <label>对照 <select id="comparison"><option value="stage">工序状态</option><option value="step">STEP 成品</option></select></label>
+    <button id="clear">取消选中</button>
+    <button id="whole">整件</button>
+    <label>三维 <select id="view"><option value="iso">立体</option><option value="top">俯视</option><option value="front">正视</option><option value="side">侧视</option><option value="normal">正对特征板面</option></select></label>
+  </div>
+  <div class="toolbar">
+    <label><input type="checkbox" id="highlight" checked> 高亮本序特征</label>
+    <label><input type="checkbox" id="showGuides" checked> 显示折弯位置</label>
+    <span class="legend"><i class="swatch current"></i>本序特征</span><span class="legend"><i class="swatch selected"></i>选中特征</span><span class="legend"><i class="swatch base"></i>其余零件</span>
+    <button id="curveExample">曲线折弯 · O088</button><button id="drawExample">拉包 · O105</button>
+  </div>
+  <div class="views">
+    <section class="panel" id="panel2">
+      <h2><strong>二维材料参考 · 展开投影</strong><button id="popout2">新窗口查看</button></h2>
+      <div class="canvasbox"><canvas id="flat" aria-label="二维展开材料"></canvas></div>
+      <div class="caption">拖动平移，滚轮缩放。孔和开口来自当前材料状态的展开投影。</div>
+    </section>
+    <section class="panel" id="panel3">
+      <h2><strong>三维工序状态 · 材料随动</strong>
+        <label>画质 <select id="quality"><option value="clear">清晰优先</option><option value="fluid">流畅优先</option></select></label>
+        <button id="popout3">新窗口查看</button><button id="top">正上方视角</button><button id="normal">正对特征板面</button>
+      </h2>
+      <div class="canvasbox"><canvas id="scene" aria-label="三维工序模型"></canvas><div id="overlay"></div></div>
+      <div class="caption">拖动旋转，Shift 或右键拖动平移，滚轮缩放。轮廓用于定位特征，实体随当前采样更新。</div>
+    </section>
+  </div>
+  <p id="state" class="status" role="status">正在载入工序模型…</p>
+  <p id="selectedInfo"></p>
+  <details id="stageFeatures"><summary id="featureSummary">本序特征</summary><div id="featureList" class="table-scroll"></div></details>
+  <details><summary>本采样的干涉核查</summary><p id="collisionStatus"></p><div id="collisionRows" class="table-scroll"></div></details>
+  <div class="report-links">
+    <a href="../replay_verification.json">16方案核验</a>
+    <a href="../representative_contacts.json">网格穿越的实体复核</a>
+    <a href="../material_audit.json">材料动作依据</a>
+    <a id="step">成品 STEP</a><a id="report">逐采样报告</a>
+    <a href="../replay.html">单视图回放</a>
+  </div>
+  <pre id="error" role="alert" hidden></pre>
+</main>
+<script src="theme.js"></script><script src="../core.js"></script><script src="../finite_material_renderer.js"></script><script src="review.js"></script>
+</body>
+</html>

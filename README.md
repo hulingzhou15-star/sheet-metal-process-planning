@@ -28,6 +28,18 @@ Python 3.12.12 位于 `.local/python`，环境 `.venv`；传递依赖锁定于 `
 
 见 [正式采用与验证记录](information_extract/GEOMETRIC_P1_ADOPTION_20261113.md)。下列`reproduce`命令继续复现冻结历史基线，不自动改用新评分。
 
+P002已接入132动作、曲线/Z折材料域与拉包类型，生成64候选、选出16。复现命令依次运行：
+
+```powershell
+.venv/Scripts/python.exe -B -X utf8 -m information_extract.scripts.prepare_p002_generation
+.venv/Scripts/python.exe -B -X utf8 -m information_extract.scripts.build_p002_material_cells
+.venv/Scripts/python.exe -B -X utf8 -m information_extract.scripts.generate_p002_allocation
+```
+
+见 [P002候选生成结果](information_extract/P002_GENERATION_PROGRESS_20261113.md)。16个入选方案已接入曲线折弯近似、逐序材料重建及运动预筛。可用 [P002二维／三维联动审查页](http://127.0.0.1:8770/p002_candidate_motion_v05/stage/index.html)查看。复现命令见 [P002逐序模型报告](information_extract/P002_CURVE_AND_STAGE_MODELS_20261116.md)。
+
+P001–P004 的新批次按[候选生成、三维反馈与回放流程](information_extract/CANDIDATE_MOTION_WORKFLOW.md)执行。可从[四件综合回放](http://127.0.0.1:8770/part_motion_review.html)进入各零件的逐序页面。
+
 从仓库根目录运行：
 
 ```powershell
